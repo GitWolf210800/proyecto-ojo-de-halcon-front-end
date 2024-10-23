@@ -1,6 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+//import { RouterLink, RouterView } from 'vue-router'
 import MapFabrica from './components/mapFabrica.vue';
 </script>
 
@@ -9,10 +8,6 @@ import MapFabrica from './components/mapFabrica.vue';
 </template>
 
 <style scoped>
-
-body {
-  background-color: #282c34;
-}
 
 header {
   line-height: 1.5;

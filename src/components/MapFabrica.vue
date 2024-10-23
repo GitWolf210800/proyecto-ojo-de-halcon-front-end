@@ -1,35 +1,12 @@
 <template>
-    <svg
+   <svg
    width="1217.605"
    height="926.132"
    viewBox="0 0 322.158 245.039"
    version="1.1"
    id="svg61192"
-   sodipodi:docname="home.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview61194"
-     pagecolor="#282c34"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="1.0192931"
-     inkscape:cx="673.01543"
-     inkscape:cy="264.88946"
-     inkscape:window-width="1366"
-     inkscape:window-height="745"
-     inkscape:window-x="1432"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g61190" />
   <defs
      id="defs60144">
     <path
@@ -498,16 +475,100 @@
        width="53.760929"
        height="22.90917"
        id="rect1683-2-8-9-6" />
+    <rect
+       x="2717.4009"
+       y="952.89233"
+       width="116.28569"
+       height="21.008968"
+       id="rect136790-6" />
+    <rect
+       x="2717.4009"
+       y="952.89233"
+       width="116.28569"
+       height="21.008968"
+       id="rect136790-2" />
+    <rect
+       x="2717.4009"
+       y="952.89233"
+       width="116.28569"
+       height="21.008968"
+       id="rect136790-4" />
+    <rect
+       x="870.44843"
+       y="886.71191"
+       width="63.63961"
+       height="26.870058"
+       id="rect119935-8-9-8-1-1-8" />
+    <rect
+       x="2612.2786"
+       y="735.97754"
+       width="127.75972"
+       height="32.619503"
+       id="rect136859-5-4-9" />
+    <rect
+       x="2612.2786"
+       y="735.97754"
+       width="127.75972"
+       height="32.619503"
+       id="rect136859-5-4-8-1" />
+    <rect
+       x="2612.2786"
+       y="735.97754"
+       width="127.75972"
+       height="32.619503"
+       id="rect136859-5-4-8-3-9" />
+    <rect
+       x="926"
+       y="93.5"
+       width="141.5"
+       height="24.5"
+       id="rect8139-8" />
+    <rect
+       x="926"
+       y="93.5"
+       width="141.5"
+       height="24.5"
+       id="rect8139-9-9" />
+    <rect
+       x="926"
+       y="93.5"
+       width="141.5"
+       height="24.5"
+       id="rect8139-0-9" />
+    <rect
+       x="926"
+       y="93.5"
+       width="141.5"
+       height="24.5"
+       id="rect8139-6-0" />
+    <rect
+       x="926"
+       y="93.5"
+       width="141.5"
+       height="24.5"
+       id="rect8139-95-0" />
+    <rect
+       x="1092.48"
+       y="263.04373"
+       width="48.790367"
+       height="21.920309"
+       id="rect11215-2" />
+    <rect
+       x="1092.48"
+       y="263.04373"
+       width="48.790367"
+       height="21.920309"
+       id="rect11215-7-7" />
   </defs>
   <g
      clip-path="url(#a)"
-     transform="matrix(.04233 0 0 -.04233 -36.95 306.389)"
-     id="g61190">
+     transform="matrix(0.04233,0,0,-0.04233,-36.95,306.389)"
+     id="g61190"
+     style="display:inline">
     <path
        id="fab3"
        style="fill:none;stroke:#ffffff;stroke-width:9.39754;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1941.8465,4703.7441 V 4525.2375 H 2105.44 v 177.1049 m 969.2965,-56.6656 h 209.6367 v 58.0673 h -209.6367 z m 662.5849,0 -92.7037,0.6574 m -1702.7712,57.4099 v -148.1714 m 902.5704,90.1041 h 230.3196 m -230.3196,0 v 85.2986 h -255.0562 v -85.2986 M 2977.0378,3280.0971 V 3230.64 m -1401.146,1271.5709 51.9675,-0.2003 m -556.987,-1477.7093 v 0 m 2022.2607,255.7958 h 83.0439 m -119.4211,0 H 1070.8723 m 679.6301,-213.547 v 213.547 m -449.8301,1222.8146 117.6542,-0.3004 m 268.7756,134.1551 h -60.2823 l 1.0395,-134.7558 m -51.9675,0.2003 v 188.1175 h -157.5653 v -187.7171 m 157.5653,0.3004 v 133.8547 m -405.6577,-26.1301 h 31.2844 m -130.6462,-107.7246 v 107.7246 m 130.6462,0 h 99.1538 m -229.8,0 h 99.3618 m 130.4382,0 v -107.7246 m -229.8,-1478.6104 v 193.2234 m 2105.3046,62.5724 h 11.7446 m -1223.5211,-98.5139 h -16.9415 m 1240.4626,98.5139 h 1997.3164 m -3133.4284,-98.5139 h 5.8204 m -307.1275,-123.8433 v 8.8102 m -679.6301,-42.2488 h 679.6301 m 0,33.4386 v -33.4386 m 0,33.4386 v -33.4386 m 0,42.2488 119.4211,115.0331 m 1107.1143,49.0568 h -780.1351 l -51.0321,-49.0568 m 0,0 h -88.2407 m -5.8204,0 h -87.4091 m 1092.3554,98.5139 h 36.3772 m -36.3772,0 h 36.3772 m -36.3772,0 v -62.5724 m -1186.8323,-35.9415 h 77.5354 m 156.6299,1522.1609 v -58.0673 m -162.2423,58.0673 v -66.9777 m 1552.2673,66.9777 v -58.0673 m -419.3773,58.0673 v -58.0673 m 1230.1731,0 v 0 m 880.3283,245.484 H 4677.932 m -373.0224,0 v -245.484 m -810.7958,0 v 0 m 0,58.0673 h -419.3773 m 1230.1731,-58.0673 h -810.7958 m -1390.025,0 v 0 m 0,58.0673 h -162.2423 m 0,-66.9777 v 0 m -254.7444,0 h 254.7444 m 647.5142,8.9104 h -485.2719 m 2571.4526,245.484 h -370.6318 m 367.2019,-1673.6361 v 62.5724 m -1483.878,-62.5724 h -131.4777 m 129.1911,0 h 1486.1646 m -3601.2392,0 v 1285.387 M 5185.2379,3280.0971 v 1611.0637"
-       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+       d="M 1941.8465,4703.7441 V 4525.2375 H 2105.44 v 177.1049 m 969.2965,-56.6656 h 209.6367 v 58.0673 h -209.6367 z m 662.5849,0 -92.7037,0.6574 m -1702.7712,57.4099 v -148.1714 m 902.5704,90.1041 h 230.3196 m -230.3196,0 v 85.2986 h -255.0562 v -85.2986 M 2977.0378,3280.0971 V 3230.64 m -1401.146,1271.5709 51.9675,-0.2003 m -556.987,-1477.7093 v 0 m 2022.2607,255.7958 h 83.0439 m -119.4211,0 H 1070.8723 m 679.6301,-213.547 v 213.547 m -449.8301,1222.8146 117.6542,-0.3004 m 268.7756,134.1551 h -60.2823 l 1.0395,-134.7558 m -51.9675,0.2003 v 188.1175 h -157.5653 v -187.7171 m 157.5653,0.3004 v 133.8547 m -405.6577,-26.1301 h 31.2844 m -130.6462,-107.7246 v 107.7246 m 130.6462,0 h 99.1538 m -229.8,0 h 99.3618 m 130.4382,0 v -107.7246 m -229.8,-1478.6104 v 193.2234 m 2105.3046,62.5724 h 11.7446 m -1223.5211,-98.5139 h -16.9415 m 1240.4626,98.5139 h 1997.3164 m -3133.4284,-98.5139 h 5.8204 m -307.1275,-123.8433 v 8.8102 m -679.6301,-42.2488 h 679.6301 m 0,33.4386 v -33.4386 m 0,33.4386 v -33.4386 m 0,42.2488 119.4211,115.0331 m 1107.1143,49.0568 h -780.1351 l -51.0321,-49.0568 m 0,0 h -88.2407 m -5.8204,0 h -87.4091 m 1092.3554,98.5139 h 36.3772 m -36.3772,0 h 36.3772 m -36.3772,0 v -62.5724 m -1186.8323,-35.9415 h 77.5354 m 156.6299,1522.1609 v -58.0673 m -162.2423,58.0673 v -66.9777 m 1552.2673,66.9777 v -58.0673 m -419.3773,58.0673 v -58.0673 m 1230.1731,0 v 0 m 880.3283,245.484 H 4677.932 m -373.0224,0 v -245.484 m -810.7958,0 v 0 m 0,58.0673 h -419.3773 m 1230.1731,-58.0673 h -810.7958 m -1390.025,0 v 0 m 0,58.0673 h -162.2423 m 0,-66.9777 v 0 m -254.7444,0 h 254.7444 m 647.5142,8.9104 h -485.2719 m 2571.4526,245.484 h -370.6318 m 367.2019,-1673.6361 v 62.5724 m -1483.878,-62.5724 h -131.4777 m 129.1911,0 h 1486.1646 m -3601.2392,0 v 1285.387 M 5185.2379,3280.0971 v 1611.0637" />
     <path
        id="fab4"
        style="fill:none;stroke:#ffffff;stroke-width:9.39754;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -518,8 +579,8 @@
        d="m 7540.2982,3363.3936 160.7871,1.4015 m -160.7871,-1.4015 v -148.0713 h 162.1383 v 148.0713 m 0,0 v -57.9672 m -162.1383,57.9672 v -66.8775 m 162.1383,8.9103 v 0 m 0,1027.889 h -162.1383 m 0,-1036.7993 v 0 M 5354.34,4335.5181 V 3501.253 h 108.4041 M 8426.239,4335.5181 V 3217.5247 m -2963.4949,0 V 3501.253 M 5354.34,4335.5181 h 3071.899 m 0,-1117.9934 H 5462.7441 m -48.1219,1117.9934 H 8426.239" />
     <path
        id="fab6"
-       d="m 5558.7912,2199.8894 v 586.5784 l 115.7834,0.1002 v 185.1143 l 2272.9516,0.1002 v -185.2144 h 397.1353 V 1619.8184 l -817.4478,0.1002 v 579.9708 z"
-       style="fill:none;stroke:#e6f9fb;stroke-width:10.8434;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 5559.0883,2112.4991 v 652.7624 l 115.7587,0.1115 v 206.0009 l 2272.4668,0.1115 v -206.1123 h 397.0506 V 1466.9785 l -817.2734,0.1115 v 645.4091 z"
+       style="fill:none;stroke:#e6f9fb;stroke-width:11.4376;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path290"
        d="m 6923.4761,2904.8049 v 0"
@@ -542,15 +603,15 @@
        style="fill:none;stroke:#000000;stroke-width:6.02406;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path295"
-       d="m 6923.4761,2971.7824 v -192.8232 h 159.852 l 2.2866,192.8232"
-       style="fill:none;stroke:#ffffff;stroke-width:9.39754;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 6923.0588,2972.1997 v -159.28 h 160.6747 l 2.2985,159.28"
+       style="fill:none;stroke:#ffffff;stroke-width:8.56308;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="fab1"
        style="fill:none;stroke:#ffffff;stroke-width:9.39754;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
        d="m 4554.5822,6582.1565 h -115.8874 v -133.8547 h 118.174 m 115.8873,133.8547 h -115.8873 v -133.8547 h 118.1739 M 2870.3176,5035.6674 v 263.4048 h -447.128 V 4926.3409 M 1021.7314,6310.8427 v -93.0077 l 52.695,-62.4723 h 133.6603 m -186.3553,359.1155 V 6338.775 m 13.7194,200.532 h 173.883 m -187.6024,-200.532 h 131.9974 m -131.9974,175.7032 h 131.9974 m -131.9974,-203.6355 h 186.3553 m 1.2471,282.5267 -155.1747,-20.3235 -18.7083,-33.7389 m 139.0649,-807.3341 25.5681,-220.7553 115.783,-35.1407 m -107.7801,678.7853 v 157.2819 h -54.3579 m 55.605,227.1629 v 54.0624 m -55.605,-254.5944 v 175.7032 m 162.138,-343.998 h -79.9256 v 152.877 h -54.4618 v 191.8218 h 55.6052 v 66.9775 h 78.7822 V 6154.8622 M 2423.1896,4926.3409 v -42.349 m -1107.3228,847.981 v -926.0713 m 3451.8858,785.5088 h -92.7099 m 92.7099,-267.8099 v -136.1574 m 0,136.1574 v 267.8099 m -92.7099,990.7461 v -990.7461 m -368.3452,-403.9673 v -66.9776 m 0,0 h -324.3806 m -1220.8191,131.7524 v -53.5619 m 85.6423,-22.3258 v -140.6628 m 1132.8902,0 H 2870.3176 m 1111.9993,84.7981 v -89.2031 M 2722.1065,5198.656 v 53.5619 m -83.4597,-216.5505 v 140.6628 m -1322.78,734.1493 h -141.3511 m 0,0 v -178.5066 m 0,0 h 141.3511 m 1107.3228,-805.632 h 55.6052 m 0,0 v 87.1009 m 0,0 h 136.6745 M 1322.8304,4796.8912 h 282.599 m 817.7602,87.1007 h -813.0831 m -4.6771,-87.1007 v 82.5955 m 1010.0399,133.9551 v 185.2142 m 0,0 h 254.8483 m -148.2111,53.5619 h 39.3913 m 85.6423,-216.5505 h -208.4933 m 0,140.6628 h 208.4933 m -1531.2733,994.15 v -260.0007 m 3359.1759,671.677 H 1315.8668 M 4767.7526,5187.4431 h -461.0551" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.854882;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab4"
+       id="fab4_preparacion_clima_hum_color"
        width="599.047"
        height="133.46423"
        x="3624.335"
@@ -558,23 +619,23 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.652288;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab4-1"
+       id="fab4_preparacion_clima_humAbs_color"
        width="599.3335"
        height="77.66465"
        x="3624.1765"
        y="-2376.4734"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
-       id="climaOpen-EndHFab4"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       id="fab4_open_end_clima_hum_color"
        width="549.6554"
        height="136.97594"
        x="2860.2778"
        y="-2490.1851"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
-       id="climaRetorHFab4"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       id="fab4_retorcidos_clima_hum_color"
        width="549.6554"
        height="136.97594"
        x="2209.666"
@@ -582,7 +643,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.70567;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeiHFab3"
+       id="fab3_peinadorasE90_clima_hum_color"
        width="532.13861"
        height="102.37421"
        x="3226.0278"
@@ -590,23 +651,23 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.70567;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeiTFab3"
+       id="fab3_peinadorasE90_clima_temp_color"
        width="532.13861"
        height="102.37421"
        x="3226.0129"
        y="-3690.2493"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
-       id="climaC80HFab3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
+       id="fab3_c80_clima_hum_color"
        width="492.48203"
        height="121.70302"
        x="4254.0688"
        y="-3543.3562"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
-       id="climaC80TFab3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
+       id="fab3_c80_clima_temp_color"
        width="492.48203"
        height="121.70302"
        x="4254.0688"
@@ -614,7 +675,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.69747;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManHFab3"
+       id="fab3_peinadorasE65_clima_hum_color"
        width="531.24457"
        height="100.17674"
        x="3430.261"
@@ -622,7 +683,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.726793;stroke-dasharray:none;stroke-opacity:1"
-       id="climaColorHFab1"
+       id="fab1_color_clima_hum_color"
        width="538.7655"
        height="107.2588"
        x="3153.8701"
@@ -630,7 +691,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.633954;stroke-dasharray:none;stroke-opacity:1"
-       id="climaColorEFab1"
+       id="fab1_color_clima_humAbs_color"
        width="538.85339"
        height="81.593376"
        x="3153.7659"
@@ -638,7 +699,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.67017;stroke-dasharray:none;stroke-opacity:1"
-       id="climaColorTFab1"
+       id="fab1_color_clima_temp_color"
        width="538.83142"
        height="91.185776"
        x="3153.8264"
@@ -651,19 +712,17 @@
        y="-6228.3965"
        id="climaTcolorFab1"
        transform="scale(1.187689,-0.84197126)"><tspan
-         sodipodi:role="line"
-         id="tempColorFab1"
+         id="fab1_color_clima_temp_text"
          x="2659.9683"
          y="-6228.3965"
          style="stroke-width:5.08679">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humColorFab1"
+         id="fab1_color_clima_hum_text"
          x="2659.9683"
          y="-6101.4253"
          style="stroke-width:5.08679">nn% H.r</tspan></text>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.701861;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG30HFab3"
+       id="fab3_g30_clima_hum_color"
        width="524.35126"
        height="102.77619"
        x="2212.0137"
@@ -671,28 +730,28 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.676199;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeHFab1"
+       id="fab1_bobinaje_clima_hum_color"
        width="497.87909"
        height="100.47034"
        x="1730.546"
        y="6026.6919" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.615833;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeEFab1"
+       id="fab1_bobinaje_clima_humAbs_color"
        width="497.94061"
        height="83.322166"
        x="1730.4728"
        y="5943.3965" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.665945;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeinadorasHFab1"
+       id="fab1_preparacion_clima_hum_color"
        width="522.86786"
        height="92.788773"
        x="3795.1743"
        y="5608.2954" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.576705;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeinadorasEFab1"
+       id="fab1_preparacion_clima_humAbs_color"
        width="523.00153"
        height="69.569016"
        x="3795.0818"
@@ -702,154 +761,152 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.3699px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.6247;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2764.5461"
        y="-7763.8398"
-       id="climaEpeinadorasFab1"
+       id="fab1_preparacion_clima_humAbs_text"
        transform="scale(1.3971109,-0.71576279)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-69"
          x="2764.5461"
          y="-7763.8398"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.3699px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.6247">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2764.5461"
          y="-7673.3774"
          id="humPeiFab3-9-3-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.3699px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.6247" /></text>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.665945;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeinadorasTFab1"
+       id="fab1_preparacion_clima_temp_color"
        width="522.86786"
        height="92.788773"
        x="3795.188"
        y="5701.0952" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.638398;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueHFab1"
+       id="fab1_empaque_clima_hum_color"
        width="443.20609"
        height="100.59811"
        x="1202.8584"
        y="5631.4888" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.548108;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueEFab1"
+       id="fab1_empaque_clima_humAbs_color"
        width="443.29803"
        height="74.139511"
        x="1202.8091"
        y="5557.3115" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexHFab1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex4_clima_hum_color"
        width="404.89435"
        height="80.888939"
        x="2574.4436"
-       y="5710.0117" />
+       y="5737.6353" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexHFab1-3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex3_clima_hum_color"
        width="404.89435"
        height="80.888939"
        x="3121.9609"
        y="5705.8315" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexHFab1-2"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex2_clima_hum_color"
        width="404.89435"
        height="80.888939"
-       x="2580.3477"
-       y="5473.0688" />
+       x="2573.718"
+       y="5423.3462" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexHFab1-1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex1_clima_hum_color"
        width="404.89435"
        height="80.888939"
        x="3130.085"
        y="5471.7368" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexTFab1-1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex1_clima_temp_color"
        width="404.89435"
        height="80.888939"
        x="3130.0925"
        y="5552.6299" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.628366;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContinuasHFab1-2"
+       id="fab1_continuas2_clima_hum_color"
        width="479.5076"
        height="90.083267"
        x="2599.1382"
        y="6050.1055" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.565453;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContinuasEFab1"
+       id="fab1_continuas2_clima_humAbs_color"
        width="479.57169"
        height="72.937607"
        x="2599.1265"
        y="5977.1689" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManuaresHFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_manuares_clima_hum_color"
        width="434.29147"
        height="111.13393"
        x="3337.6042"
        y="6064.0181" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManuaresTFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_manuares_clima_temp_color"
        width="434.29147"
        height="111.13393"
        x="3337.6074"
        y="6175.1504" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.628366;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContinuasTFab1-2"
+       id="fab1_continuas2_clima_temp_color"
        width="479.5076"
        height="90.083267"
        x="2599.1382"
        y="6140.1665" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContinuasHFab1-1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_continuas1_clima_hum_color"
        width="410.3277"
        height="84.56601"
        x="2593.2034"
        y="6309.9761" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContinuasTFab1-1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_continuas1_clima_temp_color"
        width="410.3277"
        height="84.56601"
        x="2593.1936"
        y="6394.5366" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexTFab1-2"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex2_clima_temp_color"
        width="404.89435"
        height="80.888939"
-       x="2580.3477"
-       y="5553.9785" />
+       x="2573.718"
+       y="5504.2559" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexTFab1-3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex3_clima_temp_color"
        width="404.89435"
        height="80.888939"
        x="3121.9609"
        y="5786.7412" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
-       id="climaVortexTFab1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex4_clima_temp_color"
        width="404.89435"
        height="80.888939"
        x="2574.4438"
-       y="5790.9106" />
+       y="5818.5342" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.638398;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueTFab1"
+       id="fab1_empaque_clima_temp_color"
        width="443.20609"
        height="100.59811"
        x="1202.1447"
        y="5731.4146" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.676199;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeTFab1"
+       id="fab1_bobinaje_clima_temp_color"
        width="497.87909"
        height="100.47034"
        x="1730.546"
@@ -857,7 +914,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.671914;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeHFab3"
+       id="fab3_bobinaje_clima_hum_color"
        width="490.0611"
        height="100.78316"
        x="1632.0098"
@@ -865,7 +922,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.573034;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeEFab3"
+       id="fab3_bobinaje_clima_humAbs_color"
        width="490.16205"
        height="73.28791"
        x="1631.948"
@@ -873,7 +930,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.717753;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG33HFab3"
+       id="fab3_g33_clima_hum_color"
        width="545.27472"
        height="103.35889"
        x="2221.2432"
@@ -881,7 +938,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.606342;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG33HFab3-5"
+       id="fab3_g33_clima_humAbs_color"
        width="545.38824"
        height="73.746346"
        x="2221.1982"
@@ -889,7 +946,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.717753;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG33TFab3"
+       id="fab3_g33_clima_temp_color"
        width="545.27472"
        height="103.35889"
        x="2221.1897"
@@ -897,7 +954,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.671914;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobinajeTFab3"
+       id="fab3_bobinaje_clima_temp_color"
        width="490.0611"
        height="100.78316"
        x="1631.9928"
@@ -905,7 +962,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.701861;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG30TFab3"
+       id="fab3_g30_clima_temp_color"
        width="524.35126"
        height="102.77619"
        x="2211.9817"
@@ -913,7 +970,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.69747;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManTFab3"
+       id="fab3_peinadorasE65_clima_temp_color"
        width="531.24457"
        height="100.17674"
        x="3430.248"
@@ -926,27 +983,25 @@
        y="-4807.7104"
        id="climaTmanFab3"
        transform="scale(1.1599545,-0.86210278)"><tspan
-         sodipodi:role="line"
-         id="tempManFab3"
+         id="fab3_peinadorasE65_clima_temp_text"
          x="2956.196"
          y="-4807.7104"
          style="stroke-width:5.31796">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humManFab3"
+         id="fab3_peinadorasE65_clima_hum_text"
          x="2956.196"
          y="-4674.9702"
          style="stroke-width:5.31796">nn% H.r</tspan></text>
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
-       id="climaRetorTFab4"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       id="fab4_retorcidos_clima_temp_color"
        width="549.6554"
        height="136.97594"
        x="2209.7166"
        y="-2638.3362"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
-       id="climaOpen-EndTFab4"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       id="fab4_open_end_clima_temp_color"
        width="549.6554"
        height="136.97594"
        x="2860.2739"
@@ -954,7 +1009,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.854882;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepTFab4"
+       id="fab4_preparacion_clima_temp_color"
        width="599.047"
        height="133.46423"
        x="3624.3452"
@@ -967,13 +1022,11 @@
        y="-2717.5664"
        id="climaTprepFab4"
        transform="scale(1.069362,-0.93513703)"><tspan
-         sodipodi:role="line"
-         id="tempPrepFab4"
+         id="fab4_preparacion_clima_temp_text"
          x="3385.4429"
          y="-2717.5664"
          style="stroke-width:6.53121">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humPrepFab4"
+         id="fab4_preparacion_clima_hum_text"
          x="3385.4429"
          y="-2554.5427"
          style="stroke-width:6.53121">nn% H.r</tspan></text>
@@ -984,19 +1037,17 @@
        y="-3562.4055"
        id="climaTc80Fab3"
        transform="scale(0.99774609,-1.002259)"><tspan
-         sodipodi:role="line"
-         id="tempC80Fab3"
+         id="fab3_c80_clima_temp_text"
          x="4271.2578"
          y="-3562.4055"
          style="stroke-width:5.55918">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humC80Fab3"
+         id="fab3_c80_clima_hum_text"
          x="4271.2578"
          y="-3423.6443"
          style="stroke-width:5.55918">nn% H.r</tspan></text>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.968627;stroke:#ffffff;stroke-width:0.697414;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueHFab9"
+       id="fab9_empaque_clima_hum_color"
        width="464.14438"
        height="114.64137"
        x="5369.7075"
@@ -1004,7 +1055,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.606117;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueEFab9"
+       id="fab9_empaque_clima_humAbs_color"
        width="464.2374"
        height="86.573395"
        x="5369.6353"
@@ -1012,7 +1063,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9b;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.705307;stroke-dasharray:none;stroke-opacity:1"
-       id="climaOpenEndHFab9"
+       id="fab9_open_end_clima_hum_color"
        width="474.71991"
        height="114.63876"
        x="6001.4092"
@@ -1020,7 +1071,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9b;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.705307;stroke-dasharray:none;stroke-opacity:1"
-       id="climaOpenEndTFab9"
+       id="fab9_open_end_clima_temp_color"
        width="474.71991"
        height="114.63876"
        x="6001.4087"
@@ -1028,7 +1079,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.968627;stroke:#ffffff;stroke-width:0.697414;stroke-dasharray:none;stroke-opacity:1"
-       id="climaEmpaqueTFab9"
+       id="fab9_empaque_clima_temp_color"
        width="464.14438"
        height="114.64137"
        x="5369.689"
@@ -1041,13 +1092,11 @@
        y="-4043.3235"
        id="climaTempaqueFab9"
        transform="scale(1.0345363,-0.96661663)"><tspan
-         sodipodi:role="line"
-         id="tempEmpaqueFab9"
+         id="fab9_empaque_clima_temp_text"
          x="5192.5513"
          y="-4043.3235"
          style="stroke-width:5.16874">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humEmpaqueFab9"
+         id="fab9_empaque_clima_hum_text"
          x="5192.5513"
          y="-3914.3071"
          style="stroke-width:5.16874">nn% H.r</tspan></text>
@@ -1058,13 +1107,11 @@
        y="-4102.3311"
        id="climaTopenEndFab9"
        transform="scale(1.045624,-0.95636672)"><tspan
-         sodipodi:role="line"
-         id="tempOpenEndFab9"
+         id="fab9_open_end_clima_temp_text"
          x="5742.3677"
          y="-4102.3311"
          style="stroke-width:5.2241">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humOpenEndFab9"
+         id="fab9_open_end_clima_hum_text"
          x="5742.3677"
          y="-3971.9336"
          style="stroke-width:5.2241">nn% H.r</tspan></text>
@@ -1073,15 +1120,13 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:124.814px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:6.25044;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2878.1267"
        y="-2514.6384"
-       id="climaTopenEndFab4"
+       id="fab4_open_end_clima_text"
        transform="scale(0.99682153,-1.0031886)"><tspan
-         sodipodi:role="line"
-         id="tempOpenEndFab4"
+         id="fab4_open_end_clima_temp_text"
          x="2878.1267"
          y="-2514.6384"
          style="stroke-width:6.25044">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humOpenEndFab4"
+         id="fab4_open_end_clima_hum_text"
          x="2878.1267"
          y="-2358.6208"
          style="stroke-width:6.25044">nn% H.r</tspan></text>
@@ -1092,13 +1137,11 @@
        y="-2538.2937"
        id="climaTretorFab4"
        transform="scale(1.0034923,-0.99651985)"><tspan
-         sodipodi:role="line"
-         id="tempRetorFab4"
+         id="fab4_retorcidos_clima_temp_text"
          x="2203.5225"
          y="-2538.2937"
          style="stroke-width:6.29125">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humRetorFab4"
+         id="fab4_retorcidos_clima_hum_text"
          x="2203.5225"
          y="-2381.2588"
          style="stroke-width:6.29125">nn% H.r</tspan></text>
@@ -1109,13 +1152,11 @@
        y="-4711.9653"
        id="climaTg30Fab3"
        transform="scale(1.1366884,-0.87974858)"><tspan
-         sodipodi:role="line"
-         id="tempG30Fab3"
+         id="fab3_g30_clima_temp_text"
          x="1943.3058"
          y="-4711.9653"
          style="stroke-width:5.3466">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humG30Fab3"
+         id="fab3_g30_clima_hum_text"
          x="1943.3058"
          y="-4578.5093"
          style="stroke-width:5.3466">nn% H.r</tspan></text>
@@ -1126,13 +1167,11 @@
        y="-7072.1782"
        id="climaTpeinadorasFab1"
        transform="scale(1.2370344,-0.80838496)"><tspan
-         sodipodi:role="line"
-         id="tempPeiFab1"
+         id="fab1_preparacion_clima_temp_text"
          x="3069.9116"
          y="-7072.1782"
          style="stroke-width:4.81368">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humPeiFab1"
+         id="fab1_preparacion_clima_hum_text"
          x="3069.9116"
          y="-6952.0254"
          style="stroke-width:4.81368">nn% H.r</tspan></text>
@@ -1143,13 +1182,11 @@
        y="-4163.1304"
        id="climaTg33Fab3"
        transform="scale(1.1570763,-0.86424725)"><tspan
-         sodipodi:role="line"
-         id="tempG33Fab3"
+         id="fab3_g33_clima_temp_text"
          x="1914.4368"
          y="-4163.1304"
          style="stroke-width:5.47326">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humG33Fab3"
+         id="fab3_g33_clima_hum_text"
          x="1914.4368"
          y="-4026.5103"
          style="stroke-width:5.47326">nn% H.r</tspan></text>
@@ -1160,19 +1197,17 @@
        y="-4546.9028"
        id="climaTbobinajeFab3"
        transform="scale(1.0971909,-0.91141843)"><tspan
-         sodipodi:role="line"
-         id="tempBobinajeFab3"
+         id="fab3_bobinaje_clima_temp_text"
          x="1491.448"
          y="-4546.9028"
          style="stroke-width:5.06222">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humBobinajeFab3"
+         id="fab3_bobinaje_clima_hum_text"
          x="1491.448"
          y="-4420.5464"
          style="stroke-width:5.06222">nn% H.r</tspan></text>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.690912;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab9-1"
+       id="fab9_cardas1_clima_hum_color"
        width="520.83527"
        height="100.26707"
        x="7302.7168"
@@ -1180,7 +1215,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.581842;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepEFab9-1"
+       id="fab9_cardas1_clima_humAbs_color"
        width="520.94788"
        height="71.092514"
        x="7302.6377"
@@ -1188,7 +1223,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.690912;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepTFab9-1"
+       id="fab9_cardas1_clima_temp_color"
        width="520.83527"
        height="100.26707"
        x="7302.6836"
@@ -1196,7 +1231,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.735454;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab6"
+       id="fab6_preparacion_clima_hum_color"
        width="541.04626"
        height="109.36726"
        x="7693.3159"
@@ -1204,55 +1239,39 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.648941;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepEFab6"
+       id="fab6_preparacion_clima_humAbs_color"
        width="541.10883"
        height="85.140381"
        x="7693.2427"
        y="-2153.519"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.714272;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContHFab6"
-       width="546.52393"
-       height="102.12475"
-       x="6915.8955"
-       y="-2545.9758"
-       transform="scale(1,-1)" />
-    <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.735967;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobHFab6"
+       id="fab6_bobinaje_clima_hum_color"
        width="574.41705"
        height="103.15758"
-       x="5936.2031"
-       y="-2550.9026"
+       x="5898.7002"
+       y="-2525.9006"
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.670101;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobEFab6"
+       id="fab6_bobinaje_clima_humAbs_color"
        width="574.50403"
        height="85.506584"
-       x="5936.1123"
-       y="-2447.7358"
+       x="5898.6094"
+       y="-2422.7339"
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.735967;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobTFab6"
+       id="fab6_bobinaje_clima_temp_color"
        width="574.41705"
        height="103.15758"
-       x="5936.2144"
-       y="-2654.0686"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.714272;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContTFab6"
-       width="546.52393"
-       height="102.12475"
-       x="6915.8882"
-       y="-2648.1367"
+       x="5898.7114"
+       y="-2629.0667"
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.735454;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepTFab6"
+       id="fab6_preparacion_clima_temp_color"
        width="541.04626"
        height="109.36726"
        x="7693.3159"
@@ -1265,19 +1284,17 @@
        y="-4343.3779"
        id="climaTprepFab9-1"
        transform="scale(1.1410366,-0.87639607)"><tspan
-         sodipodi:role="line"
-         id="tempCardaFab9"
+         id="fab9_cardas1_clima_temp_text"
          x="6401.6777"
          y="-4343.3779"
          style="stroke-width:5.23675">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humCardaFab9"
+         id="fab9_cardas1_clima_hum_text"
          x="6401.6777"
          y="-4212.6655"
          style="stroke-width:5.23675">nn% H.r</tspan></text>
     <rect
-       style="fill:#c1a22b;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab9-3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
+       id="fab9_preparacion_clima_hum_color"
        width="470.93207"
        height="114.62723"
        x="6655.584"
@@ -1285,31 +1302,31 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.62267;stroke-dasharray:none;stroke-opacity:1"
-       id="climaOpenEndEFab9"
+       id="fab9_open_end_clima_humAbs_color"
        width="475.07333"
        height="89.283333"
        x="6001.3242"
        y="-3783.6042"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepHFab9-2"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
+       id="fab9_cardas2_clima_hum_color"
        width="454.3085"
        height="91.31369"
        x="7367.2656"
        y="-4073.168"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepTFab9-2"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
+       id="fab9_cardas2_clima_temp_color"
        width="454.3085"
        height="91.31369"
        x="7367.2202"
        y="-4164.4365"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPrepTFab9-3"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
+       id="fab9_preparacion_clima_temp_color"
        width="470.93207"
        height="114.62723"
        x="6655.5791"
@@ -1322,13 +1339,11 @@
        y="-4075.5413"
        id="climaTprepFab9-3"
        transform="scale(1.0426692,-0.95907696)"><tspan
-         sodipodi:role="line"
-         id="tempPrepFab9"
+         id="fab9_preparacion_clima_temp_text"
          x="6383.8701"
          y="-4075.5413"
          style="stroke-width:5.22227">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humPrepFab9"
+         id="fab9_preparacion_clima_hum_text"
          x="6383.8701"
          y="-3945.1899"
          style="stroke-width:5.22227">nn% H.r</tspan></text>
@@ -1339,66 +1354,43 @@
        y="-4583.4502"
        id="climaTprepFab9-2"
        transform="scale(1.1196883,-0.8931057)"><tspan
-         sodipodi:role="line"
-         id="tempCardas-2Fab9"
+         id="fab9_cardas2_clima_temp_text"
          x="6579.0908"
          y="-4583.4502"
          style="stroke-width:4.67956">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humCardas-2Fab9"
+         id="fab9_cardas2_clima_hum_text"
          x="6579.0908"
          y="-4466.6445"
          style="stroke-width:4.67956">nn% H.r</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:108.739px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.44541;stroke-linejoin:bevel;paint-order:stroke fill markers"
-       x="5936.8882"
-       y="-2990.6223"
-       id="climaTcontFab6"
-       transform="scale(1.1651097,-0.85828828)"><tspan
-         sodipodi:role="line"
-         id="tempContFab6"
-         x="5936.8882"
-         y="-2990.6223"
-         style="stroke-width:5.44541">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humContFab6"
-         x="5936.8882"
-         y="-2854.6985"
-         style="stroke-width:5.44541">nn% H.r</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:111.39px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.57824;stroke-linejoin:bevel;paint-order:stroke fill markers"
-       x="5025.4619"
-       y="-3037.1616"
+       x="4993.7168"
+       y="-3007.625"
        id="climaTbobFab6"
        transform="scale(1.1813736,-0.84647228)"><tspan
-         sodipodi:role="line"
-         id="tempBobFab6"
-         x="5025.4619"
-         y="-3037.1616"
+         id="fab6_bobinaje_clima_temp_text"
+         x="4993.7168"
+         y="-3007.625"
          style="stroke-width:5.57824">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humBobFab6"
-         x="5025.4619"
-         y="-2897.9241"
+         id="fab6_bobinaje_clima_hum_text"
+         x="4993.7168"
+         y="-2868.3875"
          style="stroke-width:5.57824">nn% H.r</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:83.1293px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.88593;stroke-linejoin:bevel;paint-order:stroke fill markers"
-       x="4698.4707"
-       y="-3048.9746"
-       id="climaEbobFab6"
+       x="4669.1304"
+       y="-3017.0173"
+       id="fab6_bobinaje_clima_humAbs_text"
        transform="scale(1.2781942,-0.78235373)"><tspan
-         sodipodi:role="line"
          id="climaETbobFab6"
-         x="4698.4707"
-         y="-3048.9746"
+         x="4669.1304"
+         y="-3017.0173"
          style="stroke-width:5.88593"> nn g/kg</tspan><tspan
-         sodipodi:role="line"
          id="tspan12128"
-         x="4698.4707"
-         y="-2945.063"
+         x="4669.1304"
+         y="-2913.1057"
          style="stroke-width:5.88593" /></text>
     <text
        xml:space="preserve"
@@ -1407,13 +1399,11 @@
        y="-2540.6389"
        id="climaTprepFab6"
        transform="scale(1.1124367,-0.89892756)"><tspan
-         sodipodi:role="line"
-         id="tempPrepFab6"
+         id="fab6_preparacion_clima_temp_text"
          x="6919.5112"
          y="-2540.6389"
          style="stroke-width:5.56884">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humPrepFab6"
+         id="fab6_preparacion_clima_hum_text"
          x="6919.5112"
          y="-2401.6353"
          style="stroke-width:5.56884">nn% H.r</tspan></text>
@@ -1422,14 +1412,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.0205px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.97543;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="6079.5825"
        y="-2671.301"
-       id="climaEprepFab6"
+       id="fab6_preparacion_clima_humAbs_text"
        transform="scale(1.2789336,-0.78190142)"><tspan
-         sodipodi:role="line"
          id="climaETprepFab6"
          x="6079.5825"
          y="-2671.301"
          style="stroke-width:5.97543">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          id="tspan12136"
          x="6079.5825"
          y="-2570.0254"
@@ -1441,27 +1429,18 @@
        style="font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect136516);display:inline;fill:#ffffff;stroke:#e6f9fb;stroke-width:0.944882;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2650.6074"
          y="963.37856"
-         id="tspan13093">Fábrica N°6</tspan></text>
+         id="tspan9276">Fábrica N°6</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.2822px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:#e2fcff;stroke-width:1.04729;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="5758.3472"
-       y="-2406.4626"
+       x="5722.564"
+       y="-2380.2593"
        id="text136736"
        transform="scale(1.0480557,-0.95414776)"><tspan
-         sodipodi:role="line"
          id="tspan136734"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.2822px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.04729;stroke-dasharray:none"
-         x="5758.3472"
-         y="-2406.4626">Bobinaje</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.8694436,0,0,-5.0795539,-8979.4564,7203.2002)"
-       id="text136788"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="2717.4004"
-         y="966.23744"
-         id="tspan13095">Continuas</tspan></text>
+         x="5722.564"
+         y="-2380.2593">Bobinaje</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:83.1908px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:#e2fcff;stroke-width:1.07188;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1469,7 +1448,6 @@
        y="-2169.207"
        id="text136802"
        transform="scale(1.0866999,-0.92021726)"><tspan
-         sodipodi:role="line"
          id="tspan136800"
          style="stroke-width:1.07188"
          x="7095.6567"
@@ -1481,7 +1459,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan13097">Fábrica N°9</tspan></text>
+         id="tspan9278">Fábrica N°9</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13995.601,9433.0579)"
@@ -1489,31 +1467,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan13099">Fábrica N°3</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(13.397046,0,0,-9.5372877,-28444.108,13171.298)"
-       id="fab3Text-6"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="2612.2793"
-         y="749.32143"
-         id="tspan13101">Sala de Chillers</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(6.6250697,0,0,-4.739222,-11087.249,9303.3366)"
-       id="fab3Text-6-5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="2612.2793"
-         y="749.32143"
-         id="tspan13103">Entrada</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(8.2736165,0,0,-5.0403745,-15383.001,8685.9555)"
-       id="fab3Text-6-5-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-3);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="2612.2793"
-         y="749.32143"
-         id="tspan13105">Salida</tspan></text>
+         id="tspan9280">Fábrica N°3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13773.976,7700.0009)"
@@ -1521,7 +1475,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-0);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan13107">Fábrica N°4</tspan></text>
+         id="tspan9282">Fábrica N°4</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-14231.841,11313.44)"
@@ -1529,7 +1483,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan13109">Fábrica N°1</tspan></text>
+         id="tspan9284">Fábrica N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.3595732,-0.09155577,-0.10081157,-5.3778063,-10055.087,11223.656)"
@@ -1537,7 +1491,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2-3-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan13111">Batan Fab N°1</tspan></text>
+         id="tspan9286">Batan Fab N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.6338846,0.07368362,0.07686212,-5.1165962,-942.93686,11186.537)"
@@ -1545,10 +1499,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13113">Batan</tspan></text>
+         id="tspan9288">Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.2008;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroBatanFab1"
+       id="fab1_batan_filtro"
        width="250.14877"
        height="125.49821"
        x="3923.3208"
@@ -1562,10 +1516,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-2-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13115">Cotonia</tspan></text>
+         id="tspan9290">Cotonia</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.8908;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCotoniaFab1"
+       id="fab1_cotonia_filtro"
        width="276.49136"
        height="124.84331"
        x="3960.6519"
@@ -1579,7 +1533,6 @@
        y="-4516.5146"
        id="cardas-1Text"
        transform="scale(1.1592504,-0.8626264)"><tspan
-         sodipodi:role="line"
          id="tspan17645"
          style="fill:#fefefb;fill-opacity:1;stroke-width:1.80615"
          x="6342.2295"
@@ -1591,7 +1544,6 @@
        y="-4324.4697"
        id="prepFab9Text"
        transform="scale(1.0743301,-0.93081261)"><tspan
-         sodipodi:role="line"
          id="tspan18275"
          x="6178.7671"
          y="-4324.4697"
@@ -1603,7 +1555,6 @@
        y="-4128.561"
        id="openEndFab9Text"
        transform="scale(1.0247648,-0.97583368)"><tspan
-         sodipodi:role="line"
          id="tspan18304"
          x="5889.29"
          y="-4128.561"
@@ -1615,7 +1566,6 @@
        y="-4136.4614"
        id="empaqueFab9Text"
        transform="scale(1.0247648,-0.97583368)"><tspan
-         sodipodi:role="line"
          id="tspan686"
          x="5274.7139"
          y="-4136.4614"
@@ -1627,7 +1577,6 @@
        y="-4734.6196"
        id="cardas-2Text"
        transform="scale(1.1345239,-0.881427)"><tspan
-         sodipodi:role="line"
          id="tspan18246"
          x="6534.6162"
          y="-4734.6196"
@@ -1639,7 +1588,6 @@
        y="-2722.3726"
        id="prepTextFab4"
        transform="scale(1.0176963,-0.98261141)"><tspan
-         sodipodi:role="line"
          id="tspan24299"
          x="3590.2683"
          y="-2722.3726"
@@ -1651,7 +1599,6 @@
        y="-3760.9976"
        id="c80TextFab3"
        transform="scale(1.0231768,-0.97734819)"><tspan
-         sodipodi:role="line"
          id="tspan24299-1"
          x="4137.6553"
          y="-3760.9976"
@@ -1663,7 +1610,6 @@
        y="-4306.5459"
        id="manuarTextFab3"
        transform="scale(1.0165509,-0.98371857)"><tspan
-         sodipodi:role="line"
          id="tspan3660"
          x="3376.2063"
          y="-4306.5459"
@@ -1675,7 +1621,6 @@
        y="-6816.3823"
        id="peinadorasTextFab1"
        transform="scale(1.1748163,-0.85119691)"><tspan
-         sodipodi:role="line"
          id="tspan754"
          x="3270.2644"
          y="-6816.3823"
@@ -1687,13 +1632,11 @@
        y="-6082.0181"
        id="climaTmanuaresFab1"
        transform="scale(0.98088251,-1.0194901)"><tspan
-         sodipodi:role="line"
-         id="tempManuaresFab1"
+         id="fab1_manuares_clima_temp_text"
          x="3408.9016"
          y="-6082.0181"
          style="stroke-width:5.07152">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humManuaresFab1"
+         id="fab1_manuares_clima_hum_text"
          x="3408.9016"
          y="-5955.4282"
          style="stroke-width:5.07152">nn% H.r</tspan></text>
@@ -1704,7 +1647,6 @@
        y="-6276.4985"
        id="manuaresTextFab1"
        transform="scale(0.99724263,-1.002765)"><tspan
-         sodipodi:role="line"
          id="tspan754-2"
          x="3381.6526"
          y="-6276.4985"
@@ -1713,30 +1655,27 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.8004px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.14651;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2309.7542"
-       y="-6474.5132"
+       y="-6505.3071"
        id="climaTvortexFab1"
        transform="scale(1.1147793,-0.89703855)"><tspan
-         sodipodi:role="line"
-         id="tempVortexFab1"
+         id="fab1_vortex4_clima_temp_text"
          x="2309.7542"
-         y="-6474.5132"
+         y="-6505.3071"
          style="stroke-width:4.14651">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humVortexFab1"
+         id="fab1_vortex4_clima_hum_text"
          x="2309.7542"
-         y="-6371.0127"
+         y="-6401.8066"
          style="stroke-width:4.14651">nn% H.r</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.7203px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefefb;fill-opacity:1;stroke:#0a210a;stroke-width:1.40825;stroke-dasharray:none;stroke-opacity:1"
        x="2379.3481"
-       y="-6551.0376"
+       y="-6581.8315"
        id="vortexTextFab1"
        transform="scale(1.1147793,-0.89703855)"><tspan
-         sodipodi:role="line"
          id="tspan952"
          x="2379.3481"
-         y="-6551.0376"
+         y="-6581.8315"
          style="stroke-width:1.40825">Vortex4</tspan></text>
     <text
        xml:space="preserve"
@@ -1745,13 +1684,11 @@
        y="-6380.4014"
        id="climaTvortexFab1-1"
        transform="scale(1.1459025,-0.87267459)"><tspan
-         sodipodi:role="line"
-         id="tempVortexFab1-1"
+         id="fab1_vortex1_clima_temp_text"
          x="2733.1626"
          y="-6380.4014"
          style="stroke-width:4.04809">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humVortexFab1-1"
+         id="fab1_vortex1_clima_hum_text"
          x="2733.1626"
          y="-6279.3574"
          style="stroke-width:4.04809">nn% H.r</tspan></text>
@@ -1762,7 +1699,6 @@
        y="-6495.3892"
        id="vortexTextFab1-1"
        transform="scale(1.1511396,-0.86870436)"><tspan
-         sodipodi:role="line"
          id="tspan668"
          x="2762.3806"
          y="-6495.3892"
@@ -1770,31 +1706,28 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.2121px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.06697;stroke-linejoin:bevel;paint-order:stroke fill markers"
-       x="2242.9983"
-       y="-6410.165"
+       x="2237.238"
+       y="-6352.939"
        id="climaTvortexFab1-2"
        transform="scale(1.1509046,-0.86888175)"><tspan
-         sodipodi:role="line"
-         id="tempVortexFab1-2"
-         x="2242.9983"
-         y="-6410.165"
+         id="fab1_vortex2_clima_temp_text"
+         x="2237.238"
+         y="-6352.939"
          style="stroke-width:4.06697">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humVortexFab1-2"
-         x="2242.9983"
-         y="-6308.6499"
+         id="fab1_vortex2_clima_hum_text"
+         x="2237.238"
+         y="-6251.4238"
          style="stroke-width:4.06697">nn% H.r</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.5555px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefefb;fill-opacity:1;stroke:#0a210a;stroke-width:1.38124;stroke-dasharray:none;stroke-opacity:1"
-       x="2291.4578"
-       y="-6493.8232"
+       x="2285.6975"
+       y="-6436.5972"
        id="vortexTextFab1-2"
        transform="scale(1.1509046,-0.86888175)"><tspan
-         sodipodi:role="line"
          id="tspan717"
-         x="2291.4578"
-         y="-6493.8232"
+         x="2285.6975"
+         y="-6436.5972"
          style="stroke-width:1.38124">Vortex-2</tspan></text>
     <text
        xml:space="preserve"
@@ -1803,13 +1736,11 @@
        y="-6648.4883"
        id="climaTvortexFab1-3"
        transform="scale(1.145968,-0.87262472)"><tspan
-         sodipodi:role="line"
-         id="tempVortexFab1-3"
+         id="fab1_vortex3_clima_temp_text"
          x="2725.0701"
          y="-6648.4883"
          style="stroke-width:4.05069">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humVortexFab1-3"
+         id="fab1_vortex3_clima_hum_text"
          x="2725.0701"
          y="-6547.3799"
          style="stroke-width:4.05069">nn% H.r</tspan></text>
@@ -1820,7 +1751,6 @@
        y="-6880.9746"
        id="vortexTextFab1-3"
        transform="scale(1.1719131,-0.85330559)"><tspan
-         sodipodi:role="line"
          id="tspan717-3"
          x="2706.5015"
          y="-6880.9746"
@@ -1832,7 +1762,6 @@
        y="-6087.8447"
        id="colorTextFab1"
        transform="scale(1.1430488,-0.87485329)"><tspan
-         sodipodi:role="line"
          id="tspan654"
          x="2895.9177"
          y="-6087.8447"
@@ -1844,13 +1773,11 @@
        y="-7218.5054"
        id="climaTcontinuasFab1-1"
        transform="scale(1.1255819,-0.88842935)"><tspan
-         sodipodi:role="line"
-         id="tempContFab1-1"
+         id="fab1_continuas1_clima_temp_text"
          x="2302.4543"
          y="-7218.5054"
          style="stroke-width:4.22248">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humContFab1-1"
+         id="fab1_continuas1_clima_hum_text"
          x="2302.4543"
          y="-7113.1089"
          style="stroke-width:4.22248">nn% H.r</tspan></text>
@@ -1861,7 +1788,6 @@
        y="-7386.0283"
        id="continuasTextFab1-1"
        transform="scale(1.1387462,-0.87815881)"><tspan
-         sodipodi:role="line"
          id="tspan1055"
          x="2270.2637"
          y="-7386.0283"
@@ -1871,15 +1797,13 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:93.5369px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.68419;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2185.8647"
        y="-7321.8477"
-       id="climaTcontinuasFab1-2"
+       id="fab1_continuas2_clima_text"
        transform="scale(1.1890371,-0.84101666)"><tspan
-         sodipodi:role="line"
-         id="tempContFab1-2"
+         id="fab1_continuas2_clima_temp_text"
          x="2185.8647"
          y="-7321.8477"
          style="stroke-width:4.68419">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humContFab1-2"
+         id="fab1_continuas2_clima_hum_text"
          x="2185.8647"
          y="-7204.9268"
          style="stroke-width:4.68419">nn% H.r</tspan></text>
@@ -1890,7 +1814,6 @@
        y="-7672.0063"
        id="continuasTextFab1-2"
        transform="scale(1.2292874,-0.81347941)"><tspan
-         sodipodi:role="line"
          id="tspan1104"
          x="2095.1743"
          y="-7672.0063"
@@ -1902,13 +1825,11 @@
        y="-7238.3994"
        id="climaTbobinajeFab1"
        transform="scale(1.1781206,-0.84880954)"><tspan
-         sodipodi:role="line"
-         id="tempBobinajeFab1"
+         id="fab1_bobinaje_clima_temp_text"
          x="1469.4542"
          y="-7238.3994"
          style="stroke-width:4.83434">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humBobinajeFab1"
+         id="fab1_bobinaje_clima_hum_text"
          x="1469.4542"
          y="-7117.7305"
          style="stroke-width:4.83434">nn% H.r</tspan></text>
@@ -1919,7 +1840,6 @@
        y="-7352.9023"
        id="bobinajeTextFab1"
        transform="scale(1.1781206,-0.84880954)"><tspan
-         sodipodi:role="line"
          id="tspan1153"
          x="1523.4576"
          y="-7352.9023"
@@ -1931,19 +1851,17 @@
        y="-6383.6616"
        id="climaTempaqueFab1"
        transform="scale(1.1108479,-0.90021325)"><tspan
-         sodipodi:role="line"
-         id="tempEmpaqueFab1"
+         id="fab1_empaque_clima_temp_text"
          x="1084.3903"
          y="-6383.6616"
          style="stroke-width:4.5641">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humEmpaqueFab1"
+         id="fab1_empaque_clima_hum_text"
          x="1084.3903"
          y="-6269.7378"
          style="stroke-width:4.5641">nn% H.r</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepEFab6"
+       id="fab6_preparacion_clima_humAbs_g"
        width="541.49689"
        height="84.395737"
        x="7693.5762"
@@ -1951,7 +1869,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepHFab6"
+       id="fab6_preparacion_clima_hum_g"
        width="541.43427"
        height="108.41071"
        x="7692.9731"
@@ -1959,7 +1877,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepTFab6"
+       id="fab6_preparacion_clima_temp_g"
        width="539.43616"
        height="108.41071"
        x="7693.6982"
@@ -1967,47 +1885,31 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGContTFab6"
-       width="545.46832"
-       height="101.18002"
-       x="6916.2529"
-       y="-2647.8069"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGContHFab6"
-       width="545.46832"
-       height="101.20578"
-       x="6916.4341"
-       y="-2545.7825"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGBobTFab6"
+       id="fab6_bobinaje_clima_temp_g"
        width="573.30762"
        height="102.22934"
-       x="5936.5874"
-       y="-2653.6672"
+       x="5899.0845"
+       y="-2628.6653"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGBobHFab6"
+       id="fab6_bobinaje_clima_hum_g"
        width="573.30762"
        height="102.22934"
-       x="5936.5967"
-       y="-2550.2834"
+       x="5899.0938"
+       y="-2525.2815"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGBobHFab6-1"
+       id="fab6_bobinaje_clima_humAbs_g"
        width="573.39453"
        height="84.73716"
-       x="5936.458"
-       y="-2447.3125"
+       x="5898.9551"
+       y="-2422.3105"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGBobHFab6-6"
+       id="fab9_cardas1_clima_hum_g"
        width="519.82941"
        height="99.221687"
        x="7303.0293"
@@ -2015,7 +1917,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGCardas-1TFab9"
+       id="fab9_cardas1_clima_temp_g"
        width="519.82941"
        height="99.221687"
        x="7303.0225"
@@ -2023,7 +1925,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGCardas-2TFab9"
+       id="fab9_cardas2_clima_temp_g"
        width="453.43109"
        height="90.430794"
        x="7367.5527"
@@ -2031,7 +1933,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGCardas-2HFab9"
+       id="fab9_cardas2_clima_hum_g"
        width="453.43109"
        height="90.315582"
        x="7367.5859"
@@ -2039,7 +1941,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepTFab9"
+       id="fab9_preparacion_clima_temp_g"
        width="470.01273"
        height="113.60042"
        x="6655.9341"
@@ -2047,7 +1949,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepTFab9-3"
+       id="fab9_open_end_clima_temp_g"
        width="473.78955"
        height="113.48202"
        x="6001.79"
@@ -2055,7 +1957,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepTFab9-3-2"
+       id="fab9_open_end_clima_hum_g"
        width="473.78955"
        height="113.48202"
        x="6001.7017"
@@ -2063,7 +1965,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGEmpTFab9"
+       id="fab9_empaque_clima_temp_g"
        width="463.23468"
        height="113.39735"
        x="5370.0435"
@@ -2071,7 +1973,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGEmpHFab9"
+       id="fab9_empaque_clima_hum_g"
        width="463.23468"
        height="113.31013"
        x="5369.9678"
@@ -2079,31 +1981,31 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGc80HFab3"
        width="491.67081"
        height="120.26418"
        x="4254.4038"
        y="-3542.3833"
-       transform="scale(1,-1)" />
+       transform="scale(1,-1)"
+       id="fab3_c80_clima_hum_g" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGc80TFab3"
+       id="fab3_c80_clima_temp_g"
        width="491.67081"
        height="120.26418"
        x="4254.438"
        y="-3664.6704"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
-       id="climaT.cardasHFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_taller_cardas_clima_hum_color"
        width="419.82797"
        height="100.49099"
        x="4317.7041"
        y="-5295.9287"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
-       id="climaT.cardasTFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_taller_cardas_clima_temp_color"
        width="419.82797"
        height="100.49099"
        x="4317.7041"
@@ -2114,15 +2016,13 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:94.1332px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.71406;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="4212.4263"
        y="-5449.5239"
-       id="climaTt.cardasFab1"
+       id="fab1_taller_cardas_clima_text"
        transform="scale(1.0249335,-0.97567305)"><tspan
-         sodipodi:role="line"
-         id="tempTCardasFab1"
+         id="fab1_taller_cardas_clima_temp_text"
          x="4212.4263"
          y="-5449.5239"
          style="stroke-width:4.71406">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humTCardasFab1"
+         id="fab1_taller_cardas_clima_hum_text"
          x="4212.4263"
          y="-5331.8574"
          style="stroke-width:4.71406">nn% H.r</tspan></text>
@@ -2133,30 +2033,29 @@
        y="-5421.146"
        id="t.cardasTextFab1"
        transform="scale(1.0029379,-0.99707071)"><tspan
-         sodipodi:role="line"
          id="tspan3815"
          x="4294.459"
          y="-5421.146"
          style="stroke-width:1.56773">Taller Cardas</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGt.cardasHFab1"
+       id="fab1_taller_cardas_clima_hum_g"
        width="419.13644"
        height="99.302917"
-       x="4318.0293"
-       y="-5295.0127"
+       x="4318.0303"
+       y="-5295.0166"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGt.cardasTFab1"
+       id="fab1_taller_cardas_clima_temp_g"
        width="419.13644"
        height="99.302917"
-       x="4318.0376"
-       y="-5396.1025"
+       x="4318.0386"
+       y="-5396.1064"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresTFab3"
+       id="fab3_peinadorasE65_clima_temp_g"
        width="530.36951"
        height="98.992393"
        x="3430.6013"
@@ -2164,7 +2063,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresHFab3"
+       id="fab3_peinadorasE65_clima_hum_g"
        width="530.36951"
        height="98.992393"
        x="3430.5701"
@@ -2172,7 +2071,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg30HFab3"
+       id="fab3_continuas_clima_hum_g"
        width="523.48737"
        height="101.5611"
        x="2212.4368"
@@ -2180,7 +2079,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg30TFab3"
+       id="fab3_continuas_clima_temp_g"
        width="523.48737"
        height="101.5611"
        x="2212.3489"
@@ -2188,7 +2087,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobTFab3"
+       id="fab3_bobinaje_clima_temp_g"
        width="489.25385"
        height="99.591629"
        x="1632.3331"
@@ -2196,7 +2095,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobHFab3"
+       id="fab3_bobinaje_clima_hum_g"
        width="489.25385"
        height="99.591629"
        x="1632.4789"
@@ -2204,7 +2103,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg33TFab3"
+       id="fab3_g33_clima_temp_g"
        width="544.37653"
        height="102.13695"
        x="2221.5469"
@@ -2212,7 +2111,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg33HFab3"
+       id="fab3_g33_clima_hum_g"
        width="544.37653"
        height="102.13695"
        x="2221.564"
@@ -2220,7 +2119,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepHFab9"
+       id="fab9_preparacion_clima_hum_g"
        width="470.01273"
        height="113.49139"
        x="6655.8701"
@@ -2233,7 +2132,6 @@
        y="-6301.3906"
        id="empaqueTextFab1"
        transform="scale(1.077287,-0.92825774)"><tspan
-         sodipodi:role="line"
          id="tspan1202"
          x="1153.8887"
          y="-6301.3906"
@@ -2245,7 +2143,6 @@
        y="-3759.0208"
        id="peinadorasTextFab3"
        transform="scale(1.0157122,-0.98453086)"><tspan
-         sodipodi:role="line"
          id="tspan3662"
          x="3168.074"
          y="-3759.0208"
@@ -2257,7 +2154,6 @@
        y="-4455.1602"
        id="peinadorasTextFab3-4"
        transform="scale(1.0188947,-0.98145569)"><tspan
-         sodipodi:role="line"
          id="tspan25320"
          x="3609.4751"
          y="-4455.1602"
@@ -2269,7 +2165,6 @@
        y="-4409.8999"
        id="g30TextFab3"
        transform="scale(1.0411737,-0.96045453)"><tspan
-         sodipodi:role="line"
          id="tspan24965"
          x="2110.3264"
          y="-4409.8999"
@@ -2281,14 +2176,13 @@
        y="-3894.6963"
        id="g33TextFab3"
        transform="scale(1.0566437,-0.94639281)"><tspan
-         sodipodi:role="line"
          id="tspan25048"
          x="2085.9019"
          y="-3894.6963"
          style="stroke-width:1.70266">Continuas G33</tspan></text>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.690972;stroke-dasharray:none;stroke-opacity:1"
-       id="clima3zHFab3"
+       id="fab3_3z_clima_hum_color"
        width="509.13666"
        height="102.58857"
        x="1275.7465"
@@ -2296,7 +2190,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.690972;stroke-dasharray:none;stroke-opacity:1"
-       id="clima3zTFab3"
+       id="fab3_3z_clima_temp_color"
        width="509.13666"
        height="102.58857"
        x="1275.697"
@@ -2309,19 +2203,17 @@
        y="-4119.4399"
        id="climaT3zFab3"
        transform="scale(1.1183199,-0.89419852)"><tspan
-         sodipodi:role="line"
-         id="temp3zFab3"
+         id="fab3_3z_clima_temp_text"
          x="1138.1699"
          y="-4119.4399"
          style="stroke-width:5.25091">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="hum3zFab3"
+         id="fab3_3z_clima_hum_text"
          x="1138.1699"
          y="-3988.3728"
          style="stroke-width:5.25091">nn% H.r</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaG3zHFab3-1"
+       id="fab3_3z_clima_hum_g"
        width="508.29794"
        height="101.37569"
        x="1276.1608"
@@ -2329,7 +2221,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.599604;stroke-dasharray:none;stroke-opacity:1"
-       id="clima3zHFab3-5"
+       id="fab3_3z_clima_humAbs_color"
        width="509.22977"
        height="77.237175"
        x="1275.6628"
@@ -2337,7 +2229,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaG3zTFab3"
+       id="fab3_3z_clima_temp_g"
        width="508.29794"
        height="101.37569"
        x="1276.0614"
@@ -2350,7 +2242,6 @@
        y="-4029.7158"
        id="3ZTextFab3"
        transform="scale(1.0693377,-0.93515828)"><tspan
-         sodipodi:role="line"
          id="tspan25048-1"
          x="1182.7825"
          y="-4029.7158"
@@ -2362,7 +2253,6 @@
        y="-4754.8945"
        id="bobinajeTextFab3"
        transform="scale(1.1215984,-0.89158473)"><tspan
-         sodipodi:role="line"
          id="tspan25048-4"
          x="1505.2412"
          y="-4754.8945"
@@ -2374,7 +2264,6 @@
        y="-2699.1055"
        id="openEndTextFab4"
        transform="scale(1.0188947,-0.98145569)"><tspan
-         sodipodi:role="line"
          id="tspan24299-7"
          x="2845.7664"
          y="-2699.1055"
@@ -2386,7 +2275,6 @@
        y="-2695.5696"
        id="openEndTextFab4-3"
        transform="scale(1.0188947,-0.98145569)"><tspan
-         sodipodi:role="line"
          id="tspan24299-7-8"
          x="2209.9749"
          y="-2695.5696"
@@ -2398,7 +2286,6 @@
        y="-4481.3242"
        id="tempExterior"
        transform="scale(0.71113331,-1.4062061)"><tspan
-         sodipodi:role="line"
          id="tspan1550"
          x="6819.9575"
          y="-4481.3242"
@@ -2410,7 +2297,6 @@
        y="-4652.0054"
        id="entalpiaExterior"
        transform="scale(0.73975802,-1.3517934)"><tspan
-         sodipodi:role="line"
          id="tspan1554"
          x="9578.2822"
          y="-4652.0054"
@@ -2422,7 +2308,6 @@
        y="-4656.1519"
        id="tempExterior-0"
        transform="scale(0.73975802,-1.3517934)"><tspan
-         sodipodi:role="line"
          id="tspan1552"
          x="8027.0576"
          y="-4656.1519"
@@ -2434,7 +2319,7 @@
        id="tempExtt"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan13117">32 °C</tspan></text>
+         id="tspan9292">32 °C</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(3.6503198,0,0,-6.7131656,6090.9724,7735.705)"
@@ -2442,7 +2327,7 @@
        id="entalpiaa"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan13119">66.66 Kj/Kg</tspan></text>
+         id="tspan9294">66.66 Kj/Kg</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.0326882,0,0,-7.3691124,4991.4657,7831.6512)"
@@ -2450,7 +2335,7 @@
        id="text349"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan13121">50 %</tspan></text>
+         id="tspan9296">50 %</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.9844109,0,0,-5.9560629,108.50494,7560.5996)"
@@ -2458,10 +2343,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.369408;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13123">Cardas</tspan></text>
+         id="tspan9298">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCardaFab4"
+       id="fab4_cardas_filtro"
        width="392.39291"
        height="199.07022"
        x="4342.6626"
@@ -2475,10 +2360,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13125">G33</tspan></text>
+         id="tspan9300">G33</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroG33Fab3"
+       id="fab3_g33_filtro"
        width="392.39291"
        height="199.07022"
        x="1333.5442"
@@ -2492,10 +2377,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13127">Cardas</tspan></text>
+         id="tspan9302">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.5341;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCardasFab3"
+       id="fab3_cardas_filtro"
        width="352.18777"
        height="151.83791"
        x="3962.6958"
@@ -2509,10 +2394,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13129">Color</tspan></text>
+         id="tspan9304">Color</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:15.3494;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroColorFab1"
+       id="fab1_color_filtro"
        width="286.75974"
        height="127.90234"
        x="4005.2935"
@@ -2526,10 +2411,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13131">Preparación</tspan></text>
+         id="tspan9306">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroPrepFab3"
+       id="fab3_preparacion_filtro"
        width="425.35034"
        height="150.14908"
        x="3512.5916"
@@ -2543,10 +2428,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13133">Preparación</tspan></text>
+         id="tspan9308">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroPrepFab1"
+       id="fab1_preparacion_filtro"
        width="427.3652"
        height="155.46486"
        x="5636.2847"
@@ -2560,10 +2445,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13135">Continuas</tspan></text>
+         id="tspan9310">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroContinuasFab1"
+       id="fab1_continuas_filtro"
        width="427.3652"
        height="155.46486"
        x="5522.8931"
@@ -2577,10 +2462,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13137">Bobinaje</tspan></text>
+         id="tspan9312">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4881;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroBobinajeFab1"
+       id="fab1_bobinaje_filtro"
        width="377.41721"
        height="156.65111"
        x="4902.2935"
@@ -2594,10 +2479,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13139">Cardas</tspan></text>
+         id="tspan9314">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:17.7598;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCardasFab1"
+       id="fab1_cardas_filtro"
        width="309.98206"
        height="158.4021"
        x="6100.8184"
@@ -2611,10 +2496,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13141">Continuas</tspan></text>
+         id="tspan9316">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroContFab3"
+       id="fab3_g30_filtro"
        width="425.35034"
        height="150.14908"
        x="2212.9343"
@@ -2628,10 +2513,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13143">Bobinaje</tspan></text>
+         id="tspan9318">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroBobFab3"
+       id="fab3_bobinaje_filtro"
        width="425.35034"
        height="150.14908"
        x="1335.7943"
@@ -2645,10 +2530,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13145">Peinadoras</tspan></text>
+         id="tspan9320">Peinadoras</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroPrepFab3-5"
+       id="fab3_peinadoras_filtro"
        width="425.35034"
        height="150.14908"
        x="3857.9602"
@@ -2662,10 +2547,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13147">Clima</tspan></text>
+         id="tspan9322">Clima</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroClimaFab4"
+       id="fab4_clima_filtro"
        width="392.39291"
        height="199.07022"
        x="3197.075"
@@ -2679,10 +2564,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13149">Retorcidos</tspan></text>
+         id="tspan9324">Retorcidos</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:23.9837;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroRetorFab4"
+       id="fab4_retorcidos_filtro"
        width="475.05997"
        height="188.49586"
        x="2351.7048"
@@ -2696,10 +2581,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13151"> Batan</tspan></text>
+         id="tspan9326"> Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroBatanFab4"
+       id="fab4_batan_filtro"
        width="377.97455"
        height="206.66402"
        x="2383.8884"
@@ -2713,10 +2598,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13153"> Bobinaje</tspan></text>
+         id="tspan9328"> Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroBobFab6"
+       id="fab6_bobinaje_filtro"
        width="392.39249"
        height="199.07047"
        x="5957.6392"
@@ -2739,10 +2624,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13155"> Continuas</tspan></text>
+         id="tspan9330"> Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.351275;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroContFab6"
+       id="fab6_continuas_filtro"
        width="392.39249"
        height="199.07047"
        x="6391.5186"
@@ -2756,10 +2641,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13157"> Open-End</tspan></text>
+         id="tspan9332"> Open-End</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.1778;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroOpenEndFab9"
+       id="fab9_open_end_filtro"
        width="322.08057"
        height="159.71136"
        x="6376.9326"
@@ -2773,10 +2658,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13159">  EX-8</tspan></text>
+         id="tspan9334">  EX-8</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroEX-8Fab3"
+       id="fab3_ex8_filtro"
        width="377.97812"
        height="206.66219"
        x="3368.8936"
@@ -2785,15 +2670,33 @@
        ry="59.405186" />
     <text
        xml:space="preserve"
+       transform="matrix(-0.05628569,5.0318602,4.5127674,0.0118313,4359.2313,-743.81189)"
+       id="filtrosTpoliesterFab9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
+         x="870.44922"
+         y="896.4163"
+         id="tspan9336">Poliester
+</tspan></text>
+    <rect
+       style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="fab9_poliester_filtro"
+       width="303.95837"
+       height="143.57362"
+       x="3610.9399"
+       y="8266.7246"
+       transform="matrix(-0.00133984,0.9999991,0.99999959,-9.0960334e-4,0,0)"
+       ry="41.270329" />
+    <text
+       xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,1844.8576,8449.5844)"
        id="filtrosTprepFab6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#041b53;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13161"> Preparación</tspan></text>
+         id="tspan9338"> Preparación</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.34902;stroke:#c1a22b;stroke-width:23.5179;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroPrepFab6"
+       id="fab6_preparacion_filtro"
        width="434.89944"
        height="197.9827"
        x="7509.1709"
@@ -2807,10 +2710,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-6);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13163"> Preparación</tspan></text>
+         id="tspan9340"> Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4339;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroPrepFab9"
+       id="fab9_preparacion_filtro"
        width="370.93442"
        height="158.50208"
        x="6356.3125"
@@ -2822,21 +2725,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.25px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.37098;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2810.9258"
        y="-4137.8564"
-       id="climaTpeiFab3"
+       id="fab3_peinadorasE90_clima_text"
        transform="scale(1.1463196,-0.87235706)"><tspan
-         sodipodi:role="line"
-         id="tempPeiFab3"
+         id="fab3_peinadorasE90_clima_temp_text"
          x="2810.9258"
          y="-4137.8564"
          style="stroke-width:5.37098">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humPeiFab3"
+         id="fab3_peinadorasE90_clima_hum_text"
          x="2810.9258"
          y="-4003.7939"
          style="stroke-width:5.37098">nn% H.r</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasTFab3"
+       id="rect137018"
        width="531.26202"
        height="101.16386"
        x="3226.3696"
@@ -2844,7 +2745,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasHFab3"
+       id="fab3_peinadorasE90_clima_hum_g"
        width="531.26202"
        height="101.16386"
        x="3226.3982"
@@ -2852,7 +2753,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGprepHFab4"
+       id="fab4_preparacion_clima_hum_g"
        width="598.06036"
        height="131.88631"
        x="3624.8262"
@@ -2860,7 +2761,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGprepTFab4"
+       id="fab4_preparacion_clima_temp_g"
        width="598.06036"
        height="131.88631"
        x="3624.8062"
@@ -2868,7 +2769,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGopenEndTFab4"
+       id="fab4_open_end_clima_temp_g"
        width="548.74994"
        height="135.35649"
        x="2860.6746"
@@ -2876,7 +2777,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGoretorTFab4"
+       id="fab4_retorcidos_clima_temp_g"
        width="548.64838"
        height="134.76988"
        x="2210.1448"
@@ -2884,7 +2785,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGoretorHFab4"
+       id="fab4_retorcidos_clima_hum_g"
        width="548.64838"
        height="134.76988"
        x="2210.0923"
@@ -2892,7 +2793,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcolorHFab1"
+       id="fab1_color_clima_hum_g"
        width="537.75739"
        height="104.61844"
        x="3154.3015"
@@ -2900,7 +2801,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcolorTFab1"
+       id="fab1_color_clima_temp_g"
        width="537.75739"
        height="89.730942"
        x="3154.2273"
@@ -2908,7 +2809,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-3TFab1"
+       id="fab1_vortex3_clima_temp_g"
        width="404.12573"
        height="79.957947"
        x="3122.2468"
@@ -2916,23 +2817,23 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortexTFab1"
+       id="fab1_vortex4_clima_temp_g"
        width="404.12573"
        height="79.734665"
        x="2574.7869"
-       y="-5871.5615"
+       y="-5899.1851"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortexHFab1"
+       id="fab1_vortex4_clima_hum_g"
        width="404.12573"
        height="79.734665"
        x="2574.7542"
-       y="-5790.0435"
+       y="-5817.667"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-1HFab1"
+       id="fab1_vortex1_hum_g"
        width="404.12573"
        height="79.734665"
        x="3130.4197"
@@ -2940,7 +2841,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-1TFab1"
+       id="fab1_vortex1_clima_temp_g"
        width="404.12573"
        height="79.734665"
        x="3130.4265"
@@ -2948,15 +2849,15 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-2TFab1"
+       id="fab1_vortex2_clima_temp_g"
        width="404.12573"
        height="79.734665"
-       x="2580.6504"
-       y="-5634.6089"
+       x="2574.0208"
+       y="-5584.8862"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcontinuas-2TFab1"
+       id="fab1_continuas2_clima_temp_g"
        width="478.59729"
        height="88.797791"
        x="2599.5051"
@@ -2964,7 +2865,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcontinuas-2HFab1"
+       id="fab1_continuas2_clima_hum_g"
        width="478.59729"
        height="88.265572"
        x="2599.5483"
@@ -2972,7 +2873,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcontinuas-1HFab1"
+       id="fab1_continuas1_clima_hum_g"
        width="409.69284"
        height="83.372696"
        x="2593.4365"
@@ -2980,7 +2881,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcontinuas-1TFab1"
+       id="fab1_continuas1_clima_temp_g"
        width="409.69284"
        height="83.372696"
        x="2593.449"
@@ -2988,7 +2889,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobinajeTFab1"
+       id="fab1_bobinaje_clima_temp_g"
        width="496.95944"
        height="98.849434"
        x="1730.8771"
@@ -2996,7 +2897,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobinajeHFab1"
+       id="fab1_bobinaje_clima_hum_g"
        width="496.95944"
        height="97.917412"
        x="1730.8458"
@@ -3004,7 +2905,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresHFab1"
+       id="fab1_manuares_clima_hum_g"
        width="433.5271"
        height="110.1375"
        x="3337.9204"
@@ -3012,22 +2913,22 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresTFab1"
+       id="fab1_manuares_clima_temp_g"
        width="433.5271"
        height="110.06416"
        x="3337.9363"
        y="-6285.9648"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
-       id="climaCardasHFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_cardas_clima_hum_color"
        width="434.29147"
        height="111.13393"
        x="3943.4136"
        y="6116.1865" />
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
-       id="climaCardasTFab1"
+       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_cardas_clima_temp_color"
        width="434.29147"
        height="111.13393"
        x="3943.4165"
@@ -3039,13 +2940,11 @@
        y="-6107.3594"
        id="climaTcardasFab1"
        transform="scale(0.97675154,-1.0238018)"><tspan
-         sodipodi:role="line"
-         id="tempCardasFab1"
+         id="fab1_cardas_clima_temp_text"
          x="4038.9109"
          y="-6107.3594"
          style="stroke-width:5.05065">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humCardasFab1"
+         id="fab1_cardas_clima_hum_text"
          x="4038.9109"
          y="-5981.2905"
          style="stroke-width:5.05065">nn% H.r</tspan></text>
@@ -3056,14 +2955,13 @@
        y="-6330.728"
        id="cardasTextFab1"
        transform="scale(0.99724263,-1.002765)"><tspan
-         sodipodi:role="line"
          id="tspan4240"
          x="4035.198"
          y="-6330.728"
          style="stroke-width:1.75046">Cardas</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcardasHFab1"
+       id="fab1_cardas_clima_hum_g"
        width="433.5271"
        height="110.1375"
        x="3943.7397"
@@ -3071,7 +2969,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcardasTFab1"
+       id="fab1_cardas_clima_temp_g"
        width="433.5271"
        height="110.06416"
        x="3943.7598"
@@ -3079,7 +2977,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasTFab1"
+       id="fab1_preparacion_clima_temp_g"
        width="521.97491"
        height="91.358025"
        x="3795.5115"
@@ -3087,7 +2985,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasHFab1"
+       id="fab1_preparacion_clima_hum_g"
        width="521.97491"
        height="90.866318"
        x="3795.4744"
@@ -3095,7 +2993,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasEFab1"
+       id="fab1_preparacion_clima_humAbs_g"
        width="522.10834"
        height="68.731331"
        x="3795.3782"
@@ -3103,7 +3001,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGempaqueHFab1"
+       id="fab1_empaque_clima_hum_g"
        width="442.44919"
        height="98.131676"
        x="1203.2284"
@@ -3111,7 +3009,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGempaqueTFab1"
+       id="fab1_empaque_clima_temp_g"
        width="442.44919"
        height="98.849541"
        x="1202.4808"
@@ -3119,15 +3017,15 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-2HFab1"
+       id="fab1_vortex2_clima_hum_g"
        width="404.12573"
        height="79.734665"
-       x="2580.6624"
-       y="-5553.0483"
+       x="2574.0327"
+       y="-5503.3257"
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGvortex-3HFab1"
+       id="fab1_vortex3_clima_hum_g"
        width="404.12573"
        height="79.957947"
        x="3122.2603"
@@ -3135,131 +3033,11 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGopenEndHFab4"
+       id="fab4_open_end_clima_hum_g"
        width="548.74994"
        height="135.35649"
        x="2860.6514"
        y="-2488.9668"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
-       id="carrier1"
-       width="828.75824"
-       height="153.17612"
-       x="6872.6606"
-       y="-5885.6006"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(8.0280725,0,0,-6.7232918,-555.99074,6489.7589)"
-       id="carrier1Textt"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="926"
-         y="106.77556"
-         id="tspan13165">Carrier1 </tspan></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="carrier1Vinf"
-       width="828.16687"
-       height="152.70961"
-       x="6872.8823"
-       y="-5885.3823"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
-       id="carrier2"
-       width="828.75824"
-       height="153.17612"
-       x="6870.5659"
-       y="-5632.4307"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(8.0280725,0,0,-6.7232918,-544.20659,6234.8126)"
-       id="carrier2Textt"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="926"
-         y="106.77556"
-         id="tspan13167">Carrier2 </tspan></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="carrier2Vinf"
-       width="828.26074"
-       height="152.70961"
-       x="6870.77"
-       y="-5632.2153"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
-       id="carrier3"
-       width="828.75824"
-       height="153.17612"
-       x="6866.8213"
-       y="-5361.3774"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(7.7903326,0,0,-6.7249695,-322.3325,5970.0538)"
-       id="carrier3Textt"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3127px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="926"
-         y="106.97487"
-         id="tspan13169">Carrier3 </tspan></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="carrier3Vinf"
-       width="827.82202"
-       height="152.70961"
-       x="6867.0327"
-       y="-5361.1948"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
-       id="carrier4"
-       width="828.75824"
-       height="153.17612"
-       x="6864.813"
-       y="-5094.1265"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(7.7173576,0,0,-6.7254894,-245.51933,5696.9283)"
-       id="carrier4Textt"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3843px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="926"
-         y="107.03788"
-         id="tspan13171">Carrier4 </tspan></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="carrier4Vinf"
-       width="828.32367"
-       height="152.70961"
-       x="6865.0718"
-       y="-5093.8882"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
-       id="carrier5"
-       width="828.75824"
-       height="153.17612"
-       x="6862.8066"
-       y="-4821.8325"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       transform="matrix(7.5873579,0,0,-6.5160289,-123.78886,5399.2669)"
-       id="carrier5Textt"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.763px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-95);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="926"
-         y="107.37113"
-         id="tspan13173">Carrier5 </tspan></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="carrier5Vinf"
-       width="827.82202"
-       height="152.70961"
-       x="6863.0273"
-       y="-4821.5923"
        transform="scale(1,-1)" />
     <text
        xml:space="preserve"
@@ -3268,7 +3046,6 @@
        y="-6234.6611"
        transform="scale(0.9278408,-1.0777711)"
        id="text494"><tspan
-         sodipodi:role="line"
          id="ultimaVez"
          x="5508.1284"
          y="-6234.6611"
@@ -3279,52 +3056,17 @@
        style="fill:#eeeeee;fill-opacity:1;stroke-width:1.74303" />
     <text
        xml:space="preserve"
-       style="font-size:119.739px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';fill:#eeeeee;fill-opacity:1;stroke:#09d025;stroke-width:0"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:119.739px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;fill-opacity:1;stroke:#09d025;stroke-width:0"
        x="1013.1094"
        y="-1491.8679"
-       id="text18388"
+       id="eyeHawkVersion"
        transform="scale(0.97280934,-1.0279507)"><tspan
-         sodipodi:role="line"
-         id="tspan18386"
-         style="stroke-width:0"
+         id="tspan95043"
          x="1013.1094"
          y="-1491.8679">Ojo de Halcón V3.6</tspan></text>
     <rect
-       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.633431;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContEFab6"
-       width="546.60632"
-       height="80.303741"
-       x="6915.8271"
-       y="-2443.8848"
-       transform="scale(1,-1)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.4068px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.64032;stroke-linejoin:bevel;paint-order:stroke fill markers"
-       x="5044.5142"
-       y="-3298.7908"
-       id="climaEcontFab6"
-       transform="scale(1.383849,-0.7226222)"><tspan
-         sodipodi:role="line"
-         id="climaETcontFab6"
-         x="5044.5142"
-         y="-3298.7908"
-         style="stroke-width:5.64032">nn g/kg</tspan><tspan
-         sodipodi:role="line"
-         id="tspan12132"
-         x="5044.5142"
-         y="-3197.0322"
-         style="stroke-width:5.64032" /></text>
-    <rect
-       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGContEFab6"
-       width="545.5506"
-       height="79.581146"
-       x="6916.145"
-       y="-2443.4644"
-       transform="scale(1,-1)" />
-    <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.612154;stroke-dasharray:none;stroke-opacity:1"
-       id="climaPeiEFab3"
+       id="fab3_peinadorasE90_clima_humAbs_color"
        width="532.23395"
        height="77.02491"
        x="3225.9531"
@@ -3335,14 +3077,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.2019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.67791;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2365.552"
        y="-4800.6982"
-       id="climaEpeiFab3"
+       id="fab3_peinadorasE90_clima_humAbs_text"
        transform="scale(1.3994606,-0.71456102)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3"
          x="2365.552"
          y="-4800.6982"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.2019px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.67791">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2365.552"
          y="-4709.1958"
          id="humPeiFab3-9"
@@ -3352,21 +3092,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.8722px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.97632;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1591.3779"
        y="-4925.3477"
-       id="climaEg33iFab3"
+       id="fab3_g33_clima_humAbs_text"
        transform="scale(1.4412351,-0.69384933)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5"
          x="1591.3779"
          y="-4925.3477"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.8722px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.97632">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1591.3779"
          y="-4828.0073"
          id="humPeiFab3-9-3"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.8722px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.97632" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGpeinadorasEFab3"
+       id="fab3_peinadorasE90_clima_humAbs_g"
        width="531.35718"
        height="76.114265"
        x="3226.271"
@@ -3379,10 +3117,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13175"> LUWA</tspan></text>
+         id="tspan9342"> LUWA</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.2431;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroLuwaFab9"
+       id="fab9_batan_luwa_filtro"
        width="342.25439"
        height="151.37778"
        x="3257.0908"
@@ -3396,10 +3134,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13177"> Cardas A</tspan></text>
+         id="tspan9344"> Cardas A</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCardasAFab9"
+       id="fab9_cardasA_filtro"
        width="326.0014"
        height="134.70045"
        x="3203.8789"
@@ -3413,10 +3151,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan13179"> Cardas B</tspan></text>
+         id="tspan9346"> Cardas B</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="filtroCardasBFab9"
+       id="fab9_cardasB_filtro"
        width="326.00098"
        height="134.70052"
        x="3243.2424"
@@ -3425,7 +3163,7 @@
        ry="38.719753" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.591864;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManHFab3-9"
+       id="fab3_peinadorasE65_clima_humAbs_color"
        width="531.35217"
        height="72.122818"
        x="3430.1931"
@@ -3436,21 +3174,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.6691px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.83556;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2370.2073"
        y="-5851.5181"
-       id="climaEmanFab3"
+       id="fab3_peinadorasE65_clima_humAbs_text"
        transform="scale(1.4747729,-0.6780705)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6"
          x="2370.2073"
          y="-5851.5181"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.6691px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.83556">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2370.2073"
          y="-5756.9316"
          id="humPeiFab3-9-2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.6691px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.83556" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanEFab3"
+       id="fab3_peinadorasE65_clima_humAbs_g"
        width="530.47687"
        height="71.270126"
        x="3430.4705"
@@ -3458,7 +3194,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.71369;stroke-dasharray:none;stroke-opacity:1"
-       id="climaCardasHFab3"
+       id="fab3_c50_clima_hum_color"
        width="535.8183"
        height="103.99493"
        x="4033.0029"
@@ -3466,7 +3202,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.71369;stroke-dasharray:none;stroke-opacity:1"
-       id="climaCardasTFab3"
+       id="fab3_c50_clima_temp_color"
        width="535.8183"
        height="103.99493"
        x="4032.9907"
@@ -3479,13 +3215,11 @@
        y="-4730.5933"
        id="climaTcardasFab3"
        transform="scale(1.1426491,-0.87515932)"><tspan
-         sodipodi:role="line"
-         id="tempc50Fab3"
+         id="fab3_c50_clima_temp_text"
          x="3526.8159"
          y="-4730.5933"
          style="stroke-width:5.4384">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humc50Fab3"
+         id="fab3_c50_clima_hum_text"
          x="3526.8159"
          y="-4594.8457"
          style="stroke-width:5.4384">nn% H.r</tspan></text>
@@ -3496,14 +3230,13 @@
        y="-4241.5986"
        id="cardasTextFab3"
        transform="scale(1.0020009,-0.99800309)"><tspan
-         sodipodi:role="line"
          id="tspan4331"
          x="4088.8206"
          y="-4241.5986"
          style="stroke-width:1.62637">Cardas C50</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcardasTFab3"
+       id="fab3_c50_clima_temp_g"
        width="534.93573"
        height="102.76543"
        x="4033.3462"
@@ -3511,7 +3244,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcardasHFab3"
+       id="fab3_c50_clima_hum_g"
        width="534.93573"
        height="102.26701"
        x="4033.3643"
@@ -3519,7 +3252,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.58438;stroke-dasharray:none;stroke-opacity:1"
-       id="climaManHFab3-9-4"
+       id="fab3_c50_clima_humAbs_color"
        width="535.95007"
        height="69.707008"
        x="4032.9233"
@@ -3530,21 +3263,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.5371px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.63541;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2705.3625"
        y="-6002.2026"
-       id="climaEcardasFab3"
+       id="fab3_c50_clima_humAbs_text"
        transform="scale(1.514046,-0.66048191)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-0"
          x="2705.3625"
          y="-6002.2026"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.5371px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.63541">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2705.3625"
          y="-5911.5312"
          id="humPeiFab3-9-2-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.5371px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.63541" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcardasEFab3"
+       id="fab3_c50_clima_humAbs_g"
        width="535.0672"
        height="68.882896"
        x="4033.2197"
@@ -3552,7 +3283,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.714592;stroke-dasharray:none;stroke-opacity:1"
-       id="climaMecheraHFab3"
+       id="fab3_mecheras_clima_hum_color"
        width="549.60217"
        height="101.64314"
        x="2830.282"
@@ -3560,7 +3291,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.714592;stroke-dasharray:none;stroke-opacity:1"
-       id="climaMecheraTFab3"
+       id="fab3_mecheras_clima_temp_color"
        width="549.60217"
        height="101.64314"
        x="2830.269"
@@ -3573,13 +3304,11 @@
        y="-4850.3789"
        id="climaTmecheraFab3"
        transform="scale(1.1684021,-0.85586973)"><tspan
-         sodipodi:role="line"
-         id="tempMechFab3"
+         id="fab3_mecheras_clima_temp_text"
          x="2421.3245"
          y="-4850.3789"
          style="stroke-width:5.43549">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humMechFab3"
+         id="fab3_mecheras_clima_hum_text"
          x="2421.3245"
          y="-4714.7051"
          style="stroke-width:5.43549">nn% H.r</tspan></text>
@@ -3590,14 +3319,13 @@
        y="-5007.7944"
        id="mecheraTextFab3"
        transform="scale(1.1827457,-0.84549029)"><tspan
-         sodipodi:role="line"
          id="tspan4242"
          x="2435.887"
          y="-5007.7944"
          style="stroke-width:1.86805">Mecheras</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmecheraTFab3"
+       id="fab3_mecheras_clima_temp_g"
        width="548.69684"
        height="100.44145"
        x="2830.6504"
@@ -3605,7 +3333,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresHFab3-7"
+       id="fab3_mecheras_clima_hum_g"
        width="548.69684"
        height="100.44145"
        x="2830.781"
@@ -3613,7 +3341,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.614682;stroke-dasharray:none;stroke-opacity:1"
-       id="climaMecheraEFab3"
+       id="fab3_mecheras_clima_humAbs_color"
        width="549.70404"
        height="75.193977"
        x="2830.2166"
@@ -3624,21 +3352,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.2586px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.93713;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1995.7959"
        y="-5768.7153"
-       id="climaEmecheraFab3"
+       id="fab3_mecheras_clima_humAbs_text"
        transform="scale(1.454245,-0.68764204)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-4"
          x="1995.7959"
          y="-5768.7153"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.2586px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.93713">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1995.7959"
          y="-5672.1421"
          id="humPeiFab3-9-2-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.2586px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.93713" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmecheraEFab3"
+       id="fab3_mecheras_clima_humAbs_g"
        width="548.79852"
        height="74.304985"
        x="2830.5061"
@@ -3646,7 +3372,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.646603;stroke-dasharray:none;stroke-opacity:1"
-       id="climaLabHFab3"
+       id="fab3_laboratorio_clima_hum_color"
        width="540.15448"
        height="84.677559"
        x="2947.2271"
@@ -3654,7 +3380,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.646603;stroke-dasharray:none;stroke-opacity:1"
-       id="climaLabTFab3"
+       id="fab3_laboratorio_clima_temp_color"
        width="540.15448"
        height="84.677559"
        x="2947.2136"
@@ -3667,13 +3393,11 @@
        y="-5520.1753"
        id="climaTmecheraFab3-8"
        transform="scale(1.1921525,-0.83881885)"><tspan
-         sodipodi:role="line"
-         id="tempLabFab3"
+         id="fab3_laboratorio_clima_temp_text"
          x="2470.5222"
          y="-5520.1753"
          style="stroke-width:4.62859">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humLabFab3"
+         id="fab3_laboratorio_clima_hum_text"
          x="2470.5222"
          y="-5404.6416"
          style="stroke-width:4.62859">nn% H.r</tspan></text>
@@ -3684,7 +3408,6 @@
        y="-5502.6777"
        id="mecheraTextFab3-2"
        transform="scale(1.2496077,-0.80025115)"><tspan
-         sodipodi:role="line"
          id="tspan3658"
          x="2371.2737"
          y="-5502.6777"
@@ -3707,7 +3430,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.606352;stroke-dasharray:none;stroke-opacity:1"
-       id="climaLaboratorioEFab3"
+       id="fab3_laboratorio_clima_humAbs_color"
        width="540.19507"
        height="74.458099"
        x="2947.1926"
@@ -3718,14 +3441,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.2575px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.87316;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2022.0171"
        y="-6672.561"
-       id="climaElaboratorioFab3"
+       id="fab3_laboratorio_clima_humAbs_text"
        transform="scale(1.490886,-0.6707421)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-4-3"
          x="2022.0171"
          y="-6672.561"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.2575px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.87316">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2022.0171"
          y="-6577.2393"
          id="humPeiFab3-9-2-9-3"
@@ -3735,14 +3456,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.5643px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.89275;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2258.2393"
        y="-7235.6646"
-       id="climaEcolorFab1"
+       id="fab1_color_clima_humAbs_text"
        transform="scale(1.428271,-0.70014724)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-4-3-4"
          x="2258.2393"
          y="-7235.6646"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.5643px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.89275">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2258.2393"
          y="-7139.959"
          id="humPeiFab3-9-2-9-3-6"
@@ -3752,21 +3471,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.7944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.39623;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1821.1824"
        y="-8721.7822"
-       id="climaEcontinuasFab1"
+       id="fab1_continuas2_clima_humAbs_text"
        transform="scale(1.4541329,-0.68769506)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-4-3-4-0"
          x="1821.1824"
          y="-8721.7822"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.7944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.39623">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1821.1824"
          y="-8635.7891"
          id="humPeiFab3-9-2-9-3-6-9"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.7944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.39623" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGlaboratorioEFab3"
+       id="fab3_laboratorio_clima_humAbs_g"
        width="539.30511"
        height="73.577805"
        x="2947.5181"
@@ -3777,21 +3494,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.9045px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.29797;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="2703.7449"
        y="-3189.9607"
-       id="climaTEprepFab4"
+       id="fab4_preparacion_clima_humAbs_text"
        transform="scale(1.3742715,-0.72765825)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-7"
          x="2703.7449"
          y="-3189.9607"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.9045px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:5.29797">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="2703.7449"
          y="-3086.3301"
          id="humPeiFab3-9-2-8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:82.9045px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:5.29797" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGprepEFab4"
+       id="fab4_preparacion_clima_humAbs_g"
        width="598.34637"
        height="76.746452"
        x="3624.5071"
@@ -3799,7 +3514,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg33EFab3"
+       id="fab3_g33_clima_humAbs_g"
        width="544.48987"
        height="72.874489"
        x="2221.4973"
@@ -3807,7 +3522,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.592236;stroke-dasharray:none;stroke-opacity:1"
-       id="climaG30EFab3"
+       id="fab3_g30_clima_humAbs_color"
        width="524.46295"
        height="73.161903"
        x="2211.9597"
@@ -3818,14 +3533,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.5969px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.57534;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1472.0128"
        y="-6120.0015"
-       id="climaEg30Fab3"
+       id="fab3_g30_clima_humAbs_text"
        transform="scale(1.5435809,-0.64784425)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-6"
          x="1472.0128"
          y="-6120.0015"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.5969px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.57534">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1472.0128"
          y="-6030.5054"
          id="humPeiFab3-9-3-9"
@@ -3835,14 +3548,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.7163px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.71074;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1163.7689"
        y="-5698.8784"
-       id="climaEbobFab3"
+       id="fab3_bobinaje_clima_humAbs_text"
        transform="scale(1.4370272,-0.69588105)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-6-1"
          x="1163.7689"
          y="-5698.8784"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.7163px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.71074">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1163.7689"
          y="-5606.7329"
          id="humPeiFab3-9-3-9-9"
@@ -3852,21 +3563,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.5452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.69984;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1208.0203"
        y="-8759.2383"
-       id="climaEbobFab1"
+       id="fab1_bobinaje_clima_humAbs_text"
        transform="scale(1.4677601,-0.68131025)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-6-1-6"
          x="1208.0203"
          y="-8759.2383"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.5452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.69984">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1208.0203"
          y="-8667.3066"
          id="humPeiFab3-9-3-9-9-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.5452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.69984" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGg30EFab3"
+       id="fab3_continuas_clima_humAbs_g"
        width="523.59888"
        height="72.296936"
        x="2212.2588"
@@ -3874,7 +3583,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobEFab3"
+       id="fab3_bobinaje_clima_humAbs_g"
        width="489.35464"
        height="72.421425"
        x="1632.2365"
@@ -3882,7 +3591,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.645677;stroke-dasharray:none;stroke-opacity:1"
-       id="climaTejeduriaHFab3"
+       id="fab3_tejeduria_clima_hum_color"
        width="475.19604"
        height="95.976875"
        x="1098.2896"
@@ -3890,7 +3599,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.558233;stroke-dasharray:none;stroke-opacity:1"
-       id="climaTejeduriaEFab3"
+       id="fab3_tejeduria_clima_humAbs_color"
        width="475.28513"
        height="71.727745"
        x="1098.2344"
@@ -3898,7 +3607,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.645677;stroke-dasharray:none;stroke-opacity:1"
-       id="climaTejeduriaTFab3"
+       id="fab3_tejeduria_clima_temp_color"
        width="475.19604"
        height="95.976875"
        x="1098.2732"
@@ -3911,19 +3620,17 @@
        y="-4643.377"
        id="climaTtejeduriaFab3"
        transform="scale(1.118776,-0.89383397)"><tspan
-         sodipodi:role="line"
-         id="tempTejeduriaFab3"
+         id="fab3_tejeduria_clima_temp_text"
          x="980.46075"
          y="-4643.377"
          style="stroke-width:4.91432">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="humTejeduriaFab3"
+         id="fab3_tejeduria_clima_hum_text"
          x="980.46075"
          y="-4520.7129"
          style="stroke-width:4.91432">nn% H.r</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGtejTFab3"
+       id="fab3_tejeduria_clima_temp_g"
        width="474.41327"
        height="94.842163"
        x="1098.6456"
@@ -3931,7 +3638,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGtejHFab3"
+       id="fab3_tejeduria_clima_hum_g"
        width="474.41327"
        height="94.259888"
        x="1098.6411"
@@ -3944,7 +3651,6 @@
        y="-4798.1348"
        id="bobinajeTextFab3-3"
        transform="scale(1.1317731,-0.88356934)"><tspan
-         sodipodi:role="line"
          id="tspan4333"
          x="1015.5122"
          y="-4798.1348"
@@ -3954,21 +3660,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.2196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.61511;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="789.03015"
        y="-5745.105"
-       id="climaEtejFab3"
+       id="fab3_tejeduria_clima_humAbs_text"
        transform="scale(1.442479,-0.693251)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-6-1-4"
          x="789.03015"
          y="-5745.105"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.2196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.61511">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="789.03015"
          y="-5654.8306"
          id="humPeiFab3-9-3-9-9-1"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.2196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.61511" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGtejEFab3"
+       id="fab3_tejeduria_clima_humAbs_g"
        width="474.5022"
        height="70.879723"
        x="1098.5149"
@@ -3979,21 +3683,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.1255px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.80085;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="933.64404"
        y="-4978.2998"
-       id="climaE3zFab3"
+       id="fab3_3z_clima_humAbs_text"
        transform="scale(1.42278,-0.70284935)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-8"
          x="933.64404"
          y="-4978.2998"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.1255px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.80085">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="933.64404"
          y="-4884.3931"
          id="humPeiFab3-9-3-0"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:75.1255px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.80085" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaG3zEFab3"
+       id="fab3_3z_clima_humAbs_g"
        width="508.3909"
        height="76.324005"
        x="1275.9777"
@@ -4001,7 +3703,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcolorHFab1-6"
+       id="fab1_color_clima_humAbs_g"
        width="537.84497"
        height="80.45462"
        x="3154.0981"
@@ -4009,7 +3711,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGcontinuas-2EFab1"
+       id="fab1_continuas2_clima_humAbs_g"
        width="478.66125"
        height="71.896797"
        x="2599.3931"
@@ -4017,7 +3719,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGbobinajeEFab1"
+       id="fab1_bobinaje_clima_humAbs_g"
        width="497.02087"
        height="81.977928"
        x="1730.8065"
@@ -4028,21 +3730,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.16628;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="959.02838"
        y="-7313.165"
-       id="climaEempaqueFab1"
+       id="fab1_empaque_clima_humAbs_text"
        transform="scale(1.3116129,-0.76242007)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-5-6-1-6-4"
          x="959.02838"
          y="-7313.165"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.16628">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="959.02838"
          y="-7231.6699"
          id="humPeiFab3-9-3-9-9-5-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.196px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.16628" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGempaqueEFab1"
+       id="fab1_empaque_clima_humAbs_g"
        width="442.54102"
        height="72.850838"
        x="1203.1071"
@@ -4053,14 +3753,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.1235px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.48119;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="5296.6704"
        y="-5045.8066"
-       id="climaEprepFab9-1"
+       id="fab9_cardas1_clima_humAbs_text"
        transform="scale(1.3886611,-0.72011811)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-0-1"
          x="5296.6704"
          y="-5045.8066"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.1235px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.48119">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="5296.6704"
          y="-4958.1523"
          id="humPeiFab3-9-2-0-7"
@@ -4070,14 +3768,12 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.0837px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.67036;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="4462.2622"
        y="-5050.7466"
-       id="climaEprepFab9-3"
+       id="fab9_open_end_clima_humAbs_text"
        transform="scale(1.3572046,-0.73680859)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-0-1-4"
          x="4462.2622"
          y="-5050.7466"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.0837px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.67036">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="4462.2622"
          y="-4959.3921"
          id="humPeiFab3-9-2-0-7-2"
@@ -4087,21 +3783,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.7998px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.46049;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="4096.9404"
        y="-4908.1719"
-       id="climaEempaqueFab9"
+       id="fab9_empaque_clima_humAbs_text"
        transform="scale(1.3234052,-0.75562647)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-0-1-4-7-0"
          x="4096.9404"
          y="-4908.1719"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.7998px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.46049">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="4096.9404"
          y="-4820.9224"
          id="humPeiFab3-9-2-0-7-2-4-4"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.7998px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.46049" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGPrepEFab9-1"
+       id="fab9_cardas1_clima_humAbs_g"
        width="519.94183"
        height="70.351326"
        x="7302.9585"
@@ -4109,7 +3803,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGopenEndEFab9"
+       id="fab9_open_end_clima_humAbs_g"
        width="474.1459"
        height="88.398621"
        x="6001.647"
@@ -4117,7 +3811,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGEmpEFab9"
+       id="fab9_empaque_clima_humAbs_g"
        width="463.47559"
        height="85.573212"
        x="5369.9409"
@@ -4125,7 +3819,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9b;fill-opacity:0.968627;stroke:#ffffff;stroke-width:0.680043;stroke-dasharray:none;stroke-opacity:1"
-       id="climaBobHFab6-6-8"
+       id="des_laboratorio_fibra_clima_hum_color"
        width="561.08472"
        height="90.169106"
        x="1778.8665"
@@ -4133,7 +3827,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.680043;stroke-dasharray:none;stroke-opacity:1"
-       id="climaLaboratorioFibraE"
+       id="des_laboratorio_fibra_clima_humAbs_color"
        width="561.08472"
        height="90.169106"
        x="1778.8362"
@@ -4141,7 +3835,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9b;fill-opacity:0.968627;stroke:#ffffff;stroke-width:0.680043;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContTFab6-4"
+       id="des_laboratorio_fibra_clima_temp_color"
        width="561.08472"
        height="90.169106"
        x="1778.844"
@@ -4154,13 +3848,11 @@
        y="-8678.5322"
        id="climaTlaboratorioFibra"
        transform="scale(1.2678275,-0.78875084)"><tspan
-         sodipodi:role="line"
-         id="tspan25452"
+         id="des_laboratorio_fibra_clima_temp_text"
          x="1399.6201"
          y="-8678.5322"
          style="stroke-width:4.98425">nn°C</tspan><tspan
-         sodipodi:role="line"
-         id="tspan25454"
+         id="des_laboratorio_fibra_clima_hum_text"
          x="1399.6201"
          y="-8554.1201"
          style="stroke-width:4.98425">nn% H.r</tspan></text>
@@ -4171,14 +3863,13 @@
        y="-7050.9907"
        id="laboratorioFibraFabxText"
        transform="scale(1.0173124,-0.98298221)"><tspan
-         sodipodi:role="line"
          id="tspan5652"
          x="1571.9895"
          y="-7050.9907"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:92.8868px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.68107;stroke-dasharray:none">Laboratorio de Fibra</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGlaboratorioFibraT"
+       id="des_laboratorio_fibra_clima_temp_g"
        width="559.98492"
        height="89.190659"
        x="1779.1969"
@@ -4186,7 +3877,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGLaboratorioFibraH"
+       id="des_laboratorio_fibra_clima_hum_g"
        width="559.98492"
        height="88.583572"
        x="1779.1516"
@@ -4197,21 +3888,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:92.8705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:5.93479;stroke-linejoin:bevel;paint-order:stroke fill markers"
        x="1200.8058"
        y="-9948.6934"
-       id="climaElaboratorioFibraE"
+       id="des_laboratorio_fibra_clima_humAbs_text"
        transform="scale(1.4912746,-0.67056731)"><tspan
-         sodipodi:role="line"
          id="climaETpeiFab3-6-0-1-4-7-0-8"
          x="1200.8058"
          y="-9948.6934"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:92.8705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:5.93479">nn g/kg</tspan><tspan
-         sodipodi:role="line"
          x="1200.8058"
          y="-9832.6055"
          id="humPeiFab3-9-2-0-7-2-4-4-5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:92.8705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:5.93479" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGLaboratorioFibraE"
+       id="des_laboratorio_fibra_clima_humAbs_g"
        width="559.98492"
        height="88.968185"
        x="1779.2219"
@@ -4246,8 +3935,8 @@
        id="rect1973-2-7-6-1"
        width="94.99836"
        height="101.76433"
-       x="5322.3022"
-       y="-1726.9286"
+       x="5322.3018"
+       y="-1720.6226"
        transform="scale(1,-1)" />
     <text
        xml:space="preserve"
@@ -4256,7 +3945,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1682);display:inline;fill:#f4f9fb;fill-opacity:0.866855;stroke:#f0f6fc;stroke-width:0;stroke-opacity:1"><tspan
          x="1010.5"
          y="116.4064"
-         id="tspan13181">Login</tspan></text>
+         id="tspan9348">Login</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.0849858;stroke:#2bc1b3;stroke-width:13.6446;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.0934844;paint-order:stroke fill markers"
        id="loginButton"
@@ -4266,231 +3955,14 @@
        y="-6948.4438"
        transform="matrix(0.99999144,0.00413788,0.00787854,-0.99996896,0,0)"
        ry="78.497437" />
-    <line
-       x1="7735.7793"
-       y1="4624.4761"
-       x2="7738.5073"
-       y2="5940.5107"
-       id="line374-0-9-2-3-9-6"
-       style="stroke:#ffffff;stroke-width:30.6317;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="7753.1372"
-       y1="5949.1904"
-       x2="6794.5645"
-       y2="5948.1196"
-       id="line374-0-9-2-3-9-0-4"
-       style="stroke:#ffffff;stroke-width:27.7676;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="7750.2671"
-       y1="4618.0918"
-       x2="6791.6943"
-       y2="4617.019"
-       id="line374-0-9-2-3-9-0-4-1"
-       style="stroke:#ffffff;stroke-width:27.7676;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6790.8418"
-       y1="4603.9009"
-       x2="6794.5952"
-       y2="4770.5859"
-       id="line374-0-9-2-3-9-6-5"
-       style="stroke:#ffffff;stroke-width:12.7864;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6791.3921"
-       y1="4894.0811"
-       x2="6793.1406"
-       y2="5611.6387"
-       id="line374-0-9-2-3-9-6-5-2"
-       style="stroke:#ffffff;stroke-width:23.8094;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6798.5645"
-       y1="5742.0615"
-       x2="6801.3252"
-       y2="5934.1045"
-       id="line374-0-9-2-3-9-6-5-9"
-       style="stroke:#ffffff;stroke-width:11.7691;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6801.4253"
-       y1="4777.1562"
-       x2="6235.4805"
-       y2="4778.4229"
-       id="line374-0-9-2-3-9-0-7"
-       style="stroke:#ffffff;stroke-width:15.0515;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6235.6304"
-       y1="4778.0854"
-       x2="5821.8965"
-       y2="4779.356"
-       id="line374-0-9-2-3-9-0-7-5"
-       style="stroke:#ffffff;stroke-width:12.8891;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="5978.3633"
-       y1="4892.5249"
-       x2="5978.2461"
-       y2="5124.2261"
-       id="line374-0-9-2-3-9-0-7-24"
-       style="stroke:#ffffff;stroke-width:14.1072;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="5981.1802"
-       y1="5383.8857"
-       x2="5981.063"
-       y2="5630.8994"
-       id="line374-0-9-2-3-9-0-7-24-5"
-       style="stroke:#ffffff;stroke-width:14.5605;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6808.2749"
-       y1="4885.2681"
-       x2="6230.2871"
-       y2="4884.1929"
-       id="line374-0-9-2-3-9-0-7-2"
-       style="stroke:#ffffff;stroke-width:21.599;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6230.2354"
-       y1="4883.96"
-       x2="5970.5625"
-       y2="4881.853"
-       id="line374-0-9-2-3-9-0-7-2-4"
-       style="stroke:#ffffff;stroke-width:20.2718;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6804.6055"
-       y1="5732.3496"
-       x2="6216.394"
-       y2="5731.2676"
-       id="line374-0-9-2-3-9-0-7-0"
-       style="stroke:#ffffff;stroke-width:21.8487;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6216.4116"
-       y1="5731.1362"
-       x2="5840.373"
-       y2="5729.1968"
-       id="line374-0-9-2-3-9-0-7-0-5"
-       style="stroke:#ffffff;stroke-width:23.3843;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6213.6499"
-       y1="5620.9165"
-       x2="5987.9248"
-       y2="5620.3716"
-       id="line374-0-9-2-3-9-0-7-0-5-2"
-       style="stroke:#ffffff;stroke-width:21.1174;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="6803.2998"
-       y1="5621.6787"
-       x2="6209.8701"
-       y2="5620.5957"
-       id="line374-0-9-2-3-9-0-7-0-8"
-       style="stroke:#ffffff;stroke-width:21.9434;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="5830.4785"
-       y1="4784.479"
-       x2="5830.5581"
-       y2="5123.9727"
-       id="line374-0-9-2-3-9-0-7-0-8-7"
-       style="stroke:#ffffff;stroke-width:16.5055;stroke-dasharray:none;stroke-opacity:1" />
-    <line
-       x1="5832.0664"
-       y1="5354.2153"
-       x2="5832.1465"
-       y2="5740.8013"
-       id="line374-0-9-2-3-9-0-7-0-8-7-2"
-       style="stroke:#ffffff;stroke-width:17.6042;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:94.446px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.57411"
-       x="5751.6621"
-       y="-6128.478"
-       id="entrada_agua_fria_principal"
-       transform="scale(1.0859962,-0.92081353)"><tspan
-         sodipodi:role="line"
-         id="tspan20-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:94.446px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.57411"
-         x="5751.6621"
-         y="-6128.478">25,3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:87.5563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.45928"
-       x="6660.5811"
-       y="-5472.645"
-       id="temp_aguaIn_cond-0-85-2"
-       transform="scale(0.96979779,-1.0311428)"><tspan
-         sodipodi:role="line"
-         id="tspan15873-60-2"
-         x="6660.5811"
-         y="-5472.645"
-         style="stroke-width:1.45928">°C</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.6432px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.51073"
-       x="5443.7402"
-       y="-5499.5591"
-       id="salida_agua_fria_principal"
-       transform="scale(1.1466552,-0.87210175)"><tspan
-         sodipodi:role="line"
-         id="tspan20-6-2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.6432px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.51073"
-         x="5443.7402"
-         y="-5499.5591">nn,n</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.0313px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.40054"
-       x="6313.6577"
-       y="-4908.1143"
-       id="temp_aguaIn_cond-0-85-2-0"
-       transform="scale(1.0239664,-0.97659454)"><tspan
-         sodipodi:role="line"
-         id="tspan15873-60-2-6"
-         x="6313.6577"
-         y="-4908.1143"
-         style="stroke-width:1.40054">°C</tspan></text>
-    <path
-       id="tanque_agua_fria_carrier_grafico"
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:11.8171"
-       d="m 7916.8504,4844.7994 -166.3886,1.6758 m 434.6462,-195.2131 -434.756,0.2792 m 157.7248,638.0094 0.1503,-438.5558 m 287.2048,437.2922 0.1501,-646.5275 m -145.9906,1137.9537 v -13.0714 l -40.4628,-19.275 c -22.422,-10.6347 -70.1016,-32.7901 -105.6676,-49.185 l -65.2048,-29.9096 v -169.931 -170.1532 l 30.4116,-8.8619 30.1541,-9.0838 -0.7732,-11.2991 -0.7734,-11.2995 h 11.8555 c 10.3089,0 11.5979,0.665 11.5979,5.0959 0,10.8559 1.8039,11.0774 40.2053,4.6527 31.958,-5.5389 41.7512,-5.9821 92.5234,-6.2035 54.6378,0 83.7608,2.4372 124.2238,11.0778 4.8967,1.1075 5.9278,0.2213 7.2168,-6.6469 1.8036,-7.5328 2.319,-7.976 12.1126,-7.976 h 10.3091 l -1.0308,10.1917 -0.7731,10.1914 27.8346,8.4192 c 15.2055,4.6523 29.3805,9.7482 31.4422,11.0774 3.3506,2.4372 3.8658,25.2572 3.8658,171.9252 -0.2575,128.0578 -1.0309,169.4881 -3.3502,170.8176 -5.4125,3.1016 -154.6357,71.5617 -181.4393,83.3042 l -26.5457,11.5204 v 13.7363 c 0,10.8563 -0.7731,13.9579 -3.8658,13.9579 -3.0928,0 -3.866,-2.8801 -3.866,-13.0718 z" />
-    <text
-       xml:space="preserve"
-       transform="matrix(5.1023535,0,0,-5.9554311,2354.4526,7137.8333)"
-       id="tanque_agua_fria_carrier"
-       style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
-         x="1092.4805"
-         y="279.99218"
-         id="tspan13183">nnn</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.1023535,0,0,-5.9554311,2536.0816,7140.4145)"
-       id="text11213-8"
-       style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-7);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
-         x="1092.4805"
-         y="279.99218"
-         id="tspan13185">%</tspan></text>
-    <g
-       transform="matrix(0.12514345,0,0,0.07578225,4975.9747,4915.4665)"
-       fill="#000000"
-       stroke="none"
-       id="demanda_agua_fria_grafico"
-       style="fill:#ffffff;fill-opacity:1">
-      <path
-         d="m 4941.9876,9683.9306 c 0,-10 -16,-283.0005 -35,-607.0005 -19,-324 -40,-665 -45,-759 -5,-93 -23,-399 -40,-680 -32,-536 -32,-550 -80,-1360 -16,-280 -33,-552 -36,-602 l -7,-93 h -71 c -120,0 -213,-59 -267,-167 l -24,-48 -2,-1307 -2,-1308 1442,1 c 793,0 2210,-2 3150,-5 l 1707.0004,-5 v 1820 c 0,1191 -3,1818 -10,1814 -5,-3 -148,-53 -317,-111 -420.0004,-144 -1023.0004,-350 -1283.0004,-439 -360,-123 -534,-183 -552,-190 -17,-7 -18,15 -18,364 0,204 -4,371 -8,371 -9,0 -138,-44 -677,-228 -209,-72 -551,-189 -760,-260 -209,-72 -420,-144 -470,-161 -250,-87 -416,-143 -419,-140 -2,2 -31,479 -65,1059 -34,580 -68,1159 -76,1285 -8,127 -21,354 -30,505 -8,151 -20,345 -25,430 -6,85 -17,272 -25,415 -8,143 -18,297 -21,343 l -6,82.0005 h -464 c -447,0 -464,-1 -464,-19 z m 700,-228.0005 c 0,-7 16,-275 50,-818 6,-88 17,-281 25,-430 8,-148 49,-841 90,-1540 41,-698 75,-1282 75,-1297 v -28 h 148 147 l 130,44 c 72,25 204,70 295,101 91,32 262,90 380,130 118,40 361,124 540,185 502,172 673,230 682,230 4,0 8,-167 8,-371 0,-349 1,-371 18,-364 19,7 132,46 712,245 212,72 468,160 570,195 682.0004,233 865.0004,295 872.0004,295 4,0 8,-543 8,-1207 v -1208 l 98,-100 97,-100 -97,95 -98,95 v -308 -307 h -2905.0004 -2905 v 408 c -1,1660 1,1916 11,1928 7,9 56,14 169,16 87,2 161,6 164,9 5,5 77,1174 131,2124 8,149 17,308 20,355 3,47 17,270 30,495 13,226 34,570 46,765 11,195 23,358 25,362 7,10 464,10 464,1 z m 2250,-3318 c 13,-14 21,-25 18,-25 -2,0 -15,11 -28,25 -13,14 -21,25 -18,25 2,0 15,-11 28,-25 z m 2730.0004,12 c 0,-2 -12,-14 -27,-28 l -28,-24 24,28 c 23,25 31,32 31,24 z m -2655.0004,-87 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m 2575.0004,7 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -80,-80 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -2175.0004,-247 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m 80,-80 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m -1945,6 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m 2011,-73 c 13,-16 12,-17 -3,-4 -10,7 -18,15 -18,17 0,8 8,3 21,-13 z m -2081,3 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m -1810,-1829 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -80,-80 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -90,-91 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m 6241.0004,-203 c 13,-16 12,-17 -3,-4 -10,7 -18,15 -18,17 0,8 8,3 21,-13 z m -3211.0004,-486 c 0,-2 -10,-12 -22,-23 l -23,-19 19,23 c 18,21 26,27 26,19 z m 65,-67 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m -125,6 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z"
-         id="path3569"
-         style="fill:#ffffff;fill-opacity:1" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:188.6px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2f2f2;stroke:#f4fcfc;stroke-width:25.8956;stroke-opacity:0.0934844"
-       x="5754.8062"
-       y="-5250.7192"
-       id="demanda_agua_fria_text"
-       transform="scale(1.0162339,-0.98402542)"><tspan
-         sodipodi:role="line"
-         id="tspan9810"
-         style="stroke-width:25.8956"
-         x="5754.8062"
-         y="-5250.7192">0</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.5978323,0,0,-6.2572389,-554.87624,3107.6739)"
+       transform="matrix(5.5978323,0,0,-6.2572389,-554.87625,3101.3679)"
        id="text1681-6"
        style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
          x="1025.3047"
          y="236.6468"
-         id="tspan13187">ok</tspan></text>
+         id="tspan9350">ok</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.5978323,0,0,-6.2572389,743.99006,3099.5706)"
@@ -4498,7 +3970,7 @@
        style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
          x="1025.3047"
          y="236.6468"
-         id="tspan13189">error en sistema</tspan></text>
+         id="tspan9352">error en sistema</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.5978323,0,0,-6.2572389,245.65685,3098.4198)"
@@ -4506,7 +3978,7 @@
        style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8-9);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
          x="1025.3047"
          y="236.6468"
-         id="tspan13191">alerta</tspan></text>
+         id="tspan9354">alerta</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.5978323,0,0,-6.2572389,-212.95021,3102.1624)"
@@ -4514,7 +3986,7 @@
        style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8-9-6);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
          x="1025.3047"
          y="236.6468"
-         id="tspan13193">aviso</tspan></text>
+         id="tspan9356">aviso</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#cacaca;stroke-width:0.91264;stroke-dasharray:none;stroke-opacity:1"
        id="rect37840"
@@ -4571,8 +4043,522 @@
          id="path31429"
          style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.604739;stroke-dasharray:none;stroke-opacity:1"
+       id="fab6_continuas_clima_hum_color"
+       width="439.04236"
+       height="91.126755"
+       x="6561.5894"
+       y="-2519.1116"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.604739;stroke-dasharray:none;stroke-opacity:1"
+       id="fab6_continuas_clima_temp_color"
+       width="439.04236"
+       height="91.126755"
+       x="6561.5835"
+       y="-2610.2712"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:92.0641px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.61038;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="5936.3096"
+       y="-2805.4307"
+       id="climaTcontFab6"
+       transform="scale(1.1054981,-0.90456961)"><tspan
+         id="fab6_continuas_clima_temp_text"
+         x="5936.3096"
+         y="-2805.4307"
+         style="stroke-width:4.61038">nn°C</tspan><tspan
+         id="fab6_continuas_clima_hum_text"
+         x="5936.3096"
+         y="-2690.3506"
+         style="stroke-width:4.61038">nn% H.r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(4.7151357,0,0,-4.5325277,-6253.0697,6666.8434)"
+       id="text136788"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-6);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2717.4004"
+         y="966.23744"
+         id="tspan9358">G-604 / G-605 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas_clima_temp_g"
+       width="438.1944"
+       height="90.283752"
+       x="6561.8765"
+       y="-2609.9771"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas_clima_hum_g"
+       width="438.1944"
+       height="90.306747"
+       x="6562.0215"
+       y="-2518.939"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.536297;stroke-dasharray:none;stroke-opacity:1"
+       id="fab6_continuas_clima_humAbs_color"
+       width="439.10855"
+       height="71.655708"
+       x="6561.5342"
+       y="-2428.0151"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:68.9235px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.77538;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="5036.9653"
+       y="-3117.6738"
+       id="fab6_continuas_clima_humAbs_text"
+       transform="scale(1.313046,-0.76158795)"><tspan
+         id="climaETcontFab6"
+         x="5036.9653"
+         y="-3117.6738"
+         style="stroke-width:4.77538">nn g/kg</tspan><tspan
+         id="tspan12132"
+         x="5036.9653"
+         y="-3031.5195"
+         style="stroke-width:4.77538" /></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas_clima_humAbs_g"
+       width="438.26047"
+       height="71.01091"
+       x="6561.7905"
+       y="-2427.6401"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.57606;stroke-dasharray:none;stroke-opacity:1"
+       id="climaContHFab6-3"
+       width="453.02847"
+       height="80.135666"
+       x="7025.2617"
+       y="-2337.8088"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.57606;stroke-dasharray:none;stroke-opacity:1"
+       id="climaContTFab6-3"
+       width="453.02847"
+       height="80.135666"
+       x="7025.2578"
+       y="-2417.9727"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:87.698px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.39174;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="5867.4326"
+       y="-2819.1213"
+       id="climaTcontFab6-3"
+       transform="scale(1.1975056,-0.83506917)"><tspan
+         id="fab6_continuas3_clima_temp_text"
+         x="5867.4326"
+         y="-2819.1213"
+         style="stroke-width:4.39174">nn°C</tspan><tspan
+         id="fab6_continuas3_clima_hum_text"
+         x="5867.4326"
+         y="-2709.4988"
+         style="stroke-width:4.39174">nn% H.r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(4.8653404,0,0,-3.9858457,-6197.6192,6047.1466)"
+       id="text136788-8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-2);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2717.4004"
+         y="966.23744"
+         id="tspan9360">G-607 / G-608 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas3_clima_temp_g"
+       width="452.15341"
+       height="79.394356"
+       x="7025.5586"
+       y="-2417.7148"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas3_clima_hum_g"
+       width="452.15341"
+       height="79.414574"
+       x="7025.709"
+       y="-2337.6572"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.562632;stroke-dasharray:none;stroke-opacity:1"
+       id="fab6_continuas2_clima_hum_color"
+       width="454.59473"
+       height="76.179947"
+       x="7029.1284"
+       y="-2662.8943"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.562632;stroke-dasharray:none;stroke-opacity:1"
+       id="fab6_continuas2_clima_temp_color"
+       width="454.59473"
+       height="76.179947"
+       x="7029.1235"
+       y="-2739.1006"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.6537px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.28938;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="5714.0645"
+       y="-3295.3494"
+       id="climaTcontFab6-2"
+       transform="scale(1.2303244,-0.81279376)"><tspan
+         id="fab6_continuas2_clima_temp_text"
+         x="5714.0645"
+         y="-3295.3494"
+         style="stroke-width:4.28938">nn°C</tspan><tspan
+         id="fab6_continuas2_clima_hum_text"
+         x="5714.0645"
+         y="-3188.2822"
+         style="stroke-width:4.28938">nn% H.r</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(4.8821618,0,0,-3.7890929,-6248.3095,6185.5528)"
+       id="text136788-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-4);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2717.4004"
+         y="966.23744"
+         id="tspan9362">G-601 / G-602 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas2_clima_temp_g"
+       width="453.71674"
+       height="75.475227"
+       x="7029.4263"
+       y="-2738.8564"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab6_continuas2_clima_hum_g"
+       width="453.71674"
+       height="75.494453"
+       x="7029.5776"
+       y="-2662.75"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(13.397046,0,0,-9.5372877,-28612.245,13153.339)"
+       id="fab3Text-6"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2612.2793"
+         y="749.32143"
+         id="tspan9364">Sala de Chillers</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(6.6250697,0,0,-4.739222,-11255.387,9285.3769)"
+       id="fab3Text-6-5"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-1);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2612.2793"
+         y="749.32143"
+         id="tspan9366">Entrada</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(8.2736165,0,0,-5.0403745,-15551.138,8667.9957)"
+       id="fab3Text-6-5-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-3-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
+         x="2612.2793"
+         y="749.32143"
+         id="tspan9368">Salida</tspan></text>
+    <rect
+       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
+       id="carrier1"
+       width="828.75824"
+       height="153.17612"
+       x="6704.5239"
+       y="-5867.6406"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(8.0280725,0,0,-6.7232918,-724.12716,6471.7991)"
+       id="carrier1Textt"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="926"
+         y="106.77556"
+         id="tspan9370">Carrier1 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="carrier1Vinf"
+       width="828.16687"
+       height="152.70961"
+       x="6704.7456"
+       y="-5867.4224"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
+       id="carrier2"
+       width="828.75824"
+       height="153.17612"
+       x="6702.4297"
+       y="-5614.4707"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(8.0280725,0,0,-6.7232918,-712.34301,6216.8528)"
+       id="carrier2Textt"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-9-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="926"
+         y="106.77556"
+         id="tspan9372">Carrier2 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="carrier2Vinf"
+       width="828.26074"
+       height="152.70961"
+       x="6702.6338"
+       y="-5614.2554"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
+       id="carrier3"
+       width="828.75824"
+       height="153.17612"
+       x="6698.6846"
+       y="-5343.4175"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(7.7903326,0,0,-6.7249695,-490.46892,5952.094)"
+       id="carrier3Textt"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3127px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-0-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="926"
+         y="106.97487"
+         id="tspan9374">Carrier3 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="carrier3Vinf"
+       width="827.82202"
+       height="152.70961"
+       x="6698.896"
+       y="-5343.2349"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
+       id="carrier4"
+       width="828.75824"
+       height="153.17612"
+       x="6696.6768"
+       y="-5076.167"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(7.7173576,0,0,-6.7254894,-413.65575,5678.9686)"
+       id="carrier4Textt"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3843px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-6-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="926"
+         y="107.03788"
+         id="tspan9376">Carrier4 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="carrier4Vinf"
+       width="828.32367"
+       height="152.70961"
+       x="6696.9351"
+       y="-5075.9282"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
+       id="carrier5"
+       width="828.75824"
+       height="153.17612"
+       x="6694.6704"
+       y="-4803.873"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(7.5873579,0,0,-6.5160289,-291.92527,5381.3071)"
+       id="carrier5Textt"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.763px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-95-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="926"
+         y="107.37113"
+         id="tspan9378">Carrier5 </tspan></text>
+    <rect
+       style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="carrier5Vinf"
+       width="827.82202"
+       height="152.70961"
+       x="6694.8911"
+       y="-4803.6328"
+       transform="scale(1,-1)" />
+    <path
+       id="condiciones_marcha_carrier_estado"
+       style="fill:#3d554e;fill-opacity:0.0945122;stroke:#eaeaea;stroke-width:25.939;stroke-dasharray:none;stroke-opacity:1"
+       d="m 6630.428,5724.1014 2.7609,192.0434 m -9.9334,-1040.0235 1.7487,717.5573 m -2.299,-1007.7373 3.7536,166.685 m 955.6718,-152.4945 -958.5728,-1.0723 m 961.4431,1332.171 -958.5728,-1.0709 m 941.2145,-1323.6435 2.7282,1316.035" />
+    <line
+       x1="6633.2891"
+       y1="4759.1968"
+       x2="6067.3442"
+       y2="4760.4634"
+       id="line374-0-9-2-3-9-0-7"
+       style="stroke:#ffffff;stroke-width:15.0515;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6067.4941"
+       y1="4760.126"
+       x2="5653.7598"
+       y2="4761.396"
+       id="line374-0-9-2-3-9-0-7-5"
+       style="stroke:#ffffff;stroke-width:12.8891;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="5810.2266"
+       y1="4874.5649"
+       x2="5810.1094"
+       y2="5106.2661"
+       id="line374-0-9-2-3-9-0-7-24"
+       style="stroke:#ffffff;stroke-width:14.1072;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="5813.0439"
+       y1="5365.9258"
+       x2="5812.9268"
+       y2="5612.9395"
+       id="line374-0-9-2-3-9-0-7-24-5"
+       style="stroke:#ffffff;stroke-width:14.5605;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6640.1387"
+       y1="4867.3081"
+       x2="6062.1509"
+       y2="4866.2334"
+       id="line374-0-9-2-3-9-0-7-2"
+       style="stroke:#ffffff;stroke-width:21.599;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6062.0991"
+       y1="4866.0005"
+       x2="5802.4258"
+       y2="4863.8931"
+       id="line374-0-9-2-3-9-0-7-2-4"
+       style="stroke:#ffffff;stroke-width:20.2718;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6636.4688"
+       y1="5714.3896"
+       x2="6048.2578"
+       y2="5713.3076"
+       id="line374-0-9-2-3-9-0-7-0"
+       style="stroke:#ffffff;stroke-width:21.8487;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6048.2754"
+       y1="5713.1763"
+       x2="5672.2363"
+       y2="5711.2373"
+       id="line374-0-9-2-3-9-0-7-0-5"
+       style="stroke:#ffffff;stroke-width:23.3843;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6045.5132"
+       y1="5602.9565"
+       x2="5819.7881"
+       y2="5602.4116"
+       id="line374-0-9-2-3-9-0-7-0-5-2"
+       style="stroke:#ffffff;stroke-width:21.1174;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="6635.1631"
+       y1="5603.7188"
+       x2="6041.7339"
+       y2="5602.6357"
+       id="line374-0-9-2-3-9-0-7-0-8"
+       style="stroke:#ffffff;stroke-width:21.9434;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="5662.3423"
+       y1="4766.5195"
+       x2="5662.4219"
+       y2="5106.0127"
+       id="line374-0-9-2-3-9-0-7-0-8-7"
+       style="stroke:#ffffff;stroke-width:16.5055;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="5663.9302"
+       y1="5336.2554"
+       x2="5664.0103"
+       y2="5722.8413"
+       id="line374-0-9-2-3-9-0-7-0-8-7-2"
+       style="stroke:#ffffff;stroke-width:17.6042;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:94.446px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.57411"
+       x="5596.8394"
+       y="-6108.9741"
+       id="entrada_agua_fria_principal"
+       transform="scale(1.0859962,-0.92081353)"><tspan
+         id="tspan20-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:94.446px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.57411"
+         x="5596.8394"
+         y="-6108.9741">25,3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:87.5563px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.45928"
+       x="6487.2085"
+       y="-5455.228"
+       id="temp_aguaIn_cond-0-85-2"
+       transform="scale(0.96979779,-1.0311428)"><tspan
+         id="tspan15873-60-2"
+         x="6487.2085"
+         y="-5455.228"
+         style="stroke-width:1.45928">°C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.6432px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.51073"
+       x="5297.1079"
+       y="-5478.9653"
+       id="salida_agua_fria_principal"
+       transform="scale(1.1466552,-0.87210175)"><tspan
+         id="tspan20-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.6432px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.51073"
+         x="5297.1079"
+         y="-5478.9653">nn,n</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.0313px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.40054"
+       x="6149.4565"
+       y="-4889.7241"
+       id="temp_aguaIn_cond-0-85-2-0"
+       transform="scale(1.0239664,-0.97659454)"><tspan
+         id="tspan15873-60-2-6"
+         x="6149.4565"
+         y="-4889.7241"
+         style="stroke-width:1.40054">°C</tspan></text>
+    <path
+       id="tanque_agua_fria_carrier_grafico"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:11.8171"
+       d="m 7748.714,4826.8396 -166.3886,1.6758 m 434.6462,-195.2131 -434.7559,0.2792 m 157.7247,638.0094 0.1504,-438.5557 m 287.2047,437.2921 0.1501,-646.5274 m -145.9905,1137.9537 v -13.0714 l -40.4629,-19.275 c -22.422,-10.6348 -70.1016,-32.7901 -105.6676,-49.185 l -65.2047,-29.9096 v -169.9311 -170.1531 l 30.4116,-8.8619 30.154,-9.0838 -0.7731,-11.2991 -0.7735,-11.2995 h 11.8555 c 10.3089,0 11.5979,0.6649 11.5979,5.0959 0,10.8558 1.8039,11.0773 40.2053,4.6526 31.958,-5.5388 41.7512,-5.982 92.5235,-6.2034 54.6377,0 83.7607,2.4371 124.2237,11.0777 4.8967,1.1075 5.9278,0.2213 7.2168,-6.6468 1.8036,-7.5329 2.3191,-7.976 12.1126,-7.976 h 10.3091 l -1.0307,10.1917 -0.7732,10.1914 27.8346,8.4191 c 15.2055,4.6524 29.3805,9.7483 31.4422,11.0775 3.3506,2.4372 3.8659,25.2572 3.8659,171.9252 -0.2576,128.0578 -1.031,169.4881 -3.3503,170.8175 -5.4124,3.1017 -154.6356,71.5617 -181.4393,83.3042 l -26.5456,11.5205 v 13.7362 c 0,10.8564 -0.7732,13.9579 -3.8658,13.9579 -3.0929,0 -3.866,-2.88 -3.866,-13.0717 z" />
+    <text
+       xml:space="preserve"
+       transform="matrix(5.1023535,0,0,-5.9554311,2186.3162,7119.8736)"
+       id="tanque_agua_fria_carrier"
+       style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-2);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
+         x="1092.4805"
+         y="279.99218"
+         id="tspan9380">nnn</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(5.1023535,0,0,-5.9554311,2367.9452,7122.4548)"
+       id="text11213-8"
+       style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-7-7);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
+         x="1092.4805"
+         y="279.99218"
+         id="tspan9382">%</tspan></text>
     <g
-       transform="matrix(0.05246611,0,0,0.05856788,6419.0193,5150.4189)"
+       transform="matrix(0.12514345,0,0,0.07578225,4807.8383,4897.5068)"
+       fill="#000000"
+       stroke="none"
+       id="demanda_agua_fria_grafico"
+       style="fill:#ffffff;fill-opacity:1">
+      <path
+         d="m 4941.9876,9683.9306 c 0,-10 -16,-283.0005 -35,-607.0005 -19,-324 -40,-665 -45,-759 -5,-93 -23,-399 -40,-680 -32,-536 -32,-550 -80,-1360 -16,-280 -33,-552 -36,-602 l -7,-93 h -71 c -120,0 -213,-59 -267,-167 l -24,-48 -2,-1307 -2,-1308 1442,1 c 793,0 2210,-2 3150,-5 l 1707.0004,-5 v 1820 c 0,1191 -3,1818 -10,1814 -5,-3 -148,-53 -317,-111 -420.0004,-144 -1023.0004,-350 -1283.0004,-439 -360,-123 -534,-183 -552,-190 -17,-7 -18,15 -18,364 0,204 -4,371 -8,371 -9,0 -138,-44 -677,-228 -209,-72 -551,-189 -760,-260 -209,-72 -420,-144 -470,-161 -250,-87 -416,-143 -419,-140 -2,2 -31,479 -65,1059 -34,580 -68,1159 -76,1285 -8,127 -21,354 -30,505 -8,151 -20,345 -25,430 -6,85 -17,272 -25,415 -8,143 -18,297 -21,343 l -6,82.0005 h -464 c -447,0 -464,-1 -464,-19 z m 700,-228.0005 c 0,-7 16,-275 50,-818 6,-88 17,-281 25,-430 8,-148 49,-841 90,-1540 41,-698 75,-1282 75,-1297 v -28 h 148 147 l 130,44 c 72,25 204,70 295,101 91,32 262,90 380,130 118,40 361,124 540,185 502,172 673,230 682,230 4,0 8,-167 8,-371 0,-349 1,-371 18,-364 19,7 132,46 712,245 212,72 468,160 570,195 682.0004,233 865.0004,295 872.0004,295 4,0 8,-543 8,-1207 v -1208 l 98,-100 97,-100 -97,95 -98,95 v -308 -307 h -2905.0004 -2905 v 408 c -1,1660 1,1916 11,1928 7,9 56,14 169,16 87,2 161,6 164,9 5,5 77,1174 131,2124 8,149 17,308 20,355 3,47 17,270 30,495 13,226 34,570 46,765 11,195 23,358 25,362 7,10 464,10 464,1 z m 2250,-3318 c 13,-14 21,-25 18,-25 -2,0 -15,11 -28,25 -13,14 -21,25 -18,25 2,0 15,-11 28,-25 z m 2730.0004,12 c 0,-2 -12,-14 -27,-28 l -28,-24 24,28 c 23,25 31,32 31,24 z m -2655.0004,-87 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m 2575.0004,7 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -80,-80 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -2175.0004,-247 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m 80,-80 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m -1945,6 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m 2011,-73 c 13,-16 12,-17 -3,-4 -10,7 -18,15 -18,17 0,8 8,3 21,-13 z m -2081,3 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m -1810,-1829 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -80,-80 c 0,-2 -15,-16 -32,-33 l -33,-29 29,33 c 28,30 36,37 36,29 z m -90,-91 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z m 6241.0004,-203 c 13,-16 12,-17 -3,-4 -10,7 -18,15 -18,17 0,8 8,3 21,-13 z m -3211.0004,-486 c 0,-2 -10,-12 -22,-23 l -23,-19 19,23 c 18,21 26,27 26,19 z m 65,-67 c 10,-11 16,-20 13,-20 -3,0 -13,9 -23,20 -10,11 -16,20 -13,20 3,0 13,-9 23,-20 z m -125,6 c 0,-2 -8,-10 -17,-17 -16,-13 -17,-12 -4,4 13,16 21,21 21,13 z"
+         id="path3569"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:188.6px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2f2f2;stroke:#f4fcfc;stroke-width:25.8956;stroke-opacity:0.0934844"
+       x="5589.3555"
+       y="-5232.4678"
+       id="demanda_agua_fria_text"
+       transform="scale(1.0162339,-0.98402542)"><tspan
+         id="tspan9810"
+         style="stroke-width:25.8956"
+         x="5589.3555"
+         y="-5232.4678">0</tspan></text>
+    <g
+       transform="matrix(0.05246611,0,0,0.05856788,6251.2212,5132.8119)"
        fill="#000000"
        stroke="none"
        id="g1590"
@@ -4639,9 +4625,273 @@
        id="condiciones_marcha_carrier"
        width="337.52652"
        height="356.27798"
-       x="6381.4243"
-       y="-5478.4751"
+       x="6213.6265"
+       y="-5460.8677"
        transform="scale(1,-1)" />
-  </g>
-</svg>
+    <line
+       x1="6585.1875"
+       y1="4811.0068"
+       x2="6585.1875"
+       y2="4774.1592"
+       id="line95"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6585.1875"
+       y1="4811.0068"
+       x2="6585.1875"
+       y2="4847.854"
+       id="line96"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6509.8862"
+       y1="4811.0068"
+       x2="6585.1875"
+       y2="4847.854"
+       id="line97"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6585.1875"
+       y1="4847.854"
+       x2="6509.8862"
+       y2="4811.0068"
+       id="line98"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6509.8862"
+       y1="4811.0068"
+       x2="6585.1875"
+       y2="4774.1592"
+       id="line99"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 6560.4918,4789.9086 c -11.6089,5.6745 -26.0616,12.7417 -32.1173,15.7049 l -11.0099,5.3875 32.1172,15.694 32.1171,15.6941 0.214,-16.0024 c 0.1183,-8.8014 0.1183,-22.9309 0,-31.3991 l -0.214,-15.3964 z"
+       id="path989" />
+    <line
+       x1="5980.8525"
+       y1="4808.2163"
+       x2="5980.8525"
+       y2="4771.3691"
+       id="line95-8"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5980.8525"
+       y1="4808.2163"
+       x2="5980.8525"
+       y2="4845.0635"
+       id="line96-1"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5905.5513"
+       y1="4808.2163"
+       x2="5980.8525"
+       y2="4845.0635"
+       id="line97-2"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5980.8525"
+       y1="4845.0635"
+       x2="5905.5513"
+       y2="4808.2163"
+       id="line98-5"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5905.5513"
+       y1="4808.2163"
+       x2="5980.8525"
+       y2="4771.3691"
+       id="line99-2"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 5956.1565,4787.1182 c -11.6089,5.6744 -26.0615,12.7417 -32.1172,15.7048 l -11.01,5.3876 32.1173,15.694 32.1171,15.6941 0.214,-16.0024 c 0.1182,-8.8014 0.1182,-22.9309 0,-31.3991 l -0.214,-15.3964 z"
+       id="path989-5" />
+    <line
+       x1="5738.7378"
+       y1="4936.354"
+       x2="5701.896"
+       y2="4935.7231"
+       id="line95-3"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5738.7378"
+       y1="4936.354"
+       x2="5775.5796"
+       y2="4936.9854"
+       id="line96-12"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5737.4487"
+       y1="5011.6445"
+       x2="5775.5796"
+       y2="4936.9854"
+       id="line97-28"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5775.5796"
+       y1="4936.9854"
+       x2="5737.4487"
+       y2="5011.6445"
+       id="line98-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5737.4487"
+       y1="5011.6445"
+       x2="5701.896"
+       y2="4935.7231"
+       id="line99-4"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 5717.2198,4960.685 c 5.4749,11.7044 12.2936,26.2759 15.1527,32.3815 l 5.1982,11.1005 16.2417,-31.8438 16.2415,-31.8438 -15.9964,-0.4878 c -8.798,-0.2689 -22.9255,-0.5108 -31.3945,-0.5376 l -15.3978,-0.05 z"
+       id="path989-0" />
+    <line
+       x1="5741.3921"
+       y1="5468.4536"
+       x2="5704.5503"
+       y2="5467.8223"
+       id="line95-3-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5741.3921"
+       y1="5468.4536"
+       x2="5778.2339"
+       y2="5469.085"
+       id="line96-12-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5740.103"
+       y1="5543.7441"
+       x2="5778.2339"
+       y2="5469.085"
+       id="line97-28-6"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5778.2339"
+       y1="5469.085"
+       x2="5740.103"
+       y2="5543.7441"
+       id="line98-0-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5740.103"
+       y1="5543.7441"
+       x2="5704.5503"
+       y2="5467.8223"
+       id="line99-4-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 5719.8739,5492.7844 c 5.4749,11.7044 12.2937,26.2759 15.1527,32.3814 l 5.1982,11.1006 16.2417,-31.8438 16.2415,-31.8438 -15.9964,-0.4878 c -8.798,-0.269 -22.9255,-0.5109 -31.3945,-0.5377 l -15.3978,-0.05 z"
+       id="path989-0-2" />
+    <line
+       x1="5892.6011"
+       y1="5657.4224"
+       x2="5893.8042"
+       y2="5694.25"
+       id="line95-3-6"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5892.6011"
+       y1="5657.4224"
+       x2="5891.3979"
+       y2="5620.5952"
+       id="line96-12-2"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5967.8623"
+       y1="5654.9634"
+       x2="5891.3979"
+       y2="5620.5952"
+       id="line97-28-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5891.3979"
+       y1="5620.5952"
+       x2="5967.8623"
+       y2="5654.9634"
+       id="line98-0-06"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="5967.8623"
+       y1="5654.9634"
+       x2="5893.8042"
+       y2="5694.25"
+       id="line99-4-1"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 5917.9728,5677.7033 c 11.4174,-6.0507 25.6315,-13.5861 31.5872,-16.7454 l 10.8282,-5.7442 -32.6126,-14.6368 -32.6127,-14.6368 0.3089,16.0009 c 0.1693,8.8005 0.6307,22.9225 1.0254,31.3824 l 0.7163,15.3812 z"
+       id="path989-0-6" />
+    <line
+       x1="6495.7329"
+       y1="5658.314"
+       x2="6496.936"
+       y2="5695.1416"
+       id="line95-3-6-9"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6495.7329"
+       y1="5658.314"
+       x2="6494.5298"
+       y2="5621.4868"
+       id="line96-12-2-0"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6570.9941"
+       y1="5655.855"
+       x2="6494.5298"
+       y2="5621.4868"
+       id="line97-28-0-2"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6494.5298"
+       y1="5621.4868"
+       x2="6570.9941"
+       y2="5655.855"
+       id="line98-0-06-4"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <line
+       x1="6570.9941"
+       y1="5655.855"
+       x2="6496.936"
+       y2="5695.1416"
+       id="line99-4-1-2"
+       style="fill:none;stroke:#ffffff;stroke-width:5.92266;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.280931;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 6521.1047,5678.5949 c 11.4174,-6.0507 25.6315,-13.5861 31.5872,-16.7454 l 10.8281,-5.7442 -32.6126,-14.6368 -32.6126,-14.6368 0.3088,16.0009 c 0.1693,8.8005 0.6308,22.9225 1.0254,31.3823 l 0.7163,15.3812 z"
+       id="path989-0-6-1" />
+    <rect
+       style="display:inline;fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.519734;stroke-dasharray:none;stroke-opacity:1"
+       id="fab1_vortex4_clima_humAbs_color"
+       width="404.90271"
+       height="72.983322"
+       x="2574.3726"
+       y="5664.6411" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.2322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#f9f9f9;fill-opacity:1;stroke:#05246f;stroke-width:4.04077;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="1958.3695"
+       y="-7594.1382"
+       id="fab1_vortex4_clima_humAbs_text"
+       transform="scale(1.3357236,-0.74865789)"><tspan
+         id="climaETpeiFab3-6-4-3-4-0-5"
+         x="1958.3695"
+         y="-7594.1382"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.2322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.04077">nn g/kg</tspan><tspan
+         x="1958.3695"
+         y="-7515.0977"
+         id="humPeiFab3-9-2-9-3-6-9-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.2322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.04077" /></text>
+    <rect
+       style="display:inline;fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
+       id="fab1_vortex4_clima_humAbs_g"
+       width="404.42703"
+       height="71.941864"
+       x="2574.5979"
+       y="-5736.8862"
+       transform="scale(1,-1)" />
+      </g>
+   </svg>
 </template>
