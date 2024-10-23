@@ -1,17 +1,5 @@
 body{
-    /*background-color: #282c34;*/
     transition:
     color 0.5s,
     background-color 0.5s;
-
-}
-
-.container__map {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    z-index: 0;
 }
