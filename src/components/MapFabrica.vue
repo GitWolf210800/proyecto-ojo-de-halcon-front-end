@@ -2,7 +2,7 @@
    <div class="container__map">
       <svg
    width="1217.605"
-   height="926.132"
+   height="926.13202"
    viewBox="0 0 322.158 245.039"
    version="1.1"
    id="svg61192"
@@ -12,162 +12,162 @@
      id="defs60144">
     <path
        id="b"
-       d="M2650.607 947.607h151.848v25.468h-151.848z" />
+       d="m 2650.607,947.607 h 151.848 v 25.468 h -151.848 z" />
     <path
        id="c"
-       d="M2717.401 952.892h77.846v20.182h-77.846z" />
+       d="m 2717.401,952.892 h 77.846 v 20.182 h -77.846 z" />
     <path
        id="d"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="e"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="f"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="g"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="h"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="i"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="j"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="k"
-       d="M2612.279 735.978h127.76v32.62h-127.76z" />
+       d="m 2612.279,735.978 h 127.76 v 32.62 h -127.76 z" />
     <path
        id="l"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="m"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="n"
-       d="M286.78 152.904h157.661v77.471H286.78z" />
+       d="m 286.78,152.904 h 157.661 v 77.471 H 286.78 Z" />
     <path
        id="o"
-       d="M286.78 152.904h202.14v77.334H286.78z" />
+       d="m 286.78,152.904 h 202.14 v 77.334 H 286.78 Z" />
     <path
        id="p"
-       d="M286.78 152.904h157.661v77.471H286.78z" />
+       d="m 286.78,152.904 h 157.661 v 77.471 H 286.78 Z" />
     <path
        id="q"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="r"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="s"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="t"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="u"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="v"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="w"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="x"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="y"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="z"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="A"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="B"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="C"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="D"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="E"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="F"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="G"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="H"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="I"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="J"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="K"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="L"
-       d="M926 93.5h141.5V118H926z" />
+       d="m 926,93.5 h 141.5 V 118 H 926 Z" />
     <path
        id="M"
-       d="M926 93.5h141.5V118H926z" />
+       d="m 926,93.5 h 141.5 V 118 H 926 Z" />
     <path
        id="N"
-       d="M926 93.5h141.5V118H926z" />
+       d="m 926,93.5 h 141.5 V 118 H 926 Z" />
     <path
        id="O"
-       d="M926 93.5h141.5V118H926z" />
+       d="m 926,93.5 h 141.5 V 118 H 926 Z" />
     <path
        id="P"
-       d="M926 93.5h141.5V118H926z" />
+       d="m 926,93.5 h 141.5 V 118 H 926 Z" />
     <path
        id="Q"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="R"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="S"
-       d="M870.448 886.712h63.64v26.87h-63.64z" />
+       d="m 870.448,886.712 h 63.64 v 26.87 h -63.64 z" />
     <path
        id="T"
-       d="M1010.5 103.5h82v21h-82z" />
+       d="m 1010.5,103.5 h 82 v 21 h -82 z" />
     <path
        id="U"
-       d="M1092.48 263.044h48.79v21.92h-48.79z" />
+       d="m 1092.48,263.044 h 48.79 v 21.92 h -48.79 z" />
     <path
        id="V"
-       d="M1092.48 263.044h48.79v21.92h-48.79z" />
+       d="m 1092.48,263.044 h 48.79 v 21.92 h -48.79 z" />
     <path
        id="W"
-       d="M1025.305 219.203h31.261v23.409h-31.261z" />
+       d="m 1025.305,219.203 h 31.261 v 23.409 h -31.261 z" />
     <path
        id="X"
-       d="M1025.305 219.203h151.761v23.409h-151.761z" />
+       d="m 1025.305,219.203 h 151.761 v 23.409 h -151.761 z" />
     <path
        id="Y"
-       d="M1025.305 219.203h53.761v22.909h-53.761z" />
+       d="m 1025.305,219.203 h 53.761 v 22.909 h -53.761 z" />
     <path
        id="Z"
-       d="M1025.305 219.203h53.761v22.909h-53.761z" />
+       d="m 1025.305,219.203 h 53.761 v 22.909 h -53.761 z" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="a">
       <path
-         d="M0 0h9921v7016H0z"
+         d="M 0,0 H 9921 V 7016 H 0 Z"
          id="path60141" />
     </clipPath>
     <rect
@@ -627,7 +627,7 @@
        y="-2376.4734"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
        id="fab4_open_end_clima_hum_color"
        width="549.6554"
        height="136.97594"
@@ -635,7 +635,7 @@
        y="-2490.1851"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
        id="fab4_retorcidos_clima_hum_color"
        width="549.6554"
        height="136.97594"
@@ -659,7 +659,7 @@
        y="-3690.2493"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
        id="fab3_c80_clima_hum_color"
        width="492.48203"
        height="121.70302"
@@ -667,7 +667,7 @@
        y="-3543.3562"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.740184;stroke-dasharray:none;stroke-opacity:1"
        id="fab3_c80_clima_temp_color"
        width="492.48203"
        height="121.70302"
@@ -801,7 +801,7 @@
        x="2574.4436"
        y="5737.6353" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_vortex3_clima_hum_color"
        width="404.89435"
        height="80.888939"
@@ -815,14 +815,14 @@
        x="2573.718"
        y="5423.3462" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_vortex1_clima_hum_color"
        width="404.89435"
        height="80.888939"
        x="3130.085"
        y="5471.7368" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_vortex1_clima_temp_color"
        width="404.89435"
        height="80.888939"
@@ -843,14 +843,14 @@
        x="2599.1265"
        y="5977.1689" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_manuares_clima_hum_color"
        width="434.29147"
        height="111.13393"
        x="3337.6042"
        y="6064.0181" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_manuares_clima_temp_color"
        width="434.29147"
        height="111.13393"
@@ -864,14 +864,14 @@
        x="2599.1382"
        y="6140.1665" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_continuas1_clima_hum_color"
        width="410.3277"
        height="84.56601"
        x="2593.2034"
        y="6309.9761" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.563194;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_continuas1_clima_temp_color"
        width="410.3277"
        height="84.56601"
@@ -885,7 +885,7 @@
        x="2573.718"
        y="5504.2559" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.547153;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_vortex3_clima_temp_color"
        width="404.89435"
        height="80.888939"
@@ -993,7 +993,7 @@
          y="-4674.9702"
          style="stroke-width:5.31796">nn% H.r</tspan></text>
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
        id="fab4_retorcidos_clima_temp_color"
        width="549.6554"
        height="136.97594"
@@ -1001,7 +1001,7 @@
        y="-2638.3362"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.829586;stroke-dasharray:none;stroke-opacity:1"
        id="fab4_open_end_clima_temp_color"
        width="549.6554"
        height="136.97594"
@@ -1294,7 +1294,7 @@
          y="-4212.6655"
          style="stroke-width:5.23675">nn% H.r</tspan></text>
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
        id="fab9_preparacion_clima_hum_color"
        width="470.93207"
        height="114.62723"
@@ -1310,7 +1310,7 @@
        y="-3783.6042"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
        id="fab9_cardas2_clima_hum_color"
        width="454.3085"
        height="91.31369"
@@ -1318,7 +1318,7 @@
        y="-4073.168"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.615797;stroke-dasharray:none;stroke-opacity:1"
        id="fab9_cardas2_clima_temp_color"
        width="454.3085"
        height="91.31369"
@@ -1326,7 +1326,7 @@
        y="-4164.4365"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.702451;stroke-dasharray:none;stroke-opacity:1"
        id="fab9_preparacion_clima_temp_color"
        width="470.93207"
        height="114.62723"
@@ -1430,7 +1430,7 @@
        style="font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect136516);display:inline;fill:#ffffff;stroke:#e6f9fb;stroke-width:0.944882;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2650.6074"
          y="963.37856"
-         id="tspan9276">Fábrica N°6</tspan></text>
+         id="tspan47803">Fábrica N°6</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.2822px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:#e2fcff;stroke-width:1.04729;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1460,7 +1460,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9278">Fábrica N°9</tspan></text>
+         id="tspan47805">Fábrica N°9</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13995.601,9433.0579)"
@@ -1468,7 +1468,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9280">Fábrica N°3</tspan></text>
+         id="tspan47807">Fábrica N°3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13773.976,7700.0009)"
@@ -1476,7 +1476,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-0);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9282">Fábrica N°4</tspan></text>
+         id="tspan47809">Fábrica N°4</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-14231.841,11313.44)"
@@ -1484,7 +1484,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9284">Fábrica N°1</tspan></text>
+         id="tspan47811">Fábrica N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.3595732,-0.09155577,-0.10081157,-5.3778063,-10055.087,11223.656)"
@@ -1492,7 +1492,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2-3-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9286">Batan Fab N°1</tspan></text>
+         id="tspan47813">Batan Fab N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.6338846,0.07368362,0.07686212,-5.1165962,-942.93686,11186.537)"
@@ -1500,7 +1500,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9288">Batan</tspan></text>
+         id="tspan47815">Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.2008;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_batan_filtro"
@@ -1517,7 +1517,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-2-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9290">Cotonia</tspan></text>
+         id="tspan47817">Cotonia</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.8908;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_cotonia_filtro"
@@ -1997,7 +1997,7 @@
        y="-3664.6704"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_taller_cardas_clima_hum_color"
        width="419.82797"
        height="100.49099"
@@ -2005,7 +2005,7 @@
        y="-5295.9287"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.621003;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_taller_cardas_clima_temp_color"
        width="419.82797"
        height="100.49099"
@@ -2320,7 +2320,7 @@
        id="tempExtt"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan9292">32 °C</tspan></text>
+         id="tspan47819">32 °C</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(3.6503198,0,0,-6.7131656,6090.9724,7735.705)"
@@ -2328,7 +2328,7 @@
        id="entalpiaa"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan9294">66.66 Kj/Kg</tspan></text>
+         id="tspan47821">66.66 Kj/Kg</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.0326882,0,0,-7.3691124,4991.4657,7831.6512)"
@@ -2336,7 +2336,7 @@
        id="text349"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan9296">50 %</tspan></text>
+         id="tspan47823">50 %</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.9844109,0,0,-5.9560629,108.50494,7560.5996)"
@@ -2344,7 +2344,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.369408;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9298">Cardas</tspan></text>
+         id="tspan47825">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_cardas_filtro"
@@ -2361,7 +2361,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9300">G33</tspan></text>
+         id="tspan47827">G33</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_g33_filtro"
@@ -2378,7 +2378,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9302">Cardas</tspan></text>
+         id="tspan47829">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.5341;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_cardas_filtro"
@@ -2395,7 +2395,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9304">Color</tspan></text>
+         id="tspan47831">Color</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:15.3494;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_color_filtro"
@@ -2412,7 +2412,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9306">Preparación</tspan></text>
+         id="tspan47833">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_preparacion_filtro"
@@ -2429,7 +2429,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9308">Preparación</tspan></text>
+         id="tspan47835">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_preparacion_filtro"
@@ -2446,7 +2446,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9310">Continuas</tspan></text>
+         id="tspan47837">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_continuas_filtro"
@@ -2463,7 +2463,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9312">Bobinaje</tspan></text>
+         id="tspan47839">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4881;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_bobinaje_filtro"
@@ -2480,7 +2480,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9314">Cardas</tspan></text>
+         id="tspan47841">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:17.7598;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_cardas_filtro"
@@ -2497,7 +2497,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9316">Continuas</tspan></text>
+         id="tspan47843">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_g30_filtro"
@@ -2514,7 +2514,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9318">Bobinaje</tspan></text>
+         id="tspan47845">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_bobinaje_filtro"
@@ -2531,7 +2531,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9320">Peinadoras</tspan></text>
+         id="tspan47847">Peinadoras</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_peinadoras_filtro"
@@ -2548,7 +2548,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9322">Clima</tspan></text>
+         id="tspan47849">Clima</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_clima_filtro"
@@ -2565,7 +2565,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9324">Retorcidos</tspan></text>
+         id="tspan47851">Retorcidos</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:23.9837;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_retorcidos_filtro"
@@ -2582,7 +2582,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9326"> Batan</tspan></text>
+         id="tspan47853"> Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_batan_filtro"
@@ -2599,7 +2599,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9328"> Bobinaje</tspan></text>
+         id="tspan47855"> Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_bobinaje_filtro"
@@ -2625,7 +2625,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9330"> Continuas</tspan></text>
+         id="tspan47857"> Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.351275;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_continuas_filtro"
@@ -2642,7 +2642,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9332"> Open-End</tspan></text>
+         id="tspan47859"> Open-End</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.1778;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_open_end_filtro"
@@ -2659,7 +2659,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9334">  EX-8</tspan></text>
+         id="tspan47861">  EX-8</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_ex8_filtro"
@@ -2676,7 +2676,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9336">Poliester
+         id="tspan47863">Poliester
 </tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -2694,7 +2694,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#041b53;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9338"> Preparación</tspan></text>
+         id="tspan47865"> Preparación</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.34902;stroke:#c1a22b;stroke-width:23.5179;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_preparacion_filtro"
@@ -2711,7 +2711,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-6);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9340"> Preparación</tspan></text>
+         id="tspan47867"> Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4339;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_preparacion_filtro"
@@ -2921,14 +2921,14 @@
        y="-6285.9648"
        transform="scale(1,-1)" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_cardas_clima_hum_color"
        width="434.29147"
        height="111.13393"
        x="3943.4136"
        y="6116.1865" />
     <rect
-       style="fill:#8f8f9f;fill-opacity:0.94117647;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.664214;stroke-dasharray:none;stroke-opacity:1"
        id="fab1_cardas_clima_temp_color"
        width="434.29147"
        height="111.13393"
@@ -3051,20 +3051,6 @@
          x="5508.1284"
          y="-6234.6611"
          style="stroke-width:0">última actualización: 21/11/2023 11:29 Hs</tspan></text>
-    <path
-       d="m 1551.199,2021.6743 c 4.5467,-1.3215 9.0844,-2.2801 10.0916,-2.4323 3.1788,-0.088 -16.5179,-8.1214 -22.3472,-9.0196 -3.4951,-0.6475 -10.882,0.5905 -18.1288,2.9245 l -12.1366,4.0093 6.6286,2.3763 c 10.7737,3.7706 26.6316,4.7804 35.8924,2.1418 z m -79.1598,23.5058 c -58.3437,-13.7099 -107.6716,-40.4317 -153.9218,-83.4298 -13.8907,-12.9546 -45.908,-50.0809 -45.8315,-53.1703 0.012,-0.5457 6.4346,3.462 14.1517,9.1434 16.7577,11.9474 47.73,30.4938 64.0943,38.065 14.3776,6.7859 32.4394,13.3157 28.5017,10.2907 -1.8061,-1.325 -8.7016,-6.4377 -15.5968,-11.5494 -15.7598,-11.7365 -44.5438,-44.4032 -55.125,-62.7165 -16.353,-28.3021 -26.3483,-56.7822 -31.549,-89.8498 -3.172,-20.4604 -4.9631,-49.4274 -2.791,-49.3639 0.6682,0.021 3.3735,5.5541 6.0473,12.3613 10.9888,28.8725 36.9918,65.8227 61.056,86.5307 10.8061,9.2274 28.7105,22.1175 31.0495,22.1857 0.6685,0.024 -0.2036,-5.0978 -1.8932,-11.3301 -5.9265,-23.9964 -7.8391,-48.0569 -6.7052,-87.122 0.9628,-32.1601 1.6396,-39.2324 5.124,-51.6784 2.1981,-7.7552 4.5497,-14.9605 5.4078,-15.8447 0.6868,-0.7073 2.863,5.9031 4.8191,14.6892 11.8495,54.9029 40.2198,104.2881 84.1488,146.4911 50.1387,48.0221 121.1457,83.7438 169.2608,85.1521 21.2175,0.6222 31.8864,-4.8859 32.1787,-16.6976 0.2604,-10.54 14.9873,9.1678 18.7726,25.0996 5.168,20.8826 -5.536,41.3007 -24.9193,47.6435 -10.114,3.3408 -42.7772,5.8402 -51.429,4.1321 -6.9806,-1.66 -7.3284,-1.1237 -3.643,5.3486 2.4025,4.2533 2.3844,4.9802 -0.224,9.0862 -5.7381,8.9248 -22.6474,16.6133 -44.8123,20.5106 -16.1194,2.8017 -66.8851,0.4072 -86.1705,-3.9773 z m 107.1258,-126.7073 c -33.4702,-25.7118 -59.3969,-65.7512 -69.0728,-107.1329 -2.7107,-12.0818 -3.2079,-19.0069 -2.709,-39.178 0.5353,-21.6249 1.1482,-26.1533 5.4774,-38.9382 6.139,-18.3692 15.701,-33.1833 30.6088,-47.8404 11.4768,-11.121 30.142,-22.2131 41.4071,-24.7927 4.8767,-1.1292 4.8767,-1.1292 -3.2634,10.2699 -11.6026,16.2091 -24.6715,44.3771 -30.2049,65.3103 -5.8992,22.195 -8.645,58.8491 -6.0015,80.3853 4.2888,36.1322 18.4573,71.6449 39.6505,100.2704 4.3713,5.7657 7.4287,10.5834 6.9275,10.5688 -0.6684,-0.024 -6.421,-4.0068 -12.8197,-8.9225 z m -94.4456,-74.9605 c -18.2978,-17.2659 -34.5598,-42.4741 -42.5273,-65.0755 -13.4371,-38.0367 -9.9013,-79.5775 8.8026,-105.7628 10.3929,-14.6075 27.6853,-24.2852 40.3466,-22.4596 l 5.1653,0.6975 -4.6546,5.6831 c -7.0657,8.522 -14.8841,27.2061 -17.9394,42.5739 -5.5282,27.4797 -4.192,68.0725 3.3469,101.2084 3.4785,14.8322 13.2068,40.5762 18.9922,50.02 4.9901,7.784 1.8561,6.0556 -11.5329,-6.8839 z"
-       id="path18288"
-       style="fill:#eeeeee;fill-opacity:1;stroke-width:1.74303" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:119.739px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eeeeee;fill-opacity:1;stroke:#09d025;stroke-width:0"
-       x="1013.1094"
-       y="-1491.8679"
-       id="eyeHawkVersion"
-       transform="scale(0.97280934,-1.0279507)"><tspan
-         id="tspan95043"
-         x="1013.1094"
-         y="-1491.8679">Ojo de Halcón V3.6</tspan></text>
     <rect
        style="fill:#c1a22b;fill-opacity:0.939698;stroke:#ffffff;stroke-width:0.612154;stroke-dasharray:none;stroke-opacity:1"
        id="fab3_peinadorasE90_clima_humAbs_color"
@@ -3118,7 +3104,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9342"> LUWA</tspan></text>
+         id="tspan47869"> LUWA</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.2431;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_batan_luwa_filtro"
@@ -3135,7 +3121,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9344"> Cardas A</tspan></text>
+         id="tspan47871"> Cardas A</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_cardasA_filtro"
@@ -3152,7 +3138,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan9346"> Cardas B</tspan></text>
+         id="tspan47873"> Cardas B</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_cardasB_filtro"
@@ -3907,38 +3893,6 @@
        x="1779.2219"
        y="-6735.9092"
        transform="scale(1,-1)" />
-    <rect
-       style="fill:#c96100;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"
-       id="rect1973-5"
-       width="94.99836"
-       height="101.76433"
-       x="7312.3774"
-       y="-1719.7386"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#bd1f1f;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"
-       id="rect1973-2-4"
-       width="94.99836"
-       height="101.76433"
-       x="6285.8301"
-       y="-1714.238"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#ffff00;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"
-       id="rect1973-2-7-4"
-       width="94.99836"
-       height="101.76433"
-       x="5792.9268"
-       y="-1715.5338"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#2bc12c;fill-opacity:1;stroke:#e5f9e5;stroke-width:0"
-       id="rect1973-2-7-6-1"
-       width="94.99836"
-       height="101.76433"
-       x="5322.3018"
-       y="-1720.6226"
-       transform="scale(1,-1)" />
     <text
        xml:space="preserve"
        transform="matrix(12.261312,0,0,-9.9260223,-4507.1091,7956.7496)"
@@ -3946,7 +3900,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1682);display:inline;fill:#f4f9fb;fill-opacity:0.866855;stroke:#f0f6fc;stroke-width:0;stroke-opacity:1"><tspan
          x="1010.5"
          y="116.4064"
-         id="tspan9348">Login</tspan></text>
+         id="tspan47875">Login</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.0849858;stroke:#2bc1b3;stroke-width:13.6446;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.0934844;paint-order:stroke fill markers"
        id="loginButton"
@@ -3956,94 +3910,6 @@
        y="-6948.4438"
        transform="matrix(0.99999144,0.00413788,0.00787854,-0.99996896,0,0)"
        ry="78.497437" />
-    <text
-       xml:space="preserve"
-       transform="matrix(5.5978323,0,0,-6.2572389,-554.87625,3101.3679)"
-       id="text1681-6"
-       style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
-         x="1025.3047"
-         y="236.6468"
-         id="tspan9350">ok</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.5978323,0,0,-6.2572389,743.99006,3099.5706)"
-       id="text1681-6-8"
-       style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
-         x="1025.3047"
-         y="236.6468"
-         id="tspan9352">error en sistema</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.5978323,0,0,-6.2572389,245.65685,3098.4198)"
-       id="text1681-6-8-2"
-       style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8-9);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
-         x="1025.3047"
-         y="236.6468"
-         id="tspan9354">alerta</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(5.5978323,0,0,-6.2572389,-212.95021,3102.1624)"
-       id="text1681-6-8-2-1"
-       style="font-size:19.1715px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect1683-2-8-9-6);shape-padding:0;display:inline;fill:#ffffff;fill-opacity:0.941176;stroke:#e5f9e5;stroke-width:0"><tspan
-         x="1025.3047"
-         y="236.6468"
-         id="tspan9356">aviso</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#cacaca;stroke-width:0.91264;stroke-dasharray:none;stroke-opacity:1"
-       id="rect37840"
-       width="2705.6584"
-       height="498.32535"
-       x="2252.894"
-       y="-1990.9425"
-       ry="0"
-       transform="scale(1,-1)" />
-    <g
-       transform="matrix(0.56746147,0,0,0.48686074,2245.7204,1488.0683)"
-       fill="#000000"
-       stroke="none"
-       id="g31431"
-       style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1">
-      <path
-         d="M 1,718 C 2,507 5,401 11,428 c 4,23 21,68 38,100 18,35 31,79 34,114 7,73 31,123 85,175 45,45 115,73 179,73 27,0 37,7 60,41 30,46 93,93 144,107 24,7 -49,10 -258,11 l -293,1 z"
-         id="path31411"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 710,1035 c 51,-16 123,-73 145,-115 12,-24 21,-28 73,-32 141,-13 232,-109 252,-266 4,-37 20,-96 35,-131 23,-56 26,-74 23,-145 C 1232,213 1166,105 1058,49 1003,21 881,11 831,32 801,44 791,44 746,28 683,6 593,5 516,25 464,39 453,39 403,24 233,-26 47,97 10,284 5,313 2,277 1,163 L 0,0 h 1588 1587 l -3,70 c -3,61 -6,70 -23,70 -10,0 -19,6 -19,13 0,8 10,13 21,13 18,-1 24,8 33,44 9,38 15,45 37,48 17,2 29,-3 32,-13 5,-12 1,-14 -17,-9 -26,6 -30,2 -40,-38 -6,-25 -4,-28 19,-28 14,0 25,-4 25,-10 0,-5 -11,-10 -24,-10 -35,0 -45,-42 -30,-119 l 7,-31 h 798 799 v 191 c 0,115 -4,188 -9,184 -17,-10 -24,18 -8,30 15,11 17,46 17,329 v 316 l -2062,-1 C 946,1049 671,1047 710,1035 Z M 2797,846 c 144,-67 178,-287 64,-409 -103,-112 -301,-91 -378,40 -32,55 -42,159 -22,230 16,57 86,133 139,150 62,20 140,15 197,-11 z m -963,-17 c 3,-17 6,-44 6,-60 0,-42 -32,-38 -59,6 -17,30 -26,35 -56,35 h -35 V 611 412 l 25,-6 c 14,-4 25,-13 25,-22 0,-12 -15,-14 -92,-12 -60,2 -93,7 -95,15 -3,7 7,15 21,19 l 26,6 v 199 199 h -35 c -30,0 -39,-5 -56,-35 -24,-41 -59,-48 -59,-12 0,12 3,39 6,60 l 7,37 h 182 183 z m 206,22 c 0,-5 -11,-16 -25,-25 l -25,-16 V 615 421 l 30,-16 c 17,-9 28,-20 25,-25 -8,-13 -182,-13 -190,0 -3,5 8,16 25,25 l 30,16 -2,202 c -3,201 -3,202 -25,205 -13,2 -23,10 -23,18 0,11 19,14 90,14 50,0 90,-4 90,-9 z m 326,-7 c 43,-20 64,-59 64,-116 0,-84 -57,-134 -166,-145 l -54,-6 v -82 c 0,-80 1,-83 25,-89 14,-4 25,-13 25,-22 0,-12 -15,-14 -92,-12 -60,2 -93,7 -95,15 -3,7 7,15 21,19 l 26,6 v 204 204 l -25,10 c -55,21 -24,30 106,30 101,0 139,-4 165,-16 z m 784,6 c 0,-6 -11,-15 -25,-20 l -25,-10 V 617 413 l 26,-11 c 44,-21 16,-32 -77,-32 -68,0 -89,3 -89,13 0,8 11,19 25,25 l 25,12 v 200 200 l -25,10 c -51,19 -25,30 70,30 58,0 95,-4 95,-10 z m 394,-21 c 3,-17 6,-44 6,-60 0,-43 -35,-39 -57,6 -15,31 -21,35 -55,35 h -38 V 611 412 l 25,-6 c 14,-4 25,-13 25,-22 0,-12 -15,-14 -92,-12 -60,2 -93,7 -95,15 -3,7 7,15 21,19 l 26,6 v 199 199 h -35 c -30,0 -39,-5 -56,-35 -13,-22 -29,-35 -41,-35 -19,0 -20,4 -14,46 3,26 6,53 6,60 0,11 35,14 184,14 h 184 z m 206,18 c 0,-7 -10,-17 -22,-22 -23,-10 -23,-14 -26,-207 l -2,-197 30,-16 c 17,-9 28,-20 25,-25 -4,-6 -46,-10 -96,-10 -68,0 -89,3 -89,13 0,8 11,19 25,25 l 25,12 -2,202 c -3,202 -3,203 -25,206 -13,2 -23,10 -23,18 0,11 19,14 90,14 66,0 90,-3 90,-13 z m 238,-294 c 4,-26 -13,-31 -22,-8 -6,16 -41,21 -50,6 -10,-16 4,-35 44,-63 46,-32 52,-66 20,-98 -20,-20 -65,-26 -86,-12 -14,9 -28,52 -18,52 4,0 17,-9 29,-20 22,-21 49,-19 58,4 7,17 0,25 -45,59 -66,49 -47,110 32,104 28,-1 36,-7 38,-24 z m 206,-60 c 16,-49 35,-96 44,-105 14,-17 12,-18 -28,-18 -35,0 -40,2 -31,14 21,25 2,47 -38,44 -32,-3 -36,-6 -34,-30 2,-25 -2,-28 -28,-28 -16,0 -29,5 -29,10 0,6 4,10 8,10 5,0 23,43 42,95 44,123 56,124 94,8 z m 239,65 c 8,-30 1,-35 -22,-14 -11,10 -25,15 -30,11 -14,-8 -15,-165 -1,-165 6,0 10,-4 10,-10 0,-5 -15,-10 -32,-10 h -33 l 3,95 c 4,94 -2,111 -28,80 -17,-20 -30,-19 -30,3 0,29 8,32 86,32 66,0 72,-2 77,-22 z m 109,10 c -16,-16 -16,-170 0,-186 9,-9 3,-12 -30,-12 -23,0 -42,5 -42,10 0,6 5,10 10,10 6,0 10,35 10,85 0,50 -4,85 -10,85 -5,0 -10,5 -10,10 0,6 19,10 42,10 33,0 39,-3 30,-12 z m 208,-9 c 0,-20 -1,-21 -25,-5 -58,38 -110,-37 -83,-120 11,-32 18,-40 41,-42 16,-2 35,2 43,9 17,14 29,6 21,-16 -5,-10 -20,-15 -52,-15 -66,0 -95,31 -95,100 0,44 5,56 29,81 24,24 38,29 75,29 40,0 46,-3 46,-21 z M 4030,396 c 0,-8 -4,-17 -9,-21 -12,-7 -24,12 -16,25 9,15 25,12 25,-4 z m 255,-4 c 0,-18 -20,-15 -23,4 -3,10 1,15 10,12 7,-3 13,-10 13,-16 z m 165,4 c 0,-8 -4,-17 -9,-21 -12,-7 -24,12 -16,25 9,15 25,12 25,-4 z m 140,0 c 0,-8 -4,-17 -9,-21 -12,-7 -24,12 -16,25 9,15 25,12 25,-4 z M 1910,165 c 0,-73 1,-75 20,-65 11,6 25,8 30,5 6,-3 10,2 10,13 0,10 5,33 11,51 9,24 17,31 37,31 15,0 32,-4 37,-8 15,-11 13,-122 -2,-122 -7,0 -13,12 -13,28 l -1,27 -20,-27 c -23,-31 -44,-36 -53,-13 -5,14 -8,14 -30,-1 -14,-8 -30,-13 -36,-9 -13,8 -13,165 0,165 6,0 10,-32 10,-75 z m 1010,60 c -7,-8 -17,-15 -22,-15 -6,0 -5,7 2,15 7,8 17,15 22,15 6,0 5,-7 -2,-15 z M 1654,184 c -6,-25 -5,-25 42,-22 44,3 49,5 49,27 0,14 6,26 13,29 7,2 12,-6 12,-22 0,-28 26,-36 48,-14 13,13 15,9 12,-44 -2,-39 7,-47 28,-26 6,6 15,8 19,4 10,-10 -36,-48 -51,-43 -6,2 -12,22 -14,44 -3,35 -6,40 -22,36 -14,-4 -21,-18 -26,-52 -5,-35 -9,-41 -14,-26 -4,11 -5,33 -2,49 5,27 3,29 -19,23 -13,-4 -36,-7 -51,-7 -26,0 -28,-3 -28,-37 0,-28 -3,-34 -10,-23 -11,17 -14,123 -4,133 13,13 24,-5 18,-29 z m 186,26 c 0,-5 -4,-10 -10,-10 -5,0 -10,5 -10,10 0,6 5,10 10,10 6,0 10,-4 10,-10 z m 1435,0 c 3,-5 -1,-10 -9,-10 -9,0 -16,5 -16,10 0,6 4,10 9,10 6,0 13,-4 16,-10 z m -359,-18 c 12,-8 13,-122 2,-122 -5,0 -8,9 -8,20 0,25 -8,25 -36,-1 -41,-39 -59,6 -30,76 15,35 44,46 72,27 z m -796,-39 v -38 l 25,38 c 37,54 46,49 57,-28 3,-16 7,-13 25,18 27,45 45,49 37,7 -8,-39 12,-66 34,-48 13,11 14,10 10,-2 -8,-25 -51,-19 -58,8 -5,23 -5,23 -29,-8 -27,-37 -38,-31 -43,25 l -3,40 -30,-47 c -16,-27 -33,-48 -37,-48 -5,0 -8,27 -8,60 0,33 4,60 10,60 6,0 10,-17 10,-37 z m 274,21 c 24,-23 19,-58 -11,-88 -40,-40 -58,-31 -56,27 2,70 32,97 67,61 z m 111,6 c -3,-5 -17,-10 -31,-10 -36,0 -30,-27 11,-44 37,-16 46,-40 19,-50 -29,-11 -84,-7 -84,7 0,9 12,11 40,9 49,-5 51,3 5,22 -36,16 -46,41 -23,64 15,15 72,16 63,2 z m 125,-27 v -38 l 25,38 c 37,54 46,49 57,-28 3,-17 7,-14 26,18 28,45 44,48 36,7 -8,-39 12,-66 34,-48 13,11 14,10 10,-2 -8,-25 -51,-19 -58,8 -5,23 -5,23 -28,-8 -28,-37 -34,-34 -42,23 l -5,42 -29,-48 c -15,-26 -32,-45 -37,-41 -11,7 -9,114 2,114 5,0 9,-17 9,-37 z m 410,28 c 0,-5 -12,-11 -27,-13 -39,-5 -38,-22 3,-41 51,-25 44,-52 -15,-52 -25,0 -46,5 -48,12 -3,8 8,10 36,6 23,-3 41,-3 41,0 0,3 -16,14 -35,26 -39,23 -42,32 -19,55 17,17 64,22 64,7 z m 227,-36 c -7,-47 5,-59 31,-33 18,18 14,-3 -5,-24 -31,-34 -43,-23 -43,42 0,38 4,60 11,60 8,0 10,-14 6,-45 z m 291,33 c 22,-22 14,-75 -15,-98 -31,-24 -44,-22 -59,9 -9,18 -13,19 -17,7 -4,-9 -15,-16 -26,-16 -14,0 -21,10 -28,37 l -8,36 -28,-41 c -15,-23 -32,-42 -37,-42 -6,0 -10,25 -10,55 0,30 5,55 10,55 6,0 10,-16 10,-36 v -37 l 23,34 c 31,46 51,44 55,-4 2,-25 7,-36 15,-33 7,3 19,9 28,12 8,3 21,21 28,40 13,35 37,44 59,22 z"
-         id="path31413"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 2654,809 c -79,-23 -127,-137 -105,-247 13,-66 31,-96 74,-123 66,-42 158,-4 193,78 8,18 14,65 14,105 0,96 -25,149 -84,177 -47,23 -47,23 -92,10 z"
-         id="path31415"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 2210,720 c 0,-88 1,-90 24,-90 37,0 86,20 96,40 6,10 10,37 10,59 0,50 -34,81 -91,81 h -39 z"
-         id="path31417"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 4132,491 c -15,-43 -15,-41 7,-41 27,0 31,10 17,45 l -12,30 z"
-         id="path31419"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 1992,140 c -12,-47 -1,-51 27,-11 26,36 27,51 2,51 -13,0 -21,-11 -29,-40 z"
-         id="path31421"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 2860,154 c -20,-51 -11,-61 21,-26 30,33 31,52 3,52 -8,0 -19,-12 -24,-26 z"
-         id="path31423"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 2358,152 c -22,-24 -31,-59 -18,-67 16,-10 50,24 50,51 0,30 -14,37 -32,16 z"
-         id="path31425"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="m 3521,157 c -16,-21 -26,-77 -12,-77 16,0 51,37 51,54 0,23 -26,38 -39,23 z"
-         id="path31427"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         d="M 542,959 C 496,936 459,895 436,838 421,803 420,803 382,813 308,833 230,800 184,730 163,698 155,672 151,615 147,568 139,535 128,523 74,463 59,323 97,238 137,151 237,80 321,80 c 57,0 56,9 -2,69 -32,32 -64,72 -73,89 l -16,31 46,7 c 63,9 148,-1 193,-23 l 37,-19 22,90 c 23,98 64,169 99,174 13,2 30,-8 46,-28 30,-35 67,-145 67,-197 0,-29 3,-34 18,-28 59,23 142,37 190,32 30,-3 57,-8 60,-11 9,-10 -19,-54 -76,-116 L 878,90 h 49 c 69,0 147,41 187,97 42,60 54,97 55,169 1,67 -11,114 -42,158 -15,22 -20,42 -18,84 5,124 -100,236 -207,219 -20,-4 -45,-8 -56,-9 -13,-2 -22,6 -30,30 -40,116 -169,173 -274,121 z"
-         id="path31429"
-         style="fill:#282c34;fill-opacity:1;stroke:#cccccc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.604739;stroke-dasharray:none;stroke-opacity:1"
        id="fab6_continuas_clima_hum_color"
@@ -4082,7 +3948,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-6);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan9358">G-604 / G-605 </tspan></text>
+         id="tspan47877">G-604 / G-605 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas_clima_temp_g"
@@ -4168,7 +4034,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-2);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan9360">G-607 / G-608 </tspan></text>
+         id="tspan47879">G-607 / G-608 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas3_clima_temp_g"
@@ -4223,7 +4089,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-4);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan9362">G-601 / G-602 </tspan></text>
+         id="tspan47881">G-601 / G-602 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas2_clima_temp_g"
@@ -4247,7 +4113,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9364">Sala de Chillers</tspan></text>
+         id="tspan47883">Sala de Chillers</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.6250697,0,0,-4.739222,-11255.387,9285.3769)"
@@ -4255,7 +4121,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-1);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9366">Entrada</tspan></text>
+         id="tspan47885">Entrada</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(8.2736165,0,0,-5.0403745,-15551.138,8667.9957)"
@@ -4263,7 +4129,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-3-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan9368">Salida</tspan></text>
+         id="tspan47887">Salida</tspan></text>
     <rect
        style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
        id="carrier1"
@@ -4279,7 +4145,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.77556"
-         id="tspan9370">Carrier1 </tspan></text>
+         id="tspan47889">Carrier1 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier1Vinf"
@@ -4303,7 +4169,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-9-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.77556"
-         id="tspan9372">Carrier2 </tspan></text>
+         id="tspan47891">Carrier2 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier2Vinf"
@@ -4327,7 +4193,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3127px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-0-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.97487"
-         id="tspan9374">Carrier3 </tspan></text>
+         id="tspan47893">Carrier3 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier3Vinf"
@@ -4351,7 +4217,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3843px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-6-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="107.03788"
-         id="tspan9376">Carrier4 </tspan></text>
+         id="tspan47895">Carrier4 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier4Vinf"
@@ -4375,7 +4241,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.763px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-95-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="107.37113"
-         id="tspan9378">Carrier5 </tspan></text>
+         id="tspan47897">Carrier5 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier5Vinf"
@@ -4527,7 +4393,7 @@
        style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-2);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
          x="1092.4805"
          y="279.99218"
-         id="tspan9380">nnn</tspan></text>
+         id="tspan47899">nnn</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.1023535,0,0,-5.9554311,2367.9452,7122.4548)"
@@ -4535,7 +4401,7 @@
        style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-7-7);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
          x="1092.4805"
          y="279.99218"
-         id="tspan9382">%</tspan></text>
+         id="tspan47901">%</tspan></text>
     <g
        transform="matrix(0.12514345,0,0,0.07578225,4807.8383,4897.5068)"
        fill="#000000"
@@ -4893,8 +4759,8 @@
        x="2574.5979"
        y="-5736.8862"
        transform="scale(1,-1)" />
-      </g>
-   </svg>
+  </g>
+</svg>
    </div>
 </template>
 
@@ -4906,6 +4772,16 @@
    body {
       background-color: #282c34;
    }
+
+   .container__map {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 0;
+}
 
    rect {
       transition: 
