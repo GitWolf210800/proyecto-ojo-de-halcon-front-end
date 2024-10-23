@@ -1,5 +1,6 @@
 <template>
-   <svg
+   <div class="container__map">
+      <svg
    width="1217.605"
    height="926.132"
    viewBox="0 0 322.158 245.039"
@@ -4894,4 +4895,21 @@
        transform="scale(1,-1)" />
       </g>
    </svg>
+   </div>
 </template>
+
+<script>
+
+</script>
+
+<style>
+   body {
+      background-color: #282c34;
+   }
+
+   rect {
+      transition: 
+      fill 0.75s,
+      stroke 1.5s;
+   }
+</style>
