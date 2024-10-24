@@ -13,12 +13,17 @@ const storeData = useDataStore();
   storeData.fetchData();
   console.log(storeData);
 };*/
+/*while (storeData.data.length === 0){
+  console.log('esperando');
+}*/
+
+console.log(storeData.data);
 
 const changeRectColor = () => {
-
+  
   const rect = svgStore.svgRef.querySelector('#fab1_preparacion_clima_temp_color');
   if (rect) {
-    rect.style.fill = 'red';
+    rect.style.fill = 'blue';
   }
   
   return {

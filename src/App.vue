@@ -19,7 +19,7 @@ import { useDataStore } from './stores/dataHome';
 
 const storeHome = useDataStore();
 
-onMounted(() => {
+ onMounted(() => {
   storeHome.startAutoRefresh();
 });
 
