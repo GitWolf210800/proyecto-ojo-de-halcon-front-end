@@ -4803,7 +4803,7 @@
 
    rect {
       transition: 
-      fill 0.75s,
+      fill 1.1s,
       stroke 1.5s;
    }
 </style>
