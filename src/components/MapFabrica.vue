@@ -1,6 +1,7 @@
 <template>
    <div class="container__map">
       <svg
+   ref="svgRef"
    width="1217.605"
    height="926.13202"
    viewBox="0 0 322.158 245.039"
@@ -4765,7 +4766,24 @@
 </template>
 
 <script>
+   import { ref, onMounted } from 'vue';
+   import { useSvgStore } from '@/stores/svgStore';
 
+   export default {
+      setup() {
+         const svgRef = ref(null);
+         const svgStore = useSvgStore();
+
+         onMounted(() => {
+            //Cuando el componente este montado, asignamos el SVG a la store
+            svgStore.setSvgRef(svgRef.value);
+         });
+
+         return {
+            svgRef
+         };
+      }
+   };
 </script>
 
 <style>
