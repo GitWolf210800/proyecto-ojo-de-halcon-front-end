@@ -1,0 +1,53 @@
+[33mcommit e5fb04446e8237f75779a752ab5da43fea428c22[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Thu Oct 24 15:56:17 2024 -0300
+
+    en proceso...
+
+[33mcommit b63877cbdfc105ca91a41652f4f41274047c0828[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Thu Oct 24 15:21:05 2024 -0300
+
+    Se probo con exito el manejo de datos generales de la store con pinia
+
+[33mcommit 0b636559e20be4b068b1d59cae29ba2a21fc0e3b[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Thu Oct 24 12:02:36 2024 -0300
+
+    Se probo almacenar la referencia del SVG en el store pinia con Exito
+
+[33mcommit 1cbc262d34da671160664e90875bfb662a687607[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Wed Oct 23 15:43:56 2024 -0300
+
+    Ligeros cambios al CSS main.css
+
+[33mcommit ba155364888b361c48f85cd2bd01f287e8a289ab[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Wed Oct 23 13:50:48 2024 -0300
+
+    pruebas de componentes y estilos css
+
+[33mcommit f3172e4f9416e212f52f857ad07107fc81c39729[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Wed Oct 23 11:46:41 2024 -0300
+
+    Proyecto listo para comenzar con vue
+
+[33mcommit 1f836de8df8ebed362c9ab32409fbd1130403f83[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Wed Oct 23 11:16:58 2024 -0300
+
+    limpieza general para empezar
+
+[33mcommit de4c0b34e76b8b0aa6cd5c3b3769ab3ae4649c45[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Tue Oct 22 15:05:37 2024 -0300
+
+    primeras pruebas de vue
+
+[33mcommit fe4f27d9061cdc9397add5c9550a5962d17596d7[m
+Author: Lobo <ezad821q@hotmail.com>
+Date:   Tue Oct 22 11:51:22 2024 -0300
+
+    Comienza el proyecto vue

@@ -1431,7 +1431,7 @@
        style="font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect136516);display:inline;fill:#ffffff;stroke:#e6f9fb;stroke-width:0.944882;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2650.6074"
          y="963.37856"
-         id="tspan47803">Fábrica N°6</tspan></text>
+         id="tspan49635">Fábrica N°6</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.2822px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke:#e2fcff;stroke-width:1.04729;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1461,7 +1461,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47805">Fábrica N°9</tspan></text>
+         id="tspan49637">Fábrica N°9</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13995.601,9433.0579)"
@@ -1469,7 +1469,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47807">Fábrica N°3</tspan></text>
+         id="tspan49639">Fábrica N°3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-13773.976,7700.0009)"
@@ -1477,7 +1477,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-0);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47809">Fábrica N°4</tspan></text>
+         id="tspan49641">Fábrica N°4</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-14231.841,11313.44)"
@@ -1485,7 +1485,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47811">Fábrica N°1</tspan></text>
+         id="tspan49643">Fábrica N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.3595732,-0.09155577,-0.10081157,-5.3778063,-10055.087,11223.656)"
@@ -1493,7 +1493,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-2-3-2);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47813">Batan Fab N°1</tspan></text>
+         id="tspan49645">Batan Fab N°1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.6338846,0.07368362,0.07686212,-5.1165962,-942.93686,11186.537)"
@@ -1501,7 +1501,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47815">Batan</tspan></text>
+         id="tspan49647">Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.2008;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_batan_filtro"
@@ -1518,7 +1518,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0-6-2-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47817">Cotonia</tspan></text>
+         id="tspan49649">Cotonia</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:14.8908;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_cotonia_filtro"
@@ -2321,7 +2321,7 @@
        id="tempExtt"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan47819">32 °C</tspan></text>
+         id="tspan49651">32 °C</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(3.6503198,0,0,-6.7131656,6090.9724,7735.705)"
@@ -2329,7 +2329,7 @@
        id="entalpiaa"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan47821">66.66 Kj/Kg</tspan></text>
+         id="tspan49653">66.66 Kj/Kg</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.0326882,0,0,-7.3691124,4991.4657,7831.6512)"
@@ -2337,7 +2337,7 @@
        id="text349"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan47823">50 %</tspan></text>
+         id="tspan49655">50 %</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.9844109,0,0,-5.9560629,108.50494,7560.5996)"
@@ -2345,7 +2345,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.369408;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47825">Cardas</tspan></text>
+         id="tspan49657">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_cardas_filtro"
@@ -2362,7 +2362,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47827">G33</tspan></text>
+         id="tspan49659">G33</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_g33_filtro"
@@ -2379,7 +2379,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47829">Cardas</tspan></text>
+         id="tspan49661">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.5341;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_cardas_filtro"
@@ -2396,7 +2396,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47831">Color</tspan></text>
+         id="tspan49663">Color</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:15.3494;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_color_filtro"
@@ -2413,7 +2413,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47833">Preparación</tspan></text>
+         id="tspan49665">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_preparacion_filtro"
@@ -2430,7 +2430,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47835">Preparación</tspan></text>
+         id="tspan49667">Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_preparacion_filtro"
@@ -2447,7 +2447,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47837">Continuas</tspan></text>
+         id="tspan49669">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.6589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_continuas_filtro"
@@ -2464,7 +2464,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-5-5);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47839">Bobinaje</tspan></text>
+         id="tspan49671">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4881;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_bobinaje_filtro"
@@ -2481,7 +2481,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-7-0);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47841">Cardas</tspan></text>
+         id="tspan49673">Cardas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:17.7598;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab1_cardas_filtro"
@@ -2498,7 +2498,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47843">Continuas</tspan></text>
+         id="tspan49675">Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_g30_filtro"
@@ -2515,7 +2515,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-4-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47845">Bobinaje</tspan></text>
+         id="tspan49677">Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_bobinaje_filtro"
@@ -2532,7 +2532,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-2-0-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47847">Peinadoras</tspan></text>
+         id="tspan49679">Peinadoras</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:20.2548;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_peinadoras_filtro"
@@ -2549,7 +2549,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47849">Clima</tspan></text>
+         id="tspan49681">Clima</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_clima_filtro"
@@ -2566,7 +2566,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-4);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47851">Retorcidos</tspan></text>
+         id="tspan49683">Retorcidos</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:23.9837;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_retorcidos_filtro"
@@ -2583,7 +2583,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47853"> Batan</tspan></text>
+         id="tspan49685"> Batan</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab4_batan_filtro"
@@ -2600,7 +2600,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47855"> Bobinaje</tspan></text>
+         id="tspan49687"> Bobinaje</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_bobinaje_filtro"
@@ -2626,7 +2626,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47857"> Continuas</tspan></text>
+         id="tspan49689"> Continuas</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.351275;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_continuas_filtro"
@@ -2643,7 +2643,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47859"> Open-End</tspan></text>
+         id="tspan49691"> Open-End</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.1778;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_open_end_filtro"
@@ -2660,7 +2660,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-1-3-1-3-3);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47861">  EX-8</tspan></text>
+         id="tspan49693">  EX-8</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:22.4004;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab3_ex8_filtro"
@@ -2677,7 +2677,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47863">Poliester
+         id="tspan49695">Poliester
 </tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7432;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -2695,7 +2695,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#041b53;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47865"> Preparación</tspan></text>
+         id="tspan49697"> Preparación</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.34902;stroke:#c1a22b;stroke-width:23.5179;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab6_preparacion_filtro"
@@ -2712,7 +2712,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-6);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47867"> Preparación</tspan></text>
+         id="tspan49699"> Preparación</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:19.4339;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_preparacion_filtro"
@@ -3105,7 +3105,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47869"> LUWA</tspan></text>
+         id="tspan49701"> LUWA</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:18.2431;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_batan_luwa_filtro"
@@ -3122,7 +3122,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47871"> Cardas A</tspan></text>
+         id="tspan49703"> Cardas A</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_cardasA_filtro"
@@ -3139,7 +3139,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect119935-8-9-8-1-1);display:inline;fill:#f5f5f5;fill-opacity:1;stroke:#05246f;stroke-width:0.623622;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:stroke fill markers"><tspan
          x="870.44922"
          y="896.4163"
-         id="tspan47873"> Cardas B</tspan></text>
+         id="tspan49705"> Cardas B</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:0.35;stroke:#c1a22b;stroke-width:16.7953;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="fab9_cardasB_filtro"
@@ -3901,7 +3901,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1682);display:inline;fill:#f4f9fb;fill-opacity:0.866855;stroke:#f0f6fc;stroke-width:0;stroke-opacity:1"><tspan
          x="1010.5"
          y="116.4064"
-         id="tspan47875">Login</tspan></text>
+         id="tspan49707">Login</tspan></text>
     <rect
        style="display:inline;fill:#333333;fill-opacity:0.0849858;stroke:#2bc1b3;stroke-width:13.6446;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.0934844;paint-order:stroke fill markers"
        id="loginButton"
@@ -3949,7 +3949,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-6);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan47877">G-604 / G-605 </tspan></text>
+         id="tspan49709">G-604 / G-605 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas_clima_temp_g"
@@ -3999,7 +3999,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.57606;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContHFab6-3"
+       id="fab6_continuas3_clima_hum_color"
        width="453.02847"
        height="80.135666"
        x="7025.2617"
@@ -4007,7 +4007,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#8f8f9f;fill-opacity:0.941176;stroke:#ffffff;stroke-width:0.57606;stroke-dasharray:none;stroke-opacity:1"
-       id="climaContTFab6-3"
+       id="fab6_continuas3_clima_temp_color"
        width="453.02847"
        height="80.135666"
        x="7025.2578"
@@ -4035,7 +4035,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-2);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan47879">G-607 / G-608 </tspan></text>
+         id="tspan49711">G-607 / G-608 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas3_clima_temp_g"
@@ -4090,7 +4090,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136790-4);display:inline;fill:#ffffff;stroke:#e2fcff;stroke-width:0.188976;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2717.4004"
          y="966.23744"
-         id="tspan47881">G-601 / G-602 </tspan></text>
+         id="tspan49713">G-601 / G-602 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="fab6_continuas2_clima_temp_g"
@@ -4114,7 +4114,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47883">Sala de Chillers</tspan></text>
+         id="tspan49715">Sala de Chillers</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.6250697,0,0,-4.739222,-11255.387,9285.3769)"
@@ -4122,7 +4122,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-1);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47885">Entrada</tspan></text>
+         id="tspan49717">Entrada</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(8.2736165,0,0,-5.0403745,-15551.138,8667.9957)"
@@ -4130,7 +4130,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859-5-4-8-3-9);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:0.249812;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan47887">Salida</tspan></text>
+         id="tspan49719">Salida</tspan></text>
     <rect
        style="fill:#a68d00;fill-opacity:1;stroke:#e6e7de;stroke-width:0.43428;stroke-dasharray:none;stroke-opacity:1"
        id="carrier1"
@@ -4146,7 +4146,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.77556"
-         id="tspan47889">Carrier1 </tspan></text>
+         id="tspan49721">Carrier1 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier1Vinf"
@@ -4170,7 +4170,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0862px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-9-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.77556"
-         id="tspan47891">Carrier2 </tspan></text>
+         id="tspan49723">Carrier2 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier2Vinf"
@@ -4194,7 +4194,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3127px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-0-9);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="106.97487"
-         id="tspan47893">Carrier3 </tspan></text>
+         id="tspan49725">Carrier3 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier3Vinf"
@@ -4218,7 +4218,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.3843px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-6-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="107.03788"
-         id="tspan47895">Carrier4 </tspan></text>
+         id="tspan49727">Carrier4 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier4Vinf"
@@ -4242,7 +4242,7 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.763px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8139-95-0);display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.226772;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="926"
          y="107.37113"
-         id="tspan47897">Carrier5 </tspan></text>
+         id="tspan49729">Carrier5 </tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
        id="carrier5Vinf"
@@ -4394,7 +4394,7 @@
        style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-2);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
          x="1092.4805"
          y="279.99218"
-         id="tspan47899">nnn</tspan></text>
+         id="tspan49731">nnn</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(5.1023535,0,0,-5.9554311,2367.9452,7122.4548)"
@@ -4402,7 +4402,7 @@
        style="font-size:19.2609px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';white-space:pre;shape-inside:url(#rect11215-7-7);display:inline;fill:#363636;fill-opacity:1;stroke:#343434;stroke-width:1.75748;stroke-opacity:1"><tspan
          x="1092.4805"
          y="279.99218"
-         id="tspan47901">%</tspan></text>
+         id="tspan49733">%</tspan></text>
     <g
        transform="matrix(0.12514345,0,0,0.07578225,4807.8383,4897.5068)"
        fill="#000000"
@@ -4765,25 +4765,19 @@
    </div>
 </template>
 
-<script>
+<script setup>
+
    import { ref, onMounted } from 'vue';
    import { useSvgStore } from '@/stores/svgStore';
 
-   export default {
-      setup() {
-         const svgRef = ref(null);
-         const svgStore = useSvgStore();
+   const svgRef = ref(null);
+   const svgStore = useSvgStore();
 
-         onMounted(() => {
-            //Cuando el componente este montado, asignamos el SVG a la store
-            svgStore.setSvgRef(svgRef.value);
-         });
+   onMounted(() => {
+      //Cuando el componente este montado, asignamos el SVG a la store
+      svgStore.setSvgRef(svgRef.value);
+   });
 
-         return {
-            svgRef
-         };
-      }
-   };
 </script>
 
 <style>

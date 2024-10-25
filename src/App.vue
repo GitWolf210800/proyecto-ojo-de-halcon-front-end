@@ -1,57 +1,57 @@
 <template>
-  <MapFabrica />
+  <MapFabrica v-if="dataIsLoaded" />
   <footer>
-    <EyeHawkIconVersion />
-    <PruebaData></PruebaData>
-    <LogoTipoitiFooter />
+    <EyeHawkIconVersion v-if="dataIsLoaded" />
+    <LogoTipoitiFooter v-if="dataIsLoaded" />
   </footer>
 </template>
 
-<script setup >
-//import { RouterLink, RouterView } from 'vue-router'
-import { onMounted } from 'vue';
+<script setup>
+import { computed, onMounted, nextTick, watchEffect } from 'vue';
 import EyeHawkIconVersion from './components/icons/EyeHawkIconVersion.vue';
-//import FooterApp from './components/icons/FooterApp.vue';
 import LogoTipoitiFooter from './components/icons/LogoTipoitiFooter.vue';
-import MapFabrica from './components/mapFabrica.vue';
-import PruebaData from './components/PruebaData.vue';
-import { useDataStore } from './stores/dataHome';
+import MapFabrica from './components/MapFabrica.vue';
+import { useDataHomeClima } from './components/componsables/useHomeClima';
+import { useHomeClimaStore } from './stores/homeClimaStore';
+import { useSvgStore } from './stores/svgStore';
+import { dataColorInfo } from './helpers/homeClimaColorManipulator';
 
-const storeHome = useDataStore();
+const storeData = useHomeClimaStore();
+const storeSvg = useSvgStore();
 
- onMounted(() => {
-  storeHome.startAutoRefresh();
+onMounted(async () => {
+  await useDataHomeClima(); // Asegura que los datos iniciales estén cargados
+  nextTick(() => {
+    // Actualiza el SVG cada minuto para sincronización
+    setInterval(() => { useDataHomeClima(); }, 60000);
+  });
 });
 
-/*export default {
-  components: {
-    MapFabrica,
-    EyeHawkIconVersion,
-    LogoTipoitiFooter,
-    PruebaData
-  }
-};*/
+// Computados para verificar carga de datos y svgRef
+const dataIsLoaded = computed(() => storeData.datos !== null);
+const svgIsLoaded = computed(() => storeSvg.svgRef !== null);
 
+// Ejecuta la función cuando ambos datos estén disponibles
+watchEffect(() => {
+  if (dataIsLoaded.value && svgIsLoaded.value) {
+    dataColorInfo(); // Solo se ejecuta cuando ambos están listos
+  }
+});
 </script>
 
 <style scoped>
-  footer {
+footer {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Para alinear verticalmente si es necesario */
-  padding: 10px; /* Ajusta el espacio alrededor del footer */
-  }
-
-  /*.logoTipoiti {
-    position: absolute;
-    margin-right: 0;
-  }*/
+  align-items: center;
+  padding: 10px;
+}
 </style>
 
 
 <!--
-
-
+<PruebaData v-if="dataIsLoaded && svgIsLoaded" />
+<router-view v-if="dataIsLoaded" />
 <template>
   <MapFabrica />
   <footer>
