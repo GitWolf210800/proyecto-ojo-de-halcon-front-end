@@ -2,9 +2,9 @@ import { useSvgStore } from '@/stores/svgStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { alarmColor, alertColor, offlineColor, okColor } from '@/variables';
 
-export const dataColorInfo = () => {
+export const dataColorInfoClima = () => {
 
-    const svgStore = useSvgStore().svgRef;
+    const svgStore = (useSvgStore()).svgRef;
     const storeData = (useHomeClimaStore()).datos;
     const dataClima = storeData.clima;
     const nombresClima = storeData.nombresClima;

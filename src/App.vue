@@ -14,7 +14,8 @@ import MapFabrica from './components/MapFabrica.vue';
 import { useDataHomeClima } from './components/componsables/useHomeClima';
 import { useHomeClimaStore } from './stores/homeClimaStore';
 import { useSvgStore } from './stores/svgStore';
-import { dataColorInfo } from './helpers/homeClimaColorManipulator';
+import { dataColorInfoClima } from './helpers/homeClimaColorManipulator';
+import { dataColorInfoFiltro } from './helpers/homeFiltroColorManipulator';
 
 const storeData = useHomeClimaStore();
 const storeSvg = useSvgStore();
@@ -34,7 +35,8 @@ const svgIsLoaded = computed(() => storeSvg.svgRef !== null);
 // Ejecuta la función cuando ambos datos estén disponibles
 watchEffect(() => {
   if (dataIsLoaded.value && svgIsLoaded.value) {
-    dataColorInfo(); // Solo se ejecuta cuando ambos están listos
+    dataColorInfoClima(); // Solo se ejecuta cuando ambos están listos
+    dataColorInfoFiltro();
   }
 });
 </script>
