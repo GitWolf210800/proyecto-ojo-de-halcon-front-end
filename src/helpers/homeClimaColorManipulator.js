@@ -1,6 +1,6 @@
 import { useSvgStore } from '@/stores/svgStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
-import { alarmColor, alertColor, offlineColor, okColor } from '@/variables';
+import { alarmColor, alertColor, neutroColor, offlineColor, okColor } from '@/variables';
 
 export const dataColorInfoClima = () => {
 
@@ -19,6 +19,7 @@ export const dataColorInfoClima = () => {
         const textTemp = svgStore.querySelector(`#${nombresClima[i]}_temp_text`);
         const textHum = svgStore.querySelector(`#${nombresClima[i]}_hum_text`);
         const textHumAbs = svgStore.querySelector(`#${nombresClima[i]}_humAbs_text`);
+        const textEntalpia = svgStore.querySelector(`#${nombresClima[i]}_entalpia_text`);
 
         const datos = dataClima.find((data) => data.nombre === nombresClima[i]);
 
@@ -28,6 +29,7 @@ export const dataColorInfoClima = () => {
                 const temperatura = Math.abs(datos.temperatura.toFixed(0));
                 const humedad = Math.abs(datos.humedad.toFixed(0));
                 const humedadAbs = Math.abs(datos.humedad_absoluta.toFixed(0));
+                const entalpia = Math.abs(datos.entalpia.toFixed(0));
                 const validacion = idFab.endsWith('aj');
       //console.log(validacion);
 
@@ -41,6 +43,10 @@ export const dataColorInfoClima = () => {
 
             if(textHumAbs){
                 textHumAbs.textContent = `${humedadAbs} g/Kg`;
+            }
+
+            if(textEntalpia){
+              textEntalpia.textContent = `${entalpia} Kj/kg`;
             }
 
             if (validacion && !isNaN(temperatura)) {
@@ -75,6 +81,10 @@ export const dataColorInfoClima = () => {
                     textTemp.style.stroke = '#000';
                 }
             }
+        } else {
+          if (colorTemp) {
+            colorTemp.style.fill = neutroColor;
+          }
         }
 
       if (validacion && !isNaN(humedad)){
@@ -108,6 +118,10 @@ export const dataColorInfoClima = () => {
             textHum.style.stroke = '#000';
           }
         }
+      } else {
+        if (colorHum){
+          colorHum.style.fill = neutroColor;
+        }
       }
 
       if (validacion && !isNaN(humedadAbs)){
@@ -123,6 +137,10 @@ export const dataColorInfoClima = () => {
             textHumAbs.style.fill = '#FFF';
             textHumAbs.style.stroke = '#000';
           }
+      } else {
+        if (colorHumAbs) {
+          colorHumAbs.style.fill = neutroColor;
+        }
       }
     } else {
        if(colorTemp){

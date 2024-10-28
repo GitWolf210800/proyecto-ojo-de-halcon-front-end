@@ -2073,7 +2073,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="fab3_continuas_clima_hum_g"
+       id="fab3_g30_clima_hum_g"
        width="523.48737"
        height="101.5611"
        x="2212.4368"
@@ -2081,7 +2081,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="fab3_continuas_clima_temp_g"
+       id="fab3_g30_clima_temp_g"
        width="523.48737"
        height="101.5611"
        x="2212.3489"
@@ -2318,26 +2318,26 @@
        xml:space="preserve"
        transform="matrix(4.0326882,0,0,-7.3691124,3899.6659,7841.9045)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1315);display:inline;fill:#ffff00;fill-opacity:1;stroke:#e2e80a;stroke-width:0.71811;stroke-dasharray:none;stroke-opacity:1"
-       id="tempExtt"><tspan
+       id="fab9_exterior_clima_temp_g"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan49651">32 °C</tspan></text>
+         id="fab9_exterior_clima_temp_text">32 °C</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(3.6503198,0,0,-6.7131656,6090.9724,7735.705)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1315-7);display:inline;fill:#00be0d;fill-opacity:1;stroke:#09d025;stroke-width:0.71811;stroke-dasharray:none;stroke-opacity:1"
-       id="entalpiaa"><tspan
+       id="fab9_exterior_clima_entalpia_g"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan49653">66.66 Kj/Kg</tspan></text>
+         id="fab9_exterior_clima_entalpia_text">66.66 Kj/Kg</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.0326882,0,0,-7.3691124,4991.4657,7831.6512)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1315-2);display:inline;fill:#0098ff;fill-opacity:1;stroke:#49cdf7;stroke-width:0.71811;stroke-dasharray:none;stroke-opacity:1"
-       id="text349"><tspan
+       id="fab9_exterior_clima_hum_g"><tspan
          x="286.7793"
          y="186.87294"
-         id="tspan49655">50 %</tspan></text>
+         id="fab9_exterior_clima_hum_text">50 %</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(4.9844109,0,0,-5.9560629,108.50494,7560.5996)"
@@ -2739,7 +2739,7 @@
          style="stroke-width:5.37098">nn% H.r</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="rect137018"
+       id="fab3_peinadorasE90_clima_temp_g"
        width="531.26202"
        height="101.16386"
        x="3226.3696"
@@ -2835,7 +2835,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="fab1_vortex1_hum_g"
+       id="fab1_vortex1_clima_hum_g"
        width="404.12573"
        height="79.734665"
        x="3130.4197"
@@ -3402,7 +3402,7 @@
          style="stroke-width:1.64581">Laboratorio</tspan></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmecheraTFab3-3"
+       id="fab3_laboratorio_clima_temp_g"
        width="539.26471"
        height="83.67643"
        x="2947.5491"
@@ -3410,7 +3410,7 @@
        transform="scale(1,-1)" />
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="climaGmanuaresHFab3-7-9"
+       id="fab3_laboratorio_clima_hum_g"
        width="539.26471"
        height="83.67643"
        x="2947.6777"
@@ -3563,7 +3563,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:73.5452px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.69984" /></text>
     <rect
        style="fill:#53e2ff;fill-opacity:0.0595238;stroke:#49cdf7;stroke-width:0"
-       id="fab3_continuas_clima_humAbs_g"
+       id="fab3_g30_clima_humAbs_g"
        width="523.59888"
        height="72.296936"
        x="2212.2588"
@@ -4416,7 +4416,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:188.6px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f2f2f2;stroke:#f4fcfc;stroke-width:25.8956;stroke-opacity:0.0934844"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:188.6px;font-family:Dubai;-inkscape-font-specification:'Dubai, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffff00ff;stroke:#f4fcfc;stroke-width:25.8956;stroke-opacity:0.0934844"
        x="5589.3555"
        y="-5232.4678"
        id="demanda_agua_fria_text"

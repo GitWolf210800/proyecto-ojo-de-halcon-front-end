@@ -4,6 +4,7 @@ export const offlineColor = '#C96100';
 export const okColor = '#29B32E';
 export const alertColor = '#ffff00f0';
 export const alarmColor = '#BD1F1F';
+export const neutroColor = '#8f8f9ff0';
 
 export const tempoColdExt = "#3275E4";
 export const tempOkExt = "#F4E441";

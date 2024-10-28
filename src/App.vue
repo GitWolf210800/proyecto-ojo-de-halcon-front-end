@@ -16,6 +16,8 @@ import { useHomeClimaStore } from './stores/homeClimaStore';
 import { useSvgStore } from './stores/svgStore';
 import { dataColorInfoClima } from './helpers/homeClimaColorManipulator';
 import { dataColorInfoFiltro } from './helpers/homeFiltroColorManipulator';
+import { dataColorInfoCarrier } from './helpers/homeCarrierColorManipulator';
+import { eventsToolTipClima } from './helpers/eventsToolTipChart';
 
 const storeData = useHomeClimaStore();
 const storeSvg = useSvgStore();
@@ -37,6 +39,8 @@ watchEffect(() => {
   if (dataIsLoaded.value && svgIsLoaded.value) {
     dataColorInfoClima(); // Solo se ejecuta cuando ambos están listos
     dataColorInfoFiltro();
+    dataColorInfoCarrier();
+    //eventsToolTipClima();
   }
 });
 </script>
@@ -47,6 +51,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  width: 100%;
 }
 </style>
 
