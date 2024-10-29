@@ -4762,21 +4762,72 @@
        transform="scale(1,-1)" />
   </g>
 </svg>
+      <ToolTipChart :position="tooltipPosition" v-if="showTooltip" />  
    </div>
 </template>
 
 <script setup>
 
-   import { ref, onMounted } from 'vue';
-   import { useSvgStore } from '@/stores/svgStore';
+import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
+import { ref, onMounted, watch } from 'vue';
+import { useSvgStore } from '@/stores/svgStore';
+import { useHomeClimaStore } from '@/stores/homeClimaStore';
 
-   const svgRef = ref(null);
-   const svgStore = useSvgStore();
+const svgRef = ref(null);
+const tooltipPosition = ref({ x: 0, y: 0 });
+const showTooltip = ref(false);
+const svgStore = useSvgStore();
+const climaStore = useHomeClimaStore();
 
-   onMounted(() => {
-      //Cuando el componente este montado, asignamos el SVG a la store
-      svgStore.setSvgRef(svgRef.value);
-   });
+function displayToolTip(e, nombre, medicion) {
+  tooltipPosition.value = { x: e.clientX + 10, y: e.clientY + 10 }; // Se usa e para coordenadas
+  showTooltip.value = true;
+}
+
+function hideTooltip() {
+  showTooltip.value = false;
+}
+
+function addTooltipEvents() {
+  const svg = svgRef.value;
+  const nombres = climaStore.datos.nombresClima;
+
+  nombres.forEach((nombre) => {
+    const temp = svg.querySelector(`#${nombre}_temp_g`);
+    const hum = svg.querySelector(`#${nombre}_hum_g`);
+    const humAbs = svg.querySelector(`#${nombre}_humAbs_g`);
+
+    if (temp) {
+      temp.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'temperatura'));
+      temp.addEventListener('mouseleave', hideTooltip);
+    }
+
+    if (hum) {
+      hum.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad'));
+      hum.addEventListener('mouseleave', hideTooltip);
+    }
+
+    if (humAbs) {
+      humAbs.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad_absoluta'));
+      humAbs.addEventListener('mouseleave', hideTooltip);
+    }
+  });
+}
+
+onMounted(() => {
+  svgStore.setSvgRef(svgRef.value);
+
+  watch(
+    () => climaStore.datos.nombresClima,
+    (newNombres) => {
+      if (newNombres) {
+        console.log('Datos cargados correctamente, agregando eventos');
+        addTooltipEvents();
+      }
+    },
+    { immediate: true }
+  );
+});
 
 </script>
 
