@@ -4775,22 +4775,40 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
-const showTooltip = ref(false);
+const showTooltip = ref(false); // Estado de visibilidad de la tooltip
 const svgStore = useSvgStore();
-const climaStore = useHomeClimaStore();
+const storeData = useHomeClimaStore().datos;
 
 function displayToolTip(e, nombre, medicion) {
-  tooltipPosition.value = { x: e.clientX + 10, y: e.clientY + 10 }; // Se usa e para coordenadas
+  const tooltipWidth = 500;  // Anchura aproximada de la tooltip
+  const tooltipHeight = 255; // Altura aproximada de la tooltip
+  const padding = 10;        // Espacio entre la tooltip y el borde de la pantalla
+
+  let x = e.clientX + padding;
+  let y = e.clientY + padding;
+
+  // Verificar si la tooltip se sale por el borde derecho
+  if (x + tooltipWidth > window.innerWidth) {
+    x = window.innerWidth - tooltipWidth - padding;
+  }
+
+  // Verificar si la tooltip se sale por el borde inferior
+  if (y + tooltipHeight > window.innerHeight) {
+    y = window.innerHeight - tooltipHeight - padding;
+  }
+
+  // Asigna la posición ajustada
+  tooltipPosition.value = { x, y };
   showTooltip.value = true;
 }
 
 function hideTooltip() {
   showTooltip.value = false;
-}
+};
 
 function addTooltipEvents() {
   const svg = svgRef.value;
-  const nombres = climaStore.datos.nombresClima;
+  const nombres = storeData.nombresClima; // Asume que ya tienes `nombresClima` cargado
 
   nombres.forEach((nombre) => {
     const temp = svg.querySelector(`#${nombre}_temp_g`);
@@ -4818,10 +4836,9 @@ onMounted(() => {
   svgStore.setSvgRef(svgRef.value);
 
   watch(
-    () => climaStore.datos.nombresClima,
-    (newNombres) => {
-      if (newNombres) {
-        console.log('Datos cargados correctamente, agregando eventos');
+    () => storeData,
+    (newData) => {
+      if (newData && newData.nombresClima) {
         addTooltipEvents();
       }
     },

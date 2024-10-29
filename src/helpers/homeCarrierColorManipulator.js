@@ -33,7 +33,7 @@ export const dataColorInfoCarrier = () => {
         if (estadoCarrier.estado){
             estadoCarrierGrafico.style.stroke = okColor
         } else {
-            estadoCarrierGrafico.style.stroke = alertColor;
+            estadoCarrierGrafico.style.stroke = alarmColor;
         }
 
     } catch {
