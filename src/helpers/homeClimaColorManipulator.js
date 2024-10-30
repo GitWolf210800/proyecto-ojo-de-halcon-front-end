@@ -162,7 +162,7 @@ export const dataColorInfoClima = () => {
       }
     }
   } catch {
-    console.log(`error en: ${nombresClima[i]}`);
+    console.warn(`error en: ${nombresClima[i]}`);
   }
 }
 

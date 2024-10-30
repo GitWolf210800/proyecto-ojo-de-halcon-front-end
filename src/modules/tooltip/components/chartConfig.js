@@ -32,13 +32,12 @@ export const data = {
         display: true,
         text: 'fab6_preparacion_clima 24Hs',
         color: 'white', // Cambia el color del título
-        fontSize: '25px'
+        font: {
+            size: 16 // Cambia el tamaño a lo que desees (por ejemplo, 24)
+          }
       }
     },
     scales: {
-     /* grid: {
-        color: 'white'
-      },*/
       x: {
         type: 'linear',
         position: 'bottom',

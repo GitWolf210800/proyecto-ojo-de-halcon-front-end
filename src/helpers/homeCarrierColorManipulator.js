@@ -37,7 +37,7 @@ export const dataColorInfoCarrier = () => {
         }
 
     } catch {
-        console.error('error en estado de carrier');
+        console.warn('error en datos de estado de carrier');
     }
 
     for(let i = 0; i < chillers.length; i++) {

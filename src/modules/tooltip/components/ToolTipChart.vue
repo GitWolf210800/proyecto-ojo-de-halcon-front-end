@@ -58,8 +58,8 @@
     border-radius: 7px;
     padding: 10px;
     z-index: 555;
-    width: 500px;
-    height: 255px;
+    width: 565px;
+    height: 260px;
   }
   </style>
   

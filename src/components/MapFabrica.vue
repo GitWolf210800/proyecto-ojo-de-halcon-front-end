@@ -4780,21 +4780,32 @@ const svgStore = useSvgStore();
 const storeData = useHomeClimaStore().datos;
 
 function displayToolTip(e, nombre, medicion) {
-  const tooltipWidth = 500;  // Anchura aproximada de la tooltip
-  const tooltipHeight = 255; // Altura aproximada de la tooltip
-  const padding = 10;        // Espacio entre la tooltip y el borde de la pantalla
+  const tooltipWidth = 570;  // Anchura aproximada de la tooltip
+  const tooltipHeight = 260; // Altura aproximada de la tooltip
+  const padding = 23;        // Espacio entre la tooltip y el borde de la pantalla
 
+  // Posición inicial de la tooltip al lado del cursor
   let x = e.clientX + padding;
   let y = e.clientY + padding;
 
-  // Verificar si la tooltip se sale por el borde derecho
+  // Asegura que la tooltip no se salga del borde derecho
   if (x + tooltipWidth > window.innerWidth) {
-    x = window.innerWidth - tooltipWidth - padding;
+    x = e.clientX - tooltipWidth - padding;
+  }
+  
+  // Asegura que la tooltip no se salga del borde izquierdo
+  if (x < 0) {
+    x = padding;
   }
 
-  // Verificar si la tooltip se sale por el borde inferior
+  // Asegura que la tooltip no se salga del borde inferior
   if (y + tooltipHeight > window.innerHeight) {
-    y = window.innerHeight - tooltipHeight - padding;
+    y = e.clientY - tooltipHeight - padding;
+  }
+
+  // Asegura que la tooltip no se salga del borde superior
+  if (y < 0) {
+    y = padding;
   }
 
   // Asigna la posición ajustada
