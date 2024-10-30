@@ -4762,7 +4762,7 @@
        transform="scale(1,-1)" />
   </g>
 </svg>
-      <ToolTipChart :position="tooltipPosition" v-if="showTooltip" />  
+      <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />  
    </div>
 </template>
 
@@ -4775,11 +4775,12 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
+const params = ref({});
 const showTooltip = ref(false); // Estado de visibilidad de la tooltip
 const svgStore = useSvgStore();
 const storeData = useHomeClimaStore().datos;
 
-function displayToolTip(e, nombre, medicion) {
+function displayToolTip(e, nombre, medicion, tabla) {
   const tooltipWidth = 570;  // Anchura aproximada de la tooltip
   const tooltipHeight = 260; // Altura aproximada de la tooltip
   const padding = 23;        // Espacio entre la tooltip y el borde de la pantalla
@@ -4810,6 +4811,8 @@ function displayToolTip(e, nombre, medicion) {
 
   // Asigna la posición ajustada
   tooltipPosition.value = { x, y };
+  params.value = { nombre, medicion, tabla };
+  //console.log(params);
   showTooltip.value = true;
 }
 
@@ -4825,20 +4828,27 @@ function addTooltipEvents() {
     const temp = svg.querySelector(`#${nombre}_temp_g`);
     const hum = svg.querySelector(`#${nombre}_hum_g`);
     const humAbs = svg.querySelector(`#${nombre}_humAbs_g`);
+    const entalpia = svg.querySelector(`#${nombre}_entalpia_g`)
+    const tablaClima = 'mediciones_clima_24hs';
 
     if (temp) {
-      temp.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'temperatura'));
+      temp.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'temperatura', tablaClima));
       temp.addEventListener('mouseleave', hideTooltip);
     }
 
     if (hum) {
-      hum.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad'));
+      hum.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad', tablaClima));
       hum.addEventListener('mouseleave', hideTooltip);
     }
 
     if (humAbs) {
-      humAbs.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad_absoluta'));
+      humAbs.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad_absoluta', tablaClima));
       humAbs.addEventListener('mouseleave', hideTooltip);
+    }
+
+    if (entalpia) {
+      entalpia.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'entalpia', tablaClima));
+      entalpia.addEventListener('mouseleave', hideTooltip);
     }
   });
 }
