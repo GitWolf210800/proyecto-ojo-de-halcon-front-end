@@ -20,10 +20,8 @@ export const dataColorInfoCarrier = () => {
         const estadoTanque = Math.abs(estadoCarrier.tanque_agua_fria_carrier);
         const cantidadDemanda = Object.keys(demandaAguaFria).length;
         demandaAguaFriaText.textContent = cantidadDemanda;
-        entAguaFria.textContent = estadoCarrier.entrada_agua_fria_principal.toFixed(1);
-        salAguaFria.textContent= estadoCarrier.salida_agua_fria_principal.toFixed(1);
         tanqueText.textContent = `${estadoTanque}`;
-
+        
         if (estadoTanque < 50) {
             tanqueGrafico.style.fill = alarmColor;
         } else {
@@ -35,6 +33,9 @@ export const dataColorInfoCarrier = () => {
         } else {
             estadoCarrierGrafico.style.stroke = alarmColor;
         }
+
+        entAguaFria.textContent = estadoCarrier.entrada_agua_fria_principal.toFixed(1);
+        salAguaFria.textContent= estadoCarrier.salida_agua_fria_principal.toFixed(1);
 
     } catch {
         console.warn('error en datos de estado de carrier');

@@ -4761,13 +4761,12 @@
        y="-5736.8862"
        transform="scale(1,-1)" />
   </g>
-</svg>
+      </svg>
       <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />  
    </div>
 </template>
 
 <script setup>
-
 import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
 import { ref, onMounted, watch } from 'vue';
 import { useSvgStore } from '@/stores/svgStore';
@@ -4776,83 +4775,66 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
-const showTooltip = ref(false); // Estado de visibilidad de la tooltip
+const showTooltip = ref(false);
 const svgStore = useSvgStore();
 const storeData = useHomeClimaStore().datos;
 
+// Configuración para la tooltip
+const TOOLTIP_CONFIG = {
+  width: 575,
+  height: 275,
+  padding: 23,
+};
+
+// Posiciona la tooltip de forma dinámica
+function calculateTooltipPosition(e) {
+  let x = e.clientX + TOOLTIP_CONFIG.padding;
+  let y = e.clientY + TOOLTIP_CONFIG.padding;
+
+  // Ajustes de límites de pantalla
+  if (x + TOOLTIP_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CONFIG.width - TOOLTIP_CONFIG.padding;
+  if (x < 0) x = TOOLTIP_CONFIG.padding;
+  if (y + TOOLTIP_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CONFIG.height - TOOLTIP_CONFIG.padding;
+  if (y < 0) y = TOOLTIP_CONFIG.padding;
+
+  return { x, y };
+}
+
+// Muestra la tooltip con los datos y posición específicos
 function displayToolTip(e, nombre, medicion, tabla) {
-  const tooltipWidth = 570;  // Anchura aproximada de la tooltip
-  const tooltipHeight = 260; // Altura aproximada de la tooltip
-  const padding = 23;        // Espacio entre la tooltip y el borde de la pantalla
-
-  // Posición inicial de la tooltip al lado del cursor
-  let x = e.clientX + padding;
-  let y = e.clientY + padding;
-
-  // Asegura que la tooltip no se salga del borde derecho
-  if (x + tooltipWidth > window.innerWidth) {
-    x = e.clientX - tooltipWidth - padding;
-  }
-  
-  // Asegura que la tooltip no se salga del borde izquierdo
-  if (x < 0) {
-    x = padding;
-  }
-
-  // Asegura que la tooltip no se salga del borde inferior
-  if (y + tooltipHeight > window.innerHeight) {
-    y = e.clientY - tooltipHeight - padding;
-  }
-
-  // Asegura que la tooltip no se salga del borde superior
-  if (y < 0) {
-    y = padding;
-  }
-
-  // Asigna la posición ajustada
-  tooltipPosition.value = { x, y };
+  tooltipPosition.value = calculateTooltipPosition(e);
   params.value = { nombre, medicion, tabla };
-  //console.log(params);
   showTooltip.value = true;
 }
 
+// Oculta la tooltip
 function hideTooltip() {
   showTooltip.value = false;
-};
+}
 
+// Asigna eventos de tooltip a los elementos
 function addTooltipEvents() {
   const svg = svgRef.value;
-  const nombres = storeData.nombresClima; // Asume que ya tienes `nombresClima` cargado
+  const nombres = storeData.nombresClima;
+  const elementsConfig = [
+    { idSuffix: 'temp_g', metric: 'temperatura' },
+    { idSuffix: 'hum_g', metric: 'humedad' },
+    { idSuffix: 'humAbs_g', metric: 'humedad_absoluta' },
+    { idSuffix: 'entalpia_g', metric: 'entalpia' },
+  ];
 
   nombres.forEach((nombre) => {
-    const temp = svg.querySelector(`#${nombre}_temp_g`);
-    const hum = svg.querySelector(`#${nombre}_hum_g`);
-    const humAbs = svg.querySelector(`#${nombre}_humAbs_g`);
-    const entalpia = svg.querySelector(`#${nombre}_entalpia_g`)
-    const tablaClima = 'mediciones_clima_24hs';
-
-    if (temp) {
-      temp.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'temperatura', tablaClima));
-      temp.addEventListener('mouseleave', hideTooltip);
-    }
-
-    if (hum) {
-      hum.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad', tablaClima));
-      hum.addEventListener('mouseleave', hideTooltip);
-    }
-
-    if (humAbs) {
-      humAbs.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'humedad_absoluta', tablaClima));
-      humAbs.addEventListener('mouseleave', hideTooltip);
-    }
-
-    if (entalpia) {
-      entalpia.addEventListener('mouseover', (e) => displayToolTip(e, nombre, 'entalpia', tablaClima));
-      entalpia.addEventListener('mouseleave', hideTooltip);
-    }
+    elementsConfig.forEach(({ idSuffix, metric }) => {
+      const element = svg.querySelector(`#${nombre}_${idSuffix}`);
+      if (element) {
+        element.addEventListener('mouseover', (e) => displayToolTip(e, nombre, metric, 'mediciones_clima_24hs'));
+        element.addEventListener('mouseleave', hideTooltip);
+      }
+    });
   });
 }
 
+// Monta y observa cambios en storeData para añadir eventos
 onMounted(() => {
   svgStore.setSvgRef(svgRef.value);
 
@@ -4866,27 +4848,30 @@ onMounted(() => {
     { immediate: true }
   );
 });
-
 </script>
 
-<style>
-   body {
-      background-color: #282c34;
-   }
-
-   .container__map {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    z-index: 0;
+<style >
+body {
+  background-color: #282c34;
 }
 
-   rect {
-      transition: 
-      fill 1.1s,
-      stroke 1.5s;
-   }
+.container__map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 0;
+}
+
+rect {
+  transition: fill 1.1s, stroke 1.5s;
+}
+
+text {
+   user-select: none;
+}
 </style>
+
+
+

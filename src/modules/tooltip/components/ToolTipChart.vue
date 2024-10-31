@@ -1,8 +1,8 @@
 <template>
   <div class="tooltip" :style="{ left: `${position.x}px`, top: `${position.y}px` }">
     <Line :data="charData" :options="chartOptions" v-if="charData" />
-    <div class="loading" v-else-if="loading">Cargando Datos...</div>
-    <div class="offline" v-else>offline</div>
+    <div class="chart-loading" v-else-if="loading">Cargando Datos...</div>
+    <div class="offline" v-else-if="offline">offline</div>
   </div>
 </template>
 
@@ -20,8 +20,8 @@ import {
 } from 'chart.js';
 import 'chartjs-adapter-date-fns'; // Importa el adaptador de fechas
 import { Line } from 'vue-chartjs';
-import axios from 'axios';
-import { server } from '@/variables.js';
+import getChartOptions from '../utils/charOptions';
+import { fetchChartData } from '../utils/fetchChartData';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
@@ -44,82 +44,20 @@ export default {
     return {
       loading: true,
       charData: null,
+      offline : false,
       params: this.parametros, // guardar parámetros para la petición
-      chartOptions: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            labels: {
-              color: '#FFF'
-            }
-          },
-          title: {
-            display: true,
-            text: `${this.parametros.nombre} 24Hs`,
-            color: 'white',
-            font: {
-              size: 16
-            }
-          }
-        },
-        scales: {
-          x: {
-      type: 'time',
-      time: {
-        unit: 'minute', // Ajusta la unidad a 'minute' para mostrar intervalos de minutos
-        displayFormats: {
-          minute: 'HH:mm' // Solo muestra la hora y minuto, por ejemplo, 14:30
-        },
-        tooltipFormat: 'HH:mm' // Formato del tooltip (hora:minuto)
-      },
-      grid: {
-        color: '#a0a0a0'
-      },
-      ticks: {
-        color: 'white'
-      },
-      title: {
-        display: true,
-        text: 'Hora',
-        color: '#D5D5D5'
-      }
-    },
-          y: {
-            grid: {
-              color: '#a0a0a0'
-            },
-            ticks: {
-              color: 'white'
-            },
-            title: {
-              display: true,
-              text: 'Valores',
-              color: '#d5d5d5'
-            }
-          }
-        }
-      }
+      chartOptions: getChartOptions(this.parametros)
     };
   },
   async mounted() {
     try {
-      const response = await axios.get(`${server}:1880/datos24hs`, {
-        params: {
-          nombre: this.params.nombre,
-          medicion: this.params.medicion,
-          tabla: this.params.tabla
-        }
-      });
-
-      const data = response.data.datos.datasets;
-      //console.log(data);
-      this.loading = false;
-      this.charData = {
-        datasets : data
-      };
+      const datasets = await fetchChartData(this.parametros);
+      this.charData = {datasets};
     } catch (error) {
-      console.error('Error fetching chart data', error);
+      this.charData = null;
+      this.offline = true;
+    } finally {
+      this.loading = false;
     }
   }
 };
@@ -135,9 +73,13 @@ export default {
   border-radius: 7px;
   padding: 10px;
   z-index: 555;
-  width: 570px;
-  height: 265px;
+  width: 575px;
+  height: 272px;
+}
+
+.chart-loading {
+  color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
 }
 </style>
-
-  

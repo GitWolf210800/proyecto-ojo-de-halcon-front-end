@@ -1,59 +1,16 @@
 <template>
-  <MapFabrica v-if="dataIsLoaded" />
-  <footer>
-    <EyeHawkIconVersion v-if="dataIsLoaded" />
-    <LogoTipoitiFooter v-if="dataIsLoaded" />
-  </footer>
+  <!-- Monta la vista principal del mapa -->
+  <MainMapClimaView />
 </template>
 
 <script setup>
-import { computed, onMounted, nextTick, watchEffect } from 'vue';
-import EyeHawkIconVersion from './components/icons/EyeHawkIconVersion.vue';
-import LogoTipoitiFooter from './components/icons/LogoTipoitiFooter.vue';
-import MapFabrica from './components/MapFabrica.vue';
-import { useDataHomeClima } from './components/componsables/useHomeClima';
-import { useHomeClimaStore } from './stores/homeClimaStore';
-import { useSvgStore } from './stores/svgStore';
-import { dataColorInfoClima } from './helpers/homeClimaColorManipulator';
-import { dataColorInfoFiltro } from './helpers/homeFiltroColorManipulator';
-import { dataColorInfoCarrier } from './helpers/homeCarrierColorManipulator';
-import { eventsToolTipClima } from './helpers/eventsToolTipChart';
-
-const storeData = useHomeClimaStore();
-const storeSvg = useSvgStore();
-
-onMounted(async () => {
-  await useDataHomeClima(); // Asegura que los datos iniciales estén cargados
-  nextTick(() => {
-    // Actualiza el SVG cada minuto para sincronización
-    setInterval(() => { useDataHomeClima(); }, 60000);
-  });
-});
-
-// Computados para verificar carga de datos y svgRef
-const dataIsLoaded = computed(() => storeData.datos !== null);
-const svgIsLoaded = computed(() => storeSvg.svgRef !== null);
-
-// Ejecuta la función cuando ambos datos estén disponibles
-watchEffect(() => {
-  if (dataIsLoaded.value && svgIsLoaded.value) {
-    dataColorInfoClima(); // Solo se ejecuta cuando ambos están listos
-    dataColorInfoFiltro();
-    dataColorInfoCarrier();
-    //eventsToolTipClima();
-  }
-});
+import MainMapClimaView from './components/MainMapClima.vue';
 </script>
 
 <style scoped>
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  width: 100%;
-}
+/* Estilos globales o específicos para la App pueden ir aquí */
 </style>
+
 
 
 <!--

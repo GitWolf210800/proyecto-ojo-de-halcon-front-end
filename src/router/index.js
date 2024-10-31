@@ -1,4 +1,4 @@
-import MapFabrica from '@/components/MapFabrica.vue'
+import MapFabrica from '@/components/MapFabricaClima.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
