@@ -65,7 +65,7 @@ export default {
 
 <style>
 .tooltip {
-  background-color: #626262;
+  background-color: #3b3b3b;
   color: #f0f0f0;
   text-align: justify;
   position: fixed;

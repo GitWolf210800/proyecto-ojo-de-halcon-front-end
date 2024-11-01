@@ -4781,9 +4781,9 @@ const storeData = useHomeClimaStore().datos;
 
 // Configuración para la tooltip
 const TOOLTIP_CONFIG = {
-  width: 575,
-  height: 275,
-  padding: 23,
+  width: 578,
+  height: 285,
+  padding: 35,
 };
 
 // Posiciona la tooltip de forma dinámica

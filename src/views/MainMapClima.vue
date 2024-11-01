@@ -15,7 +15,7 @@
   import LogoTipoitiFooter from './icons/LogoTipoitiFooter.vue';
   import MapFabrica from './MapFabricaClima.vue';
   
-  import { useDataHomeClima } from './componsables/useHomeClima';
+  import { useDataHomeClima } from '../components/componsables/useHomeClima';
   import { useHomeClimaStore } from '@/stores/homeClimaStore';
   import { useSvgStore } from '@/stores/svgStore';
   

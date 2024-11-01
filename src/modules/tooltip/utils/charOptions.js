@@ -29,7 +29,7 @@ export default function getChartOptions(parametros) {
           tooltipFormat: 'HH:mm' // Formato del tooltip (hora:minuto)
         },
         grid: {
-          color: '#a0a0a0'
+          color: '#858585'
         },
         ticks: {
           color: 'white'
@@ -42,7 +42,7 @@ export default function getChartOptions(parametros) {
       },
             y: {
               grid: {
-                color: '#a0a0a0'
+                color: '#858585'
               },
               ticks: {
                 color: 'white'

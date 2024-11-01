@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-import MainMapClimaView from './components/MainMapClima.vue';
+import MainMapClimaView from './views/MainMapClima.vue';
 </script>
 
 <style scoped>
