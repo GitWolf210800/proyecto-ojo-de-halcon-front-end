@@ -4762,12 +4762,14 @@
        transform="scale(1,-1)" />
   </g>
       </svg>
-      <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />  
+      <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />
+      <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" /> 
    </div>
 </template>
 
 <script setup>
 import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
+import ToolTipChartInfo from '@/modules/tooltip/components/ToolTipChartInfo.vue';
 import { ref, onMounted, watch } from 'vue';
 import { useSvgStore } from '@/stores/svgStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
@@ -4776,46 +4778,80 @@ const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
 const showTooltip = ref(false);
+const showTooltipInfo = ref(false);
 const svgStore = useSvgStore();
 const storeData = useHomeClimaStore().datos;
 
 // Configuración para la tooltip
-const TOOLTIP_CONFIG = {
+const TOOLTIP_CHART_CONFIG = {
   width: 578,
   height: 285,
   padding: 35,
 };
 
+const TOOLTIP_CHART_INFO_CONFIG = {
+  width: 370,
+  height: 600,
+  padding: 25,
+};
+
 // Posiciona la tooltip de forma dinámica
 function calculateTooltipPosition(e) {
-  let x = e.clientX + TOOLTIP_CONFIG.padding;
-  let y = e.clientY + TOOLTIP_CONFIG.padding;
+  let x = e.clientX + TOOLTIP_CHART_CONFIG.padding;
+  let y = e.clientY + TOOLTIP_CHART_CONFIG.padding;
 
   // Ajustes de límites de pantalla
-  if (x + TOOLTIP_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CONFIG.width - TOOLTIP_CONFIG.padding;
-  if (x < 0) x = TOOLTIP_CONFIG.padding;
-  if (y + TOOLTIP_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CONFIG.height - TOOLTIP_CONFIG.padding;
-  if (y < 0) y = TOOLTIP_CONFIG.padding;
+  if (x + TOOLTIP_CHART_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CHART_CONFIG.width - TOOLTIP_CHART_CONFIG.padding;
+  if (x < 0) x = TOOLTIP_CHART_CONFIG.padding;
+  if (y + TOOLTIP_CHART_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CHART_CONFIG.height - TOOLTIP_CHART_CONFIG.padding;
+  if (y < 0) y = TOOLTIP_CHART_CONFIG.padding;
 
   return { x, y };
 }
 
-// Muestra la tooltip con los datos y posición específicos
-function displayToolTip(e, nombre, medicion, tabla) {
+function calculateTooltipPositionChartInfo(e) {
+  let x = e.clientX + TOOLTIP_CHART_INFO_CONFIG.padding;
+  let y = e.clientY + TOOLTIP_CHART_INFO_CONFIG.padding;
+
+  // Ajustes de límites de pantalla
+  if (x + TOOLTIP_CHART_INFO_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CHART_INFO_CONFIG.width - TOOLTIP_CHART_INFO_CONFIG.padding;
+  if (x < 0) x = TOOLTIP_CHART_INFO_CONFIG.padding;
+  if (y + TOOLTIP_CHART_INFO_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CHART_INFO_CONFIG.height - TOOLTIP_CHART_INFO_CONFIG.padding;
+  if (y < 0) y = TOOLTIP_CHART_INFO_CONFIG.padding;
+
+  return { x, y };
+}
+
+// Muestra la tooltip del grafico con los datos y posición específicos
+function displayToolTipChart(e, nombre, medicion, tabla) {
   tooltipPosition.value = calculateTooltipPosition(e);
   params.value = { nombre, medicion, tabla };
   showTooltip.value = true;
 }
 
-// Oculta la tooltip
-function hideTooltip() {
+// Oculta la tooltip del grafico
+function hideTooltipChart() {
   showTooltip.value = false;
+}
+
+// Muestra la tooltip del grafico con los datos y posición específicos
+function displayToolTipChartInfo(e, nombre, medicion, tabla) {
+   console.log(nombre, medicion, tabla);
+  tooltipPosition.value = calculateTooltipPositionChartInfo(e);
+  params.value = { nombre, medicion, tabla };
+  showTooltipInfo.value = true;
+}
+
+// Oculta la tooltip del grafico
+function hideTooltipChartInfo() {
+   showTooltipInfo.value = false;
 }
 
 // Asigna eventos de tooltip a los elementos
 function addTooltipEvents() {
   const svg = svgRef.value;
-  const nombres = storeData.nombresClima;
+  const nombresClima = storeData.nombresClima;
+  const nombresFiltro = storeData.nombresFiltro;
   const elementsConfig = [
     { idSuffix: 'temp_g', metric: 'temperatura' },
     { idSuffix: 'hum_g', metric: 'humedad' },
@@ -4823,14 +4859,22 @@ function addTooltipEvents() {
     { idSuffix: 'entalpia_g', metric: 'entalpia' },
   ];
 
-  nombres.forEach((nombre) => {
+  nombresClima.forEach((nombre) => {
     elementsConfig.forEach(({ idSuffix, metric }) => {
       const element = svg.querySelector(`#${nombre}_${idSuffix}`);
       if (element) {
-        element.addEventListener('mouseover', (e) => displayToolTip(e, nombre, metric, 'mediciones_clima_24hs'));
-        element.addEventListener('mouseleave', hideTooltip);
+        element.addEventListener('mouseover', (e) => displayToolTipChart(e, nombre, metric, 'mediciones_clima_24hs'));
+        element.addEventListener('mouseleave', hideTooltipChart);
       }
     });
+  });
+
+  nombresFiltro.forEach((nombre) => {
+   const element = svg.querySelector(`#${nombre}`);
+   if(element) {
+      element.addEventListener('mouseover', (e) => displayToolTipChartInfo(e, nombre, 'filtro_ventilador', 'mediciones_filtros') );
+      element.addEventListener('mouseleave', hideTooltipChartInfo );
+   }
   });
 }
 

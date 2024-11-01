@@ -11,9 +11,9 @@
   
   <script setup>
   import { computed, onMounted, nextTick, watchEffect } from 'vue';
-  import EyeHawkIconVersion from './icons/EyeHawkIconVersion.vue';
-  import LogoTipoitiFooter from './icons/LogoTipoitiFooter.vue';
-  import MapFabrica from './MapFabricaClima.vue';
+  import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
+  import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
+  import MapFabrica from '@/components/MapFabricaClima.vue';
   
   import { useDataHomeClima } from '../components/componsables/useHomeClima';
   import { useHomeClimaStore } from '@/stores/homeClimaStore';
