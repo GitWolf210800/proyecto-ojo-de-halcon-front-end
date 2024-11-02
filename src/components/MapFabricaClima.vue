@@ -4873,7 +4873,7 @@ function addTooltipEvents() {
    const element = svg.querySelector(`#${nombre}`);
    if(element) {
       element.addEventListener('mouseover', (e) => displayToolTipChartInfo(e, nombre, 'filtro_ventilador', 'mediciones_filtros') );
-      element.addEventListener('mouseleave', hideTooltipChartInfo );
+      element.addEventListener('dblclick', hideTooltipChartInfo );
    }
   });
 }
