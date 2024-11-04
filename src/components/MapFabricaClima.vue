@@ -4763,13 +4763,15 @@
   </g>
       </svg>
       <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />
-      <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" /> 
+      <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" />
+      <ToolTipInfoTable :position="tooltipPosition" :parametros="paramsTable" v-if="showTooltipInfoTable" /> 
    </div>
 </template>
 
 <script setup>
 import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
 import ToolTipChartInfo from '@/modules/tooltip/components/ToolTipChartInfo.vue';
+import ToolTipInfoTable from '@/modules/tooltip/components/ToolTipInfoTable.vue';
 import { ref, onMounted, watch } from 'vue';
 import { useSvgStore } from '@/stores/svgStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
@@ -4777,8 +4779,10 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
+const paramsTable = ref({});
 const showTooltip = ref(false);
 const showTooltipInfo = ref(false);
+const showTooltipInfoTable = ref(false);
 const svgStore = useSvgStore();
 const storeData = useHomeClimaStore().datos;
 
@@ -4836,7 +4840,7 @@ function hideTooltipChart() {
 
 // Muestra la tooltip del grafico con los datos y posición específicos
 function displayToolTipChartInfo(e, nombre, medicion, tabla) {
-   console.log(nombre, medicion, tabla);
+   //console.log(nombre, medicion, tabla);
   tooltipPosition.value = calculateTooltipPositionChartInfo(e);
   params.value = { nombre, medicion, tabla };
   showTooltipInfo.value = true;
