@@ -6,7 +6,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted } from 'vue';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -18,49 +19,41 @@ import {
   Legend,
   TimeScale
 } from 'chart.js';
-import 'chartjs-adapter-date-fns'; // Importa el adaptador de fechas
+import 'chartjs-adapter-date-fns';
 import { Line } from 'vue-chartjs';
 import getChartOptions from '../utils/charOptions';
 import { fetchChartData } from '../utils/fetchChartData';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
-export default {
-  name: 'ToolTipChart',
-  components: {
-    Line
+const props = defineProps({
+  position: {
+    type: Object,
+    required: true
   },
-  props: {
-    position: {
-      type: Object,
-      required: true
-    },
-    parametros: {
-      type: Object,
-      required: true
-    }
-  },
-  data() {
-    return {
-      loading: true,
-      charData: null,
-      offline : false,
-      params: this.parametros, // guardar parámetros para la petición
-      chartOptions: getChartOptions(this.parametros)
-    };
-  },
-  async mounted() {
-    try {
-      const datasets = await fetchChartData(this.parametros);
-      this.charData = {datasets};
-    } catch (error) {
-      this.charData = null;
-      this.offline = true;
-    } finally {
-      this.loading = false;
-    }
+  parametros: {
+    type: Object,
+    required: true
   }
-};
+});
+
+const loading = ref(true);
+const charData = ref(null);
+const offline = ref(false);
+
+const chartOptions = getChartOptions(props.parametros);
+
+onMounted(async () => {
+  try {
+    const datasets = await fetchChartData(props.parametros);
+    charData.value = { datasets };
+  } catch (error) {
+    charData.value = null;
+    offline.value = true;
+  } finally {
+    loading.value = false;
+  }
+});
 </script>
 
 <style>

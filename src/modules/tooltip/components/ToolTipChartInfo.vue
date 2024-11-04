@@ -1,98 +1,112 @@
 <template>
     <div class="tooltipInfo" :style="{ left: `${position.x}px`, top: `${position.y}px` }">
-        <div class="chart">
-            <Line :data="chartData" :options="chartOptions" v-if="chartData" />
-        </div>
-        <div class="info">
-            <ul>
-                <li v-for="(item, index) in dataNow" :key="index" v-if="dataNow">
-                    <div v-for="(value, key) in item" :key="key">
-                        <!-- Si el valor corresponde a un límite (min o max), se imprime en blanco -->
-                        <span v-if="key.startsWith('min_') || key.startsWith('max_')" :style="{ color: 'white' }">
-                            {{ key }}: {{ value }}
-                        </span>
-
-                        <!-- Si es un valor de medición y tiene límites asociados -->
-                        <span v-else-if="item['min_' + key] !== 0 && item['max_' + key] !== 0"
-                            :style="{ color: (value < item['min_' + key] || value > item['max_' + key]) ? 'red' : 'green' }">
-                            {{ key }}: {{ value }}
-                        </span>
-
-                        <!-- Si es un valor de medición sin límites asociados -->
-                        <span v-else>
-                            {{ key }}: {{ value }}
-                        </span>
-                    </div>
-                </li>
-            </ul>
-        </div>
+      <div class="chart">
+        <Line :data="chartData" :options="chartOptions" v-if="chartData" />
+      </div>
+      <div class="info">
+        <ul>
+          <span v-if="loadingNow">Cargando Datos...</span>
+          <span class="offline" v-else-if="offlineNow" :style="{ color: offlineColor }">offline</span>
+          <li v-for="(item, index) in dataNow" :key="index" v-if="dataNow">
+            <div v-for="(value, key) in item" :key="key">
+              <!-- Si el valor corresponde a un límite (min o max), se imprime en blanco -->
+              <span v-if="key.startsWith('min_') || key.startsWith('max_')" :style="{ color: 'white' }">
+                {{ key }}: {{ formatValue(value) }}
+              </span>
+              <!-- Si es un valor de medición y tiene límites asociados -->
+              <span v-else-if="item['min_' + key] !== 0 && item['max_' + key] !== 0"
+                :style="{ color: (value < item['min_' + key] || value > item['max_' + key]) ? alarmColor : textOkColor }">
+                {{ key }}: {{ formatValue(value) }}
+              </span>
+              <!-- Si es un valor de medición sin límites asociados -->
+              <span v-else>
+                {{ key }}: {{ formatValue(value) }}
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-</template>
-
-<script>
-import { Line } from 'vue-chartjs';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  TimeScale
-} from 'chart.js';
-import 'chartjs-adapter-date-fns'; // Importa el adaptador de fechas
-import getChartOptions from '../utils/charOptions';
-import { fetchChartData } from '../utils/fetchChartData';
-import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
-
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
-
-export default {
-    name: 'ToolTipChartInfo',
-    components: {
-        Line
+  </template>
+  
+  <script setup>
+  import { ref, onMounted } from 'vue';
+  import { Line } from 'vue-chartjs';
+  import {
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+    TimeScale
+  } from 'chart.js';
+  import 'chartjs-adapter-date-fns';
+  import getChartOptions from '../utils/charOptions';
+  import { fetchChartData } from '../utils/fetchChartData';
+  import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
+  import { alarmColor, textOkColor, offlineColor } from '@/variables';
+  
+  ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
+  
+  const props = defineProps({
+    position: {
+      type: Object,
+      required: true
     },
-    props: {
-        position: {
-            type: Object,
-            required: true
-        },
-        parametros: {
-            type: Object,
-            required: true
-        }
-    },
-    data() {
-        return {
-            loading: true,
-            chartData: null,
-            dataNow: null,
-            offline: false,
-            params: this.parametros,
-            chartOptions: getChartOptions(this.parametros)
-        };
-    },
-    async mounted() {
-        try {
-            const datasets = await fetchChartData(this.parametros);
-            const dataNow = await fetchInfoDataNow(this.parametros);
-            this.chartData = { datasets };
-            this.dataNow = dataNow;
-        } catch (error) {
-            this.chartData = null;
-            this.offline = true;
-        } finally {
-            this.loading = false;
-        }
-    } 
-};
-</script>
-
-<style>
-.tooltipInfo {
-    background-color: #626262;
+    parametros: {
+      type: Object,
+      required: true
+    }
+  });
+  
+  const loading = ref(true);
+  const loadingNow = ref(true);
+  const chartData = ref(null);
+  const dataNow = ref(null);
+  const offline = ref(false);
+  const offlineNow = ref(false);
+  
+  const chartOptions = getChartOptions(props.parametros);
+  
+  onMounted(async () => {
+    try {
+      const datasets = await fetchChartData(props.parametros);
+      chartData.value = { datasets };
+    } catch (error) {
+      chartData.value = null;
+      offline.value = true;
+    } finally {
+      loading.value = false;
+    }
+  
+    try {
+      const fetchedDataNow = await fetchInfoDataNow(props.parametros);
+      if (fetchedDataNow.length === 0) {
+        dataNow.value = null;
+        offlineNow.value = true;
+        loadingNow.value = false;
+      } else {
+        dataNow.value = fetchedDataNow;
+        loadingNow.value = false;
+      }
+    } catch (error) {
+      loadingNow.value = false;
+      dataNow.value = null;
+      offlineNow.value = true;
+    }
+  });
+  
+  function formatValue(value) {
+    return typeof value === 'number' ? value.toFixed(2) : value;
+  }
+  </script>
+  
+  <style>
+  .tooltipInfo {
+    background-color: #3b3b3b;
     color: #f0f0f0;
     text-align: justify;
     position: fixed;
@@ -102,16 +116,22 @@ export default {
     z-index: 1;
     margin: 0 auto;
     width: 360px;
-}
-
-.chart {
+  }
+  
+  .chart {
     width: 100%;
     height: 200px;
-}
-
-.info {
-    max-height: 300px; /* Ajusta el máximo de altura aquí */
-    overflow-y: auto;  /* Activa el desplazamiento si se excede la altura */
-    padding: 5px;
-}
-</style>
+  }
+  
+  .offline {
+    font-size: 20px;
+  }
+  
+  .info {
+    width: 100%;
+    max-height: 330px;
+    font-size: 16px;
+    padding: -5px;
+  }
+  </style>
+  

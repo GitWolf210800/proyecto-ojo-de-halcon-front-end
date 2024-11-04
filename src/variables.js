@@ -2,6 +2,7 @@ export const server = 'http://192.168.3.122';
 
 export const offlineColor = '#C96100';
 export const okColor = '#29B32E';
+export const textOkColor = '#1fcb00';
 export const alertColor = '#ffff00f0';
 export const alarmColor = '#BD1F1F';
 export const neutroColor = '#8f8f9ff0';

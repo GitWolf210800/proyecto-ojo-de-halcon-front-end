@@ -18,7 +18,7 @@ export const dataColorInfoCarrier = () => {
 
     try {
         const estadoTanque = Math.abs(estadoCarrier.tanque_agua_fria_carrier);
-        const cantidadDemanda = Object.keys(demandaAguaFria).length;
+        const cantidadDemanda = demandaAguaFria.length;
         demandaAguaFriaText.textContent = cantidadDemanda;
         tanqueText.textContent = `${estadoTanque}`;
         
