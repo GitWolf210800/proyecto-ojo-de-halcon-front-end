@@ -84,6 +84,7 @@
   
     try {
       const fetchedDataNow = await fetchInfoDataNow(props.parametros);
+      console.log(fetchedDataNow);
       if (fetchedDataNow.length === 0) {
         dataNow.value = null;
         offlineNow.value = true;
@@ -100,6 +101,7 @@
   });
   
   function formatValue(value) {
+    //console.log(value);
     return typeof value === 'number' ? value.toFixed(2) : value;
   }
   </script>
@@ -120,7 +122,7 @@
   
   .chart {
     width: 100%;
-    height: 200px;
+    height: 235px;
   }
   
   .offline {
