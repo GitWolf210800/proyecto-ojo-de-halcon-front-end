@@ -4764,7 +4764,7 @@
       </svg>
       <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />
       <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" />
-      <ToolTipInfoTable :position="tooltipPosition" :parametros="paramsTable" v-if="showTooltipInfoTable" /> 
+      <ToolTipInfoTable :position="tooltipPosition" :parametros="params" v-if="showTooltipInfoTable" /> 
    </div>
 </template>
 
@@ -4779,7 +4779,7 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
-const paramsTable = ref({});
+//const paramsTable = ref({});
 const showTooltip = ref(false);
 const showTooltipInfo = ref(false);
 const showTooltipInfoTable = ref(false);
@@ -4805,6 +4805,7 @@ const TOOLTIP_INFO_TABLE = {
    padding: 25
 };
 
+// Posiciona la tooltip de forma dinámica
 function calculateTooltipPosition(e, TOOLTIP_CONFIG) {
   let x = e.clientX + TOOLTIP_CONFIG.padding;
   let y = e.clientY + TOOLTIP_CONFIG.padding;
