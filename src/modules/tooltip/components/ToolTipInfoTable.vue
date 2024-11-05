@@ -1,38 +1,28 @@
 <template>
-    <div class="toolTipTable" :style="{ left: `${position.x}px`, top: `${position.y}px` }">
-        <h2>{{ props.parametros }}</h2>
+    <div class="toolTipTable" :style="{ left: `${position.x}px`, top: `${position.y}px` }" v-if="data && headers.length > 0">
+        <h2>{{ parametros.solicitud }}</h2>
         <table>
-            <thead>
-                <tr>
-                    <th v-for="header in headers" :key="header">{{ header }}</th>
-                </tr>
-            </thead>
             <tbody>
                 <tr v-for="(item, index) in data" :key="index">
-                    <td v-for="header in headers" :key="header"> {{  item[header]  }} </td>
+                    <td v-for="header in headers" :key="header"> {{ item[header] }} </td>
                 </tr>
             </tbody>
         </table>
-
     </div>
 </template>
 
 <script setup>
-import { computed, onMounted, ref, toRefs } from 'vue';
+import { onMounted, ref, toRefs } from 'vue';
 import { fetchInfoTableDatos } from '../utils/fetchInfoTableDatos';
 
 const loading = ref(true);
-const offline = ref(true);
-//const datosTable = ref(null);
+const data = ref(null); // Almacena los datos obtenidos
+const headers = ref([]); // Almacena los encabezados de las columnas
 
 const props = defineProps({
-    position : {
+    position: {
         type: Object,
-        requiered: true
-    },
-    data: {
-        type: Array,
-        requiered: true
+        required: true
     },
     parametros: {
         type: Object,
@@ -40,33 +30,30 @@ const props = defineProps({
     }
 });
 
-//Destructuracion de la prop `data`
-const { data } = toRefs(props);
+const { parametros } = toRefs(props); // Accede a `parametros` para facilitar su uso en `fetchInfoTableDatos`
 
-//Computado para obtener los encabezados de la tabla en las claves del primer objeto
-const headers = computed(() => {
-    return data.value.length > 0 ? Object.keys(data.value[0]) : [];
-});
-
-
-onMounted( async () =>  {
+onMounted(async () => {
     try {
-        const datos = await fetchInfoTableDatos(props.parametros);
-        props.data = datos;
+        // Obtiene los datos usando la función de utilidad `fetchInfoTableDatos`
+        const datos = await fetchInfoTableDatos(parametros.value);
+        data.value = datos;
+        
+        // Calcula los encabezados de la tabla usando las claves del primer objeto
+        headers.value = data.value.length > 0 ? Object.keys(data.value[0]) : [];
+        
+        loading.value = false;
     } catch (error) {
-        loading = false;
-        props.data = null;
-    } finally {
-        loading = false;
+        console.error("Error al cargar los datos:", error);
+        loading.value = false;
+        data.value = null;
     }
 });
-
-
 </script>
 
-<style>
+<style scoped>
 .toolTipTable {
-    display: none;
+    display: flex;
+    flex-direction: column;
     background-color: #626262;
     color: #f0f0f0;
     text-align: justify;
@@ -76,8 +63,9 @@ onMounted( async () =>  {
     padding: 10px;
     z-index: 999;
     margin: 0 auto;
-    width: 215px;
-    height: 130px;
+    max-width: 400px;
+    max-height: 500px;
+    /*overflow: auto;*/
 }
 
 table {
@@ -86,7 +74,14 @@ table {
     margin-top: 1em;
 }
 
-body {
-    color: #FFF
+th, td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
 }
 </style>
