@@ -4799,36 +4799,28 @@ const TOOLTIP_CHART_INFO_CONFIG = {
   padding: 25,
 };
 
-// Posiciona la tooltip de forma dinámica
-function calculateTooltipPosition(e) {
-  let x = e.clientX + TOOLTIP_CHART_CONFIG.padding;
-  let y = e.clientY + TOOLTIP_CHART_CONFIG.padding;
+const TOOLTIP_INFO_TABLE = {
+   width: 300,
+   height: 600,
+   padding: 25
+};
+
+function calculateTooltipPosition(e, TOOLTIP_CONFIG) {
+  let x = e.clientX + TOOLTIP_CONFIG.padding;
+  let y = e.clientY + TOOLTIP_CONFIG.padding;
 
   // Ajustes de límites de pantalla
-  if (x + TOOLTIP_CHART_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CHART_CONFIG.width - TOOLTIP_CHART_CONFIG.padding;
-  if (x < 0) x = TOOLTIP_CHART_CONFIG.padding;
-  if (y + TOOLTIP_CHART_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CHART_CONFIG.height - TOOLTIP_CHART_CONFIG.padding;
-  if (y < 0) y = TOOLTIP_CHART_CONFIG.padding;
-
-  return { x, y };
-}
-
-function calculateTooltipPositionChartInfo(e) {
-  let x = e.clientX + TOOLTIP_CHART_INFO_CONFIG.padding;
-  let y = e.clientY + TOOLTIP_CHART_INFO_CONFIG.padding;
-
-  // Ajustes de límites de pantalla
-  if (x + TOOLTIP_CHART_INFO_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CHART_INFO_CONFIG.width - TOOLTIP_CHART_INFO_CONFIG.padding;
-  if (x < 0) x = TOOLTIP_CHART_INFO_CONFIG.padding;
-  if (y + TOOLTIP_CHART_INFO_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CHART_INFO_CONFIG.height - TOOLTIP_CHART_INFO_CONFIG.padding;
-  if (y < 0) y = TOOLTIP_CHART_INFO_CONFIG.padding;
+  if (x + TOOLTIP_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CONFIG.width - TOOLTIP_CONFIG.padding;
+  if (x < 0) x = TOOLTIP_CONFIG.padding;
+  if (y + TOOLTIP_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CONFIG.height - TOOLTIP_CONFIG.padding;
+  if (y < 0) y = TOOLTIP_CONFIG.padding;
 
   return { x, y };
 }
 
 // Muestra la tooltip del grafico con los datos y posición específicos
 function displayToolTipChart(e, nombre, medicion, tabla) {
-  tooltipPosition.value = calculateTooltipPosition(e);
+  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_CHART_CONFIG);
   params.value = { nombre, medicion, tabla };
   showTooltip.value = true;
 }
@@ -4841,7 +4833,7 @@ function hideTooltipChart() {
 // Muestra la tooltip del grafico con los datos y posición específicos
 function displayToolTipChartInfo(e, nombre, medicion, tabla) {
    //console.log(nombre, medicion, tabla);
-  tooltipPosition.value = calculateTooltipPositionChartInfo(e);
+  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_CHART_INFO_CONFIG);
   params.value = { nombre, medicion, tabla };
   showTooltipInfo.value = true;
 }
@@ -4851,9 +4843,23 @@ function hideTooltipChartInfo() {
    showTooltipInfo.value = false;
 }
 
+// Muestra la tooltip del grafico con los datos y posición específicos
+function displayToolTioInfoTable(e, solicitud) {
+   //console.log(nombre, medicion, tabla);
+  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_INFO_TABLE);
+  params.value = { solicitud };
+  showTooltipInfo.value = true;
+}
+
+// Oculta la tooltip del grafico
+function hideTooltipInfoTable() {
+   showTooltipInfoTable.value = false;
+}
+
 // Asigna eventos de tooltip a los elementos
 function addTooltipEvents() {
   const svg = svgRef.value;
+  const demandaDeAguaFria = svg.querySelector(`#demanda_agua_fria_text`);
   const nombresClima = storeData.nombresClima;
   const nombresFiltro = storeData.nombresFiltro;
   const elementsConfig = [
@@ -4862,6 +4868,8 @@ function addTooltipEvents() {
     { idSuffix: 'humAbs_g', metric: 'humedad_absoluta' },
     { idSuffix: 'entalpia_g', metric: 'entalpia' },
   ];
+
+   //demandaDeAguaFria.addEventListener('mouseover', (e))
 
   nombresClima.forEach((nombre) => {
     elementsConfig.forEach(({ idSuffix, metric }) => {

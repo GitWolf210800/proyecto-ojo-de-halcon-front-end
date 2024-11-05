@@ -84,7 +84,7 @@
   
     try {
       const fetchedDataNow = await fetchInfoDataNow(props.parametros);
-      console.log(fetchedDataNow);
+      //console.log(fetchedDataNow);
       if (fetchedDataNow.length === 0) {
         dataNow.value = null;
         offlineNow.value = true;
