@@ -4749,7 +4749,7 @@ import ToolTipInfoTable from '@/modules/tooltip/components/ToolTipInfoTable.vue'
 import { ref, onMounted, watch } from 'vue';
 import { useSvgStore } from '@/stores/svgStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
-import {TOOLTIP_CHART_CONFIG, TOOLTIP_CHART_INFO_CONFIG, TOOLTIP_INFO_TABLE} from '@/variables.js'
+import {TOOLTIP_CHART_CONFIG, TOOLTIP_CHART_INFO_CONFIG, TOOLTIP_INFO_TABLE, elementsConfigTyH} from '@/variables.js'
 
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
@@ -4819,12 +4819,7 @@ function addTooltipEvents() {
   const condicionesCarrier = svg.querySelector(`#condiciones_marcha_carrier`);
   const nombresClima = storeData.nombresClima;
   const nombresFiltro = storeData.nombresFiltro;
-  const elementsConfig = [
-    { idSuffix: 'temp_g', metric: 'temperatura' },
-    { idSuffix: 'hum_g', metric: 'humedad' },
-    { idSuffix: 'humAbs_g', metric: 'humedad_absoluta' },
-    { idSuffix: 'entalpia_g', metric: 'entalpia' },
-  ];
+  
 
    demandaDeAguaFria.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'demanda_agua_fria'));
    demandaDeAguaFria.addEventListener('mouseleave', hideTooltipInfoTable);
@@ -4833,7 +4828,7 @@ function addTooltipEvents() {
    condicionesCarrier.addEventListener('mouseleave', hideTooltipInfoTable );
 
   nombresClima.forEach((nombre) => {
-    elementsConfig.forEach(({ idSuffix, metric }) => {
+    elementsConfigTyH.forEach(({ idSuffix, metric }) => {
       const element = svg.querySelector(`#${nombre}_${idSuffix}`);
       if (element) {
         element.addEventListener('mouseover', (e) => displayToolTipChart(e, nombre, metric, 'mediciones_clima_24hs'));
