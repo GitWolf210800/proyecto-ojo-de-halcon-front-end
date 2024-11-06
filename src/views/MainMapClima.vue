@@ -33,7 +33,7 @@
     nextTick(() => {
       setInterval(() => {
         useDataHomeClima();
-      }, 60000); // Actualización cada minuto
+      }, 10000); // Actualización cada 10 segundos
     });
   });
   

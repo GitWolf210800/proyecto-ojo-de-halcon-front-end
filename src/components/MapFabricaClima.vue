@@ -4761,7 +4761,7 @@ const storeData = useHomeClimaStore().datos;
 
 // Configuración para la tooltip
 const TOOLTIP_CHART_CONFIG = {
-  width: 578,
+  width: 582,
   height: 285,
   padding: 35,
 };
@@ -4834,6 +4834,7 @@ function hideTooltipInfoTable() {
 function addTooltipEvents() {
   const svg = svgRef.value;
   const demandaDeAguaFria = svg.querySelector(`#demanda_agua_fria_text`);
+  const condicionesCarrier = svg.querySelector(`#condiciones_marcha_carrier`);
   const nombresClima = storeData.nombresClima;
   const nombresFiltro = storeData.nombresFiltro;
   const elementsConfig = [
@@ -4845,6 +4846,9 @@ function addTooltipEvents() {
 
    demandaDeAguaFria.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'demanda_agua_fria'));
    demandaDeAguaFria.addEventListener('mouseleave', hideTooltipInfoTable);
+   
+   condicionesCarrier.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'condiciones_marcha_carriers'));
+   condicionesCarrier.addEventListener('mouseleave', hideTooltipInfoTable );
 
   nombresClima.forEach((nombre) => {
     elementsConfig.forEach(({ idSuffix, metric }) => {

@@ -2,9 +2,16 @@
     <div class="toolTipTable" :style="{ left: `${position.x}px`, top: `${position.y}px` }" v-if="data && headers.length > 0">
         <h2>{{ parametros.solicitud }}</h2>
         <table>
+            <thead>
+                <tr>
+                    <!-- Filtramos encabezados que no empiecen con "id" -->
+                    <th v-for="header in headers" :key="header">{{ header }}</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr v-for="(item, index) in data" :key="index">
-                    <td v-for="header in headers" :key="header"> {{ item[header] }} </td>
+                    <!-- Filtramos las celdas de datos correspondientes a encabezados que no empiecen con "id" -->
+                    <td v-for="header in headers" :key="header"> {{ formatValue(item[header]) }} </td>
                 </tr>
             </tbody>
         </table>
@@ -38,8 +45,10 @@ onMounted(async () => {
         const datos = await fetchInfoTableDatos(parametros.value);
         data.value = datos;
         
-        // Calcula los encabezados de la tabla usando las claves del primer objeto
-        headers.value = data.value.length > 0 ? Object.keys(data.value[0]) : [];
+        // Calcula los encabezados de la tabla usando las claves del primer objeto, excluyendo las que empiezan con "id"
+        headers.value = data.value.length > 0 
+            ? Object.keys(data.value[0]).filter(key => !key.startsWith('id')) 
+            : [];
         
         loading.value = false;
     } catch (error) {
@@ -48,14 +57,18 @@ onMounted(async () => {
         data.value = null;
     }
 });
+
+function formatValue(value) {
+    //console.log(value);
+    return typeof value === 'number' ? value.toFixed(2) : value;
+  }
 </script>
 
-<style>
-
+<style scoped>
 .toolTipTable {
     display: flex;
     flex-direction: column;
-    background-color: #626262;
+    background-color: #3b3b3b;
     color: #f0f0f0;
     text-align: justify;
     position: fixed;
@@ -66,13 +79,16 @@ onMounted(async () => {
     margin: 0 auto;
     max-width: 400px;
     max-height: 500px;
-    /*overflow: auto;*/
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1em;
+}
+
+th {
+    color: aqua;
 }
 
 th, td {
@@ -82,7 +98,10 @@ th, td {
 }
 
 h2 {
+    color: #00c51e;
     margin: 0;
     padding-bottom: 0.5em;
 }
 </style>
+
+
