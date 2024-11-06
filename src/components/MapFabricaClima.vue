@@ -4753,7 +4753,6 @@ import { useHomeClimaStore } from '@/stores/homeClimaStore';
 const svgRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
-const paramsTable = ref({});
 const showTooltip = ref(false);
 const showTooltipInfo = ref(false);
 const showTooltipInfoTable = ref(false);
