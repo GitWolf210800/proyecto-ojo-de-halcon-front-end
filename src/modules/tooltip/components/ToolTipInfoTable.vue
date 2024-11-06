@@ -50,7 +50,8 @@ onMounted(async () => {
 });
 </script>
 
-<style scoped>
+<style>
+
 .toolTipTable {
     display: flex;
     flex-direction: column;
