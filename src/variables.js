@@ -20,14 +20,12 @@ export  const TOOLTIP_INFO_TABLE = {
      padding: 25
   };
 
-
 export const elementsConfigTyH = [
     { idSuffix: 'temp_g', metric: 'temperatura' },
     { idSuffix: 'hum_g', metric: 'humedad' },
     { idSuffix: 'humAbs_g', metric: 'humedad_absoluta' },
     { idSuffix: 'entalpia_g', metric: 'entalpia' },
   ];
-
 
 export const offlineColor = '#C96100';
 export const okColor = '#29B32E';

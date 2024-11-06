@@ -8,7 +8,7 @@ import MainMapClimaView from './views/MainMapClima.vue';
 </script>
 
 <style scoped>
-/* Estilos globales o específicos para la App pueden ir aquí */
+/* Estilos globales o específicos para la App */
 </style>
 
 

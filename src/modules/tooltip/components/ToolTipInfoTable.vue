@@ -1,17 +1,16 @@
 <template>
     <div class="toolTipTable" :style="{ left: `${position.x}px`, top: `${position.y}px` }" v-if="data && headers.length > 0">
-        <h2>{{ parametros.solicitud }}</h2>
+        <h2>{{ formatHeader(parametros.solicitud) }}</h2>
         <table>
             <thead>
                 <tr>
-                    <!-- Filtramos encabezados que no empiecen con "id" -->
-                    <th v-for="header in headers" :key="header">{{ header }}</th>
+                    <!-- Formateamos los encabezados para reemplazar guiones bajos con espacios -->
+                    <th v-for="header in headers" :key="header">{{ formatHeader(header) }}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="(item, index) in data" :key="index">
-                    <!-- Filtramos las celdas de datos correspondientes a encabezados que no empiecen con "id" -->
-                    <td v-for="header in headers" :key="header"> {{ formatValue(item[header]) }} </td>
+                    <td v-for="header in headers" :key="header"> {{ item[header] }} </td>
                 </tr>
             </tbody>
         </table>
@@ -39,6 +38,11 @@ const props = defineProps({
 
 const { parametros } = toRefs(props); // Accede a `parametros` para facilitar su uso en `fetchInfoTableDatos`
 
+// Función para reemplazar guiones bajos por espacios en los encabezados
+const formatHeader = (header) => {
+    return header.replace(/_/g, ' ');
+};
+
 onMounted(async () => {
     try {
         // Obtiene los datos usando la función de utilidad `fetchInfoTableDatos`
@@ -57,14 +61,9 @@ onMounted(async () => {
         data.value = null;
     }
 });
-
-function formatValue(value) {
-    //console.log(value);
-    return typeof value === 'number' ? value.toFixed(2) : value;
-  }
 </script>
 
-<style scoped>
+<style>
 .toolTipTable {
     display: flex;
     flex-direction: column;

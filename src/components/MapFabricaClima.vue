@@ -4323,7 +4323,7 @@
          id="tspan20-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:99.1747px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.65292"
          x="5476.5547"
-         y="-6127.4253">25,3</tspan></text>
+         y="-6127.4253">nn,n</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:91.9402px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00ffcc;stroke:#ffffff;stroke-width:1.53234"
@@ -4819,6 +4819,8 @@ function addTooltipEvents() {
   const condicionesCarrier = svg.querySelector(`#condiciones_marcha_carrier`);
   const nombresClima = storeData.nombresClima;
   const nombresFiltro = storeData.nombresFiltro;
+  const carriers = storeData.chiller;
+  const medicionesCarrier = storeData.medicionesCarrier;
   
 
    demandaDeAguaFria.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'demanda_agua_fria'));
@@ -4842,6 +4844,22 @@ function addTooltipEvents() {
    if(element) {
       element.addEventListener('mouseover', (e) => displayToolTipChartInfo(e, nombre, 'filtro_ventilador', 'mediciones_filtros') );
       element.addEventListener('mouseleave', hideTooltipChartInfo );
+   }
+  });
+
+  carriers.forEach((dato) => {
+   const element = svg.querySelector(`#${dato.nombre}Vinf`);
+   if(element) {
+      element.addEventListener('mouseover', (e) => displayToolTipChart(e, dato.nombre, 'demanda', 'mediciones_carrier'));
+      element.addEventListener('mouseleave', hideTooltipChart);
+   }
+  })
+
+  medicionesCarrier.forEach((medicion) => {
+   const element = svg.querySelector(`#${medicion}`);
+   if(element){
+      element.addEventListener('mouseover', (e) => displayToolTipChart(e, 'carrier', medicion, 'mediciones_carrier'));
+      element.addEventListener('mouseleave', hideTooltipChart);
    }
   });
 }
