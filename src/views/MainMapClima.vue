@@ -47,7 +47,6 @@
       dataColorInfoClima();
       dataColorInfoFiltro();
       dataColorInfoCarrier();
-      // eventsToolTipClima(); // Descomentar si es necesario
     }
   });
   </script>
