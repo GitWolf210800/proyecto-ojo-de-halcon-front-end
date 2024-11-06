@@ -1,5 +1,26 @@
 export const server = 'http://192.168.3.122';
 
+
+// Configuración para la tooltip
+export const TOOLTIP_CHART_CONFIG = {
+    width: 582,
+    height: 285,
+    padding: 35,
+  };
+  
+export  const TOOLTIP_CHART_INFO_CONFIG = {
+    width: 370,
+    height: 600,
+    padding: 25,
+  };
+  
+export  const TOOLTIP_INFO_TABLE = {
+     width: 300,
+     height: 600,
+     padding: 25
+  };
+
+
 export const offlineColor = '#C96100';
 export const okColor = '#29B32E';
 export const textOkColor = '#1fcb00';
