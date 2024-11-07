@@ -11442,7 +11442,7 @@ body {
 }
 
 rect {
-  transition: fill 1.1s, stroke 1.5s;
+  transition: fill 1.8s, stroke 1.5s;
 }
 
 text {
