@@ -29,6 +29,6 @@
          y="23.666807"
          style="stroke-width:0">Ojo de Halcón V3.6</tspan></text>
   </g>
-</svg>
+      </svg>
     </div>
 </template>

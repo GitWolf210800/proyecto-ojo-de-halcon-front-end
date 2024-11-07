@@ -35,7 +35,7 @@ export default function getChartOptions(parametros) {
           color: 'white'
         },
         title: {
-          display: true,
+          display: false,
           text: 'Hora',
           color: '#D5D5D5'
         }
@@ -48,7 +48,7 @@ export default function getChartOptions(parametros) {
                 color: 'white'
               },
               title: {
-                display: true,
+                display: false,
                 text: 'Valores',
                 color: '#d5d5d5'
               }

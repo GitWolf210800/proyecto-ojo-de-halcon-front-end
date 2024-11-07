@@ -20,6 +20,7 @@
 <script setup>
 import { onMounted, ref, toRefs } from 'vue';
 import { fetchInfoTableDatos } from '../utils/fetchInfoTableDatos';
+import { formatValue, formatoTextoSinGion as formatHeader } from '@/funciones';
 
 const loading = ref(true);
 const data = ref(null); // Almacena los datos obtenidos
@@ -38,15 +39,6 @@ const props = defineProps({
 
 const { parametros } = toRefs(props); // Accede a `parametros` para facilitar su uso en `fetchInfoTableDatos`
 
-// Función para reemplazar guiones bajos por espacios en los encabezados
-const formatHeader = (header) => {
-    return header.replace(/_/g, ' ');
-};
-
-function formatValue(value) {
-    //console.log(value);
-    return typeof value === 'number' ? value.toFixed(2) : value;
-  }
 
 onMounted(async () => {
     try {

@@ -1,4 +1,9 @@
 <template>
+    <nav>
+      <HomeButtom />
+      <LoginButtom />
+    </nav>
+
     <!-- Mapa principal que se muestra cuando los datos están listos -->
     <MapFabrica v-if="dataIsLoaded" />
   
@@ -13,6 +18,8 @@
   import { computed, onMounted, nextTick, watchEffect } from 'vue';
   import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
   import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
+  import LoginButtom from '@/components/icons/LoginButtom.vue';
+  import HomeButtom from '@/components/icons/HomeButtom.vue';
   import MapFabrica from '@/components/MapFabricaClima.vue';
   
   import { useDataHomeClima } from '../components/componsables/useHomeClima';
@@ -52,6 +59,12 @@
   </script>
   
   <style scoped>
+
+  nav{
+    display: flex;
+    justify-content: space-between
+  }
+
   footer {
     display: flex;
     justify-content: space-between;

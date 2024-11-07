@@ -48,6 +48,7 @@
   import { fetchChartData } from '../utils/fetchChartData';
   import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
   import { alarmColor, textOkColor, offlineColor } from '@/variables';
+  import { formatValue } from '@/funciones';
   
   ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
   
@@ -100,10 +101,6 @@
     }
   });
   
-  function formatValue(value) {
-    //console.log(value);
-    return typeof value === 'number' ? value.toFixed(2) : value;
-  }
   </script>
   
   <style>
