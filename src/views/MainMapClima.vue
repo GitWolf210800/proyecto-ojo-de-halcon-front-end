@@ -1,8 +1,8 @@
 <template>
-    <nav>
-      <HomeButtom />
-      <LoginButtom />
-    </nav>
+  <nav>
+    <RouterLink to="/"> <HomeButtom /> </RouterLink>
+    <LoginButtom />
+  </nav>
 
     <!-- Mapa principal que se muestra cuando los datos están listos -->
     <MapFabrica v-if="dataIsLoaded" />

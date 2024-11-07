@@ -1,14 +1,19 @@
 <template>
   <!-- Monta la vista principal del mapa -->
-  <MainMapClimaView />
+  <!--<Home class="home" />-->
+  <RouterView></RouterView> 
 </template>
 
 <script setup>
+import Home from './views/Home.vue';
 import MainMapClimaView from './views/MainMapClima.vue';
 </script>
 
 <style scoped>
 /* Estilos globales o específicos para la App */
+.home {
+  height: 50px;
+}
 </style>
 
 

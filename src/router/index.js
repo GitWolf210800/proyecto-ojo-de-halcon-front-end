@@ -1,22 +1,24 @@
-import MapFabrica from '@/components/MapFabricaClima.vue'
+import Home from '@/views/Home.vue'
+import MainMapClima from '@/views/MainMapClima.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-   /* {
+    {
       path: '/',
       name: 'home',
-      component: MapFabrica
+      component: Home
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/clima',
+      name: 'clima',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }*/
+      component: () => import('@/views/MainMapClima.vue')
+      /*component: MainMapClima*/
+    }
   ]
 })
 
