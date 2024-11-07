@@ -4983,7 +4983,7 @@
           "
           id="fab9_exterior_clima_temp_g"
         >
-          <tspan x="286.7793" y="186.87294" id="tspan60601">32 °C</tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">32 °C</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -5012,7 +5012,7 @@
           "
           id="fab9_exterior_clima_entalpia_g"
         >
-          <tspan x="286.7793" y="186.87294" id="tspan60603">66.66 Kj/Kg</tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_entalpia_text">66.66 Kj/Kg</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -5041,7 +5041,7 @@
           "
           id="fab9_exterior_clima_hum_g"
         >
-          <tspan x="286.7793" y="186.87294" id="tspan60605">50 %</tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">50 %</tspan>
         </text>
         <text
           xml:space="preserve"

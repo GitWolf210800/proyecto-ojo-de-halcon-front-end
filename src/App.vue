@@ -5,8 +5,7 @@
 </template>
 
 <script setup>
-import Home from './views/Home.vue';
-import MainMapClimaView from './views/MainMapClima.vue';
+
 </script>
 
 <style scoped>
