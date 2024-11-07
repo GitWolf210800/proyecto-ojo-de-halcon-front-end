@@ -35,7 +35,7 @@ export default function getChartOptions(parametros) {
           color: 'white'
         },
         title: {
-          display: false,
+          display: true,
           text: 'Hora',
           color: '#D5D5D5'
         }

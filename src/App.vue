@@ -10,9 +10,6 @@
 
 <style scoped>
 /* Estilos globales o específicos para la App */
-.home {
-  height: 50px;
-}
 </style>
 
 
