@@ -34,11 +34,20 @@ export const dataColorInfoCarrier = () => {
             estadoCarrierGrafico.style.stroke = alarmColor;
         }
 
-        entAguaFria.textContent = estadoCarrier.entrada_agua_fria_principal.toFixed(1);
-        salAguaFria.textContent= estadoCarrier.salida_agua_fria_principal.toFixed(1);
+        if (estadoCarrier.entrada_agua_fria_principal){
+            entAguaFria.textContent = estadoCarrier.entrada_agua_fria_principal.toFixed(1);
+        } else {
+            entAguaFria.textContent = 'NaN';
+        }
+        
+        if (estadoCarrier.salida_agua_fria_principal) {
+            salAguaFria.textContent= estadoCarrier.salida_agua_fria_principal.toFixed(1);
+        } else  {
+            salAguaFria.textContent= 'NaN';
+        }
 
-    } catch {
-        console.warn('error en datos de estado de carrier');
+    } catch (error) {
+        console.warn('error en datos de estado de carrier', error);
     }
 
     for(let i = 0; i < chillers.length; i++) {

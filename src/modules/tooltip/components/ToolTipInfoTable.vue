@@ -10,7 +10,7 @@
             </thead>
             <tbody>
                 <tr v-for="(item, index) in data" :key="index">
-                    <td v-for="header in headers" :key="header"> {{ item[header] }} </td>
+                    <td v-for="header in headers" :key="header"> {{ formatValue(item[header]) }} </td>
                 </tr>
             </tbody>
         </table>
@@ -42,6 +42,11 @@ const { parametros } = toRefs(props); // Accede a `parametros` para facilitar su
 const formatHeader = (header) => {
     return header.replace(/_/g, ' ');
 };
+
+function formatValue(value) {
+    //console.log(value);
+    return typeof value === 'number' ? value.toFixed(2) : value;
+  }
 
 onMounted(async () => {
     try {

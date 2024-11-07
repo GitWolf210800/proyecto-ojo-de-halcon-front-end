@@ -4736,172 +4736,153 @@
        transform="scale(1,-1)" />
   </g>
       </svg>
-      <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />
-      <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" />
-      <ToolTipInfoTable :position="tooltipPosition" :parametros="params" v-if="showTooltipInfoTable" /> 
+     <ToolTipChart :position="tooltipPosition" :parametros="params" v-if="showTooltip" />
+     <ToolTipChartInfo :position="tooltipPosition" :parametros="params" v-if="showTooltipInfo" />
+     <ToolTipInfoTable :position="tooltipPosition" :parametros="params" v-if="showTooltipInfoTable" /> 
    </div>
-</template>
-
-<script setup>
-import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
-import ToolTipChartInfo from '@/modules/tooltip/components/ToolTipChartInfo.vue';
-import ToolTipInfoTable from '@/modules/tooltip/components/ToolTipInfoTable.vue';
-import { ref, onMounted, watch } from 'vue';
-import { useSvgStore } from '@/stores/svgStore';
-import { useHomeClimaStore } from '@/stores/homeClimaStore';
-import {TOOLTIP_CHART_CONFIG, TOOLTIP_CHART_INFO_CONFIG, TOOLTIP_INFO_TABLE, elementsConfigTyH} from '@/variables.js'
-
-const svgRef = ref(null);
-const tooltipPosition = ref({ x: 0, y: 0 });
-const params = ref({});
-const showTooltip = ref(false);
-const showTooltipInfo = ref(false);
-const showTooltipInfoTable = ref(false);
-const svgStore = useSvgStore();
-const storeData = useHomeClimaStore().datos;
-
-// Posiciona la tooltip de forma dinámica
-function calculateTooltipPosition(e, TOOLTIP_CONFIG) {
-  let x = e.clientX + TOOLTIP_CONFIG.padding;
-  let y = e.clientY + TOOLTIP_CONFIG.padding;
-
-  // Ajustes de límites de pantalla
-  if (x + TOOLTIP_CONFIG.width > window.innerWidth) x = e.clientX - TOOLTIP_CONFIG.width - TOOLTIP_CONFIG.padding;
-  if (x < 0) x = TOOLTIP_CONFIG.padding;
-  if (y + TOOLTIP_CONFIG.height > window.innerHeight) y = e.clientY - TOOLTIP_CONFIG.height - TOOLTIP_CONFIG.padding;
-  if (y < 0) y = TOOLTIP_CONFIG.padding;
-
-  return { x, y };
-}
-
-// Muestra la tooltip del grafico con los datos y posición específicos
-function displayToolTipChart(e, nombre, medicion, tabla) {
-  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_CHART_CONFIG);
-  params.value = { nombre, medicion, tabla };
-  showTooltip.value = true;
-}
-
-// Oculta la tooltip del grafico
-function hideTooltipChart() {
-  showTooltip.value = false;
-}
-
-// Muestra la tooltip del grafico con los datos y posición específicos
-function displayToolTipChartInfo(e, nombre, medicion, tabla) {
-   //console.log(nombre, medicion, tabla);
-  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_CHART_INFO_CONFIG);
-  params.value = { nombre, medicion, tabla };
-  showTooltipInfo.value = true;
-}
-
-// Oculta la tooltip del grafico
-function hideTooltipChartInfo() {
-   showTooltipInfo.value = false;
-}
-
-// Muestra la tooltip del grafico con los datos y posición específicos
-function displayToolTipInfoTable(e, solicitud) {
-   //console.log(nombre, medicion, tabla);
-  tooltipPosition.value = calculateTooltipPosition(e, TOOLTIP_INFO_TABLE);
-  params.value = { solicitud };
-  showTooltipInfoTable.value = true;
-}
-
-// Oculta la tooltip del grafico
-function hideTooltipInfoTable() {
-   showTooltipInfoTable.value = false;
-}
-
-// Asigna eventos de tooltip a los elementos
-function addTooltipEvents() {
-  const svg = svgRef.value;
-  const demandaDeAguaFria = svg.querySelector(`#demanda_agua_fria_text`);
-  const condicionesCarrier = svg.querySelector(`#condiciones_marcha_carrier`);
-  const nombresClima = storeData.nombresClima;
-  const nombresFiltro = storeData.nombresFiltro;
-  const carriers = storeData.chiller;
-  const medicionesCarrier = storeData.medicionesCarrier;
-  
-
-   demandaDeAguaFria.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'demanda_agua_fria'));
-   demandaDeAguaFria.addEventListener('mouseleave', hideTooltipInfoTable);
-   
-   condicionesCarrier.addEventListener('mouseover', (e) => displayToolTipInfoTable(e, 'condiciones_marcha_carriers'));
-   condicionesCarrier.addEventListener('mouseleave', hideTooltipInfoTable );
-
-  nombresClima.forEach((nombre) => {
-    elementsConfigTyH.forEach(({ idSuffix, metric }) => {
-      const element = svg.querySelector(`#${nombre}_${idSuffix}`);
-      if (element) {
-        element.addEventListener('mouseover', (e) => displayToolTipChart(e, nombre, metric, 'mediciones_clima_24hs'));
-        element.addEventListener('mouseleave', hideTooltipChart);
-      }
-    });
-  });
-
-  nombresFiltro.forEach((nombre) => {
-   const element = svg.querySelector(`#${nombre}`);
-   if(element) {
-      element.addEventListener('mouseover', (e) => displayToolTipChartInfo(e, nombre, 'filtro_ventilador', 'mediciones_filtros') );
-      element.addEventListener('mouseleave', hideTooltipChartInfo );
-   }
-  });
-
-  carriers.forEach((dato) => {
-   const element = svg.querySelector(`#${dato.nombre}Vinf`);
-   if(element) {
-      element.addEventListener('mouseover', (e) => displayToolTipChart(e, dato.nombre, 'demanda', 'mediciones_carrier'));
-      element.addEventListener('mouseleave', hideTooltipChart);
-   }
-  })
-
-  medicionesCarrier.forEach((medicion) => {
-   const element = svg.querySelector(`#${medicion}`);
-   if(element){
-      element.addEventListener('mouseover', (e) => displayToolTipChart(e, 'carrier', medicion, 'mediciones_carrier'));
-      element.addEventListener('mouseleave', hideTooltipChart);
-   }
-  });
-}
-
-// Monta y observa cambios en storeData para añadir eventos
-onMounted(() => {
-  svgStore.setSvgRef(svgRef.value);
-
-  watch(
-    () => storeData,
-    (newData) => {
-      if (newData && newData.nombresClima) {
-        addTooltipEvents();
-      }
-    },
-    { immediate: true }
-  );
-});
-</script>
-
-<style >
+ </template>
+ 
+ <script setup>
+ import { ref, onMounted, watch } from 'vue';
+ import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
+ import ToolTipChartInfo from '@/modules/tooltip/components/ToolTipChartInfo.vue';
+ import ToolTipInfoTable from '@/modules/tooltip/components/ToolTipInfoTable.vue';
+ import { useSvgStore } from '@/stores/svgStore';
+ import { useHomeClimaStore } from '@/stores/homeClimaStore';
+ import { TOOLTIP_CHART_CONFIG, TOOLTIP_CHART_INFO_CONFIG, TOOLTIP_INFO_TABLE, elementsConfigTyH } from '@/variables.js';
+ 
+ const svgRef = ref(null);
+ const tooltipPosition = ref({ x: 0, y: 0 });
+ const params = ref({});
+ const showTooltip = ref(false);
+ const showTooltipInfo = ref(false);
+ const showTooltipInfoTable = ref(false);
+ const svgStore = useSvgStore();
+ const storeData = useHomeClimaStore().datos;
+ 
+ // Posiciona la tooltip de forma dinámica
+ function calculateTooltipPosition(e, config) {
+   let x = e.clientX + config.padding;
+   let y = e.clientY + config.padding;
+   const adjustedX = x + config.width > window.innerWidth ? e.clientX - config.width - config.padding : x;
+   const adjustedY = y + config.height > window.innerHeight ? e.clientY - config.height - config.padding : y;
+   return { x: Math.max(adjustedX, config.padding), y: Math.max(adjustedY, config.padding) };
+ }
+ 
+ // Muestra/Oculta la tooltip de acuerdo al tipo
+ function displayTooltip(e, tipo, payload, config) {
+   tooltipPosition.value = calculateTooltipPosition(e, config);
+   params.value = payload;
+   if (tipo === 'chart') showTooltip.value = true;
+   else if (tipo === 'chartInfo') showTooltipInfo.value = true;
+   else if (tipo === 'infoTable') showTooltipInfoTable.value = true;
+ }
+ 
+ function hideTooltip(tipo) {
+   if (tipo === 'chart') showTooltip.value = false;
+   else if (tipo === 'chartInfo') showTooltipInfo.value = false;
+   else if (tipo === 'infoTable') showTooltipInfoTable.value = false;
+ }
+ 
+ // Asigna eventos de tooltip a los elementos
+ function addTooltipEvents() {
+   const svg = svgRef.value;
+   if (!svg) return;
+ 
+   const tooltipConfigs = [
+     { selector: `#demanda_agua_fria_text`, tooltipType: 'infoTable', payload: { solicitud: 'demanda_agua_fria' }, config: TOOLTIP_INFO_TABLE },
+     { selector: `#condiciones_marcha_carrier`, tooltipType: 'infoTable', payload: { solicitud: 'condiciones_marcha_carriers' }, config: TOOLTIP_INFO_TABLE }
+   ];
+ 
+   // Agrega eventos para `nombresClima`
+   storeData.nombresClima.forEach((nombre) => {
+     elementsConfigTyH.forEach(({ idSuffix, metric }) => {
+       tooltipConfigs.push({
+         selector: `#${nombre}_${idSuffix}`,
+         tooltipType: 'chart',
+         payload: { nombre, medicion: metric, tabla: 'mediciones_clima_24hs' },
+         config: TOOLTIP_CHART_CONFIG
+       });
+     });
+   });
+ 
+   // Agrega eventos para `nombresFiltro`
+   storeData.nombresFiltro.forEach((nombre) => {
+     tooltipConfigs.push({
+       selector: `#${nombre}`,
+       tooltipType: 'chartInfo',
+       payload: { nombre, medicion: 'filtro_ventilador', tabla: 'mediciones_filtros' },
+       config: TOOLTIP_CHART_INFO_CONFIG
+     });
+   });
+ 
+   // Agrega eventos para `carriers` y `medicionesCarrier`
+   storeData.chiller.forEach((dato) => {
+     tooltipConfigs.push({
+       selector: `#${dato.nombre}Vinf`,
+       tooltipType: 'chart',
+       payload: { nombre: dato.nombre, medicion: 'demanda', tabla: 'mediciones_carrier' },
+       config: TOOLTIP_CHART_CONFIG
+     });
+   });
+   storeData.medicionesCarrier.forEach((medicion) => {
+     tooltipConfigs.push({
+       selector: `#${medicion}`,
+       tooltipType: 'chart',
+       payload: { nombre: 'carrier', medicion, tabla: 'mediciones_carrier' },
+       config: TOOLTIP_CHART_CONFIG
+     });
+   });
+ 
+   // Asigna los eventos de `mouseover` y `mouseleave`
+   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
+     const element = svg.querySelector(selector);
+     if (element) {
+       element.addEventListener('mouseover', (e) => displayTooltip(e, tooltipType, payload, config));
+       element.addEventListener('mouseleave', () => hideTooltip(tooltipType));
+     }
+   });
+ }
+ 
+ // Monta y observa cambios en storeData para añadir eventos
+ onMounted(() => {
+   svgStore.setSvgRef(svgRef.value);
+   watch(
+     () => storeData,
+     (newData) => {
+       if (newData && newData.nombresClima) {
+         addTooltipEvents();
+       }
+     },
+     { immediate: true }
+   );
+ });
+ </script>
+ 
+ <style>
 body {
   background-color: #282c34;
 }
 
-.container__map {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
-  z-index: 0;
-}
 
-rect {
-  transition: fill 1.1s, stroke 1.5s;
-}
-
-text {
-   user-select: none;
-}
-</style>
+ .container__map {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;
+   width: 100%;
+   z-index: 0;
+ }
+ 
+ rect {
+   transition: fill 1.1s, stroke 1.5s;
+ }
+ 
+ text {
+    user-select: none;
+ }
+ </style>
+ 
 
 
 
