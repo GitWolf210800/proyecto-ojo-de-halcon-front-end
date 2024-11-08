@@ -1,22 +1,20 @@
 <template>
-<div class="container__map">
-  
+  <div class="container__map">
     <MapClima ref="mapClimaRef" />
-
     <ToolTipChart
       :position="tooltipPosition"
       :parametros="params"
-      v-if="showTooltip"
+      v-if="tooltipVisibility.chart"
     />
     <ToolTipChartInfo
       :position="tooltipPosition"
       :parametros="params"
-      v-if="showTooltipInfo"
+      v-if="tooltipVisibility.chartInfo"
     />
     <ToolTipInfoTable
       :position="tooltipPosition"
       :parametros="params"
-      v-if="showTooltipInfoTable"
+      v-if="tooltipVisibility.infoTable"
     />
   </div>
 </template>
@@ -40,9 +38,11 @@ const storeData = useHomeClimaStore().datos;
 const mapClimaRef = ref(null);
 const tooltipPosition = ref({ x: 0, y: 0 });
 const params = ref({});
-const showTooltip = ref(false);
-const showTooltipInfo = ref(false);
-const showTooltipInfoTable = ref(false);
+const tooltipVisibility = ref({
+  chart: false,
+  chartInfo: false,
+  infoTable: false,
+});
 
 function calculateTooltipPosition(e, config) {
   let x = e.clientX + config.padding;
@@ -64,88 +64,85 @@ function calculateTooltipPosition(e, config) {
 function displayTooltip(e, tipo, payload, config) {
   tooltipPosition.value = calculateTooltipPosition(e, config);
   params.value = payload;
-  if (tipo === "chart") showTooltip.value = true;
-  else if (tipo === "chartInfo") showTooltipInfo.value = true;
-  else if (tipo === "infoTable") showTooltipInfoTable.value = true;
+  tooltipVisibility.value[tipo] = true;
 }
 
 function hideTooltip(tipo) {
-  if (tipo === "chart") showTooltip.value = false;
-  else if (tipo === "chartInfo") showTooltipInfo.value = false;
-  else if (tipo === "infoTable") showTooltipInfoTable.value = false;
+  tooltipVisibility.value[tipo] = false;
 }
 
 function addTooltipEvents() {
-  const svg = mapClimaRef.value?.svgRef; // Accede a `svgRef` expuesto en `MapClima`
+  const svg = mapClimaRef.value?.svgRef;
   if (!svg) return;
 
   const tooltipConfigs = [
-    {
-      selector: `#demanda_agua_fria_text`,
-      tooltipType: "infoTable",
-      payload: { solicitud: "demanda_agua_fria" },
-      config: TOOLTIP_INFO_TABLE,
-    },
-    {
-      selector: `#condiciones_marcha_carrier`,
-      tooltipType: "infoTable",
-      payload: { solicitud: "condiciones_marcha_carriers" },
-      config: TOOLTIP_INFO_TABLE,
-    },
+    // Configuración estática de tooltips
+    createTooltipConfig(
+      "#demanda_agua_fria_text",
+      "infoTable",
+      { solicitud: "demanda_agua_fria" },
+      TOOLTIP_INFO_TABLE
+    ),
+    createTooltipConfig(
+      "#condiciones_marcha_carrier",
+      "infoTable",
+      { solicitud: "condiciones_marcha_carriers" },
+      TOOLTIP_INFO_TABLE
+    ),
+    // Configuración dinámica de tooltips
+    ...storeData.nombresClima.flatMap((nombre) =>
+      elementsConfigTyH.map(({ idSuffix, metric }) =>
+        createTooltipConfig(
+          `#${nombre}_${idSuffix}`,
+          "chart",
+          { nombre, medicion: metric, tabla: "mediciones_clima_24hs" },
+          TOOLTIP_CHART_CONFIG
+        )
+      )
+    ),
+    ...storeData.nombresFiltro.map((nombre) =>
+      createTooltipConfig(
+        `#${nombre}`,
+        "chartInfo",
+        { nombre, medicion: "filtro_ventilador", tabla: "mediciones_filtros" },
+        TOOLTIP_CHART_INFO_CONFIG
+      )
+    ),
+    ...storeData.chiller.map((dato) =>
+      createTooltipConfig(
+        `#${dato.nombre}Vinf`,
+        "chart",
+        {
+          nombre: dato.nombre,
+          medicion: "demanda",
+          tabla: "mediciones_carrier",
+        },
+        TOOLTIP_CHART_CONFIG
+      )
+    ),
+    ...storeData.medicionesCarrier.map((medicion) =>
+      createTooltipConfig(
+        `#${medicion}`,
+        "chart",
+        { nombre: "carrier", medicion, tabla: "mediciones_carrier" },
+        TOOLTIP_CHART_CONFIG
+      )
+    ),
   ];
-
-  storeData.nombresClima.forEach((nombre) => {
-    elementsConfigTyH.forEach(({ idSuffix, metric }) => {
-      tooltipConfigs.push({
-        selector: `#${nombre}_${idSuffix}`,
-        tooltipType: "chart",
-        payload: { nombre, medicion: metric, tabla: "mediciones_clima_24hs" },
-        config: TOOLTIP_CHART_CONFIG,
-      });
-    });
-  });
-
-  storeData.nombresFiltro.forEach((nombre) => {
-    tooltipConfigs.push({
-      selector: `#${nombre}`,
-      tooltipType: "chartInfo",
-      payload: {
-        nombre,
-        medicion: "filtro_ventilador",
-        tabla: "mediciones_filtros",
-      },
-      config: TOOLTIP_CHART_INFO_CONFIG,
-    });
-  });
-
-  storeData.chiller.forEach((dato) => {
-    tooltipConfigs.push({
-      selector: `#${dato.nombre}Vinf`,
-      tooltipType: "chart",
-      payload: {
-        nombre: dato.nombre,
-        medicion: "demanda",
-        tabla: "mediciones_carrier",
-      },
-      config: TOOLTIP_CHART_CONFIG,
-    });
-  });
-  storeData.medicionesCarrier.forEach((medicion) => {
-    tooltipConfigs.push({
-      selector: `#${medicion}`,
-      tooltipType: "chart",
-      payload: { nombre: "carrier", medicion, tabla: "mediciones_carrier" },
-      config: TOOLTIP_CHART_CONFIG,
-    });
-  });
 
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
     const element = svg.querySelector(selector);
     if (element) {
-      element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
+      element.addEventListener("mouseover", (e) =>
+        displayTooltip(e, tooltipType, payload, config)
+      );
       element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
     }
   });
+}
+
+function createTooltipConfig(selector, tooltipType, payload, config) {
+  return { selector, tooltipType, payload, config };
 }
 
 onMounted(() => {
