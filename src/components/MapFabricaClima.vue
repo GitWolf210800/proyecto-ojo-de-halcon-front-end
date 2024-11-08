@@ -32,7 +32,6 @@ import {
   TOOLTIP_INFO_TABLE,
   elementsConfigTyH,
 } from "@/variables.js";
-
 const storeData = useHomeClimaStore().datos;
 
 const mapClimaRef = ref(null);
@@ -162,14 +161,6 @@ body {
   margin: 0 auto;
   width: 100%;
   z-index: 0;
-}
-
-rect {
-  transition: fill 1.8s, stroke 1.5s;
-}
-
-text {
-  user-select: none;
 }
 </style>
 

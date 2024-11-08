@@ -32,14 +32,7 @@
   import ProduccionFabrica from '@/components/icons/ProduccionFabrica.vue';
   </script>
   
-  <style>
-  body {
-    background-color: #282c34;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
+  <style scoped>
   /* Estilo general de navegación */
   .navegacion {
     display: flex;
@@ -47,10 +40,6 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-
-  .botones {
-    margin: 20px;
   }
   
   .version {

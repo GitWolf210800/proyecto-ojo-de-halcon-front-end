@@ -1,23 +1,21 @@
 <template>
   <nav>
-    <div class="navbar">
-      <RouterLink to="/"> <HomeButtom /> </RouterLink>
-      <LoginButtom />
-    </div>
+    <RouterLink to="/"> <HomeButtom /> </RouterLink>
+    <LoginButtom />
   </nav>
 
-  <!-- Mapa principal que se muestra cuando los datos están listos -->
-  <MapFabrica v-if="isReady" />
-  
-  <!-- Pie de página con icono y logotipo -->
-  <footer v-if="isReady">
-    <EyeHawkIconVersion />
-    <LogoTipoitiFooter />
-  </footer>
+  <!-- Mapa y pie de página solo si los datos están listos -->
+  <div v-if="dataIsLoaded">
+    <MapFabrica />
+    <footer>
+      <EyeHawkIconVersion />
+      <LogoTipoitiFooter />
+    </footer>
+  </div>
 </template>
 
 <script setup>
-import { computed, onMounted, onUnmounted, ref, watchEffect } from 'vue';
+import { computed, onMounted, watchEffect, onUnmounted } from 'vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import LoginButtom from '@/components/icons/LoginButtom.vue';
@@ -33,49 +31,38 @@ import { dataColorInfoFiltro } from '@/helpers/homeFiltroColorManipulator';
 import { dataColorInfoCarrier } from '@/helpers/homeCarrierColorManipulator';
 
 // Estados del store para clima y SVG
-const storeData = useHomeClimaStore();
-const storeSvg = useSvgStore();
+const homeClimaStore = useHomeClimaStore();
+const svgStore = useSvgStore();
 
-// Ref para manejar el intervalo de actualización
-const refreshInterval = ref(null);
-
-// Computado que indica si los datos y el SVG están listos
-const isReady = computed(() => storeData.datos !== null && storeSvg.svgRef !== null);
+// Computados para verificar que los datos y el SVG estén listos
+const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
+const svgIsLoaded = computed(() => svgStore.svgRef !== null);
 
 // Función de carga inicial y sincronización de datos
-onMounted(() => {
-  useDataHomeClima(); // Carga inicial
-
-  refreshInterval.value = setInterval(() => {
+let intervalId;
+onMounted(async () => {
+  await useDataHomeClima(); // Carga inicial
+  intervalId = setInterval(() => {
     useDataHomeClima();
   }, 10000); // Actualización cada 10 segundos
 });
 
-// Limpieza del intervalo cuando el componente se destruye
 onUnmounted(() => {
-  if (refreshInterval.value) {
-    clearInterval(refreshInterval.value); // Limpia el intervalo
-  }
+  clearInterval(intervalId); // Limpieza del intervalo al desmontar el componente
 });
 
-// Función para actualizar la información de colores
-function updateColorInfo() {
-  dataColorInfoClima();
-  dataColorInfoFiltro();
-  dataColorInfoCarrier();
-}
-
-// Observa cuando los datos y el SVG están listos y ejecuta la actualización
+// Observa los datos y ejecuta funciones cuando todo esté cargado
 watchEffect(() => {
-  if (isReady.value) {
-    updateColorInfo();
+  if (dataIsLoaded.value && svgIsLoaded.value) {
+    dataColorInfoClima();
+    dataColorInfoFiltro();
+    dataColorInfoCarrier();
   }
 });
 </script>
 
 <style scoped>
-/* Mejora de estilos, usando clases más específicas */
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
 }
