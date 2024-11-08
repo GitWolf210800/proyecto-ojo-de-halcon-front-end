@@ -62,6 +62,7 @@ function calculateTooltipPosition(e, config) {
 }
 
 function displayTooltip(e, tipo, payload, config) {
+  console.log(payload);
   tooltipPosition.value = calculateTooltipPosition(e, config);
   params.value = payload;
   tooltipVisibility.value[tipo] = true;
