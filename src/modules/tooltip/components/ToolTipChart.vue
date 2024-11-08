@@ -56,7 +56,7 @@ onMounted(async () => {
 });
 </script>
 
-<style>
+<style scoped>
 .tooltip {
   background-color: #3b3b3b;
   color: #f0f0f0;

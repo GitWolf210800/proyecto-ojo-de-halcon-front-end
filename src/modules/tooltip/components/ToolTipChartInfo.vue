@@ -103,7 +103,7 @@
   
   </script>
   
-  <style>
+  <style scoped>
   .tooltipInfo {
     background-color: #3b3b3b;
     color: #f0f0f0;
