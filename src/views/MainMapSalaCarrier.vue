@@ -40,7 +40,7 @@ import MapSalaCarrier from '@/components/MapSalaCarrier.vue';
 }
 
 .content{
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 </style>

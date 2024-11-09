@@ -11270,10 +11270,7 @@ const svgRef = ref(null);
 const svgStore = useSvgStore();
 
 onMounted(() => {
-  // Esto garantiza que `svgElement` esté disponible después de montar
   svgStore.setSvgRef(svgRef.value); // Aqui almaceno en la store el SVG, para que las funciones de utilidades tengan acceso
-  //console.log("SVG en MapClima:", svgRef.value); // Verificación para asegurar que se asigna correctamente
-  //console.log(svgRef.value); // Debe mostrar el nodo SVG en la consola
 });
 
 // Exponemos `svgRef` para que sea accesible desde el componente padre

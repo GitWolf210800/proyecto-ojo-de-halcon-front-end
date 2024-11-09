@@ -1,5 +1,6 @@
 <template>
   <svg
+    ref="svgRef"
     width="192.86798mm"
     height="219.4726mm"
     viewBox="0 0 192.86798 219.4726"
@@ -3717,13 +3718,12 @@
 </template>
 
 <script setup>
-import { useSvgStore } from "@/stores/svgStore";
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 
 const svgRef = ref(null);
-const svgStore = useSvgStore();
 
-/*onMounted(() => {
-    svgStore.setSvgRef(svgRef.value);   //Aqui Almaceno el SVG para ser utilizado
-});*/
+// Exponemos `svgRef` para que sea accesible desde el componente padre
+defineExpose({
+  svgRef,
+});
 </script>

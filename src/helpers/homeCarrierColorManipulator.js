@@ -1,9 +1,8 @@
-import { useSvgStore } from "@/stores/svgStore";
 import { useHomeClimaStore } from "@/stores/homeClimaStore";
 import { alarmColor, alertColor, okColor, paroManual } from "@/variables";
 
-export const dataColorInfoCarrier = () => {
-    const svgStore = (useSvgStore()).svgRef;
+export const dataColorInfoCarrier = (svg) => {
+    const svgStore = svg;
     const storeData = (useHomeClimaStore()).datos;
     const chillers = storeData.chiller;
     const estadoCarrier = storeData.estadoCarrier;

@@ -44,6 +44,7 @@ const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip 
 
 const storeData = ref(useHomeClimaStore().datos);
 const mapClimaRef = ref(null);
+let svg = null; 
 
 const router = useRouter();
 
@@ -126,17 +127,19 @@ function createTooltipConfig(selector, tooltipType, payload, config) {
 // Agrega los eventos de tooltip una vez montado el componente
 onMounted(() => {
   if (mapClimaRef.value && mapClimaRef.value.svgRef) {
+    svg = mapClimaRef.value.svgRef;
     initializeTooltipEvents(mapClimaRef.value.svgRef);
     routesDireccion(mapClimaRef.value.svgRef);
   }
+
+  watchEffect(() => {
+  if (dataIsLoaded.value) {
+    dataColorInfoClima(svg);
+    dataColorInfoFiltro(svg);
+    dataColorInfoCarrier(svg);
+  }
 });
 
-watchEffect(() => {
-  if (dataIsLoaded.value && svgIsLoaded.value) {
-    dataColorInfoClima();
-    dataColorInfoFiltro();
-    dataColorInfoCarrier();
-  }
 });
 
 </script>
