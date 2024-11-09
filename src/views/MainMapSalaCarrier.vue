@@ -9,11 +9,13 @@
         </div>
     </nav>
 
-    <MapSalaCarrier class="map__carrier" />
+    <div class="content">
+        <MapSalaCarrier class="map__carrier" />
+    </div>
 
     <footer>
-        <EyeHawkIconVersion />
-        <LogoTipoitiFooter />
+            <EyeHawkIconVersion />
+            <LogoTipoitiFooter />
     </footer>
 </template>
 
@@ -35,6 +37,10 @@ import MapSalaCarrier from '@/components/MapSalaCarrier.vue';
     margin: 0 auto;
     width: 100%;
     z-index: 0;
+}
+
+.content{
+    padding-top: 60px;
 }
 
 </style>

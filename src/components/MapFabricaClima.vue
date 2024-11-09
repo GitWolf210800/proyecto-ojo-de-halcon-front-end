@@ -20,15 +20,18 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { computed, onMounted, ref, watchEffect, onUnmounted } from "vue";
 import { useRouter } from "vue-router";
+import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useSvgStore } from "@/stores/svgStore";
 import MapClima from "./maps/MapClima.vue";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
-import { useHomeClimaStore } from "@/stores/homeClimaStore";
+import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
+import { dataColorInfoFiltro } from '@/helpers/homeFiltroColorManipulator';
+import { dataColorInfoCarrier } from '@/helpers/homeCarrierColorManipulator';
 import {
   TOOLTIP_CHART_CONFIG,
   TOOLTIP_CHART_INFO_CONFIG,
@@ -43,6 +46,14 @@ const storeData = ref(useHomeClimaStore().datos);
 const mapClimaRef = ref(null);
 
 const router = useRouter();
+
+// Estados del store para clima y SVG
+const homeClimaStore = useHomeClimaStore();
+const svgStore = useSvgStore();
+
+// Computados para verificar que los datos y el SVG estén listos
+const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
+const svgIsLoaded = computed(() => svgStore.svgRef !== null);
 
 // Inicializacion de eventos para rutas
 function routesDireccion(svg) {
@@ -119,6 +130,15 @@ onMounted(() => {
     routesDireccion(mapClimaRef.value.svgRef);
   }
 });
+
+watchEffect(() => {
+  if (dataIsLoaded.value && svgIsLoaded.value) {
+    dataColorInfoClima();
+    dataColorInfoFiltro();
+    dataColorInfoCarrier();
+  }
+});
+
 </script>
 
 <style scoped>

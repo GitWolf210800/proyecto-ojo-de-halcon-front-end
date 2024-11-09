@@ -8,13 +8,26 @@ body{
     background-color 0.9s;
 }
 
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.content {
+  padding-top: 50px; /* Da espacio para que no quede oculto por el nav fijo */
+}
+
 .navbar {
+  padding-top: 0px;
   display: flex;
   justify-content: space-between;
 }
 
 .navbar__navegacion{
-  display: flex;
   justify-content: space-between;
   margin: 2px;
 }
