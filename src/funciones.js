@@ -1,3 +1,5 @@
+import { ref } from "vue";
+
 // Función para reemplazar guiones bajos por espacios en los encabezados
 export const formatoTextoSinGion = (header) => {
     return header.replace(/_/g, ' ');
@@ -9,3 +11,15 @@ export const formatValue = (value) => {
     //console.log(value);
     return typeof value === 'number' && !Number.isInteger(value) ? value.toFixed(2) : value;
   }
+
+  const tooltipVisibility = ref({
+    chart: false,
+    chartInfo: false,
+    infoTable: false,
+  });
+
+  const tooltipPosition = ref({ x: 0, y: 0 });
+
+  const params = ref({});
+
+

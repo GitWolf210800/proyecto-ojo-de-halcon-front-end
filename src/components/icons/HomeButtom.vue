@@ -1,5 +1,4 @@
 <template>
-  <div class="homeButtom">
     <svg
       fill="#000000"
       version="1.1"
@@ -39,5 +38,4 @@
         style="fill: #eeeeee; fill-opacity: 1; stroke-width: 0.0632449"
       />
     </svg>
-  </div>
 </template>

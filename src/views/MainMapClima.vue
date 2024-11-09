@@ -1,7 +1,9 @@
 <template>
   <nav>
-    <RouterLink to="/"> <HomeButtom /> </RouterLink>
-    <LoginButtom />
+    <div class="navbar">
+      <RouterLink to="/"> <HomeButtom /> </RouterLink>
+      <LoginButtom />
+    </div>
   </nav>
 
   <!-- Mapa y pie de página solo si los datos están listos -->
@@ -62,18 +64,8 @@ watchEffect(() => {
 </script>
 
 <style scoped>
-nav {
-  display: flex;
-  justify-content: space-between;
-}
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  width: 100%;
-}
+
 </style>
 
   

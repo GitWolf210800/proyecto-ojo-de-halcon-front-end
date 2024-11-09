@@ -1,5 +1,4 @@
 <template>
-  <div class="climaFabrica">
     <svg
       width="52.697369mm"
       height="43.493259mm"
@@ -139,5 +138,4 @@
         </g>
       </g>
     </svg>
-  </div>
 </template>

@@ -9,7 +9,8 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home
-    },
+    }
+    ,
     {
       path: '/clima',
       name: 'clima',
@@ -17,6 +18,16 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('@/views/MainMapClima.vue')
+      /*component: MainMapClima*/
+    }
+    ,
+    {
+      path: '/carrier',
+      name: 'carrier',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('@/views/MainMapSalaCarrier.vue')
       /*component: MainMapClima*/
     }
   ]

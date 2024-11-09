@@ -20,8 +20,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { onMounted, ref } from "vue";
+import { useRouter } from "vue-router";
+import { useSvgStore } from "@/stores/svgStore";
 import MapClima from "./maps/MapClima.vue";
+import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
@@ -32,120 +35,89 @@ import {
   TOOLTIP_INFO_TABLE,
   elementsConfigTyH,
 } from "@/variables.js";
-const storeData = useHomeClimaStore().datos;
 
+// Se utiliza el composable `useTooltip`
+const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
+
+const storeData = ref(useHomeClimaStore().datos);
 const mapClimaRef = ref(null);
-const tooltipPosition = ref({ x: 0, y: 0 });
-const params = ref({});
-const tooltipVisibility = ref({
-  chart: false,
-  chartInfo: false,
-  infoTable: false,
-});
 
-function calculateTooltipPosition(e, config) {
-  let x = e.clientX + config.padding;
-  let y = e.clientY + config.padding;
-  const adjustedX =
-    x + config.width > window.innerWidth
-      ? e.clientX - config.width - config.padding
-      : x;
-  const adjustedY =
-    y + config.height > window.innerHeight
-      ? e.clientY - config.height - config.padding
-      : y;
-  return {
-    x: Math.max(adjustedX, config.padding),
-    y: Math.max(adjustedY, config.padding),
-  };
-}
+const router = useRouter();
 
-function displayTooltip(e, tipo, payload, config) {
-  tooltipPosition.value = calculateTooltipPosition(e, config);
-  params.value = payload;
-  tooltipVisibility.value[tipo] = true;
-}
+// Inicializacion de eventos para rutas
+function routesDireccion(svg) {
+  const routesMap = [
+    ...storeData.value.chiller.map((dato) => 
+    createRouterConfig(`#${dato.nombre}Vinf`, '/carrier', dato.nombre)
+  )
+  ];
 
-function hideTooltip(tipo) {
-  tooltipVisibility.value[tipo] = false;
-}
+  routesMap.forEach((datos) => {
+    const element = svg.querySelector(datos.selector);
 
-function addTooltipEvents() {
-  const svg = mapClimaRef.value?.svgRef;
-  if (!svg) return;
+    if(element){
+      element.addEventListener('click', () => navigateTo(datos))
+    }
 
+  });
+
+};
+
+// Inicialización de eventos de tooltip
+function initializeTooltipEvents(svg) {
   const tooltipConfigs = [
-    // Configuración estática de tooltips
-    createTooltipConfig(
-      "#demanda_agua_fria_text",
-      "infoTable",
-      { solicitud: "demanda_agua_fria" },
-      TOOLTIP_INFO_TABLE
-    ),
-    createTooltipConfig(
-      "#condiciones_marcha_carrier",
-      "infoTable",
-      { solicitud: "condiciones_marcha_carriers" },
-      TOOLTIP_INFO_TABLE
-    ),
-    // Configuración dinámica de tooltips
-    ...storeData.nombresClima.flatMap((nombre) =>
+    createTooltipConfig("#demanda_agua_fria_text", "infoTable", { solicitud: "demanda_agua_fria" }, TOOLTIP_INFO_TABLE),
+    createTooltipConfig("#condiciones_marcha_carrier", "infoTable", { solicitud: "condiciones_marcha_carriers" }, TOOLTIP_INFO_TABLE),
+    
+    ...storeData.value.nombresClima.flatMap((nombre) =>
       elementsConfigTyH.map(({ idSuffix, metric }) =>
-        createTooltipConfig(
-          `#${nombre}_${idSuffix}`,
-          "chart",
-          { nombre, medicion: metric, tabla: "mediciones_clima_24hs" },
-          TOOLTIP_CHART_CONFIG
-        )
+        createTooltipConfig(`#${nombre}_${idSuffix}`, "chart", { nombre, medicion: metric, tabla: "mediciones_clima_24hs" }, TOOLTIP_CHART_CONFIG)
       )
     ),
-    ...storeData.nombresFiltro.map((nombre) =>
-      createTooltipConfig(
-        `#${nombre}`,
-        "chartInfo",
-        { nombre, medicion: "filtro_ventilador", tabla: "mediciones_filtros" },
-        TOOLTIP_CHART_INFO_CONFIG
-      )
+    ...storeData.value.nombresFiltro.map((nombre) =>
+      createTooltipConfig(`#${nombre}`, "chartInfo", { nombre, medicion: "filtro_ventilador", tabla: "mediciones_filtros" }, TOOLTIP_CHART_INFO_CONFIG)
     ),
-    ...storeData.chiller.map((dato) =>
-      createTooltipConfig(
-        `#${dato.nombre}Vinf`,
-        "chart",
-        {
-          nombre: dato.nombre,
-          medicion: "demanda",
-          tabla: "mediciones_carrier",
-        },
-        TOOLTIP_CHART_CONFIG
-      )
+    ...storeData.value.chiller.map((dato) =>
+      createTooltipConfig(`#${dato.nombre}Vinf`, "chart", { nombre: dato.nombre, medicion: "demanda", tabla: "mediciones_carrier" }, TOOLTIP_CHART_CONFIG)
     ),
-    ...storeData.medicionesCarrier.map((medicion) =>
-      createTooltipConfig(
-        `#${medicion}`,
-        "chart",
-        { nombre: "carrier", medicion, tabla: "mediciones_carrier" },
-        TOOLTIP_CHART_CONFIG
-      )
+    ...storeData.value.medicionesCarrier.map((medicion) =>
+      createTooltipConfig(`#${medicion}`, "chart", { nombre: "carrier", medicion, tabla: "mediciones_carrier" }, TOOLTIP_CHART_CONFIG)
     ),
   ];
 
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
     const element = svg.querySelector(selector);
     if (element) {
-      element.addEventListener("mouseover", (e) =>
-        displayTooltip(e, tooltipType, payload, config)
-      );
+      element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
       element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
     }
   });
 }
 
+// Crea una configuracion de query
+function createRouterConfig(selector, path, params){
+  return {selector, path, params};
+}
+
+const navigateTo = (routeInfo) => {
+  router.push({
+    path: routeInfo.path,
+    query: routeInfo.params
+  });
+  //console.log(routeInfo);
+}
+
+// Crea una configuración de tooltip
 function createTooltipConfig(selector, tooltipType, payload, config) {
   return { selector, tooltipType, payload, config };
 }
 
+// Agrega los eventos de tooltip una vez montado el componente
 onMounted(() => {
-  addTooltipEvents();
+  if (mapClimaRef.value && mapClimaRef.value.svgRef) {
+    initializeTooltipEvents(mapClimaRef.value.svgRef);
+    routesDireccion(mapClimaRef.value.svgRef);
+  }
 });
 </script>
 
@@ -162,6 +134,7 @@ body {
   width: 100%;
   z-index: 0;
 }
+
 </style>
 
 <!--
