@@ -16,9 +16,11 @@
     </div>
   </div>
   <footer>
+    <div class="footer__nav">
       <EyeHawkIconVersion />
       <LogoTipoitiFooter />
-    </footer>
+    </div>
+  </footer>
 </template>
 
 <script setup>

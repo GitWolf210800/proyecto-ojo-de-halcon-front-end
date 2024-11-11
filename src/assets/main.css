@@ -19,6 +19,7 @@ nav{
 
 .content {
   padding-top: 50px; /* Da espacio para que no quede oculto por el nav fijo */
+  padding-bottom: 120px;
 }
 
 .navbar {
@@ -47,12 +48,19 @@ text {
   user-select: none;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+.footer__nav {
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
+  color: white;
+  padding: 10px;
+  display: flex;        /* Usamos flexbox para alinear los íconos */
+  justify-content: space-between; /* Centra los íconos horizontalmente */
+  gap: 20px;            /* Espacio entre los íconos */
+  box-sizing: border-box;
+  padding-bottom: 13vh;
 }
 
 .botones {
