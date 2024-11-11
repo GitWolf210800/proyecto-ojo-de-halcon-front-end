@@ -12,14 +12,6 @@ export const formatValue = (value) => {
     return typeof value === 'number' && !Number.isInteger(value) ? value.toFixed(2) : value;
   }
 
-  const tooltipVisibility = ref({
-    chart: false,
-    chartInfo: false,
-    infoTable: false,
-  });
-
-  const tooltipPosition = ref({ x: 0, y: 0 });
-
-  const params = ref({});
-
-
+export function createTooltipConfig(selector, tooltipType, payload, config) {
+  return { selector, tooltipType, payload, config };
+}

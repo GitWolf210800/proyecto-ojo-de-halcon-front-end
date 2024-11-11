@@ -4,6 +4,7 @@
       <div class="navbar__navegacion">
         <RouterLink to="/"> <HomeButtom /> </RouterLink>
       </div>
+      <ClimaExterior />
       <LoginButtom />
     </div>
   </nav>
@@ -25,6 +26,7 @@
 
 <script setup>
 import { computed, onMounted, onUnmounted } from 'vue';
+import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import LoginButtom from '@/components/icons/LoginButtom.vue';

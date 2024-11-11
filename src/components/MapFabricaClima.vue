@@ -32,6 +32,7 @@ import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue"
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { dataColorInfoFiltro } from '@/helpers/homeFiltroColorManipulator';
 import { dataColorInfoCarrier } from '@/helpers/homeCarrierColorManipulator';
+import { createTooltipConfig, createRouterConfig } from "@/funciones";
 import {
   TOOLTIP_CHART_CONFIG,
   TOOLTIP_CHART_INFO_CONFIG,
@@ -106,22 +107,12 @@ function initializeTooltipEvents(svg) {
   });
 }
 
-// Crea una configuracion de query
-function createRouterConfig(selector, path, params){
-  return {selector, path, params};
-}
-
+//Se prepara los datos para la navegacion
 const navigateTo = (routeInfo) => {
   router.push({
     path: routeInfo.path,
     query: routeInfo.params
   });
-  //console.log(routeInfo);
-}
-
-// Crea una configuración de tooltip
-function createTooltipConfig(selector, tooltipType, payload, config) {
-  return { selector, tooltipType, payload, config };
 }
 
 // Agrega los eventos de tooltip una vez montado el componente

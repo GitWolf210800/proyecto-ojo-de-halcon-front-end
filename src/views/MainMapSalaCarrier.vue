@@ -5,6 +5,7 @@
                 <RouterLink to="/" > <HomeButtom class="botones__navegacion" /> </RouterLink>
                 <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
             </div>
+            <ClimaExterior />
             <LoginButtom />
         </div>
     </nav>
@@ -22,6 +23,7 @@
 </template>
 
 <script setup>
+import ClimaExterior from '@/components/ClimaExterior.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
 import LoginButtom from '@/components/icons/LoginButtom.vue';

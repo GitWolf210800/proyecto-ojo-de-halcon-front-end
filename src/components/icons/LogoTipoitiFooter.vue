@@ -2,7 +2,7 @@
     <div class="logoTipoiti">
       <svg
    width="115.05891mm"
-   height="21.639261mm"
+   height="23.125999mm"
    viewBox="0 0 115.05891 21.639261"
    version="1.1"
    id="svg40965"

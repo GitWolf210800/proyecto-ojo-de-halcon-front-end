@@ -7,8 +7,8 @@ export const dataColorInfoClima = (svg) => {
     const storeData = (useHomeClimaStore()).datos;
     const dataClima = storeData.clima;
     const nombresClima = storeData.nombresClima;
-    const ultimaVez = svgStore.querySelector('#ultimaVez');
-    ultimaVez.textContent = storeData.actualizacion;
+    //const ultimaVez = svgStore.querySelector('#ultimaVez');
+    //ultimaVez.textContent = storeData.actualizacion;
     
     for(let i = 0; i < nombresClima.length; i++) {
         const colorTemp = svgStore.querySelector(`#${nombresClima[i]}_temp_color`);
@@ -49,7 +49,7 @@ export const dataColorInfoClima = (svg) => {
             }
 
             if (nombresClima[i] === 'fab9_exterior_clima') {
-              const colorTemp = svgStore.querySelector(`#${nombresClima[i]}_temp_g`);
+              /*const colorTemp = svgStore.querySelector(`#${nombresClima[i]}_temp_g`);
               const colorHum = svgStore.querySelector(`#${nombresClima[i]}_hum_g`);
               const entalpia = svgStore.querySelector(`#${nombresClima[i]}_entalpia_g`);
 
@@ -65,7 +65,8 @@ export const dataColorInfoClima = (svg) => {
               } else {
                 colorTemp.style.fill = tempoColdExt;
                 colorTemp.style.stroke = tempoColdExt;
-              }
+              }*/
+             continue;
             }
 
             if (validacion && !isNaN(temperatura)) {

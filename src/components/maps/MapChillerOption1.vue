@@ -1476,7 +1476,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan15814">CONDENSADOR</tspan>
+        <tspan x="693" y="399.13164" id="tspan16234">CONDENSADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1503,7 +1503,7 @@
           stroke-opacity: 0.321429;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan15816">Chiller</tspan>
+        <tspan x="693" y="399.13164" id="tspan16236">Chiller</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1528,7 +1528,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="702" y="558.13164" id="tspan15818">EVAPORADOR</tspan>
+        <tspan x="702" y="558.13164" id="tspan16238">EVAPORADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1576,7 +1576,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="548.25" y="125.6685" id="tspan15820">VENTILADORES</tspan>
+        <tspan x="548.25" y="125.6685" id="tspan16240">VENTILADORES</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1601,7 +1601,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="584.5" y="208.9185" id="tspan15822">FILTROS</tspan>
+        <tspan x="584.5" y="208.9185" id="tspan16242">FILTROS</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1626,8 +1626,8 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="309.71289" y="283.86186" id="tspan15824">B DE</tspan>
-        <tspan x="309.71289" y="298.86186" id="tspan15826">TORRE</tspan>
+        <tspan x="309.71289" y="283.86186" id="tspan16244">B DE</tspan>
+        <tspan x="309.71289" y="298.86186" id="tspan16246">TORRE</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1652,7 +1652,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="309.71289" y="283.86186" id="tspan15828">Chiller X</tspan>
+        <tspan x="309.71289" y="283.86186" id="tspan16248">Chiller X</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1677,7 +1677,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="954.59375" y="515.7935" id="tspan15830">COMPRESOR</tspan>
+        <tspan x="954.59375" y="515.7935" id="tspan16250">COMPRESOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1702,8 +1702,8 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="414.36523" y="652.97124" id="tspan15832">B DE</tspan>
-        <tspan x="414.36523" y="667.97124" id="tspan15834">AGUA FRIA</tspan>
+        <tspan x="414.36523" y="652.97124" id="tspan16252">B DE</tspan>
+        <tspan x="414.36523" y="667.97124" id="tspan16254">AGUA FRIA</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2492,7 +2492,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan15836">B Pileta</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan16256">B Pileta</tspan>
       </text>
       <path
         id="valvula_pileta"
@@ -2509,225 +2509,6 @@
         "
         d="m 65.870183,41.816175 -7.395249,-0.101622 m 0,0 3.633545,2.993111 m 0,0 3.761704,-2.891451 m -7.523396,5.782903 3.761692,-2.891452 m 3.633558,2.993123 -7.39525,-0.101623 m 3.761717,-2.891452 3.633533,2.993122"
       />
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 4.30483px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="61.345882"
-        y="15.961817"
-        id="tempExterior"
-        transform="scale(0.81774189,1.2228798)"
-      >
-        <tspan
-          id="tspan1550"
-          x="61.345882"
-          y="15.961817"
-          style="stroke-width: 0"
-        >
-          Temperatura Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 4.71459px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="147.99454"
-        y="16.53167"
-        id="entalpiaExterior"
-        transform="scale(0.82755998,1.2083716)"
-      >
-        <tspan
-          id="tspan1554"
-          x="147.99454"
-          y="16.53167"
-          style="stroke-width: 0"
-        >
-          Entalpía Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 4.81093px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="102.10173"
-        y="16.826746"
-        id="tempExterior-0"
-        transform="scale(0.84446126,1.1841869)"
-      >
-        <tspan
-          id="tspan1552"
-          x="102.10173"
-          y="16.826746"
-          style="stroke-width: 0"
-        >
-          Humedad Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.12935395,0,0,0.23230235,21.879708,-28.738672)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315);
-          display: inline;
-          fill: #ffff00;
-          fill-opacity: 1;
-          stroke: #e2e80a;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_temp_g"
-      >
-        <tspan x="286.7793" y="186.87294" id="tspan15838">32 °C</tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.11708897,0,0,0.21162443,92.811589,-25.643385)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315-7);
-          display: inline;
-          fill: #00be0d;
-          fill-opacity: 1;
-          stroke: #09d025;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_entalpia_g"
-      >
-        <tspan x="286.7793" y="186.87294" id="tspan15840">66 Kj/Kg</tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.12935395,0,0,0.23230235,58.75362,-28.541709)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315-2);
-          display: inline;
-          fill: #0098ff;
-          fill-opacity: 1;
-          stroke: #49cdf7;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_hum_g"
-      >
-        <tspan x="286.7793" y="186.87294" id="tspan15842">50 %</tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 4.35771px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #d5d5d5;
-          fill-opacity: 1;
-          stroke: #09d025;
-          stroke-width: 0;
-        "
-        x="64.880569"
-        y="6.217073"
-        transform="scale(0.93593733,1.0684476)"
-        id="ultimaVez"
-      >
-        <tspan
-          id="tspan14837"
-          x="64.880569"
-          y="6.217073"
-          style="stroke-width: 0"
-        >
-          última actualización: 21/11/2023 11:29 Hs
-        </tspan>
-      </text>
       <text
         xml:space="preserve"
         style="
@@ -3153,7 +2934,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan15844">B DOSIF</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan16258">B DOSIF</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3274,7 +3055,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan15846">Carrier1</tspan>
+        <tspan x="926" y="106.77556" id="tspan16260">Carrier1</tspan>
       </text>
       <rect
         style="
@@ -3331,7 +3112,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan15848">Carrier2</tspan>
+        <tspan x="926" y="106.77556" id="tspan16262">Carrier2</tspan>
       </text>
       <rect
         style="
@@ -3388,7 +3169,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.97487" id="tspan15850">Carrier3</tspan>
+        <tspan x="926" y="106.97487" id="tspan16264">Carrier3</tspan>
       </text>
       <rect
         style="
@@ -3445,7 +3226,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.03788" id="tspan15852">Carrier4</tspan>
+        <tspan x="926" y="107.03788" id="tspan16266">Carrier4</tspan>
       </text>
       <rect
         style="
@@ -3502,7 +3283,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.37113" id="tspan15854">Carrier5</tspan>
+        <tspan x="926" y="107.37113" id="tspan16268">Carrier5</tspan>
       </text>
       <rect
         style="
@@ -3553,7 +3334,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan15856">100</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan16270">100</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3573,10 +3354,10 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan15858">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan16272">%</tspan>
       </text>
       <g
-        transform="matrix(0.00222096,0,0,-0.00236616,182.83351,15.760864)"
+        transform="matrix(0.00222096,0,0,-0.00236616,172.25018,17.877531)"
         fill="#000000"
         stroke="none"
         id="g1590"
@@ -3664,11 +3445,11 @@
         id="condiciones_marcha_carrier"
         width="14.287936"
         height="14.393744"
-        x="181.24208"
-        y="2.5072989"
+        x="170.65875"
+        y="4.6239657"
       />
       <g
-        transform="matrix(0.00340724,0,0,-0.00193672,140.53341,22.136042)"
+        transform="matrix(0.00340724,0,0,-0.00193672,77.297993,23.194376)"
         fill="#000000"
         stroke="none"
         id="demanda_agua_fria_grafico"
@@ -3699,16 +3480,16 @@
           stroke-width: 0.683083;
           stroke-opacity: 0.0934844;
         "
-        x="156.62067"
-        y="16.480379"
+        x="96.334259"
+        y="17.590481"
         id="demanda_agua_fria_text"
-        transform="scale(1.0489166,0.95336461)"
+        transform="scale(1.0489166,0.95336464)"
       >
         <tspan
           id="tspan9810"
           style="stroke-width: 0.683083"
-          x="156.62067"
-          y="16.480379"
+          x="96.334259"
+          y="17.590481"
         >
           0
         </tspan>

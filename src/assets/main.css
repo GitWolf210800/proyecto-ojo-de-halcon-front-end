@@ -1,14 +1,16 @@
-body{
-    background-color: #282c34;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    transition:
-    color 1.5s,
-    background-color 0.9s;
+body {
+  background-color: #282c34;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: color 1.5s, background-color 0.9s;
+  overflow-x: hidden; /* Evitar que se desborde hacia los lados */
 }
 
-nav{
+nav {
+  background: linear-gradient(to bottom, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 100%);
+  border-top: none; /* Asegura que no haya un borde superior */
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
   top: 0;
   left: 0;
@@ -18,8 +20,8 @@ nav{
 }
 
 .content {
-  padding-top: 50px; /* Da espacio para que no quede oculto por el nav fijo */
-  padding-bottom: 120px;
+  padding-top: 60px; /* Espacio para el nav fijo */
+  padding-bottom: calc(120px + 12vh); /* Asegura suficiente espacio para el footer */
 }
 
 .navbar {
@@ -28,13 +30,13 @@ nav{
   justify-content: space-between;
 }
 
-.navbar__navegacion{
+.navbar__navegacion {
   justify-content: space-between;
   margin: 2px;
 }
 
-.botones__navegacion{
-  display:inline;
+.botones__navegacion {
+  display: inline;
   margin: .5px;
   width: 10vw;
   height: 10vh;
@@ -49,18 +51,20 @@ text {
 }
 
 .footer__nav {
-  height: 8vh;
+  background: linear-gradient(to top, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 100%);
+  border-bottom: none; /* Asegura que no haya un borde inferior */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   color: white;
-  padding: 10px;
-  display: flex;        /* Usamos flexbox para alinear los íconos */
-  justify-content: space-between; /* Centra los íconos horizontalmente */
-  gap: 20px;            /* Espacio entre los íconos */
+  padding: 2.5px 5px; /* Reduce el padding para que no ocupe tanto espacio */
+  height: 13vh; /* Ajusta la altura según lo necesario, 8vh debería ser más pequeño */
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
   box-sizing: border-box;
-  padding-bottom: 13vh;
 }
 
 .botones {

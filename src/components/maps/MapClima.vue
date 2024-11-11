@@ -2563,7 +2563,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2650.6074" y="963.37856" id="tspan60585">Fábrica N°6</tspan>
+        <tspan x="2650.6074" y="963.37856" id="tspan75401">Fábrica N°6</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2679,7 +2679,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60587">Fábrica N°9</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75403">Fábrica N°9</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2709,7 +2709,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60589">Fábrica N°3</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75405">Fábrica N°3</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2739,7 +2739,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60591">Fábrica N°4</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75407">Fábrica N°4</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2769,7 +2769,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60593">Fábrica N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75409">Fábrica N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2799,7 +2799,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60595">Batan Fab N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75411">Batan Fab N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2829,7 +2829,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60597">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75413">Batan</tspan>
       </text>
       <rect
         style="
@@ -2879,7 +2879,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60599">Cotonia</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75415">Cotonia</tspan>
       </text>
       <rect
         style="
@@ -4343,7 +4343,7 @@
           stroke: #49cdf7;
           stroke-width: 0;
         "
-        id="fab3_continuas_clima_temp_g"
+        id="fab3_g30_clima_temp_g"
         width="523.48737"
         height="101.5611"
         x="2212.3489"
@@ -4856,202 +4856,6 @@
       </text>
       <text
         xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 137.973px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="6332.6191"
-        y="-4893.2114"
-        id="tempExterior"
-        transform="scale(0.76187762,-1.3125468)"
-      >
-        <tspan
-          id="tspan1550"
-          x="6332.6191"
-          y="-4893.2114"
-          style="stroke-width: 0"
-        >
-          Temperatura Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 143.23px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="9325.458"
-        y="-5079.7808"
-        id="entalpiaExterior"
-        transform="scale(0.79254489,-1.2617582)"
-      >
-        <tspan
-          id="tspan1554"
-          x="9325.458"
-          y="-5079.7808"
-          style="stroke-width: 0"
-        >
-          Entalpía Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 500;
-          font-stretch: normal;
-          font-size: 143.23px;
-          font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Medium';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fefefb;
-          stroke: #fdfdfd;
-          stroke-width: 0;
-          stroke-dasharray: none;
-        "
-        x="7663.542"
-        y="-5084.2231"
-        id="tempExterior-0"
-        transform="scale(0.79254489,-1.2617582)"
-      >
-        <tspan
-          id="tspan1552"
-          x="7663.542"
-          y="-5084.2231"
-          style="stroke-width: 0"
-        >
-          Humedad Exterior
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(4.6287426,0,0,-7.3691124,3733.9974,7962.8086)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315);
-          display: inline;
-          fill: #ffff00;
-          fill-opacity: 1;
-          stroke: #e2e80a;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_temp_g"
-      >
-        <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">
-          32 °C
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(4.1898579,0,0,-6.7131656,6249.1916,7856.6091)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315-7);
-          display: inline;
-          fill: #00be0d;
-          fill-opacity: 1;
-          stroke: #09d025;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_entalpia_g"
-      >
-        <tspan
-          x="286.7793"
-          y="186.87294"
-          id="fab9_exterior_clima_entalpia_text"
-        >
-          66.66 Kj/Kg
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(4.6287426,0,0,-7.3691124,4987.1715,7952.5553)"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 37.3333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1315-2);
-          display: inline;
-          fill: #0098ff;
-          fill-opacity: 1;
-          stroke: #49cdf7;
-          stroke-width: 0.71811;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        id="fab9_exterior_clima_hum_g"
-      >
-        <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">
-          50 %
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
         transform="matrix(4.9844109,0,0,-5.9560629,108.50494,7560.5996)"
         id="filtrosTcardaFab4"
         style="
@@ -5078,7 +4882,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60607">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75417">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5128,7 +4932,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60609">G33</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75419">G33</tspan>
       </text>
       <rect
         style="
@@ -5178,7 +4982,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60611">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75421">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5228,7 +5032,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60613">Color</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75423">Color</tspan>
       </text>
       <rect
         style="
@@ -5278,7 +5082,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60615">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75425">Preparación</tspan>
       </text>
       <rect
         style="
@@ -5328,7 +5132,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60617">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75427">Preparación</tspan>
       </text>
       <rect
         style="
@@ -5378,7 +5182,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60619">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75429">Continuas</tspan>
       </text>
       <rect
         style="
@@ -5428,7 +5232,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60621">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75431">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5478,7 +5282,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60623">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75433">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5530,7 +5334,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60625">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75435">Continuas</tspan>
       </text>
       <rect
         style="
@@ -5580,7 +5384,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60627">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75437">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5630,7 +5434,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60629">Peinadoras</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75439">Peinadoras</tspan>
       </text>
       <rect
         style="
@@ -5680,7 +5484,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60631">Clima</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75441">Clima</tspan>
       </text>
       <rect
         style="
@@ -5730,7 +5534,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60633">Retorcidos</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75443">Retorcidos</tspan>
       </text>
       <rect
         style="
@@ -5780,7 +5584,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60635">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75445">Batan</tspan>
       </text>
       <rect
         style="
@@ -5830,7 +5634,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60637">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75447">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5880,7 +5684,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60639">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75449">Continuas</tspan>
       </text>
       <rect
         style="
@@ -5930,7 +5734,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60641">Open-End</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75451">Open-End</tspan>
       </text>
       <rect
         style="
@@ -5980,7 +5784,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60643">EX-8</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75453">EX-8</tspan>
       </text>
       <rect
         style="
@@ -6030,7 +5834,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60645">Poliester</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75455">Poliester</tspan>
       </text>
       <rect
         style="
@@ -6081,7 +5885,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60647">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75457">Preparación</tspan>
       </text>
       <rect
         style="
@@ -6132,7 +5936,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60649">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75459">Preparación</tspan>
       </text>
       <rect
         style="
@@ -6767,39 +6571,6 @@
         y="-2488.9668"
         transform="scale(1,-1)"
       />
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 146.819px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #d5d5d5;
-          fill-opacity: 1;
-          stroke: #09d025;
-          stroke-width: 0;
-        "
-        x="5154.668"
-        y="-6799.7324"
-        transform="scale(0.99404868,-1.005987)"
-        id="text494"
-      >
-        <tspan
-          id="ultimaVez"
-          x="5154.668"
-          y="-6799.7324"
-          style="stroke-width: 0"
-        >
-          última actualización: 21/11/2023 11:29 Hs
-        </tspan>
-      </text>
       <rect
         style="
           fill: #c1a22b;
@@ -6992,7 +6763,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60651">LUWA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75461">LUWA</tspan>
       </text>
       <rect
         style="
@@ -7042,7 +6813,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60653">Cardas A</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75463">Cardas A</tspan>
       </text>
       <rect
         style="
@@ -7092,7 +6863,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan60655">Cardas B</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan75465">Cardas B</tspan>
       </text>
       <rect
         style="
@@ -8369,7 +8140,7 @@
           stroke: #49cdf7;
           stroke-width: 0;
         "
-        id="fab3_continuas_clima_humAbs_g"
+        id="fab3_g30_clima_humAbs_g"
         width="523.59888"
         height="72.296936"
         x="2212.2588"
@@ -9424,7 +9195,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan60657">G-604 / G-605</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan75467">G-604 / G-605</tspan>
       </text>
       <rect
         style="
@@ -9628,7 +9399,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan60659">G-607 / G-608</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan75469">G-607 / G-608</tspan>
       </text>
       <rect
         style="
@@ -9761,7 +9532,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan60661">G-601 / G-602</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan75471">G-601 / G-602</tspan>
       </text>
       <rect
         style="
@@ -9793,7 +9564,7 @@
       />
       <text
         xml:space="preserve"
-        transform="matrix(14.588343,0,0,-10.384464,-31765.292,13956.625)"
+        transform="matrix(14.588343,0,0,-10.384464,-31815.296,14406.661)"
         id="fab3Text-6"
         style="
           font-style: normal;
@@ -9819,13 +9590,13 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60663">
+        <tspan x="2612.2793" y="749.32143" id="tspan75473">
           Sala de Chillers
         </tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(7.2141865,0,0,-5.1601973,-12865.022,9745.0804)"
+        transform="matrix(7.2141865,0,0,-5.1601973,-12915.026,10195.116)"
         id="fab3Text-6-5"
         style="
           font-style: normal;
@@ -9851,11 +9622,11 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60665">Entrada</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75475">Entrada</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(9.0093262,0,0,-5.4881005,-17542.762,9072.8584)"
+        transform="matrix(9.0093262,0,0,-5.4881005,-17592.766,9522.8938)"
         id="fab3Text-6-5-7"
         style="
           font-style: normal;
@@ -9881,7 +9652,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan60667">Salida</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan75477">Salida</tspan>
       </text>
       <rect
         style="
@@ -9895,13 +9666,13 @@
         id="carrier1"
         width="902.45337"
         height="166.78242"
-        x="6691.9258"
-        y="-6023.7539"
+        x="6641.9219"
+        y="-6473.7896"
         transform="scale(1,-1)"
       />
       <text
         xml:space="preserve"
-        transform="matrix(8.7419477,0,0,-7.3205078,-1397.2981,6681.5784)"
+        transform="matrix(8.7419477,0,0,-7.3205078,-1447.302,7131.6138)"
         id="carrier1Textt"
         style="
           font-style: normal;
@@ -9938,8 +9709,8 @@
         id="carrier1Vinf"
         width="901.80939"
         height="166.27449"
-        x="6692.168"
-        y="-6023.5156"
+        x="6642.1641"
+        y="-6473.5513"
         transform="scale(1,-1)"
       />
       <rect
@@ -9954,13 +9725,13 @@
         id="carrier2"
         width="902.45337"
         height="166.78242"
-        x="6689.646"
-        y="-5748.0952"
+        x="6639.6421"
+        y="-6198.1309"
         transform="scale(1,-1)"
       />
       <text
         xml:space="preserve"
-        transform="matrix(8.7419477,0,0,-7.3205078,-1384.466,6403.9858)"
+        transform="matrix(8.7419477,0,0,-7.3205078,-1434.4699,6854.0212)"
         id="carrier2Textt"
         style="
           font-style: normal;
@@ -9997,8 +9768,8 @@
         id="carrier2Vinf"
         width="901.91156"
         height="166.27449"
-        x="6689.8682"
-        y="-5747.8608"
+        x="6639.8643"
+        y="-6197.8965"
         transform="scale(1,-1)"
       />
       <rect
@@ -10013,13 +9784,13 @@
         id="carrier3"
         width="902.45337"
         height="166.78242"
-        x="6685.5679"
-        y="-5452.9644"
+        x="6635.564"
+        y="-5903"
         transform="scale(1,-1)"
       />
       <text
         xml:space="preserve"
-        transform="matrix(8.4830675,0,0,-7.3223345,-1142.8623,6115.709)"
+        transform="matrix(8.4830675,0,0,-7.3223345,-1192.8662,6565.7444)"
         id="carrier3Textt"
         style="
           font-style: normal;
@@ -10056,8 +9827,8 @@
         id="carrier3Vinf"
         width="901.43396"
         height="166.27449"
-        x="6685.7983"
-        y="-5452.7661"
+        x="6635.7944"
+        y="-5902.8018"
         transform="scale(1,-1)"
       />
       <rect
@@ -10072,13 +9843,13 @@
         id="carrier4"
         width="902.45337"
         height="166.78242"
-        x="6683.3809"
-        y="-5161.9756"
+        x="6633.377"
+        y="-5612.0112"
         transform="scale(1,-1)"
       />
       <text
         xml:space="preserve"
-        transform="matrix(8.4036033,0,0,-7.3229007,-1059.2187,5818.3224)"
+        transform="matrix(8.4036033,0,0,-7.3229007,-1109.2226,6268.3578)"
         id="carrier4Textt"
         style="
           font-style: normal;
@@ -10115,8 +9886,8 @@
         id="carrier4Vinf"
         width="901.9801"
         height="166.27449"
-        x="6683.6631"
-        y="-5161.7153"
+        x="6633.6592"
+        y="-5611.751"
         transform="scale(1,-1)"
       />
       <rect
@@ -10131,13 +9902,13 @@
         id="carrier5"
         width="902.45337"
         height="166.78242"
-        x="6681.1968"
-        y="-4865.4937"
+        x="6631.1929"
+        y="-5315.5293"
         transform="scale(1,-1)"
       />
       <text
         xml:space="preserve"
-        transform="matrix(8.2620438,0,0,-7.0948341,-926.66365,5494.2203)"
+        transform="matrix(8.2620438,0,0,-7.0948341,-976.6676,5944.2557)"
         id="carrier5Textt"
         style="
           font-style: normal;
@@ -10174,8 +9945,8 @@
         id="carrier5Vinf"
         width="901.43396"
         height="166.27449"
-        x="6681.437"
-        y="-4865.2324"
+        x="6631.4331"
+        y="-5315.2681"
         transform="scale(1,-1)"
       />
       <path
@@ -10188,13 +9959,13 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        d="m 6611.2416,5867.4643 3.0064,209.1021 m -10.8167,-1132.4066 1.9042,781.2964 m -2.5035,-1097.2524 4.0875,181.4913 m 1040.6524,-166.0404 -1043.8115,-1.1674 m 1046.9369,1450.5049 -1043.8112,-1.1661 m 1024.9095,-1441.22 2.9707,1432.9358"
+        d="m 6561.2377,6317.4997 3.0064,209.1021 m -10.8167,-1132.4066 1.9042,781.2964 m -2.5035,-1097.2524 4.0875,181.4913 m 1040.6524,-166.0404 -1043.8115,-1.1674 m 1046.9369,1450.5049 -1043.8112,-1.1661 m 1024.9095,-1441.22 2.9707,1432.9358"
       />
       <line
-        x1="6614.3569"
-        y1="4816.8491"
-        x2="5998.0864"
-        y2="4818.228"
+        x1="6564.353"
+        y1="5266.8848"
+        x2="5948.0825"
+        y2="5268.2637"
         id="line374-0-9-2-3-9-0-7"
         style="
           stroke: #ffffff;
@@ -10204,10 +9975,10 @@
         "
       />
       <line
-        x1="5998.25"
-        y1="4817.8608"
-        x2="5547.7256"
-        y2="4819.2437"
+        x1="5948.2461"
+        y1="5267.8965"
+        x2="5497.7217"
+        y2="5269.2793"
         id="line374-0-9-2-3-9-0-7-5"
         style="
           stroke: #ffffff;
@@ -10217,10 +9988,10 @@
         "
       />
       <line
-        x1="5718.106"
-        y1="4942.4653"
-        x2="5717.9785"
-        y2="5194.7476"
+        x1="5668.1021"
+        y1="5392.501"
+        x2="5667.9746"
+        y2="5644.7832"
         id="line374-0-9-2-3-9-0-7-24"
         style="
           stroke: #ffffff;
@@ -10230,10 +10001,10 @@
         "
       />
       <line
-        x1="5721.1743"
-        y1="5477.4722"
-        x2="5721.0469"
-        y2="5746.4282"
+        x1="5671.1704"
+        y1="5927.5078"
+        x2="5671.043"
+        y2="6196.4639"
         id="line374-0-9-2-3-9-0-7-24-5"
         style="
           stroke: #ffffff;
@@ -10243,10 +10014,10 @@
         "
       />
       <line
-        x1="6621.8159"
-        y1="4934.5635"
-        x2="5992.4321"
-        y2="4933.394"
+        x1="6571.812"
+        y1="5384.5991"
+        x2="5942.4282"
+        y2="5383.4297"
         id="line374-0-9-2-3-9-0-7-2"
         style="
           stroke: #ffffff;
@@ -10256,10 +10027,10 @@
         "
       />
       <line
-        x1="5992.376"
-        y1="4933.1406"
-        x2="5709.6118"
-        y2="4930.8457"
+        x1="5942.3721"
+        y1="5383.1763"
+        x2="5659.6079"
+        y2="5380.8813"
         id="line374-0-9-2-3-9-0-7-2-4"
         style="
           stroke: #ffffff;
@@ -10269,10 +10040,10 @@
         "
       />
       <line
-        x1="6617.8193"
-        y1="5856.8896"
-        x2="5977.3037"
-        y2="5855.7119"
+        x1="6567.8154"
+        y1="6306.9253"
+        x2="5927.2998"
+        y2="6305.7476"
         id="line374-0-9-2-3-9-0-7-0"
         style="
           stroke: #ffffff;
@@ -10282,10 +10053,10 @@
         "
       />
       <line
-        x1="5977.3223"
-        y1="5855.5684"
-        x2="5567.8452"
-        y2="5853.4575"
+        x1="5927.3184"
+        y1="6305.604"
+        x2="5517.8413"
+        y2="6303.4932"
         id="line374-0-9-2-3-9-0-7-0-5"
         style="
           stroke: #ffffff;
@@ -10295,10 +10066,10 @@
         "
       />
       <line
-        x1="5974.3145"
-        y1="5735.5586"
-        x2="5728.5171"
-        y2="5734.9653"
+        x1="5924.3105"
+        y1="6185.5942"
+        x2="5678.5132"
+        y2="6185.001"
         id="line374-0-9-2-3-9-0-7-0-5-2"
         style="
           stroke: #ffffff;
@@ -10308,10 +10079,10 @@
         "
       />
       <line
-        x1="6616.3979"
-        y1="5736.3887"
-        x2="5970.1992"
-        y2="5735.2095"
+        x1="6566.394"
+        y1="6186.4243"
+        x2="5920.1953"
+        y2="6185.2451"
         id="line374-0-9-2-3-9-0-7-0-8"
         style="
           stroke: #ffffff;
@@ -10321,10 +10092,10 @@
         "
       />
       <line
-        x1="5557.0713"
-        y1="4824.8223"
-        x2="5557.1582"
-        y2="5194.4717"
+        x1="5507.0674"
+        y1="5274.8579"
+        x2="5507.1543"
+        y2="5644.5073"
         id="line374-0-9-2-3-9-0-7-0-8-7"
         style="
           stroke: #ffffff;
@@ -10334,10 +10105,10 @@
         "
       />
       <line
-        x1="5558.8008"
-        y1="5445.167"
-        x2="5558.8877"
-        y2="5866.0923"
+        x1="5508.7969"
+        y1="5895.2026"
+        x2="5508.8838"
+        y2="6316.1279"
         id="line374-0-9-2-3-9-0-7-0-8-7-2"
         style="
           stroke: #ffffff;
@@ -10364,10 +10135,10 @@
           stroke: #ffffff;
           stroke-width: 1.71401;
         "
-        x="5533.7114"
-        y="-6255.3984"
+        x="5487.6689"
+        y="-6744.1567"
         id="entrada_agua_fria_principal"
-        transform="scale(1.0860433,-0.92077362)"
+        transform="scale(1.0860433,-0.92077361)"
       >
         <tspan
           id="tspan20-6"
@@ -10385,8 +10156,8 @@
             font-variant-east-asian: normal;
             stroke-width: 1.71401;
           "
-          x="5533.7114"
-          y="-6255.3984"
+          x="5487.6689"
+          y="-6744.1567"
         >
           nn,n
         </tspan>
@@ -10409,15 +10180,15 @@
           stroke: #ffffff;
           stroke-width: 1.58897;
         "
-        x="6436.0488"
-        y="-5585.9761"
+        x="6384.4897"
+        y="-6022.438"
         id="temp_aguaIn_cond-0-85-2"
         transform="scale(0.96983992,-1.031098)"
       >
         <tspan
           id="tspan15873-60-2"
-          x="6436.0488"
-          y="-5585.9761"
+          x="6384.4897"
+          y="-6022.438"
           style="stroke-width: 1.58897"
         >
           °C
@@ -10441,8 +10212,8 @@
           stroke: #ffffff;
           stroke-width: 1.645;
         "
-        x="5236.9941"
-        y="-5547.25"
+        x="5193.3872"
+        y="-6063.3076"
         id="salida_agua_fria_principal"
         transform="scale(1.1467049,-0.87206395)"
       >
@@ -10462,8 +10233,8 @@
             font-variant-east-asian: normal;
             stroke-width: 1.645;
           "
-          x="5236.9941"
-          y="-5547.25"
+          x="5193.3872"
+          y="-6063.3076"
         >
           nn,n
         </tspan>
@@ -10486,15 +10257,15 @@
           stroke: #ffffff;
           stroke-width: 1.52502;
         "
-        x="6101.4858"
-        y="-4950.4355"
+        x="6052.6543"
+        y="-5411.2764"
         id="temp_aguaIn_cond-0-85-2-0"
-        transform="scale(1.0240108,-0.97655217)"
+        transform="scale(1.0240108,-0.9765522)"
       >
         <tspan
           id="tspan15873-60-2-6"
-          x="6101.4858"
-          y="-4950.4355"
+          x="6052.6543"
+          y="-5411.2764"
           style="stroke-width: 1.52502"
         >
           °C
@@ -10508,12 +10279,12 @@
           stroke: #ffffff;
           stroke-width: 12.8673;
         "
-        d="m 7828.9683,4890.5006 -181.1843,1.8245 m 473.2959,-212.5533 -473.4154,0.3038 m 171.75,694.6825 0.1637,-477.5116 m 312.7437,476.1358 0.1635,-703.957 m -158.9723,1239.0356 v -14.2324 l -44.061,-20.9872 c -24.4158,-11.5794 -76.3352,-35.7027 -115.0638,-53.5539 l -71.0029,-32.5664 v -185.0258 -185.2674 l 33.1159,-9.649 32.8353,-9.8908 -0.8417,-12.3027 -0.8423,-12.3033 h 12.9095 c 11.2257,0 12.6293,0.724 12.6293,5.5485 0,11.8201 1.9643,12.0613 43.7805,5.0659 34.7997,-6.0307 45.4638,-6.5134 100.7509,-6.7544 59.4962,0 91.2089,2.6536 135.27,12.0617 5.3321,1.2059 6.4547,0.2411 7.8585,-7.2371 1.964,-8.2021 2.5253,-8.6846 13.1898,-8.6846 h 11.2257 l -1.1224,11.097 -0.8419,11.0967 30.3096,9.1669 c 16.5577,5.0657 31.9931,10.6142 34.2382,12.0615 3.6484,2.6538 4.2097,27.5008 4.2097,187.1971 -0.2805,139.4328 -1.1227,184.5432 -3.6482,185.9907 -5.8936,3.3773 -168.3863,77.9184 -197.5733,90.704 l -28.9061,12.5439 v 14.9563 c 0,11.8206 -0.8421,15.1978 -4.2096,15.1978 -3.3681,0 -4.2097,-3.1359 -4.2097,-14.233 z"
+        d="m 7778.9644,5340.536 -181.1843,1.8245 m 473.2959,-212.5533 -473.4154,0.3038 m 171.75,694.6825 0.1637,-477.5116 m 312.7437,476.1358 0.1635,-703.957 m -158.9723,1239.0356 v -14.2324 l -44.061,-20.9872 c -24.4158,-11.5794 -76.3352,-35.7027 -115.0638,-53.5539 l -71.0029,-32.5664 v -185.0258 -185.2674 l 33.1159,-9.649 32.8353,-9.8908 -0.8417,-12.3027 -0.8423,-12.3033 h 12.9095 c 11.2257,0 12.6293,0.724 12.6293,5.5485 0,11.8201 1.9643,12.0613 43.7805,5.0659 34.7997,-6.0307 45.4638,-6.5134 100.7509,-6.7544 59.4962,0 91.2089,2.6536 135.27,12.0617 5.3321,1.2059 6.4547,0.2411 7.8585,-7.2371 1.964,-8.2021 2.5253,-8.6846 13.1898,-8.6846 h 11.2257 l -1.1224,11.097 -0.8419,11.0967 30.3096,9.1669 c 16.5577,5.0657 31.9931,10.6142 34.2382,12.0615 3.6484,2.6538 4.2097,27.5008 4.2097,187.1971 -0.2805,139.4328 -1.1227,184.5432 -3.6482,185.9907 -5.8936,3.3773 -168.3863,77.9184 -197.5733,90.704 l -28.9061,12.5439 v 14.9563 c 0,11.8206 -0.8421,15.1978 -4.2096,15.1978 -3.3681,0 -4.2097,-3.1359 -4.2097,-14.233 z"
       />
       <text
         xml:space="preserve"
-        transform="matrix(5.556067,0,0,-6.4844396,1771.9489,7387.22)"
-        id="tanque_agua_fria_carrier_text"
+        transform="matrix(5.556067,0,0,-6.4844396,1721.945,7837.2554)"
+        id="tanque_agua_fria_carrier"
         style="
           font-size: 19.2609px;
           font-family: Dubai;
@@ -10528,13 +10299,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">
-          nnn
-        </tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan75489">nnn</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(5.556067,0,0,-6.4844396,1969.7288,7390.0304)"
+        transform="matrix(5.556067,0,0,-6.4844396,1919.7249,7840.0658)"
         id="text11213-8"
         style="
           font-size: 19.2609px;
@@ -10550,10 +10319,10 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan60681">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan75491">%</tspan>
       </text>
       <g
-        transform="matrix(0.13627151,0,0,0.08251382,4626.5829,4967.445)"
+        transform="matrix(0.13627151,0,0,0.08251382,4576.579,5417.4804)"
         fill="#000000"
         stroke="none"
         id="demanda_agua_fria_grafico"
@@ -10585,22 +10354,22 @@
           stroke-width: 28.197;
           stroke-opacity: 0.0934844;
         "
-        x="5487.0815"
-        y="-5326.4639"
+        x="5437.8789"
+        y="-5783.8252"
         id="demanda_agua_fria_text"
         transform="scale(1.016278,-0.98398272)"
       >
         <tspan
           id="tspan9810"
           style="fill: #ffff00; fill-opacity: 1; stroke-width: 28.197"
-          x="5487.0815"
-          y="-5326.4639"
+          x="5437.8789"
+          y="-5783.8252"
         >
           0
         </tspan>
       </text>
       <g
-        transform="matrix(0.05713152,0,0,0.06377034,6198.3148,5223.6518)"
+        transform="matrix(0.05713152,0,0,0.06377034,6148.3109,5673.6872)"
         fill="#000000"
         stroke="none"
         id="g1590"
@@ -10688,15 +10457,15 @@
         id="condiciones_marcha_carrier"
         width="367.54016"
         height="387.92535"
-        x="6157.3765"
-        y="-5580.8477"
+        x="6107.3726"
+        y="-6030.8833"
         transform="scale(1,-1)"
       />
       <line
-        x1="6561.978"
-        y1="4873.2612"
-        x2="6561.978"
-        y2="4833.1406"
+        x1="6511.9741"
+        y1="5323.2969"
+        x2="6511.9741"
+        y2="5283.1763"
         id="line95"
         style="
           fill: none;
@@ -10706,10 +10475,10 @@
         "
       />
       <line
-        x1="6561.978"
-        y1="4873.2612"
-        x2="6561.978"
-        y2="4913.3813"
+        x1="6511.9741"
+        y1="5323.2969"
+        x2="6511.9741"
+        y2="5363.417"
         id="line96"
         style="
           fill: none;
@@ -10719,10 +10488,10 @@
         "
       />
       <line
-        x1="6479.981"
-        y1="4873.2612"
-        x2="6561.978"
-        y2="4913.3813"
+        x1="6429.9771"
+        y1="5323.2969"
+        x2="6511.9741"
+        y2="5363.417"
         id="line97"
         style="
           fill: none;
@@ -10732,10 +10501,10 @@
         "
       />
       <line
-        x1="6561.978"
-        y1="4913.3813"
-        x2="6479.981"
-        y2="4873.2612"
+        x1="6511.9741"
+        y1="5363.417"
+        x2="6429.9771"
+        y2="5323.2969"
         id="line98"
         style="
           fill: none;
@@ -10745,10 +10514,10 @@
         "
       />
       <line
-        x1="6479.981"
-        y1="4873.2612"
-        x2="6561.978"
-        y2="4833.1406"
+        x1="6429.9771"
+        y1="5323.2969"
+        x2="6511.9741"
+        y2="5283.1763"
         id="line99"
         style="
           fill: none;
@@ -10767,14 +10536,14 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 6535.0866,4850.2891 c -12.6413,6.1784 -28.3791,13.8735 -34.9733,17.0999 l -11.9889,5.866 34.9731,17.0881 34.9731,17.0882 0.233,-17.4239 c 0.1288,-9.5832 0.1288,-24.9678 0,-34.1881 l -0.233,-16.764 z"
+        d="m 6485.0827,5300.3245 c -12.6413,6.1784 -28.3791,13.8735 -34.9733,17.0999 l -11.9889,5.866 34.9731,17.0881 34.9731,17.0882 0.233,-17.4239 c 0.1288,-9.5832 0.1288,-24.9678 0,-34.1881 l -0.233,-16.764 z"
         id="path989"
       />
       <line
-        x1="5903.9043"
-        y1="4870.2231"
-        x2="5903.9043"
-        y2="4830.103"
+        x1="5853.9004"
+        y1="5320.2588"
+        x2="5853.9004"
+        y2="5280.1387"
         id="line95-8"
         style="
           fill: none;
@@ -10784,10 +10553,10 @@
         "
       />
       <line
-        x1="5903.9043"
-        y1="4870.2231"
-        x2="5903.9043"
-        y2="4910.3433"
+        x1="5853.9004"
+        y1="5320.2588"
+        x2="5853.9004"
+        y2="5360.3789"
         id="line96-1"
         style="
           fill: none;
@@ -10797,10 +10566,10 @@
         "
       />
       <line
-        x1="5821.9072"
-        y1="4870.2231"
-        x2="5903.9043"
-        y2="4910.3433"
+        x1="5771.9033"
+        y1="5320.2588"
+        x2="5853.9004"
+        y2="5360.3789"
         id="line97-2"
         style="
           fill: none;
@@ -10810,10 +10579,10 @@
         "
       />
       <line
-        x1="5903.9043"
-        y1="4910.3433"
-        x2="5821.9072"
-        y2="4870.2231"
+        x1="5853.9004"
+        y1="5360.3789"
+        x2="5771.9033"
+        y2="5320.2588"
         id="line98-5"
         style="
           fill: none;
@@ -10823,10 +10592,10 @@
         "
       />
       <line
-        x1="5821.9072"
-        y1="4870.2231"
-        x2="5903.9043"
-        y2="4830.103"
+        x1="5771.9033"
+        y1="5320.2588"
+        x2="5853.9004"
+        y2="5280.1387"
         id="line99-2"
         style="
           fill: none;
@@ -10845,14 +10614,14 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 5877.0124,4847.2508 c -12.6413,6.1784 -28.379,13.8736 -34.9732,17.0998 l -11.9891,5.8661 34.9732,17.0882 34.9732,17.0881 0.2329,-17.4238 c 0.1288,-9.5832 0.1288,-24.9678 0,-34.1883 l -0.2329,-16.764 z"
+        d="m 5827.0085,5297.2862 c -12.6413,6.1784 -28.379,13.8736 -34.9732,17.0998 l -11.9891,5.8661 34.9732,17.0882 34.9732,17.0881 0.2329,-17.4238 c 0.1288,-9.5832 0.1288,-24.9678 0,-34.1883 l -0.2329,-16.764 z"
         id="path989-5"
       />
       <line
-        x1="5640.2607"
-        y1="5009.7422"
-        x2="5600.1426"
-        y2="5009.0562"
+        x1="5590.2568"
+        y1="5459.7778"
+        x2="5550.1387"
+        y2="5459.0918"
         id="line95-3"
         style="
           fill: none;
@@ -10862,10 +10631,10 @@
         "
       />
       <line
-        x1="5640.2607"
-        y1="5009.7422"
-        x2="5680.3779"
-        y2="5010.4302"
+        x1="5590.2568"
+        y1="5459.7778"
+        x2="5630.374"
+        y2="5460.4658"
         id="line96-12"
         style="
           fill: none;
@@ -10875,10 +10644,10 @@
         "
       />
       <line
-        x1="5638.8569"
-        y1="5091.7217"
-        x2="5680.3779"
-        y2="5010.4302"
+        x1="5588.853"
+        y1="5541.7573"
+        x2="5630.374"
+        y2="5460.4658"
         id="line97-28"
         style="
           fill: none;
@@ -10888,10 +10657,10 @@
         "
       />
       <line
-        x1="5680.3779"
-        y1="5010.4302"
-        x2="5638.8569"
-        y2="5091.7217"
+        x1="5630.374"
+        y1="5460.4658"
+        x2="5588.853"
+        y2="5541.7573"
         id="line98-0"
         style="
           fill: none;
@@ -10901,10 +10670,10 @@
         "
       />
       <line
-        x1="5638.8569"
-        y1="5091.7217"
-        x2="5600.1426"
-        y2="5009.0562"
+        x1="5588.853"
+        y1="5541.7573"
+        x2="5550.1387"
+        y2="5459.0918"
         id="line99-4"
         style="
           fill: none;
@@ -10923,14 +10692,14 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 5616.8288,5036.2351 c 5.9618,12.7442 13.3867,28.6101 16.5001,35.258 l 5.6604,12.0865 17.686,-34.6723 17.6857,-34.6726 -17.4188,-0.5312 c -9.5803,-0.2927 -24.9641,-0.5561 -34.1861,-0.5853 l -16.7672,-0.055 z"
+        d="m 5566.8249,5486.2705 c 5.9618,12.7442 13.3867,28.6101 16.5001,35.258 l 5.6604,12.0865 17.686,-34.6723 17.6857,-34.6726 -17.4188,-0.5312 c -9.5803,-0.2927 -24.9641,-0.5561 -34.1861,-0.5853 l -16.7672,-0.055 z"
         id="path989-0"
       />
       <line
-        x1="5643.1509"
-        y1="5589.1074"
-        x2="5603.0332"
-        y2="5588.4204"
+        x1="5593.147"
+        y1="6039.1431"
+        x2="5553.0293"
+        y2="6038.4561"
         id="line95-3-0"
         style="
           fill: none;
@@ -10940,10 +10709,10 @@
         "
       />
       <line
-        x1="5643.1509"
-        y1="5589.1074"
-        x2="5683.2686"
-        y2="5589.7954"
+        x1="5593.147"
+        y1="6039.1431"
+        x2="5633.2646"
+        y2="6039.8311"
         id="line96-12-0"
         style="
           fill: none;
@@ -10953,10 +10722,10 @@
         "
       />
       <line
-        x1="5641.7466"
-        y1="5671.0859"
-        x2="5683.2686"
-        y2="5589.7954"
+        x1="5591.7427"
+        y1="6121.1216"
+        x2="5633.2646"
+        y2="6039.8311"
         id="line97-28-6"
         style="
           fill: none;
@@ -10966,10 +10735,10 @@
         "
       />
       <line
-        x1="5683.2686"
-        y1="5589.7954"
-        x2="5641.7466"
-        y2="5671.0859"
+        x1="5633.2646"
+        y1="6039.8311"
+        x2="5591.7427"
+        y2="6121.1216"
         id="line98-0-0"
         style="
           fill: none;
@@ -10979,10 +10748,10 @@
         "
       />
       <line
-        x1="5641.7466"
-        y1="5671.0859"
-        x2="5603.0332"
-        y2="5588.4204"
+        x1="5591.7427"
+        y1="6121.1216"
+        x2="5553.0293"
+        y2="6038.4561"
         id="line99-4-0"
         style="
           fill: none;
@@ -11001,14 +10770,14 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 5619.7189,5615.5999 c 5.9618,12.744 13.3869,28.6099 16.5002,35.2577 l 5.6604,12.0867 17.6859,-34.6724 17.6858,-34.6724 -17.419,-0.5312 c -9.5803,-0.2929 -24.964,-0.5563 -34.186,-0.5855 l -16.7671,-0.055 z"
+        d="m 5569.715,6065.6353 c 5.9618,12.744 13.3869,28.6099 16.5002,35.2577 l 5.6604,12.0867 17.6859,-34.6724 17.6858,-34.6724 -17.419,-0.5312 c -9.5803,-0.2929 -24.964,-0.5563 -34.186,-0.5855 l -16.7671,-0.055 z"
         id="path989-0-2"
       />
       <line
-        x1="5807.8057"
-        y1="5794.8618"
-        x2="5809.1152"
-        y2="5834.9609"
+        x1="5757.8018"
+        y1="6244.8975"
+        x2="5759.1113"
+        y2="6284.9966"
         id="line95-3-6"
         style="
           fill: none;
@@ -11018,10 +10787,10 @@
         "
       />
       <line
-        x1="5807.8057"
-        y1="5794.8618"
-        x2="5806.4956"
-        y2="5754.7637"
+        x1="5757.8018"
+        y1="6244.8975"
+        x2="5756.4917"
+        y2="6204.7993"
         id="line96-12-2"
         style="
           fill: none;
@@ -11031,10 +10800,10 @@
         "
       />
       <line
-        x1="5889.7583"
-        y1="5792.1841"
-        x2="5806.4956"
-        y2="5754.7637"
+        x1="5839.7544"
+        y1="6242.2197"
+        x2="5756.4917"
+        y2="6204.7993"
         id="line97-28-0"
         style="
           fill: none;
@@ -11044,10 +10813,10 @@
         "
       />
       <line
-        x1="5806.4956"
-        y1="5754.7637"
-        x2="5889.7583"
-        y2="5792.1841"
+        x1="5756.4917"
+        y1="6204.7993"
+        x2="5839.7544"
+        y2="6242.2197"
         id="line98-0-06"
         style="
           fill: none;
@@ -11057,10 +10826,10 @@
         "
       />
       <line
-        x1="5889.7583"
-        y1="5792.1841"
-        x2="5809.1152"
-        y2="5834.9609"
+        x1="5839.7544"
+        y1="6242.2197"
+        x2="5759.1113"
+        y2="6284.9966"
         id="line99-4-1"
         style="
           fill: none;
@@ -11079,14 +10848,14 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 5835.4332,5816.9447 c 12.4326,-6.5882 27.9108,-14.793 34.396,-18.2329 l 11.7911,-6.2544 -35.5127,-15.9369 -35.5126,-15.937 0.3365,17.4222 c 0.1842,9.5823 0.6867,24.9587 1.1165,34.17 l 0.78,16.7475 z"
+        d="m 5785.4293,6266.9801 c 12.4326,-6.5882 27.9108,-14.793 34.396,-18.2329 l 11.7911,-6.2544 -35.5127,-15.9369 -35.5126,-15.937 0.3365,17.4222 c 0.1842,9.5823 0.6867,24.9587 1.1165,34.17 l 0.78,16.7475 z"
         id="path989-0-6"
       />
       <line
-        x1="6464.5688"
-        y1="5795.8325"
-        x2="6465.8799"
-        y2="5835.9321"
+        x1="6414.5649"
+        y1="6245.8682"
+        x2="6415.876"
+        y2="6285.9678"
         id="line95-3-6-9"
         style="
           fill: none;
@@ -11096,10 +10865,10 @@
         "
       />
       <line
-        x1="6464.5688"
-        y1="5795.8325"
-        x2="6463.2593"
-        y2="5755.7349"
+        x1="6414.5649"
+        y1="6245.8682"
+        x2="6413.2554"
+        y2="6205.7705"
         id="line96-12-2-0"
         style="
           fill: none;
@@ -11109,10 +10878,10 @@
         "
       />
       <line
-        x1="6546.5225"
-        y1="5793.1553"
-        x2="6463.2593"
-        y2="5755.7349"
+        x1="6496.5186"
+        y1="6243.1909"
+        x2="6413.2554"
+        y2="6205.7705"
         id="line97-28-0-2"
         style="
           fill: none;
@@ -11122,10 +10891,10 @@
         "
       />
       <line
-        x1="6463.2593"
-        y1="5755.7349"
-        x2="6546.5225"
-        y2="5793.1553"
+        x1="6413.2554"
+        y1="6205.7705"
+        x2="6496.5186"
+        y2="6243.1909"
         id="line98-0-06-4"
         style="
           fill: none;
@@ -11135,10 +10904,10 @@
         "
       />
       <line
-        x1="6546.5225"
-        y1="5793.1553"
-        x2="6465.8799"
-        y2="5835.9321"
+        x1="6496.5186"
+        y1="6243.1909"
+        x2="6415.876"
+        y2="6285.9678"
         id="line99-4-1-2"
         style="
           fill: none;
@@ -11157,7 +10926,7 @@
           stroke-dashoffset: 0;
           stroke-opacity: 1;
         "
-        d="m 6492.1971,5817.9156 c 12.4326,-6.5883 27.9107,-14.793 34.3958,-18.233 l 11.7911,-6.2543 -35.5125,-15.9371 -35.5127,-15.937 0.3362,17.4223 c 0.1844,9.5822 0.687,24.9587 1.1167,34.1699 l 0.78,16.7476 z"
+        d="m 6442.1932,6267.951 c 12.4326,-6.5883 27.9107,-14.793 34.3958,-18.233 l 11.7911,-6.2543 -35.5125,-15.9371 -35.5127,-15.937 0.3362,17.4223 c 0.1844,9.5822 0.687,24.9587 1.1167,34.1699 l 0.78,16.7476 z"
         id="path989-0-6-1"
       />
       <rect
