@@ -15,3 +15,7 @@ export const formatValue = (value) => {
 export function createTooltipConfig(selector, tooltipType, payload, config) {
   return { selector, tooltipType, payload, config };
 }
+
+export function createRouterConfig(selector, path, params){ // Crea una configuracion de query
+  return {selector, path, params};
+}

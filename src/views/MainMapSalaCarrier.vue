@@ -44,7 +44,7 @@ import MapSalaCarrier from '@/components/MapSalaCarrier.vue';
 }
 
 .content{
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 </style>

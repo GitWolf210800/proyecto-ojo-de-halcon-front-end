@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="192.86798mm"
-    height="219.4726mm"
-    viewBox="0 0 192.86798 219.4726"
+    width="190.52551mm"
+    height="209.80367mm"
+    viewBox="0 0 190.52551 209.80367"
     version="1.1"
     id="svg375"
     xmlns="http://www.w3.org/2000/svg"
@@ -199,7 +199,7 @@
       stroke="#000000"
       stroke-width="0.2"
       id="g375"
-      transform="translate(-2.8574314,-2.3119079)"
+      transform="translate(-2.8574314,-11.980838)"
     >
       <rect
         style="
@@ -1476,7 +1476,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan16234">CONDENSADOR</tspan>
+        <tspan x="693" y="399.13164" id="tspan16648">CONDENSADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1503,7 +1503,7 @@
           stroke-opacity: 0.321429;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan16236">Chiller</tspan>
+        <tspan x="693" y="399.13164" id="tspan16650">Chiller</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1528,7 +1528,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="702" y="558.13164" id="tspan16238">EVAPORADOR</tspan>
+        <tspan x="702" y="558.13164" id="tspan16652">EVAPORADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1576,7 +1576,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="548.25" y="125.6685" id="tspan16240">VENTILADORES</tspan>
+        <tspan x="548.25" y="125.6685" id="tspan16654">VENTILADORES</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1601,7 +1601,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="584.5" y="208.9185" id="tspan16242">FILTROS</tspan>
+        <tspan x="584.5" y="208.9185" id="tspan16656">FILTROS</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1626,12 +1626,12 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="309.71289" y="283.86186" id="tspan16244">B DE</tspan>
-        <tspan x="309.71289" y="298.86186" id="tspan16246">TORRE</tspan>
+        <tspan x="309.71289" y="283.86186" id="tspan16658">B DE</tspan>
+        <tspan x="309.71289" y="298.86186" id="tspan16660">TORRE</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.90985657,0,0,0.85714444,-279.1909,-232.42015)"
+        transform="matrix(0.90985657,0,0,0.85714444,-204.04923,-223.42431)"
         id="nombre"
         style="
           font-style: normal;
@@ -1652,7 +1652,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="309.71289" y="283.86186" id="tspan16248">Chiller X</tspan>
+        <tspan x="309.71289" y="283.86186" id="carrier">Chiller X</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1677,7 +1677,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="954.59375" y="515.7935" id="tspan16250">COMPRESOR</tspan>
+        <tspan x="954.59375" y="515.7935" id="tspan16664">COMPRESOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1702,8 +1702,8 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="414.36523" y="652.97124" id="tspan16252">B DE</tspan>
-        <tspan x="414.36523" y="667.97124" id="tspan16254">AGUA FRIA</tspan>
+        <tspan x="414.36523" y="652.97124" id="tspan16666">B DE</tspan>
+        <tspan x="414.36523" y="667.97124" id="tspan16668">AGUA FRIA</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2492,7 +2492,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan16256">B Pileta</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan16670">B Pileta</tspan>
       </text>
       <path
         id="valvula_pileta"
@@ -2934,7 +2934,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan16258">B DOSIF</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan16672">B DOSIF</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3055,7 +3055,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan16260">Carrier1</tspan>
+        <tspan x="926" y="106.77556" id="tspan16674">Carrier1</tspan>
       </text>
       <rect
         style="
@@ -3112,7 +3112,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan16262">Carrier2</tspan>
+        <tspan x="926" y="106.77556" id="tspan16676">Carrier2</tspan>
       </text>
       <rect
         style="
@@ -3169,7 +3169,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.97487" id="tspan16264">Carrier3</tspan>
+        <tspan x="926" y="106.97487" id="tspan16678">Carrier3</tspan>
       </text>
       <rect
         style="
@@ -3226,7 +3226,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.03788" id="tspan16266">Carrier4</tspan>
+        <tspan x="926" y="107.03788" id="tspan16680">Carrier4</tspan>
       </text>
       <rect
         style="
@@ -3283,7 +3283,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.37113" id="tspan16268">Carrier5</tspan>
+        <tspan x="926" y="107.37113" id="tspan16682">Carrier5</tspan>
       </text>
       <rect
         style="
@@ -3334,7 +3334,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan16270">100</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan16684">100</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3354,10 +3354,10 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan16272">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan16686">%</tspan>
       </text>
       <g
-        transform="matrix(0.00222096,0,0,-0.00236616,172.25018,17.877531)"
+        transform="matrix(0.00222096,0,0,-0.00236616,177.54185,34.017114)"
         fill="#000000"
         stroke="none"
         id="g1590"
@@ -3445,11 +3445,11 @@
         id="condiciones_marcha_carrier"
         width="14.287936"
         height="14.393744"
-        x="170.65875"
-        y="4.6239657"
+        x="175.95042"
+        y="20.76355"
       />
       <g
-        transform="matrix(0.00340724,0,0,-0.00193672,77.297993,23.194376)"
+        transform="matrix(0.00340724,0,0,-0.00193672,122.27716,39.598543)"
         fill="#000000"
         stroke="none"
         id="demanda_agua_fria_grafico"
@@ -3480,16 +3480,16 @@
           stroke-width: 0.683083;
           stroke-opacity: 0.0934844;
         "
-        x="96.334259"
-        y="17.590481"
+        x="139.21581"
+        y="34.797085"
         id="demanda_agua_fria_text"
         transform="scale(1.0489166,0.95336464)"
       >
         <tspan
           id="tspan9810"
           style="stroke-width: 0.683083"
-          x="96.334259"
-          y="17.590481"
+          x="139.21581"
+          y="34.797085"
         >
           0
         </tspan>

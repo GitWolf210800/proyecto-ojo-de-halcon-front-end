@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  background: linear-gradient(to bottom, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 100%);
+  background: linear-gradient(to bottom, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 145%);
   border-top: none; /* Asegura que no haya un borde superior */
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
@@ -42,7 +42,7 @@ nav {
   height: 10vh;
 }
 
-rect {
+rect, path {
   transition: fill 1.8s, stroke 1.5s;
 }
 
@@ -51,7 +51,7 @@ text {
 }
 
 .footer__nav {
-  background: linear-gradient(to top, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 100%);
+  background: linear-gradient(to top, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 145%);
   border-bottom: none; /* Asegura que no haya un borde inferior */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
