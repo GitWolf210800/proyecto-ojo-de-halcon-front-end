@@ -2,14 +2,14 @@
   <nav>
     <div class="navbar">
       <div class="navbar__navegacion">
-        <RouterLink to="/"> <HomeButtom /> </RouterLink>
+        <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
       </div>
       <ClimaExterior />
       <LoginButtom />
     </div>
   </nav>
 
-  <div class="content">
+  <div class="map">
     <!-- Mapa y pie de página solo si los datos están listos -->
   
     <div v-if="dataIsLoaded">

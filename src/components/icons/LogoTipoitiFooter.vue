@@ -1,8 +1,8 @@
 <template>
     <div class="logoTipoiti">
       <svg
-   width="115.05891mm"
-   height="23.125999mm"
+   width="110.05891mm"
+   height="16.125999mm"
    viewBox="0 0 115.05891 21.639261"
    version="1.1"
    id="svg40965"

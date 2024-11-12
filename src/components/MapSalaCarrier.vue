@@ -1,11 +1,10 @@
 <template>
-  <div class="container__map">
-    <div class="map">
+    <div class="content" v-zoom>
       <span v-if="loading" class="loading">Cargando Datos...</span>
-      <MapChillerOption1 ref="mapCarrier" v-if="opcion1 && !loading" />
-      <MapChillerOption2 ref="mapCarrier" v-else-if="opcion2 && !loading" />
+      <MapChillerOption1 class="map" ref="mapCarrier" v-if="opcion1 && !loading" />
+      <MapChillerOption2 class="map" ref="mapCarrier" v-else-if="opcion2 && !loading" />
     </div>
-  </div>
+
 </template>
 
 <script setup>
@@ -15,7 +14,7 @@ import MapChillerOption1 from "./maps/MapChillerOption1.vue";
 import MapChillerOption2 from "./maps/MapChillerOption2.vue";
 import { onMounted, ref, watchEffect, nextTick } from "vue";
 import { setElementColor } from "@/funciones";
-import { server, okColor, paroManual, alertColor } from "@/variables";
+import { server } from "@/variables";
 
 const route = useRoute();
 const parametros = route.query;
@@ -24,6 +23,9 @@ const opcion2 = ref(false);
 const loading = ref(true);
 const mapCarrier = ref(null);
 const result = Object.values(parametros).join("");
+const condicionesFill = ['filtro', 'bomba_', 'ventilador', 'estado'];
+const condicionesStroke = ['pileta', 'valvula_'];
+const condicionesTexto = ['temp', 'delta', 'entrada', 'salida', 'tanque_agua_fria_carrier', 'demanda'];
 let mediciones = [];
 let datos = {};
 

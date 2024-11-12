@@ -2,9 +2,9 @@
   <div class="content_clima_exterior">
     <svg
       ref="svgRef"
-      width="118.77859mm"
-      height="21.563564mm"
-      viewBox="0 0 118.7786 21.563564"
+      width="91.169357mm"
+      height="17.158894mm"
+      viewBox="0 0 91.169367 17.158893"
       version="1.1"
       id="svg66787"
       xmlns="http://www.w3.org/2000/svg"
@@ -33,17 +33,17 @@
           id="rect1315-2"
         />
       </defs>
-      <g id="layer1" transform="translate(-30.838343,-25.901549)">
+      <g id="layer1" transform="translate(-56.642749,-25.901552)">
         <text
           xml:space="preserve"
           style="
             font-style: normal;
             font-variant: normal;
-            font-weight: 500;
+            font-weight: normal;
             font-stretch: normal;
-            font-size: 4.95171px;
+            font-size: 4.26256px;
             font-family: Dubai;
-            -inkscape-font-specification: 'Dubai, Medium';
+            -inkscape-font-specification: 'Dubai, Normal';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -54,16 +54,29 @@
             stroke-width: 0;
             stroke-dasharray: none;
           "
-          x="42.016109"
-          y="33.494465"
+          x="71.396011"
+          y="33.025906"
           id="tempExterior"
-          transform="scale(0.73258336,1.3650324)"
+          transform="scale(0.79250846,1.2618162)"
         >
           <tspan
             id="tspan1550"
-            x="42.016109"
-            y="33.494465"
-            style="stroke-width: 0"
+            x="71.396011"
+            y="33.025906"
+            style="
+              font-style: normal;
+              font-variant: normal;
+              font-weight: normal;
+              font-stretch: normal;
+              font-size: 4.26256px;
+              font-family: Dubai;
+              -inkscape-font-specification: 'Dubai, Normal';
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-variant-numeric: normal;
+              font-variant-east-asian: normal;
+              stroke-width: 0;
+            "
           >
             Temperatura Exterior
           </tspan>
@@ -73,11 +86,11 @@
           style="
             font-style: normal;
             font-variant: normal;
-            font-weight: 500;
+            font-weight: normal;
             font-stretch: normal;
-            font-size: 5.14038px;
+            font-size: 4.4173px;
             font-family: Dubai;
-            -inkscape-font-specification: 'Dubai, Medium';
+            -inkscape-font-specification: 'Dubai, Normal';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -88,16 +101,29 @@
             stroke-width: 0;
             stroke-dasharray: none;
           "
-          x="156.59445"
-          y="35.215694"
+          x="149.69223"
+          y="34.616222"
           id="entalpiaExterior"
-          transform="scale(0.76207139,1.312213)"
+          transform="scale(0.82297895,1.2150979)"
         >
           <tspan
             id="tspan1554"
-            x="156.59445"
-            y="35.215694"
-            style="stroke-width: 0"
+            x="149.69223"
+            y="34.616222"
+            style="
+              font-style: normal;
+              font-variant: normal;
+              font-weight: normal;
+              font-stretch: normal;
+              font-size: 4.4173px;
+              font-family: Dubai;
+              -inkscape-font-specification: 'Dubai, Normal';
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-variant-numeric: normal;
+              font-variant-east-asian: normal;
+              stroke-width: 0;
+            "
           >
             Entalpía Exterior
           </tspan>
@@ -107,11 +133,11 @@
           style="
             font-style: normal;
             font-variant: normal;
-            font-weight: 500;
+            font-weight: normal;
             font-stretch: normal;
-            font-size: 5.14038px;
+            font-size: 4.43014px;
             font-family: Dubai;
-            -inkscape-font-specification: 'Dubai, Medium';
+            -inkscape-font-specification: 'Dubai, Normal';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -122,23 +148,36 @@
             stroke-width: 0;
             stroke-dasharray: none;
           "
-          x="96.949959"
-          y="35.056263"
+          x="109.38586"
+          y="34.579422"
           id="tempExterior-0"
-          transform="scale(0.76207139,1.312213)"
+          transform="scale(0.82537059,1.211577)"
         >
           <tspan
             id="tspan1552"
-            x="96.949959"
-            y="35.056263"
-            style="stroke-width: 0"
+            x="109.38586"
+            y="34.579422"
+            style="
+              font-style: normal;
+              font-variant: normal;
+              font-weight: normal;
+              font-stretch: normal;
+              font-size: 4.43014px;
+              font-family: Dubai;
+              -inkscape-font-specification: 'Dubai, Normal';
+              font-variant-ligatures: normal;
+              font-variant-caps: normal;
+              font-variant-numeric: normal;
+              font-variant-east-asian: normal;
+              stroke-width: 0;
+            "
           >
             Humedad Exterior
           </tspan>
         </text>
         <text
           xml:space="preserve"
-          transform="matrix(0.15973356,0,0,0.27504559,-6.8581711,-11.767043)"
+          transform="matrix(0.12503941,0,0,0.21886366,27.128246,-4.0727035)"
           style="
             font-style: normal;
             font-variant: normal;
@@ -163,13 +202,11 @@
           "
           id="fab9_exterior_clima_temp_g"
         >
-          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">
-            32 °C
-          </tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">32 °C</tspan>
         </text>
         <text
           xml:space="preserve"
-          transform="matrix(0.14458807,0,0,0.25056296,79.938821,-7.803241)"
+          transform="matrix(0.11318352,0,0,0.19938195,95.151574,-0.60394516)"
           style="
             font-style: normal;
             font-variant: normal;
@@ -194,17 +231,11 @@
           "
           id="fab9_exterior_clima_entalpia_g"
         >
-          <tspan
-            x="286.7793"
-            y="186.87294"
-            id="fab9_exterior_clima_entalpia_text"
-          >
-            66.66 Kj/Kg
-          </tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_entalpia_text">66 Kj/Kg</tspan>
         </text>
         <text
           xml:space="preserve"
-          transform="matrix(0.15973356,0,0,0.27504559,36.387691,-11.384347)"
+          transform="matrix(0.12503941,0,0,0.21886366,63.49805,-3.7681786)"
           style="
             font-style: normal;
             font-variant: normal;
@@ -229,9 +260,7 @@
           "
           id="fab9_exterior_clima_hum_g"
         >
-          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">
-            50 %
-          </tspan>
+          <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">50 %</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -240,7 +269,7 @@
             font-variant: normal;
             font-weight: normal;
             font-stretch: normal;
-            font-size: 5.26919px;
+            font-size: 4.15866px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Normal';
             font-variant-ligatures: normal;
@@ -253,15 +282,15 @@
             stroke: #09d025;
             stroke-width: 0;
           "
-          x="43.009022"
-          y="28.79361"
-          transform="scale(0.95582736,1.046214)"
-          id="text494"
+          x="66.895432"
+          y="27.740883"
+          transform="scale(0.94802619,1.0548232)"
+          id="ultimaVez"
         >
           <tspan
             id="ultimaVez"
-            x="43.009022"
-            y="28.79361"
+            x="66.895432"
+            y="27.740883"
             style="stroke-width: 0"
           >
             última actualización: 21/11/2023 11:29 Hs
@@ -271,115 +300,136 @@
     </svg>
   </div>
   <ToolTipChart
-      :position="tooltipPosition"
-      :parametros="params"
-      v-if="tooltipVisibility.chart"
-    />
+    :position="tooltipPosition"
+    :parametros="params"
+    v-if="tooltipVisibility.chart"
+  />
 </template>
 
 <script setup>
-import { onMounted, ref, onUnmounted } from 'vue';
-import axios from 'axios';
-import { server, 
-        tempHotExt,
-        tempMhotExt,
-        tempOkExt,
-        tempoColdExt,
-        elementsConfigTyH, 
-        TOOLTIP_CHART_CONFIG 
-    } from '@/variables';
-import { useTooltip } from '@/modules/tooltip/utils/useTooltip';
-import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
-import { createTooltipConfig } from '@/funciones';
+import { onMounted, ref, onUnmounted } from "vue";
+import axios from "axios";
+import {
+  server,
+  tempHotExt,
+  tempMhotExt,
+  tempOkExt,
+  tempoColdExt,
+  elementsConfigTyH,
+  TOOLTIP_CHART_CONFIG,
+} from "@/variables";
+import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
+import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
+import { createTooltipConfig } from "@/funciones";
 let intervalId;
 const svgRef = ref(null);
 
-const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
+const {
+  tooltipPosition,
+  params,
+  tooltipVisibility,
+  displayTooltip,
+  hideTooltip,
+} = useTooltip();
 
 /*function createTooltipConfig(selector, tooltipType, payload, config) {
   return { selector, tooltipType, payload, config };
 }*/
 
 async function dataAndAccion() {
-    try{
-        const response = await axios.get(`${server}:1880/climaExterior`);
-        if (response.data){
-            //console.log(response.data);
-            const svg = svgRef.value;
-            const datosClima = response.data.clima[0];
-            const nombre = datosClima.nombre;
-            const ultimaVez = svg.querySelector('#ultimaVez');
-            ultimaVez.textContent = response.data.ultimaVez;
-            const colorTemp = svg.querySelector(`#${nombre}_temp_g`);
+  try {
+    const response = await axios.get(`${server}:1880/climaExterior`);
+    if (response.data) {
+      //console.log(response.data);
+      const svg = svgRef.value;
+      const datosClima = response.data.clima[0];
+      const nombre = datosClima.nombre;
+      const ultimaVez = svg.querySelector("#ultimaVez");
+      ultimaVez.textContent = response.data.ultimaVez;
+      const colorTemp = svg.querySelector(`#${nombre}_temp_g`);
 
-            const textTemp = svg.querySelector(`#${datosClima.nombre}_temp_text`);
-            const textHum = svg.querySelector(`#${datosClima.nombre}_hum_text`);
-            const textEntalpia = svg.querySelector(`#${datosClima.nombre}_entalpia_text`);
+      const textTemp = svg.querySelector(`#${datosClima.nombre}_temp_text`);
+      const textHum = svg.querySelector(`#${datosClima.nombre}_hum_text`);
+      const textEntalpia = svg.querySelector(
+        `#${datosClima.nombre}_entalpia_text`
+      );
 
-            const temperatura = datosClima.temperatura ? Math.abs(datosClima.temperatura.toFixed(0)) : 'NaN';
-            const humedad = datosClima.humedad ? Math.abs(datosClima.humedad.toFixed(0)) : 'NaN';
-            const entalpia = datosClima.entalpia ? Math.abs(datosClima.entalpia.toFixed(0)) : 'NaN';
-            
+      const temperatura = datosClima.temperatura
+        ? Math.abs(datosClima.temperatura.toFixed(0))
+        : "NaN";
+      const humedad = datosClima.humedad
+        ? Math.abs(datosClima.humedad.toFixed(0))
+        : "NaN";
+      const entalpia = datosClima.entalpia
+        ? Math.abs(datosClima.entalpia.toFixed(0))
+        : "NaN";
 
-            if(textTemp){
-                textTemp.textContent = `${temperatura}°C`;
-            }
-      
-            if(textHum){
-                textHum.textContent = `${humedad}% H.r`;
-            }
+      if (textTemp) {
+        textTemp.textContent = `${temperatura}°C`;
+      }
 
-            if(textEntalpia){
-              textEntalpia.textContent = `${entalpia} Kj/kg`;
-            }
+      if (textHum) {
+        textHum.textContent = `${humedad}% H.r`;
+      }
 
-            if ( temperatura > 38 ) {
-                colorTemp.style.fill = tempHotExt;
-                colorTemp.style.stroke = tempHotExt;
-              } else if ( temperatura < 39 && temperatura >= 30 ) {
-                colorTemp.style.fill = tempMhotExt;
-                colorTemp.style.stroke = tempMhotExt;
-              } else if ( temperatura < 30 && temperatura > 20 ) {
-                colorTemp.style.fill = tempOkExt;
-                colorTemp.style.stroke = tempOkExt;
-              } else {
-                colorTemp.style.fill = tempoColdExt;
-                colorTemp.style.stroke = tempoColdExt;
-              }
-            
-              const tooltipConfigs = [
-                ...elementsConfigTyH.map(({ idSuffix, metric }) => 
-                createTooltipConfig(`#${nombre}_${idSuffix}`, "chart", { nombre, medicion: metric, tabla: "mediciones_clima_24hs" }, TOOLTIP_CHART_CONFIG))
-            ];
+      if (textEntalpia) {
+        textEntalpia.textContent = `${entalpia} Kj/kg`;
+      }
 
-            tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
-                const element = svg.querySelector(selector);
-                if (element) {
-                    //console.log(element);
-                    element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
-                    element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
-                }
-            });/**/
+      if (temperatura > 38) {
+        colorTemp.style.fill = tempHotExt;
+        colorTemp.style.stroke = tempHotExt;
+      } else if (temperatura < 39 && temperatura >= 30) {
+        colorTemp.style.fill = tempMhotExt;
+        colorTemp.style.stroke = tempMhotExt;
+      } else if (temperatura < 30 && temperatura > 20) {
+        colorTemp.style.fill = tempOkExt;
+        colorTemp.style.stroke = tempOkExt;
+      } else {
+        colorTemp.style.fill = tempoColdExt;
+        colorTemp.style.stroke = tempoColdExt;
+      }
 
+      const tooltipConfigs = [
+        ...elementsConfigTyH.map(({ idSuffix, metric }) =>
+          createTooltipConfig(
+            `#${nombre}_${idSuffix}`,
+            "chart",
+            { nombre, medicion: metric, tabla: "mediciones_clima_24hs" },
+            TOOLTIP_CHART_CONFIG
+          )
+        ),
+      ];
 
-        } else {
-            console.warn('error en clima exterior');
+      tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
+        const element = svg.querySelector(selector);
+        if (element) {
+          //console.log(element);
+          element.addEventListener("mouseover", (e) =>
+            displayTooltip(e, tooltipType, payload, config)
+          );
+          element.addEventListener("mouseleave", () =>
+            hideTooltip(tooltipType)
+          );
         }
-    } catch {
-        console.warn('No hay conexion con el servidor');
+      }); /**/
+    } else {
+      console.warn("error en clima exterior");
     }
+  } catch {
+    console.warn("No hay conexion con el servidor");
+  }
 }
 
 onMounted(() => {
-    dataAndAccion();
-    intervalId = setInterval(dataAndAccion, 10000); // Llama a fetchData cada 10 segundos
+  dataAndAccion();
+  intervalId = setInterval(dataAndAccion, 10000); // Llama a fetchData cada 10 segundos
 });
 
 // Limpia el intervalo cuando el componente se desmonte
 onUnmounted(() => {
   clearInterval(intervalId);
 });
-
 </script>
 
 <style scoped></style>

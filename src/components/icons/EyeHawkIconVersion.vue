@@ -2,7 +2,7 @@
   <div class="iconVersion">
     <svg
       width="43.242519mm"
-      height="23.125999mm"
+      height="16.125999mm"
       viewBox="0 0 43.242519 23.125999"
       version="1.1"
       id="svg29735"

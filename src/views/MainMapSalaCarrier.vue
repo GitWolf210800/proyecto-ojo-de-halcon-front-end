@@ -10,7 +10,7 @@
         </div>
     </nav>
 
-    <div class="content">
+    <div class="map">
         <MapSalaCarrier class="map__carrier" />
     </div>
 

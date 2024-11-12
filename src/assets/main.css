@@ -8,20 +8,26 @@ body {
 }
 
 nav {
-  background: linear-gradient(to bottom, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 145%);
+  transform: none !important;
+  background: linear-gradient(to bottom, rgba(30, 48, 85, 0.9) 0%, rgba(47, 61, 90, 0) 55%);
   border-top: none; /* Asegura que no haya un borde superior */
   box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 8.5vh;
   padding: 10px 0;
   text-align: center;
+  z-index: 1000; /* Asegúrate de que el nav esté encima del contenido */
 }
 
 .content {
-  padding-top: 60px; /* Espacio para el nav fijo */
-  padding-bottom: calc(120px + 12vh); /* Asegura suficiente espacio para el footer */
+  padding-top: 45px; /* Espacio para el nav fijo */
+  padding-bottom: calc(120px + 2vh); /* Asegura suficiente espacio para el footer */
+  transform-origin: center;
+  overflow-y: auto; /* Asegura que el contenido se desplace */
+  transition: transform 0.2s ease; /* Suavizar el escalado */
 }
 
 .navbar {
@@ -38,8 +44,8 @@ nav {
 .botones__navegacion {
   display: inline;
   margin: .5px;
-  width: 10vw;
-  height: 10vh;
+  width: 6.5vw;
+  height: 6.5vh;
 }
 
 rect, path {
@@ -50,8 +56,13 @@ text {
   user-select: none;
 }
 
+footer {
+  transform: none !important;
+  z-index: 1000;
+}
+
 .footer__nav {
-  background: linear-gradient(to top, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 145%);
+  background: linear-gradient(to top, rgba(30, 48, 85, 0.9) 0%, rgba(47, 61, 90, 0) 55%);
   border-bottom: none; /* Asegura que no haya un borde inferior */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave para no marcar borde */
   position: fixed;
@@ -59,8 +70,8 @@ text {
   left: 0;
   width: 100%;
   color: white;
-  padding: 2.5px 5px; /* Reduce el padding para que no ocupe tanto espacio */
-  height: 13vh; /* Ajusta la altura según lo necesario, 8vh debería ser más pequeño */
+  padding: 1.5px 2.5px; /* Reduce el padding para que no ocupe tanto espacio */
+  height: 11vh; /* Ajusta la altura según lo necesario, 8vh debería ser más pequeño */
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -70,3 +81,24 @@ text {
 .botones {
   margin: 20px;
 }
+
+.zoomable-content {
+  margin-top: 50px; /* Espacio para el nav */
+  margin-bottom: 50px; /* Espacio para el footer */
+  padding: 10px;
+  overflow-y: auto;
+  transform-origin: top center; /* Centro de escalado */
+  /*transition: transform 0.2s ease;  Suavizar el escalado */
+  transition: transform 0.3s ease; /* Transición suave de 0.3 segundos */
+  touch-action: pan-x pan-y;       /* Permitir el desplazamiento en móviles */
+}
+
+
+@media (max-width: 600px) {
+  #content {
+      zoom: 1.1; /* Ajusta el valor para permitir el zoom según tus preferencias */
+  }
+}
+
+
+/*background: linear-gradient(to bottom, rgba(40, 44, 52, 0.9) 0%, rgba(40, 44, 52, 0) 145%);*/

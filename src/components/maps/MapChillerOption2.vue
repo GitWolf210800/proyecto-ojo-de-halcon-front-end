@@ -3869,7 +3869,7 @@
       <text
         xml:space="preserve"
         transform="matrix(0.1541077,0,0,0.15551053,-141.90354,-17.590174)"
-        id="tanque_agua_fria_carrier"
+        id="tanque_agua_fria_carrier_text"
         style="
           font-size: 19.2609px;
           font-family: Dubai;
@@ -3884,7 +3884,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan3098">100</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">100</tspan>
       </text>
       <text
         xml:space="preserve"

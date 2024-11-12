@@ -63,6 +63,7 @@ function getColorForStroke(value) {
     medicion.includes("delta") ||
     medicion.includes("entrada") ||
     medicion.includes("salida") ||
+    medicion.includes("tanque_agua_fria_carrier") ||
     medicion === "demanda"
   ) {
     element.textContent = value ? value.toFixed(1) : 0;

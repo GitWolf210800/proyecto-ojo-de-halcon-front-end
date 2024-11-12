@@ -1,7 +1,8 @@
 <template>
-  <div class="container__map">
-    <MapClima ref="mapClimaRef" />
-    <ToolTipChart
+  <div class="content" v-zoom>
+    <MapClima ref="mapClimaRef" class="container__map" />
+  </div>
+  <ToolTipChart
       :position="tooltipPosition"
       :parametros="params"
       v-if="tooltipVisibility.chart"
@@ -16,7 +17,6 @@
       :parametros="params"
       v-if="tooltipVisibility.infoTable"
     />
-  </div>
 </template>
 
 <script setup>
