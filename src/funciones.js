@@ -21,6 +21,10 @@ export function createRouterConfig(selector, path, params){ // Crea una configur
   return {selector, path, params};
 }
 
+export const isMobile = () => {                                 //// This function is for detected if is mobile
+  return /Mobi|Android/i.test(navigator.userAgent);
+};
+
 export function setElementColor(element, medicion, value) { // Utilidad para determinar colores
 
   // Funciones de color para cada caso
