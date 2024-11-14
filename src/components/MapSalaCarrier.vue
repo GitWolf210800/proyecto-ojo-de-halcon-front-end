@@ -37,7 +37,11 @@ import MapChillerOption2 from "./maps/MapChillerOption2.vue";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
-import { TOOLTIP_CHART_CONFIG, TOOLTIP_CHART_INFO_CONFIG, TOOLTIP_INFO_TABLE } from "@/variables";
+import {
+  TOOLTIP_CHART_CONFIG,
+  TOOLTIP_CHART_INFO_CONFIG,
+  TOOLTIP_INFO_TABLE,
+} from "@/variables";
 import { dataColorInfoCarrier } from "@/helpers/homeCarrierColorManipulator";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import { alarmColor, okColor, paroManual } from "@/variables";
@@ -76,45 +80,96 @@ watchEffect(updateOpciones);
 function initializeTooltipEvents() {
   const svg = mapCarrier.value.svgRef;
   const tooltipConfigs = [
-    createTooltipConfig("#demanda_agua_fria_text", "infoTable", { solicitud: "demanda_agua_fria" }, TOOLTIP_INFO_TABLE),
-    createTooltipConfig("#condiciones_marcha_carrier", "infoTable", { solicitud: "condiciones_marcha_carriers" }, TOOLTIP_INFO_TABLE),
-    ...datosGral.nombresChiller.map(dato =>
-      createTooltipConfig(`#${dato}Vinf`, 'chart', { nombre: dato, medicion: "demanda", tabla: "mediciones_carrier" }, TOOLTIP_CHART_CONFIG)
+    createTooltipConfig(
+      "#demanda_agua_fria_text",
+      "infoTable",
+      { solicitud: "demanda_agua_fria" },
+      TOOLTIP_INFO_TABLE
     ),
-    ...datosGral.mediciones.map(dato =>
-      createTooltipConfig(`#${dato}`, 'chart', { nombre: result, medicion: dato, tabla: "mediciones_carrier" }, TOOLTIP_CHART_CONFIG)
-    )
+    createTooltipConfig(
+      "#condiciones_marcha_carrier",
+      "infoTable",
+      { solicitud: "condiciones_marcha_carriers" },
+      TOOLTIP_INFO_TABLE
+    ),
+    ...datosGral.nombresChiller.map((dato) =>
+      createTooltipConfig(
+        `#${dato}Vinf`,
+        "chart",
+        { nombre: dato, medicion: "demanda", tabla: "mediciones_carrier" },
+        TOOLTIP_CHART_CONFIG
+      )
+    ),
+    ...datosGral.mediciones.map((dato) =>
+      createTooltipConfig(
+        `#${dato}`,
+        "chart",
+        { nombre: result, medicion: dato, tabla: "mediciones_carrier" },
+        TOOLTIP_CHART_CONFIG
+      )
+    ),
   ];
 
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
     const element = svg.querySelector(selector);
     if (element) {
-      element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
+      element.addEventListener("mouseover", (e) =>
+        displayTooltip(e, tooltipType, payload, config)
+      );
       element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
     }
   });
 }
 
 function setElementColor(element, medicion, value) {
-  const fillColor = value === 100 ? okColor : value === 50 ? paroManual : value === 0 ? alarmColor : "#D5A200";
-  const strokeColor = value === 100 ? okColor : value === 80 ? "#E9EC03" : value === 5 || value === 50 ? paroManual : null;
+  const fillColor =
+    value === 100
+      ? okColor
+      : value === 50
+      ? paroManual
+      : value === 0
+      ? alarmColor
+      : "#D5A200";
+  const strokeColor =
+    value === 100
+      ? okColor
+      : value === 80
+      ? "#E9EC03"
+      : value === 5 || value === 50
+      ? paroManual
+      : null;
 
-  if (["filtro", "bomba_", "ventilador", "estado"].some(prefix => medicion.startsWith(prefix))) {
+  if (
+    ["filtro", "bomba_", "ventilador", "estado"].some((prefix) =>
+      medicion.startsWith(prefix)
+    )
+  ) {
     element.style.fill = fillColor;
   }
 
-  if (["pileta", "valvula_"].some(prefix => medicion.startsWith(prefix))) {
+  if (["pileta", "valvula_"].some((prefix) => medicion.startsWith(prefix))) {
     element.style.stroke = strokeColor;
   }
 
-  if (["temp", "delta", "entrada", "salida", "tanque_agua_fria_carrier", "demanda"].some(prefix => medicion.includes(prefix))) {
+  if (
+    [
+      "temp",
+      "delta",
+      "entrada",
+      "salida",
+      "tanque_agua_fria_carrier",
+      "demanda",
+    ].some((prefix) => medicion.includes(prefix))
+  ) {
     element.textContent = value ? value.toFixed(1) : 0;
   }
 }
 
 async function fetchData() {
   try {
-    const response = await axios.get(`${server}:1880/carrierNow`, { params: { carrier: result } });
+    const response = await axios.get(`${server}:1880/carrierNow`, {
+      params: { carrier: result },
+    });
     if (response.data) {
       mediciones = response.data.mediciones;
       datos = response.data.datos;
@@ -145,7 +200,9 @@ async function interactWithSVG() {
 async function routesDireccion() {
   await nextTick();
   const svg = mapCarrier.value.svgRef;
-  const routesMap = datosGral.nombresChiller.map(dato => createRouterConfig(`#${dato}Vinf`, "/carrier", dato));
+  const routesMap = datosGral.nombresChiller.map((dato) =>
+    createRouterConfig(`#${dato}Vinf`, "/carrier", dato)
+  );
 
   routesMap.forEach(({ selector, params, path }) => {
     const element = svg.querySelector(selector);
@@ -202,6 +259,5 @@ watch(
   justify-content: center;
   margin: 0 auto;
   width: 100%;
- 
 }
 </style>
