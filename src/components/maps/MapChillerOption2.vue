@@ -3467,7 +3467,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan3088">Carrier1</tspan>
+        <tspan x="926" y="106.77556" id="carrier1Text">Carrier1</tspan>
       </text>
       <rect
         style="
@@ -3524,7 +3524,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.77556" id="tspan3090">Carrier2</tspan>
+        <tspan x="926" y="106.77556" id="carrier2Text">Carrier2</tspan>
       </text>
       <rect
         style="
@@ -3581,7 +3581,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="106.97487" id="tspan3092">Carrier3</tspan>
+        <tspan x="926" y="106.97487" id="carrier3Text">Carrier3</tspan>
       </text>
       <rect
         style="
@@ -3638,7 +3638,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.03788" id="tspan3094">Carrier4</tspan>
+        <tspan x="926" y="107.03788" id="carrier4Text">Carrier4</tspan>
       </text>
       <rect
         style="
@@ -3695,7 +3695,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="926" y="107.37113" id="tspan3096">Carrier5</tspan>
+        <tspan x="926" y="107.37113" id="carrier5Text">Carrier5</tspan>
       </text>
       <rect
         style="
@@ -3834,7 +3834,7 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #f2f2f2;
+          fill: #ffff00ff;
           stroke: #f4fcfc;
           stroke-width: 0.699196;
           stroke-opacity: 0.0934844;

@@ -49,23 +49,6 @@ export const dataColorInfoClima = (svg) => {
             }
 
             if (nombresClima[i] === 'fab9_exterior_clima') {
-              /*const colorTemp = svgStore.querySelector(`#${nombresClima[i]}_temp_g`);
-              const colorHum = svgStore.querySelector(`#${nombresClima[i]}_hum_g`);
-              const entalpia = svgStore.querySelector(`#${nombresClima[i]}_entalpia_g`);
-
-              if ( temperatura > 38 ) {
-                colorTemp.style.fill = tempHotExt;
-                colorTemp.style.stroke = tempHotExt;
-              } else if ( temperatura < 39 && temperatura >= 30 ) {
-                colorTemp.style.fill = tempMhotExt;
-                colorTemp.style.stroke = tempMhotExt;
-              } else if ( temperatura < 30 && temperatura > 20 ) {
-                colorTemp.style.fill = tempOkExt;
-                colorTemp.style.stroke = tempOkExt;
-              } else {
-                colorTemp.style.fill = tempoColdExt;
-                colorTemp.style.stroke = tempoColdExt;
-              }*/
              continue;
             }
 

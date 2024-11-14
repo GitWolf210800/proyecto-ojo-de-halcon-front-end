@@ -2,16 +2,32 @@
   <div class="content" v-zoom>
     <span v-if="loading" class="loading">Cargando Datos...</span>
     <MapChillerOption1
-      class="map"
+      class="container__map"
       ref="mapCarrier"
       v-if="opcion1 && !loading"
     />
     <MapChillerOption2
-      class="map"
+      class="container__map"
       ref="mapCarrier"
       v-else-if="opcion2 && !loading"
     />
   </div>
+  <ToolTipChart
+      :position="tooltipPosition"
+      :parametros="params"
+      v-if="tooltipVisibility.chart"
+    /><!---->
+
+  <ToolTipChartInfo
+      :position="tooltipPosition"
+      :parametros="params"
+      v-if="tooltipVisibility.chartInfo"
+    />
+  <ToolTipInfoTable
+      :position="tooltipPosition"
+      :parametros="params"
+      v-if="tooltipVisibility.infoTable"
+    />
 </template>
 
 <script setup>
@@ -19,9 +35,17 @@ import { useRoute, useRouter } from "vue-router";
 import axios from "axios";
 import MapChillerOption1 from "./maps/MapChillerOption1.vue";
 import MapChillerOption2 from "./maps/MapChillerOption2.vue";
+import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
+import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
+import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
+import { TOOLTIP_CHART_CONFIG, 
+         TOOLTIP_CHART_INFO_CONFIG,
+         TOOLTIP_INFO_TABLE,
+} from "@/variables";
+import { dataColorInfoCarrier } from "@/helpers/homeCarrierColorManipulator";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import { alarmColor, okColor, paroManual } from "@/variables";
-import { createRouterConfig } from "@/funciones";
+import { createRouterConfig, createTooltipConfig } from "@/funciones";
 import { onMounted, ref, watch, watchEffect, nextTick } from "vue";
 import { server } from "@/variables";
 
@@ -43,11 +67,38 @@ let result = Object.values(parametros).join("");
 let mediciones = [];
 let datos = {};
 let datosGral = {};
+let svg;
 
 watchEffect(() => {
   opcion1.value = ["carrier1", "carrier2", "carrier3"].includes(result);
   opcion2.value = ["carrier4", "carrier5"].includes(result);
 });
+
+function initializeTooltipEvents(){
+  const svg = mapCarrier.value.svgRef;
+  const tooltipConfigs = [
+  createTooltipConfig("#demanda_agua_fria_text", "infoTable", { solicitud: "demanda_agua_fria" }, TOOLTIP_INFO_TABLE),
+  createTooltipConfig("#condiciones_marcha_carrier", "infoTable", { solicitud: "condiciones_marcha_carriers" }, TOOLTIP_INFO_TABLE),
+
+  ...datosGral.nombresChiller.map((dato) => 
+    createTooltipConfig(`#${dato}Vinf`, 'chart', {nombre: dato, medicion: "demanda", tabla: "mediciones_carrier"}, TOOLTIP_CHART_CONFIG)
+  ),
+
+  ...datosGral.mediciones.map((dato) =>
+    createTooltipConfig(`#${dato}`, 'chart', {nombre: result, medicion: dato, tabla: "mediciones_carrier"}, TOOLTIP_CHART_CONFIG)
+  )
+
+  ];
+
+  tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
+    const element = svg.querySelector(selector);
+    if (element) {
+      element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
+      element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
+    }
+  });
+}
+
 
 // Función para determinar el color de `fill` y `stroke`
 function setElementColor(element, medicion, value) {
@@ -112,6 +163,7 @@ async function routesDireccion() {
 const navigateTo = (routeInfo) => {
   router.push({ path: routeInfo.path, query: routeInfo.params });
   result = routeInfo.params;
+  tooltipVisibility.value.chart = false;
 };
 
 async function fetchData() {
@@ -148,8 +200,17 @@ async function interactWithSVG() {
 
 onMounted(async () => {
   await fetchData();
+  dataColorInfoCarrier(mapCarrier.value.svgRef);
   interactWithSVG();
   routesDireccion();
+  initializeTooltipEvents();
+
+  // Actualizar los datos cada minuto
+  setInterval(async () => {
+    await fetchData();  // Actualiza los datos
+    interactWithSVG();  // Solo actualiza el SVG con los nuevos datos
+    if (mapCarrier.value.svgRef) dataColorInfoCarrier(mapCarrier.value.svgRef);
+  }, 60000); // 60000 ms = 1 minuto
 });
 
 watch(
@@ -160,7 +221,9 @@ watch(
     loading.value = true;
     await fetchData();
     interactWithSVG();
+    dataColorInfoCarrier(mapCarrier.value.svgRef);
     routesDireccion();
+    initializeTooltipEvents();
     loading.value = false;
   }
 );
@@ -169,5 +232,16 @@ watch(
 <style scoped>
 .loading {
   color: #fff;
+  display: flex;
+}
+
+.container__map {
+  padding-top: 4vh; /* Espacio para el nav fijo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 0;
 }
 </style>

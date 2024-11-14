@@ -75,6 +75,7 @@ onMounted(async () => {
     margin: 0 auto;
     max-width: 400px;
     max-height: 500px;
+    z-index: 1555;
 }
 
 table {

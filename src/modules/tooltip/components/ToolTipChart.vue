@@ -65,7 +65,7 @@ onMounted(async () => {
   border: 1px solid #ccc;
   border-radius: 7px;
   padding: 10px;
-  z-index: 555;
+  z-index: 1555;
   width: 575px;
   height: 272px;
 }

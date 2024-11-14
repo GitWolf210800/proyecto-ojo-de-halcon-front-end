@@ -11,7 +11,7 @@
     </nav>
 
     <div class="map">
-        <MapSalaCarrier class="map__carrier" />
+        <MapSalaCarrier />
     </div>
 
     <footer>

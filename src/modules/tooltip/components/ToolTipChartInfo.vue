@@ -112,7 +112,7 @@
     border: 1px solid #ccc;
     border-radius: 7px;
     padding: 10px;
-    z-index: 1;
+    z-index: 1555;
     margin: 0 auto;
     width: 360px;
   }
