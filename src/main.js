@@ -99,8 +99,8 @@ const zoomDirective = {
 
         el.addEventListener('touchmove', (e) => {
             if (e.touches.length === 1 && isDragging) {
-                posX += (e.touches[0].clientX - startX - posX) * 0.35;
-                posY += (e.touches[0].clientY - startY - posY) * 0.35;
+                posX += (e.touches[0].clientX - startX - posX) * 0.38;
+                posY += (e.touches[0].clientY - startY - posY) * 0.38;
                 requestAnimationFrame(updateTransform);
             } else if (e.touches.length === 2 && initialDistance !== null) {
                 e.preventDefault();

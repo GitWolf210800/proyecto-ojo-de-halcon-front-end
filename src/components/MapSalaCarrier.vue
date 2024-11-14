@@ -17,11 +17,6 @@
     :parametros="params"
     v-if="tooltipVisibility.chart"
   />
-  <ToolTipChartInfo
-    :position="tooltipPosition"
-    :parametros="params"
-    v-if="tooltipVisibility.chartInfo"
-  />
   <ToolTipInfoTable
     :position="tooltipPosition"
     :parametros="params"
@@ -35,19 +30,21 @@ import axios from "axios";
 import MapChillerOption1 from "./maps/MapChillerOption1.vue";
 import MapChillerOption2 from "./maps/MapChillerOption2.vue";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
-import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
 import {
   TOOLTIP_CHART_CONFIG,
-  TOOLTIP_CHART_INFO_CONFIG,
   TOOLTIP_INFO_TABLE,
 } from "@/variables";
 import { dataColorInfoCarrier } from "@/helpers/homeCarrierColorManipulator";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import { alarmColor, okColor, paroManual } from "@/variables";
 import { createRouterConfig, createTooltipConfig } from "@/funciones";
-import { onMounted, ref, watch, nextTick, watchEffect } from "vue";
+import { onMounted, ref, watch, nextTick, watchEffect, onUnmounted } from "vue";
 import { server } from "@/variables";
+
+import { useDataHomeClima } from '../components/componsables/useHomeClima';
+
+let intervalId;
 
 const {
   tooltipPosition,
@@ -224,11 +221,16 @@ onMounted(async () => {
   initializeTooltipEvents();
 
   // Actualizar los datos cada minuto
-  setInterval(async () => {
+  intervalId = setInterval(async () => {
+    useDataHomeClima();
     await fetchData();
     interactWithSVG();
-    if (mapCarrier.value.svgRef) dataColorInfoCarrier(mapCarrier.value.svgRef);
+    if (mapCarrier.value) dataColorInfoCarrier(mapCarrier.value.svgRef);
   }, 60000); // 60000 ms = 1 minuto
+});
+
+onUnmounted(() => {
+  clearInterval(intervalId); // Limpieza del intervalo al desmontar el componente
 });
 
 watch(
