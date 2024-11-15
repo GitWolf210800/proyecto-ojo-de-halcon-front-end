@@ -28,7 +28,7 @@ nav {
 }
 
 .content {
-  padding-top: 8.5vh; /* Espacio para el nav fijo */
+  padding-top: 6vh; /* Espacio para el nav fijo */
   padding-bottom: 11vh; /* Espacio para el footer */
   transform-origin: center;
   overflow-y: auto;
