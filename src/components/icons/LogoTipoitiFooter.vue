@@ -1,9 +1,9 @@
 <template>
     <div class="logoTipoiti">
       <svg
-   width="107.05891mm"
+   width="53.841324mm"
    height="10.125999mm"
-   viewBox="0 0 115.05891 21.639261"
+   viewBox="0 0 57.86463 21.639261"
    version="1.1"
    id="svg40965"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +12,7 @@
      id="defs40962" />
   <g
      id="layer1"
-     transform="translate(-2.5627009,-3.338209)">
+     transform="translate(-31.159845,-3.338209)">
     <rect
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#cacaca;stroke-width:0.0386321;stroke-dasharray:none;stroke-opacity:1"
        id="rect37840"
