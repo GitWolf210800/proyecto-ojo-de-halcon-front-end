@@ -49,7 +49,7 @@
       visibilityLogin.value = false;
     }
   
-  }
+  };
 
   </script>
   

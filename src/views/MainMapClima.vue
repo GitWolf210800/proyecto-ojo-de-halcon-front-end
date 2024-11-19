@@ -5,7 +5,7 @@
         <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
       </div>
       <ClimaExterior />
-      <LoginButtom />
+      <LoginButtom class="login-buttom" @click = "clickLogin" />
     </div>
   </nav>
 
@@ -16,6 +16,9 @@
       <MapFabrica />  
     </div>
   </div>
+
+  <Login v-if="visibilityLogin" />
+
   <footer>
     <div class="footer__nav">
       <EyeHawkIconVersion />
@@ -25,16 +28,30 @@
 </template>
 
 <script setup>
-import { computed, onMounted, onUnmounted } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import LoginButtom from '@/components/icons/LoginButtom.vue';
+import Login from '@/components/Login.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import MapFabrica from '@/components/MapFabricaClima.vue';
 
 import { useDataHomeClima } from '../components/componsables/useHomeClima';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
+
+
+const visibilityLogin = ref(null);
+
+  const clickLogin = () => {
+
+    if (!visibilityLogin.value){
+      visibilityLogin.value = true;
+    } else {
+      visibilityLogin.value = false;
+    }
+  
+  };
 
 // Estados del store para clima y SVG
 const homeClimaStore = useHomeClimaStore();
@@ -57,8 +74,11 @@ onUnmounted(() => {
 });
 </script>
 
-<style >
+<style scoped >
 
+.login-buttom {
+    display: inline-block;
+  }
 
 </style>
 
