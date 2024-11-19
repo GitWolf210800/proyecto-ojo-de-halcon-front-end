@@ -30,6 +30,13 @@ import LoginButtom from '@/components/icons/LoginButtom.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import MapSalaCarrier from '@/components/MapSalaCarrier.vue';
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+let result = Object.values(route.query).join("");
+
+document.title = `Ojo de Halcón - ${result}`;
+
 
 </script>
 

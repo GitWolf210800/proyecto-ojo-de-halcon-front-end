@@ -59,7 +59,7 @@ rect, path {
   transition: fill 1.8s, stroke 1.5s;
 }
 
-text {
+text, span, rect {
   user-select: none;
 }
 

@@ -1,11 +1,13 @@
 <template>
     <nav>
       <div class="navegacion">
-        <span class="version" id="version">Ojo de Halcón V3.6</span>
-        <LoginButtom class="login" />
+        <span class="version" id="version">Ojo de Halcón V3.7</span>
+        <LoginButtom class="login" @click = "clickLogin" />
       </div>
     </nav>
   
+    <body>
+
     <div class="menu">
       <RouterLink to="/clima">
         <ClimaFabrica class="botones" />
@@ -16,6 +18,10 @@
       <ProduccionFabrica class="botones" />
 
     </div>
+
+      <Login v-if="visibilityLogin" />
+    
+    </body>
   
     <div class="logo">
       <IconoOjodeHalcon />
@@ -24,12 +30,27 @@
   
   <script setup>
   //import { RouterLink } from 'vue-router';
+  import { ref } from 'vue';
   import LoginButtom from '@/components/icons/LoginButtom.vue';
+  import Login from '@/components/Login.vue';
   import HomeButtom from '@/components/icons/HomeButtom.vue';
   import IconoOjodeHalcon from '@/components/icons/IconoOjodeHalcon.vue';
   import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
   import MantenimientoFabrica from '@/components/icons/MantenimientoFabrica.vue';
   import ProduccionFabrica from '@/components/icons/ProduccionFabrica.vue';
+
+  const visibilityLogin = ref(null);
+
+  const clickLogin = () => {
+
+    if (!visibilityLogin.value){
+      visibilityLogin.value = true;
+    } else {
+      visibilityLogin.value = false;
+    }
+  
+  }
+
   </script>
   
   <style scoped>

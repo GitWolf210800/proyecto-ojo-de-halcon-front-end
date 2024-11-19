@@ -46,6 +46,7 @@ const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
 let intervalId;
 onMounted(async () => {
   await useDataHomeClima(); // Carga inicial
+  document.title = 'Ojo de Halcón - clima';
   intervalId = setInterval(() => {
     useDataHomeClima();
   }, 10000); // Actualización cada 10 segundos
