@@ -2,7 +2,7 @@
     <nav>
       <div class="navegacion">
         <span class="version" id="version">Ojo de Halcón V3.7</span>
-        <LoginButtom class="login" @click = "clickLogin" />
+        <LoginButtom class="login-buttom" @click = "clickLogin" />
       </div>
     </nav>
   
@@ -68,7 +68,7 @@
     padding: 5px;
   }
   
-  .login {
+  .login-buttom {
     display: inline-block;
   }
   

@@ -1,4 +1,10 @@
 <template>
+
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+    </head>
+
     <div class="login">
         <!--<button class="close__button" @click="closeTooltip"></button>-->
         <h1>Login Ojo de Halcon</h1>
@@ -6,18 +12,23 @@
             <label for="username">
                 <i class=" fas fa-user"></i>
             </label>
-            <input v-model="legajo" type="number" placeholder="Legajo" required>
+            <input v-model="legajo" type="text" placeholder="Legajo" required>
+            <label for="password">
+                <i class="fas fa-lock"></i>
+            </label>
             <input v-model="password" type="password" placeholder="Password" required>
-            <button type="submit"> Enviar </button>
-    </form>
+            <input type="submit" value="Ingresar">
+        </form>
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 
 const legajo = ref('');
 const password = ref('');
+
+//onMounted(() => document.title = 'Ojo de Halcon - login' );
 
 //const closeTooltip = () => visibilityLogin.value = false;
 
@@ -28,44 +39,40 @@ const password = ref('');
 </script>
 
 <style scoped>
-/*body {
-    
-}*/
 
-.login{
+.login {
     width: 400px;
     background-color: #ffffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-    margin: 100px auto;
-    /*background: linear-gradient(to top, rgba(30, 48, 85, 0.9) 20%, rgba(47, 61, 90, 0) 65%);*/
     display: flex;
+    flex-direction: column; /* Asegura que el título esté encima del formulario */
     position: fixed;
-   /* width: 300px;
-    height: 600px;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1600;
+    overflow: hidden; /* Opcional: para asegurar que el contenido no se desborde */
 }
+
 .login h1 {
     text-align: center;
     color: #5b6574;
     font-size: 24px;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
+    margin: 0;
     border-bottom: 1px solid #dee0e4;
+    background-color: #f9f9f9; /* Fondo opcional para resaltar el título */
+    width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
-.login a {
-    text-align: center;
-    color: #5b6574;
-    font-size: 24px;
-    padding: 20px 0 20px 0;
-    border-bottom: 1px solid #dee0e4;
-}
 .login form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 20px;
 }
-/*
+
+
 .login form label {
     display: flex;
     justify-content: center;
@@ -96,15 +103,6 @@ const password = ref('');
 .login form input[type="submit"]:hover {
   background-color: #1984bc;
     transition: background-color 0.2s;
-}*/
-
-
-.form-content{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .close__button {
@@ -114,14 +112,10 @@ const password = ref('');
   background: #ff5c5c;
   color: #fff;
   border: none;
-  /* border-radius: 50%;*/
   width: 60px;
   height: 30px;
   cursor: pointer;
   font-size: 16px;
 }
-
-
-
 
 </style>
