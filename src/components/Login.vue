@@ -8,7 +8,7 @@
     <div class="login">
         <!--<button class="close__button" @click="closeTooltip"></button>-->
         <h1>Login Ojo de Halcon</h1>
-        <form @submit.prevent="">
+        <form @submit.prevent="handleSubmit">
             <label for="username">
                 <i class=" fas fa-user"></i>
             </label>
@@ -16,29 +16,56 @@
             <label for="password">
                 <i class="fas fa-lock"></i>
             </label>
-            <input v-model="password" type="password" placeholder="Password" required>
+            <input v-model="contraseña" type="password" placeholder="Password" required>
+
+            <p class="error" v-if="error">Error en Inicio de Sesión</p>
+
             <input type="submit" value="Ingresar">
         </form>
     </div>
 </template>
 
 <script setup>
+import { server } from '@/variables';
 import { onMounted, ref } from 'vue';
 
 const legajo = ref('');
-const password = ref('');
+const contraseña = ref('');
+const error = ref(null);
 
-//onMounted(() => document.title = 'Ojo de Halcon - login' );
+const handleSubmit = async () => {
 
-//const closeTooltip = () => visibilityLogin.value = false;
+    const user = legajo.value;
+    const password  = contraseña.value;
 
-/*const handleSubmit = () => {
-    
-};*/
+    const res = await fetch(`${server}:4000/api/login`, {
+        method: 'POST',
+        headers : {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify({
+            user, password
+        })
+    });
+
+    if(!res.ok) return msj
+  
+    console.log(legajo.value);
+    console.log(password.value);
+
+};
 
 </script>
 
 <style scoped>
+
+.error {
+    color: #ef0f0f;
+}
+
+.escondido {
+    display: none;
+}
 
 .login {
     width: 400px;
@@ -103,19 +130,6 @@ const password = ref('');
 .login form input[type="submit"]:hover {
   background-color: #1984bc;
     transition: background-color 0.2s;
-}
-
-.close__button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #ff5c5c;
-  color: #fff;
-  border: none;
-  width: 60px;
-  height: 30px;
-  cursor: pointer;
-  font-size: 16px;
 }
 
 </style>
