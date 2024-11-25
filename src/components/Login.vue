@@ -28,34 +28,45 @@
 <script setup>
 import { server } from '@/variables';
 import { onMounted, ref } from 'vue';
+import { useDataAuthUser } from './componsables/useAuth';
 
 const legajo = ref('');
 const contraseña = ref('');
 const error = ref(null);
 
 const handleSubmit = async () => {
-
     const user = legajo.value;
-    const password  = contraseña.value;
+    const password = contraseña.value;
 
-    const res = await fetch(`${server}:4000/api/login`, {
-        method: 'POST',
-        headers : {
-            'Content-Type' : 'application/json'
-        },
-        body: JSON.stringify({
-            user, password
-        })
-    });
+    try {
+        const res = await fetch('http://192.168.3.122:4000/api/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            credentials: 'include', // Envía cookies con la solicitud
+            body: JSON.stringify({ user, password }),
+        });
 
-    if(!res.ok) return msj
-  
-    console.log(legajo.value);
-    console.log(password.value);
+        if (!res.ok) {
+            throw new Error('Error en la solicitud');
+        }
 
+        const data = await res.json();
+        localStorage.setItem('sesion', JSON.stringify(data.usuario));
+        console.log(data.usuario);
+
+        // Asume que useDataAuthUser maneja la sesión del usuario después del login
+        //await useDataAuthUser();
+    } catch (error) {
+        console.error('Error:', error);
+    }
 };
 
+
 </script>
+
+
 
 <style scoped>
 
