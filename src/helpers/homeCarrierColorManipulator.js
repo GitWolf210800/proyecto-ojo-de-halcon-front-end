@@ -15,12 +15,12 @@ export const dataColorInfoCarrier = async (svg) => {
     chiller: chillers,
     estadoCarrier,
     demanda_agua_fria: demandaAguaFria,
+    porcentajeBombas
   } = storeData;
   const tanqueNombre = "tanque_agua_fria_carrier";
   const demandaAguaFriaText = svgStore.querySelector(`#demanda_agua_fria_text`);
-  const estadoCarrierGrafico = svgStore.querySelector(
-    `#condiciones_marcha_carrier_estado`
-  );
+  const estadoCarrierGrafico = svgStore.querySelector(`#condiciones_marcha_carrier_estado`);
+  const cargaTermica = svgStore.querySelector(`#carga_termica_total`);
   const entAguaFria = svgStore.querySelector("#entrada_agua_fria_principal");
   const salAguaFria = svgStore.querySelector("#salida_agua_fria_principal");
   const tanqueGrafico = svgStore.querySelector(`#${tanqueNombre}_grafico`);
@@ -33,7 +33,7 @@ export const dataColorInfoCarrier = async (svg) => {
 
   try {
     // Actualizar demanda de agua fría y estado del tanque
-    demandaAguaFriaText.textContent = demandaAguaFria.length || "0";
+    demandaAguaFriaText.textContent = `${porcentajeBombas}%` || "0%";
     tanqueText.textContent =
       Math.abs(estadoCarrier?.tanque_agua_fria_carrier) || "0";
 
@@ -50,6 +50,9 @@ export const dataColorInfoCarrier = async (svg) => {
       estadoCarrier?.entrada_agua_fria_principal?.toFixed(1) || "NaN";
     salAguaFria.textContent =
       estadoCarrier?.salida_agua_fria_principal?.toFixed(1) || "NaN";
+
+    cargaTermica.textContent = 
+      parseInt(estadoCarrier.carga_termica_total) || "NaN";
   } catch (error) {
     console.warn("Error en datos de estado de carrier:", error);
   }
