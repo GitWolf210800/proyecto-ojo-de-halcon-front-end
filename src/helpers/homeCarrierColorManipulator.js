@@ -49,7 +49,7 @@ export const dataColorInfoCarrier = async (svg) => {
     entAguaFria.textContent =
       estadoCarrier?.entrada_agua_fria_principal?.toFixed(1) || "NaN";
     salAguaFria.textContent =
-      estadoCarrier?.salida_agua_fria_principal?.toFixed(1) || "NaN";
+      estadoCarrier?.salida_agua_fria_principal?.toFixed(1) || "NaN";//fsdkkdk
 
     cargaTermica.textContent = 
       parseInt(estadoCarrier.carga_termica_total) || "NaN";
