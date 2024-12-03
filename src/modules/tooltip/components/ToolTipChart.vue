@@ -9,7 +9,7 @@
     <button v-if="smartphone" class="close__button" @click="closeTooltip">
       Cerrar
     </button>
-    <Line :data="charData" :options="chartOptions" v-if="charData" />
+    <Line :data="charData" :options="chartOptions" v-if="charData" /> <!-- Se Incluye el componente Line de chart.js -->
     <div class="chart__loading" v-else-if="loading">Cargando Datos...</div>
     <div class="offline" v-else-if="offline">offline</div>
   </div>

@@ -3334,7 +3334,9 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">100</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">
+          100
+        </tspan>
       </text>
       <text
         xml:space="preserve"

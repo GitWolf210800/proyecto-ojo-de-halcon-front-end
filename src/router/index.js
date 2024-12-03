@@ -5,6 +5,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+   /* {     // Aun no esta listo para habilitar
+      path: '/login',
+      name: 'login',
+      component: () => import('@/views/')
+    }*/
+    ,
     {
       path: '/',
       name: 'home',
