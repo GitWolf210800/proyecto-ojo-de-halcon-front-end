@@ -32,9 +32,16 @@ const router = createRouter({
       name: 'carrier',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('@/views/MainMapSalaCarrier.vue')
       /*component: MainMapClima*/
+    }
+    ,
+    {
+      path: '/salaFiltro',
+      name: 'salaFiltro',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      component: () => import('@/views/MainMapSalaFiltros.vue')
     }
   ]
 })
