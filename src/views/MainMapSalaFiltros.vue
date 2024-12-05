@@ -11,7 +11,7 @@
     </nav>
 
     <div class="map">
-        <MapFiltroClima></MapFiltroClima>
+        <MapFiltroClima />
     </div>
 
 </template>

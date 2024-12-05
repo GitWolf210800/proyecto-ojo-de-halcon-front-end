@@ -92,13 +92,13 @@ const loading = ref(null);
 const route = useRoute();
 const router = useRouter();
 
-const {
+/*const {
   tooltipPosition,
   params,
   tooltipVisibility,
   displayTooltip,
   hideTooltip,
-} = useTooltip();
+} = useTooltip();*/
 
 const fab3PrepFiltro = ref(null);
 const fab3Ex8Filtro = ref(null);

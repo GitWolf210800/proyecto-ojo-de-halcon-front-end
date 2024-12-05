@@ -5856,7 +5856,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70084">V610</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118294">V610</tspan>
       </text>
       <g id="g2" transform="translate(30.294775,53.714268)">
         <text
@@ -5886,7 +5886,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan70086">V653</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan118296">V653</tspan>
         </text>
       </g>
       <g id="g1-9" transform="translate(-92.2073,18.52084)">
@@ -5917,7 +5917,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan70088">V652</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan118298">V652</tspan>
         </text>
       </g>
       <path
@@ -5982,7 +5982,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70090">V642</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118300">V642</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6011,7 +6011,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70092">VG54_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118302">VG54_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6040,7 +6040,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70094">V464</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118304">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6069,7 +6069,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70096">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118306">VG54_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6098,7 +6098,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70098">VG54_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118308">VG54_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6127,7 +6127,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70100">VG54_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118310">VG54_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6156,7 +6156,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70102">VG54_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118312">VG54_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6185,7 +6185,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70104">V655</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118314">V655</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6214,7 +6214,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70106">V656</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118316">V656</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6243,7 +6243,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70108">V654</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118318">V654</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6272,9 +6272,236 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70110">V657</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan118320">V657</tspan>
       </text>
     </g>
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0511328;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_bobinaje_clima_hum_color"
+      width="39.275623"
+      height="7.2825904"
+      x="226.29764"
+      y="20.996565"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #c1a22b;
+        fill-opacity: 0.939698;
+        stroke: #ffffff;
+        stroke-width: 0.0465566;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_bobinaje_clima_humAbs_color"
+      width="39.281574"
+      height="6.0364881"
+      x="226.29143"
+      y="28.279802"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0511328;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_bobinaje_clima_temp_color"
+      width="39.275623"
+      height="7.2825904"
+      x="226.29843"
+      y="13.713374"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 7.73902px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.387559;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="194.68614"
+      y="22.772158"
+      id="climaTbobFab6"
+      transform="scale(1.1626333,0.86011644)"
+    >
+      <tspan
+        id="fab6_bobinaje_clima_temp_text"
+        x="194.68614"
+        y="22.772158"
+        style="stroke-width: 0.387559"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab6_bobinaje_clima_hum_text"
+        x="194.68614"
+        y="32.44595"
+        style="stroke-width: 0.387559"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.77556px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.408935;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="183.66841"
+      y="41.111473"
+      id="fab6_bobinaje_clima_humAbs_text"
+      transform="scale(1.257918,0.79496439)"
+    >
+      <tspan
+        id="climaETbobFab6"
+        x="183.66841"
+        y="41.111473"
+        style="stroke-width: 0.408935"
+      >
+        nn g/kg
+      </tspan>
+      <tspan
+        id="tspan12128"
+        x="183.66841"
+        y="48.330929"
+        style="stroke-width: 0.408935"
+      />
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.88544px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #ffffff;
+        stroke: #e2fcff;
+        stroke-width: 0.0758316;
+        stroke-linejoin: bevel;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: stroke fill markers;
+      "
+      x="219.27652"
+      y="12.11067"
+      id="text136736"
+      transform="scale(1.0621085,0.9415234)"
+    >
+      <tspan
+        id="tspan136734"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 5.88544px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          stroke-width: 0.0758316;
+          stroke-dasharray: none;
+        "
+        x="219.27652"
+        y="12.11067"
+      >
+        Bobinaje
+      </tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_bobinaje_clima_temp_g"
+      width="39.199768"
+      height="7.2170596"
+      x="226.32393"
+      y="13.741713"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_bobinaje_clima_hum_g"
+      width="39.199768"
+      height="7.2170596"
+      x="226.32455"
+      y="21.040272"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_bobinaje_clima_humAbs_g"
+      width="39.205708"
+      height="5.9821687"
+      x="226.31508"
+      y="28.30969"
+    />
   </svg>
 </template>
 

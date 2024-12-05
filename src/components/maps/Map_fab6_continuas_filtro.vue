@@ -48,6 +48,33 @@
       />
       <linearGradient
         xlink:href="#swatch426"
+        id="linearGradient440"
+        x1="161.73169"
+        y1="38.050556"
+        x2="164.89603"
+        y2="38.050556"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient441"
+        x1="161.7467"
+        y1="36.317429"
+        x2="164.88101"
+        y2="36.317429"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient442"
+        x1="160.81386"
+        y1="35.417625"
+        x2="161.81386"
+        y2="35.417625"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
         id="linearGradient452"
         x1="219.88844"
         y1="155.90993"
@@ -174,6 +201,42 @@
       />
       <linearGradient
         xlink:href="#swatch426"
+        id="linearGradient466"
+        x1="161.7296"
+        y1="43.116611"
+        x2="164.89812"
+        y2="43.116611"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient467"
+        x1="161.7296"
+        y1="41.079639"
+        x2="164.89812"
+        y2="41.079639"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient468"
+        x1="161.7296"
+        y1="48.150963"
+        x2="164.89812"
+        y2="48.150963"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient469"
+        x1="161.7296"
+        y1="46.113991"
+        x2="164.89812"
+        y2="46.113991"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
         id="linearGradient470"
         x1="240.58365"
         y1="43.105976"
@@ -188,6 +251,24 @@
         y1="70.035378"
         x2="161.96387"
         y2="70.035378"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient473"
+        x1="193.70911"
+        y1="67.582146"
+        x2="205.72583"
+        y2="67.582146"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient474"
+        x1="193.75304"
+        y1="70.51133"
+        x2="199.82353"
+        y2="70.51133"
         gradientUnits="userSpaceOnUse"
       />
       <linearGradient
@@ -525,11 +606,38 @@
       />
       <linearGradient
         xlink:href="#swatch426"
+        id="linearGradient527"
+        x1="160.66386"
+        y1="45.931374"
+        x2="160.96387"
+        y2="45.931374"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient528"
+        x1="161.66386"
+        y1="45.562614"
+        x2="161.96387"
+        y2="45.562614"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
         id="linearGradient529"
         x1="182.30251"
         y1="56.066357"
         x2="188.85722"
         y2="56.066357"
+        gradientUnits="userSpaceOnUse"
+      />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient530"
+        x1="183.61134"
+        y1="42.845184"
+        x2="183.91135"
+        y2="42.845184"
         gradientUnits="userSpaceOnUse"
       />
       <linearGradient
@@ -3172,14 +3280,28 @@
         y="505.58136"
         width="59.396969"
         height="26.162951"
-        id="rect1877-39-2-5"
+        id="rect1877-39-2-4"
       />
       <rect
-        x="994.19214"
-        y="505.58136"
-        width="59.396969"
-        height="26.162951"
-        id="rect1877-39-2-0"
+        x="2717.4009"
+        y="952.89233"
+        width="116.28569"
+        height="21.008968"
+        id="rect136790-6"
+      />
+      <rect
+        x="2717.4009"
+        y="952.89233"
+        width="116.28569"
+        height="21.008968"
+        id="rect136790-2"
+      />
+      <rect
+        x="2717.4009"
+        y="952.89233"
+        width="116.28569"
+        height="21.008968"
+        id="rect136790-4"
       />
     </defs>
     <g
@@ -3198,17 +3320,41 @@
         style="stroke: url(#linearGradient426)"
       />
       <path
-        id="V657"
+        id="V341"
         style="stroke: url(#linearGradient429)"
         d="m 264.5791,44.117187 -10.25767,1.756382 m 10.29139,-5.708805 -10.24017,-1.914573 m 10.55959,3.842647 a 5.9789662,5.9789662 0 0 1 -5.97896,5.978967 5.9789662,5.9789662 0 0 1 -5.97897,-5.978967 5.9789662,5.9789662 0 0 1 5.97897,-5.978966 5.9789662,5.9789662 0 0 1 5.97896,5.978966 z"
       />
       <path
-        id="G54_P04"
+        id="VG44_P04"
         style="stroke: url(#linearGradient439)"
         d="m 219.98486,39.892597 1.30899,1.098366 m -1.7552,-1.472786 -1.30897,-1.098366 m 1.75518,6.098366 1.30899,-1.098366 m -1.7552,1.472786 -1.30897,1.098366 m 1.82333,-1.285576 a 0.29124677,0.29124677 0 0 1 -0.29125,0.291247 0.29124677,0.29124677 0 0 1 -0.29124,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,0.291247 z m 0,-5 a 0.29124677,0.29124677 0 0 1 -0.29125,0.291247 0.29124677,0.29124677 0 0 1 -0.29124,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,0.291247 z m 1.70875,6.5 v -8 m -4,8 h 4 m -4,-8 h 4 m -4,8 v -8"
       />
+      <line
+        x1="161.81386"
+        y1="37.068447"
+        x2="164.81386"
+        y2="39.032669"
+        id="line17"
+        style="stroke: url(#linearGradient440)"
+      />
+      <line
+        x1="161.81386"
+        y1="37.068447"
+        x2="164.81386"
+        y2="35.56641"
+        id="line18"
+        style="stroke: url(#linearGradient441)"
+      />
+      <line
+        x1="161.81386"
+        y1="35.417625"
+        x2="160.81386"
+        y2="35.417625"
+        id="line19"
+        style="stroke: url(#linearGradient442)"
+      />
       <path
-        id="VG54_P05"
+        id="VG44_P05"
         style="stroke: url(#linearGradient452)"
         d="m 219.98486,155.36075 1.30899,1.09836 m -1.7552,-1.47278 -1.30897,-1.09838 m 1.75518,6.09838 1.30899,-1.09838 m -1.7552,1.4728 -1.30897,1.09836 m 1.82333,-1.28557 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29124 0.29124677,0.29124677 0 0 1 -0.29124,-0.29124 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 0,-5 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29124 0.29124677,0.29124677 0 0 1 -0.29124,-0.29124 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 1.70875,6.5 v -8 m -4,8 h 4 m -4,-8 h 4 m -4,8 v -8"
       />
@@ -3317,6 +3463,38 @@
         style="stroke: url(#linearGradient465)"
       />
       <line
+        x1="161.81386"
+        y1="42.098125"
+        x2="164.81386"
+        y2="44.135098"
+        id="line41"
+        style="stroke: url(#linearGradient466)"
+      />
+      <line
+        x1="161.81386"
+        y1="42.098125"
+        x2="164.81386"
+        y2="40.061153"
+        id="line42"
+        style="stroke: url(#linearGradient467)"
+      />
+      <line
+        x1="161.81386"
+        y1="47.132477"
+        x2="164.81386"
+        y2="49.169449"
+        id="line43"
+        style="stroke: url(#linearGradient468)"
+      />
+      <line
+        x1="161.81386"
+        y1="47.132477"
+        x2="164.81386"
+        y2="45.095505"
+        id="line44"
+        style="stroke: url(#linearGradient469)"
+      />
+      <line
         x1="253.06078"
         y1="43.105976"
         x2="240.58365"
@@ -3332,10 +3510,28 @@
         id="line47"
         style="stroke: url(#linearGradient472)"
       />
-      <path
-        id="V656"
+      <circle
+        cx="199.71747"
+        cy="67.582146"
+        r="5.8583636"
+        id="Bom"
+        style="stroke: url(#linearGradient473)"
+      />
+      <line
+        x1="193.8591"
+        y1="67.582146"
+        x2="199.71747"
+        y2="73.440506"
+        id="line48"
+        style="stroke: url(#linearGradient474)"
+      />
+      <line
+        x1="199.71747"
+        y1="73.440506"
+        x2="205.57582"
+        y2="67.582146"
+        id="line49"
         style="stroke: url(#linearGradient475)"
-        d="m 199.71747,73.440506 5.85835,-5.85836 m -11.71672,0 5.85837,5.85836 m 5.85836,-5.85836 a 5.8583636,5.8583636 0 0 1 -5.85836,5.858363 5.8583636,5.8583636 0 0 1 -5.85837,-5.858363 5.8583636,5.8583636 0 0 1 5.85837,-5.858364 5.8583636,5.8583636 0 0 1 5.85836,5.858364 z"
       />
       <line
         x1="188.76135"
@@ -3378,7 +3574,7 @@
         style="stroke: url(#linearGradient481)"
       />
       <path
-        id="V655"
+        id="V645"
         style="stroke: url(#linearGradient490)"
         d="m 180.51566,109.81165 3,2.5 m -3,-2.5 -3,2.5 m 0,-5 v 5 m 6,-5 v 5 m -8,5 h 10 m 0,-10 v 10 m -10,-10 v 10 m 5,-10 h 5 m -5,0 h -5"
       />
@@ -3607,10 +3803,31 @@
         id="path95"
         style="stroke: url(#linearGradient523)"
       />
+      <line
+        x1="160.81386"
+        y1="56.445118"
+        x2="160.81386"
+        y2="35.417625"
+        id="line98"
+        style="stroke: url(#linearGradient527)"
+      />
+      <line
+        x1="161.81386"
+        y1="35.417625"
+        x2="161.81386"
+        y2="55.707603"
+        id="line99"
+        style="stroke: url(#linearGradient528)"
+      />
       <path
         d="m 182.40853,56.850376 q 2.97013,-2.967623 6.35283,-0.157081"
         id="path99"
         style="stroke: url(#linearGradient529)"
+      />
+      <path
+        id="SepGot"
+        style="stroke: url(#linearGradient530)"
+        d="M 183.76135,55.736572 V 29.953796 m -6,26.071209 V 29.953796 m 4,26.273648 V 29.953796 m -2,25.398678 V 29.953796"
       />
       <path
         d="m 151.81385,56.832276 q 3.93689,-3.600857 8.59468,0.0181"
@@ -3618,9 +3835,9 @@
         style="stroke: url(#linearGradient532)"
       />
       <path
-        id="V654"
+        id="Lav"
         style="stroke: url(#linearGradient536)"
-        d="m 151.81386,58.290573 v 2.111576 m 0,-3.111576 V 52.98444 m 4.09466,7.417709 h 4.90534 m -5.90534,-30.448353 v 25.228657 m 30.73082,-25.228657 v 25.37315 m -30.73082,5.075203 h -3.09466 m 33.82548,-30.448353 h -30.73082 m 30.85283,30.448353 h -23.94749 m 26.94749,0 V 52.98444 m -3,7.417709 h 3 m -5,-4.665577 V 29.953796 m -6,26.071209 V 29.953796 m 4,26.273648 V 29.953796 m -2,25.398678 V 29.953796 m -17.94749,5.463829 v 20.289978 m -1,0.737515 V 35.417625 m 1,11.714852 3,-2.036972 m -3,2.036972 3,2.036972 m -3,-7.071324 3,-2.036972 m -3,2.036972 3,2.036973 m -3,-8.717473 h -1 m 1,1.650822 3,-1.502037 m -3,1.502037 3,1.964222"
+        d="m 151.81386,58.290573 v 2.111576 m 0,-3.111576 V 52.98444 m 4.09466,7.417709 h 4.90534 m -5.90534,-30.448353 v 25.228657 m 30.73082,-25.228657 v 25.37315 m -30.73082,5.075203 h -3.09466 m 33.82548,-30.448353 h -30.73082 m 30.85283,30.448353 h -23.94749 m 26.94749,0 V 52.98444 m -3,7.417709 h 3"
       />
       <circle
         cx="150.77728"
@@ -4120,7 +4337,7 @@
         style="stroke: url(#linearGradient609)"
       />
       <path
-        id="V653"
+        id="V648"
         style="stroke: url(#linearGradient612)"
         d="m 286.09482,215.93152 7.39587,-1.28974 m -7.42181,5.753 7.39831,1.35975 m 1.60244,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77099 4.7709861,4.7709861 0 0 1 -4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77098,4.77098 z"
       />
@@ -4290,7 +4507,7 @@
         style="stroke: url(#linearGradient645)"
       />
       <path
-        id="VG54_P03"
+        id="VG44_P03"
         style="stroke: url(#linearGradient655)"
         d="m 96.190804,33.078266 v -4.004843 m -7.999993,0 h 7.999993 m -7.999993,4.004843 v -4.004843 m 1.684517,1.779692 1.096779,-1.31031 m -1.470657,1.756979 -1.096779,1.310308 m 6.096237,-1.762581 -1.099953,-1.307649 m 1.474907,1.753412 1.099953,1.307648 m -0.996183,-1.530529 a 0.29124677,0.29124677 0 0 1 -0.291247,0.291246 0.29124677,0.29124677 0 0 1 -0.291247,-0.291246 0.29124677,0.29124677 0 0 1 0.291247,-0.291247 0.29124677,0.29124677 0 0 1 0.291247,0.291247 z m -4.999993,0.0061 a 0.29124677,0.29124677 0 0 1 -0.291246,0.291247 0.29124677,0.29124677 0 0 1 -0.291247,-0.291247 0.29124677,0.29124677 0 0 1 0.291247,-0.291246 0.29124677,0.29124677 0 0 1 0.291246,0.291246 z m 6.211165,1.992125 -7.999993,0.0097"
       />
@@ -5652,7 +5869,7 @@
         style="stroke: url(#linearGradient827)"
       />
       <path
-        id="VG54_P01"
+        id="VG44_P01"
         style="stroke: url(#linearGradient837)"
         d="m 109.28233,39.964592 1.30899,1.098366 m -1.75521,-1.472786 -1.30897,-1.098366 m 1.75519,6.098366 1.30899,-1.098366 m -1.75521,1.472786 -1.30897,1.098366 m 1.82333,-1.285576 a 0.29124677,0.29124677 0 0 1 -0.29124,0.291247 0.29124677,0.29124677 0 0 1 -0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,0.291247 z m 0,-5 a 0.29124677,0.29124677 0 0 1 -0.29124,0.291247 0.29124677,0.29124677 0 0 1 -0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,0.291247 z m 1.70876,6.5 v -8 m -4,8 h 4 m -4,-8 h 4 m -4,8 v -8"
       />
@@ -5697,7 +5914,7 @@
         style="stroke: url(#linearGradient842)"
       />
       <path
-        id="VG54_P02"
+        id="VG65_P02"
         style="stroke: url(#linearGradient852)"
         d="m 131.05765,30.176888 -1.09838,1.30898 m 1.4728,-1.755197 1.09836,-1.308981 m -6.09836,1.755198 1.09836,1.30898 m -1.47278,-1.755197 -1.09837,-1.308981 m 1.57682,1.532089 a 0.29124677,0.29124677 0 0 1 -0.29124,0.291247 0.29124677,0.29124677 0 0 1 -0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,0.291247 z m 5,0 a 0.29124677,0.29124677 0 0 1 -0.29124,0.291247 0.29124677,0.29124677 0 0 1 -0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29125,-0.291247 0.29124677,0.29124677 0 0 1 0.29124,0.291247 z m -6.79124,2 h 8 m -8,-4 v 4 m 8,-4 v 4 m -8,-4 h 8"
       />
@@ -5856,7 +6073,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70084">V610</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126181">V610</tspan>
       </text>
       <g id="g2" transform="translate(30.294775,53.714268)">
         <text
@@ -5886,7 +6103,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan70086">V653</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan126183">V648</tspan>
         </text>
       </g>
       <g id="g1-9" transform="translate(-92.2073,18.52084)">
@@ -5917,11 +6134,11 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan70088">V652</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan126185">V324</tspan>
         </text>
       </g>
       <path
-        id="V642"
+        id="V652"
         style="stroke: #ffffff"
         d="m 165.92415,220.86872 10.25226,-1.78786 m -10.27384,5.74036 10.246,1.88315 m 1.38657,-3.82858 a 5.9789662,5.9789662 0 0 1 -5.97896,5.97896 5.9789662,5.9789662 0 0 1 -5.97897,-5.97896 5.9789662,5.9789662 0 0 1 5.97897,-5.97897 5.9789662,5.9789662 0 0 1 5.97896,5.97897 z"
       />
@@ -5982,7 +6199,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70090">V642</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126187">V652</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6011,7 +6228,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70092">VG54_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126189">VG44_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6040,7 +6257,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70094">V464</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126191">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6069,7 +6286,36 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70096">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126193">VG44_P04</tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        transform="matrix(0.26458333,0,0,0.26458333,-95.714652,-109.2578)"
+        id="text1877-8-7"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 9.93475px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, ';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          white-space: pre;
+          shape-inside: url(#rect1877-39-3);
+          display: inline;
+          fill: #00ffff;
+          fill-opacity: 1;
+          stroke: #33ff20;
+          stroke-width: 1.13386;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+      >
+        <tspan x="994.19141" y="514.62141" id="tspan126195">V644</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6098,7 +6344,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70098">VG54_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126197">VG65_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6127,7 +6373,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70100">VG54_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126199">VG44_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6156,7 +6402,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70102">VG54_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126201">VG44_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6185,12 +6431,12 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70104">V655</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126203">V645</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-55.761097,-66.336327)"
-        id="text1877-8-8-6"
+        transform="matrix(0.26458333,0,0,0.26458333,-56.02568,-66.865493)"
+        id="text1877-8-8-4"
         style="
           font-style: normal;
           font-variant: normal;
@@ -6204,7 +6450,7 @@
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
           white-space: pre;
-          shape-inside: url(#rect1877-39-2-5);
+          shape-inside: url(#rect1877-39-2-4);
           display: inline;
           fill: #00ffff;
           fill-opacity: 1;
@@ -6214,36 +6460,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70106">V656</tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-96.50693,-107.87591)"
-        id="text1877-8-8-5"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 9.93475px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, ';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1877-39-2-0);
-          display: inline;
-          fill: #00ffff;
-          fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 1.13386;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-      >
-        <tspan x="994.19141" y="514.62141" id="tspan70108">V654</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126205">V646</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6272,9 +6489,483 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan70110">V657</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan126207">V341</tspan>
       </text>
     </g>
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0293211;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas_clima_hum_color"
+      width="21.163036"
+      height="4.4442606"
+      x="221.95697"
+      y="20.097643"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0293211;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas_clima_temp_color"
+      width="21.163036"
+      height="4.4442606"
+      x="221.95667"
+      y="15.65178"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 4.46378px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.223536;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="201.99712"
+      y="21.091553"
+      id="climaTcontFab6"
+      transform="scale(1.0990489,0.90987762)"
+    >
+      <tspan
+        id="fab6_continuas_clima_temp_text"
+        x="201.99712"
+        y="21.091553"
+        style="stroke-width: 0.223536"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab6_continuas_clima_hum_text"
+        x="201.99712"
+        y="26.671276"
+        style="stroke-width: 0.223536"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      transform="matrix(0.22728238,0,0,0.22105181,-395.74451,-182.18764)"
+      id="text136788"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 14.6667px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        white-space: pre;
+        shape-inside: url(#rect136790-6);
+        display: inline;
+        fill: #ffffff;
+        stroke: #e2fcff;
+        stroke-width: 0.188976;
+        stroke-linejoin: bevel;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: stroke fill markers;
+      "
+    >
+      <tspan x="2717.4004" y="966.23744" id="tspan126209">G-604 / G-605</tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas_clima_temp_g"
+      width="21.122164"
+      height="4.4031472"
+      x="221.97079"
+      y="15.666128"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas_clima_hum_g"
+      width="21.122164"
+      height="4.4042687"
+      x="221.97778"
+      y="20.106062"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #c1a22b;
+        fill-opacity: 0.939698;
+        stroke: #ffffff;
+        stroke-width: 0.0260027;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas_clima_humAbs_color"
+      width="21.166227"
+      height="3.4946558"
+      x="221.9543"
+      y="24.540426"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 3.34179px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.231537;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="171.95842"
+      y="35.449142"
+      id="fab6_continuas_clima_humAbs_text"
+      transform="scale(1.3053858,0.76605705)"
+    >
+      <tspan
+        id="climaETcontFab6"
+        x="171.95842"
+        y="35.449142"
+        style="stroke-width: 0.231537"
+      >
+        nn g/kg
+      </tspan>
+      <tspan
+        id="tspan12132"
+        x="171.95842"
+        y="39.626385"
+        style="stroke-width: 0.231537"
+      />
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas_clima_humAbs_g"
+      width="21.125349"
+      height="3.4632089"
+      x="221.96666"
+      y="24.558714"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0279306;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas3_clima_hum_color"
+      width="21.837208"
+      height="3.9082241"
+      x="247.33557"
+      y="28.621021"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0279306;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas3_clima_temp_color"
+      width="21.837208"
+      height="3.9082241"
+      x="247.3354"
+      y="24.711426"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 4.25209px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.212936;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="207.79568"
+      y="33.12442"
+      id="climaTcontFab6-3"
+      transform="scale(1.1905195,0.83996946)"
+    >
+      <tspan
+        id="fab6_continuas3_clima_temp_text"
+        x="207.79568"
+        y="33.12442"
+        style="stroke-width: 0.212936"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab6_continuas3_clima_hum_text"
+        x="207.79568"
+        y="38.439533"
+        style="stroke-width: 0.212936"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      transform="matrix(0.23452266,0,0,0.19439008,-390.04329,-152.28374)"
+      id="text136788-8"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 14.6667px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        white-space: pre;
+        shape-inside: url(#rect136790-2);
+        display: inline;
+        fill: #ffffff;
+        stroke: #e2fcff;
+        stroke-width: 0.188976;
+        stroke-linejoin: bevel;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: stroke fill markers;
+      "
+    >
+      <tspan x="2717.4004" y="966.23744" id="tspan126211">G-607 / G-608</tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas3_clima_temp_g"
+      width="21.795025"
+      height="3.8720703"
+      x="247.34988"
+      y="24.724001"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas3_clima_hum_g"
+      width="21.795025"
+      height="3.8730564"
+      x="247.35713"
+      y="28.628418"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0272795;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas2_clima_hum_color"
+      width="21.912704"
+      height="3.7153032"
+      x="247.52196"
+      y="12.766577"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0272795;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_continuas2_clima_temp_color"
+      width="21.912704"
+      height="3.7153032"
+      x="247.52173"
+      y="9.0499868"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 4.15297px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.207974;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="202.40524"
+      y="14.688075"
+      id="climaTcontFab6-2"
+      transform="scale(1.2231468,0.81756335)"
+    >
+      <tspan
+        id="fab6_continuas2_clima_temp_text"
+        x="202.40524"
+        y="14.688075"
+        style="stroke-width: 0.207974"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab6_continuas2_clima_hum_text"
+        x="202.40524"
+        y="19.879288"
+        style="stroke-width: 0.207974"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      transform="matrix(0.2353335,0,0,0.18479442,-392.4867,-159.03382)"
+      id="text136788-5"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 14.6667px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        white-space: pre;
+        shape-inside: url(#rect136790-4);
+        display: inline;
+        fill: #ffffff;
+        stroke: #e2fcff;
+        stroke-width: 0.188976;
+        stroke-linejoin: bevel;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: stroke fill markers;
+      "
+    >
+      <tspan x="2717.4004" y="966.23744" id="tspan126213">G-601 / G-602</tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas2_clima_temp_g"
+      width="21.870382"
+      height="3.6809342"
+      x="247.53632"
+      y="9.0618963"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_continuas2_clima_hum_g"
+      width="21.870382"
+      height="3.6818717"
+      x="247.54361"
+      y="12.773613"
+    />
   </svg>
 </template>
 

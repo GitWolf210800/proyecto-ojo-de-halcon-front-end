@@ -62,8 +62,21 @@ function routesDireccion(svg) {
   const routesMap = [
     ...storeData.value.chiller.map((dato) => 
     createRouterConfig(`#${dato.nombre}Vinf`, '/carrier', dato.nombre)
-  )
+  ),
+
+  ...storeData.value.filtros
+  .filter((dato) => dato.id_fabrica && dato.id_fabrica.includes('_filtro_clima'))
+  .map((dato) => createRouterConfig(`#${dato.nombre}`, '/salaFiltro', dato.nombre)) 
   ];
+
+  //console.log(routesMap);
+
+  /**
+   * // Filtramos el array para obtener solo los objetos donde `id_fabrica` incluya "_filtro_clima"
+const resultado = array.filter(obj => obj.id_fabrica.includes('_filtro_clima'));
+
+console.log(resultado);
+   */
 
   routesMap.forEach((datos) => {
     const element = svg.querySelector(datos.selector);

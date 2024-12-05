@@ -5863,7 +5863,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76978">V630</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132972">V630</tspan>
       </text>
       <g id="g2" transform="translate(30.294775,53.714268)">
         <text
@@ -5893,7 +5893,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan76980">V622</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan132974">V622</tspan>
         </text>
       </g>
       <g id="g1-9" transform="translate(-92.2073,18.52084)">
@@ -5924,7 +5924,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan76982">V632</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan132976">V632</tspan>
         </text>
       </g>
       <text
@@ -5954,7 +5954,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76984">V634_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132978">V634_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5983,7 +5983,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76986">V464</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132980">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6012,7 +6012,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76988">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132982">VG54_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6041,7 +6041,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76990">V634</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132984">V634</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6070,7 +6070,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76992">V634_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132986">V634_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6099,7 +6099,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76994">V634_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132988">V634_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6128,7 +6128,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76996">V634_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132990">V634_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6157,7 +6157,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan76998">V635</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132992">V635</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6186,7 +6186,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan77000">V637</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132994">V637</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6215,9 +6215,222 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan77002">V636</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan132996">V636</tspan>
       </text>
     </g>
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0464663;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_preparacion_clima_hum_color"
+      width="35.335449"
+      height="6.6845994"
+      x="228.7491"
+      y="21.072809"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #c1a22b;
+        fill-opacity: 0.939698;
+        stroke: #ffffff;
+        stroke-width: 0.0410004;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_preparacion_clima_humAbs_color"
+      width="35.339535"
+      height="5.2038364"
+      x="228.74432"
+      y="27.755941"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9f;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0464663;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab6_preparacion_clima_temp_color"
+      width="35.335449"
+      height="6.6845994"
+      x="228.7491"
+      y="14.383482"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 7.02584px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.351841;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="199.16403"
+      y="22.757027"
+      id="climaTprepFab6"
+      transform="scale(1.1499248,0.8696221)"
+    >
+      <tspan
+        id="fab6_preparacion_clima_temp_text"
+        x="199.16403"
+        y="22.757027"
+        style="stroke-width: 0.351841"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab6_preparacion_clima_hum_text"
+        x="199.16403"
+        y="31.539328"
+        style="stroke-width: 0.351841"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.11891px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.37753;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="177.08252"
+      y="41.932365"
+      id="fab6_preparacion_clima_humAbs_text"
+      transform="scale(1.3220324,0.7564111)"
+    >
+      <tspan
+        id="climaETprepFab6"
+        x="177.08252"
+        y="41.932365"
+        style="stroke-width: 0.37753"
+      >
+        nn g/kg
+      </tspan>
+      <tspan
+        id="tspan12136"
+        x="177.08252"
+        y="48.330994"
+        style="stroke-width: 0.37753"
+      />
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.25603px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #ffffff;
+        stroke: #e2fcff;
+        stroke-width: 0.0677218;
+        stroke-linejoin: bevel;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: stroke fill markers;
+      "
+      x="204.46144"
+      y="13.50445"
+      id="text136802"
+      transform="scale(1.1233206,0.89021781)"
+    >
+      <tspan
+        id="tspan136800"
+        style="stroke-width: 0.0677218"
+        x="204.46144"
+        y="13.50445"
+      >
+        Preparación
+      </tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_preparacion_clima_humAbs_g"
+      width="35.364876"
+      height="5.1583228"
+      x="228.7661"
+      y="27.782383"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_preparacion_clima_hum_g"
+      width="35.36079"
+      height="6.6261339"
+      x="228.72672"
+      y="21.1098"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab6_preparacion_clima_temp_g"
+      width="35.230293"
+      height="6.6261339"
+      x="228.77408"
+      y="14.403537"
+    />
   </svg>
 </template>
 
@@ -6228,6 +6441,6 @@ const svgRef = ref(null);
 
 //Exponemos `svgRef` para que este accesible desde el componente padre
 defineExpose({
-    svgRef,
+  svgRef,
 });
 </script>

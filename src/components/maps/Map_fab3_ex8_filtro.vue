@@ -4708,7 +4708,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52286">V342</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161074">V342</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4737,7 +4737,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52288">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161076">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4766,7 +4766,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52290">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161078">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4795,7 +4795,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52292">V317</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161080">V317</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4824,7 +4824,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52294">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161082">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4853,7 +4853,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52296">V355</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161084">V355</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4882,7 +4882,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52298">V396</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161086">V396</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4911,7 +4911,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52300">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161088">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4940,7 +4940,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52302">V370</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161090">V370</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4969,7 +4969,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52304">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161092">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4998,7 +4998,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52306">V399</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161094">V399</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5027,7 +5027,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52308">V370_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161096">V370_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5056,7 +5056,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52310">V370_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161098">V370_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5085,7 +5085,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52312">V370_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161100">V370_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5114,19 +5114,397 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan52314">V370_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan161102">V370_P04</tspan>
       </text>
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.0384553;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_c80_clima_hum_color"
+        width="25.327543"
+        height="6.3875175"
+        x="238.03665"
+        y="25.279884"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.0384553;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_c80_clima_temp_color"
+        width="25.327543"
+        height="6.3875175"
+        x="238.03665"
+        y="18.891827"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 5.76733px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 0.28882;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="241.40532"
+        y="23.563255"
+        id="climaTc80Fab3"
+        transform="scale(0.98765666,1.0124976)"
+      >
+        <tspan
+          id="fab3_c80_clima_temp_text"
+          x="241.40532"
+          y="23.563255"
+          style="stroke-width: 0.28882"
+        >
+          nn°C
+        </tspan>
+        <tspan
+          id="fab3_c80_clima_hum_text"
+          x="241.40532"
+          y="30.772423"
+          style="stroke-width: 0.28882"
+        >
+          nn% H.r
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 4.20229px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #fefefb;
+          fill-opacity: 1;
+          stroke: #0a210a;
+          stroke-width: 0.0974615;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="227.77586"
+        y="19.154383"
+        id="c80TextFab3"
+        transform="scale(1.0448303,0.95709323)"
+      >
+        <tspan
+          id="tspan24299-1"
+          x="227.77586"
+          y="19.154383"
+          style="stroke-width: 0.0974615"
+        >
+          Cardas C-80
+        </tspan>
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        width="25.285822"
+        height="6.3120012"
+        x="238.05386"
+        y="25.330948"
+        id="fab3_c80_clima_hum_g"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_c80_clima_temp_g"
+        width="25.285822"
+        height="6.3120012"
+        x="238.05563"
+        y="18.912777"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.0348434;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_peinadorasE90_clima_hum_color"
+        width="25.734362"
+        height="5.1610932"
+        x="268.62146"
+        y="24.293211"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.0348434;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_peinadorasE90_clima_temp_color"
+        width="25.734362"
+        height="5.1610932"
+        x="268.62073"
+        y="19.131903"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 3.63989px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #fefefb;
+          fill-opacity: 1;
+          stroke: #0a210a;
+          stroke-width: 0.0844184;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="269.62585"
+        y="18.499834"
+        id="peinadorasTextFab3"
+        transform="scale(0.9948083,1.0052188)"
+      >
+        <tspan
+          id="tspan3662"
+          x="269.62585"
+          y="18.499834"
+          style="stroke-width: 0.0844184"
+        >
+          Peinadoras E90
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 5.29562px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 0.2652;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="239.0938"
+        y="26.039787"
+        id="fab3_peinadorasE90_clima_text"
+        transform="scale(1.1227277,0.89068792)"
+      >
+        <tspan
+          id="fab3_peinadorasE90_clima_temp_text"
+          x="239.0938"
+          y="26.039787"
+          style="stroke-width: 0.2652"
+        >
+          nn°C
+        </tspan>
+        <tspan
+          id="fab3_peinadorasE90_clima_hum_text"
+          x="239.0938"
+          y="32.659309"
+          style="stroke-width: 0.2652"
+        >
+          nn% H.r
+        </tspan>
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_peinadorasE90_clima_temp_g"
+        width="25.691969"
+        height="5.1000748"
+        x="268.638"
+        y="19.149271"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_peinadorasE90_clima_hum_g"
+        width="25.691969"
+        height="5.1000748"
+        x="268.63934"
+        y="24.394447"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.030226;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_peinadorasE90_clima_humAbs_color"
+        width="25.738972"
+        height="3.8831334"
+        x="268.61783"
+        y="29.468191"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 3.61445px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 0.230979;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="198.9601"
+        y="44.179527"
+        id="fab3_peinadorasE90_clima_humAbs_text"
+        transform="scale(1.3706589,0.72957612)"
+      >
+        <tspan
+          id="climaETpeiFab3"
+          x="198.9601"
+          y="44.179527"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 3.61445px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 0.230979;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="198.9601"
+          y="48.697598"
+          id="humPeiFab3-9"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 3.61445px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 0.230979;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_peinadorasE90_clima_humAbs_g"
+        width="25.696569"
+        height="3.8372245"
+        x="268.63321"
+        y="29.499775"
+      />
     </g>
   </svg>
 </template>
 
 <script setup>
-    import { ref } from 'vue';
+import { ref } from "vue";
 
-    const svgRef = ref(null);
+const svgRef = ref(null);
 
-    //Exponemos `SvgRef` para que sea accesible desde el componente padre
-    defineExpose({
-        svgRef,
-    });
+//Exponemos `SvgRef` para que sea accesible desde el componente padre
+defineExpose({
+  svgRef,
+});
 </script>

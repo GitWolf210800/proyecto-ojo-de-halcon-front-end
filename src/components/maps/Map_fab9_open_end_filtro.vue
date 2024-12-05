@@ -6189,7 +6189,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80125">V912</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139851">V912</tspan>
         </text>
       </g>
       <g id="g2-7" transform="translate(-8.863558,1.855934)">
@@ -6220,7 +6220,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80127">V932</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139853">V932</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6249,7 +6249,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80129">V971_P01</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139855">V971_P01</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6278,7 +6278,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80131">V971_P02</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139857">V971_P02</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6307,7 +6307,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80133">V971_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139859">V971_P04</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6336,7 +6336,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80135">V971_P03</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139861">V971_P03</tspan>
         </text>
       </g>
       <g id="g2-3" transform="translate(-137.65565,9.2393305)">
@@ -6367,7 +6367,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80137">V962</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139863">V962</tspan>
         </text>
       </g>
       <g id="g2-2" transform="translate(-136.65065,-15.461489)">
@@ -6398,7 +6398,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80139">V964</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139865">V964</tspan>
         </text>
       </g>
       <g id="g2-6" transform="translate(-70.576058,-127.24427)">
@@ -6429,7 +6429,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80141">V953</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139867">V953</tspan>
         </text>
       </g>
       <g id="g2-0" transform="translate(-70.400756,-152.10318)">
@@ -6460,7 +6460,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80143">V952</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139869">V952</tspan>
         </text>
       </g>
       <g id="g2-4" transform="translate(-147.34055,-92.600319)">
@@ -6491,7 +6491,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80145">V902</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139871">V902</tspan>
         </text>
       </g>
       <g id="g2-1" transform="translate(-147.44704,-63.341351)">
@@ -6522,7 +6522,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80147">V997</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139873">V997</tspan>
         </text>
       </g>
       <g id="g2-17" transform="translate(-178.2935,-28.887332)">
@@ -6553,7 +6553,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80149">V998</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139875">V998</tspan>
         </text>
       </g>
       <g id="g2-6-2" transform="translate(-154.11981,-155.04583)">
@@ -6584,10 +6584,248 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan80151">V971</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan139877">V971</tspan>
         </text>
       </g>
     </g>
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9b;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0411671;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab9_open_end_clima_hum_color"
+      width="27.514736"
+      height="6.7382298"
+      x="232.17894"
+      y="20.158072"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #8f8f9b;
+        fill-opacity: 0.941176;
+        stroke: #ffffff;
+        stroke-width: 0.0411671;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab9_open_end_clima_temp_color"
+      width="27.514736"
+      height="6.7382298"
+      x="232.17892"
+      y="13.414639"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 6.08878px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.304917;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="223.77419"
+      y="19.396473"
+      id="climaTopenEndFab9"
+      transform="scale(1.0383227,0.96309173)"
+    >
+      <tspan
+        id="fab9_open_end_clima_temp_text"
+        x="223.77419"
+        y="19.396473"
+        style="stroke-width: 0.304917"
+      >
+        nn°C
+      </tspan>
+      <tspan
+        id="fab9_open_end_clima_hum_text"
+        x="223.77419"
+        y="27.007444"
+        style="stroke-width: 0.304917"
+      >
+        nn% H.r
+      </tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #c1a22b;
+        fill-opacity: 0.939698;
+        stroke: #ffffff;
+        stroke-width: 0.0363437;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      id="fab9_open_end_clima_humAbs_color"
+      width="27.535223"
+      height="5.24789"
+      x="232.17401"
+      y="26.893528"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 4.3741px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #fefefb;
+        fill-opacity: 1;
+        stroke: #0a210a;
+        stroke-width: 0.101447;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      x="230.08223"
+      y="12.701874"
+      id="openEndFab9Text"
+      transform="scale(1.0176091,0.98269563)"
+    >
+      <tspan
+        id="tspan18304"
+        x="230.08223"
+        y="12.701874"
+        style="stroke-width: 0.101447"
+      >
+        Open-End
+      </tspan>
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab9_open_end_clima_temp_g"
+      width="27.460815"
+      height="6.6702385"
+      x="232.201"
+      y="13.435273"
+    />
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab9_open_end_clima_hum_g"
+      width="27.460815"
+      height="6.6702385"
+      x="232.19589"
+      y="20.205023"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 4.26571px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #f9f9f9;
+        fill-opacity: 1;
+        stroke: #05246f;
+        stroke-width: 0.272597;
+        stroke-linejoin: bevel;
+        paint-order: stroke fill markers;
+      "
+      x="174.6308"
+      y="41.170158"
+      id="fab9_open_end_clima_humAbs_text"
+      transform="scale(1.3477277,0.74198965)"
+    >
+      <tspan
+        id="climaETpeiFab3-6-0-1-4"
+        x="174.6308"
+        y="41.170158"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 4.26571px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          stroke-width: 0.272597;
+        "
+      >
+        nn g/kg
+      </tspan>
+      <tspan
+        x="174.6308"
+        y="46.502289"
+        id="humPeiFab3-9-2-0-7-2"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 4.26571px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          stroke-width: 0.272597;
+        "
+      />
+    </text>
+    <rect
+      style="
+        display: inline;
+        fill: #53e2ff;
+        fill-opacity: 0.0595238;
+        stroke: #49cdf7;
+        stroke-width: 0;
+      "
+      id="fab9_open_end_clima_humAbs_g"
+      width="27.481468"
+      height="5.1958885"
+      x="232.19273"
+      y="26.926861"
+    />
   </svg>
 </template>
 
