@@ -65,8 +65,9 @@
 </template>
 
 <script setup>
-import { ref, watchEffect } from 'vue';
+import { onMounted, ref, watchEffect } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import axios from "axios";
 
 /*import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
 import {
@@ -86,6 +87,9 @@ import Map_fab6_bobinaje_filtro from './maps/Map_fab6_bobinaje_filtro.vue';
 
 import Map_fab9_preparacion_filtro from './maps/Map_fab9_preparacion_filtro.vue';
 import Map_fab9_open_end_filtro from './maps/Map_fab9_open_end_filtro.vue';
+import { alarmColor, okColor, paroManual, server } from "@/variables";
+//import { server } from '@/variables';
+//import { response } from 'express';
 
 const mapFiltro = ref(null);
 const loading = ref(null);
@@ -112,26 +116,72 @@ const fab6BobFiltro = ref(null);
 const fab9PrepFiltro = ref(null);
 const fab9OpenEndFiltro = ref(null);
 
+const parametros = route.query;
+const result = Object.values(parametros).join("");
+
+let mediciones = [];
+let datos = {};
+let datosGral = {};
+
 //let result = Object.values(parametros).join("");
 
 const updateOpciones = () => {
-    const parametros = route.query;
-    const x = Object.values(parametros).join("");
-    if ( x === 'fab3_preparacion_filtro' ) fab3PrepFiltro.value = true;
-    else if ( x === 'fab3_ex8_filtro' ) fab3Ex8Filtro.value = true;
-    else if ( x === 'fab3_g30_filtro' ) fab3G30Filtro.value = true;
-    else if ( x === 'fab3_g33_filtro' ) fab3G33Filtro.value = true;
+    
+    if ( result === 'fab3_preparacion_filtro' ) fab3PrepFiltro.value = true;
+    else if ( result === 'fab3_ex8_filtro' ) fab3Ex8Filtro.value = true;
+    else if ( result === 'fab3_g30_filtro' ) fab3G30Filtro.value = true;
+    else if ( result === 'fab3_g33_filtro' ) fab3G33Filtro.value = true;
 
-    if ( x === 'fab6_preparacion_filtro' ) fab6PrepFiltro.value = true;
-    else if (  x === 'fab6_continuas_filtro') fab6ContFiltro.value = true;
-    else if ( x === 'fab6_bobinaje_filtro' ) fab6BobFiltro.value = true;
+    if ( result === 'fab6_preparacion_filtro' ) fab6PrepFiltro.value = true;
+    else if (  result === 'fab6_continuas_filtro') fab6ContFiltro.value = true;
+    else if ( result === 'fab6_bobinaje_filtro' ) fab6BobFiltro.value = true;
 
-    if ( x === 'fab9_preparacion_filtro' ) fab9PrepFiltro.value = true;
-    else if ( x === 'fab9_open_end_filtro' ) fab9OpenEndFiltro.value = true;
+    if ( result === 'fab9_preparacion_filtro' ) fab9PrepFiltro.value = true;
+    else if ( result === 'fab9_open_end_filtro' ) fab9OpenEndFiltro.value = true;
 };
 
 watchEffect(updateOpciones);
 
+async function fetchData() {
+    try {
+        const lastIndex = result.lastIndexOf('_');
+        const dato = result.substring(0, lastIndex);
+        const response = await axios.get(`${server}:1880/filtroNow`, {
+            params: { filtro: dato },
+        });
+        if (response.data) {
+            console.log(response.data);
+            mediciones = response.data.mediciones;
+            datos = response.data.datos;
+            datosGral = response.data;
+            loading.value = false;
+        }
+    } catch (error) {
+        console.error('Error fetching Carrier Data: ', error);
+        loading.value = false;
+    }
+}
+
+async function interactWithSVG() {
+    await nexTick();
+    if (mapFiltro.value && mapFiltro.value.svgRef) {
+        const svg = mapFiltro.value.svgRef;
+        svg.querySelector('#filtro').textContent = result;
+
+        mediciones.forEach((medicion) => {
+            const element = svg.querySelector(`#${medicion}`);
+            if(element) {
+                console.log(element);
+            }
+        });
+    }
+}
+
+onMounted(async () => {
+await fetchData();
+
+
+});
 
 </script>
 

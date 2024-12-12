@@ -5,6 +5,7 @@
                 <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
                 <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
             </div>
+            <TituloInstalacion :instalacion="instalacion" />
             <ClimaExterior />
             <LoginButtom class="login-buttom" @click = "clickLogin" />
         </div>
@@ -17,6 +18,7 @@
 </template>
 
 <script setup>
+import TituloInstalacion from '@/components/icons/TituloInstalacion.vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
@@ -40,7 +42,13 @@ const clickLogin = () => {
 
 const route = useRoute();
 let result = Object.values(route.query).join("");
+const firstIndex = result.indexOf('_');
+const lastIndex = result.lastIndexOf('_');
+const fabrica = `Fábrica ${result.substring(firstIndex, 3, lastIndex)}`;
+//console.log(fabrica);
+const dato = result.substring(firstIndex + 1 , lastIndex);
+const instalacion = `${fabrica} ${dato}`;
 
-document.title = `Ojo de Halcón - ${result}`;
+document.title = `Ojo de Halcón - ${instalacion}`;
 
 </script>
