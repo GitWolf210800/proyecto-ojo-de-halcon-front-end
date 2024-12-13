@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="59.368mm"
-    height="7.2519999mm"
-    viewBox="0 0 59.367999 7.2519998"
+    width="99.377686mm"
+    height="6.7910357mm"
+    viewBox="0 0 99.377684 6.7910356"
     version="1.1"
     id="svg167313"
     xmlns="http://www.w3.org/2000/svg"
@@ -13,14 +13,14 @@
       <rect
         x="309.71277"
         y="272.94321"
-        width="106.74944"
-        height="16.540918"
+        width="178.09976"
+        height="15.996286"
         id="rect43-5"
       />
     </defs>
     <g
       id="layer1"
-      transform="matrix(0.64359744,0,0,0.75611351,-13.402846,-8.0201475)"
+      transform="matrix(0.64359744,0,0,0.75611351,-13.402912,-8.0202135)"
     >
       <text
         xml:space="preserve"
@@ -49,7 +49,7 @@
         "
       >
         <tspan x="309.71289" y="283.86186" id="titulo_instalacion">
-          Título Instalagión
+          Título Instalagión Instalagión
         </tspan>
       </text>
     </g>
@@ -68,6 +68,7 @@ const props = defineProps({
 });
 
 onMounted(() => {
-  svgRef.value.querySelector("#titulo_instalacion").textContent = props.instalacion;
+  svgRef.value.querySelector("#titulo_instalacion").textContent =
+    props.instalacion;
 });
 </script>

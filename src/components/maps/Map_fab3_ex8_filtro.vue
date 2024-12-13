@@ -4683,7 +4683,7 @@
       />
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-141.72655,-68.555165)"
+        transform="matrix(0.26458333,0,0,0.26458333,-154.41678,-74.698847)"
         id="text1877-8-8-4"
         style="
           font-style: normal;
@@ -4708,7 +4708,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan41058">V342</tspan>
+        <tspan x="994.19141" y="515.2874" id="tspan90371">V342</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4737,7 +4737,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41060">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90373">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4766,7 +4766,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41062">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90375">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4795,7 +4795,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41064">V317</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90377">V317</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4824,7 +4824,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41066">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90379">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4853,7 +4853,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41068">V355</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90381">V355</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4882,7 +4882,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41070">V396</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90383">V396</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4911,7 +4911,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41072">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90385">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4940,7 +4940,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41074">V370</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90387">V370</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4969,11 +4969,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41076">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90389">V000</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-143.07003,-42.342106)"
+        transform="matrix(0.26458333,0,0,0.26458333,-143.37218,-41.334945)"
         id="text1877-8-8-4-0"
         style="
           font-style: normal;
@@ -4998,7 +4998,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41078">V399</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90391">V399</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5027,7 +5027,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41080">V370_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90393">V370_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5056,7 +5056,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41082">V370_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90395">V370_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5085,7 +5085,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41084">V370_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90397">V370_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5114,7 +5114,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan41086">V370_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan90399">V370_P04</tspan>
       </text>
       <rect
         style="
@@ -5512,11 +5512,11 @@
           fill-opacity: 1;
           stroke: #909090;
           stroke-width: 0.05;
-          stroke-opacity: 1;
           stroke-dasharray: none;
+          stroke-opacity: 1;
         "
-        x="118.80798"
-        y="62.070507"
+        x="118.66555"
+        y="62.426594"
         id="text5261"
       >
         <tspan
@@ -5537,11 +5537,11 @@
             fill-opacity: 1;
             stroke: #909090;
             stroke-width: 0.05;
-            stroke-opacity: 1;
             stroke-dasharray: none;
+            stroke-opacity: 1;
           "
-          x="118.80798"
-          y="62.070507"
+          x="118.66555"
+          y="62.426594"
         >
           Bomba Lavador
         </tspan>
@@ -5958,8 +5958,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="122.56779"
-        y="64.431038"
+        x="122.42535"
+        y="64.787125"
         id="bomba_lavador"
       >
         <tspan
@@ -5983,8 +5983,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="122.56779"
-          y="64.431038"
+          x="122.42535"
+          y="64.787125"
         >
           nnn %
         </tspan>
