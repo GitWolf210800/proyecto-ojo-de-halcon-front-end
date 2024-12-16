@@ -65,7 +65,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref, watchEffect } from 'vue';
+import { computed, onMounted, ref, watchEffect } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import axios from "axios";
 
@@ -87,6 +87,7 @@ import Map_fab6_bobinaje_filtro from './maps/Map_fab6_bobinaje_filtro.vue';
 
 import Map_fab9_preparacion_filtro from './maps/Map_fab9_preparacion_filtro.vue';
 import Map_fab9_open_end_filtro from './maps/Map_fab9_open_end_filtro.vue';
+import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { alarmColor, okColor, paroManual, server } from "@/variables";
 //import { server } from '@/variables';
 //import { response } from 'express';
@@ -120,8 +121,9 @@ const parametros = route.query;
 const result = Object.values(parametros).join("");
 
 let mediciones = [];
-let datos = {};
-let datosGral = {};
+const datos = ref(null);
+const datosGral = ref(null);
+let svg = null;
 
 //let result = Object.values(parametros).join("");
 
@@ -150,10 +152,10 @@ async function fetchData() {
             params: { filtro: dato },
         });
         if (response.data) {
-            console.log(response.data);
+            //console.log(response.data);
             mediciones = response.data.mediciones;
-            datos = response.data.datos;
-            datosGral = response.data;
+            datos.value = response.data.datos;
+            datosGral.value = response.data;
             loading.value = false;
         }
     } catch (error) {
@@ -179,8 +181,28 @@ async function interactWithSVG() {
 
 onMounted(async () => {
 await fetchData();
+/*console.log(svg);
+console.log(datosGral.value);*/
+});
 
-
+watchEffect (() => {
+    if (datosGral.value){
+        svg = mapFiltro.value.svgRef;
+        dataColorInfoClima(svg);
+        /*console.log(svg);*/
+        //console.log(datos.value);
+        const datosOn = datos.value; 
+        for(let x in datosOn){
+            if(!x.includes('id_') && datos[x] !== 0){
+                const element = svg.querySelector(`#${x}`);
+                if(element){
+                    console.log(element);
+                    console.log(datosOn[x]);
+                    element.textContent = !Number.isInteger(datosOn[x]) ? datosOn[x].toFixed(1) : datosOn[x] ;
+                }
+            }
+        }
+    }
 });
 
 </script>
@@ -189,5 +211,14 @@ await fetchData();
 .loading {
   color: #fff;
   display: flex;
+}
+
+.container__map {
+  padding-top: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
 }
 </style>

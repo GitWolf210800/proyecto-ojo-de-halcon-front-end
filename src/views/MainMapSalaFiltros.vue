@@ -15,6 +15,13 @@
         <MapFiltroClima />
     </div>
 
+    <footer>
+        <div class="footer__nav">
+            <EyeHawkIconVersion />
+            <LogoTipoitiFooter />
+        </div>
+    </footer>
+
 </template>
 
 <script setup>

@@ -1,10 +1,17 @@
+//import { useHomeClimaStore } from '@/stores/homeClimaStore';
+import { useDataHomeClima } from '@/components/componsables/useHomeClima';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { alarmColor, alertColor, neutroColor, offlineColor, okColor, tempHotExt, tempMhotExt, tempoColdExt, tempOkExt } from '@/variables';
 
-export const dataColorInfoClima = (svg) => {
+export const dataColorInfoClima = async (svg) => {
 
     const svgStore = svg;
-    const storeData = (useHomeClimaStore()).datos;
+    let storeData = (useHomeClimaStore()).datos;
+    
+    if (!storeData){
+      await useDataHomeClima();
+      storeData = (useHomeClimaStore()).datos;
+    };
     const dataClima = storeData.clima;
     const nombresClima = storeData.nombresClima;
     //const ultimaVez = svgStore.querySelector('#ultimaVez');
@@ -165,7 +172,7 @@ export const dataColorInfoClima = (svg) => {
       }
     }
   } catch {
-    console.warn(`error en: ${nombresClima[i]}`);
+    //console.warn(`error en: ${nombresClima[i]}`);
   }
 }
 
