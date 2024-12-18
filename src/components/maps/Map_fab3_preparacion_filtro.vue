@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="288.26596mm"
-    height="190.10791mm"
-    viewBox="0 0 288.26596 190.10791"
+    width="288.16595mm"
+    height="190.00792mm"
+    viewBox="0 0 288.16595 190.00792"
     version="1.1"
     id="svg557"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -34,6 +34,7 @@
         x2="296.83026"
         y2="27.203335"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -43,6 +44,7 @@
         x2="167.5321"
         y2="142.17026"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -52,6 +54,7 @@
         x2="163.90359"
         y2="142.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -61,6 +64,7 @@
         x2="305.69861"
         y2="29.203333"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -70,6 +74,7 @@
         x2="307.69861"
         y2="27.203333"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -79,6 +84,7 @@
         x2="304.8486"
         y2="69.320129"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -88,6 +94,7 @@
         x2="308.8486"
         y2="69.320129"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -97,6 +104,7 @@
         x2="307.8486"
         y2="44.51173"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -106,6 +114,7 @@
         x2="305.8486"
         y2="45.51173"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -115,6 +124,7 @@
         x2="163.90359"
         y2="144.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -124,6 +134,7 @@
         x2="37.487499"
         y2="111.27938"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -133,6 +144,7 @@
         x2="108.1057"
         y2="120.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -142,6 +154,7 @@
         x2="124.1019"
         y2="122.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -151,6 +164,7 @@
         x2="124.2519"
         y2="118.40292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -160,6 +174,7 @@
         x2="124.2519"
         y2="123.40292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -169,6 +184,7 @@
         x2="127.16898"
         y2="117.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -178,6 +194,7 @@
         x2="127.2519"
         y2="118.40292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -187,6 +204,7 @@
         x2="127.16898"
         y2="118.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -196,6 +214,7 @@
         x2="124.7519"
         y2="122.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -205,6 +224,7 @@
         x2="124.7519"
         y2="123.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -214,6 +234,7 @@
         x2="126.66898"
         y2="122.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -223,6 +244,7 @@
         x2="126.66898"
         y2="123.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -232,6 +254,7 @@
         x2="64.703133"
         y2="117.90065"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -241,6 +264,7 @@
         x2="64.786049"
         y2="118.40065"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -250,6 +274,7 @@
         x2="64.703133"
         y2="118.90065"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -259,6 +284,7 @@
         x2="65.645401"
         y2="122.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -268,6 +294,7 @@
         x2="65.645401"
         y2="123.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -277,6 +304,7 @@
         x2="63.728317"
         y2="123.40292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -286,6 +314,7 @@
         x2="124.1019"
         y2="118.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -295,6 +324,7 @@
         x2="124.1019"
         y2="123.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -304,6 +334,7 @@
         x2="106.9557"
         y2="122.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -313,6 +344,7 @@
         x2="117.02255"
         y2="92.914986"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -322,6 +354,7 @@
         x2="115.9557"
         y2="117.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -331,6 +364,7 @@
         x2="124.1019"
         y2="117.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -340,6 +374,7 @@
         x2="107.1057"
         y2="120.90292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -349,6 +384,7 @@
         x2="107.58986"
         y2="113.68968"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -358,6 +394,7 @@
         x2="110.59527"
         y2="106.60497"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -367,6 +404,7 @@
         x2="107.1057"
         y2="112.02664"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -376,6 +414,7 @@
         x2="107.58986"
         y2="101.69415"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -385,6 +424,7 @@
         x2="108.1057"
         y2="100.05192"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -394,6 +434,7 @@
         x2="107.1057"
         y2="104.53693"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -403,6 +444,7 @@
         x2="108.1057"
         y2="104.53693"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -412,6 +454,7 @@
         x2="108.1057"
         y2="112.02671"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -421,6 +464,7 @@
         x2="108.1057"
         y2="116.9213"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -430,6 +474,7 @@
         x2="107.1057"
         y2="116.9213"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -439,6 +484,7 @@
         x2="107.1057"
         y2="100.05192"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -448,6 +494,7 @@
         x2="186.87549"
         y2="91.42511"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -457,6 +504,7 @@
         x2="184.86252"
         y2="90.42511"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -466,6 +514,7 @@
         x2="216.41022"
         y2="11.985291"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -475,6 +524,7 @@
         x2="216.41022"
         y2="25.866091"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -484,6 +534,7 @@
         x2="220.64156"
         y2="23.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -493,6 +544,7 @@
         x2="220.64156"
         y2="23.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -502,6 +554,7 @@
         x2="234.49773"
         y2="10.260755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -511,6 +564,7 @@
         x2="236.43771"
         y2="9.7607546"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -520,6 +574,7 @@
         x2="234.34772"
         y2="10.010755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -529,6 +584,7 @@
         x2="234.49773"
         y2="24.213551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -538,6 +594,7 @@
         x2="234.49773"
         y2="21.785547"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -547,6 +604,7 @@
         x2="236.43488"
         y2="22.24955"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -556,6 +614,7 @@
         x2="236.43771"
         y2="23.713551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -565,6 +624,7 @@
         x2="234.34772"
         y2="22.035547"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -574,6 +634,7 @@
         x2="234.34772"
         y2="23.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -583,6 +644,7 @@
         x2="220.64436"
         y2="21.998135"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -592,6 +654,7 @@
         x2="220.64426"
         y2="10.046752"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -601,6 +664,7 @@
         x2="167.5321"
         y2="21.299353"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -610,6 +674,7 @@
         x2="163.90393"
         y2="23.99955"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -619,6 +684,7 @@
         x2="163.90359"
         y2="22.035547"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -628,6 +694,7 @@
         x2="163.92"
         y2="10.046752"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -637,6 +704,7 @@
         x2="184.71252"
         y2="23.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -646,6 +714,7 @@
         x2="184.71252"
         y2="21.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -655,6 +724,7 @@
         x2="204.78009"
         y2="21.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -664,6 +734,7 @@
         x2="204.78009"
         y2="23.963551"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -673,6 +744,7 @@
         x2="184.86252"
         y2="15.987153"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -682,6 +754,7 @@
         x2="186.87549"
         y2="15.987153"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -691,6 +764,7 @@
         x2="204.78009"
         y2="10.010755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -700,6 +774,7 @@
         x2="184.71252"
         y2="10.010755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -709,6 +784,7 @@
         x2="216.41022"
         y2="39.81889"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -718,6 +794,7 @@
         x2="220.64156"
         y2="37.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -727,6 +804,7 @@
         x2="220.64156"
         y2="37.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -736,6 +814,7 @@
         x2="234.49773"
         y2="38.166348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -745,6 +824,7 @@
         x2="234.49773"
         y2="35.738342"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -754,6 +834,7 @@
         x2="236.43488"
         y2="36.202347"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -763,6 +844,7 @@
         x2="236.43771"
         y2="37.666348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -772,6 +854,7 @@
         x2="234.34772"
         y2="35.988342"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -781,6 +864,7 @@
         x2="234.34772"
         y2="37.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -790,6 +874,7 @@
         x2="220.64436"
         y2="35.950932"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -799,6 +884,7 @@
         x2="167.5321"
         y2="35.252148"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -808,6 +894,7 @@
         x2="163.90393"
         y2="37.952347"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -817,6 +904,7 @@
         x2="163.90359"
         y2="35.988342"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -826,6 +914,7 @@
         x2="184.71252"
         y2="37.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -835,6 +924,7 @@
         x2="184.71252"
         y2="35.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -844,6 +934,7 @@
         x2="204.78009"
         y2="35.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -853,6 +944,7 @@
         x2="204.78009"
         y2="37.916348"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -862,6 +954,7 @@
         x2="184.86252"
         y2="29.939949"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -871,6 +964,7 @@
         x2="186.87549"
         y2="29.939949"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -880,6 +974,7 @@
         x2="76.101318"
         y2="12.020891"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -889,6 +984,7 @@
         x2="74.101318"
         y2="12.020891"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -898,6 +994,7 @@
         x2="39.482655"
         y2="53.5299"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -907,6 +1004,7 @@
         x2="75.986107"
         y2="19.328907"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -916,6 +1014,7 @@
         x2="79.136108"
         y2="17.326487"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -925,6 +1024,7 @@
         x2="85.57386"
         y2="12.020891"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -934,6 +1034,7 @@
         x2="83.57386"
         y2="12.020891"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -943,6 +1044,7 @@
         x2="85.458649"
         y2="19.328907"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -952,6 +1054,7 @@
         x2="88.608643"
         y2="17.326487"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -961,6 +1064,7 @@
         x2="83.458649"
         y2="21.260494"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -970,6 +1074,7 @@
         x2="80.872383"
         y2="25.349401"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -979,6 +1084,7 @@
         x2="78.872383"
         y2="25.349401"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -988,6 +1094,7 @@
         x2="101.05037"
         y2="27.438307"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -997,6 +1104,7 @@
         x2="78.722382"
         y2="23.260494"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1006,6 +1114,7 @@
         x2="85.60865"
         y2="21.294701"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1015,6 +1124,7 @@
         x2="83.60865"
         y2="20.294701"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1024,6 +1134,7 @@
         x2="74.136108"
         y2="21.294701"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1033,6 +1144,7 @@
         x2="76.136108"
         y2="20.294701"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1042,6 +1154,7 @@
         x2="85.458649"
         y2="23.260494"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1051,6 +1164,7 @@
         x2="53.038826"
         y2="27.4349"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1060,6 +1174,7 @@
         x2="53.188828"
         y2="23.852358"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1069,6 +1184,7 @@
         x2="57.05949"
         y2="20.269815"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1078,6 +1194,7 @@
         x2="57.026569"
         y2="22.269815"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1087,6 +1204,7 @@
         x2="57.026569"
         y2="34.147785"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1096,6 +1214,7 @@
         x2="55.176571"
         y2="28.208799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1105,6 +1224,7 @@
         x2="53.188828"
         y2="32.792759"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1114,6 +1234,7 @@
         x2="60.688"
         y2="19.509613"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1123,6 +1244,7 @@
         x2="60.688"
         y2="33.387585"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1132,6 +1254,7 @@
         x2="57.026569"
         y2="36.147785"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1141,6 +1264,7 @@
         x2="65.294319"
         y2="23.852358"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1150,6 +1274,7 @@
         x2="63.294315"
         y2="28.210217"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1159,6 +1284,7 @@
         x2="65.294319"
         y2="32.792759"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1168,6 +1294,7 @@
         x2="65.144318"
         y2="36.147785"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1177,6 +1304,7 @@
         x2="63.144314"
         y2="34.147785"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1186,6 +1314,7 @@
         x2="65.144318"
         y2="20.269815"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1195,6 +1324,7 @@
         x2="63.144314"
         y2="22.269815"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1204,6 +1334,7 @@
         x2="53.038826"
         y2="29.4349"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1213,6 +1344,7 @@
         x2="101.05037"
         y2="29.4349"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1222,6 +1354,7 @@
         x2="78.722382"
         y2="27.438307"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1231,6 +1364,7 @@
         x2="34.711597"
         y2="12.017485"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1240,6 +1374,7 @@
         x2="32.711597"
         y2="12.017485"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1249,6 +1384,7 @@
         x2="44.184135"
         y2="12.017485"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1258,6 +1394,7 @@
         x2="42.184135"
         y2="12.017485"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1267,6 +1404,7 @@
         x2="42.068924"
         y2="21.25709"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1276,6 +1414,7 @@
         x2="39.482655"
         y2="25.345995"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1285,6 +1424,7 @@
         x2="37.482655"
         y2="25.345995"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1294,6 +1434,7 @@
         x2="37.332653"
         y2="23.25709"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1303,6 +1444,7 @@
         x2="44.218925"
         y2="21.291296"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1312,6 +1454,7 @@
         x2="42.218925"
         y2="20.291296"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1321,6 +1464,7 @@
         x2="32.746387"
         y2="21.291296"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1330,6 +1474,7 @@
         x2="34.746387"
         y2="20.291296"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1339,6 +1484,7 @@
         x2="44.068924"
         y2="23.25709"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1348,6 +1494,7 @@
         x2="47.218922"
         y2="17.327927"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1357,6 +1504,7 @@
         x2="37.746384"
         y2="17.327927"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1366,6 +1514,7 @@
         x2="37.487499"
         y2="86.184387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1375,6 +1524,7 @@
         x2="107.1057"
         y2="87.613586"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1384,6 +1534,7 @@
         x2="108.1057"
         y2="81.990288"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1393,6 +1544,7 @@
         x2="108.1057"
         y2="87.591309"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1402,6 +1554,7 @@
         x2="108.1057"
         y2="80.292511"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1411,6 +1564,7 @@
         x2="116.1057"
         y2="87.569023"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1420,6 +1574,7 @@
         x2="117.1057"
         y2="87.569023"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1429,6 +1584,7 @@
         x2="116.1057"
         y2="81.945549"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1438,6 +1594,7 @@
         x2="117.1057"
         y2="82.445549"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1447,6 +1604,7 @@
         x2="116.1057"
         y2="80.25071"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1456,6 +1614,7 @@
         x2="117.1057"
         y2="80.75071"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1465,6 +1624,7 @@
         x2="110.4557"
         y2="78.633591"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1474,6 +1634,7 @@
         x2="110.4557"
         y2="79.627365"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1483,6 +1644,7 @@
         x2="115.9557"
         y2="79.588676"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1492,6 +1654,7 @@
         x2="117.6057"
         y2="84.478355"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1501,6 +1664,7 @@
         x2="112.4557"
         y2="77.127365"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1510,6 +1674,7 @@
         x2="105.6057"
         y2="84.522919"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1519,6 +1684,7 @@
         x2="102.30037"
         y2="49.855366"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1528,6 +1694,7 @@
         x2="104.68994"
         y2="59.856472"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1537,6 +1704,7 @@
         x2="102.20037"
         y2="54.101536"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1546,6 +1714,7 @@
         x2="101.20038"
         y2="54.101418"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1555,6 +1724,7 @@
         x2="102.20037"
         y2="48.258923"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1564,6 +1734,7 @@
         x2="101.20037"
         y2="48.258923"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1573,6 +1744,7 @@
         x2="102.20037"
         y2="61.560032"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1582,6 +1754,7 @@
         x2="102.70037"
         y2="64.642776"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1591,6 +1764,7 @@
         x2="102.20037"
         y2="62.465553"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1600,6 +1774,7 @@
         x2="101.20037"
         y2="62.237438"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1609,6 +1784,7 @@
         x2="107.1057"
         y2="78.090454"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1618,6 +1794,7 @@
         x2="101.20037"
         y2="69.650383"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1627,6 +1804,7 @@
         x2="106.9557"
         y2="73.15799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1636,6 +1814,7 @@
         x2="106.9557"
         y2="72.15799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1645,6 +1824,7 @@
         x2="102.20037"
         y2="69.150383"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1654,6 +1834,7 @@
         x2="107.1057"
         y2="59.410236"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1663,6 +1844,7 @@
         x2="108.1057"
         y2="75.89579"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1672,6 +1854,7 @@
         x2="108.1057"
         y2="52.276535"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1681,6 +1864,7 @@
         x2="108.1057"
         y2="67.871559"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1690,6 +1874,7 @@
         x2="112.4557"
         y2="62.085133"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1699,6 +1884,7 @@
         x2="116.88704"
         y2="68.185677"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1708,6 +1894,7 @@
         x2="119.23704"
         y2="75.461884"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1717,6 +1904,7 @@
         x2="119.23704"
         y2="60.909466"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1726,6 +1914,7 @@
         x2="119.38704"
         y2="68.185677"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1735,6 +1924,7 @@
         x2="116.73704"
         y2="62.585133"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1744,6 +1934,7 @@
         x2="116.73704"
         y2="63.585133"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1753,6 +1944,7 @@
         x2="116.73704"
         y2="73.15799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1762,6 +1954,7 @@
         x2="110.4557"
         y2="73.15799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1771,6 +1964,7 @@
         x2="110.4557"
         y2="72.15799"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1780,6 +1974,7 @@
         x2="110.4557"
         y2="63.585133"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1789,6 +1984,7 @@
         x2="110.4557"
         y2="62.585133"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1798,6 +1994,7 @@
         x2="122.61172"
         y2="48.017727"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1807,6 +2004,7 @@
         x2="129.71512"
         y2="48.017727"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1816,6 +2014,7 @@
         x2="128.56512"
         y2="48.372971"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1825,6 +2024,7 @@
         x2="128.71512"
         y2="47.517727"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1834,6 +2034,7 @@
         x2="123.61172"
         y2="47.517727"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1843,6 +2044,7 @@
         x2="125.51343"
         y2="49.372971"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1852,6 +2054,7 @@
         x2="129.56512"
         y2="49.372971"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1861,6 +2064,7 @@
         x2="129.153"
         y2="59.533195"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1870,6 +2074,7 @@
         x2="126.66343"
         y2="52.1987"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1879,6 +2084,7 @@
         x2="125.66344"
         y2="52.198582"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1888,6 +2094,7 @@
         x2="126.66343"
         y2="62.534698"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1897,6 +2104,7 @@
         x2="125.66343"
         y2="69.798752"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1906,6 +2114,7 @@
         x2="125.51343"
         y2="78.582443"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1915,6 +2124,7 @@
         x2="126.51343"
         y2="79.588676"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1924,6 +2134,7 @@
         x2="126.66343"
         y2="72.324806"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1933,6 +2144,7 @@
         x2="134.04921"
         y2="65.060936"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1942,6 +2154,7 @@
         x2="133.04921"
         y2="64.060936"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1951,6 +2164,7 @@
         x2="134.1992"
         y2="55.86171"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1960,6 +2174,7 @@
         x2="133.1992"
         y2="55.36171"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1969,6 +2184,7 @@
         x2="167.5321"
         y2="132.69093"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1978,6 +2194,7 @@
         x2="163.90359"
         y2="133.45453"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1987,6 +2204,7 @@
         x2="163.90359"
         y2="135.45453"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -1996,6 +2214,7 @@
         x2="167.5321"
         y2="151.4487"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2005,6 +2224,7 @@
         x2="163.90359"
         y2="152.21231"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2014,6 +2234,7 @@
         x2="163.90359"
         y2="154.21231"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2023,6 +2244,7 @@
         x2="174.31"
         y2="139.1942"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2032,6 +2254,7 @@
         x2="174.15999"
         y2="135.45453"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2041,6 +2264,7 @@
         x2="176.15999"
         y2="133.45453"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2050,6 +2274,7 @@
         x2="174.31"
         y2="148.57309"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2059,6 +2284,7 @@
         x2="174.15999"
         y2="152.21231"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2068,6 +2294,7 @@
         x2="176.1407"
         y2="154.21231"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2077,6 +2304,7 @@
         x2="174.15999"
         y2="142.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2086,6 +2314,7 @@
         x2="174.15999"
         y2="144.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2095,6 +2324,7 @@
         x2="176.2907"
         y2="149.57309"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2104,6 +2334,7 @@
         x2="176.31"
         y2="138.1942"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2113,6 +2344,7 @@
         x2="186.72549"
         y2="144.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2122,6 +2354,7 @@
         x2="184.71252"
         y2="142.93387"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2131,6 +2364,7 @@
         x2="39.487499"
         y2="105.53971"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2140,6 +2374,7 @@
         x2="39.487499"
         y2="139.1942"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2149,6 +2384,7 @@
         x2="39.487499"
         y2="148.57309"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2158,6 +2394,7 @@
         x2="131.10831"
         y2="166.43242"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2167,6 +2404,7 @@
         x2="131.10831"
         y2="180.31322"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2176,6 +2414,7 @@
         x2="138.15758"
         y2="166.11243"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2185,6 +2424,7 @@
         x2="136.15758"
         y2="170.47028"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2194,6 +2434,7 @@
         x2="138.00757"
         y2="178.41068"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2203,6 +2444,7 @@
         x2="136.00757"
         y2="176.41068"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2212,6 +2454,7 @@
         x2="136.00757"
         y2="164.52988"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2221,6 +2464,7 @@
         x2="138.00757"
         y2="162.52988"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2230,6 +2474,7 @@
         x2="116.56864"
         y2="169.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2239,6 +2484,7 @@
         x2="116.71864"
         y2="166.11243"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2248,6 +2494,7 @@
         x2="120.55639"
         y2="178.41068"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2257,6 +2504,7 @@
         x2="120.58931"
         y2="162.52988"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2266,6 +2514,7 @@
         x2="120.55639"
         y2="164.52988"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2275,6 +2524,7 @@
         x2="120.55639"
         y2="176.40785"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2284,6 +2534,7 @@
         x2="118.70639"
         y2="170.46886"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2293,6 +2544,7 @@
         x2="138.15758"
         y2="175.05283"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2302,6 +2554,7 @@
         x2="116.71864"
         y2="175.05283"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2311,6 +2564,7 @@
         x2="282.50204"
         y2="187.81618"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2320,6 +2574,7 @@
         x2="258.35205"
         y2="183.81618"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2329,6 +2584,7 @@
         x2="282.36856"
         y2="157.89165"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2338,6 +2594,7 @@
         x2="258.21857"
         y2="153.89165"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2347,6 +2604,7 @@
         x2="258.21857"
         y2="155.89165"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2356,6 +2614,7 @@
         x2="293.00949"
         y2="153.89165"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2365,6 +2624,7 @@
         x2="293.15948"
         y2="161.7933"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2374,6 +2634,7 @@
         x2="291.00949"
         y2="155.89165"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2383,6 +2644,7 @@
         x2="267.04959"
         y2="165.95291"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2392,6 +2654,7 @@
         x2="276.26001"
         y2="167.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2401,6 +2664,7 @@
         x2="250.51797"
         y2="166.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2410,6 +2674,7 @@
         x2="250.36798"
         y2="165.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2419,6 +2684,7 @@
         x2="246.56226"
         y2="166.8506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2428,6 +2694,7 @@
         x2="250.36823"
         y2="167.8506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2437,6 +2704,7 @@
         x2="249.74013"
         y2="170.10226"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2446,6 +2714,7 @@
         x2="247.34012"
         y2="170.09895"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2455,6 +2724,7 @@
         x2="250.35861"
         y2="172.3506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2464,6 +2734,7 @@
         x2="247.19012"
         y2="172.3506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2473,6 +2744,7 @@
         x2="250.50861"
         y2="172.95061"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2482,6 +2754,7 @@
         x2="246.55132"
         y2="172.95061"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2491,6 +2764,7 @@
         x2="250.35861"
         y2="173.5506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2500,6 +2774,7 @@
         x2="250.47923"
         y2="174.5506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2509,6 +2784,7 @@
         x2="248.00056"
         y2="174.5506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2518,6 +2794,7 @@
         x2="259.12778"
         y2="169.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2527,6 +2804,7 @@
         x2="259.16678"
         y2="167.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2536,6 +2814,7 @@
         x2="278.41"
         y2="173.83504"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2545,6 +2824,7 @@
         x2="276.26001"
         y2="169.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2554,6 +2834,7 @@
         x2="276.41"
         y2="173.83504"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2563,6 +2844,7 @@
         x2="276.41"
         y2="164.87279"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2572,6 +2854,7 @@
         x2="278.41"
         y2="165.87279"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2581,6 +2864,7 @@
         x2="248.87996"
         y2="175.5506"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2590,6 +2874,7 @@
         x2="293.00949"
         y2="171.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2599,6 +2884,7 @@
         x2="229.52715"
         y2="161.7933"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2608,6 +2894,7 @@
         x2="231.52715"
         y2="162.7933"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2617,6 +2904,7 @@
         x2="258.35205"
         y2="185.81618"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2626,6 +2914,7 @@
         x2="229.52715"
         y2="178.75557"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2635,6 +2924,7 @@
         x2="231.52715"
         y2="176.75557"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2644,6 +2934,7 @@
         x2="305.69861"
         y2="169.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2653,6 +2944,7 @@
         x2="291.15948"
         y2="169.85391"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2662,6 +2954,7 @@
         x2="291.00949"
         y2="183.81618"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2671,6 +2964,7 @@
         x2="293.00949"
         y2="185.81618"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2680,6 +2974,7 @@
         x2="307.69861"
         y2="171.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2689,6 +2984,7 @@
         x2="293.15948"
         y2="178.75557"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2698,6 +2994,7 @@
         x2="229.37715"
         y2="171.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2707,6 +3004,7 @@
         x2="229.37715"
         y2="169.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2716,6 +3014,7 @@
         x2="307.8486"
         y2="124.25755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2725,6 +3024,7 @@
         x2="305.8486"
         y2="123.25755"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2734,6 +3034,7 @@
         x2="308.69861"
         y2="76.820129"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2743,6 +3044,7 @@
         x2="308.69861"
         y2="61.820129"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2752,6 +3054,7 @@
         x2="113.97178"
         y2="169.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2761,6 +3064,7 @@
         x2="39.487499"
         y2="161.95364"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2770,6 +3074,7 @@
         x2="37.487499"
         y2="158.31441"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2779,6 +3084,7 @@
         x2="116.56864"
         y2="171.69496"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2788,6 +3094,7 @@
         x2="98.105698"
         y2="42.953629"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2797,6 +3104,7 @@
         x2="117.6057"
         y2="102.44415"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2806,6 +3114,7 @@
         x2="116.1057"
         y2="100.05192"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2815,6 +3124,7 @@
         x2="117.1057"
         y2="100.05192"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2824,6 +3134,7 @@
         x2="117.1057"
         y2="110.92353"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2833,6 +3144,7 @@
         x2="116.1057"
         y2="110.92353"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2842,6 +3154,7 @@
         x2="236.43488"
         y2="8.2967529"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2851,6 +3164,7 @@
         x2="75.951317"
         y2="8.7128735"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2860,6 +3174,7 @@
         x2="75.081955"
         y2="6.9407315"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2869,6 +3184,7 @@
         x2="77.081955"
         y2="6.9407315"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2878,6 +3194,7 @@
         x2="85.423859"
         y2="8.7128735"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2887,6 +3204,7 @@
         x2="84.554497"
         y2="6.9407315"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2896,6 +3214,7 @@
         x2="86.554497"
         y2="6.9407315"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2905,6 +3224,7 @@
         x2="34.561596"
         y2="8.7094679"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2914,6 +3234,7 @@
         x2="44.034134"
         y2="8.7094679"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2923,6 +3244,7 @@
         x2="220.64156"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2932,6 +3254,7 @@
         x2="220.64156"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2941,6 +3264,7 @@
         x2="234.49773"
         y2="7.8327508"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2950,6 +3274,7 @@
         x2="234.34772"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2959,6 +3284,7 @@
         x2="167.54817"
         y2="7.3465562"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2968,6 +3294,7 @@
         x2="163.91966"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2977,6 +3304,7 @@
         x2="182.63318"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2986,6 +3314,7 @@
         x2="204.78009"
         y2="8.0827503"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2995,6 +3324,7 @@
         x2="76.951317"
         y2="5.1685896"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3004,6 +3334,7 @@
         x2="86.423859"
         y2="5.1685896"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3013,6 +3344,7 @@
         x2="43.164768"
         y2="6.4373264"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3022,6 +3354,7 @@
         x2="45.164768"
         y2="6.4373264"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3031,6 +3364,7 @@
         x2="45.034134"
         y2="8.2094679"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3040,6 +3374,7 @@
         x2="33.69223"
         y2="6.4373264"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3049,6 +3384,7 @@
         x2="35.69223"
         y2="6.4373264"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -3058,6 +3394,7 @@
         x2="35.561596"
         y2="8.2094679"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(0.09999989,0.10000019)"
       />
       <rect
         x="994.19214"
@@ -3299,7 +3636,7 @@
       stroke="#000000"
       stroke-width="0.3"
       id="g557"
-      transform="translate(-20.582663,-1.8582644)"
+      transform="translate(-20.682663,-1.9582646)"
     >
       <path
         d="m 236.33167,46.079392 60.34859,6.86e-4 V 8.3265873 h -60.34859 z"
@@ -5908,15 +6245,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.47428241;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198701">VM30</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6067">VM30</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5937,15 +6274,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-9);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.47428241;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198703">VM31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6069">VM31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5966,15 +6303,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-99);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.47428241;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198705">VM35</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6071">VM35</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5995,15 +6332,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-94);
           display: inline;
-          fill: #00ffff;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 1.13386;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198707">VM36</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6073">VM36</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6024,15 +6361,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-2);
           display: inline;
-          fill: #00ffff;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 1.13386;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198709">VM37</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6075">VM37</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6053,15 +6390,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-7);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.47428241;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198711">VM40</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6077">VM40</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6082,15 +6419,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-62-7-29);
           display: inline;
-          fill: #33ff20;
+          fill: #f4fff3;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.47428241;
+          stroke: #ffffff;
+          stroke-width: 0.474282;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198713">VM39</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6079">VM39</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6111,15 +6448,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198715">V301</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6081">V301</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6140,15 +6477,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-3);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198717">V302</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6083">V302</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6169,15 +6506,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-7);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198719">V303</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6085">V303</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6198,15 +6535,15 @@
           white-space: pre;
           shape-inside: url(#rect1877);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198721">V333</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6087">V333</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6227,15 +6564,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-9);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #fefffd;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198723">V332</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6089">V332</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6256,15 +6593,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-1);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198725">V360</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6091">V360</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6285,15 +6622,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-3);
           display: inline;
-          fill: #33ff20;
+          fill: #fcfffc;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198727">V361</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6093">V361</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6314,15 +6651,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-6);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198729">V352</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6095">V352</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6343,15 +6680,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-5);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198731">V351</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6097">V351</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6372,15 +6709,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-4);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198733">V350</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6099">V350</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6401,15 +6738,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-3-5);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198735">V372</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6101">V372</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6430,15 +6767,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-3-6);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198737">V31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6103">V31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6459,15 +6796,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198739">V372_P08</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6105">V372_P08</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6488,15 +6825,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-3);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198741">V372_P07</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6107">V372_P07</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6517,15 +6854,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-9);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198743">V372_P10</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6109">V372_P10</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6546,15 +6883,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-7);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198745">V372_P09</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6111">V372_P09</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6575,15 +6912,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-38);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198747">V372_P12</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6113">V372_P12</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6604,15 +6941,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-8);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198749">V372_P11</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6115">V372_P11</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6633,15 +6970,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-76);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198751">V372_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6117">V372_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6662,15 +6999,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-6);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #fefffd;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198753">V372_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6119">V372_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6691,24 +7028,26 @@
           white-space: pre;
           shape-inside: url(#rect1877-11-0-74);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198755">V372_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6121">V372_P01</tspan>
       </text>
       <g
         id="g1"
         transform="translate(82.365376,-1.5653628)"
         style="
+          fill: #ffffff;
+          fill-opacity: 1;
           stroke-width: 0.1;
           stroke-dasharray: none;
-          fill: #33ff20;
-          fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-opacity: 1;
         "
       >
         <text
@@ -6730,25 +7069,27 @@
             white-space: pre;
             shape-inside: url(#rect1877-11-0-5);
             display: inline;
-            fill: #33ff20;
+            fill: #ffffff;
             fill-opacity: 1;
-            stroke: #33ff20;
-            stroke-width: 0.37795276;
+            stroke: #ffffff;
+            stroke-width: 0.377953;
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan198757">V372_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan6123">V372_P04</tspan>
         </text>
       </g>
       <g
         id="g1-2"
         transform="translate(82.522005,12.154907)"
         style="
+          fill: #ffffff;
+          fill-opacity: 1;
           stroke-width: 0.1;
           stroke-dasharray: none;
-          fill: #33ff20;
-          fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-opacity: 1;
         "
       >
         <text
@@ -6770,25 +7111,27 @@
             white-space: pre;
             shape-inside: url(#rect1877-11-0-0);
             display: inline;
-            fill: #33ff20;
+            fill: #ffffff;
             fill-opacity: 1;
-            stroke: #33ff20;
-            stroke-width: 0.37795276;
+            stroke: #ffffff;
+            stroke-width: 0.377953;
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan198759">V372_P05</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan6125">V372_P05</tspan>
         </text>
       </g>
       <g
         id="g1-1"
         transform="translate(82.591897,26.323843)"
         style="
+          fill: #ffffff;
+          fill-opacity: 1;
           stroke-width: 0.1;
           stroke-dasharray: none;
-          fill: #33ff20;
-          fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-opacity: 1;
         "
       >
         <text
@@ -6810,15 +7153,15 @@
             white-space: pre;
             shape-inside: url(#rect1877-11-0-54);
             display: inline;
-            fill: #33ff20;
+            fill: #ffffff;
             fill-opacity: 1;
-            stroke: #33ff20;
-            stroke-width: 0.37795276;
+            stroke: #ffffff;
+            stroke-width: 0.377953;
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan198761">V372_P06</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan6127">V372_P06</tspan>
         </text>
       </g>
       <text
@@ -6840,15 +7183,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-3-1);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
-          stroke-width: 0.37795276;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan198763">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan6129">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7548,7 +7891,7 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="87.781616"
+        x="139.47319"
         y="169.0627"
         id="text5261-49-9"
       >
@@ -7573,10 +7916,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="87.781616"
+          x="139.47319"
           y="169.0627"
         >
-          Ventiladores
+          Presión Ventilador
         </tspan>
       </text>
       <text
@@ -7600,7 +7943,7 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="89.519554"
+        x="146.34647"
         y="165.18791"
         id="ventilador"
       >
@@ -7625,7 +7968,7 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="89.519554"
+          x="146.34647"
           y="165.18791"
         >
           nnnn.n Pa
@@ -7756,110 +8099,6 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="237.32928"
-        y="153.27356"
-        id="text5261-49-9-5-0-5"
-      >
-        <tspan
-          id="tspan5259-7-7-0-2-0"
-          style="
-            font-style: normal;
-            font-variant: normal;
-            font-weight: bold;
-            font-stretch: normal;
-            font-size: 4.23333px;
-            font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-variant-east-asian: normal;
-            fill: #f4f4f4;
-            fill-opacity: 1;
-            stroke: #909090;
-            stroke-width: 0.05;
-            stroke-dasharray: none;
-            stroke-opacity: 1;
-          "
-          x="237.32928"
-          y="153.27356"
-        >
-          carro
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 4.23333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fbfb16;
-          fill-opacity: 1;
-          stroke: #cbc341;
-          stroke-width: 0.05;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        x="249.34067"
-        y="153.22154"
-        id="carro"
-      >
-        <tspan
-          id="tspan164145"
-          style="
-            font-style: normal;
-            font-variant: normal;
-            font-weight: bold;
-            font-stretch: normal;
-            font-size: 4.23333px;
-            font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-variant-east-asian: normal;
-            fill: #fbfb16;
-            fill-opacity: 1;
-            stroke: #cbc341;
-            stroke-width: 0.05;
-            stroke-dasharray: none;
-            stroke-opacity: 1;
-          "
-          x="249.34067"
-          y="153.22154"
-        >
-          nnn
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 4.23333px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #f4f4f4;
-          fill-opacity: 1;
-          stroke: #909090;
-          stroke-width: 0.05;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
         x="231.53937"
         y="164.46823"
         id="text5261-49-9-5-0"
@@ -7943,6 +8182,115 @@
           nnnn.n Pa
         </tspan>
       </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 3.52778px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="236.04257"
+        y="181.3347"
+        id="filtro_ventilador"
+      >
+        <tspan
+          id="tspan164143-7"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 3.52778px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="236.04257"
+          y="181.3347"
+        >
+          nnn.n Pa
+        </tspan>
+      </text>
+      <path
+        style="
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #aaaaaa;
+          stroke-width: 0.0486372;
+          stroke-opacity: 1;
+        "
+        d="m 241.66097,178.29821 h 2.47537 l -1.23769,-2.06904 z"
+        id="path128725"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 2.82222px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #aaaaaa;
+          stroke-width: 0.1;
+          stroke-opacity: 1;
+        "
+        x="244.09125"
+        y="178.20897"
+        id="text129162"
+      >
+        <tspan
+          id="tspan129160"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 2.82222px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 0.1;
+          "
+          x="244.09125"
+          y="178.20897"
+        >
+          P
+        </tspan>
+      </text>
     </g>
     <rect
       style="
@@ -7957,8 +8305,8 @@
       id="fab3_peinadorasE65_clima_hum_color"
       width="22.487587"
       height="4.2404823"
-      x="233.81589"
-      y="33.929684"
+      x="233.71588"
+      y="33.829685"
     />
     <rect
       style="
@@ -7973,8 +8321,8 @@
       id="fab3_peinadorasE65_clima_temp_color"
       width="22.487587"
       height="4.2404823"
-      x="233.81534"
-      y="29.689163"
+      x="233.71533"
+      y="29.589163"
     />
     <text
       xml:space="preserve"
@@ -7998,23 +8346,23 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="201.52922"
-      y="38.080349"
+      x="201.44301"
+      y="37.964352"
       id="climaTmanFab3"
       transform="scale(1.1599545,0.86210278)"
     >
       <tspan
         id="fab3_peinadorasE65_clima_temp_text"
-        x="201.52922"
-        y="38.080349"
+        x="201.44301"
+        y="37.964352"
         style="stroke-width: 0.225109"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_peinadorasE65_clima_hum_text"
-        x="201.52922"
-        y="43.699238"
+        x="201.44301"
+        y="43.583241"
         style="stroke-width: 0.225109"
       >
         nn% H.r
@@ -8042,15 +8390,15 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="230.08501"
-      y="29.427097"
+      x="229.98663"
+      y="29.325441"
       id="manuarTextFab3"
       transform="scale(1.0165509,0.98371858)"
     >
       <tspan
         id="tspan3660"
-        x="230.08501"
-        y="29.427097"
+        x="229.98663"
+        y="29.325441"
         style="stroke-width: 0.0672793"
       >
         Peinadoras E65
@@ -8067,8 +8415,8 @@
       id="fab3_peinadorasE65_clima_temp_g"
       width="22.450546"
       height="4.1903491"
-      x="233.83029"
-      y="29.705181"
+      x="233.73029"
+      y="29.605181"
     />
     <rect
       style="
@@ -8081,8 +8429,8 @@
       id="fab3_peinadorasE65_clima_hum_g"
       width="22.450546"
       height="4.1903491"
-      x="233.82896"
-      y="33.970425"
+      x="233.72896"
+      y="33.870426"
     />
     <rect
       style="
@@ -8097,8 +8445,8 @@
       id="fab3_peinadorasE65_clima_humAbs_color"
       width="22.492144"
       height="3.0529597"
-      x="233.813"
-      y="38.168362"
+      x="233.713"
+      y="38.068363"
     />
     <text
       xml:space="preserve"
@@ -8122,15 +8470,15 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="160.41669"
-      y="59.465111"
+      x="160.34888"
+      y="59.317635"
       id="fab3_peinadorasE65_clima_humAbs_text"
       transform="scale(1.4747729,0.6780705)"
     >
       <tspan
         id="climaETpeiFab3-6"
-        x="160.41669"
-        y="59.465111"
+        x="160.34888"
+        y="59.317635"
         style="
           font-style: normal;
           font-variant: normal;
@@ -8149,8 +8497,8 @@
         nn g/kg
       </tspan>
       <tspan
-        x="160.41669"
-        y="63.468952"
+        x="160.34888"
+        y="63.321476"
         id="humPeiFab3-9-2"
         style="
           font-style: normal;
@@ -8179,8 +8527,8 @@
       id="fab3_peinadorasE65_clima_humAbs_g"
       width="22.455091"
       height="3.0168653"
-      x="233.82475"
-      y="38.192402"
+      x="233.72475"
+      y="38.092403"
     />
     <rect
       style="
@@ -8195,8 +8543,8 @@
       id="fab3_c50_clima_hum_color"
       width="23.962048"
       height="4.4018154"
-      x="248.22308"
-      y="15.874313"
+      x="248.12308"
+      y="15.774313"
     />
     <rect
       style="
@@ -8211,8 +8559,8 @@
       id="fab3_c50_clima_temp_color"
       width="23.962048"
       height="4.4018154"
-      x="248.22253"
-      y="11.472451"
+      x="248.12253"
+      y="11.372451"
     />
     <text
       xml:space="preserve"
@@ -8236,23 +8584,23 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="211.2244"
-      y="17.551891"
+      x="211.13925"
+      y="17.434441"
       id="climaTcardasFab3"
       transform="scale(1.1745087,0.85141983)"
     >
       <tspan
         id="fab3_c50_clima_temp_text"
-        x="211.2244"
-        y="17.551891"
+        x="211.13925"
+        y="17.434441"
         style="stroke-width: 0.236611"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_c50_clima_hum_text"
-        x="211.2244"
-        y="23.457911"
+        x="211.13925"
+        y="23.34046"
         style="stroke-width: 0.236611"
       >
         nn% H.r
@@ -8280,15 +8628,15 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="243.78644"
-      y="11.332527"
+      x="243.68935"
+      y="11.229533"
       id="cardasTextFab3"
       transform="scale(1.0299389,0.97093139)"
     >
       <tspan
         id="tspan4331"
-        x="243.78644"
-        y="11.332527"
+        x="243.68935"
+        y="11.229533"
         style="stroke-width: 0.0707592"
       >
         Cardas C50
@@ -8305,8 +8653,8 @@
       id="fab3_c50_clima_temp_g"
       width="23.922579"
       height="4.3497744"
-      x="248.38083"
-      y="11.347555"
+      x="248.28082"
+      y="11.247555"
     />
     <rect
       style="
@@ -8319,8 +8667,8 @@
       id="fab3_c50_clima_hum_g"
       width="23.922579"
       height="4.3286781"
-      x="248.23924"
-      y="15.913793"
+      x="248.13924"
+      y="15.813792"
     />
     <rect
       style="
@@ -8335,8 +8683,8 @@
       id="fab3_c50_clima_humAbs_color"
       width="23.967939"
       height="2.9505036"
-      x="248.21951"
-      y="20.273863"
+      x="248.11951"
+      y="20.173862"
     />
     <text
       xml:space="preserve"
@@ -8360,15 +8708,15 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="161.31116"
-      y="34.828938"
+      x="161.2469"
+      y="34.673309"
       id="fab3_c50_clima_humAbs_text"
       transform="scale(1.5562608,0.64256582)"
     >
       <tspan
         id="climaETpeiFab3-6-0"
-        x="161.31116"
-        y="34.828938"
+        x="161.2469"
+        y="34.673309"
         style="
           font-style: normal;
           font-variant: normal;
@@ -8387,8 +8735,8 @@
         nn g/kg
       </tspan>
       <tspan
-        x="161.31116"
-        y="38.773811"
+        x="161.2469"
+        y="38.618183"
         id="humPeiFab3-9-2-0"
         style="
           font-style: normal;
@@ -8417,8 +8765,8 @@
       id="fab3_c50_clima_humAbs_g"
       width="23.928457"
       height="2.9156213"
-      x="248.23277"
-      y="20.296032"
+      x="248.13277"
+      y="20.196032"
     />
     <rect
       style="
@@ -8433,8 +8781,8 @@
       id="fab3_mecheras_clima_hum_color"
       width="23.264666"
       height="4.3025551"
-      x="219.09883"
-      y="15.72602"
+      x="218.99883"
+      y="15.626019"
     />
     <rect
       style="
@@ -8449,8 +8797,8 @@
       id="fab3_mecheras_clima_temp_color"
       width="23.264666"
       height="4.3025551"
-      x="219.09828"
-      y="11.423408"
+      x="218.99828"
+      y="11.323407"
     />
     <text
       xml:space="preserve"
@@ -8474,23 +8822,23 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="187.4765"
-      y="17.069561"
+      x="187.39091"
+      y="16.952721"
       id="climaTmecheraFab3"
       transform="scale(1.1684021,0.85586973)"
     >
       <tspan
         id="fab3_mecheras_clima_temp_text"
-        x="187.4765"
-        y="17.069561"
+        x="187.39091"
+        y="16.952721"
         style="stroke-width: 0.230084"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_mecheras_clima_hum_text"
-        x="187.4765"
-        y="22.812635"
+        x="187.39091"
+        y="22.695795"
         style="stroke-width: 0.230084"
       >
         nn% H.r
@@ -8518,15 +8866,15 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="187.06236"
-      y="13.13622"
+      x="186.97781"
+      y="13.017945"
       id="mecheraTextFab3"
       transform="scale(1.1827458,0.84549022)"
     >
       <tspan
         id="tspan4242"
-        x="187.06236"
-        y="13.13622"
+        x="186.97781"
+        y="13.017945"
         style="stroke-width: 0.0790746"
       >
         Mecheras
@@ -8543,8 +8891,8 @@
       id="fab3_mecheras_clima_temp_g"
       width="23.226343"
       height="4.2516875"
-      x="219.11443"
-      y="11.439075"
+      x="219.01442"
+      y="11.339075"
     />
     <rect
       style="
@@ -8557,8 +8905,8 @@
       id="fab3_mecheras_clima_hum_g"
       width="23.226343"
       height="4.2516875"
-      x="219.11996"
-      y="15.75862"
+      x="219.01996"
+      y="15.65862"
     />
     <rect
       style="
@@ -8573,8 +8921,8 @@
       id="fab3_mecheras_clima_humAbs_color"
       width="23.268978"
       height="3.1829617"
-      x="219.09607"
-      y="20.026876"
+      x="218.99606"
+      y="19.926876"
     />
     <text
       xml:space="preserve"
@@ -8598,15 +8946,15 @@
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="152.76007"
-      y="32.601879"
+      x="152.6913"
+      y="32.456455"
       id="fab3_mecheras_clima_humAbs_text"
       transform="scale(1.4542452,0.68764195)"
     >
       <tspan
         id="climaETpeiFab3-6-4"
-        x="152.76007"
-        y="32.601879"
+        x="152.6913"
+        y="32.456455"
         style="
           font-style: normal;
           font-variant: normal;
@@ -8625,8 +8973,8 @@
         nn g/kg
       </tspan>
       <tspan
-        x="152.76007"
-        y="36.689823"
+        x="152.6913"
+        y="36.544399"
         id="humPeiFab3-9-2-9"
         style="
           font-style: normal;
@@ -8655,8 +9003,8 @@
       id="fab3_mecheras_clima_humAbs_g"
       width="23.230646"
       height="3.1453307"
-      x="219.10832"
-      y="20.051771"
+      x="219.00832"
+      y="19.951771"
     />
   </svg>
 </template>

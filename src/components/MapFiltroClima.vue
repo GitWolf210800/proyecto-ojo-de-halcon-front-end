@@ -191,14 +191,23 @@ watchEffect (() => {
         dataColorInfoClima(svg);
         /*console.log(svg);*/
         //console.log(datos.value);
-        const datosOn = datos.value; 
+        const datosOn = datos.value;
+        const paramertrosMediciones = datosGral.value.parametros_mediciones === '""' ? `` : datosGral.value.parametros_mediciones;
+        //console.log(paramertrosMediciones);
+        //console.log(datosOn);
         for(let x in datosOn){
             if(!x.includes('id_') && datos[x] !== 0){
                 const element = svg.querySelector(`#${x}`);
                 if(element){
-                    console.log(element);
-                    console.log(datosOn[x]);
-                    element.textContent = !Number.isInteger(datosOn[x]) ? datosOn[x].toFixed(1) : datosOn[x] ;
+                    const medicion = paramertrosMediciones.find(objeto => objeto.medicion === x);
+                    //console.log(x, medicion);
+                    const unidadMedida = medicion.unidad_medida;
+                    const colorMedicion = medicion.medicion_color;
+                    element.style.fill = colorMedicion;
+                    element.style.stroke = colorMedicion;
+
+                    //element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)}` : `${datosOn[x]}` ;
+                    element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)} ${unidadMedida}` : `${datosOn[x]} ${unidadMedida}` ;
                 }
             }
         }

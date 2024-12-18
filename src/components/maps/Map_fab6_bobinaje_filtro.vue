@@ -5848,15 +5848,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-0);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19301">V610</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4239">V610</tspan>
       </text>
       <g
         id="g2"
@@ -5864,8 +5864,10 @@
         style="
           stroke-width: 0.1;
           stroke-dasharray: none;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-opacity: 1;
         "
       >
         <text
@@ -5887,25 +5889,27 @@
             white-space: pre;
             shape-inside: url(#rect1877-39);
             display: inline;
-            fill: #33ff20;
+            fill: #ffffff;
             fill-opacity: 1;
-            stroke: #33ff20;
+            stroke: #ffffff;
             stroke-width: 0.377953;
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan19303">V653</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan4241">V653</tspan>
         </text>
       </g>
       <g
         id="g1-9"
         transform="translate(-91.888526,20.274095)"
         style="
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
           stroke-width: 0.1;
           stroke-dasharray: none;
+          stroke: #ffffff;
+          stroke-opacity: 1;
         "
       >
         <text
@@ -5927,15 +5931,15 @@
             white-space: pre;
             shape-inside: url(#rect1877-39-9);
             display: inline;
-            fill: #33ff20;
+            fill: #ffffff;
             fill-opacity: 1;
-            stroke: #33ff20;
+            stroke: #ffffff;
             stroke-width: 0.377953;
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan19305">V652</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan4243">V652</tspan>
         </text>
       </g>
       <path
@@ -5992,15 +5996,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-97-1);
           display: inline;
-          fill: #33ff20;
+          fill: #f5fff4;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19307">V642</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4245">V642</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6021,15 +6025,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-74);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19309">VG54_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4247">VG54_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6050,15 +6054,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-76);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19311">V464</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4249">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6079,15 +6083,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-6-8);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19313">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4251">VG54_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6108,15 +6112,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-6);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19315">VG54_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4253">VG54_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6137,15 +6141,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-6-9);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #fefffd;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19317">VG54_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4255">VG54_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6166,15 +6170,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-6-6);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19319">VG54_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4257">VG54_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6195,15 +6199,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19321">V655</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4259">V655</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6224,15 +6228,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-5);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #ffffff;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19323">V656</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4261">V656</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6253,15 +6257,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-0);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #fbfffa;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19325">V654</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4263">V654</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6282,15 +6286,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-1-4);
           display: inline;
-          fill: #33ff20;
+          fill: #ffffff;
           fill-opacity: 1;
-          stroke: #33ff20;
+          stroke: #f8fff7;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan19327">V657</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan4265">V657</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6342,110 +6346,6 @@
           y="179.21257"
         >
           Filtro Rotativo
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 4.93889px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #fbfb16;
-          fill-opacity: 1;
-          stroke: #cbc341;
-          stroke-width: 0.05;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        x="141.10689"
-        y="73.981979"
-        id="bomba_aspersores"
-      >
-        <tspan
-          id="tspan5259-74-9"
-          style="
-            font-style: normal;
-            font-variant: normal;
-            font-weight: bold;
-            font-stretch: normal;
-            font-size: 4.93889px;
-            font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-variant-east-asian: normal;
-            fill: #fbfb16;
-            fill-opacity: 1;
-            stroke: #cbc341;
-            stroke-width: 0.05;
-            stroke-dasharray: none;
-            stroke-opacity: 1;
-          "
-          x="141.10689"
-          y="73.981979"
-        >
-          nnn %
-        </tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 2.82222px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #f4f4f4;
-          fill-opacity: 1;
-          stroke: #909090;
-          stroke-width: 0.05;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-        x="134.1622"
-        y="77.046135"
-        id="text5261-8"
-      >
-        <tspan
-          id="tspan5259-8"
-          style="
-            font-style: normal;
-            font-variant: normal;
-            font-weight: bold;
-            font-stretch: normal;
-            font-size: 2.82222px;
-            font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-variant-east-asian: normal;
-            fill: #f4f4f4;
-            fill-opacity: 1;
-            stroke: #909090;
-            stroke-width: 0.05;
-            stroke-dasharray: none;
-            stroke-opacity: 1;
-          "
-          x="134.1622"
-          y="77.046135"
-        >
-          Bomba Aspersores
         </tspan>
       </text>
       <text
@@ -6990,7 +6890,7 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="138.63756"
+        x="185.07141"
         y="194.37094"
         id="text5261-49-9"
       >
@@ -7015,10 +6915,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="138.63756"
+          x="185.07141"
           y="194.37094"
         >
-          Ventiladores
+          Presión Ventilador
         </tspan>
       </text>
       <text
@@ -7042,7 +6942,7 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="140.37549"
+        x="191.98941"
         y="190.49615"
         id="ventilador"
       >
@@ -7067,7 +6967,7 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="140.37549"
+          x="191.98941"
           y="190.49615"
         >
           nnnn.n Pa
@@ -7383,6 +7283,115 @@
           y="209.71117"
         >
           nnnn.n Pa
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 3.52778px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="292.89749"
+        y="197.59775"
+        id="filtro_ventilador"
+      >
+        <tspan
+          id="tspan164143-7"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 3.52778px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="292.89749"
+          y="197.59775"
+        >
+          nnn.n Pa
+        </tspan>
+      </text>
+      <path
+        style="
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #aaaaaa;
+          stroke-width: 0.0486372;
+          stroke-opacity: 1;
+        "
+        d="m 298.5159,194.56126 h 2.47537 l -1.23769,-2.06904 z"
+        id="path128725"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 2.82222px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #aaaaaa;
+          stroke-width: 0.1;
+          stroke-opacity: 1;
+        "
+        x="300.9462"
+        y="194.47202"
+        id="text129162"
+      >
+        <tspan
+          id="tspan129160"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 2.82222px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 0.1;
+          "
+          x="300.9462"
+          y="194.47202"
+        >
+          P
         </tspan>
       </text>
     </g>
