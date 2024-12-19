@@ -1,4 +1,4 @@
-# ojoDeHalcon - express - back-end - Version 3.6
+# ojoDeHalcon - express - back-end - Version 3.7
 
 **Ojo de Halcón** es una aplicación web full-stack desarrollada para Tipoiti S.A.T.I.C. en el Departamento de Innovación y Desarrollo. El proyecto está orientado a la visualización y monitoreo de sistemas industriales en tiempo real.
 
@@ -23,7 +23,15 @@
 
 ## Historial de versiones
 
-### v3.6 (Última actualización)
+### v3.8 (Ultima Actualización)
+- **Agregado de funciones al front-end**
+- Se agrega la vista de salas de filtro-clima en la app
+
+## v3.7
+- **componentizacion de funciones propias**
+- Se componentizo todo tipo de funciones que habia en express.js, para seguir con los principios de Vue.js
+
+### v3.6
 - **Frontend:** Se incorpora **Vue.js 3** como nueva tecnología para el frontend, mejorando la gestión de la interfaz de usuario y permitiendo una mayor escalabilidad en la app.
 - Se independiza **Express.js** como backend, delegando la interfaz de usuario a Vue.js 3.
 - Se adapta el código de **Express.js** para que las API funcionen correctamente con **Vue.js**, eliminando toda funcionalidad del frontend en **Express.js**.
