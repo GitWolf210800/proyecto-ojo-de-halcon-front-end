@@ -27,7 +27,7 @@
 - **Agregado de funciones al front-end**
 - Se agrega la vista de salas de filtro-clima en la app
 
-## v3.7
+### v3.7
 - **componentizacion de funciones propias**
 - Se componentizo todo tipo de funciones que habia en express.js, para seguir con los principios de Vue.js
 
