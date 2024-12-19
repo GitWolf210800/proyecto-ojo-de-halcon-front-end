@@ -12,7 +12,7 @@
 - **HTML5**
 - **CSS3**
 - **SVG** (gráficos en XML, diseño realizado con InkScape)
-- **JavaScript** (para la lógica en el cliente)
+- **JavaScript** 
 - **Chart.js** (para gráficos interactivos)
 - **Vue.js 3** (para la gestión del frontend en la versión más reciente de la aplicación)
 
