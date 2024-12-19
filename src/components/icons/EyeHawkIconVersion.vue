@@ -27,7 +27,7 @@
          style="stroke-width:0"
          x="38.326813"
          y="31.202715"
-         id="tspan29633">Ojo de Halcón V3.7</tspan></text>
+         id="tspan29633">Ojo de Halcón V3.8</tspan></text>
   </g>
 </svg>
  <!-- </div> -->
