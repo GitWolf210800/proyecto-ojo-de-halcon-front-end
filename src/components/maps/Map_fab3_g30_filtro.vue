@@ -4667,8 +4667,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="134.88625"
-        y="58.814739"
+        x="133.35681"
+        y="60.483219"
         id="bomba_aspersores"
       >
         <tspan
@@ -4692,8 +4692,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="134.88625"
-          y="58.814739"
+          x="133.35681"
+          y="60.483219"
         >
           nnn %
         </tspan>
@@ -4719,8 +4719,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="129.08922"
-        y="61.636013"
+        x="127.55978"
+        y="63.304493"
         id="text5261-8"
       >
         <tspan
@@ -4744,8 +4744,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="129.08922"
-          y="61.636013"
+          x="127.55978"
+          y="63.304493"
         >
           Bomba Aspersores
         </tspan>
@@ -5100,7 +5100,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 3.52778px;
+          font-size: 2.82222px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5114,8 +5114,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="200.33949"
-        y="11.816874"
+        x="216.74622"
+        y="39.763901"
         id="text5261-49-9-2"
       >
         <tspan
@@ -5125,7 +5125,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52778px;
+            font-size: 2.82222px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5139,8 +5139,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="200.33949"
-          y="11.816874"
+          x="216.74622"
+          y="39.763901"
         >
           Ventiladores
         </tspan>
@@ -5150,7 +5150,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52778px;
+            font-size: 2.82222px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5164,8 +5164,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="200.33949"
-          y="14.462711"
+          x="216.74622"
+          y="42.409737"
           id="tspan6979"
         >
           Introducción
@@ -5193,7 +5193,7 @@
           stroke-opacity: 1;
         "
         x="254.22649"
-        y="135.64049"
+        y="137.41017"
         id="text5261-49-9-5"
       >
         <tspan
@@ -5218,7 +5218,7 @@
             stroke-opacity: 1;
           "
           x="254.22649"
-          y="135.64049"
+          y="137.41017"
         >
           Filtro Rotativo
         </tspan>
@@ -5244,8 +5244,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="81.637314"
-        y="60.117382"
+        x="81.91539"
+        y="60.81258"
         id="text5261"
       >
         <tspan
@@ -5269,8 +5269,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="81.637314"
-          y="60.117382"
+          x="81.91539"
+          y="60.81258"
         >
           Bomba Lavador
         </tspan>
@@ -5296,8 +5296,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="84.659027"
-        y="57.58617"
+        x="84.937103"
+        y="58.281368"
         id="bomba_lavador"
       >
         <tspan
@@ -5321,8 +5321,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="84.659027"
-          y="57.58617"
+          x="84.937103"
+          y="58.281368"
         >
           nnn %
         </tspan>
@@ -5348,8 +5348,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="83.540436"
-        y="84.847443"
+        x="83.818512"
+        y="83.039925"
         id="temperatura_entrada_lavador"
       >
         <tspan
@@ -5373,8 +5373,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="83.540436"
-          y="84.847443"
+          x="83.818512"
+          y="83.039925"
         >
           nnn.n °C
         </tspan>
@@ -5400,8 +5400,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="88.031021"
-        y="87.748283"
+        x="88.309097"
+        y="85.940765"
         id="text5261-0"
       >
         <tspan
@@ -5425,8 +5425,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="88.031021"
-          y="87.748283"
+          x="88.309097"
+          y="85.940765"
         >
           Entrada
         </tspan>
@@ -5504,8 +5504,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="123.35699"
-        y="88.168587"
+        x="123.15018"
+        y="87.681206"
         id="text5261-0-8-4"
         transform="rotate(-0.20545451)"
       >
@@ -5530,8 +5530,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="123.35699"
-          y="88.168587"
+          x="123.15018"
+          y="87.681206"
         >
           Salida
         </tspan>
@@ -5557,8 +5557,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="119.85307"
-        y="101.0887"
+        x="118.46268"
+        y="102.8267"
         id="temperatura_entrada_agua_fria"
       >
         <tspan
@@ -5582,8 +5582,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="119.85307"
-          y="101.0887"
+          x="118.46268"
+          y="102.8267"
         >
           nnn.n °C
         </tspan>
@@ -5595,7 +5595,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 2.82222px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5620,7 +5620,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 2.82222222px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5661,8 +5661,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="130.15717"
-        y="111.00755"
+        x="122.64901"
+        y="113.57979"
         id="bomba_agua_fria"
       >
         <tspan
@@ -5686,8 +5686,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="130.15717"
-          y="111.00755"
+          x="122.64901"
+          y="113.57979"
         >
           nnn %
         </tspan>
@@ -5699,7 +5699,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 2.82222px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5713,8 +5713,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="119.58152"
-        y="114.79631"
+        x="118.46921"
+        y="116.60383"
         id="text5261-8-7"
       >
         <tspan
@@ -5724,7 +5724,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 2.82222px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5738,8 +5738,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="119.58152"
-          y="114.79631"
+          x="118.46921"
+          y="116.60383"
         >
           Bomba Agua Fria
         </tspan>
@@ -5751,7 +5751,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 2.82222px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5765,8 +5765,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="231.47169"
-        y="159.32336"
+        x="236.06001"
+        y="159.18433"
         id="text5261-49-9-5-0"
       >
         <tspan
@@ -5776,7 +5776,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 2.82222px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5790,8 +5790,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="231.47169"
-          y="159.32336"
+          x="236.06001"
+          y="159.18433"
         >
           succión picos
         </tspan>
@@ -5817,8 +5817,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="233.17395"
-        y="155.16495"
+        x="233.03491"
+        y="155.99919"
         id="picos"
       >
         <tspan
@@ -5842,8 +5842,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="233.17395"
-          y="155.16495"
+          x="233.03491"
+          y="155.99919"
         >
           nnnn.n Pa
         </tspan>
@@ -5897,7 +5897,7 @@
           x="136.65294"
           y="163.94893"
         >
-          Presión Ventilador
+          Ventilador Retorno
         </tspan>
       </text>
       <text
