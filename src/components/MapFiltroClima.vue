@@ -88,7 +88,7 @@ import Map_fab6_bobinaje_filtro from './maps/Map_fab6_bobinaje_filtro.vue';
 import Map_fab9_preparacion_filtro from './maps/Map_fab9_preparacion_filtro.vue';
 import Map_fab9_open_end_filtro from './maps/Map_fab9_open_end_filtro.vue';
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
-import { alarmColor, okColor, paroManual, server } from "@/variables";
+import { alarmColor, alertColor, okColor, paroManual, server } from "@/variables";
 //import { server } from '@/variables';
 //import { response } from 'express';
 
@@ -203,11 +203,19 @@ watchEffect (() => {
                     //console.log(x, medicion);
                     const unidadMedida = medicion.unidad_medida;
                     const colorMedicion = medicion.medicion_color;
-                    element.style.fill = colorMedicion;
-                    element.style.stroke = colorMedicion;
+                    //element.style.fill = colorMedicion;
+                    //element.style.stroke = colorMedicion;
 
                     //element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)}` : `${datosOn[x]}` ;
                     element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)} ${unidadMedida}` : `${datosOn[x]} ${unidadMedida}` ;
+
+                    (datosOn[x] < datosOn[`min_${x}`]) && (datosOn[`min_${x}`] !== 0) 
+                        ? (element.style.fill = alarmColor, element.style.stroke = alarmColor) 
+                        : (element.style.fill = colorMedicion, element.style.stroke = colorMedicion);
+
+                    (datosOn[x] > datosOn[`max_${x}`]) && (datosOn[`max_${x}`] !== 0)
+                        ? (element.style.fill = alarmColor, element.style.stroke = alarmColor) 
+                        : (element.style.fill = colorMedicion, element.style.stroke = colorMedicion);                    
                 }
             }
         }

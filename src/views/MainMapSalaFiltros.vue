@@ -54,6 +54,7 @@ const lastIndex = result.lastIndexOf('_');
 const fabrica = `Fábrica ${result.substring(firstIndex, 3, lastIndex)}`;
 //console.log(fabrica);
 const dato = result.substring(firstIndex + 1 , lastIndex);
+console.log(firstIndex, lastIndex);
 const instalacion = `${fabrica} ${dato}`;
 
 document.title = `Ojo de Halcón - ${instalacion}`;
