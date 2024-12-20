@@ -152,7 +152,6 @@ async function fetchData() {
             params: { filtro: dato },
         });
         if (response.data) {
-            //console.log(response.data);
             mediciones = response.data.mediciones;
             datos.value = response.data.datos;
             datosGral.value = response.data;
@@ -186,36 +185,30 @@ console.log(datosGral.value);*/
 });
 
 watchEffect (() => {
-    if (datosGral.value){
+    if (datosGral.value){           //Una vez que los datos esten listos, empieza a recorrer el grafico
         svg = mapFiltro.value.svgRef;
-        dataColorInfoClima(svg);
-        /*console.log(svg);*/
-        //console.log(datos.value);
-        const datosOn = datos.value;
+        dataColorInfoClima(svg);    //aqui se llama a la funcion para recorrer los items de seccion de clima que tenga
+        
+        const datosOn = datos.value;    //Se toman los datos obtenidos del fetch en una constante
         const paramertrosMediciones = datosGral.value.parametros_mediciones === '""' ? `` : datosGral.value.parametros_mediciones;
-        //console.log(paramertrosMediciones);
-        //console.log(datosOn);
-        for(let x in datosOn){
+
+        for(let x in datosOn){      // Se recorre los datos 
             if(!x.includes('id_') && datos[x] !== 0){
-                const element = svg.querySelector(`#${x}`);
-                if(element){
+                const element = svg.querySelector(`#${x}`); //se busca el elemento de medicion
+                if(element){  // Si el elemento existe en el mapa se inserta el dato del servidor, y se ajustan los estilos a partir del estado del elemento medido 
                     const medicion = paramertrosMediciones.find(objeto => objeto.medicion === x);
-                    //console.log(x, medicion);
                     const unidadMedida = medicion.unidad_medida;
                     const colorMedicion = medicion.medicion_color;
-                    //element.style.fill = colorMedicion;
-                    //element.style.stroke = colorMedicion;
 
-                    //element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)}` : `${datosOn[x]}` ;
                     element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)} ${unidadMedida}` : `${datosOn[x]} ${unidadMedida}` ;
 
-                    if ((datosOn[x] < datosOn[`min_${x}`]) && (datosOn[`min_${x}`] !== 0)){
+                    if ((datosOn[x] < datosOn[`min_${x}`]) && (datosOn[`min_${x}`] !== 0)){ // si la medicion resulta menor al minimo establecido se ejecuta la condicion
                         element.style.fill = alarmColor;
                         element.style.stroke = alarmColor;
-                    } else if ((datosOn[x] > datosOn[`max_${x}`]) && (datosOn[`max_${x}`] !== 0)) {
+                    } else if ((datosOn[x] > datosOn[`max_${x}`]) && (datosOn[`max_${x}`] !== 0)) { // o si la medicion resulta maxor al maximo establecido se ejecuta la condicion
                         element.style.fill = alarmColor;
                         element.style.stroke = alarmColor;
-                    } else {
+                    } else { // si no se ajusta el color que esta seteado en la base de datos
                         element.style.fill = colorMedicion;
                         element.style.stroke = colorMedicion;
                     }                   
