@@ -209,13 +209,16 @@ watchEffect (() => {
                     //element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)}` : `${datosOn[x]}` ;
                     element.textContent = !Number.isInteger(datosOn[x]) ? `${datosOn[x].toFixed(1)} ${unidadMedida}` : `${datosOn[x]} ${unidadMedida}` ;
 
-                    (datosOn[x] < datosOn[`min_${x}`]) && (datosOn[`min_${x}`] !== 0) 
-                        ? (element.style.fill = alarmColor, element.style.stroke = alarmColor) 
-                        : (element.style.fill = colorMedicion, element.style.stroke = colorMedicion);
-
-                    (datosOn[x] > datosOn[`max_${x}`]) && (datosOn[`max_${x}`] !== 0)
-                        ? (element.style.fill = alarmColor, element.style.stroke = alarmColor) 
-                        : (element.style.fill = colorMedicion, element.style.stroke = colorMedicion);                    
+                    if ((datosOn[x] < datosOn[`min_${x}`]) && (datosOn[`min_${x}`] !== 0)){
+                        element.style.fill = alarmColor;
+                        element.style.stroke = alarmColor;
+                    } else if ((datosOn[x] > datosOn[`max_${x}`]) && (datosOn[`max_${x}`] !== 0)) {
+                        element.style.fill = alarmColor;
+                        element.style.stroke = alarmColor;
+                    } else {
+                        element.style.fill = colorMedicion;
+                        element.style.stroke = colorMedicion;
+                    }                   
                 }
             }
         }
