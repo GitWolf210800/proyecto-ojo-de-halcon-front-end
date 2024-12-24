@@ -166,8 +166,6 @@ async function fetchData() {
 function interactWithSVG(svg) {
     //await nexTick();
     if (mapFiltro.value && mapFiltro.value.svgRef) {
-        //const svg = mapFiltro.value.svgRef;
-        //svg.querySelector('#filtro').textContent = result;
         const datosOn = datos.value;    //Se toman los datos obtenidos del fetch en una constante
         const paramertrosMediciones = datosGral.value.parametros_mediciones === '""' ? `` : datosGral.value.parametros_mediciones;
 
@@ -199,8 +197,7 @@ function interactWithSVG(svg) {
 
 onMounted(async () => {
 await fetchData();
-/*console.log(svg);
-console.log(datosGral.value);*/
+
 });
 
 watchEffect (() => {
