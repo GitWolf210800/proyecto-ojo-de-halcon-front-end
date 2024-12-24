@@ -361,6 +361,7 @@
         x2="258.35205"
         y2="178.62518"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(1.5985937,0,0,1,-138.50092,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -370,6 +371,7 @@
         x2="282.36856"
         y2="145.70067"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -388,6 +390,7 @@
         x2="258.21857"
         y2="148.70067"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(1.5313807,0,0,1,-121.88401,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -397,6 +400,7 @@
         x2="258.21857"
         y2="150.70067"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(1.5948041,0,0,1,-137.62407,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -406,6 +410,7 @@
         x2="293.00949"
         y2="148.70067"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(0.51745257,0,0,1,141.39098,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -424,6 +429,7 @@
         x2="291.00949"
         y2="150.70067"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(0.4662646,0,0,1,155.32207,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -442,6 +448,7 @@
         x2="276.26001"
         y2="162.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -451,6 +458,7 @@
         x2="250.51797"
         y2="161.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -460,6 +468,7 @@
         x2="250.36798"
         y2="160.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -469,6 +478,7 @@
         x2="246.56226"
         y2="161.65961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -478,6 +488,7 @@
         x2="250.36823"
         y2="162.65961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -487,6 +498,7 @@
         x2="249.74013"
         y2="164.91125"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -496,6 +508,7 @@
         x2="247.34012"
         y2="164.90794"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -505,6 +518,7 @@
         x2="250.35861"
         y2="167.15961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -514,6 +528,7 @@
         x2="247.19012"
         y2="167.15961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -523,6 +538,7 @@
         x2="250.50861"
         y2="167.75961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -532,6 +548,7 @@
         x2="246.55132"
         y2="167.75961"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -541,6 +558,7 @@
         x2="250.35861"
         y2="168.3596"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -550,6 +568,7 @@
         x2="250.47923"
         y2="169.3596"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -559,6 +578,7 @@
         x2="248.00056"
         y2="169.3596"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -568,6 +588,7 @@
         x2="259.12778"
         y2="164.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -577,6 +598,7 @@
         x2="259.16678"
         y2="162.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -586,6 +608,7 @@
         x2="278.41"
         y2="168.64404"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -595,6 +618,7 @@
         x2="276.26001"
         y2="164.66292"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -604,6 +628,7 @@
         x2="276.41"
         y2="168.64404"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -613,6 +638,7 @@
         x2="276.41"
         y2="159.68179"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -622,6 +648,7 @@
         x2="278.41"
         y2="160.68179"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225386,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -631,6 +658,7 @@
         x2="248.87996"
         y2="170.3596"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(9.9376124,-0.01169806)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -640,6 +668,7 @@
         x2="293.00949"
         y2="166.50397"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(-4.5225393,73.540421)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -685,6 +714,7 @@
         x2="258.35205"
         y2="180.62518"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(1.535421,0,0,1,-122.81334,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -730,6 +760,7 @@
         x2="291.00949"
         y2="178.62518"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(0.46288861,0,0,1,156.30451,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -739,6 +770,7 @@
         x2="293.00949"
         y2="180.62518"
         gradientUnits="userSpaceOnUse"
+        gradientTransform="matrix(0.51520824,0,0,1,142.04859,0)"
       />
       <linearGradient
         xlink:href="#swatch414"
@@ -2731,47 +2763,47 @@
       <path
         id="filtro_aire_2"
         style="stroke: url(#linearGradient465)"
-        d="m 282.35205,178.62518 v 8 m -24,-7 24,7 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 24,6 v -6"
+        d="m 272.41444,178.63688 v 8 m -24,-7 24,7 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 24,6 v -6"
       />
       <line
         x1="231.37715"
         y1="178.62518"
-        x2="258.35205"
+        x2="248.2513"
         y2="178.62518"
         id="line54"
-        style="stroke: url(#linearGradient466)"
+        style="stroke: url(#linearGradient466); stroke-width: 0.237275"
       />
       <line
-        x1="282.21857"
-        y1="148.70067"
-        x2="282.21857"
-        y2="142.70067"
+        x1="272.28098"
+        y1="148.71237"
+        x2="272.28098"
+        y2="142.71237"
         id="line55"
         style="stroke: url(#linearGradient467)"
       />
       <line
         x1="229.3723"
         y1="148.70067"
-        x2="258.21857"
+        x2="248.20908"
         y2="148.70067"
         id="line62"
-        style="stroke: url(#linearGradient474)"
+        style="stroke: url(#linearGradient474); stroke-width: 0.242426"
       />
       <line
         x1="231.37715"
         y1="150.70067"
-        x2="258.21857"
+        x2="248.20769"
         y2="150.70067"
         id="line63"
-        style="stroke: url(#linearGradient475)"
+        style="stroke: url(#linearGradient475); stroke-width: 0.237557"
       />
       <line
         x1="293.00949"
         y1="148.70067"
-        x2="282.21857"
+        x2="272.15555"
         y2="148.70067"
         id="line64"
-        style="stroke: url(#linearGradient476)"
+        style="stroke: url(#linearGradient476); stroke-width: 0.417048"
       />
       <line
         x1="293.00949"
@@ -2784,202 +2816,143 @@
       <line
         x1="291.00949"
         y1="150.70067"
-        x2="282.21857"
+        x2="272.15555"
         y2="150.70067"
         id="line66"
-        style="stroke: url(#linearGradient478)"
+        style="stroke: url(#linearGradient478); stroke-width: 0.439344"
       />
       <path
         id="filtro_aire_1"
         style="stroke: url(#linearGradient473)"
-        d="m 282.21857,148.70067 v 8 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 0,7 24,7"
+        d="m 272.28096,148.71237 v 8 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 0,7 24,7"
       />
       <path
         id="ventilador_1"
         style="stroke: url(#linearGradient481)"
-        d="m 259.62796,161.40678 7.39587,-1.28973 m -7.42181,5.75299 7.39832,1.35976 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77098 4.7709861,4.7709861 0 0 1 -4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77098,4.77099 z"
+        d="m 249.69035,161.41848 7.39587,-1.28973 m -7.42181,5.75299 7.39832,1.35976 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77098 4.7709861,4.7709861 0 0 1 -4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77098,4.77099 z"
       />
       <line
-        x1="276.26001"
-        y1="162.66292"
-        x2="268.4968"
-        y2="162.66292"
-        id="line69"
-        style="stroke: url(#linearGradient482)"
-      />
-      <line
-        x1="250.36798"
-        y1="162.66292"
-        x2="250.36798"
-        y2="160.66292"
+        x1="240.43037"
+        y1="162.67462"
+        x2="240.43037"
+        y2="160.67462"
         id="line70"
         style="stroke: url(#linearGradient483)"
       />
       <line
-        x1="250.36798"
-        y1="160.66292"
-        x2="246.41226"
-        y2="160.66292"
+        x1="240.43037"
+        y1="160.67462"
+        x2="236.47466"
+        y2="160.67462"
         id="line71"
         style="stroke: url(#linearGradient484)"
       />
       <line
-        x1="246.41226"
-        y1="160.66292"
-        x2="246.41226"
-        y2="162.6563"
+        x1="236.47466"
+        y1="160.67462"
+        x2="236.47466"
+        y2="162.668"
         id="line72"
         style="stroke: url(#linearGradient485)"
       />
       <line
-        x1="250.36798"
-        y1="162.66292"
-        x2="246.41226"
-        y2="162.6563"
+        x1="240.43037"
+        y1="162.67462"
+        x2="236.47466"
+        y2="162.668"
         id="line73"
         style="stroke: url(#linearGradient486)"
       />
       <line
-        x1="249.59012"
-        y1="162.66292"
-        x2="249.59012"
-        y2="167.15961"
+        x1="239.65251"
+        y1="162.67462"
+        x2="239.65251"
+        y2="167.1713"
         id="line74"
         style="stroke: url(#linearGradient487)"
       />
       <line
-        x1="247.19012"
-        y1="162.6563"
-        x2="247.19012"
-        y2="167.15961"
+        x1="237.25252"
+        y1="162.668"
+        x2="237.25252"
+        y2="167.1713"
         id="line75"
         style="stroke: url(#linearGradient488)"
       />
       <line
-        x1="249.59012"
-        y1="167.15961"
-        x2="250.35861"
-        y2="167.15961"
+        x1="239.65251"
+        y1="167.1713"
+        x2="240.42101"
+        y2="167.1713"
         id="line76"
         style="stroke: url(#linearGradient489)"
       />
       <line
-        x1="247.19012"
-        y1="167.15961"
-        x2="246.40131"
-        y2="167.15961"
+        x1="237.25252"
+        y1="167.1713"
+        x2="236.4637"
+        y2="167.1713"
         id="line77"
         style="stroke: url(#linearGradient490)"
       />
       <line
-        x1="250.35861"
-        y1="167.15961"
-        x2="250.35861"
-        y2="168.3596"
+        x1="240.42101"
+        y1="167.1713"
+        x2="240.42101"
+        y2="168.37129"
         id="line78"
         style="stroke: url(#linearGradient491)"
       />
       <line
-        x1="246.40131"
-        y1="167.15961"
-        x2="246.40131"
-        y2="168.3596"
+        x1="236.4637"
+        y1="167.1713"
+        x2="236.4637"
+        y2="168.37129"
         id="line79"
         style="stroke: url(#linearGradient492)"
       />
       <line
-        x1="246.40131"
-        y1="168.3596"
-        x2="250.35861"
-        y2="168.3596"
+        x1="236.4637"
+        y1="168.37129"
+        x2="240.42101"
+        y2="168.37129"
         id="line80"
         style="stroke: url(#linearGradient493)"
       />
       <line
-        x1="248.87996"
-        y1="170.3596"
-        x2="250.35861"
-        y2="168.3596"
+        x1="238.94235"
+        y1="170.37129"
+        x2="240.42101"
+        y2="168.37129"
         id="line81"
         style="stroke: url(#linearGradient494)"
       />
       <line
-        x1="247.87996"
-        y1="170.3596"
-        x2="246.40131"
-        y2="168.3596"
+        x1="237.94235"
+        y1="170.37129"
+        x2="236.4637"
+        y2="168.37129"
         id="line82"
         style="stroke: url(#linearGradient495)"
       />
-      <line
-        x1="249.59012"
-        y1="164.66292"
-        x2="259.12778"
-        y2="164.66292"
-        id="line83"
-        style="stroke: url(#linearGradient496)"
-      />
-      <line
-        x1="259.16678"
-        y1="162.66292"
-        x2="249.59012"
-        y2="162.66292"
-        id="line84"
-        style="stroke: url(#linearGradient497)"
-      />
-      <line
-        x1="278.26001"
-        y1="172.62518"
-        x2="278.26001"
-        y2="164.66292"
-        id="line85"
-        style="stroke: url(#linearGradient498)"
-      />
-      <line
-        x1="276.26001"
-        y1="164.66292"
-        x2="268.46786"
-        y2="164.66292"
-        id="line86"
-        style="stroke: url(#linearGradient499)"
-      />
-      <line
-        x1="276.26001"
-        y1="172.62518"
-        x2="276.26001"
-        y2="164.66292"
-        id="line87"
-        style="stroke: url(#linearGradient500)"
-      />
-      <line
-        x1="276.26001"
-        y1="162.66292"
-        x2="276.26001"
-        y2="156.70067"
-        id="line88"
-        style="stroke: url(#linearGradient501)"
-      />
-      <line
-        x1="278.26001"
-        y1="164.66292"
-        x2="278.26001"
-        y2="156.70067"
+      <path
         id="line89"
         style="stroke: url(#linearGradient502)"
+        d="m 268.32241,164.67462 v -7.96225 m -2,5.96225 v -5.96225 m 0,15.92452 v -7.96227 m 0,0 h -7.79214 m 9.79214,7.96227 v -7.96227 m -19.09323,-2 h -9.57667 m 0,2 h 9.53767 m 17.13223,-2 h -7.76321"
       />
       <line
-        x1="247.87996"
-        y1="170.3596"
-        x2="248.87996"
-        y2="170.3596"
+        x1="237.94235"
+        y1="170.37129"
+        x2="238.94235"
+        y2="170.37129"
         id="line90"
         style="stroke: url(#linearGradient503)"
       />
       <line
-        x1="293.00949"
-        y1="166.50397"
-        x2="293.00949"
-        y2="166.50397"
+        x1="297.53204"
+        y1="92.963547"
+        x2="297.53204"
+        y2="92.963547"
         id="line91"
         style="stroke: url(#linearGradient504)"
       />
@@ -3018,10 +2991,10 @@
       <line
         x1="229.37715"
         y1="180.62518"
-        x2="258.35205"
+        x2="248.24812"
         y2="180.62518"
         id="line96"
-        style="stroke: url(#linearGradient509)"
+        style="stroke: url(#linearGradient509); stroke-width: 0.242108"
       />
       <line
         x1="229.37715"
@@ -3058,18 +3031,18 @@
       <line
         x1="291.00949"
         y1="178.62518"
-        x2="282.35205"
+        x2="272.30643"
         y2="178.62518"
         id="line101"
-        style="stroke: url(#linearGradient514)"
+        style="stroke: url(#linearGradient514); stroke-width: 0.440944"
       />
       <line
         x1="293.00949"
         y1="180.62518"
-        x2="282.35205"
+        x2="272.32379"
         y2="180.62518"
         id="line102"
-        style="stroke: url(#linearGradient515)"
+        style="stroke: url(#linearGradient515); stroke-width: 0.417955"
       />
       <line
         x1="293.00949"
@@ -5192,8 +5165,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="254.22649"
-        y="137.41017"
+        x="246.44025"
+        y="138.73105"
         id="text5261-49-9-5"
       >
         <tspan
@@ -5217,8 +5190,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="254.22649"
-          y="137.41017"
+          x="246.44025"
+          y="138.73105"
         >
           Filtro Rotativo
         </tspan>
@@ -5751,7 +5724,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 2.82222px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5765,8 +5738,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="236.06001"
-        y="159.18433"
+        x="272.90558"
+        y="173.99208"
         id="text5261-49-9-5-0"
       >
         <tspan
@@ -5776,7 +5749,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.82222px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5790,8 +5763,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="236.06001"
-          y="159.18433"
+          x="272.90558"
+          y="173.99208"
         >
           succión picos
         </tspan>
@@ -5803,7 +5776,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 4.23333px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -5817,8 +5790,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="233.03491"
-        y="155.99919"
+        x="269.39383"
+        y="171.43262"
         id="picos"
       >
         <tspan
@@ -5828,7 +5801,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 4.23333px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5842,8 +5815,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="233.03491"
-          y="155.99919"
+          x="269.39383"
+          y="171.43262"
         >
           nnnn.n Pa
         </tspan>
@@ -5973,8 +5946,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="259.21484"
-        y="142.00876"
+        x="250.14249"
+        y="142.07828"
         id="text5261-49-9-5-0-5"
       >
         <tspan
@@ -5998,8 +5971,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="259.21484"
-          y="142.00876"
+          x="250.14249"
+          y="142.07828"
         >
           carro
         </tspan>
@@ -6025,8 +5998,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="271.22623"
-        y="141.95674"
+        x="262.15387"
+        y="142.02626"
         id="carro"
       >
         <tspan
@@ -6050,8 +6023,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="271.22623"
-          y="141.95674"
+          x="262.15387"
+          y="142.02626"
         >
           nnn
         </tspan>
@@ -6077,8 +6050,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="258.44263"
-        y="190.08055"
+        x="248.50078"
+        y="190.05597"
         id="text5261-49-9-5-0-5-9"
       >
         <tspan
@@ -6102,8 +6075,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="258.44263"
-          y="190.08055"
+          x="248.50078"
+          y="190.05597"
         >
           carro2
         </tspan>
@@ -6129,8 +6102,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="273.30164"
-        y="190.02853"
+        x="263.3598"
+        y="190.00395"
         id="carro2"
       >
         <tspan
@@ -6154,12 +6127,75 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="273.30164"
-          y="190.02853"
+          x="263.3598"
+          y="190.00395"
         >
           nnn
         </tspan>
       </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 4.23333px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="271.37714"
+        y="161.32135"
+        id="filtro_ventilador"
+      >
+        <tspan
+          id="tspan164143-7"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 4.23333px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="271.37714"
+          y="161.32135"
+        >
+          nnn.n Pa
+        </tspan>
+      </text>
+      <path
+        style="
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #aaaaaa;
+          stroke-width: 0.0453658;
+          stroke-opacity: 1;
+        "
+        d="m 278.43222,158.14605 h 2.13333 l -1.06667,-2.08866 z"
+        id="path128725"
+      />
       <text
         xml:space="preserve"
         style="
@@ -6174,19 +6210,18 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #f4f4f4;
           fill-opacity: 1;
-          stroke: #cbc341;
-          stroke-width: 0.05;
-          stroke-dasharray: none;
+          stroke: #aaaaaa;
+          stroke-width: 0.1;
           stroke-opacity: 1;
         "
-        x="278.37411"
-        y="164.86487"
-        id="filtro_ventilador"
+        x="280.5174"
+        y="158.05402"
+        id="text129162"
       >
         <tspan
-          id="tspan164143-7"
+          id="tspan129160"
           style="
             font-style: normal;
             font-variant: normal;
@@ -6199,72 +6234,10 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
-            fill-opacity: 1;
-            stroke: #cbc341;
-            stroke-width: 0.05;
-            stroke-dasharray: none;
-            stroke-opacity: 1;
-          "
-          x="278.37411"
-          y="164.86487"
-        >
-          nnn.n Pa
-        </tspan>
-      </text>
-      <path
-        style="
-          fill: #f4f4f4;
-          fill-opacity: 1;
-          stroke: #aaaaaa;
-          stroke-width: 0.0616329;
-          stroke-opacity: 1;
-        "
-        d="m 281.68718,162.49765 h 3.12818 l -1.5641,-2.62908 z"
-        id="path128725"
-      />
-      <text
-        xml:space="preserve"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 3.52778px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          fill: #f4f4f4;
-          fill-opacity: 1;
-          stroke: #aaaaaa;
-          stroke-width: 0.1;
-          stroke-opacity: 1;
-        "
-        x="284.78174"
-        y="162.41486"
-        id="text129162"
-      >
-        <tspan
-          id="tspan129160"
-          style="
-            font-style: normal;
-            font-variant: normal;
-            font-weight: bold;
-            font-stretch: normal;
-            font-size: 3.52778px;
-            font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
-            font-variant-ligatures: normal;
-            font-variant-caps: normal;
-            font-variant-numeric: normal;
-            font-variant-east-asian: normal;
             stroke-width: 0.1;
           "
-          x="284.78174"
-          y="162.41486"
+          x="280.5174"
+          y="158.05402"
         >
           P
         </tspan>
