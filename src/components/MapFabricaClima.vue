@@ -57,6 +57,8 @@ const svgStore = useSvgStore();
 const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
 const svgIsLoaded = computed(() => svgStore.svgRef !== null);
 
+//console.log(storeData.value);
+
 // Inicializacion de eventos para rutas
 function routesDireccion(svg) {
   const routesMap = [
@@ -64,12 +66,11 @@ function routesDireccion(svg) {
     createRouterConfig(`#${dato.nombre}Vinf`, '/carrier', dato.nombre)
   ),
 
-  ...storeData.value.filtros
-  .filter((dato) => dato.id_fabrica && dato.id_fabrica.includes('_filtro_clima'))
-  .map((dato) => createRouterConfig(`#${dato.nombre}`, '/salaFiltro', dato.nombre)) 
+  ...storeData.value.salasClima.map((dato) => createRouterConfig(`#${dato}`, '/salaFiltro', dato)) 
+  //.filter((dato) => dato.id_fabrica && dato.id_fabrica.includes('_filtro_clima'))
   ];
 
-  //console.log(routesMap);
+  console.log(routesMap);
 
   /**
    * // Filtramos el array para obtener solo los objetos donde `id_fabrica` incluya "_filtro_clima"

@@ -2564,7 +2564,7 @@
         x2="282.50204"
         y2="187.81618"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(0.09999973,0.09999969)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2574,7 +2574,7 @@
         x2="258.35205"
         y2="183.81618"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(1.6046672,0,0,1,-139.7457,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2584,7 +2584,7 @@
         x2="282.36856"
         y2="157.89165"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(0.09999973,0.09999969)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2594,7 +2594,7 @@
         x2="258.21857"
         y2="153.89165"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(1.5399071,0,0,1,-123.68573,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2604,7 +2604,7 @@
         x2="258.21857"
         y2="155.89165"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(1.603204,0,0,1,-139.40728,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2614,7 +2614,7 @@
         x2="293.00949"
         y2="153.89165"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(0.51465619,0,0,1,142.2618,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2634,7 +2634,7 @@
         x2="291.00949"
         y2="155.89165"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(0.46304482,0,0,1,156.30535,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2644,7 +2644,7 @@
         x2="267.04959"
         y2="165.95291"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(0.09999971,0.09999991)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2654,7 +2654,7 @@
         x2="276.26001"
         y2="167.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2664,7 +2664,7 @@
         x2="250.51797"
         y2="166.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2674,7 +2674,7 @@
         x2="250.36798"
         y2="165.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2684,7 +2684,7 @@
         x2="246.56226"
         y2="166.8506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2694,7 +2694,7 @@
         x2="250.36823"
         y2="167.8506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2704,7 +2704,7 @@
         x2="249.74013"
         y2="170.10226"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2714,7 +2714,7 @@
         x2="247.34012"
         y2="170.09895"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2724,7 +2724,7 @@
         x2="250.35861"
         y2="172.3506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2734,7 +2734,7 @@
         x2="247.19012"
         y2="172.3506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2744,7 +2744,7 @@
         x2="250.50861"
         y2="172.95061"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2754,7 +2754,7 @@
         x2="246.55132"
         y2="172.95061"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2764,7 +2764,7 @@
         x2="250.35861"
         y2="173.5506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2774,7 +2774,7 @@
         x2="250.47923"
         y2="174.5506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2784,7 +2784,7 @@
         x2="248.00056"
         y2="174.5506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2794,7 +2794,7 @@
         x2="259.12778"
         y2="169.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2804,7 +2804,7 @@
         x2="259.16678"
         y2="167.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2814,7 +2814,7 @@
         x2="278.41"
         y2="173.83504"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2824,7 +2824,7 @@
         x2="276.26001"
         y2="169.85391"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2834,7 +2834,7 @@
         x2="276.41"
         y2="173.83504"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2844,7 +2844,7 @@
         x2="276.41"
         y2="164.87279"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2854,7 +2854,7 @@
         x2="278.41"
         y2="165.87279"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2864,7 +2864,7 @@
         x2="248.87996"
         y2="175.5506"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="translate(-1.4095977,60.181977)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2904,7 +2904,7 @@
         x2="258.35205"
         y2="185.81618"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(1.540376,0,0,1,-123.79588,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2954,7 +2954,7 @@
         x2="291.00949"
         y2="183.81618"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(0.45887801,0,0,1,157.51752,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2964,7 +2964,7 @@
         x2="293.00949"
         y2="185.81618"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(0.51071814,0,0,1,143.4153,0.10000019)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -5769,47 +5769,54 @@
         id="line478"
         style="fill: none; stroke: url(#linearGradient1623)"
       />
-      <path
-        id="V332"
-        style="stroke: url(#linearGradient1630)"
-        d="m 282.35205,183.81618 v 8 m -24,-7 24,7 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 24,6 v -6"
-      />
       <line
         x1="231.37715"
         y1="183.81618"
-        x2="258.35205"
+        x2="248.18742"
         y2="183.81618"
         id="line486"
-        style="fill: none; stroke: url(#linearGradient1631)"
-      />
-      <path
-        id="V333"
-        style="stroke: url(#linearGradient1638)"
-        d="m 282.21857,153.89165 v 8 m -24,-7 24,7 m -24,-7 24,-7 m -24,14 v -14 m 24,14 h -24 m 24,-14 h -24 m 24,6 v -6"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1631);
+          stroke-width: 0.236826;
+        "
       />
       <line
         x1="229.3723"
         y1="153.89165"
-        x2="258.21857"
+        x2="248.10478"
         y2="153.89165"
         id="line494"
-        style="fill: none; stroke: url(#linearGradient1639)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1639);
+          stroke-width: 0.241754;
+        "
       />
       <line
         x1="231.37715"
         y1="155.89165"
-        x2="258.21857"
+        x2="248.11951"
         y2="155.89165"
         id="line495"
-        style="fill: none; stroke: url(#linearGradient1640)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1640);
+          stroke-width: 0.237288;
+          stroke-dasharray: none;
+        "
       />
       <line
         x1="293.00949"
         y1="153.89165"
-        x2="282.21857"
+        x2="272.04224"
         y2="153.89165"
         id="line496"
-        style="fill: none; stroke: url(#linearGradient1641)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1641);
+          stroke-width: 0.418179;
+        "
       />
       <line
         x1="293.00949"
@@ -5822,191 +5829,24 @@
       <line
         x1="291.00949"
         y1="155.89165"
-        x2="282.21857"
+        x2="272.02444"
         y2="155.89165"
         id="line498"
-        style="fill: none; stroke: url(#linearGradient1643)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1643);
+          stroke-width: 0.440869;
+        "
       />
       <path
         id="V31"
         style="stroke: url(#linearGradient1646)"
-        d="m 259.62796,166.59778 7.39587,-1.28974 m -7.42181,5.753 7.39832,1.35975 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77099 4.7709861,4.7709861 0 0 1 -4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77098,4.77098 z"
+        d="m 249.46681,166.43513 7.39587,-1.28974 m -7.42181,5.753 7.39832,1.35975 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77099 4.7709861,4.7709861 0 0 1 -4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77098,4.77098 z"
       />
-      <line
-        x1="276.26001"
-        y1="167.85391"
-        x2="268.4968"
-        y2="167.85391"
-        id="line501"
-        style="fill: none; stroke: url(#linearGradient1647)"
-      />
-      <line
-        x1="250.36798"
-        y1="167.85391"
-        x2="250.36798"
-        y2="165.85391"
-        id="line502"
-        style="fill: none; stroke: url(#linearGradient1648)"
-      />
-      <line
-        x1="250.36798"
-        y1="165.85391"
-        x2="246.41226"
-        y2="165.85391"
-        id="line503"
-        style="fill: none; stroke: url(#linearGradient1649)"
-      />
-      <line
-        x1="246.41226"
-        y1="165.85391"
-        x2="246.41226"
-        y2="167.84729"
-        id="line504"
-        style="fill: none; stroke: url(#linearGradient1650)"
-      />
-      <line
-        x1="250.36798"
-        y1="167.85391"
-        x2="246.41226"
-        y2="167.84729"
-        id="line505"
-        style="fill: none; stroke: url(#linearGradient1651)"
-      />
-      <line
-        x1="249.59012"
-        y1="167.85391"
-        x2="249.59012"
-        y2="172.3506"
-        id="line506"
-        style="fill: none; stroke: url(#linearGradient1652)"
-      />
-      <line
-        x1="247.19012"
-        y1="167.84729"
-        x2="247.19012"
-        y2="172.3506"
-        id="line507"
-        style="fill: none; stroke: url(#linearGradient1653)"
-      />
-      <line
-        x1="249.59012"
-        y1="172.3506"
-        x2="250.35861"
-        y2="172.3506"
-        id="line508"
-        style="fill: none; stroke: url(#linearGradient1654)"
-      />
-      <line
-        x1="247.19012"
-        y1="172.3506"
-        x2="246.40131"
-        y2="172.3506"
-        id="line509"
-        style="fill: none; stroke: url(#linearGradient1655)"
-      />
-      <line
-        x1="250.35861"
-        y1="172.3506"
-        x2="250.35861"
-        y2="173.5506"
-        id="line510"
-        style="fill: none; stroke: url(#linearGradient1656)"
-      />
-      <line
-        x1="246.40131"
-        y1="172.3506"
-        x2="246.40131"
-        y2="173.5506"
-        id="line511"
-        style="fill: none; stroke: url(#linearGradient1657)"
-      />
-      <line
-        x1="246.40131"
-        y1="173.5506"
-        x2="250.35861"
-        y2="173.5506"
-        id="line512"
-        style="fill: none; stroke: url(#linearGradient1658)"
-      />
-      <line
-        x1="248.87996"
-        y1="175.5506"
-        x2="250.35861"
-        y2="173.5506"
-        id="line513"
-        style="fill: none; stroke: url(#linearGradient1659)"
-      />
-      <line
-        x1="247.87996"
-        y1="175.5506"
-        x2="246.40131"
-        y2="173.5506"
-        id="line514"
-        style="fill: none; stroke: url(#linearGradient1660)"
-      />
-      <line
-        x1="249.59012"
-        y1="169.85391"
-        x2="259.12778"
-        y2="169.85391"
-        id="line515"
-        style="fill: none; stroke: url(#linearGradient1661)"
-      />
-      <line
-        x1="259.16678"
-        y1="167.85391"
-        x2="249.59012"
-        y2="167.85391"
-        id="line516"
-        style="fill: none; stroke: url(#linearGradient1662)"
-      />
-      <line
-        x1="278.26001"
-        y1="177.81618"
-        x2="278.26001"
-        y2="169.85391"
-        id="line517"
-        style="fill: none; stroke: url(#linearGradient1663)"
-      />
-      <line
-        x1="276.26001"
-        y1="169.85391"
-        x2="268.46786"
-        y2="169.85391"
-        id="line518"
-        style="fill: none; stroke: url(#linearGradient1664)"
-      />
-      <line
-        x1="276.26001"
-        y1="177.81618"
-        x2="276.26001"
-        y2="169.85391"
-        id="line519"
-        style="fill: none; stroke: url(#linearGradient1665)"
-      />
-      <line
-        x1="276.26001"
-        y1="167.85391"
-        x2="276.26001"
-        y2="161.89165"
-        id="line520"
-        style="fill: none; stroke: url(#linearGradient1666)"
-      />
-      <line
-        x1="278.26001"
-        y1="169.85391"
-        x2="278.26001"
-        y2="161.89165"
+      <path
         id="line521"
-        style="fill: none; stroke: url(#linearGradient1667)"
-      />
-      <line
-        x1="247.87996"
-        y1="175.5506"
-        x2="248.87996"
-        y2="175.5506"
-        id="line522"
-        style="fill: none; stroke: url(#linearGradient1668)"
+        style="stroke: url(#linearGradient1667)"
+        d="m 268.09887,169.69126 v -7.96227 m -2,5.96227 v -5.96227 m 0,15.92453 v -7.96226 m 0,0 h -7.79214 m 9.79214,7.96226 v -7.96226 m -19.09323,-2 h -9.57666 m 0,2 h 9.53766 m 17.13223,-2 h -7.76321"
       />
       <line
         x1="293.00949"
@@ -6015,6 +5855,11 @@
         y2="171.69496"
         id="line523"
         style="fill: none; stroke: url(#linearGradient1669)"
+      />
+      <path
+        id="line522"
+        style="stroke: url(#linearGradient1668)"
+        d="m 237.71881,175.38794 h 1 m -1,0 -1.47864,-2 m 2.47864,2 1.47867,-2 m -3.95731,0 h 3.95731 m -3.95731,-1.19999 v 1.19999 m 3.95731,-1.19999 v 1.19999 m -3.16849,-1.19999 h -0.78882 m 3.18881,0 h 0.7685 m -3.16849,-4.50332 v 4.50332 m 2.39999,-4.49669 v 4.49669 m 0.77786,-4.49669 -3.95572,-0.007 m 0,-1.993 v 1.99337 m 3.95572,-1.99337 h -3.95572 m 3.95572,2 v -2"
       />
       <line
         x1="229.37715"
@@ -6035,10 +5880,14 @@
       <line
         x1="229.37715"
         y1="185.81618"
-        x2="258.35205"
+        x2="248.18742"
         y2="185.81618"
         id="line526"
-        style="fill: none; stroke: url(#linearGradient1672)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1672);
+          stroke-width: 0.241717;
+        "
       />
       <line
         x1="229.37715"
@@ -6075,18 +5924,26 @@
       <line
         x1="291.00949"
         y1="183.81618"
-        x2="282.35205"
+        x2="272.14297"
         y2="183.81618"
         id="line531"
-        style="fill: none; stroke: url(#linearGradient1677)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1677);
+          stroke-width: 0.442866;
+        "
       />
       <line
         x1="293.00949"
         y1="185.81618"
-        x2="282.35205"
+        x2="272.14194"
         y2="185.81618"
         id="line532"
-        style="fill: none; stroke: url(#linearGradient1678)"
+        style="
+          fill: none;
+          stroke: url(#linearGradient1678);
+          stroke-width: 0.419788;
+        "
       />
       <line
         x1="293.00949"
@@ -6253,7 +6110,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57072">VM30</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136746">VM30</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6282,7 +6139,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57074">VM31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136748">VM31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6311,7 +6168,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57076">VM35</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136750">VM35</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6340,7 +6197,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57078">VM36</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136752">VM36</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6369,7 +6226,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57080">VM37</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136754">VM37</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6398,7 +6255,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57082">VM40</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136756">VM40</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6427,7 +6284,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57084">VM39</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136758">VM39</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6456,7 +6313,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57086">V301</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136760">V301</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6485,7 +6342,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan57088">V302</tspan>
+        <tspan x="994.19141" y="515.2874" id="tspan136762">V302</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6514,66 +6371,48 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan57090">V303</tspan>
+        <tspan x="994.19141" y="515.2874" id="tspan136764">V303</tspan>
       </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,7.7562929,19.667133)"
-        id="text1877"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
-          font-size: 9.93475px;
-          font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, ';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          white-space: pre;
-          shape-inside: url(#rect1877);
-          display: inline;
-          fill: #ffffff;
-          fill-opacity: 1;
-          stroke: #ffffff;
-          stroke-width: 0.377953;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
-        "
-      >
-        <tspan x="994.19141" y="514.62141" id="tspan57092">V333</tspan>
-      </text>
-      <text
-        xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,8.6738852,50.095831)"
+      <g
+        aria-label="V332"
+        transform="matrix(0.26458333,0,0,0.26458333,-1.4872662,49.933189)"
         id="text1877-8"
         style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: normal;
-          font-stretch: normal;
           font-size: 9.93475px;
-          font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, ';
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
           white-space: pre;
           shape-inside: url(#rect1877-9);
           display: inline;
           fill: #ffffff;
-          fill-opacity: 1;
           stroke: #fefffd;
           stroke-width: 0.377953;
-          stroke-dasharray: none;
-          stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57094">V332</tspan>
-      </text>
+        <path
+          id="path134390"
+          d="m 1016.6837,514.62141 h -4.6892 v -0.72523 l 1.8578,-1.87767 q 0.5265,-0.53648 0.8941,-0.95374 0.3775,-0.41726 0.5663,-0.81465 0.1888,-0.39739 0.1888,-0.88419 0,-0.58615 -0.3478,-0.88419 -0.3477,-0.30798 -0.904,-0.30798 -0.5266,0 -0.914,0.17883 -0.3875,0.17882 -0.7948,0.49673 l -0.4669,-0.58615 q 0.4172,-0.34771 0.9537,-0.58615 0.5464,-0.24837 1.222,-0.24837 0.9935,0 1.5697,0.50668 0.5762,0.50667 0.5762,1.38093 0,0.55634 -0.2285,1.04315 -0.2285,0.4868 -0.6358,0.96367 -0.4074,0.47686 -0.9538,1.00341 l -1.4803,1.4604 v 0.0397 h 3.5865 z m -5.9509,-5.4343 q 0,0.7153 -0.4074,1.14249 -0.3973,0.41726 -1.063,0.55635 v 0.0397 q 0.8445,0.0993 1.2617,0.53647 0.4272,0.43713 0.4272,1.1425 0,0.62589 -0.2881,1.10276 -0.2881,0.47686 -0.8941,0.7451 -0.5961,0.26824 -1.5399,0.26824 -0.5563,0 -1.0332,-0.0894 -0.4769,-0.0795 -0.914,-0.29804 v -0.81465 q 0.4471,0.2285 0.9637,0.34771 0.5166,0.11922 0.9935,0.11922 0.9537,0 1.3709,-0.36759 0.4272,-0.37752 0.4272,-1.03321 0,-0.66563 -0.5265,-0.95374 -0.5166,-0.29804 -1.4604,-0.29804 h -0.6855 v -0.7451 h 0.6954 q 0.8743,0 1.3213,-0.36759 0.457,-0.36759 0.457,-0.97361 0,-0.5166 -0.3477,-0.79478 -0.3477,-0.2881 -0.9438,-0.2881 -0.5762,0 -0.9835,0.16889 -0.4073,0.16889 -0.8047,0.42719 l -0.4372,-0.59608 q 0.3776,-0.29805 0.9339,-0.51661 0.5663,-0.21857 1.2816,-0.21857 1.1127,0 1.6492,0.49674 0.5464,0.49674 0.5464,1.26172 z m -5.6827,0 q 0,0.7153 -0.4073,1.14249 -0.3974,0.41726 -1.0631,0.55635 v 0.0397 q 0.8445,0.0993 1.2618,0.53647 0.4272,0.43713 0.4272,1.1425 0,0.62589 -0.2882,1.10276 -0.2881,0.47686 -0.8941,0.7451 -0.5961,0.26824 -1.5399,0.26824 -0.5563,0 -1.0332,-0.0894 -0.4768,-0.0795 -0.914,-0.29804 v -0.81465 q 0.4471,0.2285 0.9637,0.34771 0.5166,0.11922 0.9935,0.11922 0.9537,0 1.371,-0.36759 0.4272,-0.37752 0.4272,-1.03321 0,-0.66563 -0.5266,-0.95374 -0.5166,-0.29804 -1.4604,-0.29804 h -0.6855 v -0.7451 h 0.6954 q 0.8743,0 1.3214,-0.36759 0.457,-0.36759 0.457,-0.97361 0,-0.5166 -0.3478,-0.79478 -0.3477,-0.2881 -0.9438,-0.2881 -0.5762,0 -0.9835,0.16889 -0.4073,0.16889 -0.8047,0.42719 l -0.4371,-0.59608 q 0.3775,-0.29805 0.9338,-0.51661 0.5663,-0.21857 1.2816,-0.21857 1.1127,0 1.6492,0.49674 0.5464,0.49674 0.5464,1.26172 z m -4.8978,-1.65911 -2.53341,7.09341 h -0.89412 l -2.53336,-7.09341 h 0.93386 l 1.5995,4.55012 q 0.15895,0.43713 0.2583,0.82458 0.10928,0.37752 0.18876,0.72524 0.0695,-0.34772 0.17883,-0.73517 0.10928,-0.38746 0.26823,-0.83452 l 1.58956,-4.53025 z m 34.2219,-2.12826 v 30.23622 m -90.70868,-26.45669 90.70868,26.45669 m -90.70868,-26.45669 90.70868,-26.4567 m -90.70868,52.91339 v -52.91339 m 90.70868,52.91339 h -90.70868 m 90.70868,-52.91339 h -90.70868 m 90.70868,22.67717 v -22.67717"
+        />
+      </g>
+      <g
+        aria-label="V333"
+        transform="matrix(0.26458333,0,0,0.26458333,-2.4048585,19.50449)"
+        id="text1877"
+        style="
+          font-size: 9.93475px;
+          -inkscape-font-specification: 'sans-serif, ';
+          white-space: pre;
+          shape-inside: url(#rect1877);
+          display: inline;
+          fill: #ffffff;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
+        "
+      >
+        <path
+          id="path134400"
+          d="m 1016.4155,509.18711 q 0,0.7153 -0.4074,1.14249 -0.3974,0.41726 -1.063,0.55635 v 0.0397 q 0.8445,0.0993 1.2617,0.53647 0.4272,0.43713 0.4272,1.1425 0,0.62589 -0.2881,1.10276 -0.2881,0.47686 -0.8941,0.7451 -0.5961,0.26824 -1.5399,0.26824 -0.5563,0 -1.0332,-0.0894 -0.4769,-0.0795 -0.914,-0.29804 v -0.81465 q 0.4471,0.2285 0.9637,0.34771 0.5166,0.11922 0.9934,0.11922 0.9538,0 1.371,-0.36759 0.4272,-0.37752 0.4272,-1.03321 0,-0.66563 -0.5265,-0.95374 -0.5166,-0.29804 -1.4604,-0.29804 h -0.6855 v -0.7451 h 0.6954 q 0.8743,0 1.3213,-0.36759 0.457,-0.36759 0.457,-0.97361 0,-0.5166 -0.3477,-0.79478 -0.3477,-0.2881 -0.9438,-0.2881 -0.5762,0 -0.9835,0.16889 -0.4074,0.16889 -0.8047,0.42719 l -0.4372,-0.59608 q 0.3775,-0.29805 0.9339,-0.51661 0.5663,-0.21857 1.2816,-0.21857 1.1127,0 1.6491,0.49674 0.5465,0.49674 0.5465,1.26172 z m -5.6827,0 q 0,0.7153 -0.4074,1.14249 -0.3973,0.41726 -1.063,0.55635 v 0.0397 q 0.8445,0.0993 1.2617,0.53647 0.4272,0.43713 0.4272,1.1425 0,0.62589 -0.2881,1.10276 -0.2881,0.47686 -0.8941,0.7451 -0.5961,0.26824 -1.5399,0.26824 -0.5563,0 -1.0332,-0.0894 -0.4769,-0.0795 -0.914,-0.29804 v -0.81465 q 0.4471,0.2285 0.9637,0.34771 0.5166,0.11922 0.9935,0.11922 0.9537,0 1.3709,-0.36759 0.4272,-0.37752 0.4272,-1.03321 0,-0.66563 -0.5265,-0.95374 -0.5166,-0.29804 -1.4604,-0.29804 h -0.6855 v -0.7451 h 0.6954 q 0.8743,0 1.3213,-0.36759 0.457,-0.36759 0.457,-0.97361 0,-0.5166 -0.3477,-0.79478 -0.3477,-0.2881 -0.9438,-0.2881 -0.5762,0 -0.9835,0.16889 -0.4073,0.16889 -0.8047,0.42719 l -0.4372,-0.59608 q 0.3776,-0.29805 0.9339,-0.51661 0.5663,-0.21857 1.2816,-0.21857 1.1127,0 1.6492,0.49674 0.5464,0.49674 0.5464,1.26172 z m -5.6827,0 q 0,0.7153 -0.4073,1.14249 -0.3974,0.41726 -1.0631,0.55635 v 0.0397 q 0.8445,0.0993 1.2618,0.53647 0.4272,0.43713 0.4272,1.1425 0,0.62589 -0.2882,1.10276 -0.2881,0.47686 -0.8941,0.7451 -0.5961,0.26824 -1.5399,0.26824 -0.5563,0 -1.0332,-0.0894 -0.4768,-0.0795 -0.914,-0.29804 v -0.81465 q 0.4471,0.2285 0.9637,0.34771 0.5166,0.11922 0.9935,0.11922 0.9537,0 1.371,-0.36759 0.4272,-0.37752 0.4272,-1.03321 0,-0.66563 -0.5266,-0.95374 -0.5166,-0.29804 -1.4604,-0.29804 h -0.6855 v -0.7451 h 0.6954 q 0.8743,0 1.3214,-0.36759 0.457,-0.36759 0.457,-0.97361 0,-0.5166 -0.3478,-0.79478 -0.3477,-0.2881 -0.9438,-0.2881 -0.5762,0 -0.9835,0.16889 -0.4073,0.16889 -0.8047,0.42719 l -0.4371,-0.59608 q 0.3775,-0.29805 0.9338,-0.51661 0.5663,-0.21857 1.2816,-0.21857 1.1127,0 1.6492,0.49674 0.5464,0.49674 0.5464,1.26172 z m -4.8978,-1.65911 -2.53341,7.09341 h -0.89412 l -2.53336,-7.09341 h 0.93386 l 1.5995,4.55012 q 0.15895,0.43713 0.2583,0.82458 0.10928,0.37752 0.18876,0.72524 0.0695,-0.34772 0.17883,-0.73517 0.10928,-0.38746 0.26823,-0.83452 l 1.58956,-4.53025 z m 37.1855,-0.22274 v 30.23622 m -90.7087,-26.45669 90.7087,26.45669 m -90.7087,-26.45669 90.7087,-26.4567 m -90.7087,52.91339 v -52.91339 m 90.7087,52.91339 h -90.7087 m 90.7087,-52.91339 h -90.7087 m 90.7087,22.67717 v -22.67717"
+        />
+      </g>
       <text
         xml:space="preserve"
         transform="matrix(0.26458333,0,0,0.26458333,-139.11571,42.649029)"
@@ -6601,7 +6440,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57096">V360</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136766">V360</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6630,7 +6469,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57098">V361</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136768">V361</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6659,7 +6498,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57100">V352</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136770">V352</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6688,7 +6527,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57102">V351</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136772">V351</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6717,7 +6556,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57104">V350</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136774">V350</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6746,11 +6585,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57106">V372</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136776">V372</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-0.97517314,33.794352)"
+        transform="matrix(0.26458333,0,0,0.26458333,-11.136324,33.63171)"
         id="text1877-33-7-0"
         style="
           font-style: normal;
@@ -6775,7 +6614,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57108">V31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136778">V31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6804,7 +6643,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57110">V372_P08</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136780">V372_P08</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6833,7 +6672,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57112">V372_P07</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136782">V372_P07</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6862,7 +6701,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57114">V372_P10</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136784">V372_P10</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6891,7 +6730,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57116">V372_P09</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136786">V372_P09</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6920,7 +6759,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57118">V372_P12</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136788">V372_P12</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6949,7 +6788,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57120">V372_P11</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136790">V372_P11</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6978,7 +6817,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57122">V372_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136792">V372_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7007,7 +6846,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57124">V372_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136794">V372_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7036,7 +6875,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57126">V372_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136796">V372_P01</tspan>
       </text>
       <g
         id="g1"
@@ -7077,7 +6916,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan57128">V372_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan136798">V372_P04</tspan>
         </text>
       </g>
       <g
@@ -7119,7 +6958,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan57130">V372_P05</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan136800">V372_P05</tspan>
         </text>
       </g>
       <g
@@ -7161,7 +7000,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan57132">V372_P06</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan136802">V372_P06</tspan>
         </text>
       </g>
       <text
@@ -7191,7 +7030,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan57134">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan136804">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7318,8 +7157,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="260.80804"
-        y="147.33099"
+        x="249.68428"
+        y="147.02907"
         id="text5261-49-9-5"
       >
         <tspan
@@ -7343,8 +7182,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="260.80804"
-          y="147.33099"
+          x="249.68428"
+          y="147.02907"
         >
           Filtro Rotativo
         </tspan>
@@ -7995,8 +7834,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="259.98001"
-        y="144.69048"
+        x="248.85625"
+        y="144.38855"
         id="rpm_filtro"
       >
         <tspan
@@ -8020,8 +7859,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="259.98001"
-          y="144.69048"
+          x="248.85625"
+          y="144.38855"
         >
           nnn RPM
         </tspan>
@@ -8033,7 +7872,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 2.82222px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -8047,8 +7886,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="236.37846"
-        y="162.90265"
+        x="273.28925"
+        y="178.02715"
         id="text5261-49-9-5-0"
       >
         <tspan
@@ -8058,7 +7897,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.82222px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -8072,8 +7911,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="236.37846"
-          y="162.90265"
+          x="273.28925"
+          y="178.02715"
         >
           succión picos
         </tspan>
@@ -8085,7 +7924,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 4.23333px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -8099,8 +7938,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="233.24162"
-        y="160.30981"
+        x="269.00516"
+        y="175.91162"
         id="picos"
       >
         <tspan
@@ -8110,7 +7949,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 4.23333px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -8124,8 +7963,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="233.24162"
-          y="160.30981"
+          x="269.00516"
+          y="175.91162"
         >
           nnnn.n Pa
         </tspan>
@@ -8151,8 +7990,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="236.04257"
-        y="181.3347"
+        x="273.17255"
+        y="162.6022"
         id="filtro_ventilador"
       >
         <tspan
@@ -8176,8 +8015,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="236.04257"
-          y="181.3347"
+          x="273.17255"
+          y="162.6022"
         >
           nnn.n Pa
         </tspan>
@@ -8190,7 +8029,7 @@
           stroke-width: 0.0486372;
           stroke-opacity: 1;
         "
-        d="m 241.66097,178.29821 h 2.47537 l -1.23769,-2.06904 z"
+        d="m 278.79093,159.5657 h 2.47537 l -1.23769,-2.06904 z"
         id="path128725"
       />
       <text
@@ -8213,8 +8052,8 @@
           stroke-width: 0.1;
           stroke-opacity: 1;
         "
-        x="244.09125"
-        y="178.20897"
+        x="281.22122"
+        y="159.47647"
         id="text129162"
       >
         <tspan
@@ -8233,8 +8072,8 @@
             font-variant-east-asian: normal;
             stroke-width: 0.1;
           "
-          x="244.09125"
-          y="178.20897"
+          x="281.22122"
+          y="159.47647"
         >
           P
         </tspan>
@@ -8954,6 +8793,216 @@
       x="219.00832"
       y="19.951771"
     />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 4.93889px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Bold';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #fbfb16;
+        fill-opacity: 1;
+        stroke: #cbc341;
+        stroke-width: 0.05;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      x="100.44276"
+      y="97.889862"
+      id="temperatura_salida_agua_fria"
+    >
+      <tspan
+        id="tspan164139-8"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 4.93889px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="100.44276"
+        y="97.889862"
+      >
+        nnn.n °C
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 2.82222px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Bold';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #f4f4f4;
+        fill-opacity: 1;
+        stroke: #909090;
+        stroke-width: 0.05;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      x="105.37281"
+      y="101.2139"
+      id="text5261-0-8-8-3"
+    >
+      <tspan
+        id="tspan5259-7-8-7-8"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 2.82222px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="105.37281"
+        y="101.2139"
+      >
+        Salida
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 1.5875px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Bold';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #f4f4f4;
+        fill-opacity: 1;
+        stroke: #909090;
+        stroke-width: 0.05;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      x="88.031303"
+      y="98.267937"
+      id="text5261-0-8-8-7"
+      transform="rotate(0.25518483)"
+    >
+      <tspan
+        id="tspan5259-7-8-7-4"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 1.5875px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="88.031303"
+        y="98.267937"
+      >
+        Agua Fria
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 1.76389px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Bold';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #f4f4f4;
+        fill-opacity: 1;
+        stroke: #909090;
+        stroke-width: 0.0401655;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+      x="83.851318"
+      y="90.695724"
+      id="text5261-0-8"
+      transform="scale(1.0444424,0.95744868)"
+    >
+      <tspan
+        id="tspan5259-7-8"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 1.76389px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.0401655;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="83.851318"
+        y="90.695724"
+      >
+        Lavador
+      </tspan>
+    </text>
   </svg>
 </template>
 

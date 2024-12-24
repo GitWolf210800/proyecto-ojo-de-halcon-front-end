@@ -163,32 +163,11 @@ async function fetchData() {
     }
 }
 
-async function interactWithSVG() {
-    await nexTick();
+function interactWithSVG(svg) {
+    //await nexTick();
     if (mapFiltro.value && mapFiltro.value.svgRef) {
-        const svg = mapFiltro.value.svgRef;
-        svg.querySelector('#filtro').textContent = result;
-
-        mediciones.forEach((medicion) => {
-            const element = svg.querySelector(`#${medicion}`);
-            if(element) {
-                console.log(element);
-            }
-        });
-    }
-}
-
-onMounted(async () => {
-await fetchData();
-/*console.log(svg);
-console.log(datosGral.value);*/
-});
-
-watchEffect (() => {
-    if (datosGral.value){           //Una vez que los datos esten listos, empieza a recorrer el grafico
-        svg = mapFiltro.value.svgRef;
-        dataColorInfoClima(svg);    //aqui se llama a la funcion para recorrer los items de seccion de clima que tenga
-        
+        //const svg = mapFiltro.value.svgRef;
+        //svg.querySelector('#filtro').textContent = result;
         const datosOn = datos.value;    //Se toman los datos obtenidos del fetch en una constante
         const paramertrosMediciones = datosGral.value.parametros_mediciones === '""' ? `` : datosGral.value.parametros_mediciones;
 
@@ -215,6 +194,21 @@ watchEffect (() => {
                 }
             }
         }
+    }
+}
+
+onMounted(async () => {
+await fetchData();
+/*console.log(svg);
+console.log(datosGral.value);*/
+});
+
+watchEffect (() => {
+    if (datosGral.value){           //Una vez que los datos esten listos, empieza a recorrer el grafico
+        svg = mapFiltro.value.svgRef;
+        dataColorInfoClima(svg);    //aqui se llama a la funcion para recorrer los items de seccion de clima que tenga
+        interactWithSVG(svg);
+        
     }
 });
 
