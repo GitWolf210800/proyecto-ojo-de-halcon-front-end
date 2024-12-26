@@ -3151,12 +3151,12 @@
         d="m 117.4557,83.978355 v 1 m -1,-0.5 h 1 m -1,0 -0.75,-1.5 m 1.5,0 -0.75,1.5 m -0.75,-1.5 h 1.5 m -0.75,1.5 -0.75,1.5 m 1.5,0 -0.75,-1.5 m -0.75,1.5 h 1.5"
       />
       <path
-        id="valvula_lavador_bypass"
+        id="valvula_lavador_bypass_grafico"
         style="stroke: url(#linearGradient585)"
         d="m 112.4557,77.127365 h -1 m 1,1 v -1 m -1,1 v -1 m 1,1 h -1 m 0.5,1 v -1 m 0,1 -1.5,0.75 m 0,-1.5 1.5,0.75 m -1.5,0.75 v -1.5 m 1.5,0.75 1.5,0.75 m 0,-1.5 -1.5,0.75 m 1.5,0.75 v -1.5"
       />
       <path
-        id="valvula_lavador"
+        id="valvula_lavador_grafico"
         style="stroke: url(#linearGradient588)"
         d="m 105.4557,84.022919 v 1 m 1,0 h -1 m 1,-1 h -1 m 1,1 v -1 m 1,0.5 h -1 m 1,0 -0.75,-1.5 m 1.5,0 -0.75,1.5 m -0.75,-1.5 h 1.5 m -0.75,1.5 -0.75,1.5 m 1.5,0 -0.75,-1.5 m -0.75,1.5 h 1.5"
       />
@@ -6054,7 +6054,7 @@
         </tspan>
       </text>
       <path
-        id="valvula_agua_fria"
+        id="valvula_agua_fria_grafico"
         style="stroke: url(#linearGradient588-1)"
         d="m 118.45363,102.95425 -0.0113,-0.99994 m -0.99993,0.0113 0.99993,-0.0113 m -0.98862,1.01125 0.99993,-0.0113 m -1.01124,-0.98863 0.0113,0.99994 m -1.0056,-0.48866 0.99994,-0.0113 m -0.99994,0.0113 0.76692,1.49142 m -1.4999,0.017 0.73298,-1.50839 m 0.76692,1.49142 -1.4999,0.017 m 0.73298,-1.50839 0.73299,-1.50839 m -1.4999,0.017 0.76691,1.49142 m 0.73299,-1.50839 -1.4999,0.017"
       />
@@ -6081,7 +6081,7 @@
         "
         x="119.0267"
         y="103.84168"
-        id="valvula_agua_fria-0"
+        id="valvula_agua_fria"
       >
         <tspan
           id="tspan5259-74-2"
@@ -6185,7 +6185,7 @@
         "
         x="93.734886"
         y="85.777763"
-        id="valvula_lavador-8"
+        id="valvula_lavador"
       >
         <tspan
           id="tspan5259-74-2-0"
@@ -6289,7 +6289,7 @@
         "
         x="109.10623"
         y="76.573929"
-        id="valvula_lavador_bypass-1"
+        id="valvula_lavador_bypass"
       >
         <tspan
           id="tspan5259-74-2-0-6"
@@ -6347,7 +6347,7 @@
         id="text5261-9-8-2"
         transform="translate(31.862694,-0.97611337)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan78555">
+        <tspan x="83.821007" y="76.61512" id="tspan56737">
           válvula lavador
         </tspan>
       </text>
@@ -6380,7 +6380,7 @@
         id="text5261-9-8-2-4"
         transform="translate(33.608948,-0.21265289)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan78557">Bypass</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan56739">Bypass</tspan>
       </text>
       <path
         id="path989-5-6"
