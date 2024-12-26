@@ -2,8 +2,8 @@
   <svg
     ref="svgRef"
     width="288.16595mm"
-    height="190.008mm"
-    viewBox="0 0 288.16595 190.008"
+    height="192.56319mm"
+    viewBox="0 0 288.16594 192.56319"
     version="1.1"
     id="svg557"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -2644,7 +2644,7 @@
         x2="267.04959"
         y2="165.95291"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999971,0.09999991)"
+        gradientTransform="translate(0.09999971,-0.40319923)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2854,7 +2854,7 @@
         x2="278.41"
         y2="165.87279"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(-1.4095977,60.181977)"
+        gradientTransform="matrix(1,0,0,1.3223098,-1.4095977,25.137677)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -2984,7 +2984,7 @@
         x2="293.15948"
         y2="178.75557"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(0.09999989,0.10000019)"
+        gradientTransform="matrix(0.99958644,0,0,1.1851555,0.20797538,-31.381188)"
       />
       <linearGradient
         xlink:href="#swatch1145"
@@ -5770,10 +5770,10 @@
         style="fill: none; stroke: url(#linearGradient1623)"
       />
       <line
-        x1="231.37715"
-        y1="183.81618"
-        x2="248.18742"
-        y2="183.81618"
+        x1="231.43839"
+        y1="186.23146"
+        x2="248.24866"
+        y2="186.23146"
         id="line486"
         style="
           fill: none;
@@ -5782,22 +5782,10 @@
         "
       />
       <line
-        x1="229.3723"
-        y1="153.89165"
-        x2="248.10478"
-        y2="153.89165"
-        id="line494"
-        style="
-          fill: none;
-          stroke: url(#linearGradient1639);
-          stroke-width: 0.241754;
-        "
-      />
-      <line
-        x1="231.37715"
-        y1="155.89165"
-        x2="248.11951"
-        y2="155.89165"
+        x1="231.30598"
+        y1="153.38315"
+        x2="248.04834"
+        y2="153.38315"
         id="line495"
         style="
           fill: none;
@@ -5807,30 +5795,10 @@
         "
       />
       <line
-        x1="293.00949"
-        y1="153.89165"
-        x2="272.04224"
-        y2="153.89165"
-        id="line496"
-        style="
-          fill: none;
-          stroke: url(#linearGradient1641);
-          stroke-width: 0.418179;
-        "
-      />
-      <line
-        x1="293.00949"
-        y1="153.89165"
-        x2="293.00949"
-        y2="169.69496"
-        id="line497"
-        style="fill: none; stroke: url(#linearGradient1642)"
-      />
-      <line
-        x1="291.00949"
-        y1="155.89165"
-        x2="272.02444"
-        y2="155.89165"
+        x1="291.08792"
+        y1="153.47719"
+        x2="272.10287"
+        y2="153.47719"
         id="line498"
         style="
           fill: none;
@@ -5841,12 +5809,12 @@
       <path
         id="V31"
         style="stroke: url(#linearGradient1646)"
-        d="m 249.46681,166.43513 7.39587,-1.28974 m -7.42181,5.753 7.39832,1.35975 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77099 4.7709861,4.7709861 0 0 1 -4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77098,4.77098 z"
+        d="m 249.46681,165.93193 7.39587,-1.28974 m -7.42181,5.753 7.39832,1.35975 m 1.60243,-3.56688 a 4.7709861,4.7709861 0 0 1 -4.77098,4.77099 4.7709861,4.7709861 0 0 1 -4.77099,-4.77099 4.7709861,4.7709861 0 0 1 4.77099,-4.77098 4.7709861,4.7709861 0 0 1 4.77098,4.77098 z"
       />
       <path
         id="line521"
-        style="stroke: url(#linearGradient1667)"
-        d="m 268.09887,169.69126 v -7.96227 m -2,5.96227 v -5.96227 m 0,15.92453 v -7.96226 m 0,0 h -7.79214 m 9.79214,7.96226 v -7.96226 m -19.09323,-2 h -9.57666 m 0,2 h 9.53766 m 17.13223,-2 h -7.76321"
+        style="stroke: url(#linearGradient1667); stroke-width: 0.344976"
+        d="m 268.09887,169.94286 v -10.52859 m -2,7.88397 v -7.88397 m 0,21.05717 v -10.52858 m 0,0 h -7.79214 m 9.79214,10.52858 v -10.52858 m -19.09323,-2.64462 h -9.57666 m 0,2.64462 h 9.53766 m 17.13223,-2.64462 h -7.76321"
       />
       <line
         x1="293.00949"
@@ -5862,50 +5830,6 @@
         d="m 237.71881,175.38794 h 1 m -1,0 -1.47864,-2 m 2.47864,2 1.47867,-2 m -3.95731,0 h 3.95731 m -3.95731,-1.19999 v 1.19999 m 3.95731,-1.19999 v 1.19999 m -3.16849,-1.19999 h -0.78882 m 3.18881,0 h 0.7685 m -3.16849,-4.50332 v 4.50332 m 2.39999,-4.49669 v 4.49669 m 0.77786,-4.49669 -3.95572,-0.007 m 0,-1.993 v 1.99337 m 3.95572,-1.99337 h -3.95572 m 3.95572,2 v -2"
       />
       <line
-        x1="229.37715"
-        y1="153.89165"
-        x2="229.37715"
-        y2="169.69496"
-        id="line524"
-        style="fill: none; stroke: url(#linearGradient1670)"
-      />
-      <line
-        x1="231.37715"
-        y1="155.89165"
-        x2="231.37715"
-        y2="169.69496"
-        id="line525"
-        style="fill: none; stroke: url(#linearGradient1671)"
-      />
-      <line
-        x1="229.37715"
-        y1="185.81618"
-        x2="248.18742"
-        y2="185.81618"
-        id="line526"
-        style="
-          fill: none;
-          stroke: url(#linearGradient1672);
-          stroke-width: 0.241717;
-        "
-      />
-      <line
-        x1="229.37715"
-        y1="171.69496"
-        x2="229.37715"
-        y2="185.81618"
-        id="line527"
-        style="fill: none; stroke: url(#linearGradient1673)"
-      />
-      <line
-        x1="231.37715"
-        y1="183.81618"
-        x2="231.37715"
-        y2="169.69496"
-        id="line528"
-        style="fill: none; stroke: url(#linearGradient1674)"
-      />
-      <line
         x1="293.00949"
         y1="169.69496"
         x2="305.69861"
@@ -5914,35 +5838,15 @@
         style="fill: none; stroke: url(#linearGradient1675)"
       />
       <line
-        x1="291.00949"
-        y1="183.81618"
-        x2="291.00949"
-        y2="155.89165"
-        id="line530"
-        style="fill: none; stroke: url(#linearGradient1676)"
-      />
-      <line
-        x1="291.00949"
-        y1="183.81618"
-        x2="272.14297"
-        y2="183.81618"
+        x1="291.02728"
+        y1="186.13788"
+        x2="272.16077"
+        y2="186.13788"
         id="line531"
         style="
           fill: none;
           stroke: url(#linearGradient1677);
           stroke-width: 0.442866;
-        "
-      />
-      <line
-        x1="293.00949"
-        y1="185.81618"
-        x2="272.14194"
-        y2="185.81618"
-        id="line532"
-        style="
-          fill: none;
-          stroke: url(#linearGradient1678);
-          stroke-width: 0.419788;
         "
       />
       <line
@@ -5953,13 +5857,10 @@
         id="line533"
         style="fill: none; stroke: url(#linearGradient1679)"
       />
-      <line
-        x1="293.00949"
-        y1="171.69496"
-        x2="293.00949"
-        y2="185.81618"
+      <path
         id="line534"
-        style="fill: none; stroke: url(#linearGradient1680)"
+        style="stroke: url(#linearGradient1680); stroke-width: 0.326527"
+        d="m 292.99633,171.98551 v 16.73585 m 0,0 h -20.85892 m 18.85975,-2.37031 v -33.09491 m -59.60768,33.09491 v -16.73584 m -1.99917,2.3703 v 16.73585 m 0,0 h 18.80249 m -16.80332,-35.46522 v 16.35907 m -1.99917,-18.72938 v 18.72938 m 63.60602,-18.72938 v 18.72938 m 0,-18.72938 h -20.95858 m -42.65229,0 h 18.72473"
       />
       <line
         x1="229.37715"
@@ -6110,7 +6011,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136746">VM30</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23515">VM30</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6139,7 +6040,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136748">VM31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23517">VM31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6168,7 +6069,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136750">VM35</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23519">VM35</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6197,7 +6098,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136752">VM36</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23521">VM36</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6226,7 +6127,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136754">VM37</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23523">VM37</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6255,7 +6156,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136756">VM40</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23525">VM40</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6284,7 +6185,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136758">VM39</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23527">VM39</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6313,7 +6214,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136760">V301</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23529">V301</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6342,7 +6243,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan136762">V302</tspan>
+        <tspan x="994.19141" y="515.2874" id="tspan23531">V302</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6371,11 +6272,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan136764">V303</tspan>
+        <tspan x="994.19141" y="515.2874" id="tspan23533">V303</tspan>
       </text>
       <g
         aria-label="V332"
-        transform="matrix(0.26458333,0,0,0.26458333,-1.4872662,49.933189)"
+        transform="matrix(0.26458333,0,0,0.26458333,-1.4872662,52.751104)"
         id="text1877-8"
         style="
           font-size: 9.93475px;
@@ -6395,7 +6296,7 @@
       </g>
       <g
         aria-label="V333"
-        transform="matrix(0.26458333,0,0,0.26458333,-2.4048585,19.50449)"
+        transform="matrix(0.26458333,0,0,0.26458333,-2.4048585,16.887854)"
         id="text1877"
         style="
           font-size: 9.93475px;
@@ -6440,7 +6341,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136766">V360</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23535">V360</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6469,7 +6370,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136768">V361</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23537">V361</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6498,7 +6399,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136770">V352</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23539">V352</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6527,7 +6428,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136772">V351</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23541">V351</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6556,7 +6457,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136774">V350</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23543">V350</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6585,11 +6486,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136776">V372</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23545">V372</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-11.136324,33.63171)"
+        transform="matrix(0.26458333,0,0,0.26458333,-11.136324,33.128511)"
         id="text1877-33-7-0"
         style="
           font-style: normal;
@@ -6614,7 +6515,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136778">V31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23547">V31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6643,7 +6544,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136780">V372_P08</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23549">V372_P08</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6672,7 +6573,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136782">V372_P07</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23551">V372_P07</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6701,7 +6602,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136784">V372_P10</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23553">V372_P10</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6730,7 +6631,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136786">V372_P09</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23555">V372_P09</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6759,7 +6660,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136788">V372_P12</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23557">V372_P12</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6788,7 +6689,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136790">V372_P11</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23559">V372_P11</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6817,7 +6718,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136792">V372_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23561">V372_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6846,7 +6747,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136794">V372_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23563">V372_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6875,7 +6776,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136796">V372_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23565">V372_P01</tspan>
       </text>
       <g
         id="g1"
@@ -6916,7 +6817,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan136798">V372_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan23567">V372_P04</tspan>
         </text>
       </g>
       <g
@@ -6958,7 +6859,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan136800">V372_P05</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan23569">V372_P05</tspan>
         </text>
       </g>
       <g
@@ -7000,7 +6901,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan136802">V372_P06</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan23571">V372_P06</tspan>
         </text>
       </g>
       <text
@@ -7030,7 +6931,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan136804">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan23573">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7157,8 +7058,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="249.68428"
-        y="147.02907"
+        x="249.58363"
+        y="144.11052"
         id="text5261-49-9-5"
       >
         <tspan
@@ -7182,8 +7083,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="249.68428"
-          y="147.02907"
+          x="249.58363"
+          y="144.11052"
         >
           Filtro Rotativo
         </tspan>
@@ -7834,8 +7735,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="248.85625"
-        y="144.38855"
+        x="248.7556"
+        y="141.47"
         id="rpm_filtro"
       >
         <tspan
@@ -7859,8 +7760,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="248.85625"
-          y="144.38855"
+          x="248.7556"
+          y="141.47"
         >
           nnn RPM
         </tspan>
@@ -7886,8 +7787,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="273.28925"
-        y="178.02715"
+        x="249.53824"
+        y="178.53035"
         id="text5261-49-9-5-0"
       >
         <tspan
@@ -7911,8 +7812,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="273.28925"
-          y="178.02715"
+          x="249.53824"
+          y="178.53035"
         >
           succión picos
         </tspan>
@@ -7924,7 +7825,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -7938,8 +7839,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="269.00516"
-        y="175.91162"
+        x="247.56888"
+        y="175.81097"
         id="picos"
       >
         <tspan
@@ -7949,7 +7850,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -7963,8 +7864,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="269.00516"
-          y="175.91162"
+          x="247.56888"
+          y="175.81097"
         >
           nnnn.n Pa
         </tspan>
@@ -7990,8 +7891,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="273.17255"
-        y="162.6022"
+        x="271.36102"
+        y="170.55275"
         id="filtro_ventilador"
       >
         <tspan
@@ -8015,8 +7916,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="273.17255"
-          y="162.6022"
+          x="271.36102"
+          y="170.55275"
         >
           nnn.n Pa
         </tspan>
@@ -8029,7 +7930,7 @@
           stroke-width: 0.0486372;
           stroke-opacity: 1;
         "
-        d="m 278.79093,159.5657 h 2.47537 l -1.23769,-2.06904 z"
+        d="m 276.97941,167.51625 h 2.47537 l -1.23769,-2.06904 z"
         id="path128725"
       />
       <text
@@ -8052,8 +7953,8 @@
           stroke-width: 0.1;
           stroke-opacity: 1;
         "
-        x="281.22122"
-        y="159.47647"
+        x="279.4097"
+        y="167.42702"
         id="text129162"
       >
         <tspan
@@ -8072,8 +7973,8 @@
             font-variant-east-asian: normal;
             stroke-width: 0.1;
           "
-          x="281.22122"
-          y="159.47647"
+          x="279.4097"
+          y="167.42702"
         >
           P
         </tspan>
@@ -8093,7 +7994,7 @@
       width="22.487587"
       height="4.2404823"
       x="233.71588"
-      y="33.829685"
+      y="33.829681"
     />
     <rect
       style="
@@ -8109,7 +8010,7 @@
       width="22.487587"
       height="4.2404823"
       x="233.71533"
-      y="29.589163"
+      y="29.589155"
     />
     <text
       xml:space="preserve"
@@ -8134,14 +8035,14 @@
         paint-order: stroke fill markers;
       "
       x="201.44301"
-      y="37.964352"
+      y="37.964348"
       id="climaTmanFab3"
       transform="scale(1.1599545,0.86210278)"
     >
       <tspan
         id="fab3_peinadorasE65_clima_temp_text"
         x="201.44301"
-        y="37.964352"
+        y="37.964348"
         style="stroke-width: 0.225109"
       >
         nn°C
@@ -8149,7 +8050,7 @@
       <tspan
         id="fab3_peinadorasE65_clima_hum_text"
         x="201.44301"
-        y="43.583241"
+        y="43.583244"
         style="stroke-width: 0.225109"
       >
         nn% H.r
@@ -8178,14 +8079,14 @@
         stroke-opacity: 1;
       "
       x="229.98663"
-      y="29.325441"
+      y="29.325432"
       id="manuarTextFab3"
       transform="scale(1.0165509,0.98371858)"
     >
       <tspan
         id="tspan3660"
         x="229.98663"
-        y="29.325441"
+        y="29.325432"
         style="stroke-width: 0.0672793"
       >
         Peinadoras E65
@@ -8203,7 +8104,7 @@
       width="22.450546"
       height="4.1903491"
       x="233.73029"
-      y="29.605181"
+      y="29.605177"
     />
     <rect
       style="
@@ -8217,7 +8118,7 @@
       width="22.450546"
       height="4.1903491"
       x="233.72896"
-      y="33.870426"
+      y="33.870422"
     />
     <rect
       style="
@@ -8233,7 +8134,7 @@
       width="22.492144"
       height="3.0529597"
       x="233.713"
-      y="38.068363"
+      y="38.068359"
     />
     <text
       xml:space="preserve"
@@ -8258,14 +8159,14 @@
         paint-order: stroke fill markers;
       "
       x="160.34888"
-      y="59.317635"
+      y="59.317631"
       id="fab3_peinadorasE65_clima_humAbs_text"
       transform="scale(1.4747729,0.6780705)"
     >
       <tspan
         id="climaETpeiFab3-6"
         x="160.34888"
-        y="59.317635"
+        y="59.317631"
         style="
           font-style: normal;
           font-variant: normal;
@@ -8315,7 +8216,7 @@
       width="22.455091"
       height="3.0168653"
       x="233.72475"
-      y="38.092403"
+      y="38.0924"
     />
     <rect
       style="
@@ -8331,7 +8232,7 @@
       width="23.962048"
       height="4.4018154"
       x="248.12308"
-      y="15.774313"
+      y="15.774306"
     />
     <rect
       style="
@@ -8372,14 +8273,14 @@
         paint-order: stroke fill markers;
       "
       x="211.13925"
-      y="17.434441"
+      y="17.434431"
       id="climaTcardasFab3"
       transform="scale(1.1745087,0.85141983)"
     >
       <tspan
         id="fab3_c50_clima_temp_text"
         x="211.13925"
-        y="17.434441"
+        y="17.434431"
         style="stroke-width: 0.236611"
       >
         nn°C
@@ -8387,7 +8288,7 @@
       <tspan
         id="fab3_c50_clima_hum_text"
         x="211.13925"
-        y="23.34046"
+        y="23.340452"
         style="stroke-width: 0.236611"
       >
         nn% H.r
@@ -8416,14 +8317,14 @@
         stroke-opacity: 1;
       "
       x="243.68935"
-      y="11.229533"
+      y="11.229527"
       id="cardasTextFab3"
       transform="scale(1.0299389,0.97093139)"
     >
       <tspan
         id="tspan4331"
         x="243.68935"
-        y="11.229533"
+        y="11.229527"
         style="stroke-width: 0.0707592"
       >
         Cardas C50
@@ -8441,7 +8342,7 @@
       width="23.922579"
       height="4.3497744"
       x="248.28082"
-      y="11.247555"
+      y="11.247558"
     />
     <rect
       style="
@@ -8455,7 +8356,7 @@
       width="23.922579"
       height="4.3286781"
       x="248.13924"
-      y="15.813792"
+      y="15.813796"
     />
     <rect
       style="
@@ -8471,7 +8372,7 @@
       width="23.967939"
       height="2.9505036"
       x="248.11951"
-      y="20.173862"
+      y="20.173857"
     />
     <text
       xml:space="preserve"
@@ -8523,7 +8424,7 @@
       </tspan>
       <tspan
         x="161.2469"
-        y="38.618183"
+        y="38.618179"
         id="humPeiFab3-9-2-0"
         style="
           font-style: normal;
@@ -8553,7 +8454,7 @@
       width="23.928457"
       height="2.9156213"
       x="248.13277"
-      y="20.196032"
+      y="20.196028"
     />
     <rect
       style="
@@ -8569,7 +8470,7 @@
       width="23.264666"
       height="4.3025551"
       x="218.99883"
-      y="15.626019"
+      y="15.626021"
     />
     <rect
       style="
@@ -8585,7 +8486,7 @@
       width="23.264666"
       height="4.3025551"
       x="218.99828"
-      y="11.323407"
+      y="11.323409"
     />
     <text
       xml:space="preserve"
@@ -8610,14 +8511,14 @@
         paint-order: stroke fill markers;
       "
       x="187.39091"
-      y="16.952721"
+      y="16.952719"
       id="climaTmecheraFab3"
       transform="scale(1.1684021,0.85586973)"
     >
       <tspan
         id="fab3_mecheras_clima_temp_text"
         x="187.39091"
-        y="16.952721"
+        y="16.952719"
         style="stroke-width: 0.230084"
       >
         nn°C
@@ -8625,7 +8526,7 @@
       <tspan
         id="fab3_mecheras_clima_hum_text"
         x="187.39091"
-        y="22.695795"
+        y="22.695791"
         style="stroke-width: 0.230084"
       >
         nn% H.r
@@ -8654,14 +8555,14 @@
         stroke-opacity: 1;
       "
       x="186.97781"
-      y="13.017945"
+      y="13.017937"
       id="mecheraTextFab3"
       transform="scale(1.1827458,0.84549022)"
     >
       <tspan
         id="tspan4242"
         x="186.97781"
-        y="13.017945"
+        y="13.017937"
         style="stroke-width: 0.0790746"
       >
         Mecheras
@@ -8679,7 +8580,7 @@
       width="23.226343"
       height="4.2516875"
       x="219.01442"
-      y="11.339075"
+      y="11.33908"
     />
     <rect
       style="
@@ -8693,7 +8594,7 @@
       width="23.226343"
       height="4.2516875"
       x="219.01996"
-      y="15.65862"
+      y="15.658614"
     />
     <rect
       style="
@@ -8709,7 +8610,7 @@
       width="23.268978"
       height="3.1829617"
       x="218.99606"
-      y="19.926876"
+      y="19.926878"
     />
     <text
       xml:space="preserve"
@@ -8734,14 +8635,14 @@
         paint-order: stroke fill markers;
       "
       x="152.6913"
-      y="32.456455"
+      y="32.456448"
       id="fab3_mecheras_clima_humAbs_text"
       transform="scale(1.4542452,0.68764195)"
     >
       <tspan
         id="climaETpeiFab3-6-4"
         x="152.6913"
-        y="32.456455"
+        y="32.456448"
         style="
           font-style: normal;
           font-variant: normal;
@@ -8791,7 +8692,7 @@
       width="23.230646"
       height="3.1453307"
       x="219.00832"
-      y="19.951771"
+      y="19.951765"
     />
     <text
       xml:space="preserve"
@@ -8866,7 +8767,7 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="105.37281"
+      x="105.37282"
       y="101.2139"
       id="text5261-0-8-8-3"
     >
@@ -8891,7 +8792,7 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="105.37281"
+        x="105.37282"
         y="101.2139"
       >
         Salida
@@ -8918,8 +8819,8 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="88.031303"
-      y="98.267937"
+      x="88.031311"
+      y="98.267929"
       id="text5261-0-8-8-7"
       transform="rotate(0.25518483)"
     >
@@ -8944,8 +8845,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="88.031303"
-        y="98.267937"
+        x="88.031311"
+        y="98.267929"
       >
         Agua Fria
       </tspan>

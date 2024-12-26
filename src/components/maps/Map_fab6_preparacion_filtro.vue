@@ -3190,6 +3190,30 @@
         height="26.162951"
         id="rect1877-39-76-4"
       />
+      <linearGradient
+        xlink:href="#swatch426"
+        id="linearGradient35880"
+        gradientUnits="userSpaceOnUse"
+        x1="183.86566"
+        y1="104.10465"
+        x2="184.16566"
+        y2="104.10465"
+        gradientTransform="rotate(179.59749,180.55982,104.15143)"
+      />
+      <rect
+        x="994.19214"
+        y="505.58136"
+        width="59.396969"
+        height="26.162951"
+        id="rect1877-39-2-5-1"
+      />
+      <rect
+        x="994.19214"
+        y="505.58136"
+        width="59.396969"
+        height="26.162951"
+        id="rect1877-39-2-5-1-3"
+      />
     </defs>
     <g
       lc:layername="0"
@@ -4507,86 +4531,6 @@
         style="stroke: url(#linearGradient679)"
       />
       <line
-        x1="178.01566"
-        y1="123.0508"
-        x2="179.01566"
-        y2="121.0508"
-        id="line243"
-        style="stroke: url(#linearGradient680)"
-      />
-      <line
-        x1="179.01566"
-        y1="121.0508"
-        x2="177.01566"
-        y2="121.0508"
-        id="line244"
-        style="stroke: url(#linearGradient681)"
-      />
-      <line
-        x1="177.01566"
-        y1="121.0508"
-        x2="178.01566"
-        y2="123.0508"
-        id="line245"
-        style="stroke: url(#linearGradient682)"
-      />
-      <line
-        x1="178.01566"
-        y1="123.0508"
-        x2="179.01566"
-        y2="125.0508"
-        id="line246"
-        style="stroke: url(#linearGradient683)"
-      />
-      <line
-        x1="179.01566"
-        y1="125.0508"
-        x2="177.01566"
-        y2="125.0508"
-        id="line247"
-        style="stroke: url(#linearGradient684)"
-      />
-      <line
-        x1="177.01566"
-        y1="125.0508"
-        x2="178.01566"
-        y2="123.0508"
-        id="line248"
-        style="stroke: url(#linearGradient685)"
-      />
-      <line
-        x1="178.51566"
-        y1="120.9508"
-        x2="178.51566"
-        y2="121.0508"
-        id="line249"
-        style="stroke: url(#linearGradient686)"
-      />
-      <line
-        x1="177.51566"
-        y1="120.9508"
-        x2="177.51566"
-        y2="121.0508"
-        id="line250"
-        style="stroke: url(#linearGradient687)"
-      />
-      <line
-        x1="178.51566"
-        y1="125.1508"
-        x2="178.51566"
-        y2="125.0508"
-        id="line251"
-        style="stroke: url(#linearGradient688)"
-      />
-      <line
-        x1="177.51566"
-        y1="125.1508"
-        x2="177.51566"
-        y2="125.0508"
-        id="line252"
-        style="stroke: url(#linearGradient689)"
-      />
-      <line
         x1="178.51566"
         y1="136.26564"
         x2="178.51566"
@@ -4691,94 +4635,6 @@
         style="stroke: url(#linearGradient702)"
       />
       <line
-        x1="199.71747"
-        y1="87.881493"
-        x2="200.71747"
-        y2="85.881493"
-        id="line266"
-        style="stroke: url(#linearGradient703)"
-      />
-      <line
-        x1="200.71747"
-        y1="85.881493"
-        x2="198.71747"
-        y2="85.881493"
-        id="line267"
-        style="stroke: url(#linearGradient704)"
-      />
-      <line
-        x1="198.71747"
-        y1="85.881493"
-        x2="199.71747"
-        y2="87.881493"
-        id="line268"
-        style="stroke: url(#linearGradient705)"
-      />
-      <line
-        x1="199.71747"
-        y1="87.881493"
-        x2="200.71747"
-        y2="89.881493"
-        id="line269"
-        style="stroke: url(#linearGradient706)"
-      />
-      <line
-        x1="200.71747"
-        y1="89.881493"
-        x2="198.71747"
-        y2="89.881493"
-        id="line270"
-        style="stroke: url(#linearGradient707)"
-      />
-      <line
-        x1="198.71747"
-        y1="89.881493"
-        x2="199.71747"
-        y2="87.881493"
-        id="line271"
-        style="stroke: url(#linearGradient708)"
-      />
-      <line
-        x1="200.21747"
-        y1="85.781494"
-        x2="200.21747"
-        y2="85.881493"
-        id="line272"
-        style="stroke: url(#linearGradient709)"
-      />
-      <line
-        x1="199.21747"
-        y1="85.781494"
-        x2="199.21747"
-        y2="85.881493"
-        id="line273"
-        style="stroke: url(#linearGradient710)"
-      />
-      <line
-        x1="200.21747"
-        y1="89.981491"
-        x2="200.21747"
-        y2="89.881493"
-        id="line274"
-        style="stroke: url(#linearGradient711)"
-      />
-      <line
-        x1="199.21747"
-        y1="89.981491"
-        x2="199.21747"
-        y2="89.881493"
-        id="line275"
-        style="stroke: url(#linearGradient712)"
-      />
-      <line
-        x1="180.25146"
-        y1="80.168602"
-        x2="180.25146"
-        y2="80.168602"
-        id="line276"
-        style="stroke: url(#linearGradient713)"
-      />
-      <line
         x1="200.21747"
         y1="99.60183"
         x2="183.51566"
@@ -4841,134 +4697,6 @@
         y2="107.31165"
         id="line284"
         style="stroke: url(#linearGradient721)"
-      />
-      <line
-        x1="183.01566"
-        y1="104.10465"
-        x2="184.01566"
-        y2="102.10465"
-        id="line285"
-        style="stroke: url(#linearGradient722)"
-      />
-      <line
-        x1="184.01566"
-        y1="102.10465"
-        x2="182.01566"
-        y2="102.10465"
-        id="line286"
-        style="stroke: url(#linearGradient723)"
-      />
-      <line
-        x1="182.01566"
-        y1="102.10465"
-        x2="183.01566"
-        y2="104.10465"
-        id="line287"
-        style="stroke: url(#linearGradient724)"
-      />
-      <line
-        x1="183.01566"
-        y1="104.10465"
-        x2="184.01566"
-        y2="106.10465"
-        id="line288"
-        style="stroke: url(#linearGradient725)"
-      />
-      <line
-        x1="184.01566"
-        y1="106.10465"
-        x2="182.01566"
-        y2="106.10465"
-        id="line289"
-        style="stroke: url(#linearGradient726)"
-      />
-      <line
-        x1="182.01566"
-        y1="106.10465"
-        x2="183.01566"
-        y2="104.10465"
-        id="line290"
-        style="stroke: url(#linearGradient727)"
-      />
-      <line
-        x1="183.51566"
-        y1="106.20466"
-        x2="183.51566"
-        y2="106.10465"
-        id="line291"
-        style="stroke: url(#linearGradient728)"
-      />
-      <line
-        x1="182.51566"
-        y1="106.20466"
-        x2="182.51566"
-        y2="106.10465"
-        id="line292"
-        style="stroke: url(#linearGradient729)"
-      />
-      <line
-        x1="178.01566"
-        y1="104.10465"
-        x2="179.01566"
-        y2="102.10465"
-        id="line293"
-        style="stroke: url(#linearGradient730)"
-      />
-      <line
-        x1="179.01566"
-        y1="102.10465"
-        x2="177.01566"
-        y2="102.10465"
-        id="line294"
-        style="stroke: url(#linearGradient731)"
-      />
-      <line
-        x1="177.01566"
-        y1="102.10465"
-        x2="178.01566"
-        y2="104.10465"
-        id="line295"
-        style="stroke: url(#linearGradient732)"
-      />
-      <line
-        x1="178.01566"
-        y1="104.10465"
-        x2="179.01566"
-        y2="106.10465"
-        id="line296"
-        style="stroke: url(#linearGradient733)"
-      />
-      <line
-        x1="179.01566"
-        y1="106.10465"
-        x2="177.01566"
-        y2="106.10465"
-        id="line297"
-        style="stroke: url(#linearGradient734)"
-      />
-      <line
-        x1="177.01566"
-        y1="106.10465"
-        x2="178.01566"
-        y2="104.10465"
-        id="line298"
-        style="stroke: url(#linearGradient735)"
-      />
-      <line
-        x1="178.51566"
-        y1="106.20466"
-        x2="178.51566"
-        y2="106.10465"
-        id="line299"
-        style="stroke: url(#linearGradient736)"
-      />
-      <line
-        x1="177.51566"
-        y1="106.20466"
-        x2="177.51566"
-        y2="106.10465"
-        id="line300"
-        style="stroke: url(#linearGradient737)"
       />
       <line
         x1="178.51566"
@@ -5035,54 +4763,6 @@
         style="stroke: url(#linearGradient745)"
       />
       <line
-        x1="180.51566"
-        y1="80.168602"
-        x2="178.51566"
-        y2="79.168602"
-        id="line309"
-        style="stroke: url(#linearGradient746)"
-      />
-      <line
-        x1="178.51566"
-        y1="81.168602"
-        x2="180.51566"
-        y2="80.168602"
-        id="line310"
-        style="stroke: url(#linearGradient747)"
-      />
-      <line
-        x1="180.51566"
-        y1="80.168602"
-        x2="182.51566"
-        y2="79.168602"
-        id="line311"
-        style="stroke: url(#linearGradient748)"
-      />
-      <line
-        x1="182.51566"
-        y1="79.168602"
-        x2="182.51566"
-        y2="81.168602"
-        id="line312"
-        style="stroke: url(#linearGradient749)"
-      />
-      <line
-        x1="182.51566"
-        y1="81.168602"
-        x2="180.51566"
-        y2="80.168602"
-        id="line313"
-        style="stroke: url(#linearGradient750)"
-      />
-      <line
-        x1="178.51566"
-        y1="81.168602"
-        x2="178.51566"
-        y2="79.168602"
-        id="line314"
-        style="stroke: url(#linearGradient751)"
-      />
-      <line
         x1="182.51566"
         y1="80.668602"
         x2="199.21747"
@@ -5114,181 +4794,25 @@
         id="line318"
         style="stroke: url(#linearGradient755)"
       />
-      <line
-        x1="180.51566"
-        y1="80.168602"
-        x2="180.51566"
-        y2="79.168602"
-        id="line319"
-        style="stroke: url(#linearGradient756)"
-      />
-      <line
-        x1="180.01566"
-        y1="79.168602"
-        x2="181.01566"
-        y2="79.168602"
-        id="line320"
-        style="stroke: url(#linearGradient757)"
-      />
-      <line
-        x1="180.01566"
-        y1="79.168602"
-        x2="180.01566"
-        y2="78.168602"
-        id="line321"
-        style="stroke: url(#linearGradient758)"
-      />
-      <line
-        x1="181.01566"
-        y1="79.168602"
-        x2="181.01566"
-        y2="78.168602"
-        id="line322"
-        style="stroke: url(#linearGradient759)"
-      />
-      <line
-        x1="180.01566"
-        y1="78.168602"
-        x2="181.01566"
-        y2="78.168602"
-        id="line323"
+      <path
+        id="valvula_lavador_bypass_grafico"
         style="stroke: url(#linearGradient760)"
+        d="m 180.01566,78.168602 h 1 m 0,1 v -1 m -1,1 v -1 m 0,1 h 1 m -0.5,1 v -1 m -2,2 v -2 m 4,2 -2,-1 m 2,-1 v 2 m -2,-1 2,-1 m -4,2 2,-1 m 0,0 -2,-1 m 1.7358,1 v 0"
       />
-      <line
-        x1="199.71747"
-        y1="87.881493"
-        x2="200.71747"
-        y2="87.881493"
-        id="line324"
-        style="stroke: url(#linearGradient761)"
-      />
-      <line
-        x1="200.71747"
-        y1="88.381493"
-        x2="200.71747"
-        y2="87.381493"
-        id="line325"
-        style="stroke: url(#linearGradient762)"
-      />
-      <line
-        x1="200.71747"
-        y1="88.381493"
-        x2="201.71747"
-        y2="88.381493"
-        id="line326"
-        style="stroke: url(#linearGradient763)"
-      />
-      <line
-        x1="200.71747"
-        y1="87.381493"
-        x2="201.71747"
-        y2="87.381493"
-        id="line327"
-        style="stroke: url(#linearGradient764)"
-      />
-      <line
-        x1="201.71747"
-        y1="88.381493"
-        x2="201.71747"
-        y2="87.381493"
-        id="line328"
+      <path
+        id="valvula_lavador_grafico"
         style="stroke: url(#linearGradient765)"
+        d="m 201.71747,88.381493 v -1 m -1,0 h 1 m -1,1 h 1 m -1,0 v -1 m -1,0.5 h 1 m -1.5,2.099998 v -0.1 m 1,0.1 v -0.1 m -1,-4.099997 v 0.1 m 1,-0.1 v 0.1 m -1.5,3.999999 1,-2 m 1,2 h -2 m 1,-2 1,2 m -2,-4 1,2 m 1,-2 h -2 m 1,2 1,-2"
       />
-      <line
-        x1="178.01566"
-        y1="104.10465"
-        x2="177.01566"
-        y2="104.10465"
-        id="line329"
-        style="stroke: url(#linearGradient766)"
-      />
-      <line
-        x1="177.01566"
-        y1="104.60465"
-        x2="177.01566"
-        y2="103.60465"
-        id="line330"
-        style="stroke: url(#linearGradient767)"
-      />
-      <line
-        x1="177.01566"
-        y1="104.60465"
-        x2="176.01566"
-        y2="104.60465"
-        id="line331"
-        style="stroke: url(#linearGradient768)"
-      />
-      <line
-        x1="177.01566"
-        y1="103.60465"
-        x2="176.01566"
-        y2="103.60465"
-        id="line332"
-        style="stroke: url(#linearGradient769)"
-      />
-      <line
-        x1="176.01566"
-        y1="104.60465"
-        x2="176.01566"
-        y2="103.60465"
-        id="line333"
-        style="stroke: url(#linearGradient770)"
-      />
-      <line
-        x1="178.01566"
-        y1="123.0508"
-        x2="177.01566"
-        y2="123.0508"
-        id="line334"
-        style="stroke: url(#linearGradient771)"
-      />
-      <line
-        x1="177.01566"
-        y1="123.5508"
-        x2="177.01566"
-        y2="122.5508"
-        id="line335"
-        style="stroke: url(#linearGradient772)"
-      />
-      <line
-        x1="177.01566"
-        y1="123.5508"
-        x2="176.01566"
-        y2="123.5508"
-        id="line336"
-        style="stroke: url(#linearGradient773)"
-      />
-      <line
-        x1="177.01566"
-        y1="122.5508"
-        x2="176.01566"
-        y2="122.5508"
-        id="line337"
-        style="stroke: url(#linearGradient774)"
-      />
-      <line
-        x1="176.01566"
-        y1="123.5508"
-        x2="176.01566"
-        y2="122.5508"
-        id="line338"
+      <path
+        id="valvula_agua_fria_grafico"
         style="stroke: url(#linearGradient775)"
+        d="m 176.01566,123.5508 v -1 m 1,0 h -1 m 1,1 h -1 m 1,0 v -1 m 1,0.5 h -1 m 0.5,2.1 v -0.1 m 1,0.1 v -0.1 m -1,-4.1 v 0.1 m 1,-0.1 v 0.1 m -1.5,4 1,-2 m 1,2 h -2 m 1,-2 1,2 m -2,-4 1,2 m 1,-2 h -2 m 1,2 1,-2"
       />
-      <line
-        x1="183.01566"
-        y1="104.10465"
-        x2="184.01566"
-        y2="104.10465"
-        id="line339"
-        style="stroke: url(#linearGradient776)"
-      />
-      <line
-        x1="184.01566"
-        y1="104.60465"
-        x2="184.01566"
-        y2="103.60465"
+      <path
         id="line340"
         style="stroke: url(#linearGradient777)"
+        d="m 184.01566,104.60465 v -1 m -1,0.5 h 1 m -1.5,2.10001 v -0.10001 m 1,0.10001 v -0.10001 m -1.5,0 1,-2 m 1,2 h -2 m 1,-2 1,2 m -2,-4 1,2 m 1,-2 h -2 m 1,2 1,-2"
       />
       <line
         x1="183.01566"
@@ -5851,7 +5375,7 @@
       />
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,47.254358,58.015043)"
+        transform="matrix(0.26458333,0,0,0.26458333,23.377051,55.696858)"
         id="text1877-8-40"
         style="
           font-style: normal;
@@ -5876,7 +5400,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94226">V630</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36842">V630</tspan>
       </text>
       <g
         id="g2"
@@ -5917,7 +5441,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan94228">V622</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan36844">V622</tspan>
         </text>
       </g>
       <g
@@ -5959,7 +5483,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan94230">V632</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan36846">V632</tspan>
         </text>
       </g>
       <text
@@ -5989,7 +5513,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94232">V634_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36848">V634_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6018,7 +5542,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94234">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36850">VG54_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6047,7 +5571,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94236">V634</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36852">V634</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6076,7 +5600,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94238">V634_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36854">V634_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6105,7 +5629,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94240">V634_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36856">V634_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6134,11 +5658,11 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94242">V634_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36858">V634_P03</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-74.860817,-23.87099)"
+        transform="matrix(0.26458333,0,0,0.26458333,-85.83356,-21.475532)"
         id="text1877-8-8"
         style="
           font-style: normal;
@@ -6158,12 +5682,12 @@
           fill: #ffffff;
           fill-opacity: 1;
           stroke: #ffffff;
-          stroke-width: 0.37795276;
+          stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94244">V635</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36860">V635</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6192,18 +5716,18 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94246">V637</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36862">V637</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-34.163339,-64.593838)"
+        transform="matrix(0.26458333,0,0,0.26458333,-29.797424,-66.912023)"
         id="text1877-8-8-2"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 10.6667px;
+          font-size: 8px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
@@ -6221,7 +5745,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="515.2874" id="tspan94248">V636</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan36864">V636</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6385,11 +5909,11 @@
         style="
           font-style: normal;
           font-variant: normal;
-          font-weight: bold;
+          font-weight: normal;
           font-stretch: normal;
-          font-size: 2.82222px;
+          font-size: 2.11667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Bold';
+          -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6401,8 +5925,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="205.87389"
-        y="71.670769"
+        x="217.1171"
+        y="68.888947"
         id="text5261"
       >
         <tspan
@@ -6410,11 +5934,11 @@
           style="
             font-style: normal;
             font-variant: normal;
-            font-weight: bold;
+            font-weight: normal;
             font-stretch: normal;
-            font-size: 2.82222px;
+            font-size: 2.11667px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Bold';
+            -inkscape-font-specification: 'sans-serif, Normal';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6426,8 +5950,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="205.87389"
-          y="71.670769"
+          x="217.1171"
+          y="68.888947"
         >
           Bomba Lavador
         </tspan>
@@ -6439,7 +5963,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6453,8 +5977,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="213.04825"
-        y="69.030273"
+        x="205.90051"
+        y="68.875725"
         id="bomba_lavador"
       >
         <tspan
@@ -6464,7 +5988,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6478,8 +6002,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="213.04825"
-          y="69.030273"
+          x="205.90051"
+          y="68.875725"
         >
           nnn %
         </tspan>
@@ -6491,7 +6015,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6505,8 +6029,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="185.02705"
-        y="104.80933"
+        x="186.11986"
+        y="110.38263"
         id="temperatura_entrada_lavador"
       >
         <tspan
@@ -6516,7 +6040,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6530,10 +6054,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="185.02705"
-          y="104.80933"
+          x="186.11986"
+          y="110.38263"
         >
-          nnn.n °C
+          nn.n °C
         </tspan>
       </text>
       <text
@@ -6543,7 +6067,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 2.82222px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6557,8 +6081,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="189.51764"
-        y="107.71017"
+        x="199.57143"
+        y="110.44218"
         id="text5261-0"
       >
         <tspan
@@ -6568,7 +6092,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.82222px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6582,8 +6106,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="189.51764"
-          y="107.71017"
+          x="199.57143"
+          y="110.44218"
         >
           Entrada
         </tspan>
@@ -6595,7 +6119,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6609,8 +6133,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="154.65884"
-        y="105.47764"
+        x="162.19919"
+        y="110.83237"
         id="temperatura_salida_lavador"
       >
         <tspan
@@ -6620,7 +6144,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6634,10 +6158,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="154.65884"
-          y="105.47764"
+          x="162.19919"
+          y="110.83237"
         >
-          nnn.n °C
+          nn.n °C
         </tspan>
       </text>
       <text
@@ -6647,7 +6171,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 2.82222px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6661,8 +6185,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="159.58884"
-        y="109.31532"
+        x="154.63649"
+        y="111.37391"
         id="text5261-0-8-4"
         transform="rotate(-0.20545451)"
       >
@@ -6673,7 +6197,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.82222px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6687,8 +6211,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="159.58884"
-          y="109.31532"
+          x="154.63649"
+          y="111.37391"
         >
           Salida
         </tspan>
@@ -6700,7 +6224,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6714,8 +6238,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="154.11792"
-        y="119.05459"
+        x="162.20467"
+        y="117.19683"
         id="temperatura_entrada_agua_fria"
       >
         <tspan
@@ -6725,7 +6249,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6739,10 +6263,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="154.11792"
-          y="119.05459"
+          x="162.20467"
+          y="117.19683"
         >
-          nnn.n °C
+          nn.n °C
         </tspan>
       </text>
       <text
@@ -6752,7 +6276,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -6766,8 +6290,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="155.62361"
-        y="123.58722"
+        x="153.39331"
+        y="117.16508"
         id="text5261-0-8-8"
       >
         <tspan
@@ -6777,7 +6301,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -6791,8 +6315,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="155.62361"
-          y="123.58722"
+          x="153.39331"
+          y="117.16508"
         >
           Entrada
         </tspan>
@@ -6825,8 +6349,8 @@
         id="text5261-49-9-2"
         transform="translate(7.2124995,18.905491)"
       >
-        <tspan x="258.33249" y="27.783401" id="tspan94250">Ventilador</tspan>
-        <tspan x="258.33249" y="32.193127" id="tspan94252">Introducción</tspan>
+        <tspan x="258.33249" y="27.783401" id="tspan36866">Ventilador</tspan>
+        <tspan x="258.33249" y="32.193127" id="tspan36868">Introducción</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7199,7 +6723,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.93889px;
+          font-size: 3.52778px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -7213,8 +6737,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="187.72308"
-        y="118.64213"
+        x="186.41171"
+        y="117.22147"
         id="temperatura_salida_agua_fria"
       >
         <tspan
@@ -7224,7 +6748,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.93889px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -7238,10 +6762,10 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="187.72308"
-          y="118.64213"
+          x="186.41171"
+          y="117.22147"
         >
-          nnn.n °C
+          nn.n °C
         </tspan>
       </text>
       <text
@@ -7251,7 +6775,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 4.23333px;
+          font-size: 2.11667px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -7265,8 +6789,8 @@
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="189.22878"
-        y="123.17476"
+        x="199.6104"
+        y="117.16434"
         id="text5261-0-8-8-5"
       >
         <tspan
@@ -7276,7 +6800,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 4.23333px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -7290,8 +6814,8 @@
             stroke-dasharray: none;
             stroke-opacity: 1;
           "
-          x="189.22878"
-          y="123.17476"
+          x="199.6104"
+          y="117.16434"
         >
           Salida
         </tspan>
@@ -7375,7 +6899,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan94254">V464</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan36870">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7479,6 +7003,404 @@
           y="151.5002"
         >
           Bomba Agua Fría
+        </tspan>
+      </text>
+      <path
+        id="line340-8"
+        style="stroke: url(#linearGradient35880)"
+        d="m 177.10088,103.72251 0.007,0.99998 m 0.99647,-0.50702 -0.99998,0.007 m 1.48521,-2.1105 7e-4,0.10001 m -1.00067,-0.093 7e-4,0.10001 m 1.49996,-0.0105 -0.98592,2.00697 m -1.01403,-1.99292 1.99995,-0.014 m -0.98592,2.00697 -1.01403,-1.99292 m 2.02805,3.98585 -1.01402,-1.99293 m -0.98593,2.00698 1.99995,-0.014 m -1.01402,-1.99293 -0.98593,2.00698"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 3.52778px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="202.30405"
+        y="89.749794"
+        id="valvula_lavador"
+      >
+        <tspan
+          id="tspan5259-74-5"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 3.52778px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="202.30405"
+          y="89.749794"
+        >
+          nnn %
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        transform="matrix(0.26458333,0,0,0.26458333,-33.084246,-46.217766)"
+        id="text1877-8-8-2-9"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 8px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          white-space: pre;
+          shape-inside: url(#rect1877-39-2-5-1);
+          display: inline;
+          fill: #ffffff;
+          fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-width: 0.377953;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+      >
+        <tspan x="994.19141" y="512.86103" id="tspan36872">V636</tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 2.11667px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="213.83028"
+        y="89.583206"
+        id="text5261-2"
+      >
+        <tspan
+          id="tspan5259-1"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 2.11667px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #f4f4f4;
+            fill-opacity: 1;
+            stroke: #909090;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="213.83028"
+          y="89.583206"
+        >
+          Válvula Lavador
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 3.52778px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="171.72276"
+        y="84.188049"
+        id="valvula_lavador_bypass"
+      >
+        <tspan
+          id="tspan5259-74-5-3"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 3.52778px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="171.72276"
+          y="84.188049"
+        >
+          nnn %
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 2.11667px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="183.24899"
+        y="84.021461"
+        id="text5261-2-8"
+      >
+        <tspan
+          id="tspan5259-1-6"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 2.11667px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #f4f4f4;
+            fill-opacity: 1;
+            stroke: #909090;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="183.24899"
+          y="84.021461"
+        >
+          Válvula Lavador
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 2.11667px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="187.63792"
+        y="85.96788"
+        id="text5261-2-8-8"
+      >
+        <tspan
+          id="tspan5259-1-6-4"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 2.11667px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #f4f4f4;
+            fill-opacity: 1;
+            stroke: #909090;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="187.63792"
+          y="85.96788"
+        >
+          Bypass
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 3.52778px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Bold';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #fbfb16;
+          fill-opacity: 1;
+          stroke: #cbc341;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="164.49779"
+        y="123.42589"
+        id="valvula_agua_fria"
+      >
+        <tspan
+          id="tspan5259-74-5-1"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            font-size: 3.52778px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Bold';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #fbfb16;
+            fill-opacity: 1;
+            stroke: #cbc341;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="164.49779"
+          y="123.42589"
+        >
+          nnn %
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 2.11667px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #f4f4f4;
+          fill-opacity: 1;
+          stroke: #909090;
+          stroke-width: 0.05;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="147.77505"
+        y="123.42323"
+        id="text5261-2-5"
+      >
+        <tspan
+          id="tspan5259-1-9"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 2.11667px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            fill: #f4f4f4;
+            fill-opacity: 1;
+            stroke: #909090;
+            stroke-width: 0.05;
+            stroke-dasharray: none;
+            stroke-opacity: 1;
+          "
+          x="147.77505"
+          y="123.42323"
+        >
+          Válvula agua fría
         </tspan>
       </text>
     </g>
