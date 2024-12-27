@@ -35,7 +35,7 @@
       </linearGradient>
       <linearGradient id="linearGradient62304">
         <stop
-          style="stop-color: #727272; stop-opacity: 1"
+          style="stop-color: #ffffff; stop-opacity: 1"
           offset="0"
           id="stop62302"
         />
@@ -2637,7 +2637,7 @@
       />
       <path
         id="V370_P01"
-        style="stroke: url(#linearGradient398)"
+        style="stroke: url(#linearGradient398); fill: #000000; fill-opacity: 1"
         d="m 166.12671,141.62108 1.30897,1.09836 m -1.75518,-1.47278 -1.30898,-1.09836 m 1.75519,6.09836 1.30897,-1.09836 m -1.75518,1.47278 -1.30898,1.09836 m 1.82332,-1.28557 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29125 0.29124677,0.29124677 0 0 1 -0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 0,-5 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29125 0.29124677,0.29124677 0 0 1 -0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 1.70875,6.5 v -8 m -4,8 h 4 m -4,-8 h 4 m -4,8 v -8"
       />
       <line
@@ -4477,7 +4477,7 @@
       />
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-114.54623,-68.453867)"
+        transform="matrix(0.26458333,0,0,0.26458333,-148.94078,-70.216399)"
         id="text1877-8-8-4"
         style="
           font-style: normal;
@@ -4494,15 +4494,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4);
           display: inline;
-          fill: #ffffff;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #ffffff;
+          stroke: #727272;
           stroke-width: 0;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan67055">V342</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan3267">V342</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4523,15 +4523,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-6);
           display: inline;
-          fill: #ffffff;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #ffffff;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67057">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3269">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4552,15 +4552,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-8);
           display: inline;
-          fill: #ffffff;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #ffffff;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67059">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3271">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4581,15 +4581,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-67);
           display: inline;
-          fill: #e9ffe6;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #fafafa;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67061">V317</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3273">V317</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4618,7 +4618,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67063">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3275">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4647,7 +4647,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67065">V355</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3277">V355</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4676,7 +4676,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67067">V396</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3279">V396</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4697,15 +4697,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-9);
           display: inline;
-          fill: #ffffff;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #f5fdf5;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67069">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3281">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4726,19 +4726,19 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-0);
           display: inline;
-          fill: #fee4e4;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #f5fdf5;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67071">V370</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3283">V370</tspan>
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(0.26458333,0,0,0.26458333,-149.17892,-6.2690715)"
+        transform="matrix(0.26458333,0,0,0.26458333,-173.78441,-13.53321)"
         id="text1877-8-8-4-2"
         style="
           font-style: normal;
@@ -4755,15 +4755,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-1);
           display: inline;
-          fill: #effaee;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #eefeec;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan67073">V000</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan3285">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4784,15 +4784,15 @@
           white-space: pre;
           shape-inside: url(#rect1877-39-2-4-4);
           display: inline;
-          fill: #ffffff;
+          fill: #727272;
           fill-opacity: 1;
-          stroke: #ffffff;
+          stroke: #727272;
           stroke-width: 0.377953;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67075">V399</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3287">V399</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4821,7 +4821,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67077">V370_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3289">V370_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4850,7 +4850,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67079">V370_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3291">V370_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4879,7 +4879,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67081">V370_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3293">V370_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4908,7 +4908,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan67083">V370_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan3295">V370_P04</tspan>
       </text>
       <rect
         style="
@@ -6912,9 +6912,7 @@
         id="text5261-9-8-2"
         transform="translate(24.948095,-4.8725123)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan67085">
-          válvula lavador
-        </tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan3297">válvula lavador</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6944,7 +6942,7 @@
         id="text5261-9-8-2-4"
         transform="translate(26.624191,-3.8518049)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan67087">Bypass</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan3299">Bypass</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7050,6 +7048,16 @@
           nnn %
         </tspan>
       </text>
+      <path
+        id="path846"
+        style="
+          fill: #0000ff;
+          stroke-width: 0.106066;
+          stroke: #3051ee;
+          stroke-opacity: 1;
+        "
+        d="m 102.81607,46.460737 -4.622797,0.0081 -0.02923,-1.529439 -0.04677,-1.698987 0.409253,-0.336101 c 0.534448,-0.438919 1.40164,-0.939884 2.153594,-1.191455 0.51479,-0.172233 0.77731,-0.219424 1.60891,-0.184875 1.30196,0.05409 2.44233,0.556706 3.75397,1.45403 0.31137,0.213013 0.44399,0.224697 0.53322,0.218302 0.0892,-0.0064 0.36001,-0.167198 0.54787,-0.349649 1.40445,-1.363983 3.08764,-1.290846 4.48436,-0.01433 0.2731,0.249595 0.46905,0.434241 0.5517,0.418199 0.13761,-0.02671 0.2291,-0.293912 0.57227,-0.576971 1.43691,-1.185227 3.03217,-1.060412 4.41569,0.183493 0.26249,0.235998 0.54907,0.429088 0.63685,0.429088 0.0878,0 0.15452,-0.294349 0.40944,-0.523542 1.39985,-1.258588 3.08673,-1.151762 4.48659,0.106826 0.25492,0.229193 0.30385,0.354401 0.39163,0.354401 0.0878,0 0.37436,-0.19309 0.63684,-0.429088 0.48322,-0.434456 1.24898,-0.880533 1.51158,-0.880533 0.12496,0 -0.0328,2.485379 -0.0328,4.4812 -14.32438,0.106546 -13.56403,0.11994 -22.37213,0.06137 z m 31.91549,-3.320905 c 0,-0.183734 -1.53775,-1.101235 -2.08868,-1.245771 -1.0527,-0.276183 -2.49074,0.04959 -3.2557,0.749716 -0.50892,0.457167 -0.6492,0.610741 -0.81613,0.560226 -0.25366,-0.0022 -1.42065,-1.212332 -2.37001,-1.360044 -0.12173,-0.01894 -0.79555,0.03952 -1.00387,0.05233 l -0.0413,2.730856 -0.0165,1.785721 9.12833,0.0248 0.4627,0.02339 c -0.003,-0.09242 -0.10969,0.03473 0.001,-3.321216 z"
+      />
     </g>
   </svg>
 </template>
