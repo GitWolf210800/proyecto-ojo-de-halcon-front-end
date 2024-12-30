@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="288.16595mm"
-    height="192.56319mm"
-    viewBox="0 0 288.16594 192.56319"
+    width="379.45401mm"
+    height="243.132mm"
+    viewBox="0 0 379.45399 243.13201"
     version="1.1"
     id="svg557"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -3636,7 +3636,7 @@
       stroke="#000000"
       stroke-width="0.3"
       id="g557"
-      transform="translate(-20.682663,-1.9582646)"
+      transform="matrix(1.3164797,0,0,1.262588,-27.230229,-2.4705953)"
     >
       <path
         d="m 236.33167,46.079392 60.34859,6.86e-4 V 8.3265873 h -60.34859 z"
@@ -6011,7 +6011,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4074">VM30</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1966">VM30</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6040,7 +6040,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4076">VM31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1968">VM31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6069,7 +6069,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4078">VM35</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1970">VM35</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6098,7 +6098,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4080">VM36</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1972">VM36</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6127,7 +6127,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4082">VM37</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1974">VM37</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6156,7 +6156,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4084">VM40</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1976">VM40</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6185,7 +6185,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4086">VM39</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1978">VM39</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6214,7 +6214,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan4088">V301</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan1980">V301</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6243,7 +6243,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan4090">V302</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan1982">V302</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6272,7 +6272,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan4092">V303</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan1984">V303</tspan>
       </text>
       <g
         aria-label="V332"
@@ -6341,7 +6341,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4094">V360</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1986">V360</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6370,7 +6370,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4096">V361</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1988">V361</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6399,7 +6399,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4098">V352</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1990">V352</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6428,7 +6428,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4100">V351</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1992">V351</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6457,7 +6457,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4102">V350</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1994">V350</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6486,7 +6486,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4104">V372</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1996">V372</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6515,7 +6515,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4106">V31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1998">V31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6544,7 +6544,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4108">V372_P08</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2000">V372_P08</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6573,7 +6573,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4110">V372_P07</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2002">V372_P07</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6602,7 +6602,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4112">V372_P10</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2004">V372_P10</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6631,7 +6631,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4114">V372_P09</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2006">V372_P09</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6660,7 +6660,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4116">V372_P12</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2008">V372_P12</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6689,7 +6689,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4118">V372_P11</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2010">V372_P11</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6718,7 +6718,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4120">V372_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2012">V372_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6747,7 +6747,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4122">V372_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2014">V372_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6776,7 +6776,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4124">V372_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2016">V372_P01</tspan>
       </text>
       <g
         id="g1"
@@ -6817,7 +6817,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan4126">V372_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2018">V372_P04</tspan>
         </text>
       </g>
       <g
@@ -6859,7 +6859,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan4128">V372_P05</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2020">V372_P05</tspan>
         </text>
       </g>
       <g
@@ -6901,7 +6901,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan4130">V372_P06</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2022">V372_P06</tspan>
         </text>
       </g>
       <text
@@ -6931,7 +6931,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan4132">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2024">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6947,9 +6947,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6972,9 +6972,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7155,9 +7155,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7173,16 +7173,16 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52777778px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7207,9 +7207,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7232,9 +7232,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7311,9 +7311,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7336,9 +7336,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7416,9 +7416,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7441,9 +7441,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7520,9 +7520,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7545,9 +7545,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7642,7 +7642,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.11666667px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -7676,9 +7676,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7694,16 +7694,16 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52777778px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7728,9 +7728,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7753,9 +7753,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7832,9 +7832,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7857,9 +7857,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7884,9 +7884,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7909,9 +7909,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7986,15 +7986,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0295239;
+        stroke-width: 0.0380637;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_peinadorasE65_clima_hum_color"
-      width="22.487587"
-      height="4.2404823"
-      x="233.71588"
-      y="33.829681"
+      width="29.60445"
+      height="5.353982"
+      x="307.68027"
+      y="42.71484"
     />
     <rect
       style="
@@ -8002,15 +8002,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0295239;
+        stroke-width: 0.0380637;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_peinadorasE65_clima_temp_color"
-      width="22.487587"
-      height="4.2404823"
-      x="233.71533"
-      y="29.589155"
+      width="29.60445"
+      height="5.353982"
+      x="307.67953"
+      y="37.360798"
     />
     <text
       xml:space="preserve"
@@ -8019,7 +8019,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 4.49511px;
+        font-size: 5.79533px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8030,28 +8030,28 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.225109;
+        stroke-width: 0.290222;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="201.44301"
-      y="37.964348"
+      x="259.70923"
+      y="48.947857"
       id="climaTmanFab3"
-      transform="scale(1.1599545,0.86210278)"
+      transform="scale(1.1844513,0.84427281)"
     >
       <tspan
         id="fab3_peinadorasE65_clima_temp_text"
-        x="201.44301"
-        y="37.964348"
-        style="stroke-width: 0.225109"
+        x="259.70923"
+        y="48.947857"
+        style="stroke-width: 0.290222"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_peinadorasE65_clima_hum_text"
-        x="201.44301"
-        y="43.583244"
-        style="stroke-width: 0.225109"
+        x="259.70923"
+        y="56.192028"
+        style="stroke-width: 0.290222"
       >
         nn% H.r
       </tspan>
@@ -8063,7 +8063,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 2.90091px;
+        font-size: 3.74px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8074,20 +8074,20 @@
         fill: #fefefb;
         fill-opacity: 1;
         stroke: #0a210a;
-        stroke-width: 0.0672793;
+        stroke-width: 0.08674;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="229.98663"
-      y="29.325432"
+      x="296.50894"
+      y="37.809837"
       id="manuarTextFab3"
-      transform="scale(1.0165509,0.98371858)"
+      transform="scale(1.0380192,0.96337336)"
     >
       <tspan
         id="tspan3660"
-        x="229.98663"
-        y="29.325432"
-        style="stroke-width: 0.0672793"
+        x="296.50894"
+        y="37.809837"
+        style="stroke-width: 0.08674"
       >
         Peinadoras E65
       </tspan>
@@ -8101,10 +8101,10 @@
         stroke-width: 0;
       "
       id="fab3_peinadorasE65_clima_temp_g"
-      width="22.450546"
-      height="4.1903491"
-      x="233.73029"
-      y="29.605177"
+      width="29.555685"
+      height="5.2906842"
+      x="307.69922"
+      y="37.381027"
     />
     <rect
       style="
@@ -8115,10 +8115,10 @@
         stroke-width: 0;
       "
       id="fab3_peinadorasE65_clima_hum_g"
-      width="22.450546"
-      height="4.1903491"
-      x="233.72896"
-      y="33.870422"
+      width="29.555685"
+      height="5.2906842"
+      x="307.69748"
+      y="42.766277"
     />
     <rect
       style="
@@ -8126,15 +8126,15 @@
         fill: #c1a22b;
         fill-opacity: 0.939698;
         stroke: #ffffff;
-        stroke-width: 0.0250536;
+        stroke-width: 0.0323004;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_peinadorasE65_clima_humAbs_color"
-      width="22.492144"
-      height="3.0529597"
-      x="233.713"
-      y="38.068359"
+      width="29.610449"
+      height="3.8546302"
+      x="307.67648"
+      y="48.06654"
     />
     <text
       xml:space="preserve"
@@ -8143,7 +8143,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 3.20307px;
+        font-size: 4.12956px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8154,53 +8154,53 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.204689;
+        stroke-width: 0.263895;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="160.34888"
-      y="59.317631"
+      x="206.72887"
+      y="76.478226"
       id="fab3_peinadorasE65_clima_humAbs_text"
-      transform="scale(1.4747729,0.6780705)"
+      transform="scale(1.5059182,0.66404669)"
     >
       <tspan
         id="climaETpeiFab3-6"
-        x="160.34888"
-        y="59.317631"
+        x="206.72887"
+        y="76.478226"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.20307px;
+          font-size: 4.12956px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.204689;
+          stroke-width: 0.263895;
         "
       >
         nn g/kg
       </tspan>
       <tspan
-        x="160.34888"
-        y="63.321476"
+        x="206.72887"
+        y="81.64019"
         id="humPeiFab3-9-2"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.20307px;
+          font-size: 4.12956px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.204689;
+          stroke-width: 0.263895;
         "
       />
     </text>
@@ -8213,10 +8213,10 @@
         stroke-width: 0;
       "
       id="fab3_peinadorasE65_clima_humAbs_g"
-      width="22.455091"
-      height="3.0168653"
-      x="233.72475"
-      y="38.0924"
+      width="29.56167"
+      height="3.809058"
+      x="307.69196"
+      y="48.096897"
     />
     <rect
       style="
@@ -8224,15 +8224,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0310508;
+        stroke-width: 0.0400323;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_c50_clima_hum_color"
-      width="23.962048"
-      height="4.4018154"
-      x="248.12308"
-      y="15.774306"
+      width="31.545547"
+      height="5.5576792"
+      x="326.64706"
+      y="19.918335"
     />
     <rect
       style="
@@ -8240,15 +8240,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0310508;
+        stroke-width: 0.0400323;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_c50_clima_temp_color"
-      width="23.962048"
-      height="4.4018154"
-      x="248.12253"
-      y="11.372451"
+      width="31.545547"
+      height="5.5576792"
+      x="326.64633"
+      y="14.360606"
     />
     <text
       xml:space="preserve"
@@ -8257,7 +8257,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 4.72481px;
+        font-size: 6.09147px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8268,28 +8268,28 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.236611;
+        stroke-width: 0.305051;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="211.13925"
-      y="17.434431"
+      x="272.21014"
+      y="22.479643"
       id="climaTcardasFab3"
-      transform="scale(1.1745087,0.85141983)"
+      transform="scale(1.1993128,0.83381082)"
     >
       <tspan
         id="fab3_c50_clima_temp_text"
-        x="211.13925"
-        y="17.434431"
-        style="stroke-width: 0.236611"
+        x="272.21014"
+        y="22.479643"
+        style="stroke-width: 0.305051"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_c50_clima_hum_text"
-        x="211.13925"
-        y="23.340452"
-        style="stroke-width: 0.236611"
+        x="272.21014"
+        y="30.093992"
+        style="stroke-width: 0.305051"
       >
         nn% H.r
       </tspan>
@@ -8301,7 +8301,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 3.05094px;
+        font-size: 3.93343px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8312,20 +8312,20 @@
         fill: #fefefb;
         fill-opacity: 1;
         stroke: #0a210a;
-        stroke-width: 0.0707592;
+        stroke-width: 0.0912264;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="243.68935"
-      y="11.229527"
+      x="314.17523"
+      y="14.479677"
       id="cardasTextFab3"
-      transform="scale(1.0299389,0.97093139)"
+      transform="scale(1.0516899,0.95085065)"
     >
       <tspan
         id="tspan4331"
-        x="243.68935"
-        y="11.229527"
-        style="stroke-width: 0.0707592"
+        x="314.17523"
+        y="14.479677"
+        style="stroke-width: 0.0912264"
       >
         Cardas C50
       </tspan>
@@ -8339,10 +8339,10 @@
         stroke-width: 0;
       "
       id="fab3_c50_clima_temp_g"
-      width="23.922579"
-      height="4.3497744"
-      x="248.28082"
-      y="11.247558"
+      width="31.493587"
+      height="5.4919729"
+      x="326.85471"
+      y="14.202917"
     />
     <rect
       style="
@@ -8353,10 +8353,10 @@
         stroke-width: 0;
       "
       id="fab3_c50_clima_hum_g"
-      width="23.922579"
-      height="4.3286781"
-      x="248.13924"
-      y="15.813796"
+      width="31.493587"
+      height="5.4653373"
+      x="326.6683"
+      y="19.968195"
     />
     <rect
       style="
@@ -8364,15 +8364,15 @@
         fill: #c1a22b;
         fill-opacity: 0.939698;
         stroke: #ffffff;
-        stroke-width: 0.0254248;
+        stroke-width: 0.032779;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_c50_clima_humAbs_color"
-      width="23.967939"
-      height="2.9505036"
-      x="248.11951"
-      y="20.173857"
+      width="31.553303"
+      height="3.7252707"
+      x="326.64236"
+      y="25.473156"
     />
     <text
       xml:space="preserve"
@@ -8381,7 +8381,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 3.1559px;
+        font-size: 4.06874px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8392,53 +8392,53 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.201675;
+        stroke-width: 0.26001;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="161.2469"
-      y="34.673309"
+      x="207.88672"
+      y="44.705639"
       id="fab3_c50_clima_humAbs_text"
-      transform="scale(1.5562608,0.64256582)"
+      transform="scale(1.589127,0.62927632)"
     >
       <tspan
         id="climaETpeiFab3-6-0"
-        x="161.2469"
-        y="34.673309"
+        x="207.88672"
+        y="44.705639"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.1559px;
+          font-size: 4.06874px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.201675;
+          stroke-width: 0.26001;
         "
       >
         nn g/kg
       </tspan>
       <tspan
-        x="161.2469"
-        y="38.618179"
+        x="207.88672"
+        y="49.791573"
         id="humPeiFab3-9-2-0"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.1559px;
+          font-size: 4.06874px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.201675;
+          stroke-width: 0.26001;
         "
       />
     </text>
@@ -8451,10 +8451,10 @@
         stroke-width: 0;
       "
       id="fab3_c50_clima_humAbs_g"
-      width="23.928457"
-      height="2.9156213"
-      x="248.13277"
-      y="20.196028"
+      width="31.501324"
+      height="3.6812286"
+      x="326.65982"
+      y="25.50115"
     />
     <rect
       style="
@@ -8462,15 +8462,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0302487;
+        stroke-width: 0.0389982;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_mecheras_clima_hum_color"
-      width="23.264666"
-      height="4.3025551"
-      x="218.99883"
-      y="15.626021"
+      width="30.627457"
+      height="5.4323545"
+      x="288.30557"
+      y="19.731113"
     />
     <rect
       style="
@@ -8478,15 +8478,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0302487;
+        stroke-width: 0.0389982;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_mecheras_clima_temp_color"
-      width="23.264666"
-      height="4.3025551"
-      x="218.99828"
-      y="11.323409"
+      width="30.627457"
+      height="5.4323545"
+      x="288.30487"
+      y="14.298687"
     />
     <text
       xml:space="preserve"
@@ -8495,7 +8495,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 4.59446px;
+        font-size: 5.92342px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8506,28 +8506,28 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.230084;
+        stroke-width: 0.296636;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="187.39091"
-      y="16.952719"
+      x="241.59256"
+      y="21.858582"
       id="climaTmecheraFab3"
-      transform="scale(1.1684021,0.85586973)"
+      transform="scale(1.1930773,0.83816867)"
     >
       <tspan
         id="fab3_mecheras_clima_temp_text"
-        x="187.39091"
-        y="16.952719"
-        style="stroke-width: 0.230084"
+        x="241.59256"
+        y="21.858582"
+        style="stroke-width: 0.296636"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_mecheras_clima_hum_text"
-        x="187.39091"
-        y="22.695791"
-        style="stroke-width: 0.230084"
+        x="241.59256"
+        y="29.262852"
+        style="stroke-width: 0.296636"
       >
         nn% H.r
       </tspan>
@@ -8539,7 +8539,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 3.40949px;
+        font-size: 4.3957px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8550,20 +8550,20 @@
         fill: #fefefb;
         fill-opacity: 1;
         stroke: #0a210a;
-        stroke-width: 0.0790746;
+        stroke-width: 0.101947;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="186.97781"
-      y="13.017937"
+      x="241.05997"
+      y="16.785683"
       id="mecheraTextFab3"
-      transform="scale(1.1827458,0.84549022)"
+      transform="scale(1.2077238,0.82800386)"
     >
       <tspan
         id="tspan4242"
-        x="186.97781"
-        y="13.017937"
-        style="stroke-width: 0.0790746"
+        x="241.05997"
+        y="16.785683"
+        style="stroke-width: 0.101947"
       >
         Mecheras
       </tspan>
@@ -8577,10 +8577,10 @@
         stroke-width: 0;
       "
       id="fab3_mecheras_clima_temp_g"
-      width="23.226343"
-      height="4.2516875"
-      x="219.01442"
-      y="11.33908"
+      width="30.577005"
+      height="5.3681297"
+      x="288.32611"
+      y="14.318472"
     />
     <rect
       style="
@@ -8591,10 +8591,10 @@
         stroke-width: 0;
       "
       id="fab3_mecheras_clima_hum_g"
-      width="23.226343"
-      height="4.2516875"
-      x="219.01996"
-      y="15.658614"
+      width="30.577005"
+      height="5.3681297"
+      x="288.33337"
+      y="19.772264"
     />
     <rect
       style="
@@ -8602,15 +8602,15 @@
         fill: #c1a22b;
         fill-opacity: 0.939698;
         stroke: #ffffff;
-        stroke-width: 0.0260195;
+        stroke-width: 0.0335457;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_mecheras_clima_humAbs_color"
-      width="23.268978"
-      height="3.1829617"
-      x="218.99606"
-      y="19.926878"
+      width="30.633135"
+      height="4.0187693"
+      x="288.30194"
+      y="25.161324"
     />
     <text
       xml:space="preserve"
@@ -8619,7 +8619,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 3.27036px;
+        font-size: 4.21631px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -8630,53 +8630,53 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.208989;
+        stroke-width: 0.269439;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="152.6913"
-      y="32.456448"
+      x="196.85629"
+      y="41.847347"
       id="fab3_mecheras_clima_humAbs_text"
-      transform="scale(1.4542452,0.68764195)"
+      transform="scale(1.484957,0.67342019)"
     >
       <tspan
         id="climaETpeiFab3-6-4"
-        x="152.6913"
-        y="32.456448"
+        x="196.85629"
+        y="41.847347"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.27036px;
+          font-size: 4.21631px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.208989;
+          stroke-width: 0.269439;
         "
       >
         nn g/kg
       </tspan>
       <tspan
-        x="152.6913"
-        y="36.544399"
+        x="196.85629"
+        y="47.117752"
         id="humPeiFab3-9-2-9"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 3.27036px;
+          font-size: 4.21631px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.208989;
+          stroke-width: 0.269439;
         "
       />
     </text>
@@ -8689,10 +8689,10 @@
         stroke-width: 0;
       "
       id="fab3_mecheras_clima_humAbs_g"
-      width="23.230646"
-      height="3.1453307"
-      x="219.00832"
-      y="19.951765"
+      width="30.58267"
+      height="3.971257"
+      x="288.31805"
+      y="25.192745"
     />
     <text
       xml:space="preserve"
@@ -8701,23 +8701,24 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 3.52778px;
+        font-size: 4.5482px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Bold';
         font-variant-ligatures: normal;
         font-variant-caps: normal;
         font-variant-numeric: normal;
         font-variant-east-asian: normal;
-        fill: #fbfb16;
+        fill: #c96100;
         fill-opacity: 1;
-        stroke: #cbc341;
-        stroke-width: 0.05;
+        stroke: #c96100;
+        stroke-width: 0.0644626;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="99.216713"
-      y="96.88018"
+      x="127.9135"
+      y="124.90491"
       id="temperatura_salida_agua_fria"
+      transform="scale(1.0211187,0.97931803)"
     >
       <tspan
         id="tspan164139-8"
@@ -8726,22 +8727,22 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 3.52778px;
+          font-size: 4.5482px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
-          stroke-width: 0.05;
+          stroke: #c96100;
+          stroke-width: 0.0644626;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="99.216713"
-        y="96.88018"
+        x="127.9135"
+        y="124.90491"
       >
         nnn.n °C
       </tspan>
@@ -8753,7 +8754,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 2.11667px;
+        font-size: 2.72892px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Bold';
         font-variant-ligatures: normal;
@@ -8763,13 +8764,14 @@
         fill: #f4f4f4;
         fill-opacity: 1;
         stroke: #909090;
-        stroke-width: 0.05;
+        stroke-width: 0.0644626;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="115.10904"
-      y="96.886688"
+      x="148.40271"
+      y="124.91331"
       id="text5261-0-8-8-3"
+      transform="scale(1.0211187,0.97931803)"
     >
       <tspan
         id="tspan5259-7-8-7-8"
@@ -8778,7 +8780,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 2.11667px;
+          font-size: 2.72892px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -8788,12 +8790,12 @@
           fill: #f4f4f4;
           fill-opacity: 1;
           stroke: #909090;
-          stroke-width: 0.05;
+          stroke-width: 0.0644626;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="115.10904"
-        y="96.886688"
+        x="148.40271"
+        y="124.91331"
       >
         Salida
       </tspan>
@@ -8805,7 +8807,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 1.5875px;
+        font-size: 2.04668px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Bold';
         font-variant-ligatures: normal;
@@ -8815,14 +8817,14 @@
         fill: #f4f4f4;
         fill-opacity: 1;
         stroke: #909090;
-        stroke-width: 0.05;
+        stroke-width: 0.0644626;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="88.031311"
-      y="98.267929"
+      x="113.4927"
+      y="126.69408"
       id="text5261-0-8-8-7"
-      transform="rotate(0.25518483)"
+      transform="matrix(1.0211086,0.00436168,-0.00454786,0.97930831,0,0)"
     >
       <tspan
         id="tspan5259-7-8-7-4"
@@ -8831,7 +8833,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 1.5875px;
+          font-size: 2.04668px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -8841,12 +8843,12 @@
           fill: #f4f4f4;
           fill-opacity: 1;
           stroke: #909090;
-          stroke-width: 0.05;
+          stroke-width: 0.0644626;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="88.031311"
-        y="98.267929"
+        x="113.4927"
+        y="126.69408"
       >
         Agua Fria
       </tspan>
@@ -8858,7 +8860,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 1.76389px;
+        font-size: 2.27411px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Bold';
         font-variant-ligatures: normal;
@@ -8868,14 +8870,14 @@
         fill: #f4f4f4;
         fill-opacity: 1;
         stroke: #909090;
-        stroke-width: 0.0401655;
+        stroke-width: 0.0517835;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="83.851318"
-      y="90.695724"
+      x="108.10371"
+      y="116.93168"
       id="text5261-0-8"
-      transform="scale(1.0444424,0.95744868)"
+      transform="scale(1.0664997,0.93764678)"
     >
       <tspan
         id="tspan5259-7-8"
@@ -8884,7 +8886,7 @@
           font-variant: normal;
           font-weight: bold;
           font-stretch: normal;
-          font-size: 1.76389px;
+          font-size: 2.27411px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Bold';
           font-variant-ligatures: normal;
@@ -8894,12 +8896,12 @@
           fill: #f4f4f4;
           fill-opacity: 1;
           stroke: #909090;
-          stroke-width: 0.0401655;
+          stroke-width: 0.0517835;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
-        x="83.851318"
-        y="90.695724"
+        x="108.10371"
+        y="116.93168"
       >
         Lavador
       </tspan>

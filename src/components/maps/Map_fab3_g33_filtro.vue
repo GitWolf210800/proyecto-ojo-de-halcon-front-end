@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="287.43744mm"
-    height="190.74681mm"
-    viewBox="0 0 287.43744 190.74681"
+    width="379.45401mm"
+    height="243.132mm"
+    viewBox="0 0 379.45401 243.132"
     version="1.1"
     id="svg566"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -952,7 +952,7 @@
       stroke="#000000"
       stroke-width="0.3"
       id="g566"
-      transform="translate(-21.41118,-4.5914678)"
+      transform="matrix(1.3201868,0,0,1.2739,-28.284369,-5.8475051)"
     >
       <path
         d="m 236.33167,46.079392 60.34859,6.86e-4 V 8.3265873 h -60.34859 z"
@@ -1444,7 +1444,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6226">V369</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan930">V369</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1473,7 +1473,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6228">V368</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan932">V368</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1502,7 +1502,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6230">V348</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan934">V348</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1531,7 +1531,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6232">V349</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan936">V349</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1560,7 +1560,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6234">V324</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan938">V324</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1621,7 +1621,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6236">V374_P09</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan940">V374_P09</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1650,7 +1650,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6238">V374_P10</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan942">V374_P10</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1679,7 +1679,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6240">V374_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan944">V374_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1708,7 +1708,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6242">V374_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan946">V374_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1737,7 +1737,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="511.64787" id="tspan6244">V309</tspan>
+        <tspan x="994.19141" y="511.64787" id="tspan948">V309</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1766,7 +1766,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan6246">V308</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan950">V308</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1795,7 +1795,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6248">V374_P08</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan952">V374_P08</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1824,7 +1824,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6250">V374_P07</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan954">V374_P07</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1853,7 +1853,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6252">V388</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan956">V388</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1882,7 +1882,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6254">V374</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan958">V374</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1911,7 +1911,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6256">VM33</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan960">VM33</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1940,7 +1940,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6258">VM34</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan962">VM34</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1969,7 +1969,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6260">VM35</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan964">VM35</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1998,7 +1998,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6262">VM38</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan966">VM38</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2027,7 +2027,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6264">VM37</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan968">VM37</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2056,7 +2056,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6266">VM36</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan970">VM36</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2085,7 +2085,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6268">VM32</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan972">VM32</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2114,7 +2114,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6270">VM30</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan974">VM30</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2143,7 +2143,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6272">VM31</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan976">VM31</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2172,7 +2172,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6274">VM39</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan978">VM39</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2201,7 +2201,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6276">V374_P06</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan980">V374_P06</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2230,7 +2230,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6278">V374_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan982">V374_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2259,7 +2259,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6280">V374_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan984">V374_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2288,7 +2288,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan6282">V374_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan986">V374_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2513,9 +2513,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -2538,9 +2538,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -2565,9 +2565,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -2590,9 +2590,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -2669,9 +2669,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -2694,9 +2694,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -2774,9 +2774,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -2799,9 +2799,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -2878,9 +2878,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -2903,9 +2903,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3049,8 +3049,8 @@
         id="text5261-49-9-0"
         transform="translate(24.075216,-18.288592)"
       >
-        <tspan x="192.51532" y="45.658131" id="tspan6284">Ventiladores</tspan>
-        <tspan x="192.51532" y="49.185906" id="tspan6286">Introducción</tspan>
+        <tspan x="192.51532" y="45.658131" id="tspan988">Ventiladores</tspan>
+        <tspan x="192.51532" y="49.185906" id="tspan990">Introducción</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3066,9 +3066,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3091,9 +3091,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3118,9 +3118,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3143,9 +3143,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3222,9 +3222,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3247,9 +3247,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3326,9 +3326,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3351,9 +3351,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3378,9 +3378,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3403,9 +3403,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3487,9 +3487,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3512,9 +3512,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3591,9 +3591,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -3616,9 +3616,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -3688,15 +3688,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0511945;
+        stroke-width: 0.0663909;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_g33_clima_hum_color"
-      width="37.57452"
-      height="7.6307292"
-      x="226.28848"
-      y="21.638048"
+      width="49.605389"
+      height="9.7207861"
+      x="298.72546"
+      y="27.566277"
     />
     <rect
       style="
@@ -3704,15 +3704,15 @@
         fill: #c1a22b;
         fill-opacity: 0.939698;
         stroke: #ffffff;
-        stroke-width: 0.043248;
+        stroke-width: 0.0560856;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_g33_clima_humAbs_color"
-      width="37.582348"
-      height="5.4445095"
-      x="226.2854"
-      y="29.265245"
+      width="49.615723"
+      height="6.935761"
+      x="298.72137"
+      y="37.282566"
     />
     <rect
       style="
@@ -3720,15 +3720,15 @@
         fill: #8f8f9f;
         fill-opacity: 0.941176;
         stroke: #ffffff;
-        stroke-width: 0.0511945;
+        stroke-width: 0.0663909;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
       id="fab3_g33_clima_temp_color"
-      width="37.57452"
-      height="7.6307292"
-      x="226.28481"
-      y="14.00631"
+      width="49.605389"
+      height="9.7207861"
+      x="298.72061"
+      y="17.844206"
     />
     <text
       xml:space="preserve"
@@ -3737,7 +3737,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 7.79565px;
+        font-size: 10.1097px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -3748,28 +3748,28 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.390386;
+        stroke-width: 0.506267;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="202.05232"
-      y="22.25293"
+      x="262.01343"
+      y="28.860205"
       id="climaTg33Fab3"
-      transform="scale(1.1178717,0.89455704)"
+      transform="scale(1.1379993,0.87873517)"
     >
       <tspan
         id="fab3_g33_clima_temp_text"
-        x="202.05232"
-        y="22.25293"
-        style="stroke-width: 0.390386"
+        x="262.01343"
+        y="28.860205"
+        style="stroke-width: 0.506267"
       >
         nn°C
       </tspan>
       <tspan
         id="fab3_g33_clima_hum_text"
-        x="202.05232"
-        y="31.997503"
-        style="stroke-width: 0.390386"
+        x="262.01343"
+        y="41.49733"
+        style="stroke-width: 0.506267"
       >
         nn% H.r
       </tspan>
@@ -3783,10 +3783,10 @@
         stroke-width: 0;
       "
       id="fab3_g33_clima_temp_g"
-      width="37.51263"
-      height="7.5405169"
-      x="226.30942"
-      y="14.033491"
+      width="49.523678"
+      height="9.6058645"
+      x="298.75308"
+      y="17.87883"
     />
     <rect
       style="
@@ -3797,10 +3797,10 @@
         stroke-width: 0;
       "
       id="fab3_g33_clima_hum_g"
-      width="37.51263"
-      height="7.5405169"
-      x="226.31058"
-      y="21.704666"
+      width="49.523678"
+      height="9.6058645"
+      x="298.75464"
+      y="27.65114"
     />
     <text
       xml:space="preserve"
@@ -3809,7 +3809,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 5.23636px;
+        font-size: 6.7907px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -3820,20 +3820,20 @@
         fill: #fefefb;
         fill-opacity: 1;
         stroke: #0a210a;
-        stroke-width: 0.121444;
+        stroke-width: 0.157493;
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      x="220.50824"
-      y="13.693753"
+      x="285.94629"
+      y="17.760193"
       id="g33TextFab3"
-      transform="scale(1.0208419,0.97958361)"
+      transform="scale(1.0392224,0.96225793)"
     >
       <tspan
         id="tspan25048"
-        x="220.50824"
-        y="13.693753"
-        style="stroke-width: 0.121444"
+        x="285.94629"
+        y="17.760193"
+        style="stroke-width: 0.157493"
       >
         Continuas G33
       </tspan>
@@ -3845,7 +3845,7 @@
         font-variant: normal;
         font-weight: normal;
         font-stretch: normal;
-        font-size: 5.55431px;
+        font-size: 7.20303px;
         font-family: sans-serif;
         -inkscape-font-specification: 'sans-serif, Normal';
         font-variant-ligatures: normal;
@@ -3856,53 +3856,53 @@
         fill: #f9f9f9;
         fill-opacity: 1;
         stroke: #05246f;
-        stroke-width: 0.354942;
+        stroke-width: 0.460302;
         stroke-linejoin: bevel;
         paint-order: stroke fill markers;
       "
-      x="166.09499"
-      y="46.275337"
+      x="215.38568"
+      y="60.013786"
       id="fab3_g33_clima_humAbs_text"
-      transform="scale(1.3924024,0.71818319)"
+      transform="scale(1.4174729,0.70548084)"
     >
       <tspan
         id="climaETpeiFab3-5"
-        x="166.09499"
-        y="46.275337"
+        x="215.38568"
+        y="60.013786"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 5.55431px;
+          font-size: 7.20303px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.354942;
+          stroke-width: 0.460302;
         "
       >
         nn g/kg
       </tspan>
       <tspan
-        x="166.09499"
-        y="53.218243"
+        x="215.38568"
+        y="69.017601"
         id="humPeiFab3-9-3"
         style="
           font-style: normal;
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 5.55431px;
+          font-size: 7.20303px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          stroke-width: 0.354942;
+          stroke-width: 0.460302;
         "
       />
     </text>
@@ -3915,10 +3915,10 @@
         stroke-width: 0;
       "
       id="fab3_g33_clima_humAbs_g"
-      width="37.520439"
-      height="5.3801422"
-      x="226.30598"
-      y="29.308758"
+      width="49.533985"
+      height="6.8537636"
+      x="298.74857"
+      y="37.337994"
     />
   </svg>
 </template>

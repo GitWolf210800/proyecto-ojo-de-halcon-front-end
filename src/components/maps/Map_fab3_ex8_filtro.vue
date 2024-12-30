@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="288.24893mm"
-    height="190.15201mm"
-    viewBox="0 0 288.24893 190.15201"
+    width="379.45355mm"
+    height="243.1319mm"
+    viewBox="0 0 379.45355 243.1319"
     version="1.1"
     id="svg385"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -2628,7 +2628,7 @@
       stroke="#000000"
       stroke-width="0.3"
       id="g385"
-      transform="translate(-20.599683,-4.5271368)"
+      transform="matrix(1.3320145,0,0,1.2786186,-31.937279,-5.7884813)"
     >
       <path
         d="m 236.33167,46.079392 60.34859,6.86e-4 V 8.3265873 h -60.34859 z"
@@ -2637,7 +2637,7 @@
       />
       <path
         id="V370_P01"
-        style="stroke: url(#linearGradient398); fill: #000000; fill-opacity: 1"
+        style="fill: #000000; fill-opacity: 1; stroke: url(#linearGradient398)"
         d="m 166.12671,141.62108 1.30897,1.09836 m -1.75518,-1.47278 -1.30898,-1.09836 m 1.75519,6.09836 1.30897,-1.09836 m -1.75518,1.47278 -1.30898,1.09836 m 1.82332,-1.28557 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29125 0.29124677,0.29124677 0 0 1 -0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 0,-5 a 0.29124677,0.29124677 0 0 1 -0.29125,0.29125 0.29124677,0.29124677 0 0 1 -0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29124,-0.29125 0.29124677,0.29124677 0 0 1 0.29125,0.29125 z m 1.70875,6.5 v -8 m -4,8 h 4 m -4,-8 h 4 m -4,8 v -8"
       />
       <line
@@ -3365,7 +3365,7 @@
       />
       <path
         id="V370"
-        style="stroke: url(#linearGradient599); fill: none; fill-opacity: 1"
+        style="fill: none; fill-opacity: 1; stroke: url(#linearGradient599)"
         d="m 115.9557,46.662483 h -8 m 9,0 h 17.9475 M 97.955696,44.550907 v 2.111576 m 0,-3.111576 v -4.306133 m 4.094674,7.417709 h 4.90533 M 101.05037,16.21413 v 25.228653 m -3.094672,1.649826 q 3.936892,-3.600856 8.594672,0.0181 M 131.78119,16.21413 v 25.37315 m -1.87799,0.409626 V 16.21413 m -1.35283,26.896579 q 2.97014,-2.967623 6.35283,-0.157081 m -26.9475,-21.27567 v 20.289979 m -1,0.737515 V 21.677958 m 16.94751,20.607381 V 16.21413 m 4,26.273648 V 16.21413 m -2,25.398674 V 16.21413 m -2.85284,26.896579 q 2.75,-3 5.5,0 m -11,0 q 2.75,-3 5.5,0 m -11,0 q 2.75,-3 5.5,0 m -11,0 q 2.75,-3 5.5,0 m -11,3.551774 H 97.955696 M 131.78119,16.21413 h -30.73082 m 33.85283,30.448353 v -7.417709 m -26.9475,-5.851963 3,-2.036974 m -3,2.036974 3,2.036972 m -3,-7.071325 3,-2.036971 m -3,2.036971 3,2.036972 m -3,-8.717472 h -1 m 1,1.650823 3,-1.502037 m -3,1.502037 3,1.964222"
       />
       <path
@@ -4427,10 +4427,10 @@
         id="path375"
         style="
           fill: #4b4b4b;
+          fill-opacity: 0.227451;
           stroke: url(#linearGradient786);
-          stroke-dasharray: 0.90000004, 0.30000001;
+          stroke-dasharray: 0.9, 0.3;
           stroke-dashoffset: 0;
-          fill-opacity: 0.22745098;
         "
       />
       <line
@@ -4502,7 +4502,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan3267">V342</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan1570">V342</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4531,7 +4531,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3269">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1572">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4560,7 +4560,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3271">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1574">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4589,7 +4589,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3273">V317</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1576">V317</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4618,7 +4618,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3275">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1578">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4647,7 +4647,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3277">V355</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1580">V355</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4676,7 +4676,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3279">V396</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1582">V396</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4705,7 +4705,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3281">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1584">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4734,7 +4734,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3283">V370</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1586">V370</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4763,7 +4763,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan3285">V000</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan1588">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4792,7 +4792,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3287">V399</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1590">V399</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4821,7 +4821,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3289">V370_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1592">V370_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4850,7 +4850,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3291">V370_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1594">V370_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4879,7 +4879,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3293">V370_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1596">V370_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4908,7 +4908,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan3295">V370_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan1598">V370_P04</tspan>
       </text>
       <rect
         style="
@@ -5302,9 +5302,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5327,9 +5327,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -5459,9 +5459,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5484,9 +5484,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -5616,9 +5616,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5641,9 +5641,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -5720,9 +5720,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5745,9 +5745,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -5842,7 +5842,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.11666667px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5876,9 +5876,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5894,16 +5894,16 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52777778px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -5946,7 +5946,7 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 2.11666667px;
+            font-size: 2.11667px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
@@ -5980,9 +5980,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -5998,16 +5998,16 @@
             font-variant: normal;
             font-weight: bold;
             font-stretch: normal;
-            font-size: 3.52777778px;
+            font-size: 3.52778px;
             font-family: sans-serif;
             -inkscape-font-specification: 'sans-serif, Bold';
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6084,9 +6084,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6109,9 +6109,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6188,9 +6188,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6213,9 +6213,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6292,9 +6292,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6317,9 +6317,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6422,9 +6422,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6447,9 +6447,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6576,9 +6576,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6601,9 +6601,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6690,9 +6690,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6715,9 +6715,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6846,9 +6846,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -6871,9 +6871,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -6912,7 +6912,7 @@
         id="text5261-9-8-2"
         transform="translate(24.948095,-4.8725123)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan3297">válvula lavador</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan1600">válvula lavador</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6942,7 +6942,7 @@
         id="text5261-9-8-2-4"
         transform="translate(26.624191,-3.8518049)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan3299">Bypass</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan1602">Bypass</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7010,9 +7010,9 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #fbfb16;
+          fill: #c96100;
           fill-opacity: 1;
-          stroke: #cbc341;
+          stroke: #c96100;
           stroke-width: 0.05;
           stroke-dasharray: none;
           stroke-opacity: 1;
@@ -7035,9 +7035,9 @@
             font-variant-caps: normal;
             font-variant-numeric: normal;
             font-variant-east-asian: normal;
-            fill: #fbfb16;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #cbc341;
+            stroke: #c96100;
             stroke-width: 0.05;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -7052,8 +7052,8 @@
         id="path846"
         style="
           fill: #0000ff;
-          stroke-width: 0.106066;
           stroke: #3051ee;
+          stroke-width: 0.106066;
           stroke-opacity: 1;
         "
         d="m 102.81607,46.460737 -4.622797,0.0081 -0.02923,-1.529439 -0.04677,-1.698987 0.409253,-0.336101 c 0.534448,-0.438919 1.40164,-0.939884 2.153594,-1.191455 0.51479,-0.172233 0.77731,-0.219424 1.60891,-0.184875 1.30196,0.05409 2.44233,0.556706 3.75397,1.45403 0.31137,0.213013 0.44399,0.224697 0.53322,0.218302 0.0892,-0.0064 0.36001,-0.167198 0.54787,-0.349649 1.40445,-1.363983 3.08764,-1.290846 4.48436,-0.01433 0.2731,0.249595 0.46905,0.434241 0.5517,0.418199 0.13761,-0.02671 0.2291,-0.293912 0.57227,-0.576971 1.43691,-1.185227 3.03217,-1.060412 4.41569,0.183493 0.26249,0.235998 0.54907,0.429088 0.63685,0.429088 0.0878,0 0.15452,-0.294349 0.40944,-0.523542 1.39985,-1.258588 3.08673,-1.151762 4.48659,0.106826 0.25492,0.229193 0.30385,0.354401 0.39163,0.354401 0.0878,0 0.37436,-0.19309 0.63684,-0.429088 0.48322,-0.434456 1.24898,-0.880533 1.51158,-0.880533 0.12496,0 -0.0328,2.485379 -0.0328,4.4812 -14.32438,0.106546 -13.56403,0.11994 -22.37213,0.06137 z m 31.91549,-3.320905 c 0,-0.183734 -1.53775,-1.101235 -2.08868,-1.245771 -1.0527,-0.276183 -2.49074,0.04959 -3.2557,0.749716 -0.50892,0.457167 -0.6492,0.610741 -0.81613,0.560226 -0.25366,-0.0022 -1.42065,-1.212332 -2.37001,-1.360044 -0.12173,-0.01894 -0.79555,0.03952 -1.00387,0.05233 l -0.0413,2.730856 -0.0165,1.785721 9.12833,0.0248 0.4627,0.02339 c -0.003,-0.09242 -0.10969,0.03473 0.001,-3.321216 z"

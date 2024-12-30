@@ -2,9 +2,9 @@
   <div class="content_clima_exterior">
     <svg
       ref="svgRef"
-      width="76.767723mm"
+      width="78.767998mm"
       height="16.432522mm"
-      viewBox="0 0 76.767731 16.432522"
+      viewBox="0 0 78.768006 16.432522"
       version="1.1"
       id="svg66787"
       xmlns="http://www.w3.org/2000/svg"
@@ -243,9 +243,9 @@
             white-space: pre;
             shape-inside: url(#rect1315);
             display: inline;
-            fill: #ffff00;
+            fill: #c96100;
             fill-opacity: 1;
-            stroke: #e2e80a;
+            stroke: #c96100;
             stroke-width: 0.71811;
             stroke-dasharray: none;
             stroke-opacity: 1;
@@ -253,7 +253,7 @@
           id="fab9_exterior_clima_temp_g"
         >
           <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">
-            32 °C
+            nn °C
           </tspan>
         </text>
         <text
@@ -288,7 +288,7 @@
             y="186.87294"
             id="fab9_exterior_clima_entalpia_text"
           >
-            66 Kj/Kg
+            nn Kj/Kg
           </tspan>
         </text>
         <text
@@ -319,7 +319,7 @@
           id="fab9_exterior_clima_hum_g"
         >
           <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">
-            50 % H.r
+            nn % H.r
           </tspan>
         </text>
         <text
@@ -353,7 +353,7 @@
             y="28.279486"
             style="stroke-width: 0"
           >
-            última actualización: 21/11/2023 11:29 Hs
+            última actualización: nn/nn/nn nn:nn Hs
           </tspan>
         </text>
       </g>
@@ -472,7 +472,7 @@ async function dataAndAccion() {
             hideTooltip(tooltipType)
           );
         }
-      }); /**/
+      });
     } else {
       console.warn("error en clima exterior");
     }
