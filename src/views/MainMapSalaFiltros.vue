@@ -15,6 +15,8 @@
         <MapFiltroClima />
     </div>
 
+    <Login v-if="visibilityLogin" />
+
     <footer>
         <div class="footer__nav">
             <EyeHawkIconVersion />
