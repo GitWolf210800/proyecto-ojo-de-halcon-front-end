@@ -1,6 +1,6 @@
 import { useHomeClimaStore } from "@/stores/homeClimaStore";
 import { useDataHomeClima } from "@/components/componsables/useHomeClima";
-import { alarmColor, alertColor, okColor, paroManual } from "@/variables";
+import { alarmColor, alertColor, offlineColor, okColor, paroManual } from "@/variables";
 
 export const dataColorInfoCarrier = async (svg) => {
   const svgStore = svg;
@@ -59,7 +59,7 @@ export const dataColorInfoCarrier = async (svg) => {
 
   // Colores por estado
   const estadoColors = {
-    0: alarmColor,
+    0: alertColor,
     50: paroManual,
     100: okColor,
   };
@@ -71,6 +71,6 @@ export const dataColorInfoCarrier = async (svg) => {
 
     if (textButtom)
       textButtom.textContent = `${nombre} ${demanda.toFixed(0)} %`;
-    applyColor(colorButtom, estadoColors[estado] || alertColor);
+    applyColor(colorButtom, estadoColors[estado] || offlineColor);
   });
 };
