@@ -5,7 +5,7 @@
 
     </head>
 
-    <div class="login">
+    <div class="login" v-if="formulario" >
         <!--<button class="close__button" @click="closeTooltip"></button>-->
         <h1>Login Ojo de Halcon</h1>
         <form @submit.prevent="handleSubmit">
@@ -33,6 +33,7 @@ import { useDataAuthUser } from './componsables/useAuth';
 const legajo = ref('');
 const contraseña = ref('');
 const error = ref(null);
+const formulario = ref(true);
 
 const handleSubmit = async () => {
     const user = legajo.value;
@@ -55,6 +56,9 @@ const handleSubmit = async () => {
         const data = await res.json();
         localStorage.setItem('sesion', JSON.stringify(data.usuario));
         console.log(data.usuario);
+        if (data.usuario.name) {
+            formulario.value = false;
+        }
 
         // Asume que useDataAuthUser maneja la sesión del usuario después del login
         //await useDataAuthUser();
