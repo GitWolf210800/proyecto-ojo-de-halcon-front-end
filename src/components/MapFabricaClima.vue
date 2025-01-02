@@ -70,7 +70,7 @@ function routesDireccion(svg) {
   //.filter((dato) => dato.id_fabrica && dato.id_fabrica.includes('_filtro_clima'))
   ];
 
-  console.log(routesMap);
+ // console.log(routesMap);
 
   /**
    * // Filtramos el array para obtener solo los objetos donde `id_fabrica` incluya "_filtro_clima"

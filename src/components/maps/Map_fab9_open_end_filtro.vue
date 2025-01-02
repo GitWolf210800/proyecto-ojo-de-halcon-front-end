@@ -3514,7 +3514,7 @@
           x="93.532875"
           y="121.10921"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -3546,9 +3546,9 @@
         id="text5261-7-6"
         transform="translate(1.0060062,-0.72721317)"
       >
-        <tspan x="108.63696" y="93.402313" id="tspan2797">Válvula</tspan>
-        <tspan x="108.63696" y="95.166197" id="tspan2799">Lavador</tspan>
-        <tspan x="108.63696" y="96.930083" id="tspan2801">Bypass</tspan>
+        <tspan x="108.63696" y="93.402313" id="tspan2036">Válvula</tspan>
+        <tspan x="108.63696" y="95.166197" id="tspan2038">Lavador</tspan>
+        <tspan x="108.63696" y="96.930083" id="tspan2040">Bypass</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3599,7 +3599,7 @@
           x="108.88116"
           y="87.792702"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <path
@@ -6131,7 +6131,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2803">V912</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2042">V912</tspan>
         </text>
       </g>
       <g id="g2-7" transform="translate(-8.863558,1.855934)">
@@ -6162,7 +6162,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2805">V932</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2044">V932</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6191,7 +6191,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2807">V971_P01</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2046">V971_P01</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6220,7 +6220,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2809">V971_P02</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2048">V971_P02</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6249,7 +6249,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2811">V971_P04</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2050">V971_P04</tspan>
         </text>
         <text
           xml:space="preserve"
@@ -6278,7 +6278,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2813">V971_P03</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2052">V971_P03</tspan>
         </text>
       </g>
       <g
@@ -6320,7 +6320,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2815">V962</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2054">V962</tspan>
         </text>
       </g>
       <g
@@ -6362,7 +6362,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2817">V964</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2056">V964</tspan>
         </text>
       </g>
       <g
@@ -6404,7 +6404,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2819">V953</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2058">V953</tspan>
         </text>
       </g>
       <g
@@ -6446,7 +6446,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2821">V952</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2060">V952</tspan>
         </text>
       </g>
       <g
@@ -6488,7 +6488,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="511.64787" id="tspan2823">V902</tspan>
+          <tspan x="994.19141" y="511.64787" id="tspan2062">V902</tspan>
         </text>
       </g>
       <g
@@ -6530,7 +6530,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2825">V997</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2064">V997</tspan>
         </text>
       </g>
       <g
@@ -6572,7 +6572,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="511.64787" id="tspan2827">V998</tspan>
+          <tspan x="994.19141" y="511.64787" id="tspan2066">V998</tspan>
         </text>
       </g>
       <g
@@ -6614,7 +6614,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan2829">V971</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2068">V971</tspan>
         </text>
       </g>
       <text
@@ -6823,7 +6823,7 @@
           x="120.24783"
           y="77.101913"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6875,7 +6875,7 @@
           x="119.43122"
           y="103.37012"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -6979,7 +6979,7 @@
           x="91.405312"
           y="103.54591"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -7084,7 +7084,7 @@
           x="91.608139"
           y="110.05324"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -7188,7 +7188,7 @@
           x="95.349686"
           y="138.5291"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -7345,7 +7345,7 @@
           x="144.00989"
           y="160.33311"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -7377,8 +7377,8 @@
         id="text5261-49-9-5"
         transform="translate(3.1457651,-0.14298932)"
       >
-        <tspan x="242.86143" y="155.55331" id="tspan2831">Filtro</tspan>
-        <tspan x="242.86143" y="158.19916" id="tspan2833">Rotativo</tspan>
+        <tspan x="242.86143" y="155.55331" id="tspan2070">Filtro</tspan>
+        <tspan x="242.86143" y="158.19916" id="tspan2072">Rotativo</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7429,7 +7429,7 @@
           x="231.10214"
           y="157.95975"
         >
-          nn RPM
+          -- RPM
         </tspan>
       </text>
       <text
@@ -7533,7 +7533,7 @@
           x="222.17343"
           y="163.99309"
         >
-          nnn
+          ---
         </tspan>
       </text>
       <text
@@ -7637,7 +7637,7 @@
           x="230.66103"
           y="175.89127"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -7767,7 +7767,7 @@
           x="239.04994"
           y="166.87767"
         >
-          nnn.n Pa
+          ---.- Pa
         </tspan>
       </text>
       <path
@@ -7985,7 +7985,7 @@
           x="118.93679"
           y="83.540924"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
     </g>

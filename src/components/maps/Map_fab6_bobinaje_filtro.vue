@@ -5361,7 +5361,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1780">V610</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2662">V610</tspan>
       </text>
       <g
         id="g2"
@@ -5402,7 +5402,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan1782">V653</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2664">V653</tspan>
         </text>
       </g>
       <g
@@ -5444,7 +5444,7 @@
             stroke-opacity: 1;
           "
         >
-          <tspan x="994.19141" y="514.62141" id="tspan1784">V652</tspan>
+          <tspan x="994.19141" y="514.62141" id="tspan2666">V652</tspan>
         </text>
       </g>
       <path
@@ -5509,7 +5509,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1786">V642</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2668">V642</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5538,7 +5538,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1788">VG54_P05</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2670">VG54_P05</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5567,7 +5567,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan1790">V464</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan2672">V464</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5596,7 +5596,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1792">VG54_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2674">VG54_P04</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5625,7 +5625,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1794">VG54_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2676">VG54_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5654,7 +5654,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1796">VG54_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2678">VG54_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5683,7 +5683,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1798">VG54_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2680">VG54_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5712,7 +5712,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1800">V655</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2682">V655</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5741,7 +5741,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="517.71367" id="tspan1802">V656</tspan>
+        <tspan x="994.19141" y="517.71367" id="tspan2684">V656</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5770,7 +5770,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1804">V654</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2686">V654</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5799,7 +5799,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1806">V657</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2688">V657</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -5954,7 +5954,7 @@
           x="205.85713"
           y="69.121605"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6006,7 +6006,7 @@
           x="186.43549"
           y="110.21735"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -6110,7 +6110,7 @@
           x="161.56473"
           y="110.38626"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -6215,7 +6215,7 @@
           x="161.56592"
           y="117.56901"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -6319,7 +6319,7 @@
           x="130.62119"
           y="150.49402"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6475,7 +6475,7 @@
           x="191.98941"
           y="190.49615"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -6527,7 +6527,7 @@
           x="285.57498"
           y="184.87889"
         >
-          nnn RPM
+          --- RPM
         </tspan>
       </text>
       <text
@@ -6631,7 +6631,7 @@
           x="293.55371"
           y="205.80362"
         >
-          nnn
+          ---
         </tspan>
       </text>
       <text
@@ -6735,7 +6735,7 @@
           x="305.66489"
           y="208.02061"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -6787,7 +6787,7 @@
           x="292.89749"
           y="197.59775"
         >
-          nnn.n Pa
+          ---.- Pa
         </tspan>
       </text>
       <path
@@ -6876,8 +6876,8 @@
         id="text5261-49-9-2"
         transform="translate(17.53432,3.8168171)"
       >
-        <tspan x="248.21019" y="31.33593" id="tspan1808">Ventilador</tspan>
-        <tspan x="248.21019" y="35.745656" id="tspan1810">Introducción</tspan>
+        <tspan x="248.21019" y="31.33593" id="tspan2690">Ventilador</tspan>
+        <tspan x="248.21019" y="35.745656" id="tspan2692">Introducción</tspan>
       </text>
       <path
         id="line340-9"
@@ -6933,7 +6933,7 @@
           x="202.76114"
           y="89.737793"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -7037,7 +7037,7 @@
           x="169.77177"
           y="83.968132"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -7193,7 +7193,7 @@
           x="163.78429"
           y="125.09818"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text

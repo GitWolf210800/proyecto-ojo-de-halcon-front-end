@@ -253,7 +253,7 @@
           id="fab9_exterior_clima_temp_g"
         >
           <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_temp_text">
-            nn °C
+            -- °C
           </tspan>
         </text>
         <text
@@ -288,7 +288,7 @@
             y="186.87294"
             id="fab9_exterior_clima_entalpia_text"
           >
-            nn Kj/Kg
+            -- Kj/Kg
           </tspan>
         </text>
         <text
@@ -319,7 +319,7 @@
           id="fab9_exterior_clima_hum_g"
         >
           <tspan x="286.7793" y="186.87294" id="fab9_exterior_clima_hum_text">
-            nn % H.r
+            -- % H.r
           </tspan>
         </text>
         <text

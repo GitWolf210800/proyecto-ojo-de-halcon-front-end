@@ -1,9 +1,9 @@
 <template>
   <svg
     ref="svgRef"
-    width="379.45355mm"
+    width="379.45401mm"
     height="243.1319mm"
-    viewBox="0 0 379.45355 243.1319"
+    viewBox="0 0 379.45401 243.1319"
     version="1.1"
     id="svg385"
     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -4502,7 +4502,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan1570">V342</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan2514">V342</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4531,7 +4531,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1572">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2516">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4560,7 +4560,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1574">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2518">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4589,7 +4589,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1576">V317</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2520">V317</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4618,7 +4618,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1578">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2522">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4647,7 +4647,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1580">V355</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2524">V355</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4676,7 +4676,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1582">V396</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2526">V396</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4705,7 +4705,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1584">V000</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2528">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4734,7 +4734,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1586">V370</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2530">V370</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4763,7 +4763,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="512.86103" id="tspan1588">V000</tspan>
+        <tspan x="994.19141" y="512.86103" id="tspan2532">V000</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4792,7 +4792,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1590">V399</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2534">V399</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4821,7 +4821,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1592">V370_P01</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2536">V370_P01</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4850,7 +4850,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1594">V370_P03</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2538">V370_P03</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4879,7 +4879,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1596">V370_P02</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2540">V370_P02</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -4908,7 +4908,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="994.19141" y="514.62141" id="tspan1598">V370_P04</tspan>
+        <tspan x="994.19141" y="514.62141" id="tspan2542">V370_P04</tspan>
       </text>
       <rect
         style="
@@ -5337,7 +5337,7 @@
           x="119.44191"
           y="90.1819"
         >
-          nnn.n °C
+          ---.- °C
         </tspan>
       </text>
       <text
@@ -5494,7 +5494,7 @@
           x="89.183113"
           y="90.168785"
         >
-          nnn.n °C
+          ---.- °C
         </tspan>
       </text>
       <text
@@ -5651,7 +5651,7 @@
           x="89.309479"
           y="97.035652"
         >
-          nnn.n °C
+          ---.- °C
         </tspan>
       </text>
       <text
@@ -5755,7 +5755,7 @@
           x="84.471558"
           y="129.62823"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -5911,7 +5911,7 @@
           x="127.33309"
           y="161.24046"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -6015,7 +6015,7 @@
           x="234.58902"
           y="154.70074"
         >
-          nn RPM
+          -- RPM
         </tspan>
       </text>
       <text
@@ -6119,7 +6119,7 @@
           x="241.15073"
           y="175.21365"
         >
-          nnn
+          ---
         </tspan>
       </text>
       <text
@@ -6223,7 +6223,7 @@
           x="251.49985"
           y="176.82793"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -6327,7 +6327,7 @@
           x="119.9782"
           y="67.263474"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6457,7 +6457,7 @@
           x="119.48553"
           y="97.02655"
         >
-          nnn.n °C
+          ---.- °C
         </tspan>
       </text>
       <text
@@ -6611,7 +6611,7 @@
           x="239.00092"
           y="166.73305"
         >
-          nnn.n Pa
+          ---.- Pa
         </tspan>
       </text>
       <path
@@ -6725,7 +6725,7 @@
           x="93.603294"
           y="108.40431"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6881,7 +6881,7 @@
           x="109.02036"
           y="74.665352"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6900,6 +6900,7 @@
           font-variant-east-asian: normal;
           white-space: pre;
           inline-size: 10.3515;
+          display: inline;
           fill: #f4f4f4;
           fill-opacity: 1;
           stroke: #909090;
@@ -6912,7 +6913,7 @@
         id="text5261-9-8-2"
         transform="translate(24.948095,-4.8725123)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan1600">válvula lavador</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan2544">válvula lavador</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6930,6 +6931,7 @@
           font-variant-east-asian: normal;
           white-space: pre;
           inline-size: 10.3515;
+          display: inline;
           fill: #f4f4f4;
           fill-opacity: 1;
           stroke: #909090;
@@ -6942,7 +6944,7 @@
         id="text5261-9-8-2-4"
         transform="translate(26.624191,-3.8518049)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan1602">Bypass</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan2546">Bypass</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -7045,7 +7047,7 @@
           x="119.13274"
           y="83.742584"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <path
