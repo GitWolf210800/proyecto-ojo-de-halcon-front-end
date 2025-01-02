@@ -4479,7 +4479,7 @@
           x="129.61504"
           y="59.921951"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -5108,7 +5108,7 @@
           x="92.841599"
           y="59.263584"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -5160,7 +5160,7 @@
           x="91.627853"
           y="92.491226"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -5264,7 +5264,7 @@
           x="119.1933"
           y="91.663895"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -5369,7 +5369,7 @@
           x="119.37071"
           y="98.578461"
         >
-          nn.n °C
+          --.- °C
         </tspan>
       </text>
       <text
@@ -5473,7 +5473,7 @@
           x="120.12332"
           y="110.02509"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -5629,7 +5629,7 @@
           x="247.37659"
           y="171.53252"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -5733,7 +5733,7 @@
           x="137.48703"
           y="161.75793"
         >
-          nnnn.n Pa
+          ----.- Pa
         </tspan>
       </text>
       <text
@@ -5837,7 +5837,7 @@
           x="262.03299"
           y="139.89684"
         >
-          nnn
+          ---
         </tspan>
       </text>
       <text
@@ -5941,7 +5941,7 @@
           x="263.21182"
           y="192.9238"
         >
-          nnn
+          ---
         </tspan>
       </text>
       <text
@@ -5993,7 +5993,7 @@
           x="270.40387"
           y="167.03729"
         >
-          nnn.n Pa
+          ---.- Pa
         </tspan>
       </text>
       <path
@@ -6107,7 +6107,7 @@
           x="119.0267"
           y="103.84168"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6211,7 +6211,7 @@
           x="93.734886"
           y="85.777763"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6315,7 +6315,7 @@
           x="109.10623"
           y="76.573929"
         >
-          nnn %
+          --- %
         </tspan>
       </text>
       <text
@@ -6347,7 +6347,7 @@
         id="text5261-9-8-2"
         transform="translate(31.862694,-0.97611337)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan2193">válvula lavador</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan1656">válvula lavador</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -6378,7 +6378,7 @@
         id="text5261-9-8-2-4"
         transform="translate(33.608948,-0.21265289)"
       >
-        <tspan x="83.821007" y="76.61512" id="tspan2195">Bypass</tspan>
+        <tspan x="83.821007" y="76.61512" id="tspan1658">Bypass</tspan>
       </text>
       <path
         id="path989-5-6"
