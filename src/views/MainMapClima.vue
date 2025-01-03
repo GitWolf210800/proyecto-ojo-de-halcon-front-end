@@ -6,6 +6,7 @@
       </div>
       <ClimaExterior />
       <LoginButtom class="login-buttom" @click = "clickLogin" />
+      <ButtonLog></ButtonLog>
     </div>
   </nav>
 
@@ -32,6 +33,7 @@ import { computed, onMounted, onUnmounted, ref } from 'vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
+import ButtonLog from '@/components/ButtonLog.vue';
 import LoginButtom from '@/components/icons/LoginButtom.vue';
 import Login from '@/components/Login.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
