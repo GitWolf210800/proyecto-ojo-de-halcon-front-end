@@ -1,8 +1,8 @@
 <template>
     <nav>
       <div class="navegacion">
-        <span class="version" id="version">Ojo de Halcón V3.7</span>
-        <LoginButtom class="login-buttom" @click = "clickLogin" />
+        <span class="version" id="version">Ojo de Halcón V3.8</span>
+        <ButtonLog />
       </div>
     </nav>
   
@@ -18,8 +18,6 @@
       <ProduccionFabrica class="botones" />
 
     </div>
-
-      <Login v-if="visibilityLogin" />
     
     </body>
   
@@ -31,25 +29,12 @@
   <script setup>
   //import { RouterLink } from 'vue-router';
   import { ref } from 'vue';
-  import LoginButtom from '@/components/icons/LoginButtom.vue';
-  import Login from '@/components/Login.vue';
   import HomeButtom from '@/components/icons/HomeButtom.vue';
+  import ButtonLog from '@/components/ButtonLog.vue';
   import IconoOjodeHalcon from '@/components/icons/IconoOjodeHalcon.vue';
   import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
   import MantenimientoFabrica from '@/components/icons/MantenimientoFabrica.vue';
   import ProduccionFabrica from '@/components/icons/ProduccionFabrica.vue';
-
-  const visibilityLogin = ref(null);
-
-  const clickLogin = () => {
-
-    if (!visibilityLogin.value){
-      visibilityLogin.value = true;
-    } else {
-      visibilityLogin.value = false;
-    }
-  
-  };
 
   </script>
   
