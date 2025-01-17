@@ -5,8 +5,8 @@
         <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
       </div>
       <ClimaExterior />
-      <LoginButtom class="login-buttom" @click = "clickLogin" />
-      <!--<ButtonLog></ButtonLog> -->
+
+      <ButtonLog />
     </div>
   </nav>
 
@@ -17,8 +17,6 @@
       <MapFabrica />  
     </div>
   </div>
-
-  <Login v-if="visibilityLogin" />
 
   <footer>
     <div class="footer__nav">
@@ -33,12 +31,9 @@ import { computed, onMounted, onUnmounted, ref } from 'vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
-//import ButtonLog from '@/components/ButtonLog.vue';
-import LoginButtom from '@/components/icons/LoginButtom.vue';
-import Login from '@/components/Login.vue';
+import ButtonLog from '@/components/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import MapFabrica from '@/components/MapFabricaClima.vue';
-
 import { useDataHomeClima } from '../components/componsables/useHomeClima';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 
