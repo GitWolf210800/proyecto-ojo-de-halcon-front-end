@@ -1,5 +1,5 @@
 <template>
-    <LoginButtom @click = "clickLogin" v-if="!loginTrue" />
+    <LoginButtom @click = "clickLogin" v-if="!loginTrue" /> <!--botones Login y Logout alternan dependiendo del estado loginTrue-->
     <LogoutButtom @click = "logout" v-else />
 
     <head>
@@ -7,10 +7,9 @@
 
     </head>
 
-    <div class="login" v-if="visibilityForm" >
-        <!--<button class="close__button" @click="closeTooltip"></button>-->
+    <div class="login" v-if="visibilityForm" > <!--Div Contenedor del formulario, para manipulacion CSS-->
         <h1>Login Ojo de Halcon</h1>
-        <form @submit.prevent="handleSubmit">
+        <form @submit.prevent="handleSubmit"> <!--Formulario HTML-->
             <label for="username">
                 <i class=" fas fa-user"></i>
             </label>
@@ -29,9 +28,9 @@
 </template>
 
 <script setup>
-import { ref, watch, watchEffect } from 'vue';
-import LoginButtom from './icons/LoginButtom.vue';
-import LogoutButtom from './icons/LogoutButtom.vue';
+import { ref } from 'vue';
+import LoginButtom from './icons/LoginButtom.vue'; // importamos el componente-icono para los botones
+import LogoutButtom from './icons/LogoutButtom.vue'; // importamos el componente-icono para los botones
 const legajo = ref('');
 const contraseña = ref('');
 const error = ref(null);
@@ -43,7 +42,7 @@ if (session.value) loginTrue.value = true;
 
 const clickLogin = () => {
 
-if (!visibilityForm.value){
+if (!visibilityForm.value){ //Verificacion de visibilidad del formulario Login
   visibilityForm.value = true;
 } else {
   visibilityForm.value = false;
@@ -51,19 +50,19 @@ if (!visibilityForm.value){
 
 };
 
-const logout = () => {
+const logout = () => {  //Funcion para desLogear la app
 
   localStorage.removeItem('sesion');
   loginTrue.value = false;
 
 };
 
-const handleSubmit = async () => {
+const handleSubmit = async () => { //Funcion para gestionar la API con los datos ingresados al Servidor
     const user = legajo.value;
     const password = contraseña.value;
 
     try {
-        const res = await fetch('http://192.168.3.122:4000/api/login', {
+        const res = await fetch('http://192.168.3.122:4000/api/login', {  // interfaz de comunicacion con el servidor
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
