@@ -74,7 +74,7 @@
       visibilityForm.value = !loginTrue.value;
     } catch (err) {
       console.error('Error:', err);
-      error.value = 'Hubo un error inesperado';
+      error.value = true;
     }
   };
   </script>

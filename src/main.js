@@ -6,6 +6,20 @@ import '@/assets/main.css';
 import router from './router';
 import { isMobile } from './funciones';
 
+// Font Awesome
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+// Add SVG Core
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+// Free Icons Styles
+import { fas } from "@fortawesome/free-solid-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
+import { far } from "@fortawesome/free-regular-svg-icons"
+
+// Add Free icons Styles To SVG Core
+library.add(fas, far, fab);
+
 const zoomDirective = {
     mounted(el) {
         let scale = 1;
@@ -154,6 +168,7 @@ const app = createApp(App);
 
 app.use(createPinia());
 app.use(router);
+app.component("fa", FontAwesomeIcon);
 app.directive('zoom', zoomDirective);
 
 if (isMobile()) {
