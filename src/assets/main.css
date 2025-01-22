@@ -12,6 +12,16 @@ html, body {
   /*overflow: hidden; /* Evita que el contenido se desplace fuera de la pantalla */
 }
 
+.content {
+  padding-top: 6vh; /* Espacio para el nav fijo */
+  padding-bottom: 11vh; /* Espacio para el footer */
+  transform-origin: center;
+  overflow-y: auto;
+  transition: transform 0.2s ease;
+  z-index: 1; /* Asegura que el content esté debajo del nav y footer */
+  touch-action: pinch-zoom; /* Permite hacer zoom en el mapa */
+}
+
 nav {
   transform: none !important;
   background: linear-gradient(to bottom, rgba(30, 48, 85, 0.9) 20%, rgba(47, 61, 90, 0) 65%);
@@ -27,33 +37,6 @@ nav {
   z-index: 1000; /* Asegura que el nav esté encima del contenido */
 }
 
-.content {
-  padding-top: 6vh; /* Espacio para el nav fijo */
-  padding-bottom: 11vh; /* Espacio para el footer */
-  transform-origin: center;
-  overflow-y: auto;
-  transition: transform 0.2s ease;
-  z-index: 1; /* Asegura que el content esté debajo del nav y footer */
-  touch-action: pinch-zoom; /* Permite hacer zoom en el mapa */
-}
-
-.navbar {
-  padding-top: 0px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navbar__navegacion {
-  justify-content: space-between;
-  margin: 2px;
-}
-
-.botones__navegacion {
-  display: inline;
-  margin: .5px;
-  width: 6.5vw;
-  height: 6.5vh;
-}
 
 rect, path {
   transition: fill 1.8s, stroke 1.5s;

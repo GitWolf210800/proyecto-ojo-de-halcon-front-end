@@ -1,13 +1,6 @@
 <template>
   <nav>
-    <div class="navbar">
-      <div class="navbar__navegacion">
-        <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
-      </div>
-      <ClimaExterior />
-
-      <ButtonLog />
-    </div>
+    <NavBarUniversal />
   </nav>
 
   <div class="map">
@@ -28,6 +21,7 @@
 
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue';
+import NavBarUniversal from '@/components/NavBarUniversal.vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';

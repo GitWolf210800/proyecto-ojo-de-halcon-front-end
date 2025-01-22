@@ -42,7 +42,7 @@
   };
   
   const logout = () => {
-    //document.cookie = 'jwt=; path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
+    //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
     localStorage.removeItem('sesion');
     console.log(document.cookie);
     loginTrue.value = false;

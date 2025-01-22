@@ -5,7 +5,15 @@ import App from './App.vue';
 import '@/assets/main.css';
 import router from './router';
 import { isMobile } from './funciones';
+
 import VueCookies from 'vue-cookies';
+
+/////Metodos de la libreria VueCookies/////
+// $cookies.set('auth', 1000);
+// $cookies.get('auth);
+// $cookies.remove('auth');
+// $cookies.isKey('auth');
+// $cookies.keys();
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
@@ -169,7 +177,7 @@ const app = createApp(App);
 
 app.use(createPinia());
 app.use(router);
-app.use(VueCookies);
+app.use(VueCookies, {expires: '1d'});
 app.component("fa", FontAwesomeIcon);
 app.directive('zoom', zoomDirective);
 
