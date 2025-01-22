@@ -20,7 +20,8 @@
     "vue": "^3.5.12",
     "vue-chartjs": "^5.3.1",
     "vue-cookies": "^1.8.6",
-    "vue-router": "^4.4.5"
+    "vue-router": "^4.4.5",
+    "vue-session": "^1.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
