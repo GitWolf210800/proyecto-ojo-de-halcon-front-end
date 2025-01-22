@@ -31,6 +31,32 @@ text, span, rect {
   user-select: none;
 }
 
+nav {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  transform: none !important;
+  background: linear-gradient(to bottom, rgba(30, 48, 85, 0.9) 20%, rgba(47, 61, 90, 0) 65%);
+  border-top: none;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8.5vh;
+  padding: 10px 0;
+  z-index: 1000; /* Asegura que el nav esté encima del contenido */
+}
+
+nav > * {
+  margin: 0 5px; /* Esto da un pequeño espacio entre los elementos dentro del nav */
+}
+
+.navbar__navegacion {
+  justify-content: space-between;
+  margin: 2px;
+}
+
 footer {
   transform: none !important;
   z-index: 1000; /* Asegura que el footer esté encima del contenido */
