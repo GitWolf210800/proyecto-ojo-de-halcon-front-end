@@ -20,11 +20,8 @@
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 import NavBarUniversal from '@/components/NavBarUniversal.vue';
-import ClimaExterior from '@/components/ClimaExterior.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
-import ButtonLog from '@/components/ButtonLog.vue';
-import HomeButtom from '@/components/icons/HomeButtom.vue';
 import MapFabrica from '@/components/MapFabricaClima.vue';
 import { useDataHomeClima } from '../components/componsables/useHomeClima';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
