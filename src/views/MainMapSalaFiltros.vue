@@ -1,14 +1,8 @@
 <template>
     <nav>
-        <div class="navbar">
-            <div class="navbar__navegacion">
-                <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
-                <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
-            </div>
-            <TituloInstalacion :instalacion="instalacion" />
-            <ClimaExterior />
-            <ButtonLog />
-        </div>
+        <TituloInstalacion :instalacion="instalacion" />
+        <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
+        <NavBarUniversal />
     </nav>
 
     <div class="map">
@@ -26,6 +20,7 @@
 
 <script setup>
 import TituloInstalacion from '@/components/icons/TituloInstalacion.vue';
+import NavBarUniversal from '@/components/NavBarUniversal.vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import ButtonLog from '@/components/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';

@@ -1,13 +1,7 @@
 <template>
     <nav>
-        <div class="navbar">
-            <div class="navbar__navegacion">
-                <RouterLink to="/" > <HomeButtom class="botones__navegacion" /> </RouterLink>
-                <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
-            </div>
-            <ClimaExterior />
-            <ButtonLog />
-        </div>
+        <RouterLink to="/clima"> <ClimaFabrica class="botones__navegacion" /> </RouterLink>
+        <NavBarUniversal />
     </nav>
 
     <div class="map">
@@ -23,6 +17,7 @@
 </template>
 
 <script setup>
+import NavBarUniversal from '@/components/NavBarUniversal.vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
@@ -40,7 +35,8 @@ document.title = `Ojo de Halcón - ${result}`;
 
 </script>
 
-<style scoped>
+<style >
+
 .map__carrier {
     display: flex;
     justify-content: center;

@@ -1,6 +1,8 @@
 <template>
-  <NavBarUniversal />
-
+  <nav>
+    <NavBarUniversal />
+  </nav>
+  
   <div class="map">
     <!-- Mapa y pie de página solo si los datos están listos -->
   
