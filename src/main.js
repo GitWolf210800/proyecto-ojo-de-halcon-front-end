@@ -6,6 +6,7 @@ import '@/assets/main.css';
 import router from './router';
 import { isMobile } from './funciones';
 
+//VueCookies
 import VueCookies from 'vue-cookies';
 
 /////Metodos de la libreria VueCookies/////
@@ -15,6 +16,18 @@ import VueCookies from 'vue-cookies';
 // $cookies.isKey('auth');
 // $cookies.keys();
 
+//VueSession
+import VueSession from 'vue-session';
+
+/////Metodos de la libreria VueSession/////
+// $session.stant();
+// $session.set('auth', 1000);
+// $session.get('auth');
+// $session.id();
+// $session.renew();
+// $session.destroy();
+
+
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -22,9 +35,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 // Free Icons Styles
-import { fas } from "@fortawesome/free-solid-svg-icons"
-import { fab } from "@fortawesome/free-brands-svg-icons"
-import { far } from "@fortawesome/free-regular-svg-icons"
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
 
 // Add Free icons Styles To SVG Core
 library.add(fas, far, fab);
