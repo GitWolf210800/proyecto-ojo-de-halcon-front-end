@@ -18,10 +18,7 @@
 
 <script setup>
 import NavBarUniversal from '@/components/NavBarUniversal.vue';
-import ClimaExterior from '@/components/ClimaExterior.vue';
-import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
-import ButtonLog from '@/components/ButtonLog.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import MapSalaCarrier from '@/components/MapSalaCarrier.vue';
@@ -31,7 +28,6 @@ const route = useRoute();
 let result = Object.values(route.query).join("");
 
 document.title = `Ojo de Halcón - ${result}`;
-
 
 </script>
 

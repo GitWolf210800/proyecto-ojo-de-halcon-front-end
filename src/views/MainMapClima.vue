@@ -2,7 +2,7 @@
   <nav>
     <NavBarUniversal />
   </nav>
-  
+
   <div class="map">
     <!-- Mapa y pie de página solo si los datos están listos -->
   
@@ -27,19 +27,6 @@ import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import MapFabrica from '@/components/MapFabricaClima.vue';
 import { useDataHomeClima } from '../components/componsables/useHomeClima';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
-
-
-const visibilityLogin = ref(null);
-
-  const clickLogin = () => {
-
-    if (!visibilityLogin.value){
-      visibilityLogin.value = true;
-    } else {
-      visibilityLogin.value = false;
-    }
-  
-  };
 
 // Estados del store para clima y SVG
 const homeClimaStore = useHomeClimaStore();
