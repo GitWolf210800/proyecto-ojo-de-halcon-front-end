@@ -21,9 +21,6 @@
 <script setup>
 import TituloInstalacion from '@/components/icons/TituloInstalacion.vue';
 import NavBarUniversal from '@/components/NavBarUniversal.vue';
-import ClimaExterior from '@/components/ClimaExterior.vue';
-import ButtonLog from '@/components/ButtonLog.vue';
-import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';

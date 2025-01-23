@@ -28,8 +28,6 @@
   
   <script setup>
   //import { RouterLink } from 'vue-router';
-  import { ref } from 'vue';
-  import HomeButtom from '@/components/icons/HomeButtom.vue';
   import ButtonLog from '@/components/ButtonLog.vue';
   import IconoOjodeHalcon from '@/components/icons/IconoOjodeHalcon.vue';
   import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
@@ -47,16 +45,13 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  
   .version {
     color: #FFF;
     padding: 5px;
   }
-  
   .login-buttom {
     display: inline-block;
   }
-  
   /* Ajuste del logo */
   .logo {
     position: fixed;
@@ -67,7 +62,6 @@
     max-width: 80px;
     height: auto;
   }
-  
   /* Menú de opciones */
   .menu {
     display: flex;
@@ -76,7 +70,6 @@
     margin-top: 40px;
     flex-wrap: wrap;
   }
-  
   /* Estilos responsivos para pantallas pequeñas */
   @media (max-width: 768px) {
     .navegacion {
