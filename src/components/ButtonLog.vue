@@ -6,7 +6,7 @@
       <h1>Login Ojo de Halcón</h1>
       <form @submit.prevent="handleSubmit">
         <label for="username">
-          <fa icon="user"/>
+          <fa icon="user"/>       
         </label>
         <input v-model="form.legajo" id="username" type="text" placeholder="Legajo" required />
         <label for="password">
@@ -21,6 +21,11 @@
   </template>
   
   <script setup>
+  //import vue from 'vue';
+
+  //import VueCookies from 'vue-cookies';
+  //Vue.use(VueCookies);
+
   import { ref, reactive } from 'vue';
   import LoginButtom from './icons/LoginButtom.vue';
   import LogoutButtom from './icons/LogoutButtom.vue';
@@ -43,6 +48,7 @@
   
   const logout = () => {
     //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
+    //$cookies.remove('jwt');
     localStorage.removeItem('sesion');
     console.log(document.cookie);
     loginTrue.value = false;
@@ -76,6 +82,7 @@
       form.legajo = '';
       form.contraseña = '';
       visibilityForm.value = !loginTrue.value;
+      //console.log($cookie.isKey('jwt'));
     } catch (err) {
       console.error('Error:', err);
       error.value = true;
