@@ -16,8 +16,8 @@ import VueCookies from 'vue-cookies';
 // $cookies.isKey('auth');
 // $cookies.keys();
 
-//VueSession
-import VueSession from 'vue-session';
+//VueSession ---- Esto no funciona para Vue3
+//import VueSession from 'vue-session';
 
 /////Metodos de la libreria VueSession/////
 // $session.stant();
