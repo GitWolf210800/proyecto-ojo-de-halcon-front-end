@@ -39,8 +39,8 @@
     contraseña: '',
   });
   
-  const session = ref(!!localStorage.getItem('sesion'));
-  if (session.value) loginTrue.value = true;
+  const sesion = ref(!!localStorage.getItem('sesion'));
+  if (sesion.value) loginTrue.value = true;
   
   const toggleLoginForm = () => {
     visibilityForm.value = !visibilityForm.value;
@@ -79,10 +79,13 @@
       const data = await res.json();
       localStorage.setItem('sesion', JSON.stringify(data.usuario));
       loginTrue.value = !!data.usuario.name;
+      console.log(data);
+      //$cookies.set('jwt', data.token, data.cookieOption, data.usuario);
+      $session.start();
+      $session.set('auth', data.token);
       form.legajo = '';
       form.contraseña = '';
       visibilityForm.value = !loginTrue.value;
-      //console.log($cookie.isKey('jwt'));
     } catch (err) {
       console.error('Error:', err);
       error.value = true;
