@@ -48,9 +48,8 @@
   
   const logout = () => {
     //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
-    //$cookies.remove('jwt');
+    $cookies.remove('jwt');
     localStorage.removeItem('sesion');
-    console.log(document.cookie);
     loginTrue.value = false;
   };
   
@@ -80,9 +79,9 @@
       localStorage.setItem('sesion', JSON.stringify(data.usuario));
       loginTrue.value = !!data.usuario.name;
       console.log(data);
-      //$cookies.set('jwt', data.token, data.cookieOption, data.usuario);
-      $session.start();
-      $session.set('auth', data.token);
+      $cookies.set('jwt', data.token, data.cookieOption, data.usuario);
+      //$session.start(); --Declinado porque no es compatible con Vue3
+      //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
       form.legajo = '';
       form.contraseña = '';
       visibilityForm.value = !loginTrue.value;
