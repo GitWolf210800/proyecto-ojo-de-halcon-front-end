@@ -11,10 +11,10 @@ import VueCookies from 'vue-cookies';
 
 /////Metodos de la libreria VueCookies/////
 // $cookies.set('auth', 1000);
-// $cookies.get('auth);
+// $cookies.get('auth');
 // $cookies.remove('auth');
 // $cookies.isKey('auth');
-// $cookies.keys();
+// $cookies.keys();0
 
 //VueSession ---- Esto no funciona para Vue3
 //import VueSession from 'vue-session';
