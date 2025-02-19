@@ -78,13 +78,13 @@
       const data = await res.json();
       localStorage.setItem('sesion', JSON.stringify(data.usuario));
       loginTrue.value = !!data.usuario.name;
-      console.log(data);
       $cookies.set('jwt', data.token, data.cookieOption, data.usuario);
       //$session.start(); --Declinado porque no es compatible con Vue3
       //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
       form.legajo = '';
       form.contraseña = '';
       visibilityForm.value = !loginTrue.value;
+      console.log($cookies.get('jwt'));
     } catch (err) {
       console.error('Error:', err);
       error.value = true;
