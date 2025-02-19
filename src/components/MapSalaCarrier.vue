@@ -156,6 +156,7 @@ function setElementColor(element, medicion, value) {
       "salida",
       "tanque_agua_fria_carrier",
       "demanda",
+      "carga_termica",
     ].some((prefix) => medicion.includes(prefix))
   ) {
     element.textContent = value ? value.toFixed(1) : 0;
@@ -187,6 +188,7 @@ async function interactWithSVG() {
 
     mediciones.forEach((medicion) => {
       const element = svg.querySelector(`#${medicion}`);
+      //if (medicion === 'carga_termica') document.getElementById('carga_termica').textContent = datos[medicion];
       if (element) {
         setElementColor(element, medicion, datos[medicion]);
       }

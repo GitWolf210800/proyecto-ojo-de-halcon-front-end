@@ -1902,7 +1902,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="548.25" y="125.6685" id="tspan3062">VENTILADORES</tspan>
+        <tspan x="548.25" y="125.6685" id="tspan2083">VENTILADORES</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1927,7 +1927,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="584.5" y="208.9185" id="tspan3064">FILTROS</tspan>
+        <tspan x="584.5" y="208.9185" id="tspan2085">FILTROS</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1952,8 +1952,8 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="309.71289" y="283.86186" id="tspan3066">B DE</tspan>
-        <tspan x="309.71289" y="298.86186" id="tspan3068">TORRE</tspan>
+        <tspan x="309.71289" y="283.86186" id="tspan2087">B DE</tspan>
+        <tspan x="309.71289" y="298.86186" id="tspan2089">TORRE</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -1978,7 +1978,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan3070">CONDENSADOR</tspan>
+        <tspan x="693" y="399.13164" id="tspan2091">CONDENSADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2003,7 +2003,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="702" y="558.13164" id="tspan3072">EVAPORADOR</tspan>
+        <tspan x="702" y="558.13164" id="tspan2093">EVAPORADOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2028,7 +2028,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="954.59375" y="515.7935" id="tspan3074">COMPRESOR</tspan>
+        <tspan x="954.59375" y="515.7935" id="tspan2095">COMPRESOR</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2053,8 +2053,8 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="414.36523" y="652.97124" id="tspan3076">B DE</tspan>
-        <tspan x="414.36523" y="667.97124" id="tspan3078">AGUA FRIA</tspan>
+        <tspan x="414.36523" y="652.97124" id="tspan2097">B DE</tspan>
+        <tspan x="414.36523" y="667.97124" id="tspan2099">AGUA FRIA</tspan>
       </text>
       <path
         style="
@@ -2566,7 +2566,7 @@
           stroke-opacity: 0.321429;
         "
       >
-        <tspan x="693" y="399.13164" id="tspan3082">Chiller</tspan>
+        <tspan x="693" y="399.13164" id="tspan2103">Chiller</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2744,10 +2744,10 @@
         "
         x="146.6524"
         y="139.34309"
-        id="demanda"
+        id="demanda_text"
         transform="scale(0.95279066,1.0495485)"
       >
-        <tspan id="tspan2685" x="146.6524" y="139.34309">n,nn</tspan>
+        <tspan id="demanda" x="146.6524" y="139.34309">n,nn</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3242,7 +3242,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan3084">B Pileta</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan2105">B Pileta</tspan>
       </text>
       <path
         id="valvula_pileta"
@@ -3309,7 +3309,7 @@
           stroke: #ffffff;
         "
       >
-        <tspan x="900.85352" y="206.08061" id="tspan3086">B DOSIF</tspan>
+        <tspan x="900.85352" y="206.08061" id="tspan2107">B DOSIF</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3354,8 +3354,8 @@
           stroke: #ffffff;
           stroke-width: 0.102737;
         "
-        x="117.88152"
-        y="235.86067"
+        x="118.66296"
+        y="242.46002"
         id="salida_agua_fria_principal"
         transform="scale(1.0405305,0.96104824)"
       >
@@ -3411,15 +3411,15 @@
           stroke: #ffffff;
           stroke-width: 0.095243;
         "
-        x="146.80798"
-        y="210.82884"
+        x="147.68306"
+        y="216.72208"
         id="temp_aguaIn_cond-0-85-2-0"
         transform="scale(0.92919678,1.0761983)"
       >
         <tspan
           id="tspan15873-60-2-6"
-          x="146.80798"
-          y="210.82884"
+          x="147.68306"
+          y="216.72208"
           style="stroke-width: 0.095243"
         >
           °C
@@ -3834,7 +3834,7 @@
           font-variant-caps: normal;
           font-variant-numeric: normal;
           font-variant-east-asian: normal;
-          fill: #ffff00ff;
+          fill: #f2f2f2;
           stroke: #f4fcfc;
           stroke-width: 0.699196;
           stroke-opacity: 0.0934844;
@@ -3869,7 +3869,7 @@
       <text
         xml:space="preserve"
         transform="matrix(0.1541077,0,0,0.15551053,-141.90354,-17.590174)"
-        id="tanque_agua_fria_carrier_text"
+        id="tanque_agua_fria_carrier"
         style="
           font-size: 19.2609px;
           font-family: Dubai;
@@ -3884,7 +3884,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">100</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan2119">100</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3904,9 +3904,191 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan3100">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan2121">%</tspan>
       </text>
     </g>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.09485px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #ffff00;
+        fill-opacity: 1;
+        stroke: #ffff00;
+        stroke-width: 0.0849152;
+        stroke-opacity: 1;
+      "
+      x="142.18311"
+      y="178.48273"
+      id="temp_aguaIn_cond-0-85-2-0-2-0"
+      transform="scale(1.0594805,0.94385881)"
+    >
+      <tspan
+        id="tspan15873-60-2-6-1-1"
+        x="142.18311"
+        y="178.48273"
+        style="
+          fill: #ffff00;
+          fill-opacity: 1;
+          stroke: #ffff00;
+          stroke-width: 0.0849152;
+          stroke-opacity: 1;
+        "
+      >
+        Tons
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 6.33512px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, ';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #ffff00;
+        fill-opacity: 1;
+        stroke: #ffff00;
+        stroke-width: 0.105586;
+        stroke-opacity: 1;
+      "
+      x="107.0536"
+      y="205.32877"
+      id="carga_termica"
+      transform="scale(1.2163572,0.82212692)"
+    >
+      <tspan
+        id="tspan20-6-2-5-2-0"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 6.33512px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, ';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #ffff00;
+          fill-opacity: 1;
+          stroke: #ffff00;
+          stroke-width: 0.105586;
+          stroke-opacity: 1;
+        "
+        x="107.0536"
+        y="205.32877"
+      >
+        -----
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 6.33512px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, ';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #ffff00;
+        fill-opacity: 1;
+        stroke: #ffff00;
+        stroke-width: 0.105586;
+        stroke-opacity: 1;
+      "
+      x="96.536705"
+      y="254.98193"
+      id="carga_termica_total"
+      transform="scale(1.2163572,0.82212692)"
+    >
+      <tspan
+        id="tspan20-6-2-5-2"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 6.33512px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, ';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          fill: #ffff00;
+          fill-opacity: 1;
+          stroke: #ffff00;
+          stroke-width: 0.105586;
+          stroke-opacity: 1;
+        "
+        x="96.536705"
+        y="254.98193"
+      >
+        ---------
+      </tspan>
+    </text>
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 5.09485px;
+        font-family: sans-serif;
+        -inkscape-font-specification: 'sans-serif, Normal';
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #ffff00;
+        fill-opacity: 1;
+        stroke: #ffff00;
+        stroke-width: 0.0849152;
+        stroke-opacity: 1;
+      "
+      x="134.45662"
+      y="222.332"
+      id="temp_aguaIn_cond-0-85-2-0-2-5"
+      transform="scale(1.0594805,0.94385881)"
+    >
+      <tspan
+        id="tspan15873-60-2-6-1-1-4"
+        x="134.45662"
+        y="222.332"
+        style="
+          fill: #ffff00;
+          fill-opacity: 1;
+          stroke: #ffff00;
+          stroke-width: 0.0849152;
+          stroke-opacity: 1;
+        "
+      >
+        Tons
+      </tspan>
+    </text>
   </svg>
 </template>
 
