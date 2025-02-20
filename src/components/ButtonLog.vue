@@ -1,6 +1,9 @@
 <template>
     <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
     <LogoutButtom @click="logout" v-else />
+
+    <p class="log__text" v-show="loginTrue" >Bienvenido</p>
+    <p class="log__text" v-show="loginTrue">{{ nombreUsuario }}</p>
   
     <div v-if="visibilityForm" class="login">
       <h1>Login Ojo de Halcón</h1>
@@ -31,6 +34,7 @@
   import LogoutButtom from './icons/LogoutButtom.vue';
   
   const loginTrue = ref(false);
+  const nombreUsuario = ref('');
   const visibilityForm = ref(false);
   const error = ref(null);
   
@@ -38,9 +42,13 @@
     legajo: '',
     contraseña: '',
   });
-  
+
   const sesion = ref(!!localStorage.getItem('sesion'));
-  if (sesion.value) loginTrue.value = true;
+  if (sesion.value) {
+    loginTrue.value = true;
+    const sesionData = ref(JSON.parse(localStorage.getItem('sesion')));
+    nombreUsuario.value = sesionData.value.name;
+  }
   
   const toggleLoginForm = () => {
     visibilityForm.value = !visibilityForm.value;
@@ -50,6 +58,7 @@
     //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
     $cookies.remove('jwt');
     localStorage.removeItem('sesion');
+    nombreUsuario.value = '';
     loginTrue.value = false;
   };
   
@@ -78,6 +87,7 @@
       const data = await res.json();
       localStorage.setItem('sesion', JSON.stringify(data.usuario));
       loginTrue.value = !!data.usuario.name;
+      nombreUsuario.value = data.usuario.name;
       $cookies.set('jwt', data.token, data.cookieOption, data.usuario);
       //$session.start(); --Declinado porque no es compatible con Vue3
       //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
@@ -93,6 +103,12 @@
   </script>
   
   <style scoped>
+
+.log__text {
+  color: #FFF;
+  margin: 0%;
+}
+
   .error {
     color: #ef0f0f;
     font-size: 0.9rem;
