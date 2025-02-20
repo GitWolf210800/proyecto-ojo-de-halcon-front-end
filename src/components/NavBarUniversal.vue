@@ -4,8 +4,10 @@
             <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
         </div>
         <ClimaExterior />
-
-        <ButtonLog />
+        <div class="logControl">
+          <ButtonLog />
+          
+        </div>
     </div>
 </template>
 
@@ -18,6 +20,11 @@ import ClimaExterior from '@/components/ClimaExterior.vue';
 </script>
 
 <style scoped>
+
+.logControl__text {
+  color: #FFF;
+  margin: 0%;
+}
 
 .navbar {
   padding-top: 0px;
