@@ -57,11 +57,11 @@
         />
     </div>
 
-    <!--<ToolTipChart 
+    <ToolTipChart 
         :position="tooltipPosition"
         :parametros="params"
         v-if="tooltipVisibility.chart"
-    />-->
+    />
 </template>
 
 <script setup>
@@ -69,12 +69,12 @@ import { computed, onMounted, ref, watchEffect } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import axios from "axios";
 
-/*import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
+import ToolTipChart from '@/modules/tooltip/components/ToolTipChart.vue';
 import {
   TOOLTIP_CHART_CONFIG,
   TOOLTIP_INFO_TABLE,
 } from "@/variables";
-import { useTooltip } from "@/modules/tooltip/utils/useTooltip";*/
+import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 
 import Map_fab3_preparacion_filtro from './maps/Map_fab3_preparacion_filtro.vue';
 import Map_fab3_ex8_filtro from './maps/Map_fab3_ex8_filtro.vue';
@@ -89,6 +89,7 @@ import Map_fab9_preparacion_filtro from './maps/Map_fab9_preparacion_filtro.vue'
 import Map_fab9_open_end_filtro from './maps/Map_fab9_open_end_filtro.vue';
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { alarmColor, alertColor, okColor, paroManual, server } from "@/variables";
+import { createTooltipConfig } from '@/funciones';
 //import { server } from '@/variables';
 //import { response } from 'express';
 
@@ -97,13 +98,13 @@ const loading = ref(null);
 const route = useRoute();
 const router = useRouter();
 
-/*const {
+const {
   tooltipPosition,
   params,
   tooltipVisibility,
   displayTooltip,
   hideTooltip,
-} = useTooltip();*/
+} = useTooltip();
 
 const fab3PrepFiltro = ref(null);
 const fab3Ex8Filtro = ref(null);
@@ -119,6 +120,9 @@ const fab9OpenEndFiltro = ref(null);
 
 const parametros = route.query;
 const result = Object.values(parametros).join("");
+const partes = result.split('_');
+partes.pop();
+const instalacionFisica = partes.join('_');
 
 let mediciones = [];
 const datos = ref(null);
@@ -143,6 +147,48 @@ const updateOpciones = () => {
 };
 
 watchEffect(updateOpciones);
+
+function initializeTooltipEvents() {
+    const svg = mapFiltro.value.svgRef;
+    const tooltipConfigs = [
+        ...datosGral.value.mediciones_intercambiadores_temperaturas.map((dato) => 
+            createTooltipConfig(
+                `#${dato}`,
+                "chart",
+                { nombre: instalacionFisica, medicion: dato, tabla: 'mediciones_intercambiadores_temperaturas' },
+                TOOLTIP_CHART_CONFIG
+            )
+        ),
+        ...datosGral.value.mediciones_intercambiadores_valvula_bomba.map((dato) => 
+            createTooltipConfig(
+                `#${dato}`,
+                "chart",
+                { nombre: instalacionFisica, medicion: dato, tabla: 'mediciones_intercambiadores_valvula_bomba' },
+                TOOLTIP_CHART_CONFIG
+            )
+        ),
+        ...datosGral.value.mediciones_filtros.map((dato) => 
+            createTooltipConfig(
+                `#${dato}`,
+                "chart",
+                { nombre: result, medicion:dato, tabla: 'mediciones_filtros' },
+                TOOLTIP_CHART_CONFIG
+            )
+        )
+    ];
+    //console.log(tooltipConfigs);
+
+    tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
+        const element = svg.querySelector(selector);
+        if(element){
+            console.log(element);
+            element.addEventListener('mouseover', (e) =>
+                displayTooltip(e, tooltipType, payload, config)
+            );
+            element.addEventListener('mouseleave', () => hideTooltip(tooltipType));
+        }
+    } )
+}
 
 async function fetchData() {
     try {
@@ -202,10 +248,11 @@ await fetchData();
 
 watchEffect (() => {
     if (datosGral.value){           //Una vez que los datos esten listos, empieza a recorrer el grafico
+        //console.log(datosGral.value);
         svg = mapFiltro.value.svgRef;
         dataColorInfoClima(svg);    //aqui se llama a la funcion para recorrer los items de seccion de clima que tenga
         interactWithSVG(svg);
-        
+        initializeTooltipEvents();
     }
 });
 
