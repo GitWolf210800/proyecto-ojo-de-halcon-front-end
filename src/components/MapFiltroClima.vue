@@ -181,7 +181,6 @@ function initializeTooltipEvents() {
     tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
         const element = svg.querySelector(selector);
         if(element){
-            console.log(element);
             element.addEventListener('mouseover', (e) =>
                 displayTooltip(e, tooltipType, payload, config)
             );
