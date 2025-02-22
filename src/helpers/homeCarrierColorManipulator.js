@@ -59,7 +59,7 @@ export const dataColorInfoCarrier = async (svg) => {
 
   // Colores por estado
   const estadoColors = {
-    0: alertColor,
+    0: alarmColor,
     50: paroManual,
     100: okColor,
   };
