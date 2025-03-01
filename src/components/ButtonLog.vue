@@ -56,8 +56,10 @@
   };
   
   const logout = () => {
+    const userData = useDataUserStore();
     //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
     $cookies.remove('jwt');
+    userData.dataUser = {};
     localStorage.removeItem('sesion');
     nombreUsuario.value = '';
     loginTrue.value = false;
@@ -97,7 +99,7 @@
       form.legajo = '';
       form.contraseña = '';
       visibilityForm.value = !loginTrue.value;
-      console.log($cookies.get('jwt'));
+      //console.log($cookies.get('jwt'));
     } catch (err) {
       console.error('Error:', err);
       error.value = true;
