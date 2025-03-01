@@ -3,16 +3,17 @@
         <div class="navbar__navegacion">
             <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
         </div>
+        <LimitesFiltros />
         <ClimaExterior />
-        <div class="logControl">
-          <ButtonLog />
-          
-        </div>
+
+        <ButtonLog />
+
     </div>
 </template>
 
 <script setup>
 //import { RouterLink } from 'vue-router';
+import LimitesFiltros from '@/components/LimitesFiltros.vue';
 import ButtonLog from '@/components/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaExterior from '@/components/ClimaExterior.vue';
@@ -20,11 +21,6 @@ import ClimaExterior from '@/components/ClimaExterior.vue';
 </script>
 
 <style scoped>
-
-.logControl__text {
-  color: #FFF;
-  margin: 0%;
-}
 
 .navbar {
   padding-top: 0px;
