@@ -12,4 +12,4 @@ export const useDataUserStore = defineStore('dataUserStore', ()=> {
         dataUser,
         setDataUser
     }
-});
+}, {persist: true});

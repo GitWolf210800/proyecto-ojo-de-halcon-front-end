@@ -1,6 +1,7 @@
 import './assets/main.css';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
+import piniaPersistedState from 'pinia-plugin-persistedstate';
 import App from './App.vue';
 import '@/assets/main.css';
 import router from './router';
@@ -187,8 +188,10 @@ const zoomDirective = {
 };
 
 const app = createApp(App);
-
-app.use(createPinia());
+const pinia = createPinia();
+//app.use(createPinia());
+pinia.use(piniaPersistedState);
+app.use(pinia);
 app.use(router);
 app.use(VueCookies, {expires: '1d'});
 app.component("fa", FontAwesomeIcon);
