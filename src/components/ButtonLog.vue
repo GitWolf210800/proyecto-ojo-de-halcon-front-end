@@ -1,9 +1,8 @@
 <template>
   <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
   <LogoutButtom @click="logout" v-else />
-
-  <p class="log__text" v-show="loginTrue">Bienvenido</p>
-  <p class="log__text" v-show="loginTrue">{{ nombreUsuario }}</p>
+  
+  <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
 
   <div v-if="visibilityForm" class="login">
     <h1>Login Ojo de Halcón</h1>
