@@ -71,7 +71,7 @@ const logout = () => {
   const userData = useDataUserStore();
   //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
   $cookies.remove("jwt");
-  userData.dataUser = {};
+  userData.dataUser = null;
   localStorage.removeItem("sesion");
   nombreUsuario.value = "";
   loginTrue.value = false;
