@@ -3,10 +3,15 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
+//import { useRoute } from 'vue-router';
+
 import LimitesFiltrosButton from './icons/LimitesFiltrosButton.vue';
 import { useDataUserStore } from '@/stores/dataUserStore';
 
+//const route = useRoute();
+
+//const esRutaEspecifica = computed(() => route.path === '/clima')
 const dataUserStore = useDataUserStore();
 const show = ref(false);
 
