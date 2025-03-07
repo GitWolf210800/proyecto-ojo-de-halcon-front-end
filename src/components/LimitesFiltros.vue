@@ -4,21 +4,35 @@
 
 <script setup>
 import { ref, watch, computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 
 import LimitesFiltrosButton from './icons/LimitesFiltrosButton.vue';
+import { createRouterConfig } from '@/funciones';
 import { useSvgStore } from '@/stores/svgStore';
 import { useDataUserStore } from '@/stores/dataUserStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
+import { useReferenceStore } from '@/stores/referencesStore';
 
 const route = useRoute();
+const router = useRouter();
 
 const esRutaEspecifica = computed(() => route.path === '/clima');
 const dataUserStore = useDataUserStore();
 const svgMap = useSvgStore();
 const climaData = useHomeClimaStore();
+const referenceStore = useReferenceStore();
 const show = ref(false);
 const toggleClick = ref(false);
+
+//Se prepara los datos para la navegacion
+const navigateTo = (routeInfo) => {
+  router.push({
+    path: routeInfo.path,
+    query: routeInfo.params
+  });
+}
+
+//console.log(referenceStore.reference);
 
 watch(
   () => dataUserStore.dataUser,
@@ -41,18 +55,60 @@ const toggle = () => {
         const salas = climaData.datos.salasClima;
         const map = svgMap.svgRef;
 
-        /*for(let i = 0; i < salas.length; i++) {
-
-        }*/
+        for(let i = 0; i < salas.length; i++) {
+            const element = map.querySelector(`#${salas[i]}`);
+            const storeHandler = referenceStore.reference[`#${salas[i]}`]['click'];
+            if (element){
+                element.removeEventListener('click', storeHandler);
+            }
+        }
 
         for(let i = 0; i < filtros.length; i++) {
             const element = map.querySelector(`#${filtros[i]}`);
-            /*if (element) {
-                element.addEventListener('click', () => console.log('hizo click en: ', filtros[i]) );
-            }*/
+            const handler = () => { console.log('hizo click en: ', filtros[i]) };
+            
+            if (element) {
+                element.addEventListener('click', handler );
+                try {
+                    referenceStore.reference[`#${filtros[i]}`] = referenceStore.reference[`#${filtros[i]}`] || {};
+                    referenceStore.reference[`#${filtros[i]}`]['click'] = handler;
+                } catch { console.log('error en: ', filtros[i]); }
+            }
         }
     } else {
+        const filtros = climaData.datos.nombresFiltro;
+        const salas = climaData.datos.salasClima;
+        const map = svgMap.svgRef;
         console.log(toggleClick.value);
+
+        for (let i = 0; i < filtros.length; i++) {
+            const element = map.querySelector(`#${filtros[i]}`);
+
+            if (element) {
+                const storeHandler =  referenceStore.reference[`#${filtros[i]}`]['click'];
+                element.removeEventListener('click', storeHandler);
+            }
+        }
+
+        const routesMap = [
+            ...climaData.datos.salasClima.map((dato) => createRouterConfig(`#${dato}`, '/salaFiltro', dato))
+        ];
+
+        routesMap.forEach((datos) => {
+            const element = map.querySelector(datos.selector);
+
+            if(element){
+                const handler = () => navigateTo(datos);
+
+                element.addEventListener('click', handler);
+
+                try {
+                    referenceStore.reference[datos.selector] = referenceStore.reference[datos.selector] || {};
+                    referenceStore.reference[datos.selector]['click'] = handler; 
+                } catch { console.log('error en:  ', datos); }
+            }
+        });
+
     }
 };
 </script>

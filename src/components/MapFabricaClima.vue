@@ -24,6 +24,7 @@ import { computed, onMounted, ref, watchEffect, onUnmounted } from "vue";
 import { useRouter } from "vue-router";
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useSvgStore } from "@/stores/svgStore";
+import { useReferenceStore } from "@/stores/referencesStore";
 import MapClima from "./maps/MapClima.vue";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
@@ -45,6 +46,7 @@ const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip 
 
 const storeData = ref(useHomeClimaStore().datos);
 const mapClimaRef = ref(null);
+const referenceStorage = ref({});
 let svg = null; 
 
 const router = useRouter();
@@ -52,6 +54,7 @@ const router = useRouter();
 // Estados del store para clima y SVG
 const homeClimaStore = useHomeClimaStore();
 const svgStore = useSvgStore();
+const referenceStore = useReferenceStore();
 
 // Computados para verificar que los datos y el SVG estén listos
 const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
@@ -83,10 +86,18 @@ console.log(resultado);
     const element = svg.querySelector(datos.selector);
 
     if(element){
-      element.addEventListener('click', () => navigateTo(datos))
-    }
+      const handler = () => navigateTo(datos);
 
+      element.addEventListener('click', handler);
+      try {
+        referenceStorage.value[datos.selector] = referenceStorage.value[datos.selector] || {};
+        referenceStorage.value[datos.selector]['click'] = handler;
+      } catch { console.log('error en: ', datos) };
+    }
   });
+
+  //console.log(referenceStorage.value);
+  referenceStore.setReference(referenceStorage.value);
 
 };
 
