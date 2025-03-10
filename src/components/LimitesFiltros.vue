@@ -1,5 +1,24 @@
 <template>
     <LimitesFiltrosButton  class="icon-container" @click = "toggle" v-if="show && esRutaEspecifica" />
+
+    <form v-if="visibilityForm" @submit.prevent="handleSubmit">
+        <div class="limites__cabezal">
+            <button type="submit" class="button__send">Enviar</button>
+            <fa class="button__close" icon="square-xmark" @click="toggleForm" />
+            <h1>Edición de Limites</h1>
+            <h3>{{ tituloInstalacion }}</h3>
+        </div>
+        <!--<div id="parametros" class="limites" v-for="(value, key) in datos" :key="key">
+            <label :for="key">{{ key }}, {{ value }}</label>
+            <input :id="key" v-model="datos[key]" />
+        </div>-->
+        <div id="parametros" class="limites">
+            <div v-for="(value, key) in datos" :key="key">
+                <label :for="key">{{ key }}, {{ value }}</label>
+                <input :id="key" v-model="datos[key]" />
+            </div>
+        </div>
+    </form>
 </template>
 
 <script setup>
@@ -12,6 +31,7 @@ import { useSvgStore } from '@/stores/svgStore';
 import { useDataUserStore } from '@/stores/dataUserStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useReferenceStore } from '@/stores/referencesStore';
+import { server } from '@/variables';
 
 const route = useRoute();
 const router = useRouter();
@@ -21,7 +41,11 @@ const dataUserStore = useDataUserStore();
 const svgMap = useSvgStore();
 const climaData = useHomeClimaStore();
 const referenceStore = useReferenceStore();
+
+const tituloInstalacion = ref('');
+const datos = ref({});
 const show = ref(false);
+const visibilityForm = ref(false);
 const toggleClick = ref(false);
 
 //Se prepara los datos para la navegacion
@@ -30,7 +54,11 @@ const navigateTo = (routeInfo) => {
     path: routeInfo.path,
     query: routeInfo.params
   });
-}
+};
+
+const handleSubmit = () => {
+
+};
 
 //console.log(referenceStore.reference);
 
@@ -65,7 +93,24 @@ const toggle = () => {
 
         for(let i = 0; i < filtros.length; i++) {
             const element = map.querySelector(`#${filtros[i]}`);
-            const handler = () => { console.log('hizo click en: ', filtros[i]) };
+            const handler = async () => { 
+                const instalacion = filtros[i];
+                const res = await fetch(`${server}:4000/api/formlimfil`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type' : 'application/json'
+                    },
+                    body: JSON.stringify({
+                        instalacion : instalacion 
+                    })
+                });
+                const resJson = await res.json();
+                datos.value = resJson[0];
+                console.log('hizo click en: ', instalacion); 
+                console.log(datos.value);
+                tituloInstalacion.value = instalacion;
+                visibilityForm.value = true;
+            };
             
             if (element) {
                 element.addEventListener('click', handler );
@@ -79,6 +124,8 @@ const toggle = () => {
         const filtros = climaData.datos.nombresFiltro;
         const salas = climaData.datos.salasClima;
         const map = svgMap.svgRef;
+        visibilityForm.value = false;
+        console.log(`formulario: ${visibilityForm.value}`);
         console.log(toggleClick.value);
 
         for (let i = 0; i < filtros.length; i++) {
@@ -91,7 +138,7 @@ const toggle = () => {
         }
 
         const routesMap = [
-            ...climaData.datos.salasClima.map((dato) => createRouterConfig(`#${dato}`, '/salaFiltro', dato))
+            ...salas.map((dato) => createRouterConfig(`#${dato}`, '/salaFiltro', dato))
         ];
 
         routesMap.forEach((datos) => {
@@ -111,6 +158,10 @@ const toggle = () => {
 
     }
 };
+
+const toggleForm = () => {
+    visibilityForm.value = !visibilityForm.value;
+};
 </script>
 
 <style scoped>
@@ -119,6 +170,88 @@ const toggle = () => {
   position: relative; /* Necesario para que el hijo posicionado de manera absoluta se base en este contenedor */
   display: inline-block;
   cursor: pointer;
+}
+
+.button__send{
+    background-color: #0eafe3;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.button__close {
+    color: red;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.limites {
+    width: 400px;
+    max-height: 400px;
+    background-color: #ffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1600;
+    overflow-y: scroll;
+    /*overflow: hidden;*/
+}
+
+/*form {
+    overflow-y: scroll;
+}*/
+
+.limites__cabezal h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #dee0e4;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.limites__cabezal h3 {
+    text-align: center;
+    color: #4c545f;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #dee0e4;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.limites label {
+    display: flex;
+    justify-content: center;
+    align-items: center;/**/
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    /*background-color: #1984bc;*/
+    color: #575656;
 }
 
 /*.tilde {
