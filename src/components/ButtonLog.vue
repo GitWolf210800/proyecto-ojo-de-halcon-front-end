@@ -1,7 +1,7 @@
 <template>
   <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
   <LogoutButtom @click="logout" v-else />
-  
+
   <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
 
   <div v-if="visibilityForm" class="login">
@@ -44,6 +44,7 @@ import { ref, reactive } from "vue";
 import LoginButtom from "./icons/LoginButtom.vue";
 import LogoutButtom from "./icons/LogoutButtom.vue";
 import { useDataUserStore } from "@/stores/dataUserStore";
+//import Cookies from "js-cookie";
 
 const loginTrue = ref(false);
 const nombreUsuario = ref("");
@@ -70,6 +71,8 @@ const logout = () => {
   const userData = useDataUserStore();
   //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
   $cookies.remove("jwt");
+  //Cookies.remove('jwt', {path: '/'});
+  //$cookies.remove('jwtVue');
   userData.dataUser = null;
   localStorage.removeItem("sesion");
   nombreUsuario.value = "";
@@ -104,7 +107,7 @@ const handleSubmit = async () => {
     nombreUsuario.value = data.usuario.name;
     const userData = useDataUserStore();
     userData.dataUser = data.usuario;
-    $cookies.set("jwt", data.token, data.cookieOption, data.usuario);
+    //$cookies.set("jwt", data.token, data.cookieOption);
     //$session.start(); --Declinado porque no es compatible con Vue3
     //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
     form.legajo = "";

@@ -1,24 +1,31 @@
 <template>
     <LimitesFiltrosButton  class="icon-container" @click = "toggle" v-if="show && esRutaEspecifica" />
 
-    <form v-if="visibilityForm" @submit.prevent="handleSubmit">
+    <div class="body__content" v-if="visibilityForm">
+        <form @submit.prevent="handleSubmit">
         <div class="limites__cabezal">
             <button type="submit" class="button__send">Enviar</button>
             <fa class="button__close" icon="square-xmark" @click="toggleForm" />
             <h1>Edición de Limites</h1>
             <h3>{{ tituloInstalacion }}</h3>
+            <p v-if="error" class="mensaje">{{ mensaje }}</p>
         </div>
         <!--<div id="parametros" class="limites" v-for="(value, key) in datos" :key="key">
             <label :for="key">{{ key }}, {{ value }}</label>
             <input :id="key" v-model="datos[key]" />
         </div>-->
-        <div id="parametros" class="limites">
+        <div class="limites" >
             <div v-for="(value, key) in datos" :key="key">
-                <label :for="key">{{ key }}, {{ value }}</label>
-                <input :id="key" v-model="datos[key]" />
+                <template v-if="!key.startsWith('id') && !key.startsWith('nombre') && key !== 'motivo'">
+                    <label :for="key">{{ key }}, {{ value }}</label>
+                    <input :id="key" v-model="datos[key]" type="number" />
+                </template>
             </div>
+            <label>Indique el Motivo:</label>
+            <input :id="'motivo'" v-model="datos['motivo']" type="text">
         </div>
     </form>
+    </div>
 </template>
 
 <script setup>
@@ -47,6 +54,8 @@ const datos = ref({});
 const show = ref(false);
 const visibilityForm = ref(false);
 const toggleClick = ref(false);
+const error =  ref(false);
+const mensaje = ref('');
 
 //Se prepara los datos para la navegacion
 const navigateTo = (routeInfo) => {
@@ -56,7 +65,25 @@ const navigateTo = (routeInfo) => {
   });
 };
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
+
+    //console.log(datos.value);
+    //console.log(JSON.stringify(datos.value));
+    const res = await fetch(`${server}:4000/api/formlimsent`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(datos.value)
+    });
+
+    const resJson = await res.json();
+    if(res.message) mensaje.value = resJson.message;
+
+    const response = await fetch(`${server}:1880/updateLim`, {method: 'GET'})
+    .then(() => console.log('node-red Actualizado'))
+    .catch(error => console.error('Error al actualizar node-red', error));
 
 };
 
@@ -181,6 +208,9 @@ const toggleForm = () => {
     height: 35px;
     font-size: 16px;
     padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
     margin: 3px;
 }
 
@@ -194,9 +224,9 @@ const toggleForm = () => {
     top: 0;
 }
 
-.limites {
+.body__content {
     width: 400px;
-    max-height: 400px;
+    max-height: 450px;
     background-color: #ffff;
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
     display: flex;
@@ -206,13 +236,31 @@ const toggleForm = () => {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1600;
-    overflow-y: scroll;
     /*overflow: hidden;*/
+}
+
+.limites {
+    flex: 1;
+    width: 100%;
+    /*gap: 10px;*/
+    max-height: 250px;
+    overflow-y: scroll;
+    /*padding: 10px;*/
 }
 
 /*form {
     overflow-y: scroll;
 }*/
+
+.limites__cabezal{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
 
 .limites__cabezal h1 {
     text-align: center;
@@ -225,7 +273,7 @@ const toggleForm = () => {
     width: 100%;
 }
 
-.limites__cabezal h3 {
+.limites__cabezal h3, p {
     text-align: center;
     color: #4c545f;
     font-size: 16px;
@@ -261,4 +309,22 @@ form {
   transform: translate(-50%, -50%); 
   z-index: 1; 
 }*/
+
+.body__content, .limites {
+    text-align: center;
+}
+
+.body__content, .limites input{
+    display: inline-block;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #0b42ba;
+}
+
+.mensaje {
+    color: #da2506;
+}
 </style>

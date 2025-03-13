@@ -10894,7 +10894,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan4035">G33</tspan>
+        <tspan x="860.44922" y="896.4163" id="tspan4035">TOYOTA</tspan>
       </text>
       <path
         id="path9664-1-1"
@@ -11228,7 +11228,7 @@
           stroke-opacity: 1;
           paint-order: stroke fill markers;
         "
-        id="fab3_g33_filtro"
+        id="fab3_toyota_filtro"
         width="414.84592"
         height="136.60106"
         x="1266.8994"
