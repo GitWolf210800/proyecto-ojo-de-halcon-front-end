@@ -44,6 +44,7 @@ import { ref, reactive } from "vue";
 import LoginButtom from "./icons/LoginButtom.vue";
 import LogoutButtom from "./icons/LogoutButtom.vue";
 import { useDataUserStore } from "@/stores/dataUserStore";
+import { server } from "@/variables";
 //import Cookies from "js-cookie";
 
 const loginTrue = ref(false);
@@ -67,10 +68,17 @@ const toggleLoginForm = () => {
   visibilityForm.value = !visibilityForm.value;
 };
 
-const logout = () => {
+const logout = async () => {
   const userData = useDataUserStore();
+  const response = await fetch(`${server}:4000/api/logout`, {
+    method: 'GET',
+    credentials: 'include'
+  });
+  const data = await response.json();
+  //console.log(data.message);
+  //if (response.ok)
   //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
-  $cookies.remove("jwt");
+  //$cookies.remove("jwt");
   //Cookies.remove('jwt', {path: '/'});
   //$cookies.remove('jwtVue');
   userData.dataUser = null;
