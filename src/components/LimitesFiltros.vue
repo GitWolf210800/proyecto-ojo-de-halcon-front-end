@@ -98,7 +98,7 @@ watch(
       show.value = (rol === 'SUPER_USER' || rol === 'ADMIN_LIMITES');
     } else {
       show.value = false;
-      toggle();
+      //toggle();
     }
   },
   { immediate: true, deep: true }

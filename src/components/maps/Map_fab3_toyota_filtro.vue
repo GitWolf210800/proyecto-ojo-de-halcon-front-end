@@ -3692,7 +3692,7 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      id="fab3_g33_clima_hum_color"
+      id="fab3_toyota_clima_hum_color"
       width="49.605389"
       height="9.7207861"
       x="298.72546"
@@ -3708,7 +3708,7 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      id="fab3_g33_clima_humAbs_color"
+      id="fab3_toyota_clima_humAbs_color"
       width="49.615723"
       height="6.935761"
       x="298.72137"
@@ -3724,7 +3724,7 @@
         stroke-dasharray: none;
         stroke-opacity: 1;
       "
-      id="fab3_g33_clima_temp_color"
+      id="fab3_toyota_clima_temp_color"
       width="49.605389"
       height="9.7207861"
       x="298.72061"
@@ -3758,7 +3758,7 @@
       transform="scale(1.1379993,0.87873517)"
     >
       <tspan
-        id="fab3_g33_clima_temp_text"
+        id="fab3_toyota_clima_temp_text"
         x="262.01343"
         y="28.860205"
         style="stroke-width: 0.506267"
@@ -3766,7 +3766,7 @@
         nn°C
       </tspan>
       <tspan
-        id="fab3_g33_clima_hum_text"
+        id="fab3_toyota_clima_hum_text"
         x="262.01343"
         y="41.49733"
         style="stroke-width: 0.506267"
@@ -3782,7 +3782,7 @@
         stroke: #49cdf7;
         stroke-width: 0;
       "
-      id="fab3_g33_clima_temp_g"
+      id="fab3_toyota_clima_temp_g"
       width="49.523678"
       height="9.6058645"
       x="298.75308"
@@ -3796,7 +3796,7 @@
         stroke: #49cdf7;
         stroke-width: 0;
       "
-      id="fab3_g33_clima_hum_g"
+      id="fab3_toyota_clima_hum_g"
       width="49.523678"
       height="9.6058645"
       x="298.75464"
@@ -3831,11 +3831,11 @@
     >
       <tspan
         id="tspan25048"
-        x="285.94629"
+        x="279.94629"
         y="17.760193"
         style="stroke-width: 0.157493"
       >
-        Continuas G33
+        Continuas TOYOTA
       </tspan>
     </text>
     <text
@@ -3862,7 +3862,7 @@
       "
       x="215.38568"
       y="60.013786"
-      id="fab3_g33_clima_humAbs_text"
+      id="fab3_toyota_clima_humAbs_text"
       transform="scale(1.4174729,0.70548084)"
     >
       <tspan
