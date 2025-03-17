@@ -1,5 +1,5 @@
 <template>
-<CalibracionClimaButtom  v-if="show && esRutaEspecifica" />
+<CalibracionClimaButtom @click="toggle" v-if="show && esRutaEspecifica" />
 
 <div class="body__content" v-if="visibilityForm">
     <form>
@@ -46,8 +46,13 @@ watch(
         else {
             show.value = false;
         }
-    }
+    },
+    {immediate: true, deep: true}
 );
+
+const toggle = () => {
+    visibilityForm.value = !visibilityForm.value;
+};
 
 </script>
 
