@@ -133,8 +133,8 @@ const toggle = () => {
                 });
                 const resJson = await res.json();
                 datos.value = resJson[0];
-                console.log('hizo click en: ', instalacion); 
-                console.log(datos.value);
+                //console.log('hizo click en: ', instalacion); 
+                //console.log(datos.value);
                 tituloInstalacion.value = instalacion;
                 visibilityForm.value = true;
             };

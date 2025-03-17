@@ -180,6 +180,7 @@ function initializeTooltipEvents() {
 
     tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
         const element = svg.querySelector(selector);
+        //console.log(element);
         if(element){
             element.addEventListener('mouseover', (e) =>
                 displayTooltip(e, tooltipType, payload, config)
@@ -213,9 +214,9 @@ function interactWithSVG(svg) {
     if (mapFiltro.value && mapFiltro.value.svgRef) {
         const datosOn = datos.value;    //Se toman los datos obtenidos del fetch en una constante
         const paramertrosMediciones = datosGral.value.parametros_mediciones === '""' ? `` : datosGral.value.parametros_mediciones;
-
+        //console.log(datosOn);
         for(let x in datosOn){      // Se recorre los datos 
-            if(!x.includes('id_') && datos[x] !== 0){
+            if(!x.includes('id_')&& x !== "" && datos[x] !== 0){
                 const element = svg.querySelector(`#${x}`); //se busca el elemento de medicion
                 if(element){  // Si el elemento existe en el mapa se inserta el dato del servidor, y se ajustan los estilos a partir del estado del elemento medido 
                     const medicion = paramertrosMediciones.find(objeto => objeto.medicion === x);
