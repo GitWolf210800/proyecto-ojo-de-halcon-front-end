@@ -1,6 +1,6 @@
 export const getUSerCookie = () => {
     const todasLasCookie = document.cookie;
-    console.log(todasLasCookie);
+    //console.log(todasLasCookie);
 
     function decodeJWT(token) {
         const base64Url = token.split('.')[1];

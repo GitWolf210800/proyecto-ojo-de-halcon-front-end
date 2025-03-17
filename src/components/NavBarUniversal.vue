@@ -3,6 +3,7 @@
         <div class="navbar__navegacion">
             <RouterLink to="/"> <HomeButtom class="botones__navegacion" /> </RouterLink>
         </div>
+        <CalibracionClima />
         <LimitesFiltros />
         <ClimaExterior />
 
@@ -13,6 +14,7 @@
 
 <script setup>
 //import { RouterLink } from 'vue-router';
+import CalibracionClima from './CalibracionClima.vue';
 import LimitesFiltros from '@/components/LimitesFiltros.vue';
 import ButtonLog from '@/components/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
