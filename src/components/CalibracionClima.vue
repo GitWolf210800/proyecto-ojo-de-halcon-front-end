@@ -8,7 +8,7 @@
         <fa class="button_close" icon="square-xmark"></fa>
         <h1>Calibración Clima</h1>
         <h3>{{ tituloInstalacion }}</h3>
-        <p v-if="error" class="mensaje">{{  }}</p>
+        <p v-if="error" class="mensaje">{{ mensaje }}</p>
       </div>
       
       <div class="calibracion">
@@ -24,14 +24,14 @@ import { computed, ref, watch } from 'vue';
 
 import CalibracionClimaButtom from './icons/CalibracionClimaButtom.vue';
 
-import { useDataAuthUser } from './componsables/useAuth';
+import { useDataUserStore } from '@/stores/dataUserStore';
 
 const route = useRoute();
 
 const esRutaEspecifica = computed(() => route.path === '/clima');
-const dataUserStore = useDataAuthUser();
+const dataUserStore = useDataUserStore();
 
-const show = ref(true);
+const show = ref(false);
 const tituloInstalacion = ref('');
 const visibilityForm = ref(false);
 const mensaje = ref('');
