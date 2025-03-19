@@ -25,6 +25,12 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('@/views/MainMapClima.vue')
       /*component: MainMapClima*/
+    },
+
+    {
+      path: '/mantenimiento',
+      name: 'mantenimiento',
+      component: () => import('@/views/MainMapMantenimiento.vue')
     }
     ,
     {

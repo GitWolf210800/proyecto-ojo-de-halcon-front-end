@@ -13,7 +13,9 @@
         <ClimaFabrica class="botones" />
       </RouterLink>
 
-      <MantenimientoFabrica class="botones" />
+      <RouterLink to="/mantenimiento">
+        <MantenimientoFabrica class="botones" />
+      </RouterLink>
 
       <ProduccionFabrica class="botones" />
 
