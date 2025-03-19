@@ -5,7 +5,7 @@
     <form>
       <div class="calibracion__cabezal">
         <button type="submit" class="button__send">Enviar</button>
-        <fa class="button_close" icon="square-xmark"></fa>
+        <fa @click="toggleForm" class="button__close" icon="square-xmark"></fa>
         <h1>Calibración Clima</h1>
         <h3>{{ tituloInstalacion }}</h3>
         <p v-if="error" class="mensaje">{{ mensaje }}</p>
@@ -50,6 +50,10 @@ watch(
     {immediate: true, deep: true}
 );
 
+const toggleForm = () => {
+    visibilityForm.value = !visibilityForm.value;
+};
+
 const toggle = () => {
     visibilityForm.value = !visibilityForm.value;
 };
@@ -57,5 +61,101 @@ const toggle = () => {
 </script>
 
 <style scoped>
+
+    .body__content {
+        width: 400px;
+        max-height: 450px;
+        background-color: #ffff;
+        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1600;
+    }
+
+
+    .calibracion {
+        flex: 1;
+        width: 100%;
+        max-height: 250px;
+        overflow-y: scroll;
+    }
+
+    .calibracion__cabezal {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 10;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .calibracion__cabezal h1 {
+        text-align: center;
+        color: #5b6574;
+        font-size: 24px;
+        padding: 20px 0;
+        margin: 0;
+        border-bottom: 1px solid #dee0e4;
+        background-color: #f9f9f9;
+        width: 100%;
+    }
+
+    .calibracion__cabezal h3, p {
+        text-align: center;
+        color: #4c545f;
+        font-size: 16px;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #dee0e4;
+        background-color: #f9f9f9;
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .calibracion label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        color: #575656;
+    }
+
+    .button__send {
+        background-color: #0eafe3;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        width: 55px;
+        height: 35px;
+        font-size: 16px;
+        padding: 5px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 3px;
+    }
+
+    .button__close {
+        color: red;
+        width: 35px;
+        height: 35px;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
 
 </style>

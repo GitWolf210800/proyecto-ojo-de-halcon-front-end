@@ -69,8 +69,8 @@ const toggleLoginForm = () => {
 };
 
 const logout = async () => {
-  const userData = useDataUserStore();
-  const response = await fetch(`${server}:4000/api/logout`, {
+const userData = useDataUserStore();
+const response = await fetch(`${server}:4000/api/logout`, {
     method: 'GET',
     credentials: 'include'
   });
