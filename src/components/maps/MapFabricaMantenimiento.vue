@@ -6,10 +6,31 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { computed, onMounted, ref, watchEffect } from 'vue';
 import MapMantenimiento from './MapMantenimiento.vue';
+import { useHomeMantenimientoStore } from '@/stores/homeMantenimientoStore';
+import { dataColorInfoMantenimiento } from '@/helpers/homeMantenimientoManipulatorColor';
 
 const mapMantenimientoRef = ref(null);
+let svg = null;
+const storeData = ref(useHomeMantenimientoStore().datos);
+
+const homeMantenimientoStore = useHomeMantenimientoStore();
+
+const dataIsLoaded = computed(() => homeMantenimientoStore.datos !== null);
+
+onMounted(() => {
+    if(mapMantenimientoRef.value.svgRef){
+        svg = mapMantenimientoRef.value.svgRef;
+    }
+});
+
+watchEffect(() => {
+    if(dataIsLoaded.value) {
+        dataColorInfoMantenimiento(svg);
+    }
+});
+
 </script>
 
 <style scoped>
