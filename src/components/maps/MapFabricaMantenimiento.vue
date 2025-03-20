@@ -18,6 +18,7 @@ const storeData = ref(useHomeMantenimientoStore().datos);
 const homeMantenimientoStore = useHomeMantenimientoStore();
 
 const dataIsLoaded = computed(() => homeMantenimientoStore.datos !== null);
+const svgIsLoaded = computed(() => mapMantenimientoRef.value !== null);
 
 onMounted(() => {
     if(mapMantenimientoRef.value.svgRef){
@@ -26,7 +27,8 @@ onMounted(() => {
 });
 
 watchEffect(() => {
-    if(dataIsLoaded.value) {
+    //console.log(mapMantenimientoRef.value);
+    if(dataIsLoaded.value && svgIsLoaded.value) {
         dataColorInfoMantenimiento(svg);
     }
 });
