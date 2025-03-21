@@ -97,8 +97,6 @@ console.log(resultado);
   });
 
   //console.log(referenceStorage.value);
-  referenceStore.setReference(referenceStorage.value);
-
 };
 
 // Inicialización de eventos de tooltip
@@ -126,8 +124,19 @@ function initializeTooltipEvents(svg) {
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
     const element = svg.querySelector(selector);
     if (element) {
-      element.addEventListener("mouseover", (e) => displayTooltip(e, tooltipType, payload, config));
-      element.addEventListener("mouseleave", () => hideTooltip(tooltipType));
+      const handlerOn = (e) => displayTooltip(e, tooltipType, payload, config);
+      const handlerOff = () => hideTooltip(tooltipType);
+
+      element.addEventListener("mouseover", handlerOn);
+      element.addEventListener("mouseleave", handlerOff);
+
+      try {
+        referenceStorage.value[selector] = referenceStorage.value[selector] || {};
+        referenceStorage.value[selector]['mouseover'] = handlerOn;
+        referenceStorage.value[selector]['mouseleave'] = handlerOff;
+      } catch {
+        console.log('error en: ', selector);
+      }
     }
   });
 }
@@ -146,6 +155,7 @@ onMounted(() => {
     svg = mapClimaRef.value.svgRef;
     initializeTooltipEvents(mapClimaRef.value.svgRef);
     routesDireccion(mapClimaRef.value.svgRef);
+    referenceStore.setReference(referenceStorage.value);
   }
 
   watchEffect(() => {
