@@ -32,7 +32,7 @@ import {
 const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
 
 const mapMantenimientoRef = ref(null);
-let svg = null;
+//let svg = null;
 const storeData = ref(useHomeMantenimientoStore().datos);
 const referenceStorage = ref({});
 
@@ -76,8 +76,8 @@ function initializeTooltipEvents(svg){
 
 
 onMounted(() => {
-    if(mapMantenimientoRef.value.svgRef){
-        svg = mapMantenimientoRef.value.svgRef;
+    if(mapMantenimientoRef.value.svgRef && dataIsLoaded.value){
+        //svg = mapMantenimientoRef.value.svgRef;
 
         initializeTooltipEvents(mapMantenimientoRef.value.svgRef);
     }
@@ -86,7 +86,8 @@ onMounted(() => {
 watchEffect(() => {
     //console.log(mapMantenimientoRef.value);
     if(dataIsLoaded.value && svgIsLoaded.value) {
-        dataColorInfoMantenimiento(svg);
+        //console.log(svgIsLoaded.value);
+        dataColorInfoMantenimiento(mapMantenimientoRef.value.svgRef);
     }
 });
 

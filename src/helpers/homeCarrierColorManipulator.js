@@ -72,6 +72,6 @@ export const dataColorInfoCarrier = async (svg) => {
 
     if (textButtom)
       textButtom.textContent = `${nombre} ${demanda.toFixed(0)} %`;
-    applyColor(colorButtom, estadoColors[estado] || offlineColor);
+    applyColor(colorButtom, estadoColors[estado]);
   });
 };

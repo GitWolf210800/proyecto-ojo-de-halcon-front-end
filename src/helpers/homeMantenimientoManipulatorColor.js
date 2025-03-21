@@ -16,6 +16,7 @@ const textColors = {
 
 export const dataColorInfoMantenimiento = async (svg) => {
     const svgStore = svg;
+    //console.log(svg);
     let storeData = useHomeMantenimientoStore().datos;
 
     if (!storeData){
