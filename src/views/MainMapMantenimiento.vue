@@ -4,7 +4,7 @@
     <NavBarUniversal />
 </nav>
 
-<div class="map">
+<div class="map" v-if="dataIsLoaded">
     <MapFabrica />
 </div>
 
