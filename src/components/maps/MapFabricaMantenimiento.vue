@@ -23,9 +23,7 @@ import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue"
 
 import { createTooltipConfig } from '@/funciones';
 import {
-  TOOLTIP_CHART_CONFIG,
   TOOLTIP_CHART_INFO_CONFIG,
-  TOOLTIP_INFO_TABLE,
 } from "@/variables.js";
 
 // Se utiliza el composable `useTooltip`
@@ -42,7 +40,8 @@ const referenceStore = useReferenceStore();
 const dataIsLoaded = computed(() => homeMantenimientoStore.datos !== null);
 const svgIsLoaded = computed(() => mapMantenimientoRef.value !== null);
 
-function initializeTooltipEvents(svg){
+  function initializeTooltipEvents(svg){
+
     const tooltipConfigs = [
         ...storeData.value.compresores.map((dato) => 
             createTooltipConfig(`#${dato.nombre}`, 'chartInfo', { nombre: dato.nombre, medicion: 'presion_salida_compresor', tabla: 'mediciones_compresores' }, TOOLTIP_CHART_INFO_CONFIG)
@@ -73,7 +72,7 @@ function initializeTooltipEvents(svg){
 };
 
 
-onMounted(() => {
+onMounted(async () => {
     if(mapMantenimientoRef.value.svgRef && dataIsLoaded.value){
         //svg = mapMantenimientoRef.value.svgRef;
 
