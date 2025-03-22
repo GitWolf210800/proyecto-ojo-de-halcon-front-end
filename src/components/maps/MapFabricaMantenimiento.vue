@@ -70,8 +70,6 @@ function initializeTooltipEvents(svg){
             }
         }
     });
-
-    referenceStore.setReference(referenceStorage.value);
 };
 
 
@@ -80,6 +78,7 @@ onMounted(() => {
         //svg = mapMantenimientoRef.value.svgRef;
 
         initializeTooltipEvents(mapMantenimientoRef.value.svgRef);
+        referenceStore.setReference(referenceStorage.value);
     }
 });
 
