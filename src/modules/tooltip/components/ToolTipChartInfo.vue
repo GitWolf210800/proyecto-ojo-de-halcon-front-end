@@ -108,7 +108,7 @@ onMounted(async () => {
       loadingNow.value = false;
     } else {
       dataNow.value = fetchedDataNow;
-      console.log(dataNow.value);
+      //console.log(dataNow.value);
       loadingNow.value = false;
     }
   } catch (error) {
