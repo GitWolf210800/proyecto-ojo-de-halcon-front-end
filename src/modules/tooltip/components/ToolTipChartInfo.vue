@@ -20,22 +20,22 @@
                       (item['max_' + key] !== undefined && Number(item[key]) > Number(item['max_' + key]))
                     ) ? alarmColor : textOkColor
                   }">
-                  {{ key }}: {{ formatValue(item[key]) }}
+                  {{ key }}: {{ formatValue(item[key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
               </div>
               <!-- Muestra de los límites asociados (mínimo y máximo) -->
                <div class="limits">
                 <span class="limit" v-if="item['min_alarma_' + key] !== undefined && item['min_alarma_' + key] !== 0" style="color: white;">
-                * min Alarma : {{ formatValue(item['min_alarma_' + key]) }} 
+                * min Alarma : {{ formatValue(item['min_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
                 <span class="limit" v-if="item['min_' + key] !== undefined && item['min_' + key] !== 0" style="color: white;">
-                * min: {{ formatValue(item['min_' + key]) }}
+                * min: {{ formatValue(item['min_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
                 <span class="limit" v-if="item['max_' + key] !== undefined && item['max_' + key] !== 0" style="color: white;">
-                * max: {{ formatValue(item['max_' + key]) }}
+                * max: {{ formatValue(item['max_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
                 <span class="limit" v-if="item['max_alarma_' + key] !== undefined && item['max_alarma_' + key] !== 0" style="color: white;">
-                * max Alarma : {{ formatValue(item['max_alarma_' + key]) }}
+                * max Alarma : {{ formatValue(item['max_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
               </div>
             </template>
@@ -84,6 +84,7 @@ const loading = ref(true);
 const loadingNow = ref(true);
 const chartData = ref(null);
 const dataNow = ref(null);
+const setsNow = ref(null);
 const offline = ref(false);
 const offlineNow = ref(false);
 
@@ -104,16 +105,19 @@ onMounted(async () => {
     const fetchedDataNow = await fetchInfoDataNow(props.parametros);
     if (fetchedDataNow.length === 0) {
       dataNow.value = null;
+      setsNow.value = null;
       offlineNow.value = true;
       loadingNow.value = false;
     } else {
-      dataNow.value = fetchedDataNow;
-      //console.log(dataNow.value);
+      dataNow.value = fetchedDataNow.resultado;
+      setsNow.value = fetchedDataNow.setsMedicion;
+      console.log(setsNow.value);
       loadingNow.value = false;
     }
   } catch (error) {
     loadingNow.value = false;
     dataNow.value = null;
+    setsNow.value = null;
     offlineNow.value = true;
   }
 });
@@ -154,13 +158,13 @@ onMounted(async () => {
 }
 
 .limits {
-  font-size: 12px;
+  font-size: 11px;
   margin-bottom: 2px;
   border-top: 1px solid dashed #aaa;
 }
 
 .limit {
-  margin-right: 1.5em;
+  margin-right: 1em;
 }
 </style>
 
