@@ -13,7 +13,7 @@ html, body {
 }
 
 .content {
-  padding-top: 6vh; /* Espacio para el nav fijo */
+  padding-top: 0vh; /* Espacio para el nav fijo */
   padding-bottom: 11vh; /* Espacio para el footer */
   transform-origin: center;
   overflow-y: auto;
@@ -36,15 +36,23 @@ nav {
   justify-content: center; /* Centra los elementos horizontalmente */
   align-items: center; /* Centra los elementos verticalmente */
   transform: none !important;
-  background: linear-gradient(to bottom, rgba(30, 48, 85, 0.9) 20%, rgba(47, 61, 90, 0) 65%);
+  /*background: linear-gradient(to bottom, rgba(30, 48, 85, 0.9) 85%, rgba(47, 61, 90, 0) 10%);*/
+  /*background: linear-gradient(180deg, #0D1B2A, #415A77);*/
+  background: linear-gradient(180deg, rgba(13, 27, 42, 0.8) 0%, rgba(65, 90, 119, 0.5) 100%);
+  
   border-top: none;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+  /* Línea inferior sutil */
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+  border-bottom: none;
+  /*box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);*/
+  /* Sutil sombra para resaltar la barra */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 8.5vh;
-  padding: 10px 0;
+  height: 6.5vh;
+  padding: 8px 0;
   z-index: 1000; /* Asegura que el nav esté encima del contenido */
 }
 
@@ -54,7 +62,12 @@ nav > * {
 
 .navbar__navegacion {
   justify-content: space-between;
-  margin: 2px;
+  /*margin: 2px;*/
+}
+
+/* Hover para los enlaces */
+.navbar a:hover {
+  opacity: 0.8;
 }
 
 footer {
@@ -87,7 +100,7 @@ footer {
   display: inline;
   margin: .5px;
   width: 6.5vw;
-  height: 6.5vh;
+  height: 6.1vh;
 }
 
 .zoomable-content {

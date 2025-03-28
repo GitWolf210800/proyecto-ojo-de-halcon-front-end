@@ -2,8 +2,8 @@
   <div class="content_clima_exterior">
     <svg
       ref="svgRef"
-      width="78.767998mm"
-      height="16.432522mm"
+      width="62.6mm"
+      height="13mm"
       viewBox="0 0 78.768006 16.432522"
       version="1.1"
       id="svg66787"
