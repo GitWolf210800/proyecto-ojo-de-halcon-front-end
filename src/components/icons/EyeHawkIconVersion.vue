@@ -44,7 +44,7 @@
       >
         <tspan x="38.326813" y="31.202715" id="tspan35829">Ojo de Halcón</tspan>
         <tspan x="38.326813" y="35.500317" id="tspan35831">
-          Versión 3.8 BETA
+          Versión 3.9 BETA
         </tspan>
       </text>
     </g>
