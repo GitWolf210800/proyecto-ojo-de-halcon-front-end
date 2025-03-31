@@ -1,6 +1,6 @@
 <template>
     <div class="content" v-zoom>
-        <MapMantenimiento ref="mapMantenimientoRef" class="container__map" />
+        <MapMantenimiento :iconos="iconos" ref="mapMantenimientoRef" class="container__map" />
     </div>
 
     <ToolTipChartInfo 
@@ -30,6 +30,9 @@ import {
 const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
 
 const mapMantenimientoRef = ref(null);
+const iconos = ref({
+    compresores: true
+})
 //let svg = null;
 const storeData = ref(useHomeMantenimientoStore().datos);
 const referenceStorage = ref({});
