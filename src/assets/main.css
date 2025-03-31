@@ -54,6 +54,7 @@ nav {
   height: 6.5vh;
   padding: 8px 0;
   z-index: 1000; /* Asegura que el nav esté encima del contenido */
+  
 }
 
 nav > * {

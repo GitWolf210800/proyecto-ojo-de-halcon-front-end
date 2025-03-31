@@ -111,7 +111,7 @@ onMounted(async () => {
     } else {
       dataNow.value = fetchedDataNow.resultado;
       setsNow.value = fetchedDataNow.setsMedicion;
-      console.log(setsNow.value);
+      //console.log(setsNow.value);
       loadingNow.value = false;
     }
   } catch (error) {
