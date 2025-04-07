@@ -13,7 +13,7 @@ html, body {
 }
 
 .content {
-  padding-top: 0vh; /* Espacio para el nav fijo */
+  padding-top: 4vh; /* Espacio para el nav fijo */
   padding-bottom: 11vh; /* Espacio para el footer */
   transform-origin: center;
   overflow-y: auto;
