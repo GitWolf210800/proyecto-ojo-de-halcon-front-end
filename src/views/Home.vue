@@ -30,7 +30,7 @@
   
   <script setup>
   //import { RouterLink } from 'vue-router';
-  import ButtonLog from '@/components/ButtonLog.vue';
+  import ButtonLog from '@/components/componentesVue/ButtonLog.vue';
   import IconoOjodeHalcon from '@/components/icons/IconoOjodeHalcon.vue';
   import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
   import MantenimientoFabrica from '@/components/icons/MantenimientoFabrica.vue';

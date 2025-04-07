@@ -41,8 +41,8 @@
 //Vue.use(VueCookies);
 
 import { ref, reactive } from "vue";
-import LoginButtom from "./icons/LoginButtom.vue";
-import LogoutButtom from "./icons/LogoutButtom.vue";
+import LoginButtom from "@/components/icons/LoginButtom.vue";
+import LogoutButtom from "@/components/icons/LogoutButtom.vue";
 import { useDataUserStore } from "@/stores/dataUserStore";
 import { server } from "@/variables";
 //import Cookies from "js-cookie";

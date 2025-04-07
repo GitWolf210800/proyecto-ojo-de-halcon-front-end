@@ -20,8 +20,8 @@
 <script setup>
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
-import NavBarUniversal from '@/components/NavBarUniversal.vue';
-import MapFabrica from '@/components/maps/MapFabricaMantenimiento.vue';
+import NavBarUniversal from '@/components/componentesVue/NavBarUniversal.vue';
+import MapFabrica from '@/components/maps/main/MapFabricaMantenimiento.vue';
 import { computed, onMounted, onUnmounted } from 'vue';
 import { useDataHomeMantenimiento } from '@/components/componsables/useMantenimiento';
 import { useHomeMantenimientoStore } from '@/stores/homeMantenimientoStore';

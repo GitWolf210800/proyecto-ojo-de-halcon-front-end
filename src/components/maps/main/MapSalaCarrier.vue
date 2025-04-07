@@ -27,8 +27,8 @@
 <script setup>
 import { useRoute, useRouter } from "vue-router";
 import axios from "axios";
-import MapChillerOption1 from "./maps/MapChillerOption1.vue";
-import MapChillerOption2 from "./maps/MapChillerOption2.vue";
+import MapChillerOption1 from "@/components/maps/chillers/MapChillerOption1.vue";
+import MapChillerOption2 from "@/components/maps/chillers/MapChillerOption1.vue";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
 import {
@@ -42,7 +42,7 @@ import { createRouterConfig, createTooltipConfig } from "@/funciones";
 import { onMounted, ref, watch, nextTick, watchEffect, onUnmounted } from "vue";
 import { server } from "@/variables";
 
-import { useDataHomeClima } from '../components/componsables/useHomeClima';
+import { useDataHomeClima } from '@/components/componsables/useHomeClima';
 
 let intervalId;
 

@@ -32,7 +32,7 @@
 import { ref, watch, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
-import LimitesFiltrosButton from './icons/LimitesFiltrosButton.vue';
+import LimitesFiltrosButton from '@/components/icons/LimitesFiltrosButton.vue';
 import { createRouterConfig } from '@/funciones';
 import { useSvgStore } from '@/stores/svgStore';
 import { useDataUserStore } from '@/stores/dataUserStore';

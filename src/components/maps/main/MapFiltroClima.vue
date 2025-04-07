@@ -76,17 +76,17 @@ import {
 } from "@/variables";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 
-import Map_fab3_preparacion_filtro from './maps/Map_fab3_preparacion_filtro.vue';
-import Map_fab3_ex8_filtro from './maps/Map_fab3_ex8_filtro.vue';
-import Map_fab3_g30_filtro from './maps/Map_fab3_g30_filtro.vue';
-import Map_fab3_toyota_filtro from './maps/Map_fab3_toyota_filtro.vue';
+import Map_fab3_preparacion_filtro from './maps/filtros/Map_fab3_preparacion_filtro.vue';
+import Map_fab3_ex8_filtro from './maps/filtros/Map_fab3_ex8_filtro.vue';
+import Map_fab3_g30_filtro from './maps/filtros/Map_fab3_g30_filtro.vue';
+import Map_fab3_toyota_filtro from './maps/filtros/Map_fab3_toyota_filtro.vue';
 
-import Map_fab6_preparacion_filtro from './maps/Map_fab6_preparacion_filtro.vue';
-import Map_fab6_continuas_filtro from './maps/Map_fab6_continuas_filtro.vue';
-import Map_fab6_bobinaje_filtro from './maps/Map_fab6_bobinaje_filtro.vue';
+import Map_fab6_preparacion_filtro from './maps/filtros/Map_fab6_preparacion_filtro.vue';
+import Map_fab6_continuas_filtro from './maps/filtros/Map_fab6_continuas_filtro.vue';
+import Map_fab6_bobinaje_filtro from './maps/filtros/Map_fab6_bobinaje_filtro.vue';
 
-import Map_fab9_preparacion_filtro from './maps/Map_fab9_preparacion_filtro.vue';
-import Map_fab9_open_end_filtro from './maps/Map_fab9_open_end_filtro.vue';
+import Map_fab9_preparacion_filtro from './maps/filtros/Map_fab9_preparacion_filtro.vue';
+import Map_fab9_open_end_filtro from './maps/filtros/Map_fab9_open_end_filtro.vue';
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { alarmColor, alertColor, okColor, paroManual, server } from "@/variables";
 import { createTooltipConfig } from '@/funciones';
