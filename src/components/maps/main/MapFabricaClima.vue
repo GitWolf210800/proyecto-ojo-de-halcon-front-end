@@ -25,7 +25,7 @@ import { useRouter } from "vue-router";
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useSvgStore } from "@/stores/svgStore";
 import { useReferenceStore } from "@/stores/referencesStore";
-import MapClima from "@/components/maps/MapClima.vue";
+import MapClima from "@/components/maps/fabrica/MapClima.vue";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";

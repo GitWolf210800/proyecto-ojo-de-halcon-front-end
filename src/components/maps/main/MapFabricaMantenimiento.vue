@@ -12,7 +12,7 @@
 
 <script setup>
 import { computed, onMounted, ref, watchEffect } from 'vue';
-import MapMantenimiento from '@/components/maps/MapMantenimiento.vue';
+import MapMantenimiento from '@/components/maps/fabrica/MapMantenimiento.vue';
 import { dataColorInfoMantenimiento } from '@/helpers/homeMantenimientoManipulatorColor';
 
 import { useHomeMantenimientoStore } from '@/stores/homeMantenimientoStore';
