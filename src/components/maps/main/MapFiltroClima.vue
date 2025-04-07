@@ -1,6 +1,30 @@
 <template>
     <div class="content" v-zoom>
         <span v-if="loading" class="loading">Cargando Datos...</span>
+
+        <Map_fab1_bobinaje_filtro 
+            class="container__map"
+            ref="mapFiltro"
+            v-if="fab1BobFiltro && !loading"
+        />
+
+        <Map_fab1_continuas_filtro 
+            class="container__map"
+            ref="mapFiltro"
+            v-if="fab1ContFiltro && !loading"
+        />
+
+        <Map_fab1_preparacion_filtro 
+            class="container__map"
+            ref="mapFiltro"
+            v-if="fab1PrepFiltro && !loading"
+        />
+
+        <Map_fab1_color_filtro 
+            class="contanier__map"
+            ref="mapFiltro"
+            v-if="fab1Colorfiltro && !loading"
+        />
         
         <Map_fab3_ex8_filtro 
             class="container__map"
@@ -24,6 +48,12 @@
             class="container__map"
             ref="mapFiltro"
             v-else-if="fab3ToyotaFiltro && !loading"
+        />
+
+        <Map_fab4_clima_filtro 
+            class="container__map"
+            ref="mapFiltro"
+            v-else-if="fab4ClimaFiltro && !loading"
         />
 
         <Map_fab6_preparacion_filtro 
@@ -76,17 +106,24 @@ import {
 } from "@/variables";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 
-import Map_fab3_preparacion_filtro from './maps/filtros/Map_fab3_preparacion_filtro.vue';
-import Map_fab3_ex8_filtro from './maps/filtros/Map_fab3_ex8_filtro.vue';
-import Map_fab3_g30_filtro from './maps/filtros/Map_fab3_g30_filtro.vue';
-import Map_fab3_toyota_filtro from './maps/filtros/Map_fab3_toyota_filtro.vue';
+import Map_fab1_bobinaje_filtro from '@/components/maps/filtros/Map_fab1_bobinaje_filtro.vue';
+import Map_fab1_continuas_filtro from '@/components/maps/filtros/Map_fab1_continuas_filtro.vue';
+import Map_fab1_preparacion_filtro from '@/components/maps/filtros/Map_fab1_preparacion_filtro.vue';
+import Map_fab1_color_filtro from '@/components/maps/filtros/Map_fab1_color_filtro.vue';
 
-import Map_fab6_preparacion_filtro from './maps/filtros/Map_fab6_preparacion_filtro.vue';
-import Map_fab6_continuas_filtro from './maps/filtros/Map_fab6_continuas_filtro.vue';
-import Map_fab6_bobinaje_filtro from './maps/filtros/Map_fab6_bobinaje_filtro.vue';
+import Map_fab3_preparacion_filtro from '@/components/maps/filtros/Map_fab3_preparacion_filtro.vue';
+import Map_fab3_ex8_filtro from '@/components/maps/filtros/Map_fab3_ex8_filtro.vue';
+import Map_fab3_g30_filtro from '@/components/maps/filtros/Map_fab3_g30_filtro.vue';
+import Map_fab3_toyota_filtro from '@/components/maps/filtros/Map_fab3_toyota_filtro.vue';
 
-import Map_fab9_preparacion_filtro from './maps/filtros/Map_fab9_preparacion_filtro.vue';
-import Map_fab9_open_end_filtro from './maps/filtros/Map_fab9_open_end_filtro.vue';
+import Map_fab4_clima_filtro from '@/components/maps/filtros/Map_fab4_clima_filtro.vue';
+
+import Map_fab6_preparacion_filtro from '@/components/maps/filtros/Map_fab6_preparacion_filtro.vue';
+import Map_fab6_continuas_filtro from '@/components/maps/filtros/Map_fab6_continuas_filtro.vue';
+import Map_fab6_bobinaje_filtro from '@/components/maps/filtros/Map_fab6_bobinaje_filtro.vue';
+
+import Map_fab9_preparacion_filtro from '@/components/maps/filtros/Map_fab9_preparacion_filtro.vue';
+import Map_fab9_open_end_filtro from '@/components/maps/filtros/Map_fab9_open_end_filtro.vue';
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { alarmColor, alertColor, okColor, paroManual, server } from "@/variables";
 import { createTooltipConfig } from '@/funciones';
@@ -106,10 +143,17 @@ const {
   hideTooltip,
 } = useTooltip();
 
+const fab1BobFiltro = ref(null);
+const fab1ContFiltro = ref(null);
+const fab1PrepFiltro = ref(null);
+const fab1Colorfiltro = ref(null);
+
 const fab3PrepFiltro = ref(null);
 const fab3Ex8Filtro = ref(null);
 const fab3G30Filtro = ref(null);
 const fab3ToyotaFiltro = ref(null);
+
+const fab4ClimaFiltro = ref(null);
 
 const fab6PrepFiltro = ref(null);
 const fab6ContFiltro = ref(null);
@@ -132,11 +176,18 @@ let svg = null;
 //let result = Object.values(parametros).join("");
 
 const updateOpciones = () => {
+
+    if( result === 'fab1_bobinaje_filtro' ) fab1BobFiltro.value = true;
+    else if ( result === 'fab1_continuas_filtro' ) fab1ContFiltro.value = true;
+    else if ( result === 'fab1_preparacion_filtro' ) fab1PrepFiltro.value = true;
+    else if ( result === 'fab1_color_filtro' ) fab1Colorfiltro.value = true;
     
     if ( result === 'fab3_preparacion_filtro' ) fab3PrepFiltro.value = true;
     else if ( result === 'fab3_ex8_filtro' ) fab3Ex8Filtro.value = true;
     else if ( result === 'fab3_g30_filtro' ) fab3G30Filtro.value = true;
     else if ( result === 'fab3_toyota_filtro' ) fab3ToyotaFiltro.value = true;
+
+    if ( result === 'fab4_clima_filtro' ) fab4ClimaFiltro.value = true;
 
     if ( result === 'fab6_preparacion_filtro' ) fab6PrepFiltro.value = true;
     else if (  result === 'fab6_continuas_filtro') fab6ContFiltro.value = true;
