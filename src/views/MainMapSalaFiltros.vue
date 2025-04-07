@@ -20,11 +20,11 @@
 
 <script setup>
 import TituloInstalacion from '@/components/icons/TituloInstalacion.vue';
-import NavBarUniversal from '@/components/NavBarUniversal.vue';
+import NavBarUniversal from '@/components/componentesVue/NavBarUniversal.vue';
 import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
 import EyeHawkIconVersion from '@/components/icons/EyeHawkIconVersion.vue';
 import LogoTipoitiFooter from '@/components/icons/LogoTipoitiFooter.vue';
-import MapFiltroClima from '@/components/MapFiltroClima.vue';
+import MapFiltroClima from '@/components/main/MapFiltroClima.vue';
 import { useRoute } from 'vue-router';
 
 const route = useRoute();

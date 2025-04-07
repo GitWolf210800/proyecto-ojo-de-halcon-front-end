@@ -22,7 +22,7 @@
 import { useRoute } from 'vue-router';
 import { computed, ref, watch } from 'vue';
 
-import CalibracionClimaButtom from './icons/CalibracionClimaButtom.vue';
+import CalibracionClimaButtom from '@/components/icons/CalibracionClimaButtom.vue';
 
 import { useDataUserStore } from '@/stores/dataUserStore';
 

@@ -15,10 +15,10 @@
 <script setup>
 //import { RouterLink } from 'vue-router';
 import CalibracionClima from './CalibracionClima.vue';
-import LimitesFiltros from '@/components/LimitesFiltros.vue';
-import ButtonLog from '@/components/ButtonLog.vue';
+import LimitesFiltros from '@/components/componentesVue/LimitesFiltros.vue';
+import ButtonLog from '@/components/componentesVue/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
-import ClimaExterior from '@/components/ClimaExterior.vue';
+import ClimaExterior from '@/components/componentesVue/ClimaExterior.vue';
 
 </script>
 
