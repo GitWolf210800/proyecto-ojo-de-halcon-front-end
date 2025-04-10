@@ -114,7 +114,9 @@ const handleSubmit = async () => {
     loginTrue.value = !!data.usuario.name;
     nombreUsuario.value = data.usuario.name;
     const userData = useDataUserStore();
-    userData.dataUser = data.usuario;
+    userData.setDataUser(data.usuario);
+    //userData.restoreExpiration();
+    //userData.dataUser = data.usuario;
     //$cookies.set("jwt", data.token, data.cookieOption);
     //$session.start(); --Declinado porque no es compatible con Vue3
     //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
