@@ -47,7 +47,7 @@ const svgIsLoaded = computed(() => mapMantenimientoRef.value !== null);
 
     const tooltipConfigs = [
         ...storeData.value.compresores.map((dato) => 
-            createTooltipConfig(`#${dato.nombre}`, 'chartInfo', { nombre: dato.nombre, medicion: 'presion_salida_compresor', tabla: 'mediciones_compresores' }, TOOLTIP_CHART_INFO_CONFIG)
+            createTooltipConfig(`#${dato.nombre}`, 'chartInfo', { nombre: dato.nombre, medicion: 'presion_salida', tabla: 'mediciones_compresores' }, TOOLTIP_CHART_INFO_CONFIG)
         )
     ];
 
