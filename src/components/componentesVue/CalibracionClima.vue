@@ -12,7 +12,13 @@
       </div>
       
       <div class="calibracion">
-        <div></div>
+        <label>fecha: {{ datos['fecha'] }}</label>
+        <div v-for="(value, key) in datos" :key="key">
+            <template v-if="!key.startsWith('id') && key !== 'nombre' && key !== 'fecha'">
+                <label :for="key">{{ key }}, {{ value }}</label>
+                <input :id="key" v-model="datos[key]" type="number"/>
+            </template>
+        </div>
       </div>
     </form>
 </div>
@@ -25,16 +31,24 @@ import { computed, ref, watch } from 'vue';
 import CalibracionClimaButtom from '@/components/icons/CalibracionClimaButtom.vue';
 
 import { useDataUserStore } from '@/stores/dataUserStore';
+import { useHomeClimaStore } from '@/stores/homeClimaStore';
+import { useSvgStore } from '@/stores/svgStore';
+import { server } from '@/variables';
 
 const route = useRoute();
 
 const esRutaEspecifica = computed(() => route.path === '/clima');
+
 const dataUserStore = useDataUserStore();
+const dataClima = useHomeClimaStore();
+const mapa = useSvgStore();
 
 const show = ref(false);
 const tituloInstalacion = ref('');
 const visibilityForm = ref(false);
 const mensaje = ref('');
+const toggleClick = ref(false);
+const datos = ref({});
 
 watch(
     () => dataUserStore.dataUser,
@@ -55,7 +69,74 @@ const toggleForm = () => {
 };
 
 const toggle = () => {
-    visibilityForm.value = !visibilityForm.value;
+    toggleClick.value = !toggleClick.value;
+    if(toggleClick.value){
+        const nombres = dataClima.datos.nombresClima;
+        const map = mapa.svgRef;
+
+        for(let i = 0; i < nombres.length; i++){
+            const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);
+            const humedad = map.querySelector(`#${nombres[i]}_hum_g`);
+
+            const handlerTemperatura = async () => {
+                const instalacion = nombres[i];
+                const res = await fetch(`${server}:4000/api/formCalClimaTemper`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type' : 'application/json'
+                    },
+                    body: JSON.stringify({
+                        instalacion
+                    })
+                });
+
+                const resJson = await res.json();
+
+                datos.value = resJson[0];
+                datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR'); 
+                console.log(datos.value);
+
+                tituloInstalacion.value = instalacion;
+                visibilityForm.value = true;
+            };
+
+            const handlerHumedad = async () => {
+                const instalacion = nombres[i];
+                const res = await fetch(`${server}:4000/api/formCalClimaHumedad`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type' : 'application/json'
+                    },
+                    body: JSON.stringify({
+                        instalacion
+                    })
+                });
+
+                const resJson = await res.json();
+
+                datos.value = resJson[0];
+                console.log(datos.value);
+                datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR');
+                tituloInstalacion.value = instalacion;
+                visibilityForm.value = true;
+            };
+
+            if(temperatura){
+                temperatura.addEventListener('click', handlerTemperatura);
+            }
+
+            if(humedad){
+                humedad.addEventListener('click', handlerHumedad);
+            }
+            
+        }
+
+        //console.log(nombres);
+    } else {
+        visibilityForm.value = false;
+    }
+
+    //visibilityForm.value = !visibilityForm.value;
 };
 
 </script>
@@ -74,6 +155,14 @@ const toggle = () => {
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1600;
+    }
+
+    .body__content, .calibracion {
+        text-align: center;
+    }
+
+    .body__content, .calibracion input{
+        display: inline-block;
     }
 
 
