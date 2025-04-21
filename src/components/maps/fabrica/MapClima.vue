@@ -2736,7 +2736,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2650.6074" y="963.37856" id="tspan6051">Fábrica N°6</tspan>
+        <tspan x="2650.6074" y="963.37856" id="tspan8744">Fábrica N°6</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2852,7 +2852,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6053">Fábrica N°9</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8746">Fábrica N°9</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2882,7 +2882,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6055">Fábrica N°3</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8748">Fábrica N°3</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2912,7 +2912,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6057">Fábrica N°4</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8750">Fábrica N°4</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2942,7 +2942,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6059">Fábrica N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8752">Fábrica N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2972,7 +2972,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6061">Batan Fab N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8754">Batan Fab N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3002,7 +3002,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6063">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8756">Batan</tspan>
       </text>
       <rect
         style="
@@ -3052,7 +3052,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6065">Cotonia</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8758">Cotonia</tspan>
       </text>
       <rect
         style="
@@ -5068,7 +5068,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6067">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8760">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5118,7 +5118,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6069">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8762">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5168,7 +5168,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6071">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8764">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5218,7 +5218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6073">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8766">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5268,7 +5268,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6075">Peinadoras</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8768">Peinadoras</tspan>
       </text>
       <rect
         style="
@@ -5318,7 +5318,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6077">Retorcidos</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8770">Retorcidos</tspan>
       </text>
       <rect
         style="
@@ -5368,7 +5368,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6079">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8772">Batan</tspan>
       </text>
       <rect
         style="
@@ -5418,7 +5418,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6081">Poliester</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8774">Poliester</tspan>
       </text>
       <rect
         style="
@@ -6245,7 +6245,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6083">LUWA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8776">LUWA</tspan>
       </text>
       <rect
         style="
@@ -6295,7 +6295,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6085">Cardas A</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8778">Cardas A</tspan>
       </text>
       <rect
         style="
@@ -6345,7 +6345,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6087">Cardas B</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8780">Cardas B</tspan>
       </text>
       <rect
         style="
@@ -8677,7 +8677,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6089">G-604 / G-605</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8782">G-604 / G-605</tspan>
       </text>
       <rect
         style="
@@ -8881,7 +8881,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6091">G-607 / G-608</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8784">G-607 / G-608</tspan>
       </text>
       <rect
         style="
@@ -9014,7 +9014,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6093">G-601 / G-602</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8786">G-601 / G-602</tspan>
       </text>
       <rect
         style="
@@ -9218,7 +9218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="743.93683" id="tspan6095">
+        <tspan x="2612.2793" y="743.93683" id="tspan8788">
           Sala de Chillers
         </tspan>
       </text>
@@ -9250,7 +9250,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6097">Entrada</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8790">Entrada</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -9280,7 +9280,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan6099">Salida</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan8792">Salida</tspan>
       </text>
       <rect
         style="
@@ -9949,7 +9949,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan6113">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan8806">%</tspan>
       </text>
       <g
         transform="matrix(0.05461935,0,0,0.06162231,6212.747,5442.7047)"
@@ -10632,7 +10632,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6115">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8808">Preparación</tspan>
       </text>
       <path
         id="path9664"
@@ -10668,7 +10668,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6117">G30</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8810">G30</tspan>
       </text>
       <path
         id="path9664-1"
@@ -10709,7 +10709,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6119">TOYOTA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8812">TOYOTA</tspan>
       </text>
       <path
         id="path9664-1-1"
@@ -10750,7 +10750,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6121">EX-8</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8814">EX-8</tspan>
       </text>
       <path
         id="path9664-1-1-6"
@@ -10791,7 +10791,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6123">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8816">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-1-1"
@@ -10832,7 +10832,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6125">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8818">Continuas</tspan>
       </text>
       <path
         id="path9664-1-1-8"
@@ -10883,7 +10883,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6127">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8820">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9"
@@ -10924,7 +10924,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6129">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8822">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9-9"
@@ -10965,7 +10965,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6131">Open-End</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8824">Open-End</tspan>
       </text>
       <rect
         style="
@@ -11185,7 +11185,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6133">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8826">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-2"
@@ -11247,7 +11247,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6135">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8828">Continuas</tspan>
       </text>
       <path
         id="path9664-1-2-5"
@@ -11309,7 +11309,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6137">color</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8830">color</tspan>
       </text>
       <path
         id="path9664-1-2-5-4"
@@ -11381,7 +11381,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6139">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8832">Preparación</tspan>
       </text>
       <rect
         style="
@@ -11433,7 +11433,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan6141">Clima</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan8834">Clima</tspan>
       </text>
       <path
         id="path9664-1-1-3"
@@ -11546,7 +11546,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6017622,0,0,-4.0697643,-8023.349,7596.462)"
+        transform="matrix(3.6017622,0,0,-4.0697643,-8020.2238,7551.5586)"
         id="text136788-5-9"
         style="
           font-style: normal;
@@ -11572,7 +11572,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6143">G-344 / G-345</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8836">G-344 / G-345</tspan>
       </text>
       <rect
         style="
@@ -11684,7 +11684,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6051996,0,0,-4.1361978,-7174.2245,7662.5306)"
+        transform="matrix(3.6051996,0,0,-4.1361978,-7170.1839,7617.4041)"
         id="text136788-5-9-3"
         style="
           font-style: normal;
@@ -11710,7 +11710,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6145">G-344 / G-345</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8838">G-344 / G-345</tspan>
       </text>
       <rect
         style="
@@ -11755,8 +11755,8 @@
         id="fab3_g341-g342B_clima_hum_color"
         width="335.30502"
         height="82.516724"
-        x="2628.7522"
-        y="-3442.7356"
+        x="2631.6091"
+        y="-3488.3035"
         transform="scale(1,-1)"
       />
       <rect
@@ -11772,8 +11772,8 @@
         id="fab3_g341-g342B_clima_temp_color"
         width="335.30502"
         height="82.516724"
-        x="2628.7488"
-        y="-3525.281"
+        x="2631.6057"
+        y="-3570.8489"
         transform="scale(1,-1)"
       />
       <text
@@ -11798,23 +11798,23 @@
           stroke-linejoin: bevel;
           paint-order: stroke fill markers;
         "
-        x="2589.9873"
-        y="-3512.364"
+        x="2592.8018"
+        y="-3558.6272"
         id="climaTcontFab3Toyota2-0"
         transform="scale(1.0152589,-0.98497043)"
       >
         <tspan
           id="fab3_g341-g342B_clima_temp_text"
-          x="2589.9873"
-          y="-3512.364"
+          x="2592.8018"
+          y="-3558.6272"
           style="stroke-width: 3.83401"
         >
           nn°C
         </tspan>
         <tspan
           id="fab3_g341-g342B_clima_hum_text"
-          x="2589.9873"
-          y="-3416.6638"
+          x="2592.8018"
+          y="-3462.927"
           style="stroke-width: 3.83401"
         >
           nn% H.r
@@ -11822,7 +11822,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6010387,0,0,-4.1042758,-7164.5665,7258.4152)"
+        transform="matrix(3.6010387,0,0,-4.1042758,-7156.8319,7258.4152)"
         id="text136788-5-9-3-3"
         style="
           font-style: normal;
@@ -11848,7 +11848,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6147">G-341 / G-342</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8840">G-341 / G-342</tspan>
       </text>
       <rect
         style="
@@ -11861,8 +11861,8 @@
         id="fab3_g341-g342B_clima_temp_g"
         width="334.65738"
         height="81.75338"
-        x="2628.9719"
-        y="-3525.0164"
+        x="2631.8289"
+        y="-3570.5842"
         transform="scale(1,-1)"
       />
       <rect
@@ -11876,8 +11876,8 @@
         id="fab3_g341-g342B_clima_hum_g"
         width="334.65738"
         height="81.774208"
-        x="2629.0837"
-        y="-3442.5793"
+        x="2631.9407"
+        y="-3488.1472"
         transform="scale(1,-1)"
       />
       <rect
@@ -11886,15 +11886,15 @@
           fill: #8f8f9f;
           fill-opacity: 0.941176;
           stroke: #ffffff;
-          stroke-width: 0.49517;
+          stroke-width: 0.497115;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
         id="fab3_g341-g342A_clima_hum_color"
-        width="332.72186"
-        height="80.619942"
-        x="1773.4431"
-        y="-3436.2236"
+        width="335.34415"
+        height="80.618973"
+        x="1769.2572"
+        y="-3486.2275"
         transform="scale(1,-1)"
       />
       <rect
@@ -11903,15 +11903,15 @@
           fill: #8f8f9f;
           fill-opacity: 0.941176;
           stroke: #ffffff;
-          stroke-width: 0.49517;
+          stroke-width: 0.497115;
           stroke-dasharray: none;
           stroke-opacity: 1;
         "
         id="fab3_g341-g342A_clima_temp_color"
-        width="332.72186"
-        height="80.619942"
-        x="1773.4397"
-        y="-3516.8713"
+        width="335.34415"
+        height="80.618973"
+        x="1769.2538"
+        y="-3566.8743"
         transform="scale(1,-1)"
       />
       <text
@@ -11921,7 +11921,7 @@
           font-variant: normal;
           font-weight: normal;
           font-stretch: normal;
-          font-size: 75.3834px;
+          font-size: 75.6795px;
           font-family: sans-serif;
           -inkscape-font-specification: 'sans-serif, Normal';
           font-variant-ligatures: normal;
@@ -11932,28 +11932,28 @@
           fill: #f9f9f9;
           fill-opacity: 1;
           stroke: #05246f;
-          stroke-width: 3.77506;
+          stroke-width: 3.78988;
           stroke-linejoin: bevel;
           paint-order: stroke fill markers;
         "
-        x="1734.0189"
-        y="-3532.6699"
+        x="1723.1464"
+        y="-3597.9485"
         id="climaTcontFab3Toyota-7"
-        transform="scale(1.0231686,-0.97735603)"
+        transform="scale(1.0271988,-0.97352138)"
       >
         <tspan
           id="fab3_g341-g342A_clima_temp_text"
-          x="1734.0189"
-          y="-3532.6699"
-          style="stroke-width: 3.77506"
+          x="1723.1464"
+          y="-3597.9485"
+          style="stroke-width: 3.78988"
         >
           nn°C
         </tspan>
         <tspan
           id="fab3_g341-g342A_clima_hum_text"
-          x="1734.0189"
-          y="-3438.4407"
-          style="stroke-width: 3.77506"
+          x="1723.1464"
+          y="-3503.3494"
+          style="stroke-width: 3.78988"
         >
           nn% H.r
         </tspan>
@@ -11986,7 +11986,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan6149">G-341 / G-342</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan8842">G-341 / G-342</tspan>
       </text>
       <rect
         style="
@@ -11997,10 +11997,10 @@
           stroke-width: 0;
         "
         id="fab3_g341-g342A_clima_temp_g"
-        width="332.07919"
-        height="79.874146"
-        x="1773.6613"
-        y="-3516.613"
+        width="334.69638"
+        height="79.873184"
+        x="1769.4771"
+        y="-3566.616"
         transform="scale(1,-1)"
       />
       <rect
@@ -12012,10 +12012,410 @@
           stroke-width: 0;
         "
         id="fab3_g341-g342A_clima_hum_g"
-        width="332.07919"
-        height="79.894501"
-        x="1773.7721"
-        y="-3436.0706"
+        width="334.69638"
+        height="79.893539"
+        x="1769.5889"
+        y="-3486.0745"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.440413;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_g344-g345A_clima_humAbs_color"
+        width="335.41327"
+        height="63.263485"
+        x="1771.9351"
+        y="-3731.103"
+        transform="scale(1,-1)"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 56.6557px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 3.6205;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="1406.5319"
+        y="-4714.4189"
+        id="fab3_g344-g345A_clima_humAbs_text"
+        transform="scale(1.2794546,-0.78158301)"
+      >
+        <tspan
+          id="climaETpeiFab3-5-6-1-3"
+          x="1406.5319"
+          y="-4714.4189"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="1406.5319"
+          y="-4643.5991"
+          id="humPeiFab3-9-3-9-9-7"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_g344-g345A_clima_humAbs_g"
+        width="334.86075"
+        height="62.515511"
+        x="1772.1323"
+        y="-3730.6191"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.440413;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_g341-g342A_clima_humAbs_color"
+        width="335.41327"
+        height="63.263485"
+        x="1769.2208"
+        y="-3405.6396"
+        transform="scale(1,-1)"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 56.6557px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 3.6205;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="1404.4104"
+        y="-4298.0034"
+        id="fab3_g341-g342A_clima_humAbs_text"
+        transform="scale(1.2794546,-0.78158302)"
+      >
+        <tspan
+          id="climaETpeiFab3-5-6-1-3-9"
+          x="1404.4104"
+          y="-4298.0034"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="1404.4104"
+          y="-4227.1836"
+          id="humPeiFab3-9-3-9-9-7-2"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_g341-g342A_clima_humAbs_g"
+        width="334.86075"
+        height="62.515511"
+        x="1769.4181"
+        y="-3405.1558"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.440668;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_g344-g345B_clima_humAbs_color"
+        width="335.80368"
+        height="63.263229"
+        x="2630.3411"
+        y="-3734.0281"
+        transform="scale(1,-1)"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 56.6885px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 3.6226;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="2076.2605"
+        y="-4720.9165"
+        id="fab3_g344-g345B_clima_humAbs_text"
+        transform="scale(1.2802016,-0.78112699)"
+      >
+        <tspan
+          id="climaETpeiFab3-5-6-1-3-5"
+          x="2076.2605"
+          y="-4720.9165"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6885px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6226;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="2076.2605"
+          y="-4650.0557"
+          id="humPeiFab3-9-3-9-9-7-8"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6885px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6226;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_g344-g345B_clima_humAbs_g"
+        width="335.25052"
+        height="62.515259"
+        x="2630.5386"
+        y="-3733.5442"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.440413;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab3_g341-g342B_clima_humAbs_color"
+        width="335.41327"
+        height="63.263485"
+        x="2631.5383"
+        y="-3405.8049"
+        transform="scale(1,-1)"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 56.6557px;
+          font-family: sans-serif;
+          -inkscape-font-specification: 'sans-serif, Normal';
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 3.6205;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="2078.3833"
+        y="-4298.2148"
+        id="fab3_g341-g342B_clima_humAbs_text"
+        transform="scale(1.2794546,-0.78158302)"
+      >
+        <tspan
+          id="climaETpeiFab3-5-6-1-3-94"
+          x="2078.3833"
+          y="-4298.2148"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="2078.3833"
+          y="-4227.395"
+          id="humPeiFab3-9-3-9-9-7-1"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 56.6557px;
+            font-family: sans-serif;
+            -inkscape-font-specification: 'sans-serif, Normal';
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 3.6205;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab3_g341-g342B_clima_humAbs_g"
+        width="334.86075"
+        height="62.515511"
+        x="2631.7356"
+        y="-3405.321"
         transform="scale(1,-1)"
       />
     </g>
