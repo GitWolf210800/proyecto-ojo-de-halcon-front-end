@@ -2736,7 +2736,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2650.6074" y="963.37856" id="tspan2046">Fábrica N°6</tspan>
+        <tspan x="2650.6074" y="963.37856" id="tspan6051">Fábrica N°6</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2852,7 +2852,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2048">Fábrica N°9</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6053">Fábrica N°9</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2882,7 +2882,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2050">Fábrica N°3</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6055">Fábrica N°3</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2912,7 +2912,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2052">Fábrica N°4</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6057">Fábrica N°4</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2942,7 +2942,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2054">Fábrica N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6059">Fábrica N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2972,7 +2972,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2056">Batan Fab N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6061">Batan Fab N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -3002,7 +3002,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2058">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6063">Batan</tspan>
       </text>
       <rect
         style="
@@ -3052,7 +3052,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2060">Cotonia</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6065">Cotonia</tspan>
       </text>
       <rect
         style="
@@ -5068,7 +5068,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2062">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6067">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5118,7 +5118,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2064">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6069">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5168,7 +5168,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2066">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6071">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5218,7 +5218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2068">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6073">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5268,7 +5268,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2070">Peinadoras</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6075">Peinadoras</tspan>
       </text>
       <rect
         style="
@@ -5318,7 +5318,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2072">Retorcidos</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6077">Retorcidos</tspan>
       </text>
       <rect
         style="
@@ -5368,7 +5368,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2074">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6079">Batan</tspan>
       </text>
       <rect
         style="
@@ -5418,7 +5418,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2076">Poliester</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6081">Poliester</tspan>
       </text>
       <rect
         style="
@@ -6245,7 +6245,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2078">LUWA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6083">LUWA</tspan>
       </text>
       <rect
         style="
@@ -6295,7 +6295,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2080">Cardas A</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6085">Cardas A</tspan>
       </text>
       <rect
         style="
@@ -6345,7 +6345,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2082">Cardas B</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6087">Cardas B</tspan>
       </text>
       <rect
         style="
@@ -8677,7 +8677,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2084">G-604 / G-605</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6089">G-604 / G-605</tspan>
       </text>
       <rect
         style="
@@ -8881,7 +8881,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2086">G-607 / G-608</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6091">G-607 / G-608</tspan>
       </text>
       <rect
         style="
@@ -9014,7 +9014,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2088">G-601 / G-602</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6093">G-601 / G-602</tspan>
       </text>
       <rect
         style="
@@ -9218,7 +9218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="743.93683" id="tspan2090">
+        <tspan x="2612.2793" y="743.93683" id="tspan6095">
           Sala de Chillers
         </tspan>
       </text>
@@ -9250,7 +9250,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2092">Entrada</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6097">Entrada</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -9280,7 +9280,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan2094">Salida</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan6099">Salida</tspan>
       </text>
       <rect
         style="
@@ -9927,7 +9927,9 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">nnn</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">
+          nnn
+        </tspan>
       </text>
       <text
         xml:space="preserve"
@@ -9947,7 +9949,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan2108">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan6113">%</tspan>
       </text>
       <g
         transform="matrix(0.05461935,0,0,0.06162231,6212.747,5442.7047)"
@@ -10630,7 +10632,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2110">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6115">Preparación</tspan>
       </text>
       <path
         id="path9664"
@@ -10666,7 +10668,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2112">G30</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6117">G30</tspan>
       </text>
       <path
         id="path9664-1"
@@ -10707,7 +10709,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2114">TOYOTA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6119">TOYOTA</tspan>
       </text>
       <path
         id="path9664-1-1"
@@ -10748,7 +10750,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2116">EX-8</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6121">EX-8</tspan>
       </text>
       <path
         id="path9664-1-1-6"
@@ -10789,7 +10791,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2118">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6123">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-1-1"
@@ -10830,7 +10832,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2120">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6125">Continuas</tspan>
       </text>
       <path
         id="path9664-1-1-8"
@@ -10881,7 +10883,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2122">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6127">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9"
@@ -10922,7 +10924,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2124">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6129">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9-9"
@@ -10963,7 +10965,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2126">Open-End</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6131">Open-End</tspan>
       </text>
       <rect
         style="
@@ -11183,7 +11185,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2128">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6133">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-2"
@@ -11245,7 +11247,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2130">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6135">Continuas</tspan>
       </text>
       <path
         id="path9664-1-2-5"
@@ -11307,7 +11309,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2132">color</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6137">color</tspan>
       </text>
       <path
         id="path9664-1-2-5-4"
@@ -11379,7 +11381,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2134">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6139">Preparación</tspan>
       </text>
       <rect
         style="
@@ -11431,7 +11433,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan2136">Clima</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan6141">Clima</tspan>
       </text>
       <path
         id="path9664-1-1-3"
@@ -11477,8 +11479,8 @@
         id="fab3_g344-g345A_clima_hum_color"
         width="335.37241"
         height="81.822861"
-        x="1770.5133"
-        y="-3439.9092"
+        x="1771.9375"
+        y="-3812.8672"
         transform="scale(1,-1)"
       />
       <rect
@@ -11494,8 +11496,8 @@
         id="fab3_g344-g345A_clima_temp_color"
         width="335.37241"
         height="81.822861"
-        x="1770.5098"
-        y="-3521.7605"
+        x="1771.934"
+        y="-3894.7185"
         transform="scale(1,-1)"
       />
       <text
@@ -11520,23 +11522,23 @@
           stroke-linejoin: bevel;
           paint-order: stroke fill markers;
         "
-        x="1737.1228"
-        y="-3524.5535"
+        x="1738.5193"
+        y="-3904.8428"
         id="climaTcontFab3Toyota"
         transform="scale(1.0196569,-0.98072205)"
       >
         <tspan
           id="fab3_g344-g345A_clima_temp_text"
-          x="1737.1228"
-          y="-3524.5535"
+          x="1738.5193"
+          y="-3904.8428"
           style="stroke-width: 3.81824"
         >
           nn°C
         </tspan>
         <tspan
           id="fab3_g344-g345A_clima_hum_text"
-          x="1737.1228"
-          y="-3429.2466"
+          x="1738.5193"
+          y="-3809.5359"
           style="stroke-width: 3.81824"
         >
           nn% H.r
@@ -11544,7 +11546,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6017622,0,0,-4.0697643,-8024.7732,7223.504)"
+        transform="matrix(3.6017622,0,0,-4.0697643,-8023.349,7596.462)"
         id="text136788-5-9"
         style="
           font-style: normal;
@@ -11570,7 +11572,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2138">G-344 / G-345</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6143">G-344 / G-345</tspan>
       </text>
       <rect
         style="
@@ -11583,8 +11585,8 @@
         id="fab3_g344-g345A_clima_temp_g"
         width="334.72461"
         height="81.065948"
-        x="1770.7332"
-        y="-3521.4985"
+        x="1772.1573"
+        y="-3894.4565"
         transform="scale(1,-1)"
       />
       <rect
@@ -11598,8 +11600,8 @@
         id="fab3_g344-g345A_clima_hum_g"
         width="334.72461"
         height="81.086594"
-        x="1770.845"
-        y="-3439.7546"
+        x="1772.2692"
+        y="-3812.7126"
         transform="scale(1,-1)"
       />
       <rect
@@ -11615,8 +11617,8 @@
         id="fab3_g344-g345B_clima_hum_color"
         width="335.69244"
         height="83.158508"
-        x="2628.9861"
-        y="-3444.2161"
+        x="2630.4102"
+        y="-3817.1741"
         transform="scale(1,-1)"
       />
       <rect
@@ -11632,8 +11634,8 @@
         id="fab3_g344-g345B_clima_temp_color"
         width="335.69244"
         height="83.158508"
-        x="2628.9824"
-        y="-3527.4036"
+        x="2630.4065"
+        y="-3900.3616"
         transform="scale(1,-1)"
       />
       <text
@@ -11658,23 +11660,23 @@
           stroke-linejoin: bevel;
           paint-order: stroke fill markers;
         "
-        x="2598.7715"
-        y="-3502.4358"
+        x="2600.1787"
+        y="-3879.8389"
         id="climaTcontFab3Toyota2"
         transform="scale(1.0119177,-0.98822266)"
       >
         <tspan
           id="fab3_g344-g345B_clima_temp_text"
-          x="2598.7715"
-          y="-3502.4358"
+          x="2600.1787"
+          y="-3879.8389"
           style="stroke-width: 3.85111"
         >
           nn°C
         </tspan>
         <tspan
           id="fab3_g344-g345B_clima_hum_text"
-          x="2598.7715"
-          y="-3406.3081"
+          x="2600.1787"
+          y="-3783.7112"
           style="stroke-width: 3.85111"
         >
           nn% H.r
@@ -11682,7 +11684,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6051996,0,0,-4.1361978,-7175.6487,7289.5726)"
+        transform="matrix(3.6051996,0,0,-4.1361978,-7174.2245,7662.5306)"
         id="text136788-5-9-3"
         style="
           font-style: normal;
@@ -11708,7 +11710,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2140">G-344 / G-345</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6145">G-344 / G-345</tspan>
       </text>
       <rect
         style="
@@ -11721,8 +11723,8 @@
         id="fab3_g344-g345B_clima_temp_g"
         width="335.04404"
         height="82.389229"
-        x="2629.2058"
-        y="-3527.137"
+        x="2630.6299"
+        y="-3900.095"
         transform="scale(1,-1)"
       />
       <rect
@@ -11736,8 +11738,8 @@
         id="fab3_g344-g345B_clima_hum_g"
         width="335.04404"
         height="82.410225"
-        x="2629.3179"
-        y="-3444.0583"
+        x="2630.7419"
+        y="-3817.0164"
         transform="scale(1,-1)"
       />
       <rect
@@ -11754,7 +11756,7 @@
         width="335.30502"
         height="82.516724"
         x="2628.7522"
-        y="-3804.8005"
+        y="-3442.7356"
         transform="scale(1,-1)"
       />
       <rect
@@ -11771,7 +11773,7 @@
         width="335.30502"
         height="82.516724"
         x="2628.7488"
-        y="-3887.3459"
+        y="-3525.281"
         transform="scale(1,-1)"
       />
       <text
@@ -11797,14 +11799,14 @@
           paint-order: stroke fill markers;
         "
         x="2589.9873"
-        y="-3879.9536"
+        y="-3512.364"
         id="climaTcontFab3Toyota2-0"
         transform="scale(1.0152589,-0.98497043)"
       >
         <tspan
           id="fab3_g341-g342B_clima_temp_text"
           x="2589.9873"
-          y="-3879.9536"
+          y="-3512.364"
           style="stroke-width: 3.83401"
         >
           nn°C
@@ -11812,7 +11814,7 @@
         <tspan
           id="fab3_g341-g342B_clima_hum_text"
           x="2589.9873"
-          y="-3784.2534"
+          y="-3416.6638"
           style="stroke-width: 3.83401"
         >
           nn% H.r
@@ -11820,7 +11822,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.6010387,0,0,-4.1042758,-7164.5665,7620.4802)"
+        transform="matrix(3.6010387,0,0,-4.1042758,-7164.5665,7258.4152)"
         id="text136788-5-9-3-3"
         style="
           font-style: normal;
@@ -11846,7 +11848,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2142">G-341 / G-342</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6147">G-341 / G-342</tspan>
       </text>
       <rect
         style="
@@ -11860,7 +11862,7 @@
         width="334.65738"
         height="81.75338"
         x="2628.9719"
-        y="-3887.0813"
+        y="-3525.0164"
         transform="scale(1,-1)"
       />
       <rect
@@ -11875,7 +11877,7 @@
         width="334.65738"
         height="81.774208"
         x="2629.0837"
-        y="-3804.6443"
+        y="-3442.5793"
         transform="scale(1,-1)"
       />
       <rect
@@ -11892,7 +11894,7 @@
         width="332.72186"
         height="80.619942"
         x="1773.4431"
-        y="-3817.801"
+        y="-3436.2236"
         transform="scale(1,-1)"
       />
       <rect
@@ -11909,7 +11911,7 @@
         width="332.72186"
         height="80.619942"
         x="1773.4397"
-        y="-3898.4487"
+        y="-3516.8713"
         transform="scale(1,-1)"
       />
       <text
@@ -11935,14 +11937,14 @@
           paint-order: stroke fill markers;
         "
         x="1734.0189"
-        y="-3923.0879"
+        y="-3532.6699"
         id="climaTcontFab3Toyota-7"
-        transform="scale(1.0231686,-0.97735605)"
+        transform="scale(1.0231686,-0.97735603)"
       >
         <tspan
           id="fab3_g341-g342A_clima_temp_text"
           x="1734.0189"
-          y="-3923.0879"
+          y="-3532.6699"
           style="stroke-width: 3.77506"
         >
           nn°C
@@ -11950,7 +11952,7 @@
         <tspan
           id="fab3_g341-g342A_clima_hum_text"
           x="1734.0189"
-          y="-3828.8586"
+          y="-3438.4407"
           style="stroke-width: 3.77506"
         >
           nn% H.r
@@ -11958,7 +11960,7 @@
       </text>
       <text
         xml:space="preserve"
-        transform="matrix(3.5732967,0,0,-4.0099324,-7944.4288,7545.7713)"
+        transform="matrix(3.5732967,0,0,-4.0099324,-7944.4288,7164.1938)"
         id="text136788-5-9-0"
         style="
           font-style: normal;
@@ -11984,7 +11986,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan2144">G-341 / G-342</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan6149">G-341 / G-342</tspan>
       </text>
       <rect
         style="
@@ -11998,7 +12000,7 @@
         width="332.07919"
         height="79.874146"
         x="1773.6613"
-        y="-3898.1904"
+        y="-3516.613"
         transform="scale(1,-1)"
       />
       <rect
@@ -12013,7 +12015,7 @@
         width="332.07919"
         height="79.894501"
         x="1773.7721"
-        y="-3817.6479"
+        y="-3436.0706"
         transform="scale(1,-1)"
       />
     </g>
