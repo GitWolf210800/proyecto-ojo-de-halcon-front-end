@@ -2,7 +2,7 @@
 <CalibracionClimaButtom @click="toggle" v-if="show && esRutaEspecifica" />
 
 <div class="body__content" v-if="visibilityForm">
-    <form>
+    <form @submit.prevent="handleSubmit">
       <div class="calibracion__cabezal">
         <button type="submit" class="button__send">Enviar</button>
         <fa @click="toggleForm" class="button__close" icon="square-xmark"></fa>
@@ -14,11 +14,11 @@
       <div class="calibracion">
         <label>fecha: {{ datos['fecha'] }}</label>
         <div v-for="(value, key) in datos" :key="key">
-            <template v-if="!key.startsWith('id') && key !== 'nombre' && key !== 'fecha'">
-                <label :for="key">{{ key }}, {{ value }}</label>
-                <input :id="key" v-model="datos[key]" type="number"/>
+            <template v-if="!key.startsWith('id') && key !== 'nombre' && key !== 'fecha' && key !== 'valor_sala' && !key.startsWith('factor')">
+                <label :for="key">{{ key }}, {{ value }}</label>             
             </template>
         </div>
+        <input :id="key" v-model="datos['valor_calibracion']" type="number" min="0.1" step="any"/>
       </div>
     </form>
 </div>
@@ -33,6 +33,7 @@ import CalibracionClimaButtom from '@/components/icons/CalibracionClimaButtom.vu
 import { useDataUserStore } from '@/stores/dataUserStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useSvgStore } from '@/stores/svgStore';
+import { useReferenceStore } from '@/stores/referencesStore';
 import { server } from '@/variables';
 
 const route = useRoute();
@@ -42,6 +43,7 @@ const esRutaEspecifica = computed(() => route.path === '/clima');
 const dataUserStore = useDataUserStore();
 const dataClima = useHomeClimaStore();
 const mapa = useSvgStore();
+const referenceStore = useReferenceStore();
 
 const show = ref(false);
 const tituloInstalacion = ref('');
@@ -50,29 +52,17 @@ const mensaje = ref('');
 const toggleClick = ref(false);
 const datos = ref({});
 
-watch(
-    () => dataUserStore.dataUser,
-    (newSesion) => {
-        if (newSesion !== null) {
-            const rol = newSesion.rol;
-            show.value = (rol === 'SUPER_USER' || rol === 'CALIBRACION_CLIMA');
-        }
-        else {
-            show.value = false;
-        }
-    },
-    {immediate: true, deep: true}
-);
-
 const toggleForm = () => {
     visibilityForm.value = !visibilityForm.value;
 };
 
 const toggle = () => {
     toggleClick.value = !toggleClick.value;
+    const nombres = dataClima.datos.nombresClima;
+    const map = mapa.svgRef;
+
     if(toggleClick.value){
-        const nombres = dataClima.datos.nombresClima;
-        const map = mapa.svgRef;
+        //console.log(referenceStore.reference);
 
         for(let i = 0; i < nombres.length; i++){
             const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);
@@ -94,6 +84,8 @@ const toggle = () => {
 
                 datos.value = resJson[0];
                 datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR'); 
+                datos.value['factor_calibracion'] = datos.value['temperatura'];
+                datos.value['valor_sala'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.temperatura;
                 console.log(datos.value);
 
                 tituloInstalacion.value = instalacion;
@@ -117,27 +109,78 @@ const toggle = () => {
                 datos.value = resJson[0];
                 console.log(datos.value);
                 datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR');
+                datos.value['factor_calibracion'] = datos.value['humedad'];
+                datos.value['valor_sala'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.humedad;
                 tituloInstalacion.value = instalacion;
                 visibilityForm.value = true;
             };
 
             if(temperatura){
                 temperatura.addEventListener('click', handlerTemperatura);
+                referenceStore.reference[`#${nombres[i]}_temp_g`]['click'] = handlerTemperatura;
             }
 
             if(humedad){
                 humedad.addEventListener('click', handlerHumedad);
+                referenceStore.reference[`#${nombres[i]}_hum_g`]['click'] = handlerHumedad;
             }
             
         }
 
-        //console.log(nombres);
     } else {
         visibilityForm.value = false;
+
+        for(let i = 0; i < nombres.length; i++){
+            const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);
+            const humedad = map.querySelector(`#${nombres[i]}_hum_g`);
+
+            if(temperatura){
+                const storeHandler = referenceStore.reference[`#${nombres[i]}_temp_g`]['click'];
+                temperatura.removeEventListener('click', storeHandler);
+                referenceStore.reference[`#${nombres[i]}_temp_g`]['click'] = '';
+            };
+
+            if(humedad){
+                const storeHandler = referenceStore.reference[`#${nombres[i]}_hum_g`]['click'];
+                humedad.removeEventListener('click', storeHandler);
+                referenceStore.reference[`#${nombres[i]}_hum_g`]['click'] = '';
+            };
+
+        }
     }
 
     //visibilityForm.value = !visibilityForm.value;
 };
+
+const handleSubmit = async () => {
+    const res = await fetch(`${server}:4000/api/formCalSent`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(datos.value)
+    });
+
+    const resJson = await res.json();
+    if(res.message) mensaje.value = resJson.message;
+    visibilityForm.value = false;
+};
+
+watch(
+    () => dataUserStore.dataUser,
+    (newSesion) => {
+        if (newSesion !== null) {
+            const rol = newSesion.rol;
+            show.value = (rol === 'SUPER_USER' || rol === 'CALIBRACION_CLIMA');
+        }
+        else {
+            show.value = false;
+            if(toggleClick.value) toggle();
+        }
+    },
+    {immediate: true, deep: true}
+);
 
 </script>
 

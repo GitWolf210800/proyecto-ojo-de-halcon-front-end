@@ -33,7 +33,7 @@ import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue"
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
 import { dataColorInfoFiltro } from '@/helpers/homeFiltroColorManipulator';
 import { dataColorInfoCarrier } from '@/helpers/homeCarrierColorManipulator';
-import { createTooltipConfig, createRouterConfig } from "@/funciones";
+import { createTooltipConfig, createRouterConfig, isMobile } from "@/funciones";
 import {
   TOOLTIP_CHART_CONFIG,
   TOOLTIP_CHART_INFO_CONFIG,
@@ -127,16 +127,30 @@ function initializeTooltipEvents(svg) {
       const handlerOn = (e) => displayTooltip(e, tooltipType, payload, config);
       const handlerOff = () => hideTooltip(tooltipType);
 
-      element.addEventListener("mouseover", handlerOn);
-      element.addEventListener("mouseleave", handlerOff);
+      if(isMobile()){
+        element.addEventListener("touchstart", handlerOn);
+        element.addEventListener("pointerleave", handlerOff);
 
-      try {
-        referenceStorage.value[selector] = referenceStorage.value[selector] || {};
-        referenceStorage.value[selector]['mouseover'] = handlerOn;
-        referenceStorage.value[selector]['mouseleave'] = handlerOff;
-      } catch {
-        console.log('error en: ', selector);
+        try {
+          referenceStorage.value[selector] = referenceStorage.value[selector] || {};
+          referenceStorage.value[selector]['touchstart'] = handlerOn;
+          referenceStorage.value[selector]['pointerleave'] = handlerOff;
+        } catch {
+          console.log('error en: ', selector);
+        }
+      } else {
+        element.addEventListener("mouseover", handlerOn);
+        element.addEventListener("mouseleave", handlerOff);
+
+        try {
+          referenceStorage.value[selector] = referenceStorage.value[selector] || {};
+          referenceStorage.value[selector]['mouseover'] = handlerOn;
+          referenceStorage.value[selector]['mouseleave'] = handlerOff;
+        } catch {
+          console.log('error en: ', selector);
+        }
       }
+      
     }
   });
 }
