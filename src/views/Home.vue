@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="navegacion">
-        <span class="version" id="version">Ojo de Halcón V3.9</span>
+        <span class="version" id="version">Ojo de Halcón V4.0</span>
         <ButtonLog />
       </div>
     </nav>
