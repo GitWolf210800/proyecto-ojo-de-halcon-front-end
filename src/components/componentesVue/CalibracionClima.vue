@@ -88,7 +88,7 @@ const toggle = () => {
                 datos.value['factor_calibracion_temperatura'] = datos.value['temperatura'];
                 datos.value['factor_calibracion_humedad'] = datos.value['humedad'];
                 datos.value['valor_sala_temperatura'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.temperatura;
-                datos.value['valor_sala_humedad'] = dataClima.datos.clima.find(obj = obj.nombre === nombres[i])?.humedad;
+                datos.value['valor_sala_humedad'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.humedad;
                 console.log(datos.value);
 
                 tituloInstalacion.value = instalacion;
