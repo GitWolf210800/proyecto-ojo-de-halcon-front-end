@@ -18,7 +18,8 @@
                 <label :for="key">{{ key }}, {{ value }}</label>             
             </template>
         </div>
-        <input :id="key" v-model="datos['valor_calibracion']" type="number" min="0.1" step="any"/>
+        <input :id="key" v-model="datos['valor_calibracion_temperatura']" placeholder="temperatura" type="number" min="0.1" step="any"/>
+        <input :id="key" v-model="datos['valor_calibracion_humedad']" placeholder="humedad" type="number" min="0.1" step="any"/>
       </div>
     </form>
 </div>
@@ -68,9 +69,9 @@ const toggle = () => {
             const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);
             const humedad = map.querySelector(`#${nombres[i]}_hum_g`);
 
-            const handlerTemperatura = async () => {
+            const handler = async () => {
                 const instalacion = nombres[i];
-                const res = await fetch(`${server}:4000/api/formCalClimaTemper`, {
+                const res = await fetch(`${server}:4000/api/formCalClima`, {
                     method: 'POST',
                     headers: {
                         'Content-Type' : 'application/json'
@@ -84,15 +85,17 @@ const toggle = () => {
 
                 datos.value = resJson[0];
                 datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR'); 
-                datos.value['factor_calibracion'] = datos.value['temperatura'];
-                datos.value['valor_sala'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.temperatura;
+                datos.value['factor_calibracion_temperatura'] = datos.value['temperatura'];
+                datos.value['factor_calibracion_humedad'] = datos.value['humedad'];
+                datos.value['valor_sala_temperatura'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.temperatura;
+                datos.value['valor_sala_humedad'] = dataClima.datos.clima.find(obj = obj.nombre === nombres[i])?.humedad;
                 console.log(datos.value);
 
                 tituloInstalacion.value = instalacion;
                 visibilityForm.value = true;
             };
 
-            const handlerHumedad = async () => {
+            /*const handlerHumedad = async () => {
                 const instalacion = nombres[i];
                 const res = await fetch(`${server}:4000/api/formCalClimaHumedad`, {
                     method: 'POST',
@@ -113,16 +116,16 @@ const toggle = () => {
                 datos.value['valor_sala'] = dataClima.datos.clima.find(obj => obj.nombre === nombres[i])?.humedad;
                 tituloInstalacion.value = instalacion;
                 visibilityForm.value = true;
-            };
+            };*/
 
             if(temperatura){
-                temperatura.addEventListener('click', handlerTemperatura);
-                referenceStore.reference[`#${nombres[i]}_temp_g`]['click'] = handlerTemperatura;
+                temperatura.addEventListener('click', handler);
+                referenceStore.reference[`#${nombres[i]}_temp_g`]['click'] = handler;
             }
 
             if(humedad){
-                humedad.addEventListener('click', handlerHumedad);
-                referenceStore.reference[`#${nombres[i]}_hum_g`]['click'] = handlerHumedad;
+                humedad.addEventListener('click', handler);
+                referenceStore.reference[`#${nombres[i]}_hum_g`]['click'] = handler;
             }
             
         }
