@@ -38,6 +38,7 @@ export const dataColorInfoMantenimiento = async (svg) => {
     compresores.forEach(({ nombre, estado  }) => {
         const colorButtom = svgStore.querySelector(`#${nombre}`);
         const colorText = svgStore.querySelector(`#${nombre}_text`);
+        //console.log(nombre, estado);
         if (colorButtom){
             //console.log(colorText);
             applyColor(colorButtom, estadoColors[estado] || offlineColor);
