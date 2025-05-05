@@ -1435,13 +1435,13 @@
         x="6502.6533"
         y="4509.8936"
         v-if="iconos.compresores"
-        id="fab1_VV122_compresor_text"
+        id="fab1_vv122_compresor_text"
         transform="matrix(0.00950318,0.98016121,1.0201727,-0.0069726,0,0)"
       >
         <tspan id="tspan4129" style="stroke-width: 0.0524957">VV122</tspan>
       </text>
       <path
-        id="fab1_VV122_compresor"
+        id="fab1_vv122_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
