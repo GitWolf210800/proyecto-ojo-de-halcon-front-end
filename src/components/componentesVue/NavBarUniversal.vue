@@ -14,7 +14,7 @@
 
 <script setup>
 //import { RouterLink } from 'vue-router';
-import CalibracionClima from './CalibracionClima.vue';
+import CalibracionClima from '@/components/componentesVue/CalibracionClima.vue';
 import LimitesFiltros from '@/components/componentesVue/LimitesFiltros.vue';
 import ButtonLog from '@/components/componentesVue/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
@@ -33,7 +33,7 @@ import ClimaExterior from '@/components/componentesVue/ClimaExterior.vue';
 
 
 .botones__navegacion {
-  display: inline;
+  /*display: inline;*/
   margin: .5px;
   width: 6.5vw;
   height: 6.5vh;

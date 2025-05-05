@@ -1,13 +1,13 @@
 <template>
-<CalibracionClimaButtom @click="toggle" v-if="show && esRutaEspecifica" />
+<CalibracionClimaButtom class="icon-container" @click="toggle" v-if="show && esRutaEspecifica" />
 
 <div class="body__content" v-if="visibilityForm">
     <form @submit.prevent="handleSubmit">
       <div class="calibracion__cabezal">
         <button type="submit" class="button__send">Enviar</button>
         <fa @click="toggleForm" class="button__close" icon="square-xmark"></fa>
-        <h1>Calibración Clima</h1>
-        <h3>{{ tituloInstalacion }}</h3>
+        <h3>Calibración Clima</h3>
+        <h5>{{ tituloInstalacion }}</h5>
         <p v-if="error" class="mensaje">{{ mensaje }}</p>
       </div>
       
@@ -35,6 +35,7 @@ import { useDataUserStore } from '@/stores/dataUserStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useSvgStore } from '@/stores/svgStore';
 import { useReferenceStore } from '@/stores/referencesStore';
+import { isMobile } from '@/funciones';
 import { server } from '@/variables';
 
 const route = useRoute();
@@ -211,12 +212,17 @@ watch(
         display: inline-block;
     }
 
+    .icon-container {
+    position: relative; /* Necesario para que el hijo posicionado de manera absoluta se base en este contenedor */
+    display: inline-block;
+    cursor: pointer;
+    }
 
     .calibracion {
         flex: 1;
         width: 100%;
         max-height: 250px;
-        overflow-y: scroll;
+        /*overflow-y: scroll;*/
     }
 
     .calibracion__cabezal {
@@ -225,7 +231,7 @@ watch(
         top: 0;
         background: #fff;
         z-index: 10;
-        padding: 10px;
+        padding: 1px;
         border-bottom: 1px solid #ccc;
     }
 
