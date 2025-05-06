@@ -5946,7 +5946,7 @@
               "
               x="2062.9883"
               y="8031.2207"
-              id="bomba_agua_fria_bis"
+              id="bomba_agua_fria"
               transform="scale(1.0371838,0.96414926)"
             >
               <tspan
@@ -6593,10 +6593,10 @@
               id="text5261-49-9-2"
               transform="matrix(34.809732,0,0,32.358562,-2133.5885,3115.5941)"
             >
-              <tspan x="248.21019" y="31.33593" id="tspan42252">
+              <tspan x="248.21019" y="31.33593" id="tspan1210">
                 Ventilador
               </tspan>
-              <tspan x="248.21019" y="35.745656" id="tspan42254">
+              <tspan x="248.21019" y="35.745656" id="tspan1212">
                 Introducción
               </tspan>
             </text>
@@ -6846,13 +6846,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const svgRef = ref(null);
 
 //Exponemos svgRef para que sea accesible desde el componente padre
 
 defineExpose({
-    svgRef
+  svgRef,
 });
 </script>
