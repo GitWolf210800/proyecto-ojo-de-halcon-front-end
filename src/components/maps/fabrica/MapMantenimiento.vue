@@ -989,7 +989,7 @@
         </tspan>
       </text>
       <path
-        id="fab4_VV420_compresor"
+        id="fab4_vv420_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1023,7 +1023,7 @@
         x="2537.2429"
         y="3609.74"
         v-if="iconos.compresores"
-        id="fab4_VV420_compresor_text"
+        id="fab4_vv420_compresor_text"
         transform="matrix(0.00875873,1.0634698,0.94025585,-0.00756522,0,0)"
       >
         <tspan
@@ -1036,7 +1036,7 @@
         </tspan>
       </text>
       <path
-        id="fab4_VV422_compresor"
+        id="fab4_vv427_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1070,7 +1070,7 @@
         x="3226.968"
         y="-3022.8"
         v-if="iconos.compresores"
-        id="fab4_VV422_compresor_text"
+        id="fab4_vv427_compresor_text"
         transform="matrix(1.1293561,-0.00985733,-0.00945721,-0.88537773,0,0)"
       >
         <tspan
@@ -1079,7 +1079,7 @@
           y="-3022.8"
           style="stroke-width: 0.0577448"
         >
-          VV422
+          VV427
         </tspan>
       </text>
       <path
