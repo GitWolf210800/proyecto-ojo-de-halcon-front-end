@@ -1,11 +1,10 @@
 import { useHomeMantenimientoStore } from "@/stores/homeMantenimientoStore";
 import { useDataHomeMantenimiento } from "@/components/componsables/useMantenimiento";
-import { alarmColor, alertColor, offlineColor, okColor } from "@/variables";
+import { alarmColor, alertColor, offlineColor, okColor, paroManual } from "@/variables";
 
 const estadoColors = {
-    1: okColor,
-    0: alarmColor,
-    2: alertColor
+    "CARGA": okColor,
+    "PARO": paroManual,
 };
 
 const textColors = {
@@ -35,14 +34,14 @@ export const dataColorInfoMantenimiento = async (svg) => {
         if(element) element.style.stroke = color;
     }
 
-    compresores.forEach(({ nombre, estado  }) => {
+    compresores.forEach(({ nombre, estado_compresor  }) => {
         const colorButtom = svgStore.querySelector(`#${nombre}`);
         const colorText = svgStore.querySelector(`#${nombre}_text`);
         //console.log(nombre, estado);
         if (colorButtom){
             //console.log(colorText);
-            applyColor(colorButtom, estadoColors[estado] || offlineColor);
-            applyColorText(colorText, textColors[estado] || '#FFF');
+            applyColor(colorButtom, estadoColors[estado_compresor] || offlineColor);
+            applyColorText(colorText, textColors[estado_compresor] || '#FFF');
         }
     });
 }
