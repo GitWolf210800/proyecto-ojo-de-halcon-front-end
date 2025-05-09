@@ -1224,7 +1224,7 @@
         </tspan>
       </text>
       <path
-        id="fab3_VV321_compresor"
+        id="fab3_VV327_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1258,7 +1258,7 @@
         x="4086.5815"
         y="2888.8228"
         v-if="iconos.compresores"
-        id="fab3_VV321_compresor_text"
+        id="fab3_VV327_compresor_text"
         transform="matrix(5.0445235e-4,1.0781158,0.92754313,-0.00218443,0,0)"
       >
         <tspan
@@ -1267,7 +1267,7 @@
           y="2888.8228"
           style="stroke-width: 0.0460622"
         >
-          VV321
+          VV327
         </tspan>
       </text>
       <path
