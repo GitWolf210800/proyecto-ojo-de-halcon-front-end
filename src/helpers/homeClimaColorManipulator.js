@@ -29,7 +29,7 @@ export const dataColorInfoClima = async (svg) => {
 
         const datos = dataClima.find((data) => data.nombre === nombresClima[i]);
 
-        console.log(nombresClima[i], datos);
+        //console.log(nombresClima[i], datos);
 
         try {
             if(datos) {
