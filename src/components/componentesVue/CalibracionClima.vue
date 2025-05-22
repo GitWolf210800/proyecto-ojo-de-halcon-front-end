@@ -15,11 +15,11 @@
         <label>fecha: {{ datos['fecha'] }}</label>
         <div v-for="(value, key) in datos" :key="key">
             <template v-if="!key.startsWith('id') && key !== 'nombre' && key !== 'fecha' && key !== 'valor_sala' && !key.startsWith('factor')">
-                <label :for="key">{{ key }}, {{ value }}</label>             
+                <label class="datos" :for="key">{{ key }}, {{ value }}</label>             
             </template>
         </div>
-        <input :id="key" v-model="datos['valor_calibracion_temperatura']" placeholder="temperatura" type="number" min="0.1" step="any"/>
-        <input :id="key" v-model="datos['valor_calibracion_humedad']" placeholder="humedad" type="number" min="0.1" step="any"/>
+        <input :id="key" v-model="datos['valor_calibracion_temperatura']" placeholder="temperatura real" type="number" min="0.1" step="any"/>
+        <input :id="key" v-model="datos['valor_calibracion_humedad']" placeholder="humedad real" type="number" min="0.1" step="any"/>
       </div>
     </form>
 </div>
@@ -189,6 +189,16 @@ watch(
 </script>
 
 <style scoped>
+
+    .datos {
+        text-align: justify;
+        /*position: relative;*/
+        /*display: block;*/
+        font-size: 14px;
+        margin-left: 0;
+        /*padding: 15px;*/
+        color:#5b6574;
+    }
 
     .body__content {
         width: 400px;
