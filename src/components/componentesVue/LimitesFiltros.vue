@@ -8,7 +8,7 @@
             <fa class="button__close" icon="square-xmark" @click="toggleForm" />
             <h1>Edición de Limites</h1>
             <h3>{{ tituloInstalacion }}</h3>
-            <p v-if="error" class="mensaje">{{ mensaje }}</p>
+            <p v-if="mensajeServer" class="mensaje">{{ mensaje }}</p>
         </div>
         <!--<div id="parametros" class="limites" v-for="(value, key) in datos" :key="key">
             <label :for="key">{{ key }}, {{ value }}</label>
@@ -54,7 +54,7 @@ const datos = ref({});
 const show = ref(false);
 const visibilityForm = ref(false);
 const toggleClick = ref(false);
-const error =  ref(false);
+const mensajeServer =  ref(false);
 const mensaje = ref('');
 
 //Se prepara los datos para la navegacion
@@ -79,7 +79,14 @@ const handleSubmit = async () => {
     });
 
     const resJson = await res.json();
-    if(res.message) mensaje.value = resJson.message;
+    console.log(resJson);
+    if(resJson.message){
+        mensajeServer.value = true;
+        console.log(resJson.message);
+        mensaje.value = resJson.message;
+    }
+
+
 
     const response = await fetch(`${server}:1880/updateLim`, {method: 'GET'})
     .then(() => console.log('node-red Actualizado'))
@@ -105,6 +112,7 @@ watch(
 
 const toggle = () => {
     toggleClick.value = !toggleClick.value;
+    mensajeServer.value = false;
     if(toggleClick.value){
         const filtros = climaData.datos.nombresFiltro;
         const salas = climaData.datos.salasClima;
@@ -188,6 +196,7 @@ const toggle = () => {
 
 const toggleForm = () => {
     visibilityForm.value = !visibilityForm.value;
+    mensajeServer.value = false;
 };
 </script>
 
@@ -325,6 +334,6 @@ input{
 }
 
 .mensaje {
-    color: #da2506;
+    color: #109438;
 }
 </style>
