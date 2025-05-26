@@ -82,7 +82,19 @@ const toggle = () => {
                     })
                 });
 
+                const res2 = await fetch(`${server}:1880/motivos`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type' : 'text/plain'
+                    },
+                    body: "LABORATORIO"
+                });
+
                 const resJson = await res.json();
+
+                const resMotivos = await res2.json();
+
+                console.log(resMotivos);
 
                 datos.value = resJson[0];
                 datos.value.fecha = new Date(datos.value.fecha).toLocaleString('es-AR'); 
