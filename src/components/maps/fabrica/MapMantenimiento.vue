@@ -1177,7 +1177,7 @@
         </tspan>
       </text>
       <path
-        id="fab3_VV320_compresor_"
+        id="fab3_vv385_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1211,13 +1211,13 @@
         x="4405.9653"
         y="2359.5042"
         v-if="iconos.compresores"
-        id="fab3_VV320_compresor_text"
+        id="fab3_VV385_compresor_text"
         transform="matrix(0.00929077,1.0025707,0.99736982,-0.00713202,0,0)"
       >
-        <tspan id="tspan490">VV3--</tspan>
+        <tspan id="tspan490">VV385</tspan>
       </text>
       <path
-        id="fab3_VV321_compresor_"
+        id="fab3_vv386_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1251,13 +1251,13 @@
         x="4086.5815"
         y="2888.8228"
         v-if="iconos.compresores"
-        id="fab3_VV321_compresor_text"
+        id="fab3_VV386_compresor_text"
         transform="matrix(5.0445235e-4,1.0781158,0.92754313,-0.00218443,0,0)"
       >
-        <tspan id="tspan492">VV3--</tspan>
+        <tspan id="tspan492">VV386</tspan>
       </text>
       <path
-        id="fab1_VV136_compresor"
+        id="fab1_vv136_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1291,7 +1291,7 @@
         x="4959.9624"
         y="2392.9094"
         v-if="iconos.compresores"
-        id="fab1_VV136_compresor_text"
+        id="fab1_vv136_compresor_text"
         transform="matrix(0.00922003,1.0102619,0.98977671,-0.00718673,0,0)"
       >
         <tspan
