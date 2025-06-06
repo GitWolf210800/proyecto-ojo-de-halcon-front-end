@@ -11,9 +11,30 @@
         <button type="submit" class="button__send">Enviar</button>
         <fa @click="toggleForm" class="button__close" icon="square-xmark"></fa>
         <h3>Calibración Clima</h3>
-        <h5>{{ tituloInstalacion }}</h5>
+        <h4 class="nombre">{{ tituloInstalacion }}</h4>
+        <pre v-if="mensajeShow" class="mensaje">{{ mensaje }}</pre>
+        <input
+          class="inputDatos"
+          :id="key"
+          v-model="datos['valor_calibracion_temperatura']"
+          placeholder="insertar temperatura real"
+          type="number"
+          min="0.1"
+          step="any"
+          required
+        />
+        <input
+          class="inputDatos"
+          :id="key"
+          v-model="datos['valor_calibracion_humedad']"
+          placeholder="insertar humedad real"
+          type="number"
+          min="0.1"
+          step="any"
+          required
+        />
         <label>Motivo: </label>
-        <select v-model="motivoSelect" id="motivo">
+        <select v-model="datos['motivo']" id="motivo" required>
           <option
             v-for="(valor, clave) in opciones"
             :key="clave"
@@ -22,11 +43,10 @@
             {{ valor.motivo }}
           </option>
         </select>
-        <p v-if="error" class="mensaje">{{ mensaje }}</p>
       </div>
 
       <div class="calibracion">
-        <label class="date">fecha: {{ datos["fecha"] }}</label>
+        <label class="date">Ultima Vez: {{ datos["fecha"] }}</label>
         <div v-for="(value, key) in datos" :key="key">
           <template
             v-if="
@@ -34,30 +54,14 @@
               key !== 'nombre' &&
               key !== 'fecha' &&
               !key.includes('calibracion') &&
+              !key.includes('motivo') &&
               !key.startsWith('factor')
             "
           >
             <label class="datos" :for="key">{{ key }}, {{ value }}</label>
           </template>
         </div>
-        <input
-          class="inputDatos"
-          :id="key"
-          v-model="datos['valor_calibracion_temperatura']"
-          placeholder="temperatura real"
-          type="number"
-          min="0.1"
-          step="any"
-        />
-        <input
-          class="inputDatos"
-          :id="key"
-          v-model="datos['valor_calibracion_humedad']"
-          placeholder="humedad real"
-          type="number"
-          min="0.1"
-          step="any"
-        />
+        
       </div>
     </form>
   </div>
@@ -73,7 +77,7 @@ import { useDataUserStore } from "@/stores/dataUserStore";
 import { useHomeClimaStore } from "@/stores/homeClimaStore";
 import { useSvgStore } from "@/stores/svgStore";
 import { useReferenceStore } from "@/stores/referencesStore";
-import { isMobile } from "@/funciones";
+import { isMobile, quitarTerminacionAj } from "@/funciones";
 import { server } from "@/variables";
 
 const route = useRoute();
@@ -90,12 +94,15 @@ const tituloInstalacion = ref("");
 const motivoSelect = ref("1");
 const opciones = ref({});
 const visibilityForm = ref(false);
+const mensajeShow = ref(false);
 const mensaje = ref("");
 const toggleClick = ref(false);
 const datos = ref({});
 
 const toggleForm = () => {
   visibilityForm.value = !visibilityForm.value;
+  mensajeShow.value = false;
+
 };
 
 const toggle = () => {
@@ -135,6 +142,7 @@ const toggle = () => {
         opciones.value = await res2.json();
 
         datos.value = resJson[0];
+        const nombreFabrica = quitarTerminacionAj(datos.value.id_fabrica);
         datos.value.fecha = new Date(datos.value.fecha).toLocaleString("es-AR");
         datos.value["factor_calibracion_temperatura"] =
           datos.value["temperatura"];
@@ -145,9 +153,10 @@ const toggle = () => {
         datos.value["valor_sala_humedad"] = dataClima.datos.clima.find(
           (obj) => obj.nombre === nombres[i]
         )?.humedad;
-        console.log(datos.value);
+        //console.log(datos.value);
 
-        tituloInstalacion.value = instalacion;
+
+        tituloInstalacion.value = nombreFabrica;
         visibilityForm.value = true;
       };
 
@@ -186,6 +195,7 @@ const toggle = () => {
     }
   } else {
     visibilityForm.value = false;
+    mensajeShow.value = false;
 
     for (let i = 0; i < nombres.length; i++) {
       const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);
@@ -221,8 +231,37 @@ const handleSubmit = async () => {
   });
 
   const resJson = await res.json();
-  if (res.message) mensaje.value = resJson.message;
-  visibilityForm.value = false;
+  console.log(resJson);
+  if (resJson.message){
+    mensajeShow.value = !mensajeShow.value;
+    mensaje.value = resJson.message;
+
+    /*const res = await fetch(`${server}:4000/api/formCalClima`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            instalacion,
+          }),
+        });
+
+    const resJson = await res.json();
+
+    datos.value = resJson[0];
+    datos.value.fecha = new Date(datos.value.fecha).toLocaleString("es-AR");
+        datos.value["factor_calibracion_temperatura"] =
+          datos.value["temperatura"];
+        datos.value["factor_calibracion_humedad"] = datos.value["humedad"];
+        datos.value["valor_sala_temperatura"] = dataClima.datos.clima.find(
+          (obj) => obj.nombre === nombres[i]
+        )?.temperatura;
+        datos.value["valor_sala_humedad"] = dataClima.datos.clima.find(
+          (obj) => obj.nombre === nombres[i]
+        )?.humedad;*/
+    
+  }
+  //visibilityForm.value = false;
 };
 
 watch(
@@ -241,52 +280,55 @@ watch(
 </script>
 
 <style scoped>
-.inputDatos {
+/* Asegura que todos los elementos respeten el box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+.nombre {
+  margin-bottom: 0;
+}
+
+.mensaje {
+  color: #01a801;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="number"] {
   width: 100%;
-  height: 10px;
-  border: none;
-  border-bottom: 4px solid transparent;
-  background: linear-gradient(to top, #4a90e2, transparent 80%) no-repeat;
-  background-size: 100% 4px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  outline: none;
-  padding: 0;
-  font-size: 14px;
-  color: #111;
-  background-color: transparent;
-  box-shadow: 0 2px 6px #4a90e27a;
-  margin: 10px auto; /* Centrado vertical entre inputs */
-  display: block; /* Asegura que margin auto funcione */
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
   transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 12px; /* espacio entre inputs */
 }
 
-.inputDatos:hover {
-  background: linear-gradient(to top, #ff00ff, transparent 80%) no-repeat;
-  box-shadow: 0 2px 12px #ff00ff;
-}
-
-.inputDatos:focus {
-  background: linear-gradient(to top, #39ff14, transparent 80%) no-repeat;
-  box-shadow: 0 2px 14px #39ff14;
+/* Efecto al enfocar el input */
+input[type="number"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.3);
 }
 
 .date {
-  margin-bottom: -16px;
+  margin-bottom: -30px;
 }
 
 .datos {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   color: #264e86;
-  /*margin-bottom: -3px;*/
+  margin-bottom: -3px;
   line-height: 0.8;
 }
 
 .body__content {
   width: 400px;
   max-height: 450px;
-  background-color: #ffff;
+  background-color: #fff;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -295,6 +337,7 @@ watch(
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1600;
+  padding: 16px; /* nuevo: para que el contenido no toque los bordes */
 }
 
 .body__content,
@@ -302,13 +345,8 @@ watch(
   text-align: center;
 }
 
-.body__content,
-.calibracion input {
-  display: inline-block;
-}
-
 .icon-container {
-  position: relative; /* Necesario para que el hijo posicionado de manera absoluta se base en este contenedor */
+  position: relative;
   display: inline-block;
   cursor: pointer;
 }
@@ -318,7 +356,6 @@ watch(
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  /*padding: 10px;*/
 }
 
 .calibracion__cabezal {
@@ -358,7 +395,6 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
 }
 
 .calibracion label {
@@ -396,3 +432,4 @@ form {
   top: 0;
 }
 </style>
+
