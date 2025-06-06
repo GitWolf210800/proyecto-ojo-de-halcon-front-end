@@ -25,4 +25,10 @@ export const isMobile = () => {                                 //// This functi
   return /Mobi|Android/i.test(navigator.userAgent);
 };
 
+export function quitarTerminacionAj(cadena) {
+  if (cadena.endsWith('_aj')) {
+    return cadena.slice(0, -3); // elimina los últimos 3 caracteres
+  }
+  return cadena; // si no termina en _aj, devuelve la cadena original
+};
 
