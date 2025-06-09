@@ -1083,7 +1083,7 @@
         </tspan>
       </text>
       <path
-        id="fab6_VV375_compresor"
+        id="fab3_vv375_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1117,7 +1117,7 @@
         x="1305.8339"
         y="-4909.7466"
         v-if="iconos.compresores"
-        id="fab6_VV375_compresor_text"
+        id="fab3_VV375_compresor_text"
         transform="matrix(1.14153,0.02504327,0.02319023,-0.87550854,0,0)"
       >
         <tspan
@@ -1130,7 +1130,7 @@
         </tspan>
       </text>
       <path
-        id="fab6_VV380_compresor"
+        id="fab3_vv380_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
@@ -1164,7 +1164,7 @@
         x="1278.1198"
         y="-5242.4658"
         v-if="iconos.compresores"
-        id="fab6_VV380_compresor_text"
+        id="fab3_vv380_compresor_text"
         transform="matrix(1.163862,0.02539565,0.02053528,-0.85876034,0,0)"
       >
         <tspan
