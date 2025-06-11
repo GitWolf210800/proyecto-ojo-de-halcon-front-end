@@ -1501,13 +1501,13 @@
         x="5611.4385"
         y="1301.2144"
         v-if="iconos.compresores"
-        id="fab1_VV139_compresor_text"
+        id="fab1_vv139_compresor_text"
         transform="matrix(0.00950318,0.98016123,1.0201727,-0.0069726,0,0)"
       >
         <tspan id="tspan489">VV139</tspan>
       </text>
       <path
-        id="fab1_VV139_compresor"
+        id="fab1_vv139_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
