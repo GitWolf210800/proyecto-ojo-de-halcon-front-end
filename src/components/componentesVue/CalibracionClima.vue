@@ -12,7 +12,7 @@
         <fa @click="toggleForm" class="button__close" icon="square-xmark"></fa>
         <h3>Calibración Clima</h3>
         <h4 class="nombre">{{ tituloInstalacion }}</h4>
-        <pre v-if="mensajeShow" class="mensaje">{{ mensaje }}</pre>
+        <pre v-if="mensajeShow" :class="estado === 'ok' ? 'mensaje' : 'mensajeError'" >{{ mensaje }}</pre>
         <input
           class="inputDatos"
           :id="key"
@@ -97,20 +97,24 @@ const visibilityForm = ref(false);
 const mensajeShow = ref(false);
 const mensaje = ref("");
 const toggleClick = ref(false);
+const estado = ref('');
 const datos = ref({});
 
 const toggleForm = () => {
   visibilityForm.value = !visibilityForm.value;
+  //console.log(visibilityForm.value);
   mensajeShow.value = false;
 
 };
 
 const toggle = () => {
   toggleClick.value = !toggleClick.value;
+  //console.log(toggleClick.value);
   const nombres = dataClima.datos.nombresClima;
   const map = mapa.svgRef;
 
   if (toggleClick.value) {
+    //console.log(toggleClick.value);
     //console.log(referenceStore.reference);
 
     for (let i = 0; i < nombres.length; i++) {
@@ -119,6 +123,7 @@ const toggle = () => {
 
       const handler = async () => {
         const instalacion = nombres[i];
+        //console.log(instalacion);
         const res = await fetch(`${server}:4000/api/formCalClima`, {
           method: "POST",
           headers: {
@@ -137,12 +142,17 @@ const toggle = () => {
           body: "LABORATORIO",
         });
 
+        //console.log('llega aca');
+
         const resJson = await res.json();
+
+        //console.log(res2.json);
 
         opciones.value = await res2.json();
 
         datos.value = resJson[0];
-        const nombreFabrica = quitarTerminacionAj(datos.value.id_fabrica);
+        //console.log(datos.value);
+        datos.value.id_fabrica = quitarTerminacionAj(datos.value.id_fabrica);
         datos.value.fecha = new Date(datos.value.fecha).toLocaleString("es-AR");
         datos.value["factor_calibracion_temperatura"] =
           datos.value["temperatura"];
@@ -156,7 +166,7 @@ const toggle = () => {
         //console.log(datos.value);
 
 
-        tituloInstalacion.value = nombreFabrica;
+        tituloInstalacion.value = datos.value.id_fabrica;
         visibilityForm.value = true;
       };
 
@@ -236,29 +246,7 @@ const handleSubmit = async () => {
     mensajeShow.value = !mensajeShow.value;
     mensaje.value = resJson.message;
 
-    /*const res = await fetch(`${server}:4000/api/formCalClima`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            instalacion,
-          }),
-        });
-
-    const resJson = await res.json();
-
-    datos.value = resJson[0];
-    datos.value.fecha = new Date(datos.value.fecha).toLocaleString("es-AR");
-        datos.value["factor_calibracion_temperatura"] =
-          datos.value["temperatura"];
-        datos.value["factor_calibracion_humedad"] = datos.value["humedad"];
-        datos.value["valor_sala_temperatura"] = dataClima.datos.clima.find(
-          (obj) => obj.nombre === nombres[i]
-        )?.temperatura;
-        datos.value["valor_sala_humedad"] = dataClima.datos.clima.find(
-          (obj) => obj.nombre === nombres[i]
-        )?.humedad;*/
+    estado.value = resJson.status;
     
   }
   //visibilityForm.value = false;
@@ -291,6 +279,11 @@ watch(
 
 .mensaje {
   color: #01a801;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mensajeError {
+  color: #ed0c0c;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
