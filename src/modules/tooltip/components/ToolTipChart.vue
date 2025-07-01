@@ -5,6 +5,7 @@
     :style="
       smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }
     "
+    v-show="visibility"
   >
     <button v-if="smartphone" class="close__button" @click="closeTooltip">
       Cerrar
@@ -33,6 +34,7 @@ import { Line } from "vue-chartjs";
 import { isMobile } from "@/funciones";
 import getChartOptions from "../utils/charOptions";
 import { fetchChartData } from "../utils/fetchChartData";
+import { useTooltip } from "../utils/useTooltip";
 
 ChartJS.register(
   CategoryScale,
@@ -59,16 +61,21 @@ const props = defineProps({
 const loading = ref(true);
 const charData = ref(null);
 const offline = ref(false);
+const visibility = ref(true);
+//const {tooltipVisibility} = useTooltip()
 const smartphone = isMobile();
 
 const chartOptions = getChartOptions(props.parametros);
+//visibility.value = true;
 
 onMounted(async () => {
   try {
     const datasets = await fetchChartData(props.parametros);
     charData.value = { datasets };
+    visibility.value = true;
   } catch (error) {
     charData.value = null;
+    visibility.value = false;
     offline.value = true;
   } finally {
     loading.value = false;
@@ -76,7 +83,7 @@ onMounted(async () => {
 });
 
 function closeTooltip() {
-  tooltipChartVisibility.value.chart = false;
+  visibility.value = false;
 }
 </script>
 
@@ -98,8 +105,8 @@ function closeTooltip() {
 .tooltip__fullscreen {
   top: 0;
   left: 0;
-  width: 90vw;
-  height: 35vh;
+  width: 88vw;
+  height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

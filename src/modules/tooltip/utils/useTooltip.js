@@ -1,4 +1,5 @@
 // useTooltip.js
+import { isMobile } from "@/funciones";
 import { ref } from "vue";
 
 // Crea y exporta la función de utilidad
@@ -10,6 +11,7 @@ export function useTooltip() {
     chartInfo: false,
     infoTable: false,
   });
+  const smartphone = isMobile();
 
   // Función para calcular la posición del tooltip
   function calculateTooltipPosition(e, config) {
@@ -41,7 +43,9 @@ export function useTooltip() {
 
   // Función para ocultar el tooltip
   function hideTooltip(tipo) {
-    tooltipVisibility.value[tipo] = false;
+    //if(!smartphone){
+      tooltipVisibility.value[tipo] = false;
+    //}
   }
 
   // Exporta los datos y métodos necesarios

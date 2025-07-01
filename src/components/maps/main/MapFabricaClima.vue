@@ -2,6 +2,10 @@
   <div class="content" v-zoom>
     <MapClima ref="mapClimaRef" class="container__map" />
   </div>
+  <!--<button v-if="smartphone" class="close__button" @click="closeTooltip()">
+      Cerrar
+    
+    </button>-->
   <ToolTipChart
       :position="tooltipPosition"
       :parametros="params"
@@ -15,7 +19,7 @@
     <ToolTipInfoTable
       :position="tooltipPosition"
       :parametros="params"
-      v-if="tooltipVisibility.infoTable"
+      v-if="tooltipVisibility.infoTable"  
     />
 </template>
 
@@ -124,17 +128,22 @@ function initializeTooltipEvents(svg) {
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
     const element = svg.querySelector(selector);
     if (element) {
-      const handlerOn = (e) => displayTooltip(e, tooltipType, payload, config);
+      const handlerOn = (e) => {
+        console.log('entra');
+        console.log(payload);
+        //tooltipVisibility.chart = value;
+        displayTooltip(e, tooltipType, payload, config);
+      }
       const handlerOff = () => hideTooltip(tooltipType);
 
       if(isMobile()){
         element.addEventListener("touchstart", handlerOn);
-        element.addEventListener("pointerleave", handlerOff);
+        //element.addEventListener("pointerleave", handlerOff);
 
         try {
           referenceStorage.value[selector] = referenceStorage.value[selector] || {};
           referenceStorage.value[selector]['touchstart'] = handlerOn;
-          referenceStorage.value[selector]['pointerleave'] = handlerOff;
+          //referenceStorage.value[selector]['pointerleave'] = handlerOff;
         } catch {
           console.log('error en: ', selector);
         }
