@@ -2,22 +2,21 @@
   <div
     class="tooltip"
     :class="{ tooltip__fullscreen: smartphone }"
-    :style="
-      smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }
-    "
-    v-show="visibility"
+    :style="smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }"
+    v-show="tooltip.chartVisible"
   >
-    <button v-if="smartphone" class="close__button" @click="closeTooltip">
+    <button v-if="smartphone" class="close__button" @click="tooltip.closeChart()">
       Cerrar
     </button>
-    <Line :data="charData" :options="chartOptions" v-if="charData" /> <!-- Se Incluye el componente Line de chart.js -->
+
+    <Line :data="charData" :options="chartOptions" v-if="charData" />
     <div class="chart__loading" v-else-if="loading">Cargando Datos...</div>
     <div class="offline" v-else-if="offline">offline</div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -34,8 +33,9 @@ import { Line } from "vue-chartjs";
 import { isMobile } from "@/funciones";
 import getChartOptions from "../utils/charOptions";
 import { fetchChartData } from "../utils/fetchChartData";
-import { useTooltip } from "../utils/useTooltip";
+import { useTooltipStore } from "@/stores/tooltipStore";
 
+// Registro de componentes de Chart.js
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -47,6 +47,7 @@ ChartJS.register(
   TimeScale
 );
 
+// Props del componente
 const props = defineProps({
   position: {
     type: Object,
@@ -58,32 +59,44 @@ const props = defineProps({
   },
 });
 
+// Store y estado local
+const tooltip = useTooltipStore();
 const loading = ref(true);
 const charData = ref(null);
 const offline = ref(false);
-const visibility = ref(true);
-//const {tooltipVisibility} = useTooltip()
 const smartphone = isMobile();
 
-const chartOptions = getChartOptions(props.parametros);
-//visibility.value = true;
+// 🧠 chartOptions ahora es reactivo y se actualiza con props.parametros
+const chartOptions = computed(() => getChartOptions(props.parametros));
 
-onMounted(async () => {
+// Carga inicial al montar
+onMounted(() => {
+  cargarDatos();
+});
+
+// Recarga cuando el tooltip se vuelve visible
+watch(
+  () => tooltip.chartVisible,
+  (visible) => {
+    if (visible) {
+      cargarDatos();
+    }
+  }
+);
+
+// Función para cargar los datos del gráfico
+async function cargarDatos() {
+  loading.value = true;
+  offline.value = false;
   try {
     const datasets = await fetchChartData(props.parametros);
     charData.value = { datasets };
-    visibility.value = true;
   } catch (error) {
     charData.value = null;
-    visibility.value = false;
     offline.value = true;
   } finally {
     loading.value = false;
   }
-});
-
-function closeTooltip() {
-  visibility.value = false;
 }
 </script>
 
@@ -101,7 +114,6 @@ function closeTooltip() {
   height: 272px;
 }
 
-/* Estilos para el tooltip en modo pantalla completa */
 .tooltip__fullscreen {
   top: 0;
   left: 0;
@@ -122,7 +134,6 @@ function closeTooltip() {
   background: #ff5c5c;
   color: #fff;
   border: none;
-  /* border-radius: 50%;*/
   width: 60px;
   height: 30px;
   cursor: pointer;

@@ -3,7 +3,7 @@ import { defineStore } from 'pinia'
 
 export const useTooltipStore = defineStore('tooltip', {
   state: () => ({
-    chartVisible: true
+    chartVisible: false
   }),
   actions: {
     openChart() {

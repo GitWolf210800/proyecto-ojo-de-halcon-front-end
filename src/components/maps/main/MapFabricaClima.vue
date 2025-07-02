@@ -4,12 +4,12 @@
   </div>
   <!--<button v-if="smartphone" class="close__button" @click="closeTooltip()">
       Cerrar
-    
+    v-if="tooltipVisibility.chart"
     </button>-->
   <ToolTipChart
       :position="tooltipPosition"
       :parametros="params"
-      v-if="tooltipVisibility.chart"
+      
     />
     <ToolTipChartInfo
       :position="tooltipPosition"
@@ -31,6 +31,7 @@ import { useSvgStore } from "@/stores/svgStore";
 import { useReferenceStore } from "@/stores/referencesStore";
 import MapClima from "@/components/maps/fabrica/MapClima.vue";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
+import { useTooltipStore } from "@/stores/tooltipStore";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
@@ -48,6 +49,7 @@ import {
 // Se utiliza el composable `useTooltip`
 const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
 
+const tooltip = useTooltipStore();
 const storeData = ref(useHomeClimaStore().datos);
 const mapClimaRef = ref(null);
 const referenceStorage = ref({});
@@ -129,12 +131,13 @@ function initializeTooltipEvents(svg) {
     const element = svg.querySelector(selector);
     if (element) {
       const handlerOn = (e) => {
-        console.log('entra');
-        console.log(payload);
-        //tooltipVisibility.chart = value;
         displayTooltip(e, tooltipType, payload, config);
+        tooltip.openChart();
       }
-      const handlerOff = () => hideTooltip(tooltipType);
+      const handlerOff = () => {
+        tooltip.closeChart();
+        hideTooltip(tooltipType);
+      }
 
       if(isMobile()){
         element.addEventListener("touchstart", handlerOn);
