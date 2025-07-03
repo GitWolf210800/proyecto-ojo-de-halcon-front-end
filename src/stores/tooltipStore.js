@@ -1,19 +1,22 @@
-// src/stores/tooltipStore.js
 import { defineStore } from 'pinia'
 
 export const useTooltipStore = defineStore('tooltip', {
   state: () => ({
-    chartVisible: false
+    visibility: {
+      chart: false,
+      chartInfo: false,
+      infoTable: false
+    }
   }),
   actions: {
-    openChart() {
-      this.chartVisible = true
+    open(type) {
+      this.visibility[type] = true;
     },
-    closeChart() {
-      this.chartVisible = false
+    close(type) {
+      this.visibility[type] = false;
     },
-    toggleChart() {
-      this.chartVisible = !this.chartVisible
+    closeAll() {
+      Object.keys(this.visibility).forEach(key => this.visibility[key] = false);
     }
   }
-})
+});
