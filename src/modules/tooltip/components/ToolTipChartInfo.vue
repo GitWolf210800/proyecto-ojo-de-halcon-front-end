@@ -2,8 +2,12 @@
   <div
     v-show="tooltip.visibility.chartInfo" 
     class="tooltipInfo"
-    :style="{ left: `${position.x}px`, top: `${position.y}px` }"
+    :class="{ tooltip__fullscreen: smartphone }"
+    :style="smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }"
   >
+    <button v-if="smartphone" class="close__button" @click="tooltip.close('chartInfo')">
+      Cerrar
+    </button>
     <div class="chart">
       <Line :data="chartData" :options="chartOptions" v-if="chartData" />
     </div>
@@ -68,7 +72,7 @@ import { fetchChartData } from '../utils/fetchChartData';
 import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
 import { alarmColor, textOkColor, offlineColor } from '@/variables';
 import { useTooltipStore } from '@/stores/tooltipStore';
-import { formatValue } from '@/funciones';
+import { formatValue, isMobile } from '@/funciones';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
@@ -86,6 +90,7 @@ const dataNow = ref(null);
 const setsNow = ref(null);
 const offline = ref(false);
 const offlineNow = ref(false);
+const smartphone = isMobile();
 
 // Chart options reactivo para actualizar título dinámicamente
 const chartOptions = computed(() => getChartOptions(props.parametros));
@@ -149,6 +154,19 @@ async function cargarDatos() {
   width: 360px;
 }
 
+.tooltip__fullscreen {
+  top: 0;
+  left: 0;
+  width: 88vw;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 0;
+}
+
 .chart {
   width: 100%;
   height: 235px;
@@ -176,5 +194,18 @@ async function cargarDatos() {
 
 .limit {
   margin-right: 1em;
+}
+
+.close__button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ff5c5c;
+  color: #fff;
+  border: none;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
 }
 </style>
