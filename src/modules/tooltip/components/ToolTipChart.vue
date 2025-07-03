@@ -3,9 +3,9 @@
     class="tooltip"
     :class="{ tooltip__fullscreen: smartphone }"
     :style="smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }"
-    v-show="tooltip.chartVisible"
+    v-show="tooltip.visibility.chart"
   >
-    <button v-if="smartphone" class="close__button" @click="tooltip.closeChart()">
+    <button v-if="smartphone" class="close__button" @click="tooltip.close('chart')">
       Cerrar
     </button>
 
@@ -66,7 +66,6 @@ const charData = ref(null);
 const offline = ref(false);
 const smartphone = isMobile();
 
-// 🧠 chartOptions ahora es reactivo y se actualiza con props.parametros
 const chartOptions = computed(() => getChartOptions(props.parametros));
 
 // Carga inicial al montar
@@ -76,7 +75,7 @@ onMounted(() => {
 
 // Recarga cuando el tooltip se vuelve visible
 watch(
-  () => tooltip.chartVisible,
+  () => tooltip.visibility.chart,
   (visible) => {
     if (visible) {
       cargarDatos();
@@ -118,7 +117,7 @@ async function cargarDatos() {
   top: 0;
   left: 0;
   width: 88vw;
-  height: 55vh;
+  height: 58vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

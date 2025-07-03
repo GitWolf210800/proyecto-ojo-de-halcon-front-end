@@ -8,18 +8,15 @@
     </button>-->
   <ToolTipChart
       :position="tooltipPosition"
-      :parametros="params"
-      
+      :parametros="params"    
     />
     <ToolTipChartInfo
       :position="tooltipPosition"
       :parametros="params"
-      v-if="tooltipVisibility.chartInfo"
     />
     <ToolTipInfoTable
       :position="tooltipPosition"
-      :parametros="params"
-      v-if="tooltipVisibility.infoTable"  
+      :parametros="params"  
     />
 </template>
 
@@ -132,10 +129,10 @@ function initializeTooltipEvents(svg) {
     if (element) {
       const handlerOn = (e) => {
         displayTooltip(e, tooltipType, payload, config);
-        tooltip.openChart();
+        tooltip.open(tooltipType);
       }
       const handlerOff = () => {
-        tooltip.closeChart();
+        tooltip.close(tooltipType);
         hideTooltip(tooltipType);
       }
 

@@ -381,6 +381,7 @@ import {
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import { createTooltipConfig } from "@/funciones";
+import { useTooltipStore } from "@/stores/tooltipStore";
 let intervalId;
 const svgRef = ref(null);
 
@@ -391,6 +392,8 @@ const {
   displayTooltip,
   hideTooltip,
 } = useTooltip();
+
+const tooltip = useTooltipStore();
 
 /*function createTooltipConfig(selector, tooltipType, payload, config) {
   return { selector, tooltipType, payload, config };

@@ -1,16 +1,19 @@
 <template> 
-  <div class="tooltipInfo" :style="{ left: `${position.x}px`, top: `${position.y}px` }">
+  <div
+    v-show="tooltip.visibility.chartInfo" 
+    class="tooltipInfo"
+    :style="{ left: `${position.x}px`, top: `${position.y}px` }"
+  >
     <div class="chart">
       <Line :data="chartData" :options="chartOptions" v-if="chartData" />
     </div>
+
     <div class="info">
       <ul>
         <span v-if="loadingNow">Cargando Datos...</span>
         <span class="offline" v-else-if="offlineNow" :style="{ color: offlineColor }">offline</span>
         <li v-for="(item, index) in dataNow" :key="index" v-if="dataNow">
-          <!-- Se recorre de manera segura las claves del objeto -->
           <div v-for="key in Object.keys(item)" :key="key">
-            <!-- Solo se procesan las claves que no sean límites -->
             <template v-if="key && !key.startsWith('min_') && !key.startsWith('max_') && !key.startsWith('max_alarma')">
               <div class="measurement">
                 <span 
@@ -23,19 +26,18 @@
                   {{ key }}: {{ formatValue(item[key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
               </div>
-              <!-- Muestra de los límites asociados (mínimo y máximo) -->
-               <div class="limits">
-                <span class="limit" v-if="item['min_alarma_' + key] !== undefined && item['min_alarma_' + key] !== 0" style="color: white;">
-                * min Alarma : {{ formatValue(item['min_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
+              <div class="limits">
+                <span class="limit" v-if="item['min_alarma_' + key] !== undefined && item['min_alarma_' + key] !== 0">
+                  * min Alarma : {{ formatValue(item['min_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
-                <span class="limit" v-if="item['min_' + key] !== undefined && item['min_' + key] !== 0" style="color: white;">
-                * min: {{ formatValue(item['min_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
+                <span class="limit" v-if="item['min_' + key] !== undefined && item['min_' + key] !== 0">
+                  * min: {{ formatValue(item['min_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
-                <span class="limit" v-if="item['max_' + key] !== undefined && item['max_' + key] !== 0" style="color: white;">
-                * max: {{ formatValue(item['max_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
+                <span class="limit" v-if="item['max_' + key] !== undefined && item['max_' + key] !== 0">
+                  * max: {{ formatValue(item['max_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
-                <span class="limit" v-if="item['max_alarma_' + key] !== undefined && item['max_alarma_' + key] !== 0" style="color: white;">
-                * max Alarma : {{ formatValue(item['max_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
+                <span class="limit" v-if="item['max_alarma_' + key] !== undefined && item['max_alarma_' + key] !== 0">
+                  * max Alarma : {{ formatValue(item['max_alarma_' + key]) }} {{ setsNow[key]['unidad_medida'] }}
                 </span>
               </div>
             </template>
@@ -47,7 +49,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, watch, computed } from 'vue';
 import { Line } from 'vue-chartjs';
 import {
   Chart as ChartJS,
@@ -65,20 +67,17 @@ import getChartOptions from '../utils/charOptions';
 import { fetchChartData } from '../utils/fetchChartData';
 import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
 import { alarmColor, textOkColor, offlineColor } from '@/variables';
+import { useTooltipStore } from '@/stores/tooltipStore';
 import { formatValue } from '@/funciones';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
 const props = defineProps({
-  position: {
-    type: Object,
-    required: true
-  },
-  parametros: {
-    type: Object,
-    required: true
-  }
+  position: Object,
+  parametros: Object
 });
+
+const tooltip = useTooltipStore();
 
 const loading = ref(true);
 const loadingNow = ref(true);
@@ -88,9 +87,24 @@ const setsNow = ref(null);
 const offline = ref(false);
 const offlineNow = ref(false);
 
-const chartOptions = getChartOptions(props.parametros);
+// Chart options reactivo para actualizar título dinámicamente
+const chartOptions = computed(() => getChartOptions(props.parametros));
 
-onMounted(async () => {
+// Carga los datos al activarse el tooltip
+watch(
+  () => tooltip.visibility.chartInfo,
+  (visible) => {
+    if (visible) cargarDatos();
+  },
+  { immediate: true }
+);
+
+async function cargarDatos() {
+  loading.value = true;
+  loadingNow.value = true;
+  offline.value = false;
+  offlineNow.value = false;
+
   try {
     const datasets = await fetchChartData(props.parametros);
     chartData.value = { datasets };
@@ -107,20 +121,18 @@ onMounted(async () => {
       dataNow.value = null;
       setsNow.value = null;
       offlineNow.value = true;
-      loadingNow.value = false;
     } else {
       dataNow.value = fetchedDataNow.resultado;
       setsNow.value = fetchedDataNow.setsMedicion;
-      //console.log(setsNow.value);
-      loadingNow.value = false;
     }
   } catch (error) {
-    loadingNow.value = false;
     dataNow.value = null;
     setsNow.value = null;
     offlineNow.value = true;
+  } finally {
+    loadingNow.value = false;
   }
-});
+}
 </script>
 
 <style scoped>
@@ -150,7 +162,6 @@ onMounted(async () => {
   width: 100%;
   max-height: 330px;
   font-size: 16px;
-  padding: -5px;
 }
 
 .measurement {
@@ -167,4 +178,3 @@ onMounted(async () => {
   margin-right: 1em;
 }
 </style>
-
