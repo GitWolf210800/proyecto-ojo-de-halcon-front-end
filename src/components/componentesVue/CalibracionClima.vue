@@ -78,6 +78,7 @@ import { useHomeClimaStore } from "@/stores/homeClimaStore";
 import { useSvgStore } from "@/stores/svgStore";
 import { useReferenceStore } from "@/stores/referencesStore";
 import { isMobile, quitarTerminacionAj } from "@/funciones";
+import { useTooltipStore } from "@/stores/tooltipStore";
 import { server } from "@/variables";
 
 const route = useRoute();
@@ -88,6 +89,7 @@ const dataUserStore = useDataUserStore();
 const dataClima = useHomeClimaStore();
 const mapa = useSvgStore();
 const referenceStore = useReferenceStore();
+const tooltip = useTooltipStore();
 
 const show = ref(false);
 const tituloInstalacion = ref("");
@@ -114,6 +116,7 @@ const toggle = () => {
   const map = mapa.svgRef;
 
   if (toggleClick.value) {
+    tooltip.status = false;
     //console.log(toggleClick.value);
     //console.log(referenceStore.reference);
 
@@ -206,6 +209,7 @@ const toggle = () => {
   } else {
     visibilityForm.value = false;
     mensajeShow.value = false;
+    tooltip.status = true;
 
     for (let i = 0; i < nombres.length; i++) {
       const temperatura = map.querySelector(`#${nombres[i]}_temp_g`);

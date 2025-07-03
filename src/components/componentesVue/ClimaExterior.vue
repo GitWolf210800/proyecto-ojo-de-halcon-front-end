@@ -362,12 +362,12 @@
   <ToolTipChart
     :position="tooltipPosition"
     :parametros="params"
-    v-if="tooltipVisibility.chart"
+    v-if="tooltip.visibility.chart && tooltip.activeTooltipId === currentTooltipId"
   />
 </template>
 
 <script setup>
-import { onMounted, ref, onUnmounted } from "vue";
+import { onMounted, ref, onUnmounted, computed } from "vue";
 import axios from "axios";
 import {
   server,
@@ -394,6 +394,11 @@ const {
 } = useTooltip();
 
 const tooltip = useTooltipStore();
+const currentTooltipId = computed(() =>
+  params.value && params.value.nombre && params.value.medicion
+    ? `${params.value.nombre}_${params.value.medicion}`
+    : null
+);
 
 /*function createTooltipConfig(selector, tooltipType, payload, config) {
   return { selector, tooltipType, payload, config };

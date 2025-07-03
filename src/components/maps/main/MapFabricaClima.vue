@@ -4,11 +4,12 @@
   </div>
   <!--<button v-if="smartphone" class="close__button" @click="closeTooltip()">
       Cerrar
-    v-if="tooltipVisibility.chart"
+    v-if="tooltip.visibility.chart && tooltip.activeTooltipId === `${params.nombre}`"    
     </button>-->
   <ToolTipChart
       :position="tooltipPosition"
-      :parametros="params"    
+      :parametros="params"
+      v-if="tooltip.visibility.chart && tooltip.activeTooltipId === currentTooltipId"    
     />
     <ToolTipChartInfo
       :position="tooltipPosition"
@@ -62,6 +63,11 @@ const referenceStore = useReferenceStore();
 // Computados para verificar que los datos y el SVG estén listos
 const dataIsLoaded = computed(() => homeClimaStore.datos !== null);
 const svgIsLoaded = computed(() => svgStore.svgRef !== null);
+const currentTooltipId = computed(() =>
+  params.value && params.value.nombre && params.value.medicion
+    ? `${params.value.nombre}_${params.value.medicion}`
+    : null
+);
 
 //console.log(storeData.value);
 
@@ -128,11 +134,14 @@ function initializeTooltipEvents(svg) {
     const element = svg.querySelector(selector);
     if (element) {
       const handlerOn = (e) => {
-        displayTooltip(e, tooltipType, payload, config);
-        tooltip.open(tooltipType);
+        if(tooltip.status){
+          displayTooltip(e, tooltipType, payload, config);
+          //console.log(tooltip.visibility.chart);
+          //tooltip.open(tooltipType);
+        }
       }
       const handlerOff = () => {
-        tooltip.close(tooltipType);
+        //tooltip.close(tooltipType);
         hideTooltip(tooltipType);
       }
 
