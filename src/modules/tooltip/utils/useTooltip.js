@@ -1,9 +1,11 @@
 // useTooltip.js
 import { isMobile } from "@/funciones";
 import { ref } from "vue";
+import { useTooltipStore } from "@/stores/tooltipStore";
 
 // Crea y exporta la función de utilidad
 export function useTooltip() {
+  const tooltip = useTooltipStore();
   const tooltipPosition = ref({ x: 0, y: 0 });
   const params = ref({});
   const tooltipVisibility = ref({
@@ -38,14 +40,14 @@ export function useTooltip() {
   function displayTooltip(e, tipo, payload, config) {
     tooltipPosition.value = calculateTooltipPosition(e, config);
     params.value = payload;
-    tooltipVisibility.value[tipo] = true;
+    //tooltipVisibility.value[tipo] = true;
+    tooltip.open(tipo, `${payload.nombre}_${payload.medicion}`);
   }
 
   // Función para ocultar el tooltip
   function hideTooltip(tipo) {
-    //if(!smartphone){
-      tooltipVisibility.value[tipo] = false;
-    //}
+    tooltip.close(tipo);
+    //tooltipVisibility.value[tipo] = false;
   }
 
   // Exporta los datos y métodos necesarios
