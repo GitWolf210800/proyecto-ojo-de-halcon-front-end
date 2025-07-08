@@ -90,7 +90,7 @@
     <ToolTipChart 
         :position="tooltipPosition"
         :parametros="params"
-        v-if="tooltipVisibility.chart"
+        v-if="tooltip.visibility.chart && tooltip.activeTooltipId === currentTooltipId"
     />
 </template>
 
@@ -104,6 +104,7 @@ import {
   TOOLTIP_CHART_CONFIG,
   TOOLTIP_INFO_TABLE,
 } from "@/variables";
+import { useTooltipStore } from '@/stores/tooltipStore';
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 
 import Map_fab1_bobinaje_filtro from '@/components/maps/filtros/Map_fab1_bobinaje_filtro.vue';
@@ -134,6 +135,7 @@ const mapFiltro = ref(null);
 const loading = ref(null);
 const route = useRoute();
 const router = useRouter();
+const tooltip = useTooltipStore();
 
 const {
   tooltipPosition,
@@ -172,6 +174,12 @@ let mediciones = [];
 const datos = ref(null);
 const datosGral = ref(null);
 let svg = null;
+
+const currentTooltipId = computed(() =>
+  params.value && params.value.nombre && params.value.medicion
+    ? `${params.value.nombre}_${params.value.medicion}`
+    : null
+);
 
 //let result = Object.values(parametros).join("");
 

@@ -6,7 +6,6 @@
     <ToolTipChartInfo 
         :position="tooltipPosition"
         :parametros="params"
-        v-if="tooltipVisibility.chartInfo"
     />
 </template>
 
@@ -28,6 +27,7 @@ import {
 
 // Se utiliza el composable `useTooltip`
 const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip } = useTooltip();
+//const tooltip = useTooltipStore();
 
 const mapMantenimientoRef = ref(null);
 const iconos = ref({

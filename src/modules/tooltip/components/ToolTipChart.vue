@@ -116,7 +116,7 @@ async function cargarDatos() {
 .tooltip__fullscreen {
   top: 0;
   left: 0;
-  width: 88vw;
+  width: 92vw;
   height: 58vh;
   display: flex;
   flex-direction: column;
