@@ -1,7 +1,9 @@
 import axios from "axios";
-import { server } from "@/variables";
+//import { server } from "@/variables";
 
-const API_URL = `${server}:1880/datoClima`;
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
+
+const API_URL = `${serverNodeRed}/datoClima`;
 
 export const getDatosHomeClima = async () => {
     const respuesta = await axios.get(API_URL);

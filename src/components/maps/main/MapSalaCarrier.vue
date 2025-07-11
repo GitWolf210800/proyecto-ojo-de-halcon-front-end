@@ -40,7 +40,7 @@ import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import { alarmColor, okColor, paroManual } from "@/variables";
 import { createRouterConfig, createTooltipConfig } from "@/funciones";
 import { onMounted, ref, watch, nextTick, watchEffect, onUnmounted } from "vue";
-import { server } from "@/variables";
+//import { server } from "@/variables";
 
 import { useDataHomeClima } from '@/components/componsables/useHomeClima';
 
@@ -54,6 +54,7 @@ const {
   hideTooltip,
 } = useTooltip();
 
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 const route = useRoute();
 const router = useRouter();
 const parametros = route.query;
@@ -165,7 +166,7 @@ function setElementColor(element, medicion, value) {
 
 async function fetchData() {
   try {
-    const response = await axios.get(`${server}:1880/carrierNow`, {
+    const response = await axios.get(`${serverNodeRed}/carrierNow`, {
       params: { carrier: result },
     });
     if (response.data) {

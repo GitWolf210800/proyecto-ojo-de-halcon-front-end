@@ -38,10 +38,12 @@ import { useSvgStore } from '@/stores/svgStore';
 import { useDataUserStore } from '@/stores/dataUserStore';
 import { useHomeClimaStore } from '@/stores/homeClimaStore';
 import { useReferenceStore } from '@/stores/referencesStore';
-import { server } from '@/variables';
+//import { server } from '@/variables';
 
 const route = useRoute();
 const router = useRouter();
+const serverApi = import.meta.env.VITE_SERVER_API;
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 
 const esRutaEspecifica = computed(() => route.path === '/clima');
 const dataUserStore = useDataUserStore();
@@ -69,7 +71,7 @@ const handleSubmit = async () => {
 
     //console.log(datos.value);
     //console.log(JSON.stringify(datos.value));
-    const res = await fetch(`${server}:4000/api/formlimsent`, {
+    const res = await fetch(`${serverApi}/api/formlimsent`, {
         method: 'POST',
         credentials: 'include',
         headers: {
@@ -88,7 +90,7 @@ const handleSubmit = async () => {
 
 
 
-    const response = await fetch(`${server}:1880/updateLim`, {method: 'GET'})
+    const response = await fetch(`${serverNodeRed}/updateLim`, {method: 'GET'})
     .then(() => console.log('node-red Actualizado'))
     .catch(error => console.error('Error al actualizar node-red', error));
 
@@ -130,7 +132,7 @@ const toggle = () => {
             const element = map.querySelector(`#${filtros[i]}`);
             const handler = async () => { 
                 const instalacion = filtros[i];
-                const res = await fetch(`${server}:4000/api/formlimfil`, {
+                const res = await fetch(`${serverApi}/api/formlimfil`, {
                     method: 'POST',
                     headers: {
                         'Content-Type' : 'application/json'

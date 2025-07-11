@@ -126,11 +126,12 @@ import Map_fab6_bobinaje_filtro from '@/components/maps/filtros/Map_fab6_bobinaj
 import Map_fab9_preparacion_filtro from '@/components/maps/filtros/Map_fab9_preparacion_filtro.vue';
 import Map_fab9_open_end_filtro from '@/components/maps/filtros/Map_fab9_open_end_filtro.vue';
 import { dataColorInfoClima } from '@/helpers/homeClimaColorManipulator';
-import { alarmColor, alertColor, okColor, paroManual, server } from "@/variables";
+import { alarmColor, alertColor, okColor, paroManual } from "@/variables";
 import { createTooltipConfig } from '@/funciones';
 //import { server } from '@/variables';
 //import { response } from 'express';
 
+const serverNodeREd = import.meta.env.VITE_SERVER_NODE_RED;
 const mapFiltro = ref(null);
 const loading = ref(null);
 const route = useRoute();
@@ -253,7 +254,7 @@ async function fetchData() {
     try {
         const lastIndex = result.lastIndexOf('_');
         const dato = result.substring(0, lastIndex);
-        const response = await axios.get(`${server}:1880/filtroNow`, {
+        const response = await axios.get(`${serverNodeREd}/filtroNow`, {
             params: { filtro: dato },
         });
         if (response.data) {

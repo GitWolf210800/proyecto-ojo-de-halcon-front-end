@@ -1,9 +1,10 @@
 import axios from "axios";
-import { server } from "@/variables";
+//import { server } from "@/variables";
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 
 export async function fetchChartData(parametros) {
     try {
-        const response = await axios.get(`${server}:1880/datos24hs`, {
+        const response = await axios.get(`${serverNodeRed}/datos24hs`, {
             params: {
                 nombre: parametros.nombre,
                 medicion: parametros.medicion,

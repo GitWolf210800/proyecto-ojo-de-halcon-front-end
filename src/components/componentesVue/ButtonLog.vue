@@ -44,9 +44,10 @@ import { ref, reactive } from "vue";
 import LoginButtom from "@/components/icons/LoginButtom.vue";
 import LogoutButtom from "@/components/icons/LogoutButtom.vue";
 import { useDataUserStore } from "@/stores/dataUserStore";
-import { server } from "@/variables";
+//import { server } from "@/variables";
 //import Cookies from "js-cookie";
 
+const server = import.meta.env.VITE_SERVER_API;
 const loginTrue = ref(false);
 const nombreUsuario = ref("");
 const visibilityForm = ref(false);
@@ -70,7 +71,7 @@ const toggleLoginForm = () => {
 
 const logout = async () => {
 const userData = useDataUserStore();
-const response = await fetch(`${server}:4000/api/logout`, {
+const response = await fetch(`${server}/api/logout`, {
     method: 'GET',
     credentials: 'include'
   });

@@ -1,9 +1,10 @@
 import axios from "axios";
-import { server } from "@/variables";
+//import { server } from "@/variables";
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 
 export async function fetchInfoDataNow(parametros) {
     try {
-        const response = await axios.get(`${server}:1880/datosNow`, {
+        const response = await axios.get(`${serverNodeRed}/datosNow`, {
             params: {
                 nombre: parametros.nombre
             }

@@ -79,8 +79,10 @@ import { useSvgStore } from "@/stores/svgStore";
 import { useReferenceStore } from "@/stores/referencesStore";
 import { isMobile, quitarTerminacionAj } from "@/funciones";
 import { useTooltipStore } from "@/stores/tooltipStore";
-import { server } from "@/variables";
+//import { server } from "@/variables";
 
+const serverApi = import.meta.env.VITE_SERVER_API;
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 const route = useRoute();
 
 const esRutaEspecifica = computed(() => route.path === "/clima");
@@ -127,7 +129,7 @@ const toggle = () => {
       const handler = async () => {
         const instalacion = nombres[i];
         //console.log(instalacion);
-        const res = await fetch(`${server}:4000/api/formCalClima`, {
+        const res = await fetch(`${serverApi}/api/formCalClima`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -137,7 +139,7 @@ const toggle = () => {
           }),
         });
 
-        const res2 = await fetch(`${server}:1880/motivos`, {
+        const res2 = await fetch(`${serverNodeRed}/motivos`, {
           method: "POST",
           headers: {
             "Content-Type": "text/plain",
@@ -235,7 +237,7 @@ const toggle = () => {
 };
 
 const handleSubmit = async () => {
-  const res = await fetch(`${server}:4000/api/formCalSent`, {
+  const res = await fetch(`${serverApi}/api/formCalSent`, {
     method: "POST",
     credentials: "include",
     headers: {

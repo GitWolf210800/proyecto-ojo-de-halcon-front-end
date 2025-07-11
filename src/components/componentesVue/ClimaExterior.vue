@@ -370,7 +370,7 @@
 import { onMounted, ref, onUnmounted, computed } from "vue";
 import axios from "axios";
 import {
-  server,
+  //server,
   tempHotExt,
   tempMhotExt,
   tempOkExt,
@@ -384,6 +384,7 @@ import { createTooltipConfig } from "@/funciones";
 import { useTooltipStore } from "@/stores/tooltipStore";
 let intervalId;
 const svgRef = ref(null);
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 
 const {
   tooltipPosition,
@@ -406,7 +407,8 @@ const currentTooltipId = computed(() =>
 
 async function dataAndAccion() {
   try {
-    const response = await axios.get(`${server}:1880/climaExterior`);
+    console.log(`${serverNodeRed}/climaExterior`);
+    const response = await axios.get(`${serverNodeRed}/climaExterior`);
     if (response.data) {
       //console.log(response.data);
       const svg = svgRef.value;
