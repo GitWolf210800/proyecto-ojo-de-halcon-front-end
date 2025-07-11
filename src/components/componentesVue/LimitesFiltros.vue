@@ -22,7 +22,7 @@
                 </template>
             </div>
             <label>Indique el Motivo:</label>
-            <input :id="'motivo'" v-model="datos['motivo']" type="text">
+            <input :id="'motivo'" v-model="datos['motivo']" type="text" required>
         </div>
     </form>
     </div>
