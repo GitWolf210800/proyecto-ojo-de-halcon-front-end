@@ -1,55 +1,63 @@
 import Home from '@/views/Home.vue'
-import MainMapClima from '@/views/MainMapClima.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import { isAuthenticated } from '@/auth.js'
+
+const accessMode = import.meta.env.VITE_ACCESS_MODE;
+
+const routes = [
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/LoginView.vue')
+  },
+  {
+    path: '/',
+    name: 'home',
+    component: Home,
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/clima',
+    name: 'clima',
+    component: () => import('@/views/MainMapClima.vue'),
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/mantenimiento',
+    name: 'mantenimiento',
+    component: () => import('@/views/MainMapMantenimiento.vue'),
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/carrier',
+    name: 'carrier',
+    component: () => import('@/views/MainMapSalaCarrier.vue'),
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/salaFiltro',
+    name: 'salaFiltro',
+    component: () => import('@/views/MainMapSalaFiltros.vue'),
+    meta: { requiresAuth: true }
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-   /* {     // Aun no esta listo para habilitar
-      path: '/login',
-      name: 'login',
-      component: () => import('@/views/')
-    }*/
-    ,
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    }
-    ,
-    {
-      path: '/clima',
-      name: 'clima',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('@/views/MainMapClima.vue')
-      /*component: MainMapClima*/
-    },
+  routes
+})
 
-    {
-      path: '/mantenimiento',
-      name: 'mantenimiento',
-      component: () => import('@/views/MainMapMantenimiento.vue')
+// 🛡️ Guard de navegación
+router.beforeEach((to, from, next) => {
+  const isLoggedIn = isAuthenticated()
+
+  if (accessMode === 'internet') {
+    if (to.meta.requiresAuth && !isLoggedIn) {
+      return next('/login')
     }
-    ,
-    {
-      path: '/carrier',
-      name: 'carrier',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      component: () => import('@/views/MainMapSalaCarrier.vue')
-      /*component: MainMapClima*/
-    }
-    ,
-    {
-      path: '/salaFiltro',
-      name: 'salaFiltro',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      component: () => import('@/views/MainMapSalaFiltros.vue')
-    }
-  ]
+  }
+
+  next()
 })
 
 export default router
