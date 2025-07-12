@@ -76,6 +76,10 @@ const logout = async () => {
   localStorage.removeItem("sesion");
   nombreUsuario.value = "";
   loginTrue.value = false;
+  // ⚡️ Redirección o recarga según modo
+  if (isInternetMode) {
+    window.location.href = "/"; // recarga toda la app en modo internet
+  }
 };
 
 const handleSubmit = async () => {
