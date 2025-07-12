@@ -1,5 +1,5 @@
 <template>
-  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue && !isInternetMode" />
+  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
   <LogoutButtom @click="logout" v-else-if="loginTrue" />
 
   <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
