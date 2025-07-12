@@ -35,19 +35,15 @@
 </template>
 
 <script setup>
-//import vue from 'vue';
-
-//import VueCookies from 'vue-cookies';
-//Vue.use(VueCookies);
-
 import { ref, reactive } from "vue";
 import LoginButtom from "@/components/icons/LoginButtom.vue";
 import LogoutButtom from "@/components/icons/LogoutButtom.vue";
 import { useDataUserStore } from "@/stores/dataUserStore";
-//import { server } from "@/variables";
-//import Cookies from "js-cookie";
 
 const server = import.meta.env.VITE_SERVER_API;
+const accessMode = import.meta.env.VITE_ACCESS_MODE;
+const isInternetMode = accessMode === 'internet';
+
 const loginTrue = ref(false);
 const nombreUsuario = ref("");
 const visibilityForm = ref(false);
@@ -70,18 +66,12 @@ const toggleLoginForm = () => {
 };
 
 const logout = async () => {
-const userData = useDataUserStore();
-const response = await fetch(`${server}/api/logout`, {
+  const userData = useDataUserStore();
+  await fetch(`${server}/api/logout`, {
     method: 'GET',
     credentials: 'include'
   });
-  const data = await response.json();
-  //console.log(data.message);
-  //if (response.ok)
-  //document.cookie = 'jwt' + '=' + 'path=/; Expires=thu, 01 Jan 1970 00:00:01 GMT;';
-  //$cookies.remove("jwt");
-  //Cookies.remove('jwt', {path: '/'});
-  //$cookies.remove('jwtVue');
+
   userData.dataUser = null;
   localStorage.removeItem("sesion");
   nombreUsuario.value = "";
@@ -90,8 +80,8 @@ const response = await fetch(`${server}/api/logout`, {
 
 const handleSubmit = async () => {
   error.value = null;
-
   const { legajo, contraseña } = form;
+
   if (!legajo || !contraseña) {
     error.value = true;
     return;
@@ -111,26 +101,30 @@ const handleSubmit = async () => {
     }
 
     const data = await res.json();
+
     localStorage.setItem("sesion", JSON.stringify(data.usuario));
     loginTrue.value = !!data.usuario.name;
     nombreUsuario.value = data.usuario.name;
+
     const userData = useDataUserStore();
     userData.setDataUser(data.usuario);
-    //userData.restoreExpiration();
-    //userData.dataUser = data.usuario;
-    //$cookies.set("jwt", data.token, data.cookieOption);
-    //$session.start(); --Declinado porque no es compatible con Vue3
-    //$session.set('auth', data.token); --Declinado porque no es compatible con Vue3
+
     form.legajo = "";
     form.contraseña = "";
     visibilityForm.value = !loginTrue.value;
-    //console.log($cookies.get('jwt'));
+
+    // ⚡️ Redirección o recarga según modo
+    if (isInternetMode) {
+      window.location.href = "/"; // recarga toda la app en modo internet
+    }
+
   } catch (err) {
     console.error("Error:", err);
     error.value = true;
   }
 };
 </script>
+
 
 <style scoped>
 .log__text {
