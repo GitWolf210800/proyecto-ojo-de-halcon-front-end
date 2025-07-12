@@ -1,5 +1,5 @@
 <template>
-  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
+  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue && !isInternetMode" />
   <LogoutButtom @click="logout" v-else-if="loginTrue" />
 
   <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
@@ -42,7 +42,8 @@ import { useDataUserStore } from "@/stores/dataUserStore";
 
 const server = import.meta.env.VITE_SERVER_API;
 const accessMode = import.meta.env.VITE_ACCESS_MODE;
-const isInternetMode = accessMode === 'internet';
+const isInternetMode = ref(accessMode === 'internet');
+//console.log(isInternetMode.value);
 
 const loginTrue = ref(false);
 const nombreUsuario = ref("");
@@ -61,7 +62,7 @@ if (sesion.value) {
   nombreUsuario.value = sesionData.value.name;
 }
 
-if (!sesion.value && isInternetMode){
+if (!sesion.value && isInternetMode.value){
   visibilityForm.value = true;
 }
 
@@ -81,7 +82,7 @@ const logout = async () => {
   nombreUsuario.value = "";
   loginTrue.value = false;
   // ⚡️ Redirección o recarga según modo
-  if (isInternetMode) {
+  if (isInternetMode.value) {
     window.location.href = "/"; // recarga toda la app en modo internet
   }
 };
@@ -122,7 +123,7 @@ const handleSubmit = async () => {
     visibilityForm.value = !loginTrue.value;
 
     // ⚡️ Redirección o recarga según modo
-    if (isInternetMode) {
+    if (isInternetMode.value) {
       window.location.href = "/"; // recarga toda la app en modo internet
     }
 
