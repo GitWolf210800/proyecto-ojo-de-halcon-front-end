@@ -1,5 +1,5 @@
 <template>
-  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue" />
+  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue && !isInternetMode" />
   <LogoutButtom @click="logout" v-else />
 
   <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
@@ -59,6 +59,10 @@ if (sesion.value) {
   loginTrue.value = true;
   const sesionData = ref(JSON.parse(localStorage.getItem("sesion")));
   nombreUsuario.value = sesionData.value.name;
+}
+
+if (!sesion.value && isInternetMode){
+  visibilityForm.value = true;
 }
 
 const toggleLoginForm = () => {
