@@ -98,7 +98,7 @@ const handleSubmit = async () => {
   }
 
   try {
-    const res = await fetch("http://192.168.3.122:4000/api/login", {
+    const res = await fetch(`${server}/api/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       credentials: "include",

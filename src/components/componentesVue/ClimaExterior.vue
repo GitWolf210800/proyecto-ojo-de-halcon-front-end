@@ -407,7 +407,7 @@ const currentTooltipId = computed(() =>
 
 async function dataAndAccion() {
   try {
-    console.log(`${serverNodeRed}/climaExterior`);
+    //console.log(`${serverNodeRed}/climaExterior`);
     const response = await axios.get(`${serverNodeRed}/climaExterior`);
     if (response.data) {
       //console.log(response.data);

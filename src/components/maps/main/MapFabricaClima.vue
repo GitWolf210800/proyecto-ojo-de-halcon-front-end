@@ -95,7 +95,10 @@ console.log(resultado);
     const element = svg.querySelector(datos.selector);
 
     if(element){
-      const handler = () => navigateTo(datos);
+      const handler = () => {
+        hideTooltip('chartInfo');
+        navigateTo(datos);
+      }
 
       element.addEventListener('click', handler);
       try {
