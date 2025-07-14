@@ -1,7 +1,7 @@
 <template>
   <g-gantt-chart
-    chart-start="2021-07-12 12:00"
-    chart-end="2021-07-14 12:00"
+    :chart-start="chartStart"
+    :chart-end="chartEnd"
     precision="hour"
     bar-start="beginDate"
     bar-end="endDate"
@@ -13,6 +13,9 @@
 <script setup>
 import { ref } from "vue"
 
+const chartStart = ref("2021-07-12 12:00");
+const chartEnd = ref("2021-07-14 12:00");
+
 const row1BarList = ref([
   {
     beginDate: "2021-07-13 13:00",
@@ -20,7 +23,13 @@ const row1BarList = ref([
     ganttBarConfig: {
       // each bar must have a nested ganttBarConfig object ...
       id: "unique-id-1", // ... and a unique "id" property
-      label: "Lorem ipsum dolor"
+      label: "Lorem ipsum dolor",
+      style: {
+        // arbitrary CSS styling for your bar
+        background: "#333fff",
+        borderRadius: "20px",
+        color: "white"
+      }
     }
   },
   {
