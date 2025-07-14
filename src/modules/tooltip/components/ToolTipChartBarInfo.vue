@@ -9,7 +9,7 @@
       Cerrar
     </button>
     <div class="chart">
-      <Bar :data="chartData" :options="chartOptions" />
+      
     </div>
 
     <div class="info">
@@ -54,7 +54,7 @@
 
 <script setup>
 import { ref, watch, computed } from 'vue';
-import { Bar } from 'vue-chartjs';
+/*import { Bar } from 'vue-chartjs';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -68,20 +68,25 @@ import {
 } from 'chart.js';
 import 'chartjs-adapter-date-fns';
 import getChartOptions from '../utils/charOptions';
-import { fetchChartData } from '../utils/fetchChartData';
+import { fetchChartData } from '../utils/fetchChartData';*/
 import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
 import { alarmColor, textOkColor, offlineColor } from '@/variables';
 import { useTooltipStore } from '@/stores/tooltipStore';
 import { formatValue, isMobile } from '@/funciones';
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
+//ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
 const props = defineProps({
   position: Object,
   parametros: Object
 });
 
-const tooltip = useTooltipStore();
+const tooltip = useTooltipStore(); 
+
+const chartStart = ref('');
+const chartEnd = ref('');
+
+const maquina = ref([]);
 
 const loading = ref(true);
 const loadingNow = ref(true);
