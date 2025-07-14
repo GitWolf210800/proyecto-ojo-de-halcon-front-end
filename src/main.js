@@ -6,6 +6,7 @@ import App from './App.vue';
 import '@/assets/main.css';
 import router from './router';
 import { isMobile } from './funciones';
+import ganttastic from '@infectoone/vue-ganttastic';
 
 //VueCookies
 import VueCookies from 'vue-cookies';
@@ -193,6 +194,7 @@ const pinia = createPinia();
 pinia.use(piniaPersistedState);
 app.use(pinia);
 app.use(router);
+app.use(ganttastic);
 app.use(VueCookies, {expires: '1d'});
 app.component("fa", FontAwesomeIcon);
 app.directive('zoom', zoomDirective);
