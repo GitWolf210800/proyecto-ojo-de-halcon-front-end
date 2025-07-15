@@ -9,7 +9,15 @@
       Cerrar
     </button>
     <div class="chart">
-      
+      <g-gantt-chart
+        :chart-start="chartStart"
+        :chart-end="chartEnd"
+        precision="hour"
+        bar-start="beginDate"
+        bar-end="endDate"
+      >
+        <g-gantt-row label="My row 1" :bars="row1BarList" />
+      </g-gantt-chart>
     </div>
 
     <div class="info">
