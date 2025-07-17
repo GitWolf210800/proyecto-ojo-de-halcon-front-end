@@ -16,7 +16,7 @@
         bar-start="beginDate"
         bar-end="endDate"
       >
-        <g-gantt-row label="My row 1" :bars="row1BarList" />
+        <g-gantt-row :label="labelText" :bars="maquinaDatos" />
       </g-gantt-chart>
     </div>
 
@@ -77,6 +77,7 @@ import {
 import 'chartjs-adapter-date-fns';
 import getChartOptions from '../utils/charOptions';
 import { fetchChartData } from '../utils/fetchChartData';*/
+import { fetchChartDataBar } from '../utils/fetchChartDataBar';
 import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
 import { alarmColor, textOkColor, offlineColor } from '@/variables';
 import { useTooltipStore } from '@/stores/tooltipStore';
@@ -94,7 +95,8 @@ const tooltip = useTooltipStore();
 const chartStart = ref('');
 const chartEnd = ref('');
 
-const maquina = ref([]);
+const labelText = ref(props.parametros.nombre);
+const maquinaDatos = ref([]);
 
 const loading = ref(true);
 const loadingNow = ref(true);
@@ -106,7 +108,7 @@ const offlineNow = ref(false);
 const smartphone = isMobile();
 
 // Chart options reactivo para actualizar título dinámicamente
-const chartOptions = computed(() => getChartOptions(props.parametros));
+//const chartOptions = computed(() => getChartOptions(props.parametros));
 
 // Carga los datos al activarse el tooltip
 watch(
@@ -124,10 +126,14 @@ async function cargarDatos() {
   offlineNow.value = false;
 
   try {
-    const datasets = await fetchChartData(props.parametros);
-    chartData.value = { datasets };
+    const datos = await fetchChartDataBar(props.parametros);
+    maquinaDatos.value = datos.arraySend;
+    chartStart.value = datos.chartStart;
+    chartEnd.value = datos.chartEnd;
+    console.log(datos.arraySend);
+    //chartData.value = { datasets };
   } catch (error) {
-    chartData.value = null;
+    maquinaDatos.value = [null];
     offline.value = true;
   } finally {
     loading.value = false;
@@ -183,6 +189,10 @@ async function cargarDatos() {
 .chart {
   width: 100%;
   height: 235px;
+}
+
+.chart :deep(.g-gantt-timeline-label:nth-of-type(2n)) {
+  display: none;
 }
 
 .offline {

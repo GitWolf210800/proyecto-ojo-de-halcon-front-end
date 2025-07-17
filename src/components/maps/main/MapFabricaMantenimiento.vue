@@ -3,7 +3,7 @@
         <MapMantenimiento :iconos="iconos" ref="mapMantenimientoRef" class="container__map" />
     </div>
 
-    <ToolTipChartInfo 
+    <ToolTipChartBarInfo 
         :position="tooltipPosition"
         :parametros="params"
     />
@@ -19,6 +19,7 @@ import { useReferenceStore } from '@/stores/referencesStore';
 
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
+import ToolTipChartBarInfo from '@/modules/tooltip/components/ToolTipChartBarInfo.vue';
 
 import { createTooltipConfig } from '@/funciones';
 import {
@@ -91,6 +92,16 @@ watchEffect(() => {
         dataColorInfoMantenimiento(mapMantenimientoRef.value.svgRef);
     }
 });
+
+
+/**
+
+<ToolTipChartInfo 
+        :position="tooltipPosition"
+        :parametros="params"
+    />
+
+ */
 
 </script>
 
