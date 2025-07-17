@@ -188,7 +188,7 @@ async function cargarDatos() {
 
 .chart {
   width: 100%;
-  height: 235px;
+  height: 115px;
 }
 
 .chart :deep(.g-gantt-timeline-label:nth-of-type(2n)) {
