@@ -115,7 +115,7 @@ async function cargarDatos() {
     maquinaDatos.value = datos.arraySend;
     chartStart.value = datos.chartStart;
     chartEnd.value = datos.chartEnd;
-    console.log(datos.arraySend);
+    //console.log(datos.arraySend);
     //chartData.value = { datasets };
   } catch (error) {
     maquinaDatos.value = [null];
