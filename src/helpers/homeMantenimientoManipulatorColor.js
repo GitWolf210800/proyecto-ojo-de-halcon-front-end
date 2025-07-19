@@ -1,10 +1,12 @@
 import { useHomeMantenimientoStore } from "@/stores/homeMantenimientoStore";
 import { useDataHomeMantenimiento } from "@/components/componsables/useMantenimiento";
-import { alarmColor, alertColor, offlineColor, okColor, paroManual } from "@/variables";
+import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroManual } from "@/variables";
 
 const estadoColors = {
     "CARGA": okColor,
     "PARO": paroManual,
+    "AVERIA":  averia,
+    "DESCARGA": descarga
 };
 
 const textColors = {

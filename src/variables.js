@@ -40,3 +40,5 @@ export const tempMhotExt = "#FA9133";
 export const tempHotExt = "#F43B2F";
 export const fallaColor = '#5A00C6';
 export const paroManual = '#004C6C';
+export const averia = '#e81b06';
+export const descarga = '#d8c505';
