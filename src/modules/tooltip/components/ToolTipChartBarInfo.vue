@@ -16,13 +16,14 @@
         bar-start="beginDate"
         bar-end="endDate"
       >
-        <g-gantt-row :label="labelText" :bars="maquinaDatos" />
+        <g-gantt-row  :bars="maquinaDatos" />
       </g-gantt-chart>
     </div>
 
     <div class="info">
       <ul>
-        <span v-if="loadingNow">Cargando Datos...</span>
+        <span>{{ labelText }}</span>
+        <span v-if="loadingNow" style="color: #ead604;"> Cargando Datos...</span>
         <span class="offline" v-else-if="offlineNow" :style="{ color: offlineColor }">offline</span>
         <li v-for="(item, index) in dataNow" :key="index" v-if="dataNow">
           <div v-for="key in Object.keys(item)" :key="key">
@@ -62,28 +63,11 @@
 
 <script setup>
 import { ref, watch, computed } from 'vue';
-/*import { Bar } from 'vue-chartjs';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-  TimeScale
-} from 'chart.js';
-import 'chartjs-adapter-date-fns';
-import getChartOptions from '../utils/charOptions';
-import { fetchChartData } from '../utils/fetchChartData';*/
 import { fetchChartDataBar } from '../utils/fetchChartDataBar';
 import { fetchInfoDataNow } from '../utils/fetchInfoDataNow';
 import { alarmColor, textOkColor, offlineColor } from '@/variables';
 import { useTooltipStore } from '@/stores/tooltipStore';
 import { formatValue, isMobile } from '@/funciones';
-
-//ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
 const props = defineProps({
   position: Object,
@@ -107,14 +91,15 @@ const offline = ref(false);
 const offlineNow = ref(false);
 const smartphone = isMobile();
 
-// Chart options reactivo para actualizar título dinámicamente
-//const chartOptions = computed(() => getChartOptions(props.parametros));
-
 // Carga los datos al activarse el tooltip
 watch(
   () => tooltip.visibility.chartInfo,
   (visible) => {
     if (visible) cargarDatos();
+    else {
+      maquinaDatos.value = [];
+      dataNow.value = [];
+    }
   },
   { immediate: true }
 );
