@@ -79,7 +79,7 @@ const tooltip = useTooltipStore();
 const chartStart = ref('');
 const chartEnd = ref('');
 
-const labelText = ref(props.parametros.nombre);
+const labelText = ref('');
 const maquinaDatos = ref([]);
 
 const loading = ref(true);
@@ -99,6 +99,7 @@ watch(
     else {
       maquinaDatos.value = [];
       dataNow.value = [];
+      labelText.value = '';
     }
   },
   { immediate: true }
@@ -115,6 +116,7 @@ async function cargarDatos() {
     maquinaDatos.value = datos.arraySend;
     chartStart.value = datos.chartStart;
     chartEnd.value = datos.chartEnd;
+    labelText.value = props.parametros.nombre;
     //console.log(datos.arraySend);
     //chartData.value = { datasets };
   } catch (error) {
