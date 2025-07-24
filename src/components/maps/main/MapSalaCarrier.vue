@@ -15,12 +15,11 @@
   <ToolTipChart
     :position="tooltipPosition"
     :parametros="params"
-    v-if="tooltipVisibility.chart"
+    v-if="tooltip.visibility.chart && tooltip.activeTooltipId === currentTooltipId"
   />
   <ToolTipInfoTable
     :position="tooltipPosition"
     :parametros="params"
-    v-if="tooltipVisibility.infoTable"
   />
 </template>
 
@@ -36,10 +35,11 @@ import {
   TOOLTIP_INFO_TABLE,
 } from "@/variables";
 import { dataColorInfoCarrier } from "@/helpers/homeCarrierColorManipulator";
+import { useTooltipStore } from "@/stores/tooltipStore";
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
 import { alarmColor, okColor, paroManual } from "@/variables";
 import { createRouterConfig, createTooltipConfig } from "@/funciones";
-import { onMounted, ref, watch, nextTick, watchEffect, onUnmounted } from "vue";
+import { computed, onMounted, ref, watch, nextTick, watchEffect, onUnmounted } from "vue";
 //import { server } from "@/variables";
 
 import { useDataHomeClima } from '@/components/componsables/useHomeClima';
@@ -54,6 +54,7 @@ const {
   hideTooltip,
 } = useTooltip();
 
+const tooltip = useTooltipStore();
 const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 const route = useRoute();
 const router = useRouter();
@@ -62,6 +63,12 @@ const opcion1 = ref(false);
 const opcion2 = ref(false);
 const loading = ref(true);
 const mapCarrier = ref(null);
+
+const currentTooltipId = computed(() =>
+  params.value && params.value.nombre && params.value.medicion
+    ? `${params.value.nombre}_${params.value.medicion}`
+    : null
+);
 
 let result = Object.values(parametros).join("");
 let mediciones = [];
