@@ -60,7 +60,7 @@ const sesion = ref(!!localStorage.getItem("sesion"));
 if (sesion.value) {
   loginTrue.value = true;
   const sesionData = ref(JSON.parse(localStorage.getItem("sesion")));
-  bienvenida.value(sesionData.value.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ')
+  bienvenida.value = sesionData.value.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ')
   nombreUsuario.value = sesionData.value.name;
 }
 
