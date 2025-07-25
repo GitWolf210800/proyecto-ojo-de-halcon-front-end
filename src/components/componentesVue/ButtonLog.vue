@@ -2,7 +2,7 @@
   <LoginButtom @click="toggleLoginForm" v-if="!loginTrue && !isInternetMode" />
   <LogoutButtom @click="logout" v-else-if="loginTrue" />
 
-  <p class="log__text" v-show="loginTrue">Bienvenido {{ nombreUsuario }}</p>
+  <p class="log__text" v-show="loginTrue">{{bienvenida}}{{ nombreUsuario }}</p>
 
   <div v-if="visibilityForm" class="login">
     <h1>Login Ojo de Halcón</h1>
@@ -60,7 +60,7 @@ const sesion = ref(!!localStorage.getItem("sesion"));
 if (sesion.value) {
   loginTrue.value = true;
   const sesionData = ref(JSON.parse(localStorage.getItem("sesion")));
-  bienvenida.value = sesionData.value.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ')
+  bienvenida.value = sesionData.value.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ';
   nombreUsuario.value = sesionData.value.name;
 }
 
