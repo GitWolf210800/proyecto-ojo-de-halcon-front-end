@@ -84,7 +84,7 @@ const maquinaDatos = ref([]);
 
 const loading = ref(true);
 const loadingNow = ref(true);
-const chartData = ref(null);
+//const chartData = ref(null);
 const dataNow = ref(null);
 const setsNow = ref(null);
 const offline = ref(false);

@@ -8,11 +8,11 @@ export function useTooltip() {
   const tooltip = useTooltipStore();
   const tooltipPosition = ref({ x: 0, y: 0 });
   const params = ref({});
-  const tooltipVisibility = ref({
+  /*const tooltipVisibility = ref({
     chart: false,
     chartInfo: false,
     infoTable: false,
-  });
+  });*/
   const smartphone = isMobile();
 
   // Función para calcular la posición del tooltip
@@ -54,7 +54,7 @@ export function useTooltip() {
   return {
     tooltipPosition,
     params,
-    tooltipVisibility,
+    //tooltipVisibility,
     displayTooltip,
     hideTooltip,
   };
