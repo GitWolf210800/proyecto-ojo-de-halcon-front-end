@@ -1,6 +1,6 @@
 <template> 
   <div
-    v-show="tooltip.visibility.chartInfo" 
+    v-show="tooltip.visibility.chartBarInfo" 
     class="tooltipInfo"
     :class="{ tooltip__fullscreen: smartphone }"
     :style="smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }"
@@ -93,7 +93,7 @@ const smartphone = isMobile();
 
 // Carga los datos al activarse el tooltip
 watch(
-  () => tooltip.visibility.chartInfo,
+  () => tooltip.visibility.chartBarInfo,
   (visible) => {
     if (visible) cargarDatos();
     else {
