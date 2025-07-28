@@ -18,7 +18,6 @@ import { useHomeMantenimientoStore } from '@/stores/homeMantenimientoStore';
 import { useReferenceStore } from '@/stores/referencesStore';
 
 import { useTooltip } from "@/modules/tooltip/utils/useTooltip";
-import ToolTipChartInfo from "@/modules/tooltip/components/ToolTipChartInfo.vue";
 import ToolTipChartBarInfo from '@/modules/tooltip/components/ToolTipChartBarInfo.vue';
 
 import { createTooltipConfig } from '@/funciones';
