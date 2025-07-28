@@ -5,7 +5,9 @@ export const useTooltipStore = defineStore('tooltip', {
     status: true,
     visibility: {
       chart: false,
+      chartBar: false,
       chartInfo: false,
+      chartInfoBar: false,
       infoTable: false
     },
     activeTooltipId: null,
