@@ -39,6 +39,12 @@ const routes = [
     name: 'salaFiltro',
     component: () => import('@/views/MainMapSalaFiltros.vue'),
     meta: { requiresAuth: true }
+  },
+  {
+    path: '/serial',
+    name: 'serial',
+    component: () => import('@/views/Serial.vue'),
+    meta: { requiresAuth: true }
   }
 ]
 
