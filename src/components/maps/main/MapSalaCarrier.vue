@@ -17,6 +17,12 @@
     :parametros="params"
     v-if="tooltip.visibility.chart && tooltip.activeTooltipId === currentTooltipId"
   />
+
+  <ToolTipChartBar 
+    :position="tooltipPosition"
+    :parametros="params"
+  />
+
   <ToolTipInfoTable
     :position="tooltipPosition"
     :parametros="params"
@@ -27,7 +33,7 @@
 import { useRoute, useRouter } from "vue-router";
 import axios from "axios";
 import MapChillerOption1 from "@/components/maps/chillers/MapChillerOption1.vue";
-import MapChillerOption2 from "@/components/maps/chillers/MapChillerOption1.vue";
+import MapChillerOption2 from "@/components/maps/chillers/MapChillerOption2.vue";
 import ToolTipChart from "@/modules/tooltip/components/ToolTipChart.vue";
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
 import {
@@ -43,6 +49,7 @@ import { computed, onMounted, ref, watch, nextTick, watchEffect, onUnmounted } f
 //import { server } from "@/variables";
 
 import { useDataHomeClima } from '@/components/componsables/useHomeClima';
+import ToolTipChartBar from "@/modules/tooltip/components/ToolTipChartBar.vue";
 
 let intervalId;
 
@@ -105,17 +112,29 @@ function initializeTooltipEvents() {
         TOOLTIP_CHART_CONFIG
       )
     ),
-    ...datosGral.mediciones.map((dato) =>
-      createTooltipConfig(
-        `#${dato}`,
-        "chart",
-        { nombre: result, medicion: dato, tabla: "mediciones_carrier" },
-        TOOLTIP_CHART_CONFIG
-      )
-    ),
+    ...datosGral.mediciones.map((dato) => {
+  if (dato.startsWith('ventilador') || dato.startsWith('bomba') || dato.startsWith('filtro') || dato.startsWith('valvula')) {
+    return createTooltipConfig(
+      `#${dato}`,
+      "chartBar",
+      { nombre: result, medicion: dato, tabla: "mediciones_carrier" },
+      TOOLTIP_CHART_CONFIG
+    )
+  } else {
+    return createTooltipConfig(
+      `#${dato}`,
+      "chart",
+      { nombre: result, medicion: dato, tabla: "mediciones_carrier" },
+      TOOLTIP_CHART_CONFIG
+    )
+  }
+}).filter(Boolean), // por si alguno devuelve null/undefined
   ];
 
+  console.log(tooltipConfigs);
+
   tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
+    //console.log(selector);
     const element = svg.querySelector(selector);
     if (element) {
       element.addEventListener("mouseover", (e) =>
@@ -128,19 +147,19 @@ function initializeTooltipEvents() {
 
 function setElementColor(element, medicion, value) {
   const fillColor =
-    value === 100
+    value === 'MARCHA' || value === '100'
       ? okColor
-      : value === 50
+      : value === 'PARO' || value === '50' || value === 50
       ? paroManual
-      : value === 0
+      : value === 'FALLA'
       ? alarmColor
       : "#D5A200";
   const strokeColor =
-    value === 100
+    value === 'MARCHA' || value === '100'
       ? okColor
       : value === 80
       ? "#E9EC03"
-      : value === 5 || value === 50
+      : value === 5 || value === 'PARO' || value === 'CERRADO' || value === '50'
       ? paroManual
       : null;
 

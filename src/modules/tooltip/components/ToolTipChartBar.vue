@@ -1,7 +1,7 @@
 <template>
     <div
         v-show="tooltip.visibility.chartBar" 
-        class="tooltipInfo"
+        class="tooltip"
         :class="{ tooltip__fullscreen: smartphone }"
         :style="smartphone ? {} : { left: `${position.x}px`, top: `${position.y}px` }"
     >
@@ -88,7 +88,7 @@ async function cargarDatos() {
   padding: 10px;
   z-index: 1555;
   width: 575px;
-  height: 272px;
+  height: 142px;
 }
 
 .tooltip__fullscreen {
