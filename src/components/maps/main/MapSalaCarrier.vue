@@ -113,7 +113,7 @@ function initializeTooltipEvents() {
       )
     ),
     ...datosGral.mediciones.map((dato) => {
-  if (dato.startsWith('ventilador') || dato.startsWith('bomba') || dato.startsWith('filtro') || dato.startsWith('valvula')) {
+  if (dato.startsWith('ventilador') || dato.startsWith('bomba') || dato.startsWith('filtro') || dato.startsWith('valvula') || dato.startsWith('estado')) {
     return createTooltipConfig(
       `#${dato}`,
       "chartBar",
