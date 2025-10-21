@@ -104,7 +104,7 @@ watch(
     if (newSesion !== null) {
       const rol = newSesion.rol;
       //console.log(rol);
-      show.value = (rol === 'SUPER_USER' || rol === 'ADMIN_LIMITES');
+      show.value = (rol === 'SUPER_USER' || rol === 'ADMIN_LIMITES' || rol === 'RESPONSABLE_MANTENIMIENTO_CLIMA');
     } else {
       show.value = false;
     }
