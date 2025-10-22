@@ -8,6 +8,7 @@
 
     <CalibracionClima />
     <LimitesFiltros />
+    <EstadoCompresor />
     <ClimaExterior />
     <ButtonLog />
   </div>
@@ -16,6 +17,7 @@
 <script setup>
 import CalibracionClima from '@/components/componentesVue/CalibracionClima.vue';
 import LimitesFiltros from '@/components/componentesVue/LimitesFiltros.vue';
+import EstadoCompresor from './EstadoCompresor.vue';
 import ButtonLog from '@/components/componentesVue/ButtonLog.vue';
 import HomeButtom from '@/components/icons/HomeButtom.vue';
 import ClimaExterior from '@/components/componentesVue/ClimaExterior.vue';
