@@ -5,6 +5,9 @@ export const useMantenimientoEdicion = defineStore('mantenimientoEdicion', {
     state: () => ({
         edicion: {
             marchaCompresores: null
+        },
+        acciones: {
+            marchaCompresores: false
         }
     })
 });

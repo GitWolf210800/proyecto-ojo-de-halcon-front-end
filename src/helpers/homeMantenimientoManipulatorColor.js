@@ -1,5 +1,6 @@
 import { useHomeMantenimientoStore } from "@/stores/homeMantenimientoStore";
 import { useDataHomeMantenimiento } from "@/components/componsables/useMantenimiento";
+import { useMantenimientoEdicion } from "@/stores/mantenimientoEdicion";
 import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroManual } from "@/variables";
 
 const estadoColors = {
@@ -19,6 +20,7 @@ export const dataColorInfoMantenimiento = async (svg) => {
     const svgStore = svg;
     //console.log(svg);
     let storeData = useHomeMantenimientoStore().datos;
+    let edicion = useMantenimientoEdicion();
 
     if (!storeData){
         await useDataHomeMantenimiento();
@@ -48,14 +50,29 @@ export const dataColorInfoMantenimiento = async (svg) => {
         }
     });
 
-    for(let x in marchaCompresores) {
-        const status = svgStore.querySelector(`#${x}`);
+    if(edicion.marchaCompresores){
+        const edicionCompresores = edicion.marchaCompresores;
+        for(let x in edicionCompresores){
+            const status = svgStore.querySelector(`#${x}`);
 
-        if(status){
-            if(marchaCompresores[x] === 'ACTIVO'){
-                status.style.fill = '#29B32E';
-            } else if (marchaCompresores[x] === 'INACTIVO') {
-                status.style.fill = '#e81b06';
+            if(status){
+                if(edicionCompresores[x] === 'ACTIVO'){
+                    status.style.fill = '#29B32E';
+                } else if (edicionCompresores[x] === 'INACTIVO') {
+                    status.style.fill = '#e81b06';
+                }
+            }
+        }
+    } else {
+        for(let x in marchaCompresores) {
+            const status = svgStore.querySelector(`#${x}`);
+
+            if(status){
+                if(marchaCompresores[x] === 'ACTIVO'){
+                    status.style.fill = '#29B32E';
+                } else if (marchaCompresores[x] === 'INACTIVO') {
+                    status.style.fill = '#e81b06';
+                }
             }
         }
     }
