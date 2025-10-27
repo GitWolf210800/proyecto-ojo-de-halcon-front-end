@@ -26,6 +26,7 @@ export const dataColorInfoMantenimiento = async (svg) => {
     }
 
     const {compresores} = storeData;
+    const {marchaCompresores} = storeData;
 
     //Función para asignar color segun el estado
     const applyColor = (element, color) => {
@@ -46,4 +47,16 @@ export const dataColorInfoMantenimiento = async (svg) => {
             applyColorText(colorText, textColors[estado_compresor] || '#FFF');
         }
     });
+
+    for(let x in marchaCompresores) {
+        const status = svgStore.querySelector(`#${x}`);
+
+        if(status){
+            if(marchaCompresores[x] === 'ACTIVO'){
+                status.style.fill = '#29B32E';
+            } else if (marchaCompresores[x] === 'INACTIVO') {
+                status.style.fill = '#e81b06';
+            }
+        }
+    }
 }
