@@ -1480,7 +1480,7 @@ const props = defineProps({
 
 const svgRef = ref(null);
 const svgStore = useSvgStore();
-console.log(props);
+
 const iconos = ref(props.iconos);
 
 onMounted(() => {

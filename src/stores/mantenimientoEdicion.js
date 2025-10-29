@@ -4,7 +4,7 @@ import { ref } from "vue";
 export const useMantenimientoEdicion = defineStore('mantenimientoEdicion', {
     state: () => ({
         edicion: {
-            marchaCompresores: null
+            marchaCompresores: {}
         },
         acciones: {
             marchaCompresores: false

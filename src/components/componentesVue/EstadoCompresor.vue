@@ -16,9 +16,6 @@ const show = ref(false);
 const esRutaEspecifica = computed(() => route.path === "/mantenimiento");
 const route = useRoute();
 
-const toggle = () => {
-
-};
 
 watch(
   () => dataUserStore.dataUser,
