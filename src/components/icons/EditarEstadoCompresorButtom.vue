@@ -54,6 +54,7 @@
     </g>
     <rect
       v-if="enviar"
+      @click="clickEnviar"
       style="
         fill: #ffffff;
         fill-opacity: 1;
@@ -71,6 +72,7 @@
     />
     <path
       v-if="enviar"
+      @click="clickEnviar"
       id="enviar"
       style="
         fill: #008011;
@@ -126,6 +128,8 @@ import { useMantenimientoEdicion } from "@/stores/mantenimientoEdicion";
 import { useReferenceStore } from "@/stores/referencesStore";
 import { useSvgStore } from "@/stores/svgStore";
 
+const serverApi = import.meta.env.VITE_SERVER_API;
+const serverNodeRed = import.meta.env.VITE_SERVER_NODE_RED;
 const referenceStore = useReferenceStore();
 const mapa = useSvgStore();
 let storeData = useHomeMantenimientoStore().datos;
@@ -223,10 +227,42 @@ const toggle = async () => {
   }
 };
 
+const clickEnviar = async () => {
+  const res = await fetch(`${serverApi}/api/edicionMarchaCompresores`, {
+    method: "POST",
+    credentials: "include",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(edicion.edicion.marchaCompresores)
+  });
+
+  const resJson = await res.json();
+  //console.log(res.json);
+  if(resJson.status = 'Ok'){
+    console.log(resJson.message);
+    await useDataHomeMantenimiento();
+    storeData = useHomeMantenimientoStore().datos;
+    //console.log(storeData.marchaCompresores);
+    edicion.edicion.marchaCompresores = storeData.marchaCompresores;
+    edicion.$patch((state) => {
+      state.edicion.marchaCompresores = {
+      
+      };
+      state.acciones.marchaCompresores = false;
+    });
+    edicion.acciones.marchaCompresores = false;
+    enviar.value = false;
+    cancelar.value = false;
+    //toggleClick.value = false;
+    toggle();
+  }
+};
+
 const clickCancelar = async () => {
   await useDataHomeMantenimiento();
   storeData = useHomeMantenimientoStore().datos;
-  console.log(storeData.marchaCompresores);
+  //console.log(storeData.marchaCompresores);
   edicion.edicion.marchaCompresores = storeData.marchaCompresores;
   edicion.$patch((state) => {
     state.edicion.marchaCompresores = {
