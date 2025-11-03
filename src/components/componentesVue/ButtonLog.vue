@@ -136,6 +136,27 @@ const handleSubmit = async () => {
     console.error("Error:", err);
     error.value = true;
   }
+
+  setInterval(async () => {
+  const sesion = localStorage.getItem("sesion");
+  if (!sesion) return;
+
+  try {
+    const res = await fetch(`${server}/api/verify-token`, {
+      method: "GET",
+      credentials: "include",
+    });
+    const data = await res.json();
+    if (!data.valid) {
+      localStorage.removeItem("sesion");
+      loginTrue.value = false;
+      console.warn("⚠️ Token expirado, sesión cerrada automáticamente");
+    }
+  } catch (err) {
+    console.error("Error verificando token:", err);
+  }
+}, 15 * 60 * 1000); // cada 15 minutos
+
 };
 </script>
 

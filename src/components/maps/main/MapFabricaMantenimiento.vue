@@ -121,7 +121,7 @@ watch(
         //console.log("svgRef:", mapMantenimientoRef.value.svgRef);
         if(!eventos.value.warningCompresor){
             const tooltipConfigs = [
-                createTooltipConfig("#compresorWarning", "infoTable", { solicitud: "warning_compresores" }, TOOLTIP_INFO_TABLE),
+                createTooltipConfig("#compresorWarning", "infoTable", { solicitud: "alerta_compresores" }, TOOLTIP_INFO_TABLE),
             ];
 
             tooltipConfigs.forEach(({ selector, tooltipType, payload, config }) => {
