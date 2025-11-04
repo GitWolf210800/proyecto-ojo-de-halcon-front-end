@@ -1,99 +1,72 @@
 <template>
-  <LoginButtom @click="toggleLoginForm" v-if="!loginTrue && !isInternetMode" />
-  <LogoutButtom @click="logout" v-else-if="loginTrue" />
+    <LoginButtom @click="toggleLoginForm" v-if="!auth.loginTrue && !isInternetMode" />
+  <LogoutButtom @click="logout" v-else-if="auth.loginTrue" />
 
-  <p class="log__text" v-show="loginTrue">{{`${bienvenida}${nombreUsuario}`}}</p>
+  <p class="log__text" v-show="auth.loginTrue">
+    {{ auth.user?.sexo === "MASCULINO" ? "BIENVENIDO!!" : "BIENVENIDA!!" }} {{ auth.user?.name }}
+  </p>
 
   <div v-if="visibilityForm" class="login">
     <h1>Login Ojo de Halcón</h1>
     <form @submit.prevent="handleSubmit">
-      <label for="username">
-        <fa icon="user" />
-      </label>
-      <input
-        v-model="form.legajo"
-        id="username"
-        type="text"
-        placeholder="Legajo"
-        required
-      />
-      <label for="password">
-        <fa icon="lock" />
-      </label>
-      <input
-        v-model="form.contraseña"
-        id="password"
-        type="password"
-        placeholder="Password"
-        required
-      />
+      <label for="username"><fa icon="user" /></label>
+      <input v-model="form.legajo" id="username" type="text" placeholder="Legajo" required />
 
-      <p class="error" v-if="error" id="error">Error en Inicio de Sesión</p>
+      <label for="password"><fa icon="lock" /></label>
+      <input v-model="form.contraseña" id="password" type="password" placeholder="Password" required />
+
+      <p class="error" v-if="error">Error en Inicio de Sesión</p>
       <input type="submit" value="Ingresar" />
     </form>
   </div>
 </template>
 
 <script setup>
-import { ref, reactive } from "vue";
 import LoginButtom from "@/components/icons/LoginButtom.vue";
 import LogoutButtom from "@/components/icons/LogoutButtom.vue";
+import { ref, reactive, onMounted } from "vue";
+import { useAuthStore } from "@/stores/authStore";
 import { useDataUserStore } from "@/stores/dataUserStore";
 
 const server = import.meta.env.VITE_SERVER_API;
 const accessMode = import.meta.env.VITE_ACCESS_MODE;
-const isInternetMode = ref(accessMode === 'internet');
-//console.log(isInternetMode.value);
+const isInternetMode = ref(accessMode === "internet");
 
-const loginTrue = ref(false);
-const nombreUsuario = ref("");
-const bienvenida = ref('');
-const visibilityForm = ref(false);
-const error = ref(null);
+const auth = useAuthStore(); // 🔹 Store global de sesión
+const dataUser = useDataUserStore(); // tu store previa (si la usás para más datos)
 
-const form = reactive({
-  legajo: "",
-  contraseña: "",
+// Inicializa sesión desde localStorage si existe
+onMounted(() => {
+  auth.initFromStorage();
+
+  if (!auth.loginTrue && isInternetMode.value) {
+    visibilityForm.value = true;
+  }
+
+  // Verificación periódica del token (cada 15 min)
+  setInterval(verifyTokenPeriodically, 15 * 60 * 1000);
 });
 
-const sesion = ref(!!localStorage.getItem("sesion"));
-if (sesion.value) {
-  loginTrue.value = true;
-  const sesionData = ref(JSON.parse(localStorage.getItem("sesion")));
-  console.log(sesionData.value.sexo);
-  bienvenida.value = sesionData.value.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ';
-  nombreUsuario.value = sesionData.value.name;
-}
-
-if (!sesion.value && isInternetMode.value){
-  visibilityForm.value = true;
-}
+const visibilityForm = ref(false);
+const error = ref(null);
+const form = reactive({ legajo: "", contraseña: "" });
 
 const toggleLoginForm = () => {
   visibilityForm.value = !visibilityForm.value;
 };
 
 const logout = async () => {
-  const userData = useDataUserStore();
-  await fetch(`${server}/api/logout`, {
-    method: 'GET',
-    credentials: 'include'
-  });
-
-  userData.dataUser = null;
-  localStorage.removeItem("sesion");
-  nombreUsuario.value = "";
-  loginTrue.value = false;
-  // ⚡️ Redirección o recarga según modo
-  if (isInternetMode.value) {
-    window.location.href = "/"; // recarga toda la app en modo internet
-  }
+  try {
+    await fetch(`${server}/api/logout`, { method: "GET", credentials: "include" });
+  } catch {}
+  auth.clearUser();
+  dataUser.clearDataUser();
 };
 
 const handleSubmit = async () => {
   error.value = null;
-  const { legajo, contraseña } = form;
 
+  const { legajo, contraseña } = form;
   if (!legajo || !contraseña) {
     error.value = true;
     return;
@@ -107,39 +80,25 @@ const handleSubmit = async () => {
       body: JSON.stringify({ user: legajo, password: contraseña }),
     });
 
-    if (!res.ok) {
-      error.value = "Error en la solicitud";
-      return;
-    }
+    if (!res.ok) throw new Error("Error en la solicitud");
 
     const data = await res.json();
-
-    localStorage.setItem("sesion", JSON.stringify(data.usuario));
-    loginTrue.value = !!data.usuario.name;
-    nombreUsuario.value = data.usuario.name;
-    console.log(data);
-    bienvenida.value = data.usuario.sexo === 'MASCULINO' ? 'BIENVENIDO!! ' : 'BIENVENIDA!! ';
-
-    const userData = useDataUserStore();
-    userData.setDataUser(data.usuario);
+    auth.setUser(data.usuario);
+    dataUser.setDataUser(data.usuario);
 
     form.legajo = "";
     form.contraseña = "";
-    visibilityForm.value = !loginTrue.value;
-
-    // ⚡️ Redirección o recarga según modo
-    if (isInternetMode.value) {
-      window.location.href = "/"; // recarga toda la app en modo internet
-    }
+    visibilityForm.value = false;
 
   } catch (err) {
     console.error("Error:", err);
     error.value = true;
   }
+};
 
-  setInterval(async () => {
-  const sesion = localStorage.getItem("sesion");
-  if (!sesion) return;
+// 🔍 Función que verifica si el token sigue siendo válido
+async function verifyTokenPeriodically() {
+  if (!auth.loginTrue) return;
 
   try {
     const res = await fetch(`${server}/api/verify-token`, {
@@ -148,17 +107,15 @@ const handleSubmit = async () => {
     });
     const data = await res.json();
     if (!data.valid) {
-      localStorage.removeItem("sesion");
-      loginTrue.value = false;
       console.warn("⚠️ Token expirado, sesión cerrada automáticamente");
+      logout();
     }
   } catch (err) {
     console.error("Error verificando token:", err);
   }
-}, 15 * 60 * 1000); // cada 15 minutos
-
-};
+}
 </script>
+
 
 
 <style scoped>
