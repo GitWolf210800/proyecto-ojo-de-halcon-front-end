@@ -1199,7 +1199,7 @@
         </tspan>
       </text>
       <path
-        id="fab1_VV120_compresor"
+        id="fab1_vv120_compresor"
         v-if="iconos.compresores"
         style="
           display: inline;
