@@ -42,6 +42,7 @@ const { tooltipPosition, params, tooltipVisibility, displayTooltip, hideTooltip 
 const mapMantenimientoRef = ref(null);
 const iconos = ref({
     compresores: true,
+    secadores: true,
     warningCompresores: false
 })
 //let svg = null;

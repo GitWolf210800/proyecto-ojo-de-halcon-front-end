@@ -3,8 +3,6 @@ import { useDataHomeMantenimiento } from "@/components/componsables/useMantenimi
 import { useMantenimientoEdicion } from "@/stores/mantenimientoEdicion";
 import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroManual } from "@/variables";
 
-let edicion = useMantenimientoEdicion();
-
 const estadoColors = {
     "CARGA": okColor,
     "PARO": paroManual,
@@ -95,7 +93,7 @@ export const dataColorInfoMantenimiento = async (svg) => {
         storeData = homeStore.datos;
     }
 
-    const { compresores, marchaCompresores } = storeData;
+    const { compresores, secadores, marchaCompresores } = storeData;
 
     const applyColor = (element, color) => {
         if (element) element.style.fill = color;
@@ -111,6 +109,12 @@ export const dataColorInfoMantenimiento = async (svg) => {
         const colorText = svgStore.querySelector(`#${nombre}_text`);
         applyColor(colorButton, estadoColors[estado_compresor] || offlineColor);
         applyColorText(colorText, textColors[estado_compresor] || '#FFF');
+    });
+
+    secadores.forEach(({ nombre, estado_secador }) =>{
+        const colorButtom = svgStore.querySelector(`#${nombre}`);
+        
+        applyColor(colorButtom, estadoColors[estado_secador] || offlineColor);
     });
 
     // 🔄 Capa de edición dinámica
