@@ -2178,6 +2178,7 @@
       transform="matrix(0.00297256,0,0,-0.00259837,202.32239,43.093518)"
       fill="#000000"
       stroke="none"
+      v-if="iconos.warningCompresores"
       id="warningIcon"
       style="fill: #eecb00; fill-opacity: 1; stroke: #000000; stroke-opacity: 1"
     >
@@ -2226,6 +2227,7 @@
       transform="matrix(0.00392252,0,0,-0.0033572,194.29795,41.236367)"
       fill="#000000"
       stroke="none"
+      v-if="iconos.warningCompresores"
       id="compresorWarning"
       style="fill: #e3e3e3; fill-opacity: 1"
     >

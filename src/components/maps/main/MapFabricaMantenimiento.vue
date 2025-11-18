@@ -44,7 +44,7 @@ const iconos = ref({
     compresores: true,
     secadores: true,
     warningCompresores: false
-})
+});
 //let svg = null;
 const storeData = ref(useHomeMantenimientoStore().datos);
 const referenceStorage = ref({});
@@ -119,6 +119,7 @@ watch(
   (listo) => {
     //console.log(mapMantenimientoRef.value.svgRef);
     iconos.value.warningCompresores = datos.value.warningCompresores.length !== 0;
+
     //console.log(iconos.value.warningCompresores);
     if(mapMantenimientoRef.value && iconos.value.warningCompresores){
         const svg = mapMantenimientoRef.value.svgRef;
