@@ -67,6 +67,9 @@ const warningCompresor = computed(() =>
     const tooltipConfigs = [
         ...storeData.value.compresores.map((dato) => 
             createTooltipConfig(`#${dato.nombre}`, 'chartBarInfo', { nombre: dato.nombre, medicion: 'estado_compresor', tabla: 'mediciones_compresores' }, TOOLTIP_CHART_INFO_CONFIG),
+        ),
+        ...storeData.value.secadores.map((dato) =>
+            createTooltipConfig(`#${dato.nombre}`, 'chartBarInfo', {nombre: dato.nombre, medicion: 'estado_secador', tabla: 'mediciones_secadores'}, TOOLTIP_CHART_INFO_CONFIG)
         )
     ];
 

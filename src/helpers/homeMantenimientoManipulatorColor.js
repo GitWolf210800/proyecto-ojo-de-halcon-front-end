@@ -5,6 +5,7 @@ import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroMa
 
 const estadoColors = {
     "CARGA": okColor,
+    "MARCHA": okColor,
     "PARO": paroManual,
     "AVERIA":  averia,
     "DESCARGA": descarga
@@ -112,8 +113,8 @@ export const dataColorInfoMantenimiento = async (svg) => {
     });
 
     secadores.forEach(({ nombre, estado_secador }) =>{
-        const colorButtom = svgStore.querySelector(`#${nombre}`);
-        
+        const colorButtom = svgStore.querySelector(`#${nombre}_icon`);
+        //console.log(nombre, estado_secador);
         applyColor(colorButtom, estadoColors[estado_secador] || offlineColor);
     });
 
