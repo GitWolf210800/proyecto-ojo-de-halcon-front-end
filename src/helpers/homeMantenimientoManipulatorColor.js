@@ -12,8 +12,8 @@ const estadoColors = {
 };
 
 const textColors = {
-  1: '#000',
-  0: '#FFF',
+  "CARGA": '#FFFFFF',
+  "PARO": '#FFF',
   2: '#000'  
 };
 
@@ -101,12 +101,13 @@ export const dataColorInfoMantenimiento = async (svg) => {
     };
 
     const applyColorText = (element, color) => {
-        if (element) element.style.stroke = color;
+        //console.log(element);
+        if (element) element.style.fill = color;
     };
 
     // Aplica colores base
     compresores.forEach(({ nombre, estado_compresor }) => {
-        const colorButton = svgStore.querySelector(`#${nombre}`);
+        const colorButton = svgStore.querySelector(`#${nombre}_icon`);
         const colorText = svgStore.querySelector(`#${nombre}_text`);
         applyColor(colorButton, estadoColors[estado_compresor] || offlineColor);
         applyColorText(colorText, textColors[estado_compresor] || '#FFF');
