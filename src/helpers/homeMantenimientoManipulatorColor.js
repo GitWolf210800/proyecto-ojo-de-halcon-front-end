@@ -12,8 +12,8 @@ const estadoColors = {
 };
 
 const textColors = {
-  "CARGA": '#FFFFFF',
-  "PARO": '#FFF',
+  "CARGA": '#001F3F',
+  "PARO": '#FFFFFF',
   2: '#000'  
 };
 
@@ -103,6 +103,7 @@ export const dataColorInfoMantenimiento = async (svg) => {
     const applyColorText = (element, color) => {
         //console.log(element);
         if (element) element.style.fill = color;
+        //if(color === '#FFFFFF') element.style.stroke = '#000';
     };
 
     // Aplica colores base
