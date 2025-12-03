@@ -62,7 +62,7 @@ const warningCompresor = computed(() =>
   mapMantenimientoRef.value ? datos.value.warningCompresores || [] : []
 );
 
-  function initializeTooltipEvents(svg){
+function initializeTooltipEvents(svg){
 
     const tooltipConfigs = [
         ...storeData.value.compresores.map((dato) => 

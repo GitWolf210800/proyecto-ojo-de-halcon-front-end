@@ -259,6 +259,38 @@ const clickEnviar = async () => {
   }
 };
 
+/*const clickEnviar = async () => {
+  const res = await fetch(`${serverApi}/api/edicionMarchaCompresores`, {
+    method: "POST",
+    credentials: "include",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(edicion.edicion.marchaCompresores)
+  });
+
+  const resJson = await res.json();
+
+  if (resJson.status === 'Ok' || resJson.status === 'ok') {
+    console.log(resJson.message);
+
+    await useDataHomeMantenimiento();
+    storeData = useHomeMantenimientoStore().datos;
+
+    edicion.edicion.marchaCompresores = storeData.marchaCompresores;
+
+    edicion.$patch((state) => {
+      state.edicion.marchaCompresores = {};
+      state.acciones.marchaCompresores = false;
+    });
+
+    enviar.value = false;
+    cancelar.value = false;
+
+    toggle();
+  }
+};*/
+
 const clickCancelar = async () => {
   await useDataHomeMantenimiento();
   storeData = useHomeMantenimientoStore().datos;
