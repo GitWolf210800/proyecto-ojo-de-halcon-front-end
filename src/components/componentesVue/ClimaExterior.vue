@@ -412,7 +412,7 @@ async function dataAndAccion() {
     if (response.data) {
       //console.log(response.data);
       const svg = svgRef.value;
-      const datosClima = response.data.clima[0];
+      const datosClima = response.data.clima;
       const nombre = datosClima.nombre;
       const ultimaVez = svg.querySelector("#ultimaVez");
       ultimaVez.textContent = response.data.ultimaVez;

@@ -6,6 +6,7 @@
       </RouterLink>
     </div>
 
+    <Settings />
     <CalibracionClima />
     <LimitesFiltros />
     <EstadoCompresor />
@@ -15,6 +16,7 @@
 </template>
 
 <script setup>
+import Settings from './Settings.vue';
 import CalibracionClima from '@/components/componentesVue/CalibracionClima.vue';
 import LimitesFiltros from '@/components/componentesVue/LimitesFiltros.vue';
 import EstadoCompresor from './EstadoCompresor.vue';

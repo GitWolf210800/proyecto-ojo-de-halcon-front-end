@@ -731,7 +731,7 @@
         style="
           font-size: 17.3333px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           white-space: pre;
           shape-inside: url(#rect136516);
           display: inline;
@@ -744,7 +744,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2650.6074" y="963.37856" id="tspan903">Fábrica N°6</tspan>
+        <tspan x="2650.6074" y="963.37856" id="tspan1205">Fábrica N°6</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -757,7 +757,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -774,7 +774,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan905">Fábrica N°9</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan1207">Fábrica N°9</tspan>
       </text>
       <rect
         style="
@@ -824,7 +824,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -853,7 +853,7 @@
             font-stretch: normal;
             font-size: 56.5792px;
             font-family: Calibri;
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -902,7 +902,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -929,7 +929,7 @@
             font-stretch: normal;
             font-size: 75.00589523px;
             font-family: Calibri;
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -989,7 +989,7 @@
           font-stretch: normal;
           font-size: 75.00589295px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1012,7 +1012,7 @@
           x="3022.2275"
           y="7161.5073"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1071,7 +1071,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1092,7 +1092,7 @@
         <tspan
           id="tspan31139"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1151,7 +1151,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1172,7 +1172,7 @@
         <tspan
           id="tspan31183"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1231,7 +1231,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1260,7 +1260,7 @@
             font-stretch: normal;
             font-size: 75.0059px;
             font-family: Calibri;
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -1313,7 +1313,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1340,7 +1340,7 @@
             font-stretch: normal;
             font-size: 75.0059px;
             font-family: Calibri;
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -1393,7 +1393,7 @@
           font-stretch: normal;
           font-size: 75.0059px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1414,7 +1414,7 @@
         <tspan
           id="tspan31344"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1473,7 +1473,7 @@
           font-stretch: normal;
           font-size: 75.00589288px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1494,7 +1494,7 @@
         <tspan
           id="tspan31388"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1553,7 +1553,7 @@
           font-stretch: normal;
           font-size: 66.67190473px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1574,7 +1574,7 @@
         <tspan
           id="tspan31432"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1633,7 +1633,7 @@
           font-stretch: normal;
           font-size: 66.67190473px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1654,7 +1654,7 @@
         <tspan
           id="tspan31476"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1713,7 +1713,7 @@
           font-stretch: normal;
           font-size: 66.67190473px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1736,7 +1736,7 @@
           x="4835.9077"
           y="2416.4905"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1795,7 +1795,7 @@
           font-stretch: normal;
           font-size: 66.67190473px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1818,7 +1818,7 @@
           x="5441.5591"
           y="1393.7343"
           style="
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1877,7 +1877,7 @@
           font-stretch: normal;
           font-size: 58.33791747px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1901,7 +1901,7 @@
           y="-6800.144"
           style="
             stroke-width: 0.0490249;
-            -inkscape-font-specification: 'Calibri, Bold';
+            -inkscape-font-specification: &quot;Calibri, Bold&quot;;
             font-family: Calibri;
             font-weight: bold;
             font-style: normal;
@@ -1971,7 +1971,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2039,7 +2039,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2107,7 +2107,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2175,7 +2175,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2243,7 +2243,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2311,7 +2311,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2379,7 +2379,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2447,7 +2447,7 @@
           font-stretch: normal;
           font-size: 56.5792px;
           font-family: Calibri;
-          -inkscape-font-specification: 'Calibri, Bold';
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2483,6 +2483,69 @@
         y="2341.3743"
         transform="matrix(-0.01327,0.99991195,0.99999654,0.0026288,0,0)"
         ry="35.110828"
+      />
+      <path
+        id="fab9_vv921_compresor_icon"
+        v-if="iconos.compresores"
+        style="
+          display: inline;
+          fill: #323232;
+          fill-opacity: 1;
+          stroke-width: 0.0341968;
+        "
+        d="m 6601.7054,3433.0262 c 1.0299,-2.5873 2.0391,-6.4338 2.5384,-9.6934 l 0.3762,-2.671 7.4951,0.054 c 8.1787,0.059 8.3568,0.1001 9.2324,2.4255 0.613,1.5774 0.5621,8.6545 -0.074,10.2228 -0.9087,2.2737 -1.3258,2.3497 -11.3191,2.2778 -4.9961,-0.036 -9.07,-0.183 -9.069,-0.3406 0.031,-0.1965 0.3955,-1.177 0.8195,-2.275 z m 9.5212,-178.2449 c 5.1751,0.037 9.3969,0.224 9.8118,0.4634 0.415,0.1996 1.0344,0.9514 1.3563,1.6612 0.527,1.144 0.5816,1.8522 0.4924,5.9407 l -0.1236,4.6783 -0.9898,1.1331 -0.9597,1.1333 -7.584,-0.055 -7.5543,-0.054 -0.1681,-1.456 c -0.3649,-3.0305 -1.6048,-8.4653 -2.4509,-10.7519 -0.4665,-1.3008 -0.8745,-2.444 -0.8737,-2.562 0,-0.1189 4.0761,-0.1672 9.0429,-0.1317 z m -51.0785,158.483 42.4708,0.3056 -0.2392,4.2842 c -0.519,10.1408 -3.497,18.9267 -8.7521,25.8878 -3.6339,4.8497 -8.1205,8.3557 -13.3107,10.4419 l -2.6253,1.0822 -17.8447,-0.1284 -17.8447,-0.1283 -2.6689,-1.1203 c -12.692,-5.2817 -20.9787,-19.2996 -21.5109,-36.2893 l -0.1444,-4.641 z m 0.8798,-122.2771 42.3815,0.3049 -0.3876,53.8646 -0.3875,53.8649 -42.3815,-0.305 -42.3815,-0.3049 0.3876,-53.8649 0.3875,-53.8646 z m -41.8846,-23.8934 c 0.7223,-5.3027 2.2752,-10.3247 4.6591,-15.1047 4.0438,-8.0308 9.704,-13.4953 17.102,-16.4696 l 2.6847,-1.0815 17.8447,0.1285 17.8448,0.1283 2.6094,1.1195 c 12.6914,5.3601 20.8895,19.2597 21.5378,36.6435 l 0.1778,4.2871 -42.4111,-0.3051 -42.4411,-0.3053 0.054,-3.4205 c 0.042,-1.9262 0.1805,-4.4419 0.3377,-5.6203 z m 41.0898,134.3753 44.1657,0.3177 -0.031,4.3247 -0.031,4.3252 -44.1657,-0.3177 -44.1661,-0.3177 0.031,-4.3252 0.031,-4.3248 z m 0.7869,-121.8848 44.2556,0.3183 -0.031,4.3247 -0.031,4.3252 -44.1362,-0.3176 -44.1658,-0.3177 -0.059,-4.3258 -0.059,-4.3254 z m -49.0749,103.1751 0.187,-13.4852 1.7845,0.013 1.7845,0.012 -0.098,13.5646 -0.098,13.5643 -1.9332,-0.014 c -1.0706,-0.01 -1.9032,-0.054 -1.8732,-0.09 0.061,-0.076 0.1652,-6.1718 0.246,-13.5634 z m 0.8086,-91.7267 3.5095,0.025 -0.034,4.7182 -0.034,4.7179 -3.5096,-0.025 -3.5094,-0.025 0.1916,-1.8466 c 0.098,-1.0607 0.1129,-3.184 0.034,-4.7572 l -0.1283,-2.8321 z m -6.802,60.7785 c 0.8996,-1.0554 2.5935,-0.8465 3.2984,0.3775 0.6174,1.0267 0.6154,1.302 0.4044,30.633 -0.2111,29.3309 -0.213,29.6059 -0.8451,30.6237 -0.4813,0.7829 -0.8697,1.0161 -1.7323,1.0098 -2.2603,-0.016 -2.1273,2.1867 -1.8832,-31.7444 0.2074,-28.8197 0.2471,-30.3135 0.7578,-30.8996 z m -15.7938,16.5577 7.597,-14.1395 2.617,0.018 2.6472,0.019 -0.2051,28.5053 -0.205,28.5052 -10.1121,-0.073 -10.1121,-0.073 0.103,-14.3117 0.1026,-14.2724 z m -18.4987,-78.7328 c 0.8934,-4.2793 2.2537,-7.3365 4.8355,-10.66 2.5821,-3.4021 4.8849,-5.1158 8.2539,-6.2319 11.3888,-3.7713 22.3737,7.3173 22.383,22.5734 -0.021,6.9592 -1.6044,12.0987 -5.297,16.9084 -3.7232,4.8489 -7.6349,6.9834 -12.9587,6.9451 -5.0558,-0.036 -9.0255,-2.2668 -12.6488,-7.1293 -4.5366,-6.0879 -6.2318,-14.3571 -4.5679,-22.4057 z m 3.526,10.1306 c 1.0834,6.4954 5.3547,12.267 10.4279,14.0728 4.9248,1.7261 10.2041,-0.3595 13.8397,-5.4447 5.4377,-7.5494 5.368,-18.5201 -0.2004,-25.9129 -7.6589,-10.2781 -20.8681,-5.6943 -23.9135,8.2815 -0.4616,2.1596 -0.5535,6.6804 -0.1547,9.0033 z"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          font-size: 75.0059px;
+          font-family: Calibri;
+          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f0f0f0;
+          fill-opacity: 1;
+          stroke: #ffff00;
+          stroke-width: 0.0651727;
+          stroke-dasharray: 34.2099, 8.55247;
+        "
+        x="3022.0239"
+        y="6976.1724"
+        v-if="iconos.compresores"
+        id="fab9_vv921_compresor_text"
+        transform="matrix(-0.00759419,1.0555022,0.94736727,0.00681618,0,0)"
+      >
+        <tspan id="tspan615" x="3022.0239" y="6976.1724">VV921</tspan>
+      </text>
+      <path
+        style="
+          display: inline;
+          fill: #279800;
+          fill-opacity: 1;
+          stroke: #ffffff;
+          stroke-width: 0.0372285;
+          stroke-dasharray: 19.5417, 4.88542;
+        "
+        id="fab9_vv921_compresor_estado"
+        d="m 6488.9401,3314.7023 a 14.593887,19.244872 0.41222781 0 0 14.732,-19.1388 14.593887,19.244872 0.41222781 0 0 -14.4542,-19.35 14.593887,19.244872 0.41222781 0 0 -14.7328,19.1378 14.593887,19.244872 0.41222781 0 0 14.4534,19.3509 l 0.1385,-19.2443 z"
+      />
+      <path
+        id="fab9_vv921_compresor"
+        v-if="iconos.compresores"
+        style="
+          display: inline;
+          fill: #4f4f4f;
+          fill-opacity: 0.208861;
+          stroke-width: 0.0341968;
+        "
+        d="m 6602.0845,3433.5486 c 1.0299,-2.5872 2.039,-6.4338 2.5383,-9.6933 l 0.3762,-2.6711 7.4951,0.054 c 8.1787,0.059 8.3569,0.1002 9.2325,2.4257 0.613,1.5773 0.562,8.6544 -0.073,10.2226 -0.9087,2.2737 -1.3258,2.3497 -11.3191,2.2778 -4.9962,-0.036 -9.0702,-0.1829 -9.069,-0.3406 0.031,-0.1965 0.3954,-1.1769 0.8195,-2.275 z m 9.5211,-178.2449 c 5.1752,0.037 9.3969,0.2241 9.8118,0.4634 0.415,0.1996 1.0345,0.9514 1.3564,1.6613 0.527,1.144 0.5815,1.8521 0.4924,5.9406 l -0.1237,4.6783 -0.9897,1.1331 -0.9597,1.1333 -7.5841,-0.054 -7.5542,-0.054 -0.1681,-1.456 c -0.3649,-3.0305 -1.6048,-8.4653 -2.4509,-10.7519 -0.4665,-1.3008 -0.8746,-2.4439 -0.8738,-2.5619 0,-0.119 4.0762,-0.1672 9.0429,-0.1317 z m -51.0784,158.483 42.4707,0.3056 -0.2391,4.2842 c -0.519,10.1408 -3.4971,18.9267 -8.7522,25.8878 -3.6338,4.8497 -8.1205,8.3558 -13.3106,10.442 l -2.6253,1.0822 -17.8448,-0.1284 -17.8448,-0.1284 -2.6687,-1.1202 c -12.6921,-5.2818 -20.9787,-19.2995 -21.5109,-36.2893 l -0.1444,-4.6411 z m 0.8798,-122.2771 42.3815,0.3049 -0.3876,53.8647 -0.3876,53.8649 -42.3814,-0.3049 -42.3815,-0.305 0.3875,-53.865 0.3876,-53.8645 z m -41.8847,-23.8934 c 0.7224,-5.3027 2.2752,-10.3247 4.6591,-15.1047 4.0438,-8.0308 9.7041,-13.4953 17.1021,-16.4696 l 2.6846,-1.0815 17.8448,0.1285 17.8447,0.1283 2.6095,1.1195 c 12.6914,5.3601 20.8895,19.2598 21.5377,36.6435 l 0.1778,4.2872 -42.4111,-0.3052 -42.4411,-0.3053 0.054,-3.4205 c 0.042,-1.9262 0.1805,-4.4417 0.3376,-5.6203 z m 41.0897,134.3753 44.1659,0.3179 -0.031,4.3246 -0.031,4.3252 -44.1658,-0.3178 -44.166,-0.3177 0.031,-4.3252 0.031,-4.3247 z m 0.787,-121.8848 44.2556,0.3184 -0.031,4.3246 -0.031,4.3252 -44.1362,-0.3175 -44.1659,-0.3178 -0.059,-4.3258 -0.059,-4.3253 z m -49.0749,103.1752 0.187,-13.4852 1.7846,0.012 1.7844,0.013 -0.097,13.5646 -0.098,13.5643 -1.9332,-0.014 c -1.0706,-0.01 -1.9031,-0.054 -1.8732,-0.09 0.061,-0.076 0.1652,-6.1718 0.246,-13.5635 z m 0.8087,-91.7268 3.5094,0.025 -0.034,4.7182 -0.034,4.7179 -3.5095,-0.025 -3.5096,-0.025 0.1917,-1.8466 c 0.098,-1.0607 0.113,-3.1839 0.034,-4.7571 l -0.1283,-2.8321 z m -6.802,60.7785 c 0.8996,-1.0554 2.5934,-0.8464 3.2984,0.3775 0.6174,1.0267 0.6153,1.302 0.4044,30.6331 -0.2111,29.3308 -0.2131,29.6058 -0.8452,30.6236 -0.4813,0.7829 -0.8697,1.0161 -1.7322,1.0098 -2.2604,-0.016 -2.1273,2.1867 -1.8832,-31.7444 0.2073,-28.8197 0.2471,-30.3135 0.7578,-30.8996 z m -15.7938,16.5577 7.597,-14.1395 2.617,0.018 2.6472,0.019 -0.2051,28.5053 -0.2051,28.5053 -10.1121,-0.073 -10.1121,-0.073 0.103,-14.3117 0.1027,-14.2724 z m -18.4988,-78.7328 c 0.8934,-4.2793 2.2538,-7.3365 4.8356,-10.66 2.5821,-3.4021 4.8848,-5.1158 8.2539,-6.2318 11.3888,-3.7713 22.3737,7.3172 22.3829,22.5734 -0.021,6.9592 -1.6043,12.0986 -5.2969,16.9084 -3.7232,4.8488 -7.635,6.9834 -12.9588,6.945 -5.0558,-0.036 -9.0254,-2.2667 -12.6488,-7.1293 -4.5365,-6.0879 -6.2318,-14.3571 -4.5679,-22.4057 z m 3.5259,10.1306 c 1.0835,6.4955 5.3548,12.2671 10.428,14.073 4.9248,1.7259 10.2042,-0.3597 13.8397,-5.4448 5.4377,-7.5495 5.368,-18.5202 -0.2004,-25.913 -7.6589,-10.2781 -20.868,-5.6942 -23.9134,8.2816 -0.4616,2.1595 -0.5535,6.6803 -0.1549,9.0032 z"
       />
     </g>
     <g

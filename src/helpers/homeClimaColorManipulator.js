@@ -61,99 +61,114 @@ export const dataColorInfoClima = async (svg) => {
              continue;
             }
 
-            if (validacion && !isNaN(temperatura)) {
-                const min = datos.min_temperatura;
-                const max = datos.max_temperatura;
-                const minAlarma = datos.min_A_temperatura;
-                const maxAlarma = datos.max_A_temperatura;
-
-            if(minAlarma !== 0 && maxAlarma !==0){
-                if(temperatura < minAlarma || temperatura > maxAlarma){
-                    colorTemp.style.fill = alarmColor;
-                    textTemp.style.fill = '#FFF';
-                    textTemp.style.stroke = '#000';
-                } else if (temperatura < min || temperatura > max){
-                    colorTemp.style.fill = alertColor;
-                    textTemp.style.fill = '#474747';
-                    textTemp.style.stroke = '#2C2C2C';
-                } else {           
-                    colorTemp.style.fill = okColor;
-                    textTemp.style.fill = '#FFF';
-                    textTemp.style.stroke = '#000';
-                }
-            }
-            else {
-                if(temperatura < min || temperatura > max){
-                    colorTemp.style.fill = alertColor;
-                    textTemp.style.stroke = '#2C2C2C';
-                    textTemp.style.fill = '#474747';
-                } else {
-                    colorTemp.style.fill = okColor;
-                    textTemp.style.fill = '#FFF';
-                    textTemp.style.stroke = '#000';
-                }
-            }
-        } else {
-          if (colorTemp) {
-            colorTemp.style.fill = neutroColor;
-          }
-        }
-
-      if (validacion && !isNaN(humedad)){
-        const min = datos.min_humedad;
-        const max = datos.max_humedad;
-        const minAlarma = datos.min_A_humedad;
-        const maxAlarma = datos.max_A_humedad;
-
-        if(minAlarma !== 0 && maxAlarma !== 0){
-          if(humedad < minAlarma || humedad > maxAlarma){
-            colorHum.style.fill = alarmColor;
-            textHum.style.fill = '#FFF';
-            textHum.style.stroke = '#000';
-          } else if (humedad < min || humedad > max) {
-              colorHum.style.fill = alertColor;
-              textHum.style.fill = '#474747';
-              textHum.style.stroke = '#2C2C2C';
-          } else {
-            colorHum.style.fill = okColor;
-            textHum.style.fill = '#FFF';
-            textHum.style.stroke = '#000';
-          }
-        } else {
-          if (humedad < min || humedad > max) {
-              colorHum.style.fill = alarmColor;
+            if(datos.estado === 'MANTENIMIENTO'){
+              colorTemp.style.fill = offlineColor;
+              textTemp.style.fill = '#FFF';
+              textTemp.style.stroke = '#000';
+              colorHum.style.fill = offlineColor;
               textHum.style.fill = '#FFF';
               textHum.style.stroke = '#000';
-          } else {
-            colorHum.style.fill = okColor;
-            textHum.style.fill = '#FFF';
-            textHum.style.stroke = '#000';
-          }
-        }
-      } else {
-        if (colorHum){
-          colorHum.style.fill = neutroColor;
-        }
-      }
+              if(!isNaN(humedadAbs)){
+                colorHumAbs.style.fill = offlineColor;
+                textHumAbs.style.fill = '#FFF';
+                textHumAbs.style.stroke = '#000';
+              }
+            } else {
+                  if (validacion && !isNaN(temperatura)) {
+                    const min = datos.min_temperatura;
+                    const max = datos.max_temperatura;
+                    const minAlarma = datos.min_A_temperatura;
+                    const maxAlarma = datos.max_A_temperatura;
 
-      if (validacion && !isNaN(humedadAbs)){
-        const min = datos.min_humedad_absoluta;
-        const max = datos.max_humedad_absoluta;
+                if(minAlarma !== 0 && maxAlarma !==0){
+                    if(temperatura < minAlarma || temperatura > maxAlarma){
+                        colorTemp.style.fill = alarmColor;
+                        textTemp.style.fill = '#FFF';
+                        textTemp.style.stroke = '#000';
+                    } else if (temperatura < min || temperatura > max){
+                        colorTemp.style.fill = alertColor;
+                        textTemp.style.fill = '#474747';
+                        textTemp.style.stroke = '#2C2C2C';
+                    } else {           
+                        colorTemp.style.fill = okColor;
+                        textTemp.style.fill = '#FFF';
+                        textTemp.style.stroke = '#000';
+                    }
+                }
+                else {
+                    if(temperatura < min || temperatura > max){
+                        colorTemp.style.fill = alertColor;
+                        textTemp.style.stroke = '#2C2C2C';
+                        textTemp.style.fill = '#474747';
+                    } else {
+                        colorTemp.style.fill = okColor;
+                        textTemp.style.fill = '#FFF';
+                        textTemp.style.stroke = '#000';
+                    }
+                }
+            } else {
+              if (colorTemp) {
+                colorTemp.style.fill = neutroColor;
+              }
+            }
 
-        if (humedadAbs < min || humedadAbs > max) {
-              colorHumAbs.style.fill = alarmColor;
-              textHumAbs.style.fill = '#FFF';
-              textHumAbs.style.stroke = '#000';
+          if (validacion && !isNaN(humedad)){
+            const min = datos.min_humedad;
+            const max = datos.max_humedad;
+            const minAlarma = datos.min_A_humedad;
+            const maxAlarma = datos.max_A_humedad;
+
+            if(minAlarma !== 0 && maxAlarma !== 0){
+              if(humedad < minAlarma || humedad > maxAlarma){
+                colorHum.style.fill = alarmColor;
+                textHum.style.fill = '#FFF';
+                textHum.style.stroke = '#000';
+              } else if (humedad < min || humedad > max) {
+                  colorHum.style.fill = alertColor;
+                  textHum.style.fill = '#474747';
+                  textHum.style.stroke = '#2C2C2C';
+              } else {
+                colorHum.style.fill = okColor;
+                textHum.style.fill = '#FFF';
+                textHum.style.stroke = '#000';
+              }
+            } else {
+              if (humedad < min || humedad > max) {
+                  colorHum.style.fill = alarmColor;
+                  textHum.style.fill = '#FFF';
+                  textHum.style.stroke = '#000';
+              } else {
+                colorHum.style.fill = okColor;
+                textHum.style.fill = '#FFF';
+                textHum.style.stroke = '#000';
+              }
+            }
           } else {
-            colorHumAbs.style.fill = okColor;
-            textHumAbs.style.fill = '#FFF';
-            textHumAbs.style.stroke = '#000';
+            if (colorHum){
+              colorHum.style.fill = neutroColor;
+            }
           }
-      } else {
-        if (colorHumAbs) {
-          colorHumAbs.style.fill = neutroColor;
-        }
-      }
+
+          if (validacion && !isNaN(humedadAbs)){
+            const min = datos.min_humedad_absoluta;
+            const max = datos.max_humedad_absoluta;
+
+            if (humedadAbs < min || humedadAbs > max) {
+                  colorHumAbs.style.fill = alarmColor;
+                  textHumAbs.style.fill = '#FFF';
+                  textHumAbs.style.stroke = '#000';
+              } else {
+                colorHumAbs.style.fill = okColor;
+                textHumAbs.style.fill = '#FFF';
+                textHumAbs.style.stroke = '#000';
+              }
+          } else {
+            if (colorHumAbs) {
+              colorHumAbs.style.fill = neutroColor;
+            }
+          }
+            }
+            
     } else {
        if(colorTemp){
         colorTemp.style.fill = offlineColor;
