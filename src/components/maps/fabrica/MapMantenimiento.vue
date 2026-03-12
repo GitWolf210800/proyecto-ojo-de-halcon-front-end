@@ -2676,9 +2676,7 @@
 
 <script setup>
 import { useSvgStore } from "@/stores/svgStore";
-import { onMounted, ref, watch, watchEffect } from "vue";
-//import { storeToRefs } from "pinia";
-//import { useHomeMantenimientoStore } from "@/stores/homeMantenimientoStore";
+import { onMounted, ref } from "vue";
 
 const props = defineProps({
   iconos: {
@@ -2688,36 +2686,14 @@ const props = defineProps({
 });
 
 const svgRef = ref(null);
-const compresorWarning = ref(false);
+
 const svgStore = useSvgStore();
-//const homeMantenimientoStore = useHomeMantenimientoStore();
-//const { datos } = storeToRefs(homeMantenimientoStore);
-//console.log(homeMantenimientoStore.warningCompresor);
 
 const iconos = ref(props.iconos);
 
 onMounted(() => {
   svgStore.setSvgRef(svgRef.value);
 });
-
-/*watch(
-  () => datos.value.warningCompresores,
-  (warningCompresor) => {
-    //console.log(warningCompresor);
-    compresorWarning.value = warningCompresor.length !== 0;
-  },
-  { immediate: true, deep: true }
-);*/
-
-/*watchEffect(() => {
-    //console.log(mapMantenimientoRef.value);
-    console.log(homeMantenimientoStore);
-    if(homeMantenimientoStore.length !== 0) {
-        compresorWarning.value = true;
-    } else {
-      compresorWarning.value = false;
-    }
-});*/
 
 //Exponemos svgRef para que sea accesible desde el componente padre
 defineExpose({
