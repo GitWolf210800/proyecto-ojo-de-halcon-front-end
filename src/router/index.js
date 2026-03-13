@@ -29,6 +29,12 @@ const routes = [
     meta: { requiresAuth: true }
   },
   {
+    path: '/produccion',
+    name: 'produccion',
+    component: () => import('@/views/MainMapProduccion.vue'),
+    meta: { requiresAuth: true }
+  },
+  {
     path: '/carrier',
     name: 'carrier',
     component: () => import('@/views/MainMapSalaCarrier.vue'),

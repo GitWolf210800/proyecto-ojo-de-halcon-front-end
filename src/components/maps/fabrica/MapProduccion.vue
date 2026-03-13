@@ -924,24 +924,14 @@
 import { useSvgStore } from "@/stores/svgStore";
 import { onMounted, ref } from "vue";
 
-const props = defineProps({
-  iconos: {
-    type: Object,
-    required: true,
-  },
-});
-
 const svgRef = ref(null);
-
 const svgStore = useSvgStore();
-
-const iconos = ref(props.iconos);
 
 onMounted(() => {
   svgStore.setSvgRef(svgRef.value);
 });
 
-defineProps({
+defineExpose({
   svgRef,
 });
 </script>

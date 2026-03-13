@@ -17,7 +17,9 @@
         <MantenimientoFabrica class="botones" />
       </RouterLink>
 
-      <ProduccionFabrica class="botones" />
+      <RouterLink to="/produccion">
+        <ProduccionFabrica class="botones" />
+      </RouterLink>
 
     </div>
     
