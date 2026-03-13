@@ -7,12 +7,12 @@
         <MapProduccion />
     </div>
 
-    <footer>
-        <div class="footer_nav">
-            <EyeHawkIconVersion />
-            <LogoTipoitiFooter />
-        </div>
-    </footer>
+  <footer>
+    <div class="footer__nav">
+      <EyeHawkIconVersion />
+      <LogoTipoitiFooter />
+    </div>
+  </footer>
 </template>
 
 <script setup>
@@ -45,3 +45,10 @@ onUnmounted(() => {
     clearInterval(intervalId);
 });
 </script>
+
+<style scoped>
+.login-buttom {
+    display: inline-block;
+  }
+
+</style>
