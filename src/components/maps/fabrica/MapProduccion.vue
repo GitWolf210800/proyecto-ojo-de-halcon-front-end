@@ -761,7 +761,7 @@
        style="font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect136516);display:inline;fill:#ffffff;stroke:#e6f9fb;stroke-width:0.944882;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2650.6074"
          y="963.37856"
-         id="tspan16018">Fábrica N°6</tspan></text>
+         id="tspan20059">Fábrica N°6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-10689.99,9081.4301)"
@@ -769,7 +769,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan16020">Fábrica N°9</tspan></text>
+         id="tspan20061">Fábrica N°9</tspan></text>
   </g>
   <path
      d="m 143.52672,134.29711 -0.0444,-5.52203 -1.3202,0.01 0.009,1.16252 -3.69662,0.0266 -1.04215,1.75142 0.009,1.16253 -1.58424,0.0115 0.0117,1.45315 z"
@@ -778,7 +778,7 @@
      stroke-width="0.221621"
      stroke-linejoin="round"
      id="fab3_b321_carda_estado_color_maquina"
-     style="fill:#f3fae6;fill-opacity:0;stroke:#40eb00;stroke-opacity:1" />
+     style="fill:#f3fae6;fill-opacity:0;stroke:#d78d12;stroke-opacity:1" />
   <ellipse
      cx="-138.47331"
      cy="133.28238"
@@ -790,30 +790,22 @@
      rx="1.1708425"
      ry="1.2521852"
      transform="matrix(-0.99997398,0.00721414,0.00803238,0.99996774,0,0)" />
-  <ellipse
-     style="fill:#d78d12;fill-opacity:1;stroke:#e79100;stroke-width:0.0543212;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-     id="fab3_b321_carda_estado_color"
-     cx="142.74019"
-     cy="130.77866"
-     rx="0.27800915"
-     ry="0.2383846"
-     transform="matrix(0.9999925,0.00387231,0.00140387,0.99999901,0,0)" />
   <text
      xml:space="preserve"
-     transform="matrix(0.11558709,-0.00180911,0.00273449,0.136406,67.151365,65.485775)"
+     transform="matrix(0.11558709,-0.00180911,0.00273449,0.136406,67.082535,65.497247)"
      id="fab3_b321_carda_produccion_estado"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.39543px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9354-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="606.14062"
        y="487.21319"
-       id="tspan16022">Offline</tspan></text>
+       id="tspan20063">Offline</tspan></text>
   <text
      xml:space="preserve"
-     transform="matrix(0.06955807,-0.00108534,0.00196873,0.06494671,97.251113,102.1403)"
+     transform="matrix(0.11369736,-0.0016718,0.00321802,0.10004034,67.857818,84.361093)"
      id="text5714"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5716-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="611.45312"
        y="463.56969"
-       id="tspan16024">B-321</tspan></text>
+       id="tspan20065">B-321</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.96584px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -825,6 +817,17 @@
        x="163.67575"
        y="111.32081"
        style="stroke-width:0">---- Kg/H</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     x="167.92665"
+     y="111.40115"
+     id="fab3_b321_carda_produccion_p"
+     transform="matrix(0.81694451,-0.01371385,0.02287184,1.2236894,0,0)"><tspan
+       id="tspan9363-3"
+       x="167.92665"
+       y="111.40115"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0">P-gruesos: 000 </tspan></text>
 </svg>
 </template>
 
