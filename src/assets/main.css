@@ -9,6 +9,8 @@ body {
 
 html, body {
   touch-action: none; /* Desactiva gestos táctiles que permiten hacer zoom */
+  overflow: hidden;
+  height: 100%;
   /*overflow: hidden; /* Evita que el contenido se desplace fuera de la pantalla */
 }
 
