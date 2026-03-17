@@ -34,7 +34,7 @@ let pinchWorldX = 0
 let pinchWorldY = 0
 
 const minScale = 1
-const maxScale = 6
+const maxScale = 20
 
 el.style.transformOrigin = "0 0"
 

@@ -6,9 +6,10 @@
 
 <script setup>
 import MapProduccion from "@/components/maps/fabrica/MapProduccion.vue";
+import { dataColorInfoProduccion } from "@/helpers/homeProduccionColorManipulatorColor";
 import { useHomeProduccionStore } from "@/stores/homeProduccionStore";
 //import { useReferenceStore } from "@/stores/referencesStore";
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, ref, watchEffect } from "vue";
 
 const mapProduccionRef = ref(null);
 const storeData = ref(useHomeProduccionStore().datos);
@@ -24,6 +25,11 @@ onMounted(async ()=> {
     }
 });
 
+watchEffect(() => {
+    if(dataIsLoaded.value && svgIsLoaded.value){
+        dataColorInfoProduccion(mapProduccionRef.value.svgRef);
+    }
+});
 
 </script>
 

@@ -761,7 +761,7 @@
        style="font-size:17.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect136516);display:inline;fill:#ffffff;stroke:#e6f9fb;stroke-width:0.944882;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2650.6074"
          y="963.37856"
-         id="tspan20059">Fábrica N°6</tspan></text>
+         id="tspan25239">Fábrica N°6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(6.4959298,0,0,-6.2572389,-10689.99,9081.4301)"
@@ -769,35 +769,19 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect136859);display:inline;fill:#ffffff;stroke:#fcfcfc;stroke-width:1.09606;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"><tspan
          x="2612.2793"
          y="749.32143"
-         id="tspan20061">Fábrica N°9</tspan></text>
+         id="tspan25241">Fábrica N°9</tspan></text>
   </g>
-  <path
-     d="m 143.52672,134.29711 -0.0444,-5.52203 -1.3202,0.01 0.009,1.16252 -3.69662,0.0266 -1.04215,1.75142 0.009,1.16253 -1.58424,0.0115 0.0117,1.45315 z"
-     fill="#b7e36a"
-     stroke="#4f5f35"
-     stroke-width="0.221621"
-     stroke-linejoin="round"
-     id="fab3_b321_carda_estado_color_maquina"
-     style="fill:#f3fae6;fill-opacity:0;stroke:#d78d12;stroke-opacity:1" />
   <ellipse
-     cx="-138.47331"
-     cy="133.28238"
+     cx="-138.75053"
+     cy="133.10591"
      fill="none"
      stroke="#4f5f35"
      stroke-width="0.302707"
      id="circle4"
-     style="stroke:#dee5d2;stroke-opacity:0.285714"
+     style="stroke:#dee5d2;stroke-opacity:0.161369"
      rx="1.1708425"
      ry="1.2521852"
      transform="matrix(-0.99997398,0.00721414,0.00803238,0.99996774,0,0)" />
-  <text
-     xml:space="preserve"
-     transform="matrix(0.11558709,-0.00180911,0.00273449,0.136406,67.082535,65.497247)"
-     id="fab3_b321_carda_produccion_estado"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.39543px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect9354-8);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
-       x="606.14062"
-       y="487.21319"
-       id="tspan20063">Offline</tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.11369736,-0.0016718,0.00321802,0.10004034,67.857818,84.361093)"
@@ -805,13 +789,13 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5716-6);display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
        x="611.45312"
        y="463.56969"
-       id="tspan20065">B-321</tspan></text>
+       id="tspan25243">B-321</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.96584px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
      x="163.67575"
      y="111.32081"
-     id="fab3_b321_carda_produccion"
+     id="fab3_b321_puntos_gruesos_produccion_text"
      transform="matrix(0.81694448,-0.01371385,0.02287184,1.2236894,0,0)"><tspan
        id="tspan9363"
        x="163.67575"
@@ -822,12 +806,42 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
      x="167.92665"
      y="111.40115"
-     id="fab3_b321_carda_produccion_p"
+     id="fab3_b321_puntos_gruesos_text"
      transform="matrix(0.81694451,-0.01371385,0.02287184,1.2236894,0,0)"><tspan
        id="tspan9363-3"
        x="167.92665"
        y="111.40115"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0">P-gruesos: 000 </tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     x="166.44482"
+     y="108.71556"
+     id="fab3_b321_puntos_gruesos_estado_text"
+     transform="matrix(0.81694451,-0.01371385,0.02287184,1.2236894,0,0)"><tspan
+       id="tspan9363-3-5"
+       x="166.44482"
+       y="108.71556"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:0.705555px;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0">MARCHA</tspan></text>
+  <path
+     d="m 143.52672,134.29711 -0.0444,-5.52203 -1.3202,0.01 0.009,1.16252 -3.69662,0.0266 -1.04215,1.75142 0.009,1.16253 -1.58424,0.0115 0.0117,1.45315 z"
+     fill="#b7e36a"
+     stroke="#4f5f35"
+     stroke-width="0.221621"
+     stroke-linejoin="round"
+     id="fab3_b321_puntos_gruesos_estado_color_maquina"
+     style="fill:#f3fae6;fill-opacity:0;stroke:#d78d12;stroke-opacity:1" />
+  <g
+     transform="matrix(3.8372593e-4,0,0,-3.6798938e-4,138.84573,132.91357)"
+     fill="#000000"
+     stroke="none"
+     id="fab3_b321_puntos_gruesos_bloqueo"
+     style="fill:#ffffff;fill-opacity:1">
+    <path
+       d="m 2425,5113 c -540,-64 -981,-365 -1218,-830 -65,-129 -100,-222 -135,-363 -24,-102 -25,-117 -29,-487 l -4,-383 h -34 C 807,3050 632,2900 600,2703 587,2624 587,424 600,345 626,183 753,47 912,10 c 60,-13 3237,-13 3297,1 159,36 284,171 311,336 13,77 13,2279 0,2356 -28,176 -161,308 -338,339 l -72,12 v 311 c 0,338 -11,460 -54,618 -147,536 -570,953 -1101,1087 -167,43 -388,60 -530,43 z m 361,-693 c 306,-78 545,-320 626,-633 18,-73 21,-118 25,-409 l 5,-328 h -867 -866 l 4,348 c 4,391 5,399 82,558 132,274 367,440 690,488 60,9 223,-4 301,-24 z m -73,-2340 c 76,-29 167,-113 204,-188 25,-51 28,-67 28,-162 0,-93 -3,-112 -27,-162 -17,-37 -51,-81 -92,-122 l -66,-64 v -289 c 0,-280 -1,-290 -22,-333 -57,-112 -208,-132 -299,-41 -20,20 -42,54 -48,76 -7,25 -11,145 -11,314 v 274 l -65,68 c -116,120 -150,244 -106,386 67,216 292,324 504,243 z"
+       id="path22192"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
 </svg>
 </template>
 
@@ -846,3 +860,25 @@ defineExpose({
   svgRef,
 });
 </script>
+
+<style scoped>
+@keyframes blinkYellow {
+  0%   { stroke: #FAFA00; }
+  50%  { stroke: #333; }
+  100% { stroke: #FAFA00; }
+}
+
+@keyframes blinkRed {
+  0%   { stroke: #e81b06; }
+  50%  { stroke: #333; }
+  100% { stroke: #e81b06; }
+}
+
+.blink-yellow {
+  animation: blinkYellow 1.5s infinite;
+}
+
+.blink-red {
+  animation: blinkRed .4s infinite;
+}
+</style>

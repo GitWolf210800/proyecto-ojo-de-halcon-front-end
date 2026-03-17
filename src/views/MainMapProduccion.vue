@@ -37,7 +37,7 @@ onMounted(async ()=> {
     document.tittle = 'Ojo de Halcón - Produccion';
     intervalId = setInterval(() => {
         useDataHomeProduccion();
-        console.log(homeProduccionStore.datos);
+        //console.log(homeProduccionStore.datos);
     }, 1000);
 });
 
