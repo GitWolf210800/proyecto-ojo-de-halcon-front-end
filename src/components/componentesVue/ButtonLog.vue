@@ -15,7 +15,7 @@
       <label for="password"><fa icon="lock" /></label>
       <input v-model="form.contraseña" id="password" type="password" placeholder="Password" required />
 
-      <a href="">¿Olvidaste tu Contraseña?</a>
+      <!--<a href="">¿Olvidaste tu Contraseña?</a>-->
 
       <p class="error" v-if="error">Error en Inicio de Sesión</p>
       <input type="submit" value="Ingresar" />

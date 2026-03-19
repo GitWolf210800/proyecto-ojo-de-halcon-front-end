@@ -50,6 +50,7 @@ export const dataColorInfoProduccion = async (svg) => {
                 const estadoMaquina = datos.estado_maquina;
                 const produccion = datos.produccion;
                 const puntosGruesos = datos.puntos_gruesos;
+                
                 if(colorCarda){
                     if(estadoMaquina !== 'PUNTOS_GRUESOS' && estadoMaquina !== 'BLOQUEO'){
                         candado.style.display = 'none';
@@ -59,7 +60,7 @@ export const dataColorInfoProduccion = async (svg) => {
                     }
                     else if(estadoMaquina == 'PUNTOS_GRUESOS') {
                         colorCarda.style.stroke = ""
-                        candado.style.fill = 'none';
+                        candado.style.display = 'none';
                         colorCarda.classList.remove("blink-red");
                         colorCarda.classList.add("blink-yellow");
                     }

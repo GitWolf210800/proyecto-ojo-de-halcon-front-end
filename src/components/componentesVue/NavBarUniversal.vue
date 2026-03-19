@@ -7,6 +7,7 @@
     </div>
 
     <Settings />
+    <CardaUnlock />
     <CalibracionClima />
     <LimitesFiltros />
     <EstadoCompresor />
@@ -17,6 +18,7 @@
 
 <script setup>
 import Settings from './Settings.vue';
+import CardaUnlock from './CardaUnlock.vue';
 import CalibracionClima from '@/components/componentesVue/CalibracionClima.vue';
 import LimitesFiltros from '@/components/componentesVue/LimitesFiltros.vue';
 import EstadoCompresor from './EstadoCompresor.vue';
