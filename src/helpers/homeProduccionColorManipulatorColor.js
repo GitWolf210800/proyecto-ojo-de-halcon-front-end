@@ -1,6 +1,7 @@
 import { useHomeProduccionStore } from "@/stores/homeProduccionStore";
 import { useDataHomeProduccion } from "@/components/componsables/useProduccion";
 import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroManual } from "@/variables";
+import { useProduccionEdicion } from "@/stores/produccionEdicion";
 
 
 const estadoColors = {
@@ -16,6 +17,7 @@ export const dataColorInfoProduccion = async (svg) => {
     const svgStore = svg;
     const homeStore = useHomeProduccionStore();
     let storeData = (useHomeProduccionStore()).datos;
+    let edicion = useProduccionEdicion();
 
     if(!storeData){
         await useDataHomeProduccion();
@@ -35,7 +37,23 @@ export const dataColorInfoProduccion = async (svg) => {
     const dataPuntosGruesos = storeData.puntos_gruesos;
     const nombresPuntosGruesos = storeData.nombres_puntos_gruesos;
 
-    for(let i = 0; i < nombresPuntosGruesos.length; i++){
+    if(edicion.acciones.cardaLock){
+        const edicionCardasLock = edicion.edicion.cardasLock;
+
+        for(let x in edicionCardasLock){
+            const nombre = x;
+            const colorCarda = svgStore.querySelector(`#${nombre}_estado_color_maquina`);
+            const candado = svgStore.querySelector(`#${nombre}_bloqueo`);
+
+            const estadoCardatext = svgStore.querySelector(`#${nombre}_estado_text`);
+            const produccionText = svgStore.querySelector(`#${nombre}_produccion_text`);
+            const puntosGruesosText = svgStore.querySelector(`#${nombre}_text`);
+
+            
+        }
+
+    } else {
+        for(let i = 0; i < nombresPuntosGruesos.length; i++){
         const colorCarda = svgStore.querySelector(`#${nombresPuntosGruesos[i]}_estado_color_maquina`);
         const candado = svgStore.querySelector(`#${nombresPuntosGruesos[i]}_bloqueo`);
 
@@ -89,5 +107,6 @@ export const dataColorInfoProduccion = async (svg) => {
         }
 
     } 
+    }
 
 };

@@ -56,7 +56,7 @@
       transform="matrix(0.31885759,0,0,-0.4013919,0,801.25515)"
     />
     <ellipse
-      v-if="showMark"
+      v-if="toggleClick"
       style="
         fill: #1caf26;
         fill-opacity: 1;
@@ -75,10 +75,70 @@
 
 <script setup>
 import { ref } from "vue";
+import { useHomeProduccionStore } from "@/stores/homeProduccionStore";
+import { useReferenceStore } from "@/stores/referencesStore";
+import { useSvgStore } from "@/stores/svgStore";
+import { useProduccionEdicion } from "@/stores/produccionEdicion";
+import { useDataHomeProduccion } from "../componsables/useProduccion";
+
+const storeData = ref(useHomeProduccionStore().datos);
+const mapa = useSvgStore();
+const edicion = useProduccionEdicion();
+const referencesStore = useReferenceStore();
+const referenceStorage = ref({});
+const estados = ref({});
 
 const showMark = ref(false);
 
-const toggle = () => {
-  showMark.value = !showMark.value;
+const toggleClick = ref(false);
+
+const toggle = async () => {
+    toggleClick.value = !toggleClick.value;
+    if(!storeData.value){
+      await useDataHomeProduccion();
+      storeData.value = useHomeProduccionStore().datos;
+    };
+    estados.value = storeData.value.estado_cardas;
+    const cardas = estados.value
+    const nombres = storeData.value.nombres_puntos_gruesos;
+    const map = mapa.svgRef;
+
+    //console.log(nombres);
+
+    if(toggleClick.value){
+        
+        for( let x in cardas ){
+            const nombre = x;
+            console.log(nombre);
+            const cardaLock = map.querySelector(`#${nombre}_bloqueo`);
+
+            //if(cardaLock) console.log(nombre, cardaLock);
+
+            const handler = async () => {
+                edicion.acciones.cardaLock = true;
+                cardaLock.style.display = 'none';
+                edicion.edicion.cardasLock = {
+                  ...edicion.edicion.cardasLock,
+                  [nombre]: {
+                    'estado_maquina': 'PARO',
+                    'produccion': 0,
+                    'puntos_gruesos': 0
+                  }
+                };
+            };
+
+            if(cardaLock){
+              cardaLock.addEventListener("click", handler);
+              cardaLock.style.cursor = 'pointer';
+              if(!referencesStore.reference[`#${nombre}`]){
+                referencesStore.$patch((state) => {
+                  state.reference[`#${nombre}`] = {}; //se crea el objeto vacio
+                });
+              }
+              referencesStore.reference[`#${nombre}`]["click"] = handler;
+            }
+        }
+    } else {}
 };
+
 </script>
