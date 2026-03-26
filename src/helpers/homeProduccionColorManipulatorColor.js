@@ -45,11 +45,56 @@ export const dataColorInfoProduccion = async (svg) => {
             const colorCarda = svgStore.querySelector(`#${nombre}_estado_color_maquina`);
             const candado = svgStore.querySelector(`#${nombre}_bloqueo`);
 
-            const estadoCardatext = svgStore.querySelector(`#${nombre}_estado_text`);
+            const estadoCardaText = svgStore.querySelector(`#${nombre}_estado_text`);
             const produccionText = svgStore.querySelector(`#${nombre}_produccion_text`);
             const puntosGruesosText = svgStore.querySelector(`#${nombre}_text`);
 
-            
+            const datos = edicionCardasLock[nombre];
+
+        try{
+            if(datos){
+                const estadoMaquina = datos.estado_maquina;
+                const produccion = datos.produccion;
+                const puntosGruesos = datos.puntos_gruesos;
+                
+                if(colorCarda){
+                    if(estadoMaquina !== 'PUNTOS_GRUESOS' && estadoMaquina !== 'BLOQUEO'){
+                        candado.style.display = 'none';
+                        colorCarda.classList.remove("blink-yellow");
+                        colorCarda.classList.remove("blink-red");
+                        applyColor(colorCarda, estadoColors[estadoMaquina]) || offlineColor;
+                    }
+                    else if(estadoMaquina == 'PUNTOS_GRUESOS') {
+                        colorCarda.style.stroke = ""
+                        candado.style.display = 'none';
+                        colorCarda.classList.remove("blink-red");
+                        colorCarda.classList.add("blink-yellow");
+                    }
+                    else if(estadoMaquina == 'BLOQUEO') {
+                        colorCarda.style.stroke = "";
+                        candado.style.display = 'block';
+                        colorCarda.classList.remove("blink-yellow");
+                        colorCarda.classList.add("blink-red");
+                    }
+                }
+
+                if(estadoCardaText){
+                    estadoCardaText.textContent =  `${estadoMaquina}`;
+                }
+
+                if(produccionText){
+                    produccionText.textContent =  `${produccion} KG/H`;
+                }
+
+                if(puntosGruesosText){
+                    puntosGruesosText.textContent = `P-gruesos: ${puntosGruesos}`;
+                }
+            }
+        } catch{
+
+        }
+
+
         }
 
     } else {

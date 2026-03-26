@@ -1,10 +1,9 @@
 <template>
   <svg
-    @click="toggle"
     version="1.0"
-    width="35pt"
+    width="43pt"
     height="35pt"
-    viewBox="0 0 636.31112 801.26054"
+    viewBox="0 0 781.75368 801.26054"
     preserveAspectRatio="xMidYMid"
     id="svg10"
     xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +11,7 @@
   >
     <defs id="defs14" />
     <g
-      transform="matrix(0.31885759,0,0,-0.4013919,0,801.25514)"
+      transform="matrix(0.31885759,0,0,-0.4013919,251.2427,791.06962)"
       fill="#000000"
       stroke="none"
       id="g8"
@@ -50,10 +49,9 @@
       />
     </g>
     <path
-      d="M 321,1989 C 223,1970 109,1887 55,1795 1,1702 0,1689 0,1000 0,311 1,298 55,205 88,149 174,69 230,42 c 25,-12 70,-26 99,-32 76,-14 1273,-13 1343,1 163,34 291,169 318,336 13,78 6.7273,1486.903 3.305,1509.3545 10.5714,85.7267 -1.4086,146.9293 -46.1129,67.0103 L 1839.5234,1764.7211 1819,488 c -7,-147 -18,-185 -69,-236 -71,-71 -23,-67 -750,-67 -651,0 -655,0 -695,22 -51,27 -79,57 -104,113 -20,44 -21,62 -21,680 0,618 1,636 21,680 25,56 53,86 104,113 40,22 45,22 714,24 l 724.9865,7.8216 99.3789,-60.3656 c 89.0206,-4.9767 197.7127,180.9578 128.7127,206.9578 -45,17 -343.0781,23.5862 -952.0781,24.5862 -360,1 -675,-2 -699,-7 z"
+      d="M 353.59599,-7.2988542 C 322.34795,0.32759194 285.99818,33.64312 268.77987,70.571174 251.56156,107.90062 251.2427,113.11871 251.2427,389.67773 c 0,276.55902 0.31886,281.77711 17.53717,319.10656 10.5223,22.47795 37.94406,54.5893 55.80008,65.42688 7.97144,4.8167 22.32003,10.43619 31.5669,12.84454 24.23317,5.61949 405.90571,5.2181 428.22574,-0.40139 51.97379,-13.64733 92.78756,-67.83523 101.39671,-134.86768 4.14515,-31.30857 2.14505,-596.830815 1.05383,-605.842665 3.37077,-34.410003 -0.44914,-58.976231 -14.70345,-26.897391 l -34.33098,63.678296 -6.54404,512.4655 c -2.23201,59.00461 -5.73944,74.2575 -22.00118,94.72849 -22.63889,28.49883 -7.33372,26.89326 -239.14319,26.89326 -207.57629,0 -208.85172,0 -221.60602,-8.83062 -16.26174,-10.83758 -25.18975,-22.87934 -33.16119,-45.35729 -6.37715,-17.66124 -6.69601,-24.8863 -6.69601,-272.94649 0,-248.06019 0.31886,-255.28525 6.69601,-272.94649 7.97144,-22.477945 16.89945,-34.5197 33.16119,-45.357282 12.7543,-8.830622 14.34859,-8.830622 227.66431,-9.633405 l 231.16745,-3.139527 31.68772,24.230263 C 867.39864,84.828896 902.05594,10.196294 880.05477,-0.23989596 865.70618,-7.0635583 770.66171,-9.7072056 576.47744,-10.108597 461.68871,-10.509989 361.24857,-9.3058137 353.59599,-7.2988542 Z"
       id="path2"
-      style="fill: #ffffff; fill-opacity: 1"
-      transform="matrix(0.31885759,0,0,-0.4013919,0,801.25515)"
+      style="fill: #ffffff; fill-opacity: 1; stroke-width: 0.357753"
     />
     <ellipse
       v-if="toggleClick"
@@ -65,10 +63,90 @@
         stroke-dasharray: 5.68416, 1.42102;
       "
       id="check_carda_unlock"
-      cx="178.35858"
-      cy="621.97498"
+      cx="429.60129"
+      cy="611.78949"
       rx="90.659294"
       ry="85.831848"
+    />
+    <rect
+      v-if="toggleClick"
+      style="
+        fill: #ffffff;
+        fill-opacity: 1;
+        stroke: #b2b2b2;
+        stroke-width: 0.00344918;
+        stroke-dasharray: 1.8105, 0.452625;
+        stroke-opacity: 1;
+      "
+      id="rect7138"
+      width="258.79608"
+      height="252.06624"
+      x="-58.457539"
+      y="31.336845"
+      ry="2.6491342"
+    />
+    <path
+      v-if="toggleClick"
+      @click="clickEnviar"
+      id="enviar"
+      style="
+        fill: #008011;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 0.0393736;
+        stroke-opacity: 1;
+      "
+      d="M 71.734662,22.51033 C 6.0592163,22.47104 -38.688913,22.5889 -40.234683,22.823583 c -5.826366,0.821391 -11.89077,3.676502 -16.448822,7.822508 -2.695189,2.425028 -6.183293,7.548814 -7.530889,11.029886 -2.298831,6.02347 -2.179545,-0.15646 -2.179545,115.619413 0,114.91526 -0.0791,109.63526 2.061111,115.26759 1.189054,3.16819 3.72541,7.27533 6.024241,9.77858 3.76535,4.1069 9.987899,7.70517 15.655733,8.9959 2.853729,0.66491 8.799648,0.70418 113.000485,0.70418 104.200829,0 110.146169,-0.0391 112.999909,-0.70418 5.3111,-1.2125 11.73184,-4.81092 15.0612,-8.37025 3.7257,-3.98955 6.61908,-9.19142 7.72887,-14.00236 0.71343,-3.01174 0.75303,-7.04102 0.75303,-111.66946 0,-122.033926 0.27745,-111.042913 -2.97264,-117.731293 -4.08243,-8.252932 -10.93905,-13.807552 -20.29294,-16.310808 -2.33847,-0.625788 -9.39388,-0.70398 -111.890398,-0.743092 z m 83.075498,63.735717 c 2.29884,0.11718 4.59739,0.46951 6.02425,0.99753 8.71973,3.36377 13.91246,13.102983 11.61363,21.864393 -1.54578,5.94525 2.45702,1.76033 -63.8526,67.158 -53.230023,52.56845 -61.315795,60.3912 -63.297564,61.3299 -6.698334,3.16819 -13.872479,2.85521 -19.579957,-0.86057 -1.466493,-0.93875 -11.930225,-11.02993 -28.5373607,-27.45756 -23.9396463,-23.74187 -26.2780133,-26.20643 -27.3877953,-28.51411 -0.673768,-1.40806 -1.42675,-3.48083 -1.664568,-4.61514 -2.8141,-13.45501 9.353982,-25.2285 23.0281163,-22.21677 5.350735,1.17339 6.14346,1.8385 26.3177577,21.82547 10.186226,10.05213 18.588846,18.30524 18.747379,18.30524 0.118933,0 24.217039,-23.62457 53.547067,-52.5294 55.885555,-55.071693 54.220965,-53.507203 59.016815,-54.876173 1.42687,-0.41067 3.72599,-0.52817 6.02483,-0.41083 z"
+    />
+    <path
+    @click="clickCancelar"
+      v-if="toggleClick"
+      style="
+        fill: #ffffff;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 0.185858;
+        stroke-dasharray: 97.5586, 24.3898;
+        stroke-opacity: 1;
+      "
+      id="circulo_cancelar"
+      d="M 205.80811,647.59302 A 143.3103,127.1871 0 0 1 62.514427,774.78012 143.3103,127.1871 0 0 1 -80.812484,647.62251 143.3103,127.1871 0 0 1 62.44796,520.40593 143.3103,127.1871 0 0 1 205.80809,647.53403 l -143.310282,0.0591 z"
+    />
+    <g
+      v-if="toggleClick"
+      @click="clickCancelar"
+      transform="matrix(0.05708827,0,0,-0.05369213,-121.63375,813.75612)"
+      fill="#000000"
+      stroke="none"
+      id="cancelar"
+      style="fill: #d40000; fill-opacity: 1"
+    >
+      <path
+        d="M 2885,5760 C 2264,5698 1699,5432 1265,4996 1054,4785 902,4573 771,4310 570,3906 479,3496 494,3055 506,2656 589,2324 765,1965 1026,1433 1433,1026 1965,764 2626,440 3357,403 4055,658 c 231,84 528,253 735,418 225,179 479,475 623,725 601,1044 431,2347 -417,3195 -415,414 -945,675 -1531,754 -110,15 -470,21 -580,10 z m 474,-450 c 414,-44 837,-219 1154,-478 389,-319 657,-757 762,-1247 63,-291 61,-641 -5,-937 -159,-712 -686,-1316 -1374,-1573 -124,-46 -287,-89 -425,-112 -150,-25 -532,-25 -682,0 -463,78 -856,277 -1187,601 -190,186 -311,350 -426,576 -160,314 -236,634 -236,990 0,745 362,1416 990,1833 254,169 595,298 890,336 47,6 96,13 110,15 56,8 341,5 429,-4 z"
+        id="path9686"
+        style="fill: #d40000; fill-opacity: 1"
+      />
+      <path
+        d="m 3635,3950 c -280,-280 -514,-510 -520,-510 -5,0 -214,204 -462,453 l -453,453 -142,-143 -143,-143 453,-453 c 248,-248 452,-457 452,-462 0,-5 -231,-241 -512,-522 l -513,-513 158,-157 157,-158 513,513 c 281,281 517,512 522,512 5,0 214,-204 462,-452 l 453,-453 143,143 142,142 -452,453 c -249,248 -453,456 -453,462 0,5 231,241 512,522 l 513,513 -155,155 c -85,85 -157,155 -160,155 -3,0 -235,-229 -515,-510 z"
+        id="path9688"
+        style="fill: #d40000; fill-opacity: 1"
+      />
+    </g>
+    <rect
+      @click="toggle"
+      style="
+        fill: #202020;
+        stroke: #ffffff;
+        stroke-width: 0;
+        paint-order: markers fill stroke;
+        fill-opacity: 0.09046455;
+      "
+      id="cardaLockTouch"
+      width="580.98126"
+      height="744.23212"
+      x="282.79379"
+      y="19.205992"
+      ry="48.704529"
     />
   </svg>
 </template>
@@ -80,8 +158,11 @@ import { useReferenceStore } from "@/stores/referencesStore";
 import { useSvgStore } from "@/stores/svgStore";
 import { useProduccionEdicion } from "@/stores/produccionEdicion";
 import { useDataHomeProduccion } from "../componsables/useProduccion";
+import { useConfirmStore } from "@/stores/useConfirmStore";
 
-const storeData = ref(useHomeProduccionStore().datos);
+let storeData = ref(useHomeProduccionStore().datos);
+const serverApi = import.meta.env.VITE_SERVER_API;
+const confirmStore = useConfirmStore();
 const mapa = useSvgStore();
 const edicion = useProduccionEdicion();
 const referencesStore = useReferenceStore();
@@ -93,52 +174,111 @@ const showMark = ref(false);
 const toggleClick = ref(false);
 
 const toggle = async () => {
-    toggleClick.value = !toggleClick.value;
-    if(!storeData.value){
-      await useDataHomeProduccion();
-      storeData.value = useHomeProduccionStore().datos;
-    };
-    estados.value = storeData.value.estado_cardas;
-    const cardas = estados.value
-    const nombres = storeData.value.nombres_puntos_gruesos;
-    const map = mapa.svgRef;
+  toggleClick.value = !toggleClick.value;
+  if (!storeData.value) {
+    await useDataHomeProduccion();
+    storeData.value = useHomeProduccionStore().datos;
+  }
+  estados.value = storeData.value.estado_cardas;
+  const cardas = estados.value;
+  const nombres = storeData.value.nombres_puntos_gruesos;
+  const map = mapa.svgRef;
 
-    //console.log(nombres);
+  //console.log(nombres);
 
-    if(toggleClick.value){
-        
-        for( let x in cardas ){
-            const nombre = x;
-            console.log(nombre);
-            const cardaLock = map.querySelector(`#${nombre}_bloqueo`);
+  if (toggleClick.value) {
+    for (let x in cardas) {
+      const nombre = x;
+      //console.log(nombre);
+      const cardaLock = map.querySelector(`#${nombre}_bloqueo`);
 
-            //if(cardaLock) console.log(nombre, cardaLock);
+      //if(cardaLock) console.log(nombre, cardaLock);
 
-            const handler = async () => {
-                edicion.acciones.cardaLock = true;
-                cardaLock.style.display = 'none';
-                edicion.edicion.cardasLock = {
-                  ...edicion.edicion.cardasLock,
-                  [nombre]: {
-                    'estado_maquina': 'PARO',
-                    'produccion': 0,
-                    'puntos_gruesos': 0
-                  }
-                };
-            };
+      const handler = async () => {
+        edicion.acciones.cardaLock = true;
+        cardaLock.style.display = "none";
+        edicion.edicion.cardasLock = {
+          ...edicion.edicion.cardasLock,
+          [nombre]: {
+            estado_maquina: "PARO",
+            produccion: 0,
+            puntos_gruesos: 0,
+          },
+        };
+      };
 
-            if(cardaLock){
-              cardaLock.addEventListener("click", handler);
-              cardaLock.style.cursor = 'pointer';
-              if(!referencesStore.reference[`#${nombre}`]){
-                referencesStore.$patch((state) => {
-                  state.reference[`#${nombre}`] = {}; //se crea el objeto vacio
-                });
-              }
-              referencesStore.reference[`#${nombre}`]["click"] = handler;
-            }
+      if (cardaLock) {
+        cardaLock.addEventListener("click", handler);
+        cardaLock.style.cursor = "pointer";
+        if (!referencesStore.reference[`#${nombre}`]) {
+          referencesStore.$patch((state) => {
+            state.reference[`#${nombre}`] = {}; //se crea el objeto vacio
+          });
         }
-    } else {}
+        referencesStore.reference[`#${nombre}`]["click"] = handler;
+      }
+    }
+  } else {
+    for (let x in cardas) {
+      const nombre = x;
+      const cardaLock = map.querySelector(`#${nombre}_bloqueo`);
+
+      if (cardaLock) {
+        cardaLock.style.cursor = "default";
+        const reference = referencesStore.reference[`#${nombre}`]["click"];
+        cardaLock.removeEventListener("click", reference);
+        referencesStore.reference[`#${nombre}`]["click"] = "";
+      }
+    }
+    edicion.acciones.cardaLock = false;
+  }
 };
 
+const clickEnviar = async () => {
+  const ok = await confirmStore.open('Deseas Realizar estos Cambios?');
+
+  if(ok){
+    console.log('entro a la confirmacion');
+    const res = await fetch(`${serverApi}/api/edicionCardaLock`, {
+    method: 'POST',
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(edicion.edicion.cardasLock)
+  });
+
+  const resJson = await res.json();
+
+  //toggle();
+
+  if(resJson.status === 'Ok'){
+    console.log(resJson.message);
+    await useDataHomeProduccion();
+    storeData = useHomeProduccionStore().datos;
+    edicion.edicion.cardasLock = storeData.estado_cardas;
+    edicion.$patch((state) => {
+      state.edicion.cardasLock = {
+
+      };
+      state.acciones.cardaLock = false;
+    });
+    edicion.acciones.cardaLock = false;
+    //toggle();
+  }
+
+  }
+};
+
+const clickCancelar = async () => {
+  await useDataHomeProduccion();
+  storeData = useHomeProduccionStore().datos;
+  edicion.edicion.cardasLock = storeData.estado_cardas;
+  edicion.$patch((state) => {
+    state.edicion.cardasLock = {};
+    state.acciones.cardaLock = false;
+  });
+  edicion.acciones.cardaLock = false;
+  toggleClick.value = false;
+};
 </script>

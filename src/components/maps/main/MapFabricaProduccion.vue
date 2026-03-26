@@ -2,12 +2,17 @@
     <div class="content" v-zoom>
         <MapProduccion ref="mapProduccionRef" class="container__map" />
     </div>
+
+
+    <ConfirmModal/>
 </template>
 
 <script setup>
 import MapProduccion from "@/components/maps/fabrica/MapProduccion.vue";
 import { dataColorInfoProduccion } from "@/helpers/homeProduccionColorManipulatorColor";
 import { useHomeProduccionStore } from "@/stores/homeProduccionStore";
+import ConfirmModal from "@/components/componentesVue/ConfirmModal.vue";
+
 //import { useReferenceStore } from "@/stores/referencesStore";
 import { computed, onMounted, ref, watchEffect } from "vue";
 
