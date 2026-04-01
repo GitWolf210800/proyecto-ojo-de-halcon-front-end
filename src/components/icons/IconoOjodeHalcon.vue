@@ -1,8 +1,8 @@
 <template>
   <div class="logo">
     <svg
-      width="56.366405mm"
-      height="49.739521mm"
+      width="29.366405mm"
+      height="22.739521mm"
       viewBox="0 0 56.366404 49.739521"
       version="1.1"
       id="svg39706"

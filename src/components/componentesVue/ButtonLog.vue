@@ -192,6 +192,18 @@ async function verifyTokenPeriodically() {
   transition: background-color 0.2s;
 }
 
+@media (max-width: 480px) {
+  .login {
+    width: 90%;
+    max-width: 320px; /* evita que crezca demasiado */
+  }
+
+  .login form input[type="password"],
+  .login form input[type="text"] {
+    width: calc(100% - 50px); /* respeta el espacio del label */
+  }
+}
+
 /*.login form input {
     margin-bottom: 15px;
     padding: 10px;

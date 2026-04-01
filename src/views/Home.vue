@@ -1,12 +1,12 @@
 <template>
+  <div class="container">
+
     <nav>
       <div class="navegacion">
-        <span class="version" id="version">Ojo de Halcón V4.0.7</span>
+        <span class="version">Ojo de Halcón V4.0.7</span>
         <ButtonLog />
       </div>
     </nav>
-  
-    <body>
 
     <div class="menu">
       <RouterLink to="/clima">
@@ -20,15 +20,15 @@
       <RouterLink to="/produccion">
         <ProduccionFabrica class="botones" />
       </RouterLink>
-
     </div>
-    
-    </body>
-  
+
     <div class="logo">
       <IconoOjodeHalcon />
     </div>
-  </template>
+
+  </div>
+</template>
+
   
   <script setup>
   //import { RouterLink } from 'vue-router';
@@ -40,74 +40,94 @@
 
   </script>
   
-  <style scoped>
-  /* Estilo general de navegación */
+<style scoped>
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAV */
+.navegacion {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.version {
+  color: #FFF;
+  padding: 5px;
+}
+
+.botones {
+  width: 70%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔥 esto es la clave */
+.botones > * {
+  width: 100% !important;
+  height: 100% !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* forzar contenido interno */
+.botones svg,
+.botones img {
+  width: 90% !important;
+  height: 90% !important;
+}
+
+/* MENU */
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* BOTONES */
+.botones {
+  width: 120px;
+  height: auto;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
   .navegacion {
-    display: flex;
-    margin: 10px;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
   }
-  .version {
-    color: #FFF;
-    padding: 5px;
-  }
-  .login-buttom {
-    display: inline-block;
-  }
-  /* Ajuste del logo */
-  .logo {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin: 10px;
-    width: 15vw;
-    max-width: 80px;
-    height: auto;
-  }
-  /* Menú de opciones */
+
   .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
   }
-  /* Estilos responsivos para pantallas pequeñas */
-  @media (max-width: 768px) {
-    .navegacion {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .menu {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-      width: 100%;
-      height: 30vh;
-      border: 10px;
-    }
-  
-    .logo {
-      width: 50%;
-      margin-top: 10px;
-    }
-  
-    .version {
-      font-size: 14px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .version {
-      font-size: 12px;
-    }
-  
-    .logo {
-      width: 70%;
-      height: auto;
-    }
-  }
-  </style>
+
+  .botones {
+    width: 100px;
+}
+.logo {
+  display: none;
+}
+}
+</style>
