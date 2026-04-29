@@ -14,6 +14,12 @@ export  const TOOLTIP_CHART_INFO_CONFIG = {
     padding: 25,
   };
   
+export  const TOOLTIP_INFO = {
+     width: 60,
+     height: 100,
+     padding: 25
+  };
+  
 export  const TOOLTIP_INFO_TABLE = {
      width: 300,
      height: 600,

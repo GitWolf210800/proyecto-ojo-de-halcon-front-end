@@ -8,6 +8,7 @@ export const useTooltipStore = defineStore('tooltip', {
       chartBar: false,
       chartInfo: false,
       chartBarInfo: false,
+      info: false,
       infoTable: false
     },
     activeTooltipId: null,

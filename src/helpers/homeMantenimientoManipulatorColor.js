@@ -5,9 +5,13 @@ import { alarmColor, alertColor, averia, descarga, offlineColor, okColor, paroMa
 
 const estadoColors = {
     "CARGA": okColor,
+    "OK": okColor,
+    "ESPERA": okColor,
     "MARCHA": okColor,
     "PARO": paroManual,
+    "PRE-AVISO": alertColor,
     "AVERIA":  averia,
+    "ALERTA": averia,
     "DESCARGA": descarga
 };
 
@@ -94,10 +98,18 @@ export const dataColorInfoMantenimiento = async (svg) => {
         storeData = homeStore.datos;
     }
 
-    const { compresores, secadores, marchaCompresores } = storeData;
+    const { salasCompresores, compresores, secadores, marchaCompresores } = storeData;
 
     const applyColor = (element, color) => {
-        if (element) element.style.fill = color;
+    if (!element) return;
+
+    element.querySelectorAll('*').forEach(el => {
+        el.style.fill = color;
+    });
+};
+
+    const applyColorStroke = (element, color) => {
+        if (element) element.style.stroke = color;
     };
 
     const applyColorText = (element, color) => {
@@ -105,6 +117,19 @@ export const dataColorInfoMantenimiento = async (svg) => {
         if (element) element.style.fill = color;
         //if(color === '#FFFFFF') element.style.stroke = '#000';
     };
+
+    for(let x in salasCompresores){
+        const salaNombre = x;
+        const estadoSala = salasCompresores[x]['estado'];
+        const sala = svgStore.querySelector(`#${salaNombre}`);
+        const compresorIcon = svgStore.querySelector(`#${salaNombre}_icon`);
+        //console.log(compresorIcon);
+        //console.log(compresorIcon);
+
+        applyColor(compresorIcon, estadoColors[estadoSala] || offlineColor);
+        applyColorStroke(sala, estadoColors[estadoSala] || offlineColor);
+        //if(compresorIcon) compresorIcon.style.fill = "#FFF";
+    }
 
     // Aplica colores base
     compresores.forEach(({ nombre, estado_compresor }) => {
