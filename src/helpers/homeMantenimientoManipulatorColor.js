@@ -9,6 +9,7 @@ const estadoColors = {
     "ESPERA": okColor,
     "MARCHA": okColor,
     "PARO": paroManual,
+    "PARO-MANUAL": paroManual,
     "PRE-AVISO": alertColor,
     "AVERIA":  averia,
     "ALERTA": averia,
