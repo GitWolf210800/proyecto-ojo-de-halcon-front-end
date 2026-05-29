@@ -20,10 +20,11 @@
 </template>
 
 <script setup>
-import { computed, ref, watchEffect, watch } from 'vue';
+import { computed, ref, watchEffect, watch, onMounted } from 'vue';
 import MapMantenimiento from '@/components/maps/fabrica/MapMantenimiento.vue';
 import { dataColorInfoMantenimiento } from '@/helpers/homeMantenimientoManipulatorColor';
 import { storeToRefs } from "pinia";
+import { useRouter } from "vue-router";
 
 import { useHomeMantenimientoStore } from '@/stores/homeMantenimientoStore';
 import { useReferenceStore } from '@/stores/referencesStore';
@@ -34,13 +35,14 @@ import ToolTipChartBarInfo from '@/modules/tooltip/components/ToolTipChartBarInf
 import ToolTipInfoTable from "@/modules/tooltip/components/ToolTipInfoTable.vue";
 import ToolTipInfo from '@/modules/tooltip/components/ToolTipInfo.vue';
 
-import { createTooltipConfig } from '@/funciones';
+import { createTooltipConfig, createRouterConfig } from '@/funciones';
 import {
   TOOLTIP_CHART_INFO_CONFIG,
   TOOLTIP_INFO,
   TOOLTIP_INFO_TABLE,
 } from "@/variables.js";
 
+const router = useRouter();
 const tooltip = useTooltipStore();
 const { tooltipPosition, params, displayTooltip, hideTooltip } = useTooltip();
 
@@ -90,7 +92,13 @@ function initializeTooltipEvents(svg){
             )
         ),
 
-        // 🔥 dinámico (estado + motivo actualizado)
+        //...(datos.value?.salasCompresores || []).map((dato) => createRouterConfig(`#${dato.nombre}`, '/salaCompresor', dato.nombre)),
+
+        /*...(Object.values(datos.value?.salasCompresores || {}).map((dato) =>
+            createRouterConfig(`#${dato.nombre}`, '/salaCompresor', dato.nombre)
+        )),*/
+
+        // dinámico (estado + motivo actualizado)
         ...(Object.values(datos.value?.salasCompresores || {}).map((dato) =>
             createTooltipConfig(
                 `#${dato.nombre}`,
@@ -129,12 +137,52 @@ function initializeTooltipEvents(svg){
     });
 }
 
+function routesDireccion(svg){
+    const routesMap = [
+        ...(Object.values(datos.value?.salasCompresores || {}).map((dato) =>
+            createRouterConfig(`#${dato.nombre}`, '/salaCompresor', dato.nombre)
+        ))
+    ];
+
+    routesMap.forEach((datos) => {
+        const element = svg.querySelector(datos.selector);
+
+        if(element){
+            const handler = () => {
+                hideTooltip('info');
+                navigateTo(datos);
+            }
+
+            element.addEventListener('click', handler);
+            try {
+                referenceStorage.value[datos.selector] = referenceStorage.value[datos.selector] || {};
+                referenceStorage.value[datos.selector]['click'] = handler;
+            } catch { console.log('error en: ', datos) };
+        }
+    });
+};
+
+//Se prepara los datos para la navegacion
+const navigateTo = (routeInfo) => {
+  router.push({
+    path: routeInfo.path,
+    query: routeInfo.params
+  });
+}
+
+/*onMounted(() => {
+    if(mapMantenimientoRef.value && mapMantenimientoRef.value.svgRef){
+        routesDireccion(mapMantenimientoRef.value.svgRef);
+    }
+});*/
+
 // 🔥 watcher original (lo dejamos porque FUNCIONABA)
 watch(
   () => [datos.value, mapMantenimientoRef.value],
   ([data, map]) => {
     if (data && map?.svgRef) {
       initializeTooltipEvents(map.svgRef);
+      routesDireccion(mapMantenimientoRef.value.svgRef);
       referenceStore.setReference(referenceStorage.value);
     }
   },

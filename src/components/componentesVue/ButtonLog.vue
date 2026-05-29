@@ -29,6 +29,7 @@ import LogoutButtom from "@/components/icons/LogoutButtom.vue";
 import { ref, reactive, onMounted } from "vue";
 import { useAuthStore } from "@/stores/authStore";
 import { useDataUserStore } from "@/stores/dataUserStore";
+import { useRouter } from "vue-router";
 
 const server = import.meta.env.VITE_SERVER_API;
 const accessMode = import.meta.env.VITE_ACCESS_MODE;
@@ -36,6 +37,7 @@ const isInternetMode = ref(accessMode === "internet");
 
 const auth = useAuthStore(); // 🔹 Store global de sesión
 const dataUser = useDataUserStore(); // tu store previa (si la usás para más datos)
+const router = useRouter();
 
 // Inicializa sesión desde localStorage si existe
 onMounted(() => {
@@ -63,6 +65,7 @@ const logout = async () => {
   } catch {}
   auth.clearUser();
   dataUser.clearDataUser();
+  if(isInternetMode.value) router.push("/login");
 };
 
 const handleSubmit = async () => {
@@ -91,6 +94,8 @@ const handleSubmit = async () => {
     form.legajo = "";
     form.contraseña = "";
     visibilityForm.value = false;
+
+    if(isInternetMode.value) router.push("/");
 
   } catch (err) {
     console.error("Error:", err);

@@ -47,6 +47,12 @@ const routes = [
     meta: { requiresAuth: true }
   },
   {
+    path: '/salaCompresor',
+    name: 'salaCompresor',
+    component: () => import('@/views/MainMapSalaCompresor.vue'),
+    meta: { requiresAuth: true }
+  },
+  {
     path: '/serial',
     name: 'serial',
     component: () => import('@/views/Serial.vue'),

@@ -1,8 +1,7 @@
 <template>
-  <div class="mantenimientoFabrica">
     <svg
-      width="51.985794mm"
-      height="44.048035mm"
+      width="52.697369mm"
+      height="43.493259mm"
       viewBox="0 0 51.985794 44.048035"
       version="1.1"
       id="svg28807"
@@ -115,5 +114,5 @@
         </text>
       </g>
     </svg>
-  </div>
+
 </template>
