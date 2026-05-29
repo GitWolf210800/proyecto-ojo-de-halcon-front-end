@@ -9,12 +9,12 @@
         <MapSalaCompresor />
     </div>
 
-    <!--<footer>
-        <div class="footer_nav">
+    <footer>
+        <div class="footer__nav">
             <EyeHawkIconVersion />
             <LogoTipoitiFooter />
         </div>
-    </footer>-->
+    </footer>
 
 </template>
 
