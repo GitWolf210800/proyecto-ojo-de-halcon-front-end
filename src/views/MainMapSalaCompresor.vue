@@ -5,11 +5,11 @@
         <NavBarUniversal />
     </nav>
 
-    <!--<div class="map">
+    <div class="map">
         <MapSalaCompresor />
     </div>
 
-    <footer>
+    <!--<footer>
         <div class="footer_nav">
             <EyeHawkIconVersion />
             <LogoTipoitiFooter />
