@@ -1,8 +1,9 @@
 <template>
   <div class="content" v-zoom>
       <Map_Sala_fab9_atlas 
-          class="container_map"
+          class="container__map"
           ref="mapSala"
+          v-if="fab9SalaCompresor"
       />
   </div>
 </template>
@@ -32,6 +33,7 @@ let svg = null;
 
 const updateOpciones = () => {
   if(result === 'fab9_atlas_sala_compresor') fab9SalaCompresor.value = true;
+  console.log(fab9SalaCompresor.value);
 };
 
 watchEffect(updateOpciones);

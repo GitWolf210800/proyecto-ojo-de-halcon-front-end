@@ -565,17 +565,17 @@
       />
     </defs>
     <line
-      x1="11.617557"
-      y1="121.20961"
-      x2="29.912151"
-      y2="121.20961"
+      x1="12.03168"
+      y1="133.75482"
+      x2="30.207922"
+      y2="133.75482"
       class="linea"
       id="line5756"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.98501;
+        stroke-width: 2.97534;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
@@ -612,17 +612,17 @@
       "
     />
     <line
-      x1="30.322828"
-      y1="108.69199"
-      x2="30.130619"
-      y2="121.19807"
+      x1="30.278055"
+      y1="108.73676"
+      x2="30.175392"
+      y2="133.57692"
       class="linea"
       id="line5778"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.98501;
+        stroke-width: 3.07455;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
@@ -750,34 +750,53 @@
       "
     />
     <line
-      x1="186.44987"
-      y1="71.984619"
-      x2="186.30318"
-      y2="82.102798"
+      x1="183.92627"
+      y1="91.28109"
+      x2="183.8764"
+      y2="98.935471"
       class="linea"
       id="line5816"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.98501;
+        stroke-width: 2.08034;
         stroke-linecap: round;
         stroke-linejoin: round;
+        stroke-dasharray: none;
         stroke-opacity: 1;
       "
     />
     <line
-      x1="82.368874"
-      y1="108.47218"
-      x2="82.247482"
-      y2="120.91743"
+      x1="184.11037"
+      y1="72.56852"
+      x2="184.03975"
+      y2="79.855759"
+      class="linea"
+      id="line5816-1"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.13314;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+    />
+    <line
+      x1="82.410286"
+      y1="108.5081"
+      x2="82.20607"
+      y2="133.14642"
       class="linea"
       id="line5816-4"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.93121;
+        stroke-width: 3.00181;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
@@ -876,12 +895,12 @@
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 3.56061;
+        stroke-width: 2.9889974;
         stroke-dasharray: none;
         stroke-opacity: 1;
         paint-order: markers fill stroke;
       "
-      d="m 186.33679,72.119269 22.03012,-0.061"
+      d="m 186.33145,71.921224 22.0408,-0.05427"
       id="path19811"
     />
     <path
@@ -898,17 +917,17 @@
       id="path19811-6-46-7"
     />
     <line
-      x1="317.23431"
-      y1="71.884766"
-      x2="316.64966"
-      y2="121.60588"
+      x1="317.19174"
+      y1="71.927345"
+      x2="316.69223"
+      y2="133.46701"
       class="linea"
       id="line5816-4-0"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 3.00727;
+        stroke-width: 3.09243;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
@@ -927,17 +946,17 @@
       d="m 219.75065,72.207669 a 2.2215195,2.5856988 88.204176 0 1 -2.56386,2.26117 2.2215195,2.5856988 88.204176 0 1 -2.60669,-2.18194 2.2215195,2.5856988 88.204176 0 1 2.56387,-2.26117 2.2215195,2.5856988 88.204176 0 1 2.60668,2.18194 z m 0.46318,0.19018 5.81652,-5.650139 -0.1311,11.361659 z m -11.75416,-5.642519 5.80585,5.592079 -5.69631,5.76836 z"
     />
     <line
-      x1="82.370918"
-      y1="121.50906"
-      x2="316.24985"
-      y2="121.50906"
+      x1="82.31102"
+      y1="133.70911"
+      x2="316.62006"
+      y2="133.70911"
       class="linea"
       id="line5802-4"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 3.13868;
+        stroke-width: 3.14157;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-dasharray: none;
@@ -1037,15 +1056,15 @@
         stroke-width: 0.00414429;
         stroke-dasharray: 2.1754, 0.54384;
       "
-      x="42.628326"
-      y="91.623726"
+      x="42.74876"
+      y="86.56118"
       id="fab9_vv922_secador_text"
       transform="matrix(1.1978536,0.02070135,-0.02588804,0.83437917,0,0)"
     >
       <tspan
         id="tspan29543-0"
-        x="42.628326"
-        y="91.623726"
+        x="42.74876"
+        y="86.56118"
         style="
           font-style: normal;
           font-variant: normal;
@@ -1065,9 +1084,10 @@
       </tspan>
     </text>
     <g
-      transform="matrix(0.36589188,0,0,0.38050217,43.153094,56.69272)"
+      transform="matrix(-0.00527452,-0.36585386,0.38046263,-0.00548513,42.781245,86.766366)"
       id="fab9_vv922_secador"
       style="
+        display: inline;
         fill: #333333;
         fill-opacity: 0.278177;
         stroke: #db7500;
@@ -1110,7 +1130,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 7.29342px;
+        font-size: 6.59278px;
         font-family: Calibri;
         -inkscape-font-specification: &quot;Calibri, Bold&quot;;
         font-variant-ligatures: normal;
@@ -1121,27 +1141,27 @@
         fill: #f0f0f0;
         fill-opacity: 1;
         stroke: #ffff00;
-        stroke-width: 0.00633725;
-        stroke-dasharray: 3.32651, 0.831634;
+        stroke-width: 0.00572846;
+        stroke-dasharray: 3.00694, 0.751742;
       "
-      x="-94.974419"
-      y="245.17987"
+      x="-104.78878"
+      y="243.12425"
       id="fab9_vv927_compresor_text"
-      transform="matrix(-0.02613791,-1.2540865,0.7967768,-0.02957245,0,0)"
+      transform="matrix(-0.02583815,-1.2686358,0.787639,-0.02991554,0,0)"
     >
-      <tspan id="tspan623" style="stroke-width: 0.00633725">VV927</tspan>
+      <tspan id="tspan623" style="stroke-width: 0.00572846">VV927</tspan>
     </text>
     <path
       style="
         fill: #271b09;
         fill-opacity: 0.193878;
         stroke: #fff9f3;
-        stroke-width: 1.05576;
+        stroke-width: 0.954339;
         stroke-dasharray: none;
         stroke-opacity: 1;
         paint-order: markers fill stroke;
       "
-      d="M 186.19544,104.61376 V 98.294539"
+      d="m 183.80002,119.04352 v -5.77844"
       id="path7077"
     />
     <rect
@@ -1149,20 +1169,20 @@
         fill: #271b09;
         fill-opacity: 0.193878;
         stroke: #fff9f3;
-        stroke-width: 0.611187;
+        stroke-width: 0.552473;
         stroke-dasharray: none;
         stroke-opacity: 1;
         paint-order: markers fill stroke;
       "
       id="rect6052"
-      width="19.857466"
-      height="34.912834"
-      x="178.23026"
-      y="81.676041"
-      ry="0.53958058"
+      width="17.743984"
+      height="31.925032"
+      x="176.68259"
+      y="98.068764"
+      ry="0.49340388"
     />
     <g
-      transform="matrix(0.18608951,0,0,0.18635821,178.74615,83.502829)"
+      transform="matrix(-0.16628343,-1.6111976e-4,1.5962016e-4,-0.1704098,190.43988,113.37846)"
       id="fab9_vv927_secador_integrado"
       style="
         fill: #333333;
@@ -1179,7 +1199,7 @@
       />
     </g>
     <g
-      transform="matrix(0.16793887,0,0,0.15262132,179.4968,102.94284)"
+      transform="matrix(0.1500647,0,0,0.13956016,177.81434,117.5156)"
       id="fab9_vv927_compresor_icon"
       style="
         fill: #333333;
@@ -1225,15 +1245,27 @@
         fill: #271b09;
         fill-opacity: 0.193878;
         stroke: #db7500;
-        stroke-width: 0.0146632;
+        stroke-width: 0.0132545;
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
       id="fab9_vv927_compresor"
-      cx="186.24573"
-      cy="109.14412"
-      rx="6.9344764"
-      ry="6.1892924"
+      cx="183.84496"
+      cy="123.18613"
+      rx="6.1964216"
+      ry="5.6596198"
+    />
+    <path
+      id="path9045-6-4-14"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.550004;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 184.1536,86.982273 a 1.3864371,1.0368159 88.947437 0 1 -1.06027,-1.369739 1.3864371,1.0368159 88.947437 0 1 1.01314,-1.402728 1.3864371,1.0368159 88.947437 0 1 1.06022,1.369748 1.3864371,1.0368159 88.947437 0 1 -1.01309,1.402719 z m -0.0878,0.248805 2.64818,3.106303 -5.3024,-0.04468 z m 2.61012,-6.315755 -2.59826,3.125929 -2.70308,-3.041577 z"
     />
   </svg>
 </template>
