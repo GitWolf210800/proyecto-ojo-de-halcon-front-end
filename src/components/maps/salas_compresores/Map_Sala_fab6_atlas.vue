@@ -565,47 +565,51 @@
       />
     </defs>
     <line
-      x1="12.03168"
-      y1="133.75482"
-      x2="30.207922"
-      y2="133.75482"
+      x1="248.8501"
+      y1="95.78363"
+      x2="248.77994"
+      y2="98.453476"
       class="linea"
-      id="line5756"
+      id="line5756-8-9"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.97534;
+        stroke-width: 2.22817;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
       "
     />
-    <polyline
-      points="70,180 70,110 100,110"
+    <line
+      x1="112.21451"
+      y1="162.31642"
+      x2="111.97272"
+      y2="192.90892"
       class="linea"
-      id="polyline5774"
-      transform="matrix(0.38136197,0,0,0.25694788,3.6252042,43.54965)"
+      id="line5778-6"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 8;
+        stroke-width: 2.47807;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
       "
     />
-    <polyline
-      points="180,110 210,110 210,180"
+    <line
+      x1="65.353516"
+      y1="160.83926"
+      x2="65.374367"
+      y2="146.07523"
       class="linea"
-      id="polyline5776"
-      transform="matrix(0.3330233,0,0,0.2631665,13.45816,42.70997)"
+      id="line5756-8"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 8;
+        stroke-width: 2.37123;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
@@ -616,48 +620,161 @@
         fill: #0a0808;
         fill-opacity: 0.98801;
         stroke: #a1a1a1;
-        stroke-width: 2.89163075;
+        stroke-width: 2.10069;
         stroke-dasharray: none;
         stroke-opacity: 1;
         paint-order: markers fill stroke;
       "
-      d="m 42.847643,133.66695 -12.762947,0.0221"
-      id="path19811-6-46-9-2"
+      d="m 163.53365,84.709885 -18.34368,0.01748"
+      id="path19811-6-46-9-4-1-4-8"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.01818;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 144.1734,83.672971 -0.0495,18.564649"
+      id="path19811-6-46-4"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.1007913;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 164.11185,138.91632 -18.86797,-0.0175"
+      id="path19811-6-46-9-4-1-4-8-4"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.09342;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 144.21266,139.95305 -0.0491,-22.37772"
+      id="path19811-6-46-4-3"
     />
     <line
-      x1="30.278055"
-      y1="108.73676"
-      x2="30.175392"
-      y2="133.57692"
+      x1="38.772026"
+      y1="160.57817"
+      x2="287.71521"
+      y2="160.57817"
       class="linea"
-      id="line5778"
+      id="line5802-4-2"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 3.07455;
+        stroke-width: 2.89389;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+    />
+    <line
+      x1="97.640175"
+      y1="147.84506"
+      x2="97.502083"
+      y2="159.03273"
+      class="linea"
+      id="line5778-6-4"
+      style="
+        fill: #ffaaaa;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.39323;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
+    <polyline
+      points="70,180 70,110 100,110"
+      class="linea"
+      id="polyline5774-1-8"
+      transform="matrix(0.30328705,0,0,0.20521105,76.454863,121.82201)"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 8;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-opacity: 1;
       "
     />
     <line
-      x1="102.92371"
-      y1="72.168159"
-      x2="102.79122"
-      y2="79.301201"
+      x1="97.62999"
+      y1="144.28641"
+      x2="249.30289"
+      y2="144.28641"
       class="linea"
-      id="line5786"
+      id="line5802-4-4"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.94176;
+        stroke-width: 2.25878;
         stroke-linecap: round;
         stroke-linejoin: round;
+        stroke-dasharray: none;
         stroke-opacity: 1;
       "
     />
+    <line
+      x1="248.20404"
+      y1="46.129108"
+      x2="248.29721"
+      y2="41.191822"
+      class="linea"
+      id="line5816-45-8-4-4"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 1.64138;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+    />
+    <g
+      transform="matrix(-0.00126936,-0.22404406,0.20639643,0.00177213,236.11884,81.794658)"
+      id="g5826-0-6"
+    >
+      <rect
+        x="0"
+        y="20"
+        width="160"
+        height="80"
+        rx="40"
+        ry="40"
+        class="fina"
+        id="rect5824-6-2"
+        style="
+          fill: none;
+          stroke: #777777;
+          stroke-width: 3;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+        "
+      />
+    </g>
     <text
       xml:space="preserve"
       style="
@@ -665,7 +782,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 6.26857px;
+        font-size: 4.9958px;
         font-family: Calibri;
         -inkscape-font-specification: &quot;Calibri, Bold&quot;;
         font-variant-ligatures: normal;
@@ -676,26 +793,26 @@
         fill: #f0f0f0;
         fill-opacity: 1;
         stroke: #ffff00;
-        stroke-width: 0.00544676;
-        stroke-dasharray: 2.85908, 0.714767;
+        stroke-width: 0.00434085;
+        stroke-dasharray: 2.27857, 0.56964;
       "
-      x="85.199562"
-      y="123.58198"
-      id="fab9_vv921_compresor_text"
-      transform="matrix(1.0743233,-0.0134578,0.01251514,0.93066173,0,0)"
+      x="224.02434"
+      y="17.243486"
+      id="fab6_vv678_compresor_text"
+      transform="matrix(1.0721322,2.8125468e-4,0.00100746,0.93272107,0,0)"
     >
       <tspan
-        id="tspan3787"
-        x="85.199562"
-        y="123.58198"
-        style="stroke-width: 0.00544676"
+        id="tspan87730"
+        x="224.02434"
+        y="17.243486"
+        style="stroke-width: 0.00434085"
       >
-        VV921
+        VV678
       </tspan>
     </text>
     <g
-      transform="matrix(0.29938622,0,0,0.28540438,90.888065,96.870259)"
-      id="fab9_vv921_compresor_icon"
+      transform="matrix(-0.23808935,-0.00150908,0.00138486,-0.22793342,258.00772,27.890921)"
+      id="fab6_vv678_compresor_icon"
       style="
         fill: #333333;
         fill-opacity: 0.0431655;
@@ -708,7 +825,7 @@
         cy="40"
         r="40"
         class="fina"
-        id="circle5788"
+        id="circle5788-7-6"
         style="
           fill: #333333;
           fill-opacity: 0.0431655;
@@ -723,7 +840,7 @@
         d="M 40,10 55,40 H 25 Z"
         class="fina"
         fill="none"
-        id="path5790"
+        id="path5790-9-0"
         style="
           fill: #333333;
           fill-opacity: 0.0431655;
@@ -735,261 +852,34 @@
         "
       />
     </g>
-    <path
+    <ellipse
       style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #a1a1a1;
-        stroke-width: 2.61087;
+        fill: #271b09;
+        fill-opacity: 0.193878;
+        stroke: #db7500;
+        stroke-width: 0.0216116;
         stroke-dasharray: none;
-        stroke-opacity: 1;
         paint-order: markers fill stroke;
       "
-      d="m 81.885744,133.7275 -15.620788,0.0221"
-      id="path19811-6-46-9-4-1"
+      id="fab6_vv678_compresor"
+      cx="-248.65102"
+      cy="-17.119953"
+      rx="9.852706"
+      ry="9.4626274"
+      transform="matrix(-0.99997966,-0.00637842,0.00603722,-0.99998178,0,0)"
     />
     <line
-      x1="102.93893"
-      y1="72.055901"
-      x2="124.44215"
-      y2="72.055901"
+      x1="248.36467"
+      y1="31.470736"
+      x2="248.45618"
+      y2="26.431505"
       class="linea"
-      id="line5794"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #fafafa;
-        stroke-width: 3.00902;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-opacity: 1;
-      "
-    />
-    <line
-      x1="144.22507"
-      y1="71.914978"
-      x2="186.35663"
-      y2="71.914978"
-      class="linea"
-      id="line5802"
+      id="line5816-45-8-4"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.98501;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-opacity: 1;
-      "
-    />
-    <line
-      x1="183.92627"
-      y1="91.28109"
-      x2="183.8764"
-      y2="98.935471"
-      class="linea"
-      id="line5816"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 2.08034;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-      "
-    />
-    <line
-      x1="184.11037"
-      y1="72.56852"
-      x2="184.03975"
-      y2="79.855759"
-      class="linea"
-      id="line5816-1"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 2.13314;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-      "
-    />
-    <line
-      x1="82.410286"
-      y1="108.5081"
-      x2="82.20607"
-      y2="133.14642"
-      class="linea"
-      id="line5816-4"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 3.00181;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-opacity: 1;
-      "
-    />
-    <path
-      id="path9045"
-      style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 1.07078;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 30.017548,96.704379 a 2.4968868,2.1820838 89.997799 0 1 2.182157,2.49683 2.4968868,2.1820838 89.997799 0 1 -2.18201,2.496931 2.4968868,2.1820838 89.997799 0 1 -2.182157,-2.496851 2.4968868,2.1820838 89.997799 0 1 2.18201,-2.49691 z m 0.19373,-0.44554 -5.461553,-5.66926 11.156172,0.23205 z m -5.71803,11.298241 5.57914,-5.55459 5.579471,5.55428 z"
-    />
-    <path
-      id="path9045-8"
-      style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 1.08199;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 82.254302,96.702219 a 2.4943448,2.2302476 89.997345 0 1 2.230325,2.49428 2.4943448,2.2302476 89.997345 0 1 -2.230173,2.494391 2.4943448,2.2302476 89.997345 0 1 -2.230325,-2.494291 2.4943448,2.2302476 89.997345 0 1 2.230173,-2.49438 z m 0.198003,-0.44508 -5.582097,-5.66349 11.402413,0.23182 z m -5.844239,11.286741 5.702285,-5.54894 5.702618,5.54863 z"
-    />
-    <path
-      id="path9045-6"
-      style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 1.09946;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 136.62957,71.825929 a 2.2215195,2.5856988 88.204176 0 1 -2.56387,2.26117 2.2215195,2.5856988 88.204176 0 1 -2.60668,-2.18194 2.2215195,2.5856988 88.204176 0 1 2.56386,-2.261169 2.2215195,2.5856988 88.204176 0 1 2.60669,2.181939 z m 0.46319,0.19017 5.8165,-5.650129 -0.1311,11.361649 z m -11.75417,-5.642529 5.80584,5.592099 -5.6963,5.76835 z"
-    />
-    <path
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 2.45535;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 225.74757,72.251679 10.30518,-0.062"
-      id="path19811-6"
-    />
-    <path
-      style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #a1a1a1;
-        stroke-width: 2.08278;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 195.07928,44.12861 -0.3258,26.765939"
-      id="path19811-6-46"
-    />
-    <path
-      style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #fdfdfd;
-        stroke-width: 2.45535;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 308.12483,71.479039 10.30517,-0.062"
-      id="path19811-6-9"
-    />
-    <path
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 2.45535;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 280.12008,71.627259 10.30519,-0.062"
-      id="path19811-6-4"
-    />
-    <path
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 2.9889974;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 186.33145,71.921224 22.0408,-0.05427"
-      id="path19811"
-    />
-    <path
-      style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #a1a1a1;
-        stroke-width: 2.08278;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 318.28518,44.69632 -0.52715,26.765929"
-      id="path19811-6-46-7"
-    />
-    <line
-      x1="317.19174"
-      y1="71.927345"
-      x2="316.69223"
-      y2="133.46701"
-      class="linea"
-      id="line5816-4-0"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 3.09243;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-opacity: 1;
-      "
-    />
-    <path
-      id="path9045-6-4"
-      style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 1.09946;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 219.75065,72.207669 a 2.2215195,2.5856988 88.204176 0 1 -2.56386,2.26117 2.2215195,2.5856988 88.204176 0 1 -2.60669,-2.18194 2.2215195,2.5856988 88.204176 0 1 2.56387,-2.26117 2.2215195,2.5856988 88.204176 0 1 2.60668,2.18194 z m 0.46318,0.19018 5.81652,-5.650139 -0.1311,11.361659 z m -11.75416,-5.642519 5.80585,5.592079 -5.69631,5.76836 z"
-    />
-    <line
-      x1="82.31102"
-      y1="133.70911"
-      x2="316.62006"
-      y2="133.70911"
-      class="linea"
-      id="line5802-4"
-      style="
-        fill: none;
-        fill-opacity: 1;
-        stroke: #ffffff;
-        stroke-width: 3.14157;
+        stroke-width: 1.64309;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-dasharray: none;
@@ -997,88 +887,79 @@
       "
     />
     <path
-      id="path9045-6-4-2-0"
+      id="path9045-6-4-14-2-9"
       style="
         fill: #424242;
         fill-opacity: 0;
         stroke: #787878;
-        stroke-width: 1.33459;
+        stroke-width: 0.438331;
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
-      d="m 57.855486,133.46594 a 2.5804003,3.2800536 88.870658 0 1 -3.252528,2.62636 2.5804003,3.2800536 88.870658 0 1 -3.306861,-2.5343 2.5804003,3.2800536 88.870658 0 1 3.252538,-2.62628 2.5804003,3.2800536 88.870658 0 1 3.306851,2.53422 z m 0.587591,0.22078 7.378875,-6.56255 -0.166351,13.19638 z m -14.911409,-6.55373 7.365351,6.49511 -7.226378,6.6999 z"
+      d="m 248.65691,89.792328 a 1.1072825,0.82454737 89.82105 0 1 0.82579,1.10772 1.1072825,0.82454737 89.82105 0 1 -0.82334,1.10684 1.1072825,0.82454737 89.82105 0 1 -0.82574,-1.10772 1.1072825,0.82454737 89.82105 0 1 0.82329,-1.10684 z m 0.0729,-0.19753 -2.06649,-2.51528 4.21574,0.10533 z m -2.15531,5.00915 2.10556,-2.46209 2.11097,2.46432 z"
     />
-    <g
-      transform="matrix(0.27583388,0,0,0.26393357,236.19806,56.97413)"
-      id="g5826"
-    >
-      <rect
-        x="0"
-        y="20"
-        width="160"
-        height="80"
-        rx="40"
-        ry="40"
-        class="fina"
-        id="rect5824"
-        style="
-          fill: none;
-          stroke: #777777;
-          stroke-width: 3;
-          stroke-linecap: round;
-          stroke-linejoin: round;
-        "
-      />
-    </g>
-    <path
-      id="path9045-6-4-1"
+    <line
+      x1="248.73988"
+      y1="83.277992"
+      x2="248.67485"
+      y2="86.1717"
+      class="linea"
+      id="line5756-8-9-4"
       style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 1.09946;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 302.0288,71.070739 a 2.2215195,2.5856988 88.204176 0 1 -2.56386,2.26117 2.2215195,2.5856988 88.204176 0 1 -2.60669,-2.18193 2.2215195,2.5856988 88.204176 0 1 2.56387,-2.261159 2.2215195,2.5856988 88.204176 0 1 2.60668,2.181919 z m 0.46319,0.19018 5.81651,-5.650119 -0.13109,11.361629 z m -11.75416,-5.642519 5.80583,5.592079 -5.6963,5.76835 z"
-    />
-    <path
-      style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #a1a1a1;
-        stroke-width: 2.27644;
-        stroke-dasharray: none;
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.23336;
+        stroke-linecap: round;
+        stroke-linejoin: round;
         stroke-opacity: 1;
-        paint-order: markers fill stroke;
       "
-      d="m 319.13034,45.15942 -54.01596,0.059"
-      id="path19811-6-46-9-4"
     />
     <path
-      style="
-        fill: #0a0808;
-        fill-opacity: 0.98801;
-        stroke: #a1a1a1;
-        stroke-width: 2.27644;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 248.10589,44.9968 -54.01596,0.059"
-      id="path19811-6-46-9"
-    />
-    <path
-      id="path9045-6-4-2"
+      id="path9045-6-4-14-2-9-7"
       style="
         fill: #424242;
         fill-opacity: 0;
         stroke: #787878;
-        stroke-width: 1.09946;
+        stroke-width: 0.451855;
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
-      d="m 259.35535,45.16945 a 2.2215195,2.5856988 88.204176 0 1 -2.56386,2.26117 2.2215195,2.5856988 88.204176 0 1 -2.60669,-2.18194 2.2215195,2.5856988 88.204176 0 1 2.56387,-2.26117 2.2215195,2.5856988 88.204176 0 1 2.60668,2.18194 z m 0.46318,0.19017 5.81652,-5.65013 -0.1311,11.36165 z m -11.75417,-5.64252 5.80586,5.59208 -5.69631,5.76837 z"
+      d="m 248.17943,35.155592 a 1.1818087,0.82095804 89.85628 0 1 0.82219,1.182274 1.1818087,0.82095804 89.85628 0 1 -0.81975,1.181345 1.1818087,0.82095804 89.85628 0 1 -0.82215,-1.182283 1.1818087,0.82095804 89.85628 0 1 0.81971,-1.181336 z m 0.0727,-0.21082 -2.0575,-2.68458 4.19739,0.112417 z m -2.14593,5.346287 2.0964,-2.6278 2.10177,2.630187 z"
+    />
+    <line
+      x1="165.29248"
+      y1="136.3611"
+      x2="165.10416"
+      y2="144.22699"
+      class="linea"
+      id="line5778-6-1-0"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.34357;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
+    <line
+      x1="164.65089"
+      y1="95.66069"
+      x2="164.65144"
+      y2="98.444077"
+      class="linea"
+      id="line5756-8-9-0"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.22819;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
     />
     <text
       xml:space="preserve"
@@ -1087,7 +968,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 5.39099px;
+        font-size: 6.07553px;
         font-family: Calibri;
         -inkscape-font-specification: &quot;Calibri, Bold&quot;;
         font-variant-ligatures: normal;
@@ -1098,39 +979,43 @@
         fill: #ffffff;
         fill-opacity: 1;
         stroke: #ffff00;
-        stroke-width: 0.00414429;
-        stroke-dasharray: 2.1754, 0.54384;
+        stroke-width: 0.00467052;
+        stroke-dasharray: 2.45162, 0.612894;
       "
-      x="42.442463"
-      y="86.568779"
-      id="fab9_vv922_secador_text"
-      transform="matrix(1.1978536,0.02070135,-0.02588804,0.83437917,0,0)"
+      x="133.64734"
+      y="129.73256"
+      id="fab6_vv677_secador_text"
+      transform="matrix(1.1771478,0.02106549,-0.02544056,0.84905571,0,0)"
     >
       <tspan
-        id="tspan29543-0"
-        x="42.442463"
-        y="86.568779"
-        style="
-          font-style: normal;
-          font-variant: normal;
-          font-weight: bold;
-          font-stretch: normal;
-          font-size: 5.39099px;
-          font-family: Calibri;
-          -inkscape-font-specification: &quot;Calibri, Bold&quot;;
-          font-variant-ligatures: normal;
-          font-variant-caps: normal;
-          font-variant-numeric: normal;
-          font-variant-east-asian: normal;
-          stroke-width: 0.00414429;
-        "
+        id="tspan87728"
+        x="133.64734"
+        y="129.73256"
+        style="stroke-width: 0.00467052"
       >
-        VV922
+        VV677
       </tspan>
     </text>
+    <line
+      x1="165.28427"
+      y1="124.2506"
+      x2="165.28485"
+      y2="126.89635"
+      class="linea"
+      id="line5756-8-9-0-7"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.22816;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
     <g
-      transform="matrix(-0.00527452,-0.36585386,0.38046263,-0.00548513,42.781245,86.766366)"
-      id="fab9_vv922_secador"
+      transform="matrix(0.28601225,-0.00743834,0.00755512,0.30897362,153.25149,99.402308)"
+      id="polygon"
       style="
         display: inline;
         fill: #333333;
@@ -1142,7 +1027,7 @@
       "
     >
       <path
-        id="polygon5764"
+        id="fab6_vv677_secador"
         style="
           stroke-width: 2.06348;
           stroke-linecap: round;
@@ -1153,21 +1038,46 @@
         d="M 0,40 40,0 80,40 40,80 Z M 30.198049,9.808128 49.769314,9.749495 m -19.543686,60.520901 19.536384,-0.05861"
       />
     </g>
-    <ellipse
+    <line
+      x1="164.04018"
+      y1="46.11974"
+      x2="164.13336"
+      y2="41.182446"
+      class="linea"
+      id="line5816-45-8-4-4-3"
       style="
-        fill: #271b09;
-        fill-opacity: 0.193878;
-        stroke: #db7500;
-        stroke-width: 0.0271207;
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 1.64138;
+        stroke-linecap: round;
+        stroke-linejoin: round;
         stroke-dasharray: none;
-        paint-order: markers fill stroke;
+        stroke-opacity: 1;
       "
-      id="fab9_vv921_compresor"
-      cx="102.86147"
-      cy="108.30692"
-      rx="12.429863"
-      ry="11.812191"
     />
+    <g
+      transform="matrix(-0.00126936,-0.22404406,0.20639643,0.00177213,151.95499,81.785278)"
+      id="g5826-0-6-3"
+    >
+      <rect
+        x="0"
+        y="20"
+        width="160"
+        height="80"
+        rx="40"
+        ry="40"
+        class="fina"
+        id="rect5824-6-2-0"
+        style="
+          fill: none;
+          stroke: #777777;
+          stroke-width: 3;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+        "
+      />
+    </g>
     <text
       xml:space="preserve"
       style="
@@ -1175,7 +1085,7 @@
         font-variant: normal;
         font-weight: bold;
         font-stretch: normal;
-        font-size: 6.59278px;
+        font-size: 4.9958px;
         font-family: Calibri;
         -inkscape-font-specification: &quot;Calibri, Bold&quot;;
         font-variant-ligatures: normal;
@@ -1186,70 +1096,29 @@
         fill: #f0f0f0;
         fill-opacity: 1;
         stroke: #ffff00;
-        stroke-width: 0.00572846;
-        stroke-dasharray: 3.00694, 0.751742;
+        stroke-width: 0.00434085;
+        stroke-dasharray: 2.27857, 0.56964;
       "
-      x="128.29495"
-      y="149.61217"
-      id="fab9_vv927_compresor_text"
-      transform="matrix(1.2688835,-0.00626512,0.01776188,0.78800673,0,0)"
+      x="145.4335"
+      y="17.081749"
+      id="fab6_vv675_compresor_text"
+      transform="matrix(1.0721322,2.8125468e-4,0.00100746,0.93272107,0,0)"
     >
-      <tspan id="tspan623" style="stroke-width: 0.00572846">VV927</tspan>
+      <tspan
+        id="tspan87726"
+        x="145.4335"
+        y="17.081749"
+        style="stroke-width: 0.00434085"
+      >
+        VV675
+      </tspan>
     </text>
-    <path
-      style="
-        fill: #271b09;
-        fill-opacity: 0.193878;
-        stroke: #fff9f3;
-        stroke-width: 0.954339;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      d="m 171.27343,106.31074 5.77844,8e-4"
-      id="path7077"
-    />
-    <rect
-      style="
-        fill: #271b09;
-        fill-opacity: 0.193878;
-        stroke: #fff9f3;
-        stroke-width: 0.563518;
-        stroke-dasharray: none;
-        stroke-opacity: 1;
-        paint-order: markers fill stroke;
-      "
-      id="rect6052"
-      width="18.466955"
-      height="31.913988"
-      x="99.082474"
-      y="-191.98149"
-      ry="0.4932332"
-      transform="matrix(-1.3290662e-4,0.99999999,-0.99999999,-1.4405735e-4,0,0)"
-    />
     <g
-      transform="matrix(-0.16627599,0.00158161,-0.00162636,-0.17040212,190.47742,113.06019)"
-      id="fab9_vv927_compresor_secador_integrado"
+      transform="matrix(-0.23808935,-0.00150908,0.00138486,-0.22793342,173.80355,27.710089)"
+      id="fab6_vv675_compresor_icon"
       style="
         fill: #333333;
-        fill-opacity: 0.278177;
-        stroke: #db7500;
-        stroke-opacity: 1;
-      "
-    >
-      <path
-        id="polygon5764-7"
-        style="stroke-width: 3; stroke-linecap: round; stroke-linejoin: round"
-        class="fina"
-        d="M 40,80 0,40 40,0 80,40 Z M 51.915876,12.760103 27.648093,12.698394 m 22.684782,56.325879 -20.149013,0.24469"
-      />
-    </g>
-    <g
-      transform="matrix(-2.0763438e-5,0.1500647,-0.13956016,-1.9309996e-5,172.80218,100.32527)"
-      id="fab9_vv927_compresor_icon"
-      style="
-        fill: #333333;
-        fill-opacity: 0.0791367;
+        fill-opacity: 0.0431655;
         stroke: #db7500;
         stroke-opacity: 1;
       "
@@ -1259,10 +1128,10 @@
         cy="40"
         r="40"
         class="fina"
-        id="circle5804"
+        id="circle5788-7-6-5"
         style="
           fill: #333333;
-          fill-opacity: 0.0791367;
+          fill-opacity: 0.0431655;
           stroke: #db7500;
           stroke-width: 3;
           stroke-linecap: round;
@@ -1274,10 +1143,10 @@
         d="M 40,10 55,40 H 25 Z"
         class="fina"
         fill="none"
-        id="path5806"
+        id="path5790-9-0-8"
         style="
           fill: #333333;
-          fill-opacity: 0.0791367;
+          fill-opacity: 0.0431655;
           stroke: #db7500;
           stroke-width: 3;
           stroke-linecap: round;
@@ -1291,41 +1160,88 @@
         fill: #271b09;
         fill-opacity: 0.193878;
         stroke: #db7500;
-        stroke-width: 0.0132545;
+        stroke-width: 0.0216553;
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
-      id="fab9_vv927_compresor"
-      cx="106.33197"
-      cy="-167.14554"
-      rx="6.1964216"
-      ry="5.6596198"
-      transform="rotate(90.007928)"
-    />
-    <path
-      id="path9045-6-4-14"
-      style="
-        fill: #424242;
-        fill-opacity: 0;
-        stroke: #787878;
-        stroke-width: 0.550004;
-        stroke-dasharray: none;
-        paint-order: markers fill stroke;
-      "
-      d="m 184.1536,86.982273 a 1.3864371,1.0368159 88.947437 0 1 -1.06027,-1.369739 1.3864371,1.0368159 88.947437 0 1 1.01314,-1.402728 1.3864371,1.0368159 88.947437 0 1 1.06022,1.369748 1.3864371,1.0368159 88.947437 0 1 -1.01309,1.402719 z m -0.0878,0.248805 2.64818,3.106303 -5.3024,-0.04468 z m 2.61012,-6.315755 -2.59826,3.125929 -2.70308,-3.041577 z"
+      id="fab6_vv675_compresor"
+      cx="-164.43814"
+      cy="-17.476463"
+      rx="9.8748131"
+      ry="9.4796448"
+      transform="matrix(-0.99997968,-0.00637558,0.00603992,-0.99998176,0,0)"
     />
     <line
-      x1="102.94917"
-      y1="90.883286"
-      x2="102.89931"
-      y2="98.537666"
+      x1="164.20082"
+      y1="31.461367"
+      x2="164.29233"
+      y2="26.422129"
       class="linea"
-      id="line5816-45"
+      id="line5816-45-8-4-5"
       style="
         fill: none;
         fill-opacity: 1;
         stroke: #ffffff;
-        stroke-width: 2.08034;
+        stroke-width: 1.64309;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+    />
+    <line
+      x1="164.55771"
+      y1="83.268639"
+      x2="164.52931"
+      y2="86.162315"
+      class="linea"
+      id="line5756-8-9-4-5"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.23336;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
+    <path
+      id="path9045-6-4-14-2-9-0"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.438331;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 164.45099,89.782948 a 1.1094244,0.82295548 84.68313 0 1 0.87039,1.10772 1.1094244,0.82295548 84.68313 0 1 -0.77876,1.10685 1.1094244,0.82295548 84.68313 0 1 -0.87035,-1.10773 1.1094244,0.82295548 84.68313 0 1 0.77872,-1.10684 z m 0.065,-0.19752 -2.16777,-2.51529 4.21997,0.10533 z m -1.95362,5.00914 2.00643,-2.46209 2.21019,2.46432 z"
+    />
+    <path
+      id="path9045-6-4-14-2-9-7-9"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.451855;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 164.01558,35.146217 a 1.1818087,0.82095804 89.85628 0 1 0.82219,1.182274 1.1818087,0.82095804 89.85628 0 1 -0.81976,1.181345 1.1818087,0.82095804 89.85628 0 1 -0.82214,-1.182283 1.1818087,0.82095804 89.85628 0 1 0.81971,-1.181336 z m 0.0727,-0.21082 -2.0575,-2.68458 4.19739,0.112418 z m -2.14593,5.346287 2.0964,-2.6278 2.10177,2.630187 z"
+    />
+    <line
+      x1="65.564384"
+      y1="130.27219"
+      x2="66.842278"
+      y2="36.774525"
+      class="linea"
+      id="line5802-4-27"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.15937;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-dasharray: none;
@@ -1333,17 +1249,263 @@
       "
     />
     <path
-      id="path9045-6-4-14-8"
+      id="path9045-6-4-1-8"
       style="
         fill: #424242;
         fill-opacity: 0;
         stroke: #787878;
-        stroke-width: 0.550004;
+        stroke-width: 0.87623;
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
-      d="m 103.03537,86.661801 a 1.3864371,1.0368159 88.947437 0 1 -1.06027,-1.369739 1.3864371,1.0368159 88.947437 0 1 1.01314,-1.402728 1.3864371,1.0368159 88.947437 0 1 1.06022,1.369748 1.3864371,1.0368159 88.947437 0 1 -1.01309,1.402719 z m -0.0878,0.248805 2.64818,3.106303 -5.3024,-0.04468 z m 2.61012,-6.315755 -2.59826,3.125929 -2.70308,-3.041577 z"
+      d="m 65.353179,135.9992 a 2.1002353,1.73713 88.784225 0 1 1.759369,2.09023 2.1002353,1.73713 88.784225 0 1 -1.714957,2.10988 2.1002353,1.73713 88.784225 0 1 -1.759369,-2.09025 2.1002353,1.73713 88.784225 0 1 1.714957,-2.10986 z m 0.150282,-0.37559 -4.398248,-4.74382 8.883533,0.14522 z m -4.451944,9.52824 4.392314,-4.69681 4.491096,4.64656 z"
     />
+    <path
+      style="
+        fill: #ffffff;
+        fill-opacity: 0.648734;
+        stroke: #ffffff;
+        stroke-width: 0.530125;
+        stroke-dasharray: none;
+        stroke-opacity: 0.875;
+        paint-order: markers fill stroke;
+      "
+      d="m 69.653136,36.040441 -2.419644,-5.552246 -3.166371,5.547136 z"
+      id="path77900-3"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 5.98317px;
+        font-family: Calibri;
+        -inkscape-font-specification: &quot;Calibri, Bold&quot;;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        fill: #ffffff;
+        fill-opacity: 0.648734;
+        stroke: #ffffff;
+        stroke-width: 0.00142883;
+        stroke-dasharray: none;
+        stroke-opacity: 0.875;
+        paint-order: markers fill stroke;
+      "
+      x="53.103111"
+      y="29.164667"
+      id="text45960"
+      transform="scale(1.0521139,0.95046745)"
+    >
+      <tspan
+        id="tspan45958"
+        style="stroke-width: 0.00142883; stroke-dasharray: none"
+        x="53.103111"
+        y="29.164667"
+      >
+        Fábrica 9
+      </tspan>
+    </text>
+    <path
+      id="path9045-6-4-1-3"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.888598;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 144.06817,107.89474 a 2.164125,1.7337921 88.373912 0 1 1.78338,2.12866 2.164125,1.7337921 88.373912 0 1 -1.68352,2.19839 2.164125,1.7337921 88.373912 0 1 -1.78339,-2.12867 2.164125,1.7337921 88.373912 0 1 1.68353,-2.19838 z m 0.145,-0.38914 -4.45194,-4.82524 8.86717,0.0231 z m -4.31677,9.88106 4.32116,-4.90202 4.5433,4.72371 z"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.10069;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 247.66393,84.423308 -18.34368,0.01748"
+      id="path19811-6-46-9-4-1-4-8-6"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.01818;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 228.30368,83.386394 -0.0495,18.564656"
+      id="path19811-6-46-4-1"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.10079;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 248.24213,138.62975 -18.86797,-0.0175"
+      id="path19811-6-46-9-4-1-4-8-4-9"
+    />
+    <path
+      style="
+        fill: #0a0808;
+        fill-opacity: 0.98801;
+        stroke: #a1a1a1;
+        stroke-width: 2.09342;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+        paint-order: markers fill stroke;
+      "
+      d="m 228.34294,139.66648 -0.0491,-22.37772"
+      id="path19811-6-46-4-3-8"
+    />
+    <path
+      id="path9045-6-4-1-3-0"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.888598;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 228.19845,107.60817 a 2.164125,1.7337921 88.373912 0 1 1.78338,2.12866 2.164125,1.7337921 88.373912 0 1 -1.68352,2.19839 2.164125,1.7337921 88.373912 0 1 -1.78339,-2.12867 2.164125,1.7337921 88.373912 0 1 1.68353,-2.19838 z m 0.145,-0.38914 -4.45194,-4.82524 8.86717,0.0231 z m -4.31677,9.88106 4.32116,-4.90202 4.5433,4.72371 z"
+    />
+    <path
+      id="path9045-6-4-14-2-9-0-9"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.438331;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 165.17064,130.55899 a 1.1094244,0.82295548 84.68313 0 1 0.87039,1.10772 1.1094244,0.82295548 84.68313 0 1 -0.77876,1.10685 1.1094244,0.82295548 84.68313 0 1 -0.87035,-1.10773 1.1094244,0.82295548 84.68313 0 1 0.77872,-1.10684 z m 0.065,-0.19752 -2.16777,-2.51529 4.21997,0.10533 z m -1.95362,5.00914 2.00643,-2.46209 2.21019,2.46432 z"
+    />
+    <line
+      x1="249.49352"
+      y1="136.38602"
+      x2="249.30519"
+      y2="144.25191"
+      class="linea"
+      id="line5778-6-1-0-6"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.34357;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
+    <line
+      x1="249.48531"
+      y1="124.27552"
+      x2="249.48589"
+      y2="126.92126"
+      class="linea"
+      id="line5756-8-9-0-7-1"
+      style="
+        fill: none;
+        fill-opacity: 1;
+        stroke: #ffffff;
+        stroke-width: 2.22816;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-opacity: 1;
+      "
+    />
+    <path
+      id="path9045-6-4-14-2-9-0-9-1"
+      style="
+        fill: #424242;
+        fill-opacity: 0;
+        stroke: #787878;
+        stroke-width: 0.438331;
+        stroke-dasharray: none;
+        paint-order: markers fill stroke;
+      "
+      d="m 249.37169,130.58389 a 1.1094244,0.82295548 84.68313 0 1 0.87039,1.10772 1.1094244,0.82295548 84.68313 0 1 -0.77876,1.10685 1.1094244,0.82295548 84.68313 0 1 -0.87035,-1.10773 1.1094244,0.82295548 84.68313 0 1 0.77872,-1.10684 z m 0.065,-0.19752 -2.16777,-2.51529 4.21997,0.10533 z m -1.95362,5.00914 2.00643,-2.46209 2.21019,2.46432 z"
+    />
+    <text
+      xml:space="preserve"
+      style="
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-stretch: normal;
+        font-size: 6.20689px;
+        font-family: Calibri;
+        -inkscape-font-specification: &quot;Calibri, Bold&quot;;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        display: inline;
+        fill: #ffffff;
+        fill-opacity: 1;
+        stroke: #ffff00;
+        stroke-width: 0.0047715;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 2.50462, 0.626148;
+        stroke-opacity: 1;
+      "
+      x="217.33893"
+      y="119.85586"
+      id="fab6_vv680_secador_text"
+      transform="matrix(1.1102237,0.02233531,-0.02399419,0.90023667,0,0)"
+    >
+      <tspan
+        id="tspan87732"
+        x="217.33893"
+        y="119.85586"
+        style="stroke-width: 0.0047715"
+      >
+        VV680
+      </tspan>
+    </text>
+    <g
+      transform="matrix(0.28601226,-0.00743834,0.00755512,0.30897362,237.2318,99.319915)"
+      id="polygon2"
+      style="
+        display: inline;
+        fill: #333333;
+        fill-opacity: 0.278177;
+        stroke: #db7500;
+        stroke-width: 2.06348;
+        stroke-dasharray: none;
+        stroke-opacity: 1;
+      "
+    >
+      <path
+        id="fab6_vv680_secador"
+        style="
+          stroke-width: 2.06348;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-dasharray: none;
+        "
+        class="fina"
+        d="M 0,40 40,0 80,40 40,80 Z M 30.198049,9.808128 49.769314,9.749495 m -19.543686,60.520901 19.536384,-0.05861"
+      />
+    </g>
   </svg>
 </template>
 
