@@ -29,6 +29,30 @@
         ref="mapSala"
         v-if="fab1SalaAtlasCompresor && !loading"
       />
+
+      <Map_sala_fab1_kaeser1 
+        class="container__map"
+        ref="mapSala"
+        v-if="fab1SalaKaeser1Compresor && !loading"
+      />
+
+      <Map_Sala_fab1_kaeser2
+        class="container__map"
+        ref="mapSala"
+        v-if="fab1SalaKaeser2Compresor && !loading"
+      />
+
+      <Map_Sala_fab3_kaeser2
+        class="container__map"
+        ref="mapSala"
+        v-if="fab3SalaKaeser2Compresor && !loading"
+      />
+      
+      <Map_Sala_fab3_kaeser1
+        class="container__map"
+        ref="mapSala"
+        v-if="fab3SalaKaeser1Compresor && !loading"
+      />
   </div>
 
   <ToolTipChartBar 
@@ -42,10 +66,14 @@
 
 import { ref, onMounted, onUnmounted, watchEffect } from 'vue';
 import Map_Sala_fab9_atlas from '../salas_compresores/Map_Sala_fab9_atlas.vue';
+import Map_sala_fab1_kaeser1 from '../salas_compresores/Map_sala_fab1_kaeser1.vue';
 import Map_Sala_fab1_atlas from '../salas_compresores/Map_Sala_fab1_atlas.vue';
 import Map_Sala_fab3_atlas from '../salas_compresores/Map_Sala_fab3_atlas.vue';
 import Map_Sala_fab4_atlas from '../salas_compresores/Map_Sala_fab4_atlas.vue';
 import Map_Sala_fab6_atlas from '../salas_compresores/Map_Sala_fab6_atlas.vue';
+import Map_Sala_fab1_kaeser2 from '../salas_compresores/Map_Sala_fab1_kaeser2.vue';
+import Map_Sala_fab3_kaeser2 from '../salas_compresores/Map_Sala_fab3_kaeser2.vue';
+import Map_Sala_fab3_kaeser1 from '../salas_compresores/Map_Sala_fab3_kaeser1.vue';
 import { useRoute } from 'vue-router';
 import axios from "axios";
 
@@ -103,6 +131,10 @@ const fab3SalaAtlasCompresor = ref(null);
 const fab4SalaAtlasCompresor = ref(null);
 const fab6SalaAtlasCompresor = ref(null);
 const fab1SalaAtlasCompresor = ref(null);
+const fab1SalaKaeser1Compresor = ref(null);
+const fab1SalaKaeser2Compresor = ref(null);
+const fab3SalaKaeser2Compresor = ref(null);
+const fab3SalaKaeser1Compresor = ref(null);
 
 const serverNodeREd = import.meta.env.VITE_SERVER_NODE_RED;
 const parametros = route.query;
@@ -130,9 +162,21 @@ const updateOpciones = () => {
   else fab4SalaAtlasCompresor.value = false;
 
   if(result === 'fab6_atlas_sala_compresor') fab6SalaAtlasCompresor.value = true;
-  else fab6SalaAtlasCompresor.value = false; 
+  else fab6SalaAtlasCompresor.value = false;
+  
+  if(result === 'fab1_kaeser1_sala_compresor') fab1SalaKaeser1Compresor.value = true;
+  else fab1SalaKaeser1Compresor.value = false;
 
-  //console.log(fab3SalaAtlasCompresor.value);
+  if(result === 'fab1_kaeser2_sala_compresor') fab1SalaKaeser2Compresor.value = true;
+  else fab1SalaKaeser2Compresor.value = false;
+
+  if(result === 'fab3_kaeser2_sala_compresor') fab3SalaKaeser2Compresor.value = true;
+  else fab3SalaKaeser2Compresor.value = false;
+
+  if(result === 'fab3_kaeser1_sala_compresor') fab3SalaKaeser1Compresor.value = true;
+  else fab3SalaKaeser1Compresor.value = false;
+
+  //console.log(fab3SalaKaeser2Compresor.value);
 };
 
 const applyColor = (element, color) => {
