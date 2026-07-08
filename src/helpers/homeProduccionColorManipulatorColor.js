@@ -5,6 +5,7 @@ import { useProduccionEdicion } from "@/stores/produccionEdicion";
 
 
 const estadoColors = {
+    "offline": offlineColor,
     "MARCHA": okColor,
     "PARO": paroManual,
     "AVERIA": averia,

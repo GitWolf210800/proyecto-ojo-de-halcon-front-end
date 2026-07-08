@@ -34,7 +34,7 @@ let intervalId;
 
 onMounted(async ()=> {
     await useDataHomeProduccion();
-    document.tittle = 'Ojo de Halcón - Produccion';
+    document.title = 'Ojo de Halcón - Produccion';
     intervalId = setInterval(() => {
         useDataHomeProduccion();
         //console.log(homeProduccionStore.datos);

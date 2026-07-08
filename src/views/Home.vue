@@ -38,6 +38,8 @@
   import MantenimientoFabrica from '@/components/icons/MantenimientoFabrica.vue';
   import ProduccionFabrica from '@/components/icons/ProduccionFabrica.vue';
 
+  document.title = 'Ojo de Halcón - Home';
+
   </script>
   
 <style scoped>
