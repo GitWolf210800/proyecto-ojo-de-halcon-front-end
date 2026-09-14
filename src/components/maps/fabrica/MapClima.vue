@@ -988,7 +988,7 @@
           font-stretch: normal;
           font-size: 101.577px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1107,7 +1107,7 @@
           font-stretch: normal;
           font-size: 72.3699px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1135,7 +1135,7 @@
             font-stretch: normal;
             font-size: 72.3699px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -1156,7 +1156,7 @@
             font-stretch: normal;
             font-size: 72.3699px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -1603,7 +1603,7 @@
           font-stretch: normal;
           font-size: 93.8875px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1694,7 +1694,7 @@
           font-stretch: normal;
           font-size: 130.419px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1737,7 +1737,7 @@
           font-stretch: normal;
           font-size: 111.009px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1860,7 +1860,7 @@
           font-stretch: normal;
           font-size: 103.213px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1903,7 +1903,7 @@
           font-stretch: normal;
           font-size: 104.318px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1946,7 +1946,7 @@
           font-stretch: normal;
           font-size: 124.814px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -1989,7 +1989,7 @@
           font-stretch: normal;
           font-size: 125.628px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2032,7 +2032,7 @@
           font-stretch: normal;
           font-size: 106.765px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2075,7 +2075,7 @@
           font-stretch: normal;
           font-size: 96.1223px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2118,7 +2118,7 @@
           font-stretch: normal;
           font-size: 97.5031px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2161,7 +2161,7 @@
           font-stretch: normal;
           font-size: 101.085px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2348,7 +2348,7 @@
           font-stretch: normal;
           font-size: 104.57px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2471,7 +2471,7 @@
           font-stretch: normal;
           font-size: 104.281px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2514,7 +2514,7 @@
           font-stretch: normal;
           font-size: 93.4447px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2557,7 +2557,7 @@
           font-stretch: normal;
           font-size: 111.39px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2600,7 +2600,7 @@
           font-stretch: normal;
           font-size: 83.1293px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2641,7 +2641,7 @@
           font-stretch: normal;
           font-size: 111.203px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2684,7 +2684,7 @@
           font-stretch: normal;
           font-size: 81.0205px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2723,7 +2723,7 @@
         style="
           font-size: 17.3333px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           white-space: pre;
           shape-inside: url(#rect136516);
           display: inline;
@@ -2736,7 +2736,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2650.6074" y="963.37856" id="tspan13452">Fábrica N°6</tspan>
+        <tspan x="2650.6074" y="963.37856" id="tspan4275">Fábrica N°6</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2747,7 +2747,7 @@
           font-stretch: normal;
           font-size: 81.2822px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2774,7 +2774,7 @@
             font-stretch: normal;
             font-size: 81.2822px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -2797,7 +2797,7 @@
           font-stretch: normal;
           font-size: 83.1908px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2835,7 +2835,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2852,7 +2852,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13454">Fábrica N°9</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4277">Fábrica N°9</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2865,7 +2865,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2882,7 +2882,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13456">Fábrica N°3</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4279">Fábrica N°3</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2895,7 +2895,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2912,7 +2912,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13458">Fábrica N°4</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4281">Fábrica N°4</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2925,7 +2925,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2942,7 +2942,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13460">Fábrica N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4283">Fábrica N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2955,7 +2955,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -2972,7 +2972,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13462">Batan Fab N°1</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4285">Batan Fab N°1</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -2985,7 +2985,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3002,7 +3002,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13464">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4287">Batan</tspan>
       </text>
       <rect
         style="
@@ -3035,7 +3035,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3052,7 +3052,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13466">Cotonia</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4289">Cotonia</tspan>
       </text>
       <rect
         style="
@@ -3083,7 +3083,7 @@
           font-stretch: normal;
           font-size: 77.8765px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3118,7 +3118,7 @@
           font-stretch: normal;
           font-size: 78.7359px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3153,7 +3153,7 @@
           font-stretch: normal;
           font-size: 74.9408px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3188,7 +3188,7 @@
           font-stretch: normal;
           font-size: 74.9408px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3223,7 +3223,7 @@
           font-stretch: normal;
           font-size: 69.4099px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3258,7 +3258,7 @@
           font-stretch: normal;
           font-size: 91.0131px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3293,7 +3293,7 @@
           font-stretch: normal;
           font-size: 83.4302px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3328,7 +3328,7 @@
           font-stretch: normal;
           font-size: 60.5902px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3363,7 +3363,7 @@
           font-stretch: normal;
           font-size: 67.0673px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3398,7 +3398,7 @@
           font-stretch: normal;
           font-size: 101.272px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3441,7 +3441,7 @@
           font-stretch: normal;
           font-size: 75.4749px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3476,7 +3476,7 @@
           font-stretch: normal;
           font-size: 82.8004px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3519,7 +3519,7 @@
           font-stretch: normal;
           font-size: 60.7203px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3554,7 +3554,7 @@
           font-stretch: normal;
           font-size: 80.8353px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3597,7 +3597,7 @@
           font-stretch: normal;
           font-size: 59.5434px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3632,7 +3632,7 @@
           font-stretch: normal;
           font-size: 81.2121px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3675,7 +3675,7 @@
           font-stretch: normal;
           font-size: 59.5555px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3710,7 +3710,7 @@
           font-stretch: normal;
           font-size: 80.8869px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3753,7 +3753,7 @@
           font-stretch: normal;
           font-size: 60.6269px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3788,7 +3788,7 @@
           font-stretch: normal;
           font-size: 71.7602px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3823,7 +3823,7 @@
           font-stretch: normal;
           font-size: 84.3173px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3866,7 +3866,7 @@
           font-stretch: normal;
           font-size: 62.5365px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3901,7 +3901,7 @@
           font-stretch: normal;
           font-size: 93.5369px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3944,7 +3944,7 @@
           font-stretch: normal;
           font-size: 70.8515px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -3979,7 +3979,7 @@
           font-stretch: normal;
           font-size: 96.5353px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4022,7 +4022,7 @@
           font-stretch: normal;
           font-size: 70.7928px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4057,7 +4057,7 @@
           font-stretch: normal;
           font-size: 91.1391px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4370,7 +4370,7 @@
           font-stretch: normal;
           font-size: 94.1332px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4413,7 +4413,7 @@
           font-stretch: normal;
           font-size: 67.5969px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4602,7 +4602,7 @@
           font-stretch: normal;
           font-size: 64.8202px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4637,7 +4637,7 @@
           font-stretch: normal;
           font-size: 73.7169px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4672,7 +4672,7 @@
           font-stretch: normal;
           font-size: 93.5071px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4707,7 +4707,7 @@
           font-stretch: normal;
           font-size: 71.9181px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4742,7 +4742,7 @@
           font-stretch: normal;
           font-size: 59.4781px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4770,7 +4770,7 @@
             font-stretch: normal;
             font-size: 59.4781px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -4822,7 +4822,7 @@
           font-stretch: normal;
           font-size: 104.854px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4909,7 +4909,7 @@
           font-stretch: normal;
           font-size: 73.6337px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4944,7 +4944,7 @@
           font-stretch: normal;
           font-size: 75.7348px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -4979,7 +4979,7 @@
           font-stretch: normal;
           font-size: 93.5071px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5014,7 +5014,7 @@
           font-stretch: normal;
           font-size: 93.5071px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5051,7 +5051,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5068,7 +5068,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13468">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4291">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5101,7 +5101,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5118,7 +5118,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13470">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4293">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5151,7 +5151,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5168,7 +5168,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13472">Cardas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4295">Cardas</tspan>
       </text>
       <rect
         style="
@@ -5201,7 +5201,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5218,7 +5218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13474">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4297">Bobinaje</tspan>
       </text>
       <rect
         style="
@@ -5251,7 +5251,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5268,7 +5268,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13476">Peinadoras</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4299">Peinadoras</tspan>
       </text>
       <rect
         style="
@@ -5301,7 +5301,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5318,7 +5318,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13478">Retorcidos</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4301">Retorcidos</tspan>
       </text>
       <rect
         style="
@@ -5351,7 +5351,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5368,7 +5368,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13480">Batan</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4303">Batan</tspan>
       </text>
       <rect
         style="
@@ -5401,7 +5401,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5418,7 +5418,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13482">Poliester</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4305">Poliester</tspan>
       </text>
       <rect
         style="
@@ -5449,7 +5449,7 @@
           font-stretch: normal;
           font-size: 107.25px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5844,7 +5844,7 @@
           font-stretch: normal;
           font-size: 100.855px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -5887,7 +5887,7 @@
           font-stretch: normal;
           font-size: 75.4749px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6078,7 +6078,7 @@
           font-stretch: normal;
           font-size: 73.2019px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6106,7 +6106,7 @@
             font-stretch: normal;
             font-size: 73.2019px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6127,7 +6127,7 @@
             font-stretch: normal;
             font-size: 73.2019px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6145,7 +6145,7 @@
           font-stretch: normal;
           font-size: 69.4699px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6173,7 +6173,7 @@
             font-stretch: normal;
             font-size: 69.4699px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6194,7 +6194,7 @@
             font-stretch: normal;
             font-size: 69.4699px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6228,7 +6228,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6245,7 +6245,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13484">LUWA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4307">LUWA</tspan>
       </text>
       <rect
         style="
@@ -6278,7 +6278,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6295,7 +6295,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13486">Cardas A</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4309">Cardas A</tspan>
       </text>
       <rect
         style="
@@ -6328,7 +6328,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6345,7 +6345,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13488">Cardas B</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4311">Cardas B</tspan>
       </text>
       <rect
         style="
@@ -6392,7 +6392,7 @@
           font-stretch: normal;
           font-size: 66.9013px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6420,7 +6420,7 @@
             font-stretch: normal;
             font-size: 66.9013px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6441,7 +6441,7 @@
             font-stretch: normal;
             font-size: 66.9013px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6505,7 +6505,7 @@
           font-stretch: normal;
           font-size: 96.3975px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6548,7 +6548,7 @@
           font-stretch: normal;
           font-size: 62.2464px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6627,7 +6627,7 @@
           font-stretch: normal;
           font-size: 64.3879px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6655,7 +6655,7 @@
             font-stretch: normal;
             font-size: 64.3879px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6676,7 +6676,7 @@
             font-stretch: normal;
             font-size: 64.3879px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6740,7 +6740,7 @@
           font-stretch: normal;
           font-size: 92.6597px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6783,7 +6783,7 @@
           font-stretch: normal;
           font-size: 68.7616px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6862,7 +6862,7 @@
           font-stretch: normal;
           font-size: 65.9557px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -6890,7 +6890,7 @@
             font-stretch: normal;
             font-size: 65.9557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6911,7 +6911,7 @@
             font-stretch: normal;
             font-size: 65.9557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -6975,7 +6975,7 @@
           font-stretch: normal;
           font-size: 80.9811px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7018,7 +7018,7 @@
           font-stretch: normal;
           font-size: 62.1751px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7097,7 +7097,7 @@
           font-stretch: normal;
           font-size: 66.8139px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7125,7 +7125,7 @@
             font-stretch: normal;
             font-size: 66.8139px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7146,7 +7146,7 @@
             font-stretch: normal;
             font-size: 66.8139px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7164,7 +7164,7 @@
           font-stretch: normal;
           font-size: 76.5643px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7192,7 +7192,7 @@
             font-stretch: normal;
             font-size: 76.5643px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7213,7 +7213,7 @@
             font-stretch: normal;
             font-size: 76.5643px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7231,7 +7231,7 @@
           font-stretch: normal;
           font-size: 68.7944px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7259,7 +7259,7 @@
             font-stretch: normal;
             font-size: 68.7944px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7280,7 +7280,7 @@
             font-stretch: normal;
             font-size: 68.7944px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7312,7 +7312,7 @@
           font-stretch: normal;
           font-size: 82.9045px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7340,7 +7340,7 @@
             font-stretch: normal;
             font-size: 82.9045px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7361,7 +7361,7 @@
             font-stretch: normal;
             font-size: 82.9045px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7423,7 +7423,7 @@
           font-stretch: normal;
           font-size: 71.5969px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7451,7 +7451,7 @@
             font-stretch: normal;
             font-size: 71.5969px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7472,7 +7472,7 @@
             font-stretch: normal;
             font-size: 71.5969px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7490,7 +7490,7 @@
           font-stretch: normal;
           font-size: 73.7163px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7518,7 +7518,7 @@
             font-stretch: normal;
             font-size: 73.7163px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7539,7 +7539,7 @@
             font-stretch: normal;
             font-size: 73.7163px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7557,7 +7557,7 @@
           font-stretch: normal;
           font-size: 73.5452px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7585,7 +7585,7 @@
             font-stretch: normal;
             font-size: 73.5452px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7606,7 +7606,7 @@
             font-stretch: normal;
             font-size: 73.5452px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7700,7 +7700,7 @@
           font-stretch: normal;
           font-size: 98.1313px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7771,7 +7771,7 @@
           font-stretch: normal;
           font-size: 72.7773px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7806,7 +7806,7 @@
           font-stretch: normal;
           font-size: 72.2196px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7834,7 +7834,7 @@
             font-stretch: normal;
             font-size: 72.2196px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7855,7 +7855,7 @@
             font-stretch: normal;
             font-size: 72.2196px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7887,7 +7887,7 @@
           font-stretch: normal;
           font-size: 75.1255px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -7915,7 +7915,7 @@
             font-stretch: normal;
             font-size: 75.1255px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -7936,7 +7936,7 @@
             font-stretch: normal;
             font-size: 75.1255px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8010,7 +8010,7 @@
           font-stretch: normal;
           font-size: 65.196px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8038,7 +8038,7 @@
             font-stretch: normal;
             font-size: 65.196px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8059,7 +8059,7 @@
             font-stretch: normal;
             font-size: 65.196px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8091,7 +8091,7 @@
           font-stretch: normal;
           font-size: 70.1235px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8119,7 +8119,7 @@
             font-stretch: normal;
             font-size: 70.1235px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8140,7 +8140,7 @@
             font-stretch: normal;
             font-size: 70.1235px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8158,7 +8158,7 @@
           font-stretch: normal;
           font-size: 73.0837px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8186,7 +8186,7 @@
             font-stretch: normal;
             font-size: 73.0837px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8207,7 +8207,7 @@
             font-stretch: normal;
             font-size: 73.0837px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8225,7 +8225,7 @@
           font-stretch: normal;
           font-size: 69.7998px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8253,7 +8253,7 @@
             font-stretch: normal;
             font-size: 69.7998px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8274,7 +8274,7 @@
             font-stretch: normal;
             font-size: 69.7998px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8382,7 +8382,7 @@
           font-stretch: normal;
           font-size: 99.5296px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8425,7 +8425,7 @@
           font-stretch: normal;
           font-size: 92.8868px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8453,7 +8453,7 @@
             font-stretch: normal;
             font-size: 92.8868px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8502,7 +8502,7 @@
           font-stretch: normal;
           font-size: 92.8705px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8530,7 +8530,7 @@
             font-stretch: normal;
             font-size: 92.8705px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8551,7 +8551,7 @@
             font-stretch: normal;
             font-size: 92.8705px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -8615,7 +8615,7 @@
           font-stretch: normal;
           font-size: 92.0641px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8660,7 +8660,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8677,7 +8677,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13490">G-604 / G-605</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4313">G-604 / G-605</tspan>
       </text>
       <rect
         style="
@@ -8732,7 +8732,7 @@
           font-stretch: normal;
           font-size: 68.9235px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8819,7 +8819,7 @@
           font-stretch: normal;
           font-size: 87.698px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8864,7 +8864,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8881,7 +8881,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13492">G-607 / G-608</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4315">G-607 / G-608</tspan>
       </text>
       <rect
         style="
@@ -8952,7 +8952,7 @@
           font-stretch: normal;
           font-size: 85.6537px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -8997,7 +8997,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9014,7 +9014,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13494">G-601 / G-602</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4317">G-601 / G-602</tspan>
       </text>
       <rect
         style="
@@ -9066,7 +9066,7 @@
           font-stretch: normal;
           font-size: 214.927px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9116,7 +9116,7 @@
           font-stretch: normal;
           font-size: 63.2322px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9145,7 +9145,7 @@
             font-stretch: normal;
             font-size: 63.2322px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -9166,7 +9166,7 @@
             font-stretch: normal;
             font-size: 63.2322px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -9201,7 +9201,7 @@
           font-stretch: normal;
           font-size: 8.74875px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9218,7 +9218,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="743.93683" id="tspan13496">
+        <tspan x="2612.2793" y="743.93683" id="tspan4319">
           Sala de Chillers
         </tspan>
       </text>
@@ -9233,7 +9233,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9250,7 +9250,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13498">Entrada</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4321">Entrada</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -9263,7 +9263,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9280,7 +9280,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2612.2793" y="749.32143" id="tspan13500">Salida</tspan>
+        <tspan x="2612.2793" y="749.32143" id="tspan4323">Salida</tspan>
       </text>
       <rect
         style="
@@ -9309,7 +9309,7 @@
           font-stretch: normal;
           font-size: 15.0862px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9368,7 +9368,7 @@
           font-stretch: normal;
           font-size: 15.0862px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9427,7 +9427,7 @@
           font-stretch: normal;
           font-size: 15.3127px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9486,7 +9486,7 @@
           font-stretch: normal;
           font-size: 15.3843px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9545,7 +9545,7 @@
           font-stretch: normal;
           font-size: 15.763px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Bold';
+          -inkscape-font-specification: &quot;Dubai, Bold&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9754,7 +9754,7 @@
           font-stretch: normal;
           font-size: 98.8454px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, ';
+          -inkscape-font-specification: &quot;sans-serif, &quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9777,7 +9777,7 @@
             font-stretch: normal;
             font-size: 98.8454px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, ';
+            -inkscape-font-specification: &quot;sans-serif, &quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -9799,7 +9799,7 @@
           font-stretch: normal;
           font-size: 91.6348px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9831,7 +9831,7 @@
           font-stretch: normal;
           font-size: 94.8655px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, ';
+          -inkscape-font-specification: &quot;sans-serif, &quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9854,7 +9854,7 @@
             font-stretch: normal;
             font-size: 94.8655px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, ';
+            -inkscape-font-specification: &quot;sans-serif, &quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -9876,7 +9876,7 @@
           font-stretch: normal;
           font-size: 87.9456px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -9912,11 +9912,11 @@
       <text
         xml:space="preserve"
         transform="matrix(5.3117568,0,0,-6.2660185,1981.0162,7533.3956)"
-        id="tanque_agua_fria_carrier_text"
+        id="tanque_agua_fria_carrier_"
         style="
           font-size: 19.2609px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Normal';
+          -inkscape-font-specification: &quot;Dubai, Normal&quot;;
           white-space: pre;
           shape-inside: url(#rect11215-6);
           display: inline;
@@ -9927,9 +9927,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">
-          nnn
-        </tspan>
+        <tspan x="1092.4805" y="279.99218" id="tanque_agua_fria_carrier">nnn</tspan>
       </text>
       <text
         xml:space="preserve"
@@ -9938,7 +9936,7 @@
         style="
           font-size: 19.2609px;
           font-family: Dubai;
-          -inkscape-font-specification: 'Dubai, Normal';
+          -inkscape-font-specification: &quot;Dubai, Normal&quot;;
           white-space: pre;
           shape-inside: url(#rect11215-7-4);
           display: inline;
@@ -9949,7 +9947,7 @@
           stroke-opacity: 1;
         "
       >
-        <tspan x="1092.4805" y="279.99218" id="tspan13514">%</tspan>
+        <tspan x="1092.4805" y="279.99218" id="tspan4338">%</tspan>
       </text>
       <g
         transform="matrix(0.05461935,0,0,0.06162231,6212.747,5442.7047)"
@@ -10521,7 +10519,7 @@
           font-stretch: normal;
           font-size: 94.8655px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, ';
+          -inkscape-font-specification: &quot;sans-serif, &quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10546,7 +10544,7 @@
             font-stretch: normal;
             font-size: 94.8655px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, ';
+            -inkscape-font-specification: &quot;sans-serif, &quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -10572,7 +10570,7 @@
           font-stretch: normal;
           font-size: 87.9456px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10614,7 +10612,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10632,7 +10630,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13516">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4340">Preparación</tspan>
       </text>
       <path
         id="path9664"
@@ -10650,7 +10648,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10668,7 +10666,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13518">G30</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4342">G30</tspan>
       </text>
       <path
         id="path9664-1"
@@ -10691,7 +10689,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10709,7 +10707,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13520">TOYOTA</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4344">TOYOTA</tspan>
       </text>
       <path
         id="path9664-1-1"
@@ -10732,7 +10730,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10750,7 +10748,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13522">EX-8</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4346">EX-8</tspan>
       </text>
       <path
         id="path9664-1-1-6"
@@ -10773,7 +10771,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10791,7 +10789,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13524">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4348">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-1-1"
@@ -10814,7 +10812,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10832,7 +10830,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13526">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4350">Continuas</tspan>
       </text>
       <path
         id="path9664-1-1-8"
@@ -10865,7 +10863,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10883,7 +10881,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13528">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4352">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9"
@@ -10906,7 +10904,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10924,7 +10922,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13530">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4354">Preparación</tspan>
       </text>
       <path
         id="path9664-1-1-0-9-9"
@@ -10947,7 +10945,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -10965,7 +10963,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13532">Open-End</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4356">Open-End</tspan>
       </text>
       <rect
         style="
@@ -11167,7 +11165,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11185,7 +11183,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13534">Bobinaje</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4358">Bobinaje</tspan>
       </text>
       <path
         id="path9664-1-2"
@@ -11229,7 +11227,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11247,7 +11245,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13536">Continuas</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4360">Continuas</tspan>
       </text>
       <path
         id="path9664-1-2-5"
@@ -11291,7 +11289,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11309,7 +11307,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13538">color</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4362">color</tspan>
       </text>
       <path
         id="path9664-1-2-5-4"
@@ -11363,7 +11361,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11381,7 +11379,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13540">Preparación</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4364">Preparación</tspan>
       </text>
       <rect
         style="
@@ -11415,7 +11413,7 @@
           font-stretch: normal;
           font-size: 10.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11433,7 +11431,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="870.44922" y="896.4163" id="tspan13542">Clima</tspan>
+        <tspan x="870.44922" y="896.4163" id="tspan4366">Clima</tspan>
       </text>
       <path
         id="path9664-1-1-3"
@@ -11509,7 +11507,7 @@
           font-stretch: normal;
           font-size: 76.2457px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11555,7 +11553,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11572,7 +11570,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13544">G-334 / G-335</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4368">G-334 / G-335</tspan>
       </text>
       <rect
         style="
@@ -11647,7 +11645,7 @@
           font-stretch: normal;
           font-size: 76.9021px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11693,7 +11691,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11710,7 +11708,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13546">G-334 / G-335</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4370">G-334 / G-335</tspan>
       </text>
       <rect
         style="
@@ -11785,7 +11783,7 @@
           font-stretch: normal;
           font-size: 76.5606px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11831,7 +11829,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11848,7 +11846,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13548">G-331 / G-332</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4372">G-331 / G-332</tspan>
       </text>
       <rect
         style="
@@ -11923,7 +11921,7 @@
           font-stretch: normal;
           font-size: 75.6795px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11969,7 +11967,7 @@
           font-stretch: normal;
           font-size: 14.6667px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -11986,7 +11984,7 @@
           paint-order: stroke fill markers;
         "
       >
-        <tspan x="2717.4004" y="966.23744" id="tspan13550">G-331 / G-332</tspan>
+        <tspan x="2717.4004" y="966.23744" id="tspan4374">G-331 / G-332</tspan>
       </text>
       <rect
         style="
@@ -12044,7 +12042,7 @@
           font-stretch: normal;
           font-size: 56.6557px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -12073,7 +12071,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12094,7 +12092,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12144,7 +12142,7 @@
           font-stretch: normal;
           font-size: 56.6557px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -12173,7 +12171,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12194,7 +12192,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12244,7 +12242,7 @@
           font-stretch: normal;
           font-size: 56.6885px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -12273,7 +12271,7 @@
             font-stretch: normal;
             font-size: 56.6885px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12294,7 +12292,7 @@
             font-stretch: normal;
             font-size: 56.6885px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12344,7 +12342,7 @@
           font-stretch: normal;
           font-size: 56.6557px;
           font-family: sans-serif;
-          -inkscape-font-specification: 'sans-serif, Normal';
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
           font-variant-ligatures: normal;
           font-variant-caps: normal;
           font-variant-numeric: normal;
@@ -12373,7 +12371,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12394,7 +12392,7 @@
             font-stretch: normal;
             font-size: 56.6557px;
             font-family: sans-serif;
-            -inkscape-font-specification: 'sans-serif, Normal';
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
             font-variant-ligatures: normal;
             font-variant-caps: normal;
             font-variant-numeric: normal;
@@ -12416,6 +12414,240 @@
         height="62.515511"
         x="2631.7356"
         y="-3405.321"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.437466;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab1_conos_clima_hum_color"
+        width="305.46359"
+        height="68.539642"
+        x="1328.1395"
+        y="5059.3257"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #c1a22b;
+          fill-opacity: 0.939698;
+          stroke: #ffffff;
+          stroke-width: 0.375595;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab1_conos_clima_humAbs_color"
+        width="305.52695"
+        height="50.512836"
+        x="1328.1055"
+        y="5008.7876"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #8f8f9f;
+          fill-opacity: 0.941176;
+          stroke: #ffffff;
+          stroke-width: 0.437466;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        id="fab1_conos_clima_temp_color"
+        width="305.46359"
+        height="68.539642"
+        x="1327.6475"
+        y="5127.4077"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 62.4536px;
+          font-family: sans-serif;
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 3.12758;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="1189.8136"
+        y="-5740.2656"
+        id="climaTconosFab1-0"
+        transform="scale(1.1172631,-0.89504434)"
+      >
+        <tspan
+          id="fab1_conos_clima_temp_text"
+          x="1189.8136"
+          y="-5740.2656"
+          style="stroke-width: 3.12758"
+        >
+          nn°C
+        </tspan>
+        <tspan
+          id="fab1_conos_clima_hum_text"
+          x="1189.8136"
+          y="-5662.1982"
+          style="stroke-width: 3.12758"
+        >
+          nn% H.r
+        </tspan>
+      </text>
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 44.4184px;
+          font-family: sans-serif;
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #fefefb;
+          fill-opacity: 1;
+          stroke: #0a210a;
+          stroke-width: 1.03016;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        x="1219.5197"
+        y="-5640.9634"
+        id="conosTextFab1-6"
+        transform="scale(1.0835084,-0.92292778)"
+      >
+        <tspan id="tspan1276">Fábrica Conos</tspan>
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab1_conos_clima_hum_g"
+        width="304.94193"
+        height="66.859215"
+        x="1328.3945"
+        y="-5126.8755"
+        transform="scale(1,-1)"
+      />
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab1_conos_clima_temp_g"
+        width="304.94193"
+        height="67.348305"
+        x="1327.8793"
+        y="-5195.7344"
+        transform="scale(1,-1)"
+      />
+      <text
+        xml:space="preserve"
+        style="
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 44.676px;
+          font-family: sans-serif;
+          -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          display: inline;
+          fill: #f9f9f9;
+          fill-opacity: 1;
+          stroke: #05246f;
+          stroke-width: 2.85497;
+          stroke-linejoin: bevel;
+          paint-order: stroke fill markers;
+        "
+        x="1035.5292"
+        y="-6624.0605"
+        id="fab1_conos_clima_humAbs_text"
+        transform="scale(1.3191875,-0.75804235)"
+      >
+        <tspan
+          id="climaETpeiFab3-5-6-1-6-4-3"
+          x="1035.5292"
+          y="-6624.0605"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 44.676px;
+            font-family: sans-serif;
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 2.85497;
+          "
+        >
+          nn g/kg
+        </tspan>
+        <tspan
+          x="1035.5292"
+          y="-6568.2148"
+          id="humPeiFab3-9-3-9-9-5-5-2"
+          style="
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-stretch: normal;
+            font-size: 44.676px;
+            font-family: sans-serif;
+            -inkscape-font-specification: &quot;sans-serif, Normal&quot;;
+            font-variant-ligatures: normal;
+            font-variant-caps: normal;
+            font-variant-numeric: normal;
+            font-variant-east-asian: normal;
+            stroke-width: 2.85497;
+          "
+        />
+      </text>
+      <rect
+        style="
+          display: inline;
+          fill: #53e2ff;
+          fill-opacity: 0.0595238;
+          stroke: #49cdf7;
+          stroke-width: 0;
+        "
+        id="fab1_conos_clima_humAbs_g"
+        width="305.00522"
+        height="49.634834"
+        x="1328.3108"
+        y="-5058.6182"
         transform="scale(1,-1)"
       />
     </g>

@@ -771,7 +771,7 @@
       "
       x="36.223595"
       y="253.21999"
-      id="fab4_vv427_compresor_text"
+      id="fab1_vv122_compresor_text"
       transform="matrix(1.3606598,-0.00584253,0.01904657,0.73485578,0,0)"
     >
       <tspan
@@ -780,7 +780,7 @@
         y="253.21999"
         style="stroke-width: 0.00657745"
       >
-        VV427
+        VV122
       </tspan>
     </text>
     <path
@@ -816,7 +816,7 @@
     />
     <g
       transform="matrix(0.20472791,0.00169352,0.00200246,-0.18245967,49.066042,182.11857)"
-      id="fab4_vv427_compresor_secador_integrado"
+      id="fab1_vv122_compresor_secador_integrado"
       style="
         fill: #333333;
         fill-opacity: 0.278177;
@@ -833,7 +833,7 @@
     </g>
     <g
       transform="matrix(2.5565058e-5,0.16068319,0.17183397,-2.067636e-5,70.828749,168.48253)"
-      id="fab4_vv427_compresor_icon"
+      id="fab1_vv122_compresor_icon"
       style="
         fill: #333333;
         fill-opacity: 0.0791367;
@@ -882,7 +882,7 @@
         stroke-dasharray: none;
         paint-order: markers fill stroke;
       "
-      id="fab4_vv427_compresor"
+      id="fab1_vv122_compresor"
       cx="174.94836"
       cy="77.783783"
       rx="6.6348772"

@@ -35,7 +35,7 @@ watch(
         //console.log(newSesion);
         if (newSesion !== null) {
             const rol = newSesion.rol;
-            show.value = (rol === 'SUPER_USER' || rol === 'JEFE_PRODUCCION');
+            show.value = (rol === 'SUPER_USER' || rol === 'JEFE_PRODUCCION' || rol === 'POLIFUNCIONAL' || rol === 'PLANNER');
             //console.log('show: ',show.value);
         } else {
             show.value = false;
