@@ -57,6 +57,12 @@ const routes = [
     name: 'serial',
     component: () => import('@/views/Serial.vue'),
     meta: { requiresAuth: true }
+  },
+  {
+    path: '/montacargas',
+    name: 'montacargas',
+    component: () => import('@/views/MapaMontacargas.vue'),
+    meta: { requiresAuth: true }
   }
 ]
 

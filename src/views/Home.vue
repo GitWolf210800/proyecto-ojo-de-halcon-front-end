@@ -3,22 +3,54 @@
 
     <nav>
       <div class="navegacion">
-        <span class="version">Ojo de Halcón V4.0.7</span>
+        <span class="version">Ojo de Halcón V4.1</span>
         <ButtonLog />
       </div>
     </nav>
 
-    <div class="menu">
-      <RouterLink to="/clima">
-        <ClimaFabrica class="botones" />
+    <div class="menu" aria-label="Módulos de Ojo de Halcón">
+      <RouterLink class="modulo-link" to="/clima" aria-label="Abrir módulo de Clima">
+        <ModuloFabricaCard
+          titulo="Clima"
+          icono="temperature-half"
+          variante="clima"
+        />
       </RouterLink>
 
-      <RouterLink to="/mantenimiento">
-        <MantenimientoFabrica class="botones" />
+      <RouterLink
+        class="modulo-link"
+        to="/mantenimiento"
+        aria-label="Abrir módulo de Mantenimiento"
+      >
+        <ModuloFabricaCard
+          titulo="Mantenimiento"
+          icono="screwdriver-wrench"
+          variante="mantenimiento"
+        />
       </RouterLink>
 
-      <RouterLink to="/produccion">
-        <ProduccionFabrica class="botones" />
+      <RouterLink
+        class="modulo-link"
+        to="/produccion"
+        aria-label="Abrir módulo de Producción"
+      >
+        <ModuloFabricaCard
+          titulo="Producción"
+          icono="industry"
+          variante="produccion"
+        />
+      </RouterLink>
+
+      <RouterLink
+        class="modulo-link"
+        to="/montacargas"
+        aria-label="Abrir módulo de Montacargas"
+      >
+        <ModuloFabricaCard
+          titulo="Montacargas"
+          icono="truck-moving"
+          variante="montacargas"
+        />
       </RouterLink>
     </div>
 
@@ -34,9 +66,7 @@
   //import { RouterLink } from 'vue-router';
   import ButtonLog from '@/components/componentesVue/ButtonLog.vue';
   import IconoOjodeHalcon from '@/components/icons/IconoOjodeHalcon.vue';
-  import ClimaFabrica from '@/components/icons/ClimaFabrica.vue';
-  import MantenimientoFabrica from '@/components/icons/MantenimientoFabrica.vue';
-  import ProduccionFabrica from '@/components/icons/ProduccionFabrica.vue';
+  import ModuloFabricaCard from '@/components/icons/ModuloFabricaCard.vue';
 
   document.title = 'Ojo de Halcón - Home';
 
@@ -63,47 +93,29 @@
   padding: 5px;
 }
 
-.botones {
-  width: 70%;
-  max-width: 220px;
-  aspect-ratio: 1 / 1;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* 🔥 esto es la clave */
-.botones > * {
-  width: 100% !important;
-  height: 100% !important;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* forzar contenido interno */
-.botones svg,
-.botones img {
-  width: 90% !important;
-  height: 90% !important;
-}
-
 /* MENU */
 .menu {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 170px));
+  place-content: center;
+  gap: 22px;
+  width: min(100%, 820px);
+  margin: 0 auto;
+  padding: 90px 24px 24px;
+  box-sizing: border-box;
 }
 
-/* BOTONES */
-.botones {
-  width: 120px;
-  height: auto;
+.modulo-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 18px;
+}
+
+.modulo-link:focus-visible {
+  outline: 3px solid rgba(125, 211, 252, 0.85);
+  outline-offset: 5px;
 }
 
 /* LOGO */
@@ -113,23 +125,29 @@
   margin: 20px 0;
 }
 
-/* 📱 MOBILE */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .navegacion {
     flex-direction: column;
     align-items: center;
   }
 
   .menu {
-    flex-direction: column;
-    gap: 25px;
+    grid-template-columns: repeat(2, minmax(130px, 165px));
+    gap: 18px;
+    padding-top: 105px;
   }
 
-  .botones {
-    width: 100px;
+  .logo {
+    display: none;
+  }
 }
-.logo {
-  display: none;
-}
+
+@media (max-width: 390px) {
+  .menu {
+    grid-template-columns: minmax(145px, 180px);
+    justify-content: center;
+    overflow-y: auto;
+    padding-bottom: 32px;
+  }
 }
 </style>
