@@ -19,3 +19,24 @@
 - Las pruebas deben utilizar mocks, datos de prueba o entornos aislados, respetando las restricciones de acceso a sistemas reales.
 - Para auditorías de solo lectura, no ejecutar builds ni comandos que escriban.
 - Informar archivos modificados, validación realizada y limitaciones.
+
+## Node-RED productivo: acceso exclusivamente de lectura
+
+- La carpeta secundaria `.node-red` adjunta al proyecto corresponde al runtime
+  productivo de Node-RED.
+- Puede inspeccionarse para comprender los flujos, subflows, nodos Function,
+  contratos HTTP, tópicos MQTT, consultas SQL y relaciones con Vue y Express.
+- La carpeta .node-red debe tratarse estrictamente como de solo lectura.
+- Nunca crear, modificar, renombrar, mover ni eliminar archivos dentro de ella.
+- Nunca iniciar, detener, reiniciar ni desplegar Node-RED.
+- Nunca ejecutar node-red, npm install, npm update ni scripts dentro de esa
+  carpeta.
+- Nunca contactar localhost:1880, bases de datos, brokers MQTT, PLC,
+  ESP8266, ESP32 ni otros equipos o servicios industriales.
+- No abrir, copiar, mostrar ni registrar flows_cred.json, .env, sesiones,
+  certificados, claves, contraseñas o tokens.
+- No inicializar Git ni crear commits dentro de .node-red.
+- Toda mejora debe entregarse en el chat como explicación, código o pasos
+  revisables.
+- El usuario aplicará y desplegará manualmente cualquier modificación desde
+  el editor de Node-RED.
