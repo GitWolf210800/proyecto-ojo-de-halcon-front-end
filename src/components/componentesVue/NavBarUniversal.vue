@@ -8,6 +8,16 @@
 
     <Settings />
     <CardaUnlock />
+    <button v-if="route.name === 'produccion'" type="button" class="history-button botones__navegacion" aria-label="Historial de desbloqueos" title="Historial de desbloqueos" @click="historyOpen = true">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 29V18a11 11 0 0 1 22 0" />
+        <rect x="9" y="29" width="32" height="27" rx="4" />
+        <path d="M24 40v6" />
+        <circle cx="46" cy="22" r="14" fill="#282c34" />
+        <path d="M46 13v9l6 4" />
+      </svg>
+    </button>
+    <UnlockHistoryModal v-if="historyOpen && route.name === 'produccion'" @close="historyOpen = false" />
     <CalibracionClima />
     <LimitesFiltros />
     <EstadoCompresor />
@@ -17,6 +27,12 @@
 </template>
 
 <script setup>
+import { ref, watch } from 'vue';
+import { useRoute } from 'vue-router';
+import UnlockHistoryModal from './UnlockHistoryModal.vue';
+const route = useRoute();
+const historyOpen = ref(false);
+watch(() => route.name, () => { historyOpen.value = false; });
 import Settings from './Settings.vue';
 import CardaUnlock from './CardaUnlock.vue';
 import CalibracionClima from '@/components/componentesVue/CalibracionClima.vue';
@@ -28,6 +44,20 @@ import ClimaExterior from '@/components/componentesVue/ClimaExterior.vue';
 </script>
 
 <style scoped>
+.history-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.history-button svg { width: 100%; height: 100%; }
+.history-button:hover { opacity: 0.8; }
+.history-button:focus-visible { outline: 2px solid #bcbcbc; outline-offset: 2px; }
 .navbar {
   display: flex;
   justify-content: space-between;
