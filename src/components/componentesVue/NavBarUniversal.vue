@@ -18,6 +18,13 @@
       </svg>
     </button>
     <UnlockHistoryModal v-if="historyOpen && route.name === 'produccion'" @close="historyOpen = false" />
+    <button v-if="route.name === 'clima'" type="button" class="history-button botones__navegacion" aria-label="Históricos" title="Históricos" @click="climateOpen = true">
+      <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="5" y="9" width="38" height="34" rx="4" />
+        <path d="M5 18h38M15 5v9M33 5v9M11 35l8-9 7 5 10-9" />
+      </svg>
+    </button>
+    <HistoriesModal v-if="climateOpen && route.name === 'clima'" @close="climateOpen = false" />
     <CalibracionClima />
     <LimitesFiltros />
     <EstadoCompresor />
@@ -27,10 +34,13 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import { defineAsyncComponent, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import UnlockHistoryModal from './UnlockHistoryModal.vue';
 const route = useRoute();
+const HistoriesModal = defineAsyncComponent(() => import('./HistoriesModal.vue'));
+const climateOpen = ref(false);
+watch(() => route.name, () => { climateOpen.value = false; });
 const historyOpen = ref(false);
 watch(() => route.name, () => { historyOpen.value = false; });
 import Settings from './Settings.vue';
