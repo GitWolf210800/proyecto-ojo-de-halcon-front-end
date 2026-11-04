@@ -56,4 +56,8 @@
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/tuusuario/ojoDeHalcon.git
+   ```
 
+## Históricos de clima
+
+La selección global conserva el orden de incorporación y admite hasta 100 sensores únicos. Fábrica (`fabrica`) y sector (`id_fabrica`) sirven para explorar el catálogo y agregar o quitar grupos. Cada consulta envía `alcance: "seleccion"`, `id_instalaciones`, `desde` y `hasta`, incluso para un único sensor. El gráfico, el resumen y el Excel usan la respuesta de esa consulta aunque después cambie el formulario.
