@@ -5,10 +5,14 @@
         <svg class="mark" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <rect x="5" y="9" width="38" height="34" rx="4"/><path d="M5 18h38M15 5v9M33 5v9M11 35l8-9 7 5 10-9"/>
         </svg>
-        <div><div class="title"><h2 id="histories-title">Históricos</h2><span>Clima</span></div><p>Consulta y análisis de mediciones</p></div>
+        <div><div class="title"><h2 id="histories-title">Históricos</h2><span>{{ section === 'clima' ? 'Clima' : 'Filtros' }}</span></div><p>Consulta y análisis de mediciones</p></div>
         <button autofocus aria-label="Cerrar" title="Cerrar" @click="emit('close')"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
       </header>
-      <div class="history-body"><ClimateHistoryPanel /></div>
+      <div class="history-sections" role="group" aria-label="Tipo de histórico">
+        <button type="button" :aria-pressed="section === 'clima'" @click="section = 'clima'">Clima</button>
+        <button type="button" :aria-pressed="section === 'filtros'" @click="section = 'filtros'">Filtros</button>
+      </div>
+      <div class="history-body"><ClimateHistoryPanel v-if="section === 'clima'" /><FilterHistoryPanel v-else /></div>
     </dialog>
   </Teleport>
 </template>
@@ -16,6 +20,9 @@
 <script setup>
 import { onMounted, onBeforeUnmount, ref } from 'vue';
 import ClimateHistoryPanel from './ClimateHistoryPanel.vue';
+import FilterHistoryPanel from './FilterHistoryPanel.vue';
+const props = defineProps({ initialSection: { type: String, default: 'clima' } });
+const section = ref(props.initialSection === 'filtros' ? 'filtros' : 'clima');
 const emit = defineEmits(['close']);
 const dialog = ref(null);
 let previousFocus, previousOverflow;
@@ -52,6 +59,8 @@ header {display:flex; align-items:center; gap:14px; flex:none; padding:14px clam
 h2 {margin:0; font-size:1.45rem} .title span {font-size:.75rem; font-weight:650; border:1px solid var(--history-border); border-radius:20px; padding:1px 9px; color:var(--history-accent)}
 p {margin:0; color:var(--history-muted); font-size:.85rem}
 .history-body {min-height:0; overflow:auto; touch-action:pan-x pan-y; overscroll-behavior:contain; scrollbar-color:var(--history-border) transparent; padding:clamp(12px,2vw,24px)}
+.history-sections {display:flex;gap:8px;padding:10px 14px;flex:none;border-bottom:1px solid var(--history-border)}
+.history-sections button[aria-pressed=true] {background:var(--history-primary);border-color:var(--history-accent)}
 header button {margin-left:auto; width:38px; height:38px; display:grid; place-items:center}
 header button svg {width:18px; fill:none; stroke:currentColor; stroke-width:2}
 dialog :deep(*) {box-sizing:border-box}
